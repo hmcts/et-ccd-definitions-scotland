@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseType",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseType",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_title1",
+    "EventElementLabel": "Title",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  }
+]

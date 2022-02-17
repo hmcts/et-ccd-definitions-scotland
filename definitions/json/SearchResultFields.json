@@ -1,0 +1,62 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "ethosCaseReference",
+    "Label": "Case Number",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimant",
+    "Label": "Claimant",
+    "DisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "respondent",
+    "Label": "Respondent",
+    "DisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "positionType",
+    "Label": "Current Position",
+    "DisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "multipleReference",
+    "Label": "Multiple Reference",
+    "DisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "leadClaimant",
+    "Label": "Lead Claimant",
+    "DisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseFieldID": "documentName",
+    "Label": "Document Name",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseFieldID": "listingVenue",
+    "Label": "Managing Office",
+    "DisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseFieldID": "multipleName",
+    "Label": "Multiple Name",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseFieldID": "multipleReference",
+    "Label": "Multiple Reference",
+    "DisplayOrder": 2
+  }
+]

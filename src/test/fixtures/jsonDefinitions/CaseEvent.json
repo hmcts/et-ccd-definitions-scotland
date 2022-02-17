@@ -1,0 +1,26 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initiateCase",
+    "Name": "Create Case",
+    "Description": "Create a new case",
+    "DisplayOrder": 1,
+    "PostConditionState": "Submitted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF}/preDefaultValues",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/postDefaultValues",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "preAcceptanceCase",
+    "Name": "Accept/Reject Case",
+    "Description": "Accept/Reject Case",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "Submitted",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "EventEnablingCondition": "caseType !=\"Multiple\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  }
+]
