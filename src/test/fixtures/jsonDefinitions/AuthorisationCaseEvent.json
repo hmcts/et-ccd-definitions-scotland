@@ -1,0 +1,38 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "initiateCase",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "initiateCase",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "initiateCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "preAcceptanceCase",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "preAcceptanceCase",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "preAcceptanceCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  }
+]

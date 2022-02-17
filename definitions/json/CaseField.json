@@ -1,0 +1,1507 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalCorrespondenceAddress",
+    "Label": "Correspondence Address",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalCorrespondenceTelephone",
+    "Label": "Correspondence Telephone",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalCorrespondenceFax",
+    "Label": "Correspondence Fax",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalCorrespondenceDX",
+    "Label": "Correspondence DX",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalCorrespondenceEmail",
+    "Label": "Correspondence Email",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ethosCaseReference",
+    "Label": "Case Number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseType",
+    "Label": "Single or Multiple",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_CaseType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleFlag",
+    "Label": "check multiple",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleReference",
+    "Label": "Multiple reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleReferenceLinkMarkUp",
+    "Label": "Go to:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleReferenceLinkLabel",
+    "Label": "<h3> Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "leadClaimant",
+    "Label": "Lead claimant",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "subMultipleName ",
+    "Label": "Submultiple Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "receiptDate",
+    "Label": "Date of Receipt",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "feeGroupReference",
+    "Label": "Submission Reference",
+    "HintText": "Submission Reference (12 digit number)",
+    "FieldType": "Text",
+    "RegularExpression": "[0-9]{12}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "positionType",
+    "Label": "Current Position",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Position",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseNotes",
+    "Label": "Case Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "conciliationTrack",
+    "Label": "Conciliation Track",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Conciliation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "preAcceptCase",
+    "Label": " ",
+    "FieldType": "acceptOrRejectCase",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "clerkResponsible",
+    "Label": "Clerk Responsible",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "documentCollection",
+    "Label": "Case documentation",
+    "HintText": "Upload documentation for the case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "additionalCaseInfo",
+    "Label": "Additional information",
+    "HintText": "Additional case information",
+    "FieldType": "AdditionalCaseDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimant_TypeOfClaimant",
+    "Label": "Type of claimant",
+    "HintText": "Is the claimant an individual or a company?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ClaimantType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimant_Company ",
+    "Label": "Company",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantIndType",
+    "Label": "Claimant  Details",
+    "FieldType": "ClaimantIndividual",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantType",
+    "Label": " ",
+    "FieldType": "ClaimantCorrespondence",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantOtherType",
+    "Label": "Other details",
+    "FieldType": "EmploymentDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkAddressQuestion",
+    "Label": "Is this the same as the claimant's work address?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkAddressQRespondent",
+    "Label": "Please select the Respondent whose address should be used",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkAddress",
+    "Label": " ",
+    "HintText": "If the claimant has worked at a different address to the Respondent Address, please give the full address",
+    "FieldType": "WorkAddressDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "companyPremises",
+    "Label": "Premises",
+    "FieldType": "CompanyPremises",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepresentedQuestion",
+    "Label": "Is the Claimant Represented?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativeClaimantType",
+    "Label": "Claimant Representative Details",
+    "FieldType": "ClaimantRepresentative",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentCollection",
+    "Label": "Respondents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Respondent",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "repCollection",
+    "Label": "Respondent Representative(s)",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "RespondentRepresentative",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jurCodesCollection",
+    "Label": "Jurisdiction",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Jurisdiction",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingCollection",
+    "Label": " ",
+    "HintText": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Hearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "judgementCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Judgment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "depositType",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Deposit",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bfActions",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "BFActions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "restrictedReporting",
+    "Label": "Restricted Case",
+    "FieldType": "RestrictedCase",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseHistory",
+    "Label": "History",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseSource",
+    "Label": "Source",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "caseSourceList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "targetHearingDate",
+    "Label": "Target Hearing Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimServedDate",
+    "Label": "Claim Served Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "printHearingDetails",
+    "Label": "Hearing List",
+    "FieldType": "ListingType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "printHearingCollection",
+    "Label": "Hearing List",
+    "FieldType": "ListingType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "docMarkUp",
+    "Label": "Doc MarkUp",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addressLabelsSelectionType",
+    "Label": "Address labels selection",
+    "FieldType": "addressLabelsSelection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addressLabelCollection",
+    "Label": "Address labels",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "addressLabel",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addressLabelsAttributesType",
+    "Label": "Address labels attributes",
+    "FieldType": "addressLabelsAttributes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "eccCases",
+    "Label": "Employer Contract Claim cases",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CounterClaim",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "counterClaim",
+    "Label": "Employer Contract Claim case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseRefECC",
+    "Label": "Enter the Case Number that this ECC relates to",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentECC",
+    "Label": "Which respondent is raising the Employer Contract Claim?",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ccdID",
+    "Label": "Employer Contract Claim",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseRefNumberCount",
+    "Label": "Case Ref Number Count",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "startCaseRefNumber",
+    "Label": "Start Case Ref Number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleRefNumber",
+    "Label": "Multiple Ref Number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimant",
+    "Label": "Claimant",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondent",
+    "Label": "Respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagsImageFileName",
+    "Label": "Flags Image File Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagsImageAltText",
+    "Label": "Flags Image Alt Text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "currentPosition",
+    "Label": "Current Position",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "dateToPosition",
+    "Label": "Date To Position",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "state",
+    "Label": "state",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "stateAPI",
+    "Label": "state",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagsImagePlaceHolder",
+    "Label": "<h2>${flagsImageAltText}</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseStateDesc",
+    "Label": "#### Case Status:  ${[STATE]} ",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "correspondenceScotType",
+    "Label": "List of correspondence items",
+    "FieldType": "Letters",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "managingOffice",
+    "Label": "Managing Office",
+    "HintText": "Location of the physical case file",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "VenueScotland",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocatedOffice",
+    "Label": "Allocated Office",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "VenueScotland",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "fileLocationGlasgow",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "fileLocationAberdeen",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "fileLocationDundee",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "fileLocationEdinburgh",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "officeCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "reasonForCT",
+    "Label": "Reason for Case Transfer",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "relatedCaseCT",
+    "Label": "Link to related case",
+    "FieldType": "CaseLink",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "positionTypeCT",
+    "Label": "Current Position",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_PositionCT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "linkedCaseCT",
+    "Label": "Link to related case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "linkedCaseCTLabel",
+    "Label": "Case Transfer: ${linkedCaseCT}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingHearing",
+    "Label": "Select Hearing",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingManagingOffice",
+    "Label": "Managing Office",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "VenueScotland",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingVenue",
+    "Label": "Select Hearing Venue",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingRoom",
+    "Label": "Select Room",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingClerk",
+    "Label": "Select Clerk",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingSitAlone",
+    "Label": "Sit Alone or Full Panel",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_SitAlone",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingJudge",
+    "Label": "Employment Judge",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingEmployerMember",
+    "Label": "Employer Member",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingEmployeeMember",
+    "Label": "EmployeeMember",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingPostponedBy",
+    "Label": "Postponed by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_PostponedBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingStatus",
+    "Label": "Hearing Status",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_HearingStatus",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingReadingDeliberation",
+    "Label": "Reading Day, Deliberation Day or Members Meeting?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_HearingReadingDelib",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsHearing",
+    "Label": "Select Hearing",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsStatus",
+    "Label": "Hearing Status",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_HearingStatus",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsPostponedBy",
+    "Label": "Postponed by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_PostponedBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsCaseDisposed",
+    "Label": "Has the case been disposed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsPartHeard",
+    "Label": "Has the hearing been part heard?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsReservedJudgment",
+    "Label": "Is there a reserved Judgment?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsAttendeeClaimant",
+    "Label": "Attendees (Claimant)",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Attendee",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsAttendeeNonAttendees",
+    "Label": "Number of Non Attendees (Respondent) ",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsAttendeeRespNoRep",
+    "Label": "Respondent Attended - No Representative",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsAttendeeRespAndRep",
+    "Label": "Respondent and Representative Attended",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsAttendeeRepOnly",
+    "Label": "Respondent representative only attended",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsTimingStart",
+    "Label": "Start Time",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsTimingBreak",
+    "Label": "Break",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsTimingResume",
+    "Label": "Resume",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsTimingFinish",
+    "Label": "Finish",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsTimingDuration",
+    "Label": "Duration",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsHearingNotes2",
+    "Label": "Hearing Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "hearingDateType",
+    "Label": "Single or Range",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_HearingDateType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingDate",
+    "Label": "Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingDateFrom",
+    "Label": "From",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingDateTo",
+    "Label": "To",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingVenue",
+    "Label": "Managing Office",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "VenueScotlandAll",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "showAll",
+    "Label": "Show all cases?",
+    "HintText": "Includes Settled, Withdrawn and Postponed",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingCollection",
+    "Label": "Daily Cause List",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ListingItemType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingLabel",
+    "Label": "List for ${listingDate}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingLabelRange",
+    "Label": "List for ${listingDateFrom} to ${listingDateTo}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingVenueOfficeGlas",
+    "Label": "Hearing Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "listingVenueOfficeAber",
+    "Label": "Hearing Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "venueGlasgow",
+    "Label": "Hearing Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "venueAberdeen",
+    "Label": "Hearing Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "venueDundee",
+    "Label": "Hearing Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "venueEdinburgh",
+    "Label": "Hearing Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "hearingDocType",
+    "Label": "Hearing Document",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_HearingDocType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "hearingDocETCL",
+    "Label": "Type",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_HearingDocETCL",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "tribunalCorrespondenceAddress",
+    "Label": "Correspondence Address",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "tribunalCorrespondenceTelephone",
+    "Label": "Correspondence Telephone",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "tribunalCorrespondenceFax",
+    "Label": "Correspondence Fax",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "tribunalCorrespondenceDX",
+    "Label": "Correspondence DX",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "tribunalCorrespondenceEmail",
+    "Label": "Correspondence Email",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "roomOrNoRoom",
+    "Label": "Split by room",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "docMarkUp ",
+    "Label": "Doc MarkUp",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "bfDateCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "bfReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "clerkResponsible",
+    "Label": "Clerk",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "reportDate",
+    "Label": "Enter today's date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "reportType",
+    "Label": "Type",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_reportCaseType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "documentName",
+    "Label": "Document Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "localReportsSummaryHdr",
+    "Label": " ",
+    "FieldType": "adhocReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "localReportsSummary",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "adhocReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "localReportsSummaryHdr2",
+    "Label": " ",
+    "FieldType": "adhocReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "localReportsSummary2",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "adhocReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "localReportsDetailHdr",
+    "Label": " ",
+    "FieldType": "adhocReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "localReportsDetail",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "adhocReport",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "managingOffice",
+    "Label": "Managing Office",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "VenueScotland",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "fileLocationGlasgow",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "fileLocationAberdeen",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "fileLocationDundee",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "fileLocationEdinburgh",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseIdCollection",
+    "Label": "Case Numbers",
+    "HintText": "The first case will be assigned as the lead for this multiple",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multipleName",
+    "Label": "Multiple Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multipleReference",
+    "Label": "Multiple reference",
+    "HintText": "Assign a multiple reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "state",
+    "Label": "state is $[STATE]",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multipleSource",
+    "Label": "Source",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "caseSourceList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseImporterFile",
+    "Label": "Selection Criteria",
+    "FieldType": "importerFileUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "customHistoryViewer",
+    "Label": "My history",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "scheduleDocName",
+    "Label": "Select schedule to print",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_scheduleDoc",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "docMarkUp ",
+    "Label": "Doc MarkUp",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "subMultiple",
+    "Label": "Submultiple Name",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "flag1",
+    "Label": "Flag 1",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "flag2",
+    "Label": "Flag 2",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "flag3",
+    "Label": "Flag 3",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "flag4",
+    "Label": "Flag 4",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateType",
+    "Label": "Batch Update",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_batchUpdate",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateCase",
+    "Label": "Case Number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateClaimantRep",
+    "Label": "Claimant Representative Name",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchRemoveClaimantRep",
+    "Label": "Do you wish to remove or add the representative from all the filtered cases ? (Yes = Remove, No = Add)",
+    "HintText": "If the representative is to be removed then it is also removed from the case driving the batch update",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateJurisdiction",
+    "Label": "Jurisdiction",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateRespondent",
+    "Label": "Respondent",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateJudgment",
+    "Label": "Judgment",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchUpdateRespondentRep",
+    "Label": "Respondent Representative",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchRemoveRespondentRep",
+    "Label": "Do you wish to remove or add the representative from all the filtered cases ? (Yes = Remove, No = Add)",
+    "HintText": "If the representative is to be removed then it is also removed from the case driving the batch update",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "positionType",
+    "Label": "Current Position",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Position",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "hearingStageEQP",
+    "Label": "EQP Stage Hearing",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Stage",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "receiptDate",
+    "Label": "Date of Receipt",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "clerkResponsible",
+    "Label": "Clerk Responsible",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchMoveCases",
+    "Label": " ",
+    "FieldType": "moveCases",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "subMultipleCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "subMultipleType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "subMultipleAction",
+    "Label": " ",
+    "FieldType": "subMultipleActionType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "stateLabel",
+    "Label": "#### Case Status:  ${[STATE]} ",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "leadCase",
+    "Label": "Lead Case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "leadCaseLabel",
+    "Label": "Lead Case: ${leadCase}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseMultipleCollection",
+    "Label": "Multiple Information",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "multipleMigrationData",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseCounter",
+    "Label": "Case Ref Number Count",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseCounterLabel",
+    "Label": "Number of cases: ${caseCounter}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "preAcceptDone",
+    "Label": "preAccept system field",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "correspondenceScotType",
+    "Label": "List of correspondence items",
+    "FieldType": "LettersMultiples",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "addressLabelsSelectionTypeMSL",
+    "Label": "Select the labels you wish to print",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_SelectLabels",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "addressLabelsAttributesType",
+    "Label": "Address labels attributes",
+    "FieldType": "addressLabelsAttributes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "typeOfAmendment",
+    "Label": "Select the amendments you wish to make:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "multiplesAmendment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "newLeadCase",
+    "Label": "New lead case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "addCasesLabel",
+    "Label": "**Press Continue to add cases to this Multiple on the next page**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "preAcceptMultiple",
+    "Label": "Accept/Reject",
+    "FieldType": "acceptOrRejectCase",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "notes",
+    "Label": "Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "positionLabel",
+    "Label": "The position will be set to: **Case closed**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "officeMultipleCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "reasonForCT",
+    "Label": "Reason for Case Transfer",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "linkedMultipleCTLabel",
+    "Label": "Multiple Transfer: ${linkedMultipleCT}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "linkedMultipleCT",
+    "Label": "Link to related multiple",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "positionTypeCT",
+    "Label": "Current Position",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_PositionCT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "bulkAddSingleCasesImportFile",
+    "Label": "Select import file",
+    "FieldType": "importerFileUpload",
+    "SecurityClassification": "Public"
+  }
+]

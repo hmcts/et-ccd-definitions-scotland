@@ -1,0 +1,129 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "ethosCaseReference",
+    "Label": "Case Number",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "feeGroupReference",
+    "Label": "Submission Reference",
+    "DisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_last_name",
+    "Label": "Claimant Surname",
+    "DisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_first_names",
+    "Label": "Claimant First Name",
+    "DisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimant_Company ",
+    "Label": "Claimant Company Name",
+    "DisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "respondent",
+    "Label": "Respondent",
+    "DisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "multipleReference",
+    "Label": "Multiple Reference",
+    "DisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "subMultipleName",
+    "Label": "Submultiple Reference",
+    "DisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "positionType",
+    "Label": "Current Position",
+    "DisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "managingOffice",
+    "Label": "Managing Office",
+    "DisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "fileLocationGlasgow",
+    "Label": "Physical Location - Glasgow",
+    "DisplayOrder": 11,
+    "FieldShowCondition": "managingOffice = \"Glasgow\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "fileLocationAberdeen",
+    "Label": "Physical Location - Aberdeen",
+    "DisplayOrder": 11,
+    "FieldShowCondition": "managingOffice=\"Aberdeen\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "fileLocationDundee",
+    "Label": "Physical Location - Dundee",
+    "DisplayOrder": 11,
+    "FieldShowCondition": "managingOffice=\"Dundee\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "fileLocationEdinburgh",
+    "Label": "Physical Location - Edinburgh",
+    "DisplayOrder": 11,
+    "FieldShowCondition": "managingOffice=\"Edinburgh\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "clerkResponsible",
+    "Label": "Clerk",
+    "DisplayOrder": 12
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantType",
+    "ListElementCode": "claimant_addressUK.PostCode",
+    "Label": "Claimant Postcode",
+    "DisplayOrder": 13
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseFieldID": "documentName",
+    "Label": "Document Name",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseFieldID": "listingVenue",
+    "Label": "Managing Office",
+    "DisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseFieldID": "multipleName",
+    "Label": "Multiple Name",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseFieldID": "multipleReference",
+    "Label": "Multiple Reference",
+    "DisplayOrder": 2
+  }
+]
