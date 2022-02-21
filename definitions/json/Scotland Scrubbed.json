@@ -1571,6 +1571,12 @@
     "DisplayOrder": 12
   },
   {
+    "ID": "fl_reportCaseType",
+    "ListElementCode": "Respondents",
+    "ListElement": "Respondents",
+    "DisplayOrder": 13
+  },
+  {
     "ID": "fl_HearingDateType",
     "ListElementCode": "Single",
     "ListElement": "Single",
