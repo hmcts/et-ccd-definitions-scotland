@@ -20,7 +20,7 @@
     "mocha": "^8.4.0"
   },
   "config": {
-    "local": "host.docker.internal:8081",
+    "local": "http://host.docker.internal:8081",
     "demo": "http://et-cos-demo.service.core-compute-demo.internal",
     "aat": "http://et-cos-aat.service.core-compute-aat.internal",
     "prod": "http://et-cos-prod.service.core-compute-prod.internal"
