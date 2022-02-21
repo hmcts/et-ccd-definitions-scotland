@@ -430,6 +430,7 @@
     "DisplayOrder": 6,
     "PreConditionState(s)": "SubmittedReport",
     "PostConditionState": "SubmittedReport",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF}/initGenerateReport",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/generateReport",
     "CallBackURLSubmittedEvent": "${CCD_DEF}/generateHearingDocumentConfirmation",
     "SecurityClassification": "Public",
