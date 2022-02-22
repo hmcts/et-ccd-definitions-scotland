@@ -6,7 +6,9 @@ Reform Employment Tribunals (RET) configuration definitions for CCD Scotland.
 
 ## Setup
 
-### Pre-requirements 
+### Pre-requirements
+
+Windows users must ensure they use Windows Subsystem for Linux also known as WSL 2 (https://docs.microsoft.com/en-us/windows/wsl/install) for local development. Afterwards install Install nvm, node.js, and npm (https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl).
 
 Install nvm to manage node from https://github.com/nvm-sh/nvm
 
@@ -18,19 +20,9 @@ Run `yarn install && yarn setup` to install the dependencies for both this proje
 
 ## ccd-definition-processor
 
-This repo makes use of https://github.com/hmcts/ccd-definition-processor to generate the excel file. You may have to update this repo if, for example, you need to add a column to the definitions spreadsheet.
+This repo makes use of CCD Definition Processor code duplicated from the main repo (https://github.com/hmcts/ccd-definition-processor) to generate the excel file. You may have to update this repo and the main CD Definition Processor repo if, for example, you need to add a column to the definitions spreadsheet.
 
-Ideally this should be a published NPM package, so that we can include it in package.json but at the moment we include it as a git submodule
-
-A submodule is simply a pointer to a repo and a commit. If you want to reset that repo to the latest upstream master, run
-
-```bash
-yarn reset-ccd-submodule
-```
-
-You need to use this if you have accidentally change this pointer reference to something other than what you intended (you can instead modify the above command to package.json to check out a specific commit/version of that submodule)
-
-It's also important to note that once you update to a new reference (i.e you commit a change to the `ccd-definition-processor` _file_) you need to make sure everyone else runs `yarn setup` again to get the updated reference as well.
+Ideally this should be a published NPM package, so that we can include it in package.json.
 
 ## Features
 
@@ -82,7 +74,7 @@ The following commands are available:
 
 _For all environments_
 
-yarn generate-excel-all to generate excel configs for all environments (Local, Demo, AAT, Prod, Perftest)
+**yarn generate-excel-all** to generate excel configs for all environments (Local, Demo, AAT, Prod, Perftest)
 
 The generated excel files will be in definitions/xlsx.
 
@@ -90,9 +82,9 @@ _For a specific environment_
 
 yarn generate-excel-(local\demo\aat\prod)
 
-For example
+For example:
 
-yarn generate-excel-aat
+**yarn generate-excel-aat**
 
 ###  Convert Excel to JSON
 
