@@ -26,14 +26,11 @@
     "prod": "http://et-cos-prod.service.core-compute-prod.internal"
   },
   "scripts": {
-    "reset-ccd-submodule": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && yarn --cwd ccd-definition-processor install",
-    "setup": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
     "lint": "eslint src",
     "test": "mocha ./src/test --timeout 20000",
     "lint-fix": "eslint src --fix",
     "json2xlsx": "node ./bin/json2xlsx",
     "xlsx2json": "node ./bin/xlsx2json",
-
     "generate-json": "yarn xlsx2json -D ./definitions/json -i ./definitions/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-excel-local": "ET_ENV=local CCD_DEF=$npm_package_config_local yarn run generate-excel -e *-prod.json",
     "generate-excel-demo": "ET_ENV=demo CCD_DEF=$npm_package_config_demo yarn run generate-excel -e *-prod.json",
