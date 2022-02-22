@@ -19,6 +19,12 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Draft",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment",
     "CRUD": "R"

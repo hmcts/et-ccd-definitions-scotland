@@ -177,7 +177,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midRespondentAddress",
+    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -265,6 +265,270 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "receiptDate",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "feeGroupReference",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "managingOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "stateAPI",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "feeGroupReference=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "caseRefNumberCount",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "feeGroupReference=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "startCaseRefNumber",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "feeGroupReference=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "multipleRefNumber",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "feeGroupReference=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "caseType",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "feeGroupReference=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "multipleReference",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 9,
+    "FieldShowCondition": "caseType=\"Multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "leadClaimant",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "caseType=\"Multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimant_TypeOfClaimant",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimant_Company ",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantIndType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "respondentCollection",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentAddress",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantWorkAddressQuestion",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantWorkAddressQRespondent",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "claimantWorkAddressQuestion=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantWorkAddress",
+    "DisplayContext": "COMPLEX",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "claimantWorkAddressQuestion=\"No\"",
+    "PageShowCondition": "claimant_TypeOfClaimant=\"Individual\" AND claimantWorkAddressQuestion=\"No\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "companyPremises",
+    "DisplayContext": "COMPLEX",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "claimant_TypeOfClaimant=\"Company\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantOtherType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantRepresentedQuestion",
+    "DisplayContext": "MANDATORY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "representativeClaimantType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "claimantRepresentedQuestion=\"Yes\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "preAcceptanceCase",
     "CaseFieldID": "preAcceptCase",
     "DisplayContext": "MANDATORY",
@@ -319,7 +583,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/initialiseAmendCaseDetails",
+    "CallBackURLMidEvent": "${CCD_DEF}/initialiseAmendCaseDetails",
     "PageColumnNumber": 1
   },
   {
@@ -342,7 +606,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/singleCaseMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/singleCaseMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -558,7 +822,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/singleCaseMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/singleCaseMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -912,7 +1176,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/allocatehearing/handleListingSelected",
+    "CallBackURLMidEvent": "${CCD_DEF}/allocatehearing/handleListingSelected",
     "PageColumnNumber": 1
   },
   {
@@ -924,7 +1188,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/allocatehearing/handleManagingOfficeSelected",
+    "CallBackURLMidEvent": "${CCD_DEF}/allocatehearing/handleManagingOfficeSelected",
     "PageColumnNumber": 1
   },
   {
@@ -1016,7 +1280,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/allocatehearing/populateRooms",
+    "CallBackURLMidEvent": "${CCD_DEF}/allocatehearing/populateRooms",
     "PageColumnNumber": 1
   },
   {
@@ -1050,7 +1314,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/hearingdetails/handleListingSelected",
+    "CallBackURLMidEvent": "${CCD_DEF}/hearingdetails/handleListingSelected",
     "PageColumnNumber": 1
   },
   {
@@ -1252,7 +1516,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/judgmentValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/judgmentValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1264,7 +1528,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/jurisdictionValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/jurisdictionValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1287,7 +1551,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midAddressLabels",
+    "CallBackURLMidEvent": "${CCD_DEF}/midAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1300,7 +1564,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceScotType.topLevel_Scot_Documents=\"EM-TRB-LET-ENG-00544\" AND correspondenceScotType.part_0_Scot_Documents=\"0.1\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midAddressLabels",
+    "CallBackURLMidEvent": "${CCD_DEF}/midAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1313,7 +1577,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceScotType.topLevel_Scot_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midSelectedAddressLabels",
+    "CallBackURLMidEvent": "${CCD_DEF}/midSelectedAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1326,7 +1590,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceScotType.topLevel_Scot_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midValidateAddressLabels",
+    "CallBackURLMidEvent": "${CCD_DEF}/midValidateAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1349,7 +1613,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/listingSingleCases",
+    "CallBackURLMidEvent": "${CCD_DEF}/listingSingleCases",
     "PageColumnNumber": 1
   },
   {
@@ -1383,7 +1647,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midRespondentECC",
+    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentECC",
     "PageColumnNumber": 1
   },
   {
@@ -1450,7 +1714,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/aboutToStartDisposal",
+    "CallBackURLMidEvent": "${CCD_DEF}/aboutToStartDisposal",
     "PageColumnNumber": 1
   },
   {
@@ -1728,7 +1992,7 @@
     "FieldShowCondition": "hearingDateType=\"Range\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/listingsDateRangeMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/listingsDateRangeMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1919,7 +2183,7 @@
     "FieldShowCondition": "hearingDateType=\"Range\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/listingsDateRangeMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/listingsDateRangeMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2005,7 +2269,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/multipleCreationMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/multipleCreationMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2017,7 +2281,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/multipleCreationMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/multipleCreationMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2106,7 +2370,7 @@
     "FieldShowCondition": "typeOfAmendment CONTAINS \"Add cases to multiple\"",
     "PageShowCondition": "typeOfAmendment CONTAINS \"Add cases to multiple\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/multipleAmendCaseIdsMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/multipleAmendCaseIdsMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2262,7 +2526,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType=\"batchUpdateType3\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/multipleSingleMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/multipleSingleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2275,7 +2539,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType =\"batchUpdateType1\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/multipleMidBatch1Validation",
+    "CallBackURLMidEvent": "${CCD_DEF}/multipleMidBatch1Validation",
     "PageColumnNumber": 1
   },
   {
@@ -2386,7 +2650,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType = \"batchUpdateType2\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/multipleMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/multipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2478,7 +2742,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/subMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/subMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2545,7 +2809,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midSelectedAddressLabelsMultiple",
+    "CallBackURLMidEvent": "${CCD_DEF}/midSelectedAddressLabelsMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -2571,7 +2835,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceScotType.topLevel_Scot_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/midValidateAddressLabelsMultiple",
+    "CallBackURLMidEvent": "${CCD_DEF}/midValidateAddressLabelsMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -2616,7 +2880,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/initialiseCloseMultiple",
+    "CallBackURLMidEvent": "${CCD_DEF}/initialiseCloseMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -2801,7 +3065,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://host.docker.internal:8081/bulkAddSingleCasesImportFileMidEventValidation",
+    "CallBackURLMidEvent": "${CCD_DEF}/bulkAddSingleCasesImportFileMidEventValidation",
     "PageColumnNumber": 1
   }
 ]
