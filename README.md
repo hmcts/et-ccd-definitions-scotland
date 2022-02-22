@@ -16,7 +16,7 @@ Install required node version using `nvm install`
 
 ### Install
 
-Run `yarn install && yarn setup` to install the dependencies for both this project and the submodule.
+Run `yarn install` to install the dependencies for this project.
 
 ## ccd-definition-processor
 
