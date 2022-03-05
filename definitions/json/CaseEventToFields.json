@@ -3058,6 +3058,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "fixMultipleTransferAPI",
+    "CaseFieldID": "isFixCase",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "CaseEventID": "bulkAddSingleCases",
     "CaseFieldID": "bulkAddSingleCasesImportFile",
     "DisplayContext": "COMPLEX",

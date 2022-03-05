@@ -636,7 +636,7 @@
     "DisplayOrder": 13,
     "PreConditionState(s)": "*",
     "PostConditionState": "Open(state=\"Open\"):1;Transferred(state=\"Transferred\"):2;Error(state=\"Error\"):3;Updating(state=\"Updating\"):4;Closed(state=\"Closed\"):5;*",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/amendMultiple",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/fixMultipleCaseApi",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
