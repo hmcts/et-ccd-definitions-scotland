@@ -1449,8 +1449,8 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeRPT(S) ",
     "FieldType": "Label",
-    "ElementLabel": "Failure of the SOS to pay a redundancy payment following an application to NI fund",
-    "FieldShowCondition": "juridictionCodesList = \"RPT(S) \"",
+    "ElementLabel": "Failure of the Secretary of State for Trade & Industry to pay a redundancy payment following an application to the National Insurance Fund",
+    "FieldShowCondition": "juridictionCodesList = \"RPT(S)\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -1494,7 +1494,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeDDA",
     "FieldType": "Label",
-    "ElementLabel": "Suffered a detriment, discrimination, including indirect discrimination, and discrimination based on association or perception, harassment, victimisation and/or dismissal on grounds of disability or f",
+    "ElementLabel": "Suffered a detriment, discrimination, including indirect discrimination, and discrimination based on association or perception, harassment, victimisation and/or dismissal on grounds of disability or failure of employer to make reasonable adjustments",
     "FieldShowCondition": "juridictionCodesList = \"DDA\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -1548,7 +1548,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeSXD",
     "FieldType": "Label",
-    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of sex, marriage and civil partnership or gender reassignme",
+    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of sex, marriage and civil partnership or gender reassignment",
     "FieldShowCondition": "juridictionCodesList = \"SXD\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -1737,7 +1737,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeFT1",
     "FieldType": "Label",
-    "ElementLabel": "Failure to allow or to pay for a time off for care of dependants, union learning representatives’ duties, pension scheme trustee duties, employee representatives’ duties, young person studying/trainin",
+    "ElementLabel": "Failure to allow or to pay for time off for care of dependants, union learning representatives duties, pension scheme trustee duties, employee representatives duties, young person studying/training and European Works Council duties",
     "FieldShowCondition": "juridictionCodesList = \"FT1\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -1899,7 +1899,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeTUS",
     "FieldType": "Label",
-    "ElementLabel": "Suffer discrimination in obtaining the services of an employment agency due to membership or non-membership of a trade union; or refused employment agency services or suffered a detriment for a reason",
+    "ElementLabel": "Suffer discrimination in obtaining the services of an employment agency due to membership or non-membership of a trade union; or refused employment agency services or suffered a detriment for a reason related to a blacklist",
     "FieldShowCondition": "juridictionCodesList = \"TUS\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
