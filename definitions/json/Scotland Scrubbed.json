@@ -1577,6 +1577,12 @@
     "DisplayOrder": 13
   },
   {
+    "ID": "fl_reportCaseType",
+    "ListElementCode": "Session Days",
+    "ListElement": "Session Days",
+    "DisplayOrder": 14
+  },
+  {
     "ID": "fl_HearingDateType",
     "ListElementCode": "Single",
     "ListElement": "Single",
