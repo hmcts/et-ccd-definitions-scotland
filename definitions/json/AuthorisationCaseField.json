@@ -3088,5 +3088,11 @@
     "CaseFieldID": "bulkAddSingleCasesImportFile",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "isFixCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]

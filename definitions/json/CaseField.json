@@ -1503,5 +1503,12 @@
     "Label": "Select import file",
     "FieldType": "importerFileUpload",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "isFixCase",
+    "Label": "Fix Case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
