@@ -1584,8 +1584,8 @@
   },
   {
     "ID": "fl_reportCaseType",
-    "ListElementCode": "Ecc",
-    "ListElement": "Ecc",
+    "ListElementCode": "ECC",
+    "ListElement": "ECC",
     "DisplayOrder": 15
   },
   {
