@@ -2535,6 +2535,16 @@
   },
   {
     "ID": "Letters",
+    "ListElementCode": "Part_16_Scot_Documents",
+    "FieldType": "FixedList",
+    "ElementLabel": "Part 16",
+    "FieldTypeParameter": "fl_Part_16",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00057\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Letters",
     "ListElementCode": "hearingNumber",
     "FieldType": "Number",
     "ElementLabel": "Hearing Number",
@@ -2714,6 +2724,16 @@
     "ElementLabel": "Part 15",
     "FieldTypeParameter": "fl_Part_15",
     "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00056\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "LettersMultiples",
+    "ListElementCode": "Part_16_Scot_Documents",
+    "FieldType": "FixedList",
+    "ElementLabel": "Part 16",
+    "FieldTypeParameter": "fl_Part_16",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00057\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
