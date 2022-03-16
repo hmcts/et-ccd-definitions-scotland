@@ -2244,7 +2244,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "reportType=\"Brought Forward Report\"",
+    "FieldShowCondition": "reportType=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
