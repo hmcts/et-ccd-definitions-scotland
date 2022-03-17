@@ -955,14 +955,14 @@
   {
     "ID": "bfReport",
     "ListElementCode": "broughtForwardDate",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "ElementLabel": "B/F Date",
     "SecurityClassification": "Public"
   },
   {
     "ID": "bfReport",
     "ListElementCode": "broughtForwardDateCleared",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "ElementLabel": "Cleared?",
     "SecurityClassification": "Public"
   },
