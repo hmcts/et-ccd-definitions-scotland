@@ -1936,6 +1936,17 @@
     "PageColumnNumber": 1
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "fixCaseAPI",
+    "CaseFieldID": "judgementCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
@@ -2233,7 +2244,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "reportType=\"Brought Forward Report\"",
+    "FieldShowCondition": "reportType=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1

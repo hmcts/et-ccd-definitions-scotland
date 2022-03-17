@@ -1583,6 +1583,12 @@
     "DisplayOrder": 14
   },
   {
+    "ID": "fl_reportCaseType",
+    "ListElementCode": "ECC",
+    "ListElement": "ECC",
+    "DisplayOrder": 15
+  },
+  {
     "ID": "fl_HearingDateType",
     "ListElementCode": "Single",
     "ListElement": "Single",
@@ -2331,6 +2337,12 @@
     "ListElementCode": "EM-TRB-SCO-ENG-00056",
     "ListElement": "PART 15  – Special types of claim",
     "DisplayOrder": 16
+  },
+  {
+    "ID": "fl_TopLevel",
+    "ListElementCode": "EM-TRB-SCO-ENG-00057",
+    "ListElement": "PART 16  – Legal Officer Letters",
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_Part_0",
@@ -3813,6 +3825,96 @@
     "ListElementCode": "194",
     "ListElement": "194 EQV notice of stage 2 equal value hearing",
     "DisplayOrder": 13
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO1",
+    "ListElement": "LO1 Rejection rule 12",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO2",
+    "ListElement": "LO2 Rule 20 granted",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO3",
+    "ListElement": "LO3 Rule 20 App Refused",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO4",
+    "ListElement": "LO4 Withdrawal Letter",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO5",
+    "ListElement": "LO5 CMO amendment granted",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO6",
+    "ListElement": "LO6 CMO Additional Information",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO7",
+    "ListElement": "LO7 CMO claims to be considered together",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO8",
+    "ListElement": "LO8 CMO postponement",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO9",
+    "ListElement": "LO9 CMO lead case",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO10",
+    "ListElement": "LO10 CMPH Listing",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO11",
+    "ListElement": "LO11 CMO application refused",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO12",
+    "ListElement": "LO12 CMO Extension of time for compliance",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO13",
+    "ListElement": "LO13 Strike out warning to Claimant",
+    "DisplayOrder": 13
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO14",
+    "ListElement": "LO14 Strike out warning to Respondent",
+    "DisplayOrder": 14
+  },
+  {
+    "ID": "fl_Part_16",
+    "ListElementCode": "LO15",
+    "ListElement": "LO15 Rule 52 Judgment template",
+    "DisplayOrder": 15
   },
   {
     "ID": "VenueScotland",
