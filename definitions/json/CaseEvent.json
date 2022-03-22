@@ -215,8 +215,8 @@
     "Name": "B/F Action",
     "Description": "B/F Action",
     "DisplayOrder": 17,
-    "PreConditionState(s)": "Accepted;Submitted",
-    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Submitted",
+    "PreConditionState(s)": "Accepted;Rejected;Submitted",
+    "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/bfActions",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
