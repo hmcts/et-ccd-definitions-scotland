@@ -18,8 +18,6 @@
     "Description": "Create a new draft case",
     "DisplayOrder": 2,
     "PostConditionState": "Draft",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF}/preDefaultValues",
-    "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/postDefaultValues",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
