@@ -38,9 +38,9 @@
     "Name": "Accept/Reject Case",
     "Description": "Accept/Reject Case",
     "DisplayOrder": 4,
-    "PreConditionState(s)": "Submitted",
+    "PreConditionState(s)": "Accepted;Rejected;Submitted",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
-    "EventEnablingCondition": "caseType !=\"Multiple\"",
+    "EventEnablingCondition": "caseType !=\"Multiple\" AND preAcceptCase.caseAccepted !=\"Yes\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -52,6 +52,7 @@
     "DisplayOrder": 5,
     "PreConditionState(s)": "Rejected",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "EventEnablingCondition": "caseType =\"dummy\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
