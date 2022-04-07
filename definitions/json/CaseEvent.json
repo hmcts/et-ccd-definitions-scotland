@@ -25,7 +25,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "INITIATE_CASE_DRAFT",
     "Name": "Create Draft Case",
-    "Description": "Create a new a draft case",
+    "Description": "Create a new draft case",
     "DisplayOrder": 3,
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
