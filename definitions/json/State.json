@@ -16,7 +16,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "AWAITING_SUBMISSION_TO_HMCTS",
-    "Name": "AWAITING_SUBMISSION_TO_HMCTS",
+    "Name": "Awaiting Submission to HMCTS",
     "Description": "Draft ET1 updates and this state carried till case submission ",
     "DisplayOrder": 3
   },
