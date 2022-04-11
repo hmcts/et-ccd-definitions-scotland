@@ -25,6 +25,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "submitCaseDraft",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
