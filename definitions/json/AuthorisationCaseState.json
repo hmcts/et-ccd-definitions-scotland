@@ -8,7 +8,19 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Submitted",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Submitted",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -32,7 +44,19 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -50,7 +74,19 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Closed",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -68,7 +104,19 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Rejected",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -86,7 +134,19 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -104,6 +164,12 @@
   {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseStateID": "Submitted",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -116,6 +182,12 @@
   {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseStateID": "SubmittedReport",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseStateID": "SubmittedReport",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -123,6 +195,12 @@
     "CaseTypeID": "ET_Scotland_Multiple",
     "CaseStateID": "Open",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseStateID": "Open",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -135,6 +213,12 @@
     "CaseTypeID": "ET_Scotland_Multiple",
     "CaseStateID": "Updating",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseStateID": "Updating",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -147,6 +231,12 @@
     "CaseTypeID": "ET_Scotland_Multiple",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -159,6 +249,12 @@
     "CaseTypeID": "ET_Scotland_Multiple",
     "CaseStateID": "Error",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseStateID": "Error",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -171,6 +267,12 @@
     "CaseTypeID": "ET_Scotland_Multiple",
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
