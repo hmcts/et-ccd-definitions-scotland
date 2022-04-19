@@ -4,23 +4,28 @@
     "ID": "Submitted",
     "Name": "Submitted",
     "Description": "Initial case state – create title as a minimum; add Applicant details, etc.",
-    "DisplayOrder": 1,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "DisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "Draft",
     "Name": "Draft",
     "Description": "Draft ET1 submission",
-    "DisplayOrder": 2,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "DisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "AWAITING_SUBMISSION_TO_HMCTS",
+    "Name": "Awaiting Submission to HMCTS",
+    "Description": "Draft ET1 updates and this state carried till case submission ",
+    "DisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "Accepted",
     "Name": "Accepted",
     "Description": "Case accepted – all application details are in order",
-    "DisplayOrder": 3,
+    "DisplayOrder": 4,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -28,7 +33,7 @@
     "ID": "Closed",
     "Name": "Closed",
     "Description": "Case Closed",
-    "DisplayOrder": 4,
+    "DisplayOrder": 5,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -36,7 +41,7 @@
     "ID": "Rejected",
     "Name": "Rejected",
     "Description": "Case Rejected",
-    "DisplayOrder": 5,
+    "DisplayOrder": 6,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -44,7 +49,7 @@
     "ID": "Transferred",
     "Name": "Transferred",
     "Description": "Case Transferred",
-    "DisplayOrder": 6,
+    "DisplayOrder": 7,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
