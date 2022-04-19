@@ -8,7 +8,19 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -26,6 +38,12 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland_Listings",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland_Listings",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -37,6 +55,11 @@
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   }
 ]
