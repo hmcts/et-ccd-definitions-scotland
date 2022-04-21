@@ -4,7 +4,8 @@
     "ID": "Submitted",
     "Name": "Submitted",
     "Description": "Initial case state – create title as a minimum; add Applicant details, etc.",
-    "DisplayOrder": 1
+    "DisplayOrder": 1,
+    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
     "CaseTypeID": "ET_Scotland",
