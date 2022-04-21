@@ -46,6 +46,21 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_sex",
+    "FieldType": "FixedList",
+    "ElementLabel": "Sex",
+    "FieldTypeParameter": "fl_Sex",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_gender_identity",
+    "FieldType": "Text",
+    "ElementLabel": "Gender Identity",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantCorrespondence",
     "ListElementCode": "claimant_addressUK",
     "FieldType": "AddressUK",
