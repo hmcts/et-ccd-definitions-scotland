@@ -2560,7 +2560,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "listingVenue=\"dummy\"",
+    "FieldShowCondition": "managingOffice=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
