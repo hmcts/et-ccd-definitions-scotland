@@ -3748,6 +3748,146 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "adhocReport",
+    "ListElementCode": "xConOpen26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Open Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConStdTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Fast Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConNone26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "No Conciliation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConStd26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Fast Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConStd26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "Fast Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConFast26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Standard Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConStd26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "Fast Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConOpen26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Open Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConOpen26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "Open Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConNone26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "No Conciliation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConNoneTotal",
+    "FieldType": "Text",
+    "ElementLabel": "No Conciliation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConFast26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "Standard Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConStd26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Fast Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConFast26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "Standard Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConOpenTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Open Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConNone26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "No Conciliation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConOpen26wkTotalPerCent",
+    "FieldType": "Text",
+    "ElementLabel": "Open Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "xConNone26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "No Conciliation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConFastTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Standard Track",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "adhocReport",
+    "ListElementCode": "ConFast26wkTotal",
+    "FieldType": "Text",
+    "ElementLabel": "Standard Track",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ListingItemType",
     "ListElementCode": "causeListDate",
     "FieldType": "Text",
