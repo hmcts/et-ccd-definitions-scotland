@@ -854,7 +854,7 @@
   {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "listingVenue",
-    "Label": "Managing Office",
+    "Label": "Venue",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
