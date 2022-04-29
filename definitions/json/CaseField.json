@@ -200,6 +200,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "newEmploymentType",
+    "Label": "New employment details",
+    "FieldType": "NewEmploymentDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "claimantWorkAddressQuestion",
     "Label": "Is this the same as the claimant's work address?",
     "FieldType": "YesOrNo",
