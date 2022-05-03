@@ -660,8 +660,7 @@
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
@@ -670,8 +669,7 @@
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
@@ -1329,26 +1327,6 @@
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "newEmploymentType",
-    "ListElementCode": "newly_employed_from",
-    "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "newEmploymentType",
-    "ListElementCode": "new_pay_before_tax",
-    "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
@@ -2035,8 +2013,7 @@
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
@@ -2045,8 +2022,7 @@
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "UpdateCase",
@@ -2736,8 +2712,7 @@
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
@@ -2746,8 +2721,7 @@
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "AmendCase",
