@@ -53,9 +53,29 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_sex",
+    "EventElementLabel": "Sex",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
     "EventElementLabel": "Gender",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
@@ -707,9 +727,29 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCaseDraft",
     "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_sex",
+    "EventElementLabel": "Sex",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
     "EventElementLabel": "Gender",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
@@ -1361,9 +1401,29 @@
     "ID": "CreateCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_sex",
+    "EventElementLabel": "Sex",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
     "EventElementLabel": "Gender",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
@@ -1372,7 +1432,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2042,9 +2102,29 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_sex",
+    "EventElementLabel": "Sex",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
     "EventElementLabel": "Gender",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
@@ -2053,7 +2133,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2759,9 +2839,29 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_sex",
+    "EventElementLabel": "Sex",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
     "EventElementLabel": "Gender",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },

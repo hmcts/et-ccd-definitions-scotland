@@ -3439,6 +3439,24 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
+    "CaseFieldID": "managingOffice",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
+    "CaseFieldID": "managingOffice",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
+    "CaseFieldID": "managingOffice",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingLabel",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"

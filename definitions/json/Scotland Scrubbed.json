@@ -510,6 +510,18 @@
     "DisplayOrder": 4
   },
   {
+    "ID": "fl_Sex",
+    "ListElementCode": "Male",
+    "ListElement": "Male",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Sex",
+    "ListElementCode": "Female",
+    "ListElement": "Female",
+    "DisplayOrder": 2
+  },
+  {
     "ID": "fl_RepresentativeContact",
     "ListElementCode": "Email",
     "ListElement": "Email",

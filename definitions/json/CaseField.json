@@ -861,9 +861,16 @@
   {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "listingVenue",
+    "Label": "Venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "managingOffice",
     "Label": "Managing Office",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "VenueScotlandAll",
+    "FieldTypeParameter": "fl_TribunalOffice",
     "SecurityClassification": "Public"
   },
   {
