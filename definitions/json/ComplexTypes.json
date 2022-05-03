@@ -159,6 +159,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "newly_employed_from",
+    "FieldType": "Date",
+    "ElementLabel": "Employed from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_pay_before_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "WorkAddressDetails",
     "ListElementCode": "claimant_work_address",
     "FieldType": "AddressUK",
