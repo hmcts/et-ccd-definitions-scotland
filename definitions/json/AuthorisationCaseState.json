@@ -31,18 +31,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseStateID": "Draft",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseStateID": "Draft",
-    "UserRole": "citizen",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
