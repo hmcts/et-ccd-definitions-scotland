@@ -1,12 +1,6 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "scannedDocuments",	
-    "UserRole": "caseworker-ET-pcqextractor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "ClaimantPcqId",	
     "UserRole": "citizen",
     "CRUD": "CRU"
