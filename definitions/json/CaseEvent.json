@@ -13,16 +13,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "initiateCaseDraft",
-    "Name": "Create Draft Case",
-    "Description": "Create a new draft case",
-    "DisplayOrder": 2,
-    "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "INITIATE_CASE_DRAFT",
     "Name": "Create Draft Case",
     "Description": "Create a new draft case",
