@@ -754,6 +754,24 @@
   },
   {
     "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
     "CaseEventID": "initiateCaseDraft",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
@@ -2286,6 +2304,24 @@
     "RetainHiddenValue": "No"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
@@ -3064,6 +3100,24 @@
     "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "AmendCase",
