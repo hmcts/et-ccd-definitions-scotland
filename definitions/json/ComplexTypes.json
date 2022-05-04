@@ -246,10 +246,38 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "EmploymentDetails",
-    "ListElementCode": "claimant_benefits_detail",
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_tribunal",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting a tribunal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_old_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting their old job back",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_another_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation_amount",
+    "FieldType": "Number",
+    "ElementLabel": "Compensation Amount Requested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_tribunal_recommendation ",
     "FieldType": "Text",
-    "ElementLabel": "Employee Benefits Details",
+    "ElementLabel": "Tribunal recommendation request",
     "SecurityClassification": "Public"
   },
   {

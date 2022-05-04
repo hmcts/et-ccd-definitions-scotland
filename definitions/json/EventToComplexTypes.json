@@ -1569,6 +1569,60 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation",
+    "EventElementLabel": "Claimant is reqesting compensation",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal",
+    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_old_job",
+    "EventElementLabel": "Claimant is requesting their old job back",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_another_job",
+    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation_amount",
+    "EventElementLabel": "Compensation Amount Requested",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal_recommendation",
+    "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
@@ -2364,6 +2418,60 @@
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
     "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation",
+    "EventElementLabel": "Claimant is reqesting compensation",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal",
+    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_old_job",
+    "EventElementLabel": "Claimant is requesting their old job back",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_another_job",
+    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation_amount",
+    "EventElementLabel": "Compensation Amount Requested",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal_recommendation",
+    "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
