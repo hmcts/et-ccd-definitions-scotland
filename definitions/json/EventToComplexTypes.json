@@ -392,6 +392,105 @@
   {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
     "EventElementLabel": "Name of respondent",
@@ -1078,6 +1177,105 @@
     "EventElementLabel": "Please provide details",
     "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
@@ -1777,6 +1975,105 @@
     "EventElementLabel": "Please provide details",
     "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "UpdateCase",
@@ -2486,6 +2783,105 @@
     "EventElementLabel": "Please provide details",
     "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "ClaimantRepresentative",

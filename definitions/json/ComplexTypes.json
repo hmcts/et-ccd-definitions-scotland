@@ -159,6 +159,42 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_notice_period",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Notice Period",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_notice_period_unit",
+    "FieldType": "FixedList",
+    "ElementLabel": "Notice Weeks or Months",
+    "FieldTypeParameter": "fl_notice_period_unit",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_notice_period_duration",
+    "FieldType": "Number",
+    "ElementLabel": "Notice Period Duration",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "FieldType": "Text",
+    "ElementLabel": "Average weekly hours",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pay_before_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "NewEmploymentDetails",
     "ListElementCode": "newly_employed_from",
     "FieldType": "Date",
@@ -170,6 +206,50 @@
     "ListElementCode": "new_pay_before_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pay_after_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay after tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pay_cycle",
+    "FieldType": "FixedList",
+    "ElementLabel": "Weekly, monthly or annual pay",
+    "FieldTypeParameter": "fl_pay_cycle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pension_contribution",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pension Contribution",
+    "FieldTypeParameter": "fl_pension_contribution",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "FieldType": "Number",
+    "ElementLabel": "Pension Contribution",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_benefits",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Employee Benefits",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_benefits_detail",
+    "FieldType": "Text",
+    "ElementLabel": "Employee Benefits Details",
     "SecurityClassification": "Public"
   },
   {

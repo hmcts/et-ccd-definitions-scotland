@@ -4005,5 +4005,53 @@
     "ListElementCode": "Edinburgh",
     "ListElement": "Edinburgh",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "Weeks",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "Months",
+    "ListElement": "Months",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "Weeks",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "Months",
+    "ListElement": "Months",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "Annual",
+    "ListElement": "Annual",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "Not Sure",
+    "ListElement": "Not Sure",
+    "DisplayOrder": 3
   }
 ]
