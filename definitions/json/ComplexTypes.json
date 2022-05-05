@@ -277,7 +277,7 @@
     "ID": "ClaimantRequest",
     "ListElementCode": "claimant_compensation_amount",
     "FieldType": "Number",
-    "ElementLabel": "Compensation Amount Requested",
+    "ElementLabel": "Compensation amount requested",
     "SecurityClassification": "Public"
   },
   {

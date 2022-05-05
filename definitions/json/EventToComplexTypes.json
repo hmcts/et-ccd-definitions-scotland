@@ -1609,7 +1609,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
-    "EventElementLabel": "Compensation Amount Requested",
+    "EventElementLabel": "Compensation amount requested",
     "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
@@ -2461,7 +2461,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
-    "EventElementLabel": "Compensation Amount Requested",
+    "EventElementLabel": "Compensation amount requested",
     "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
