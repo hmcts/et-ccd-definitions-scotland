@@ -247,6 +247,13 @@
   },
   {
     "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting compensation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
     "ListElementCode": "claimant_tribunal",
     "FieldType": "YesOrNo",
     "ElementLabel": "Claimant is reqesting a tribunal",
