@@ -195,20 +195,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "NewEmploymentDetails",
-    "ListElementCode": "newly_employed_from",
-    "FieldType": "Date",
-    "ElementLabel": "Employed from",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "NewEmploymentDetails",
-    "ListElementCode": "new_pay_before_tax",
-    "FieldType": "Number",
-    "ElementLabel": "Pay before tax",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pay_after_tax",
     "FieldType": "Number",
@@ -250,6 +236,62 @@
     "ListElementCode": "claimant_benefits_detail",
     "FieldType": "Text",
     "ElementLabel": "Employee Benefits Details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "newly_employed_from",
+    "FieldType": "Date",
+    "ElementLabel": "Employed from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_pay_before_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting compensation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_tribunal",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting a tribunal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_old_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting their old job back",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_another_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation_amount",
+    "FieldType": "Number",
+    "ElementLabel": "Compensation amount requested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_tribunal_recommendation ",
+    "FieldType": "Text",
+    "ElementLabel": "Tribunal recommendation request",
     "SecurityClassification": "Public"
   },
   {

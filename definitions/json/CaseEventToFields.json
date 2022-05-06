@@ -254,6 +254,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantRepresentedQuestion",
     "DisplayContext": "MANDATORY",
     "PageID": 8,
@@ -530,6 +541,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRepresentedQuestion",
     "DisplayContext": "MANDATORY",
     "PageID": 8,
@@ -800,6 +822,17 @@
     "PageID": 7,
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
