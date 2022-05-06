@@ -207,6 +207,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRequests",
+    "Label": "Claimant Requests",
+    "FieldType": "ClaimantRequest",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "claimantWorkAddressQuestion",
     "Label": "Is this the same as the claimant's work address?",
     "FieldType": "YesOrNo",
