@@ -246,6 +246,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_benefits_detail",
+    "FieldType": "Text",
+    "ElementLabel": "Employee Benefits Details",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantRequest",
     "ListElementCode": "claimant_compensation",
     "FieldType": "YesOrNo",
