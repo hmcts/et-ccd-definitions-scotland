@@ -20,10 +20,22 @@
     "mocha": "^9.2.1"
   },
   "config": {
-    "local": "http://host.docker.internal:8081",
-    "demo": "http://et-cos-demo.service.core-compute-demo.internal",
-    "aat": "http://et-cos-aat.service.core-compute-aat.internal",
-    "prod": "http://et-cos-prod.service.core-compute-prod.internal"
+    "local": {
+      "et_cos" : "http://host.docker.internal:8081",
+      "ccd_url" : "http://host.docker.internal:4452"
+    },
+    "demo" : {
+      "et_cos": "http://et-cos-demo.service.core-compute-demo.internal",
+      "ccd_url": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
+    },
+    "aat" : {
+      "et_cos": "http://et-cos-aat.service.core-compute-aat.internal",
+      "ccd_url": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
+    },
+    "prod" : {
+      "et_cos": "http://et-cos-prod.service.core-compute-prod.internal",
+      "ccd_url": "http://ccd-data-store-api-prod.service.core-compute-prod.internal"
+    }
   },
   "scripts": {
     "lint": "eslint src",
@@ -32,10 +44,10 @@
     "json2xlsx": "node ./bin/json2xlsx",
     "xlsx2json": "node ./bin/xlsx2json",
     "generate-json": "yarn xlsx2json -D ./definitions/json -i ./definitions/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
-    "generate-excel-local": "ET_ENV=local CCD_DEF=$npm_package_config_local yarn run generate-excel -e *-prod.json",
-    "generate-excel-demo": "ET_ENV=demo CCD_DEF=$npm_package_config_demo yarn run generate-excel -e *-prod.json",
-    "generate-excel-aat": "ET_ENV=aat CCD_DEF=$npm_package_config_aat yarn run generate-excel -e *-prod.json",
-    "generate-excel-prod": "ET_ENV=prod CCD_DEF=$npm_package_config_prod yarn run generate-excel -e *-nonprod.json",
+    "generate-excel-local": "ET_ENV=local ET_COS_URL=$npm_package_config_local_et_cos CCD_DEF_URL=$npm_package_config_local_ccd_url yarn run generate-excel -e *-prod.json",
+    "generate-excel-demo": "ET_ENV=demo ET_COS_URL=$npm_package_config_demo_et_cos CCD_DEF_URL=$npm_package_config_demo_ccd_url yarn run generate-excel -e *-prod.json",
+    "generate-excel-aat": "ET_ENV=aat ET_COS_URL=$npm_package_config_aat_et_cos CCD_DEF_URL=$npm_package_config_aat_ccd_url yarn run generate-excel -e *-prod.json",
+    "generate-excel-prod": "ET_ENV=prod ET_COS_URL=$npm_package_config_prod_et_cos CCD_DEF_URL=$npm_package_config_prod_ccd_url yarn run generate-excel -e *-nonprod.json",
     "generate-excel": "yarn json2xlsx -D ./definitions/json -o ./definitions/xlsx/et-scotland-ccd-config-${ET_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-aat && yarn generate-excel-prod"
   }
