@@ -4779,14 +4779,14 @@
     "ID": "HearingPreference",
     "ListElementCode": "hearing_video",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Can the claimant can take part in video hearings",
+    "ElementLabel": "Can the claimant take part in video hearings",
     "SecurityClassification": "Public"
   },
   {
     "ID": "HearingPreference",
     "ListElementCode": "hearing_phone",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Can the claimant can take part in phone hearings",
+    "ElementLabel": "Can the claimant take part in phone hearings",
     "SecurityClassification": "Public"
   },
   {
