@@ -34,11 +34,11 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "submitCaseDraft",
+    "ID": "SUBMIT_CASE_DRAFT",
     "Name": "Submit Draft",
     "Description": "Submit a draft case",
     "DisplayOrder": 5,
-    "PreConditionState(s)": "Draft",
+    "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
