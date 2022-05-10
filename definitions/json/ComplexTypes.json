@@ -183,7 +183,7 @@
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_average_weekly_hours",
-    "FieldType": "Text",
+    "FieldType": "Number",
     "ElementLabel": "Average weekly hours",
     "SecurityClassification": "Public"
   },
@@ -4774,5 +4774,26 @@
     "FieldTypeParameter": "DateListed",
     "SecurityClassification": "Public",
     "Min": 1
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_video",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Can the claimant can take part in video hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_phone",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Can the claimant can take part in phone hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "FieldType": "Text",
+    "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "SecurityClassification": "Public"
   }
 ]

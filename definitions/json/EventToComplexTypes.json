@@ -773,6 +773,33 @@
   {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation",
     "EventElementLabel": "Claimant is reqesting compensation",
@@ -1625,6 +1652,33 @@
   {
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation",
     "EventElementLabel": "Claimant is reqesting compensation",
@@ -2472,6 +2526,33 @@
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
     "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3043,6 +3124,33 @@
     "ListElementCode": "claimant_benefits_detail",
     "EventElementLabel": "Employee Benefits Details",
     "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {

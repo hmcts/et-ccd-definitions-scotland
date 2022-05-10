@@ -837,6 +837,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantHearingPreference",
+    "Label": "Claimant Hearing Preferences",
+    "FieldType": "HearingPreference",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
