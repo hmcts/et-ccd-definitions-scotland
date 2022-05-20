@@ -55,13 +55,13 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "submitCaseDraft",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "submitCaseDraft",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },
