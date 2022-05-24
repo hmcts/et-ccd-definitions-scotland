@@ -31,6 +31,36 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
