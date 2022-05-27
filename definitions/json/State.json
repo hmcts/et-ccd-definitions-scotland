@@ -9,24 +9,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "Draft",
-    "Name": "Draft",
-    "Description": "Draft ET1 submission",
-    "DisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "AWAITING_SUBMISSION_TO_HMCTS",
     "Name": "Awaiting Submission to HMCTS",
-    "Description": "Draft ET1 updates and this state carried till case submission ",
-    "DisplayOrder": 3
+    "Description": "Draft ET1 updates and this state carried till case submission",
+    "DisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "Vetted",
     "Name": "Vetted",
     "Description": "Case Vetted",
-    "DisplayOrder": 4,
+    "DisplayOrder": 3,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -34,7 +27,7 @@
     "ID": "Accepted",
     "Name": "Accepted",
     "Description": "Case accepted – all application details are in order",
-    "DisplayOrder": 5,
+    "DisplayOrder": 4,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -42,7 +35,7 @@
     "ID": "Closed",
     "Name": "Closed",
     "Description": "Case Closed",
-    "DisplayOrder": 6,
+    "DisplayOrder": 5,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -50,7 +43,7 @@
     "ID": "Rejected",
     "Name": "Rejected",
     "Description": "Case Rejected",
-    "DisplayOrder": 7,
+    "DisplayOrder": 6,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -58,7 +51,7 @@
     "ID": "Transferred",
     "Name": "Transferred",
     "Description": "Case Transferred",
-    "DisplayOrder": 8,
+    "DisplayOrder": 7,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
