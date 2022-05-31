@@ -2281,6 +2281,18 @@
     "PageColumnNumber": 1
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Upload documents",
+    "PageColumnNumber": 1
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
