@@ -4795,5 +4795,27 @@
     "FieldType": "Text",
     "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "ListElementCode": "typeOfDocument",
+    "FieldType": "FixedList",
+    "ElementLabel": "Type of Document",
+    "FieldTypeParameter": "fl_ServingDocumentType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]
