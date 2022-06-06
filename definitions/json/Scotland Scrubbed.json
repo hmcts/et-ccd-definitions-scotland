@@ -1530,75 +1530,81 @@
   },
   {
     "ID": "fl_reportCaseType",
+    "ListElementCode": "Claims By Hearing Venue",
+    "ListElement": "Claims By Hearing Venue",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_reportCaseType",
     "ListElementCode": "Hearings By Hearing Type",
     "ListElement": "Hearings By Hearing Type",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Time To First Hearing",
     "ListElement": "Time To First Hearing",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Hearings To Judgments",
     "ListElement": "Hearings To Judgments",
-    "DisplayOrder": 6
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Live Caseload",
     "ListElement": "Live Caseload",
-    "DisplayOrder": 7
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "No Change In Current Position",
     "ListElement": "No Change In Current Position",
-    "DisplayOrder": 8
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Claims Accepted",
     "ListElement": "Claims Accepted",
-    "DisplayOrder": 9
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Serving Claims",
     "ListElement": "Serving Claims",
-    "DisplayOrder": 10
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Cases Awaiting Judgment",
     "ListElement": "Cases Awaiting Judgment",
-    "DisplayOrder": 11
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Case Source",
     "ListElement": "Case Source",
-    "DisplayOrder": 12
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Respondents",
     "ListElement": "Respondents",
-    "DisplayOrder": 13
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Session Days",
     "ListElement": "Session Days",
-    "DisplayOrder": 14
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "ECC",
     "ListElement": "ECC",
-    "DisplayOrder": 15
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_HearingDateType",
