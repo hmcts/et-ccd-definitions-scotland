@@ -867,6 +867,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "AdditionalCaseDetails",
+    "ListElementCode": "reasonableAdjustment",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Reasonable Adjustment",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "Deposit",
     "ListElementCode": "Deposit_amount",
     "FieldType": "MoneyGBP",
