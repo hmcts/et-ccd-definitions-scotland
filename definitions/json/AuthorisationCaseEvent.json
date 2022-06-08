@@ -823,6 +823,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseTransferECM",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
