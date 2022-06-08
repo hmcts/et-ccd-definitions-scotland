@@ -817,6 +817,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseTransferECM",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
