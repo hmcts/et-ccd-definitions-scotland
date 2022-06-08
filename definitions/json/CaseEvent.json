@@ -420,6 +420,7 @@
     "DisplayOrder": 36,
     "PreConditionState(s)": "*",
     "PostConditionState": "Transferred",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferToEcm",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
