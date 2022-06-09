@@ -4148,7 +4148,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment-etjudge-scotland",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
