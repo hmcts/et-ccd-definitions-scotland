@@ -2284,7 +2284,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "servingDocumentCollection",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -2347,6 +2347,62 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "printAndSendPaperDocuments",
+    "DisplayContext": "READONLY",
+    "PageShowCondition": "servingDocumentRecipient CONTAINS \"Respondent\" OR servingDocumentRecipient CONTAINS \"Claimant\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Send documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "claimantAddress",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "printAndSendPaperDocuments=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "claimantAddressLabel",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "servingDocumentRecipient CONTAINS \"Claimant\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "respondentAddress",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "printAndSendPaperDocuments=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "respondentAddressLabel",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "servingDocumentRecipient CONTAINS \"Respondent\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
   {
