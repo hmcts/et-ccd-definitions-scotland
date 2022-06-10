@@ -4209,5 +4209,24 @@
     "ListElementCode": "Another type of document",
     "ListElement": "Another type of document",
     "DisplayOrder": 25
+  },
+  {
+    "ID": "fl_ServingDocumentRecipient",
+    "ListElementCode": "Acas",
+    "ListElement": "Acas",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ServingDocumentRecipient",
+    "ListElementCode": "Claimant",
+    "ListElement": "Claimant",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ServingDocumentRecipient",
+    "ListElementCode": "Respondent",
+    "ListElement": "Respondent",
+    "DisplayOrder": 3
   }
+
 ]
