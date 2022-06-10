@@ -817,6 +817,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseTransferECM",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseTransferECM",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -830,13 +842,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
