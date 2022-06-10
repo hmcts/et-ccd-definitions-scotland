@@ -4148,12 +4148,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "citizen",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentRecipient",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
