@@ -4117,12 +4117,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentCollection",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "otherTypeDocumentName",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -4154,6 +4148,36 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ecmOfficeCT",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ecmOfficeCT",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ecmOfficeCT",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ecmOfficeCT",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ecmOfficeCT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },

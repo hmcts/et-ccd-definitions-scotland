@@ -888,6 +888,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ecmOfficeCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
