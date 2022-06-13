@@ -896,6 +896,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "sendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "claimantAddress",
     "Label": "claimantAddress",
     "FieldType": "Text",
