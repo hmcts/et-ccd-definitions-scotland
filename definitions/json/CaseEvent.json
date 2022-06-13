@@ -413,6 +413,18 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseTransferECM",
+    "Name": "Case Transfer to ECM",
+    "Description": "Transfer case to ECM system",
+    "DisplayOrder": 36,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "Transferred",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferToEcm",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
