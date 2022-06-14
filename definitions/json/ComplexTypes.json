@@ -159,6 +159,42 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_notice_period",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Notice Period",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_notice_period_unit",
+    "FieldType": "FixedList",
+    "ElementLabel": "Notice Weeks or Months",
+    "FieldTypeParameter": "fl_notice_period_unit",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_notice_period_duration",
+    "FieldType": "Number",
+    "ElementLabel": "Notice Period Duration",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "FieldType": "Number",
+    "ElementLabel": "Average weekly hours",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pay_before_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "NewEmploymentDetails",
     "ListElementCode": "newly_employed_from",
     "FieldType": "Date",
@@ -170,6 +206,92 @@
     "ListElementCode": "new_pay_before_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pay_after_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay after tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pay_cycle",
+    "FieldType": "FixedList",
+    "ElementLabel": "Weekly, monthly or annual pay",
+    "FieldTypeParameter": "fl_pay_cycle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pension_contribution",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pension Contribution",
+    "FieldTypeParameter": "fl_pension_contribution",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "FieldType": "Number",
+    "ElementLabel": "Pension Contribution",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_benefits",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Employee Benefits",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "claimant_benefits_detail",
+    "FieldType": "Text",
+    "ElementLabel": "Employee Benefits Details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting compensation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_tribunal",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting a tribunal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_old_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant is reqesting their old job back",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_another_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation_amount",
+    "FieldType": "Number",
+    "ElementLabel": "Compensation amount requested",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_tribunal_recommendation ",
+    "FieldType": "Text",
+    "ElementLabel": "Tribunal recommendation request",
     "SecurityClassification": "Public"
   },
   {
@@ -4652,5 +4774,48 @@
     "FieldTypeParameter": "DateListed",
     "SecurityClassification": "Public",
     "Min": 1
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_video",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Can the claimant take part in video hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_phone",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Can the claimant take part in phone hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "FieldType": "Text",
+    "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "ListElementCode": "typeOfDocument",
+    "FieldType": "FixedList",
+    "ElementLabel": "Type of Document",
+    "FieldTypeParameter": "fl_ServingDocumentType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]

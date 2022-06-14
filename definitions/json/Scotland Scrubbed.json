@@ -1530,75 +1530,81 @@
   },
   {
     "ID": "fl_reportCaseType",
+    "ListElementCode": "Claims By Hearing Venue",
+    "ListElement": "Claims By Hearing Venue",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_reportCaseType",
     "ListElementCode": "Hearings By Hearing Type",
     "ListElement": "Hearings By Hearing Type",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Time To First Hearing",
     "ListElement": "Time To First Hearing",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Hearings To Judgments",
     "ListElement": "Hearings To Judgments",
-    "DisplayOrder": 6
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Live Caseload",
     "ListElement": "Live Caseload",
-    "DisplayOrder": 7
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "No Change In Current Position",
     "ListElement": "No Change In Current Position",
-    "DisplayOrder": 8
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Claims Accepted",
     "ListElement": "Claims Accepted",
-    "DisplayOrder": 9
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Serving Claims",
     "ListElement": "Serving Claims",
-    "DisplayOrder": 10
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Cases Awaiting Judgment",
     "ListElement": "Cases Awaiting Judgment",
-    "DisplayOrder": 11
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Case Source",
     "ListElement": "Case Source",
-    "DisplayOrder": 12
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Respondents",
     "ListElement": "Respondents",
-    "DisplayOrder": 13
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "Session Days",
     "ListElement": "Session Days",
-    "DisplayOrder": 14
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_reportCaseType",
     "ListElementCode": "ECC",
     "ListElement": "ECC",
-    "DisplayOrder": 15
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_HearingDateType",
@@ -4005,5 +4011,203 @@
     "ListElementCode": "Edinburgh",
     "ListElement": "Edinburgh",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "Weeks",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "Months",
+    "ListElement": "Months",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "Weeks",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "Months",
+    "ListElement": "Months",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "Annual",
+    "ListElement": "Annual",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "Not Sure",
+    "ListElement": "Not Sure",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "1.1",
+    "ListElement": "1.1 ET5 Acknowledgement of Claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "2.6",
+    "ListElement": "2.6 Notice of Claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "2.7",
+    "ListElement": "2.7 ET2 short track claim",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "2.8",
+    "ListElement": "2.8 ET2 UDL plus",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "7.7",
+    "ListElement": "7.7 In person preliminary hearing - notice of case management discussion",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "7.8",
+    "ListElement": "7.8 Telephone preliminary hearing - notice of case management discussion",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "7.8a",
+    "ListElement": "7.8a Video preliminary hearing - notice of case management discussion",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Acknowledgement of Claim",
+    "ListElement": "Acknowledgement of Claim",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Claimant Guidance Notes",
+    "ListElement": "Claimant Guidance Notes",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Claimant Standard Agenda for CMPH",
+    "ListElement": "Claimant Standard Agenda for CMPH",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "EC Certification",
+    "ListElement": "EC Certification",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "ET1 claim form",
+    "ListElement": "ET1 claim form",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "ET3 form",
+    "ListElement": "ET3 form",
+    "DisplayOrder": 13
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Letter 3",
+    "ListElement": "Letter 3",
+    "DisplayOrder": 14
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Letter 7",
+    "ListElement": "Letter 7",
+    "DisplayOrder": 15
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Letter 72 short track notice of claim and notice of hearing",
+    "ListElement": "Letter 72 short track notice of claim and notice of hearing",
+    "DisplayOrder": 16
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Letter 75",
+    "ListElement": "Letter 75",
+    "DisplayOrder": 17
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Letter 76 Notice of Claim",
+    "ListElement": "Letter 76 Notice of Claim",
+    "DisplayOrder": 18
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Letter 162 JM Note to Parties",
+    "ListElement": "Letter 162 JM Note to Parties",
+    "DisplayOrder": 19
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Notice of Claim",
+    "ListElement": "Notice of Claim",
+    "DisplayOrder": 20
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Notice of Preliminary Hearing",
+    "ListElement": "Notice of Preliminary Hearing",
+    "DisplayOrder": 21
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Particulars of Claim",
+    "ListElement": "Particulars of Claim",
+    "DisplayOrder": 22
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Respondent Guidance Notes",
+    "ListElement": "Respondent Guidance Notes",
+    "DisplayOrder": 23
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Respondent Standard Agenda for CMPH",
+    "ListElement": "Respondent Standard Agenda for CMPH",
+    "DisplayOrder": 24
+  },
+  {
+    "ID": "fl_ServingDocumentType",
+    "ListElementCode": "Another type of document",
+    "ListElement": "Another type of document",
+    "DisplayOrder": 25
   }
 ]

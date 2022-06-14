@@ -5,7 +5,7 @@
     "Name": "Scotland - Singles (RET) ",
     "Description": "Scotland - Singles (RET)",
     "JurisdictionID": "EMPLOYMENT",
-    "PrintableDocumentsUrl": "${CCD_DEF}/callback/jurisdictions/EMPLOYMENT/case-types/ET_Scotland/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_URL}/callback/jurisdictions/EMPLOYMENT/case-types/ET_Scotland/documents",
     "SecurityClassification": "Public"
   },
   {
@@ -14,7 +14,7 @@
     "Name": "Scotland - Reports (RET)",
     "Description": "Scotland - Hearings/Reports (RET)",
     "JurisdictionID": "EMPLOYMENT",
-    "PrintableDocumentsUrl": "${CCD_DEF}/callback/jurisdictions/EMPLOYMENT/case-types/ET_Scotland_Listings/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_URL}/callback/jurisdictions/EMPLOYMENT/case-types/ET_Scotland_Listings/documents",
     "SecurityClassification": "Public"
   },
   {
@@ -23,7 +23,7 @@
     "Name": "Scotland - Multiples (RET)",
     "Description": "Scotland - Multiples (RET)",
     "JurisdictionID": "EMPLOYMENT",
-    "PrintableDocumentsUrl": "${CCD_DEF}/callback/jurisdictions/EMPLOYMENT/case-types/ET_Scotland_Multiple/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_URL}/callback/jurisdictions/EMPLOYMENT/case-types/ET_Scotland_Multiple/documents",
     "SecurityClassification": "Public"
   }
 ]

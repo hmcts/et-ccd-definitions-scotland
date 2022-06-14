@@ -221,6 +221,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRequests",
+    "Label": "Claimant Requests",
+    "FieldType": "ClaimantRequest",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "claimantWorkAddressQuestion",
     "Label": "Is this the same as the claimant's work address?",
     "FieldType": "YesOrNo",
@@ -841,6 +848,21 @@
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantHearingPreference",
+    "Label": "Claimant Hearing Preferences",
+    "FieldType": "HearingPreference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "servingDocumentCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ServingDocumentUpload",
     "SecurityClassification": "Public"
   },
   {

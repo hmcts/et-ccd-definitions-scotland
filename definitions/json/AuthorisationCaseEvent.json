@@ -31,7 +31,31 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "initiateCaseDraft",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "caseVetting",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -61,13 +85,13 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "submitCaseDraft",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "submitCaseDraft",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },
@@ -788,6 +812,36 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "fixCaseAPI",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },

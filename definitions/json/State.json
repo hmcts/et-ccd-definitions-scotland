@@ -9,17 +9,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "Draft",
-    "Name": "Draft",
-    "Description": "Draft ET1 submission",
+    "ID": "AWAITING_SUBMISSION_TO_HMCTS",
+    "Name": "Awaiting Submission to HMCTS",
+    "Description": "Draft ET1 updates and this state carried till case submission",
     "DisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "AWAITING_SUBMISSION_TO_HMCTS",
-    "Name": "Awaiting Submission to HMCTS",
-    "Description": "Draft ET1 updates and this state carried till case submission ",
-    "DisplayOrder": 3
+    "ID": "Vetted",
+    "Name": "Vetted",
+    "Description": "Case Vetted",
+    "DisplayOrder": 3,
+    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
     "CaseTypeID": "ET_Scotland",

@@ -351,7 +351,8 @@
     "TabLabel": "Hearings",
     "TabDisplayOrder": 8,
     "CaseFieldID": "hearingCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
   },
   {
     "CaseTypeID": "ET_Scotland",
