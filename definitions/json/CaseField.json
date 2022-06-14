@@ -903,29 +903,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "claimantAddress",
-    "Label": "claimantAddress",
+    "ID": "claimantAndRespondentAddresses",
+    "Label": "claimantAndRespondentAddresses",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "claimantAddressLabel",
-    "Label": "${claimantAddress}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "respondentAddress",
-    "Label": "respondentAddress",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "respondentAddressLabel",
-    "Label": "${respondentAddress}",
+    "ID": "claimantAndRespondentAddressesLabel",
+    "Label": "${claimantAndRespondentAddresses}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
