@@ -1,5 +1,10 @@
 [
   {
+    "CaseTypeId": "ET_Scotland",
+    "UserRole": "caseworker-ET-pcqextractor",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment",
