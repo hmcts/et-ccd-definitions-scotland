@@ -1,12 +1,12 @@
 [
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
     "UserRole": "caseworker-ET-pcqextractor",
     "CRUD": "R"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-ET-pcqextractor",
     "CRUD": "R"

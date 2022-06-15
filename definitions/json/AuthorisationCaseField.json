@@ -1,25 +1,25 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ClaimantPcqId",	
+    "CaseFieldID": "ClaimantPcqId",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ClaimantPcqId",	
+    "CaseFieldID": "ClaimantPcqId",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ClaimantPcqId",	
+    "CaseFieldID": "ClaimantPcqId",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "pcqId",	
+    "CaseFieldID": "pcqId",
     "UserRole": "caseworker-ET-pcqextractor",
     "CRUD": "R"
   },
@@ -4147,6 +4147,36 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "ecmOfficeCT",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -4177,57 +4207,93 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "otherTypeDocumentName",
+    "CaseFieldID": "selectAllThatApply",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentRecipient",
+    "CaseFieldID": "selectAllThatApply",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentRecipient",
+    "CaseFieldID": "selectAllThatApply",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentRecipient",
+    "CaseFieldID": "selectAllThatApply",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "servingDocumentRecipient",
+    "CaseFieldID": "selectAllThatApply",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentName",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentName",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentName",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentName",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentName",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentNameLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentNameLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentNameLabel",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentNameLabel",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "otherTypeDocumentNameLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",

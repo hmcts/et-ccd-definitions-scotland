@@ -580,7 +580,6 @@
     "PageID": 9,
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 1,
-    "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -879,11 +878,9 @@
     "PageID": 9,
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 1,
-    "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
-
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "preAcceptanceCase",
@@ -2430,7 +2427,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
- {
+  {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "caseTransferECM",
     "CaseFieldID": "reasonForCT",

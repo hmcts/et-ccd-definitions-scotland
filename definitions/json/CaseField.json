@@ -1,23 +1,23 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "horizontalLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "ClaimantPcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "pcqId",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "horizontalLine",
-    "Label": "<hr>",
-    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
