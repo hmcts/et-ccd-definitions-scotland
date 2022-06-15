@@ -14,8 +14,8 @@
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "pcqId",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"

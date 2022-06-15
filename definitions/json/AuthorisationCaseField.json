@@ -1,25 +1,25 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ClaimantPcqId",	
+    "CaseFieldID": "ClaimantPcqId",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ClaimantPcqId",	
+    "CaseFieldID": "ClaimantPcqId",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ClaimantPcqId",	
+    "CaseFieldID": "ClaimantPcqId",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "pcqId",	
+    "CaseFieldID": "pcqId",
     "UserRole": "caseworker-ET-pcqextractor",
     "CRUD": "R"
   },
