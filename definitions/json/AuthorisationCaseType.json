@@ -5,27 +5,15 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   }, 
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeId": "ET_Scotland",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeId": "ET_Scotland",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
