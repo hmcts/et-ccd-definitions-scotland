@@ -5598,7 +5598,7 @@
     "ListElementCode": "dateAccepted",
     "EventElementLabel": "Date Accepted",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -5608,7 +5608,7 @@
     "ListElementCode": "dateRejected",
     "EventElementLabel": "Date Rejected",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -5618,7 +5618,7 @@
     "ListElementCode": "rejectReason",
     "EventElementLabel": "Reason for the rejection",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "READONLY",
     "RetainHiddenValue": "Yes"
   },
   {

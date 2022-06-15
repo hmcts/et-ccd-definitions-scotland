@@ -1,14 +1,21 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "horizontalLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "ClaimantPcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "pcqId",	
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pcqId",	
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -863,6 +870,43 @@
     "Label": "Upload document PDF",
     "FieldType": "Collection",
     "FieldTypeParameter": "ServingDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "selectAllThatApply",
+    "Label": "Select all that apply.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "servingDocumentRecipient",
+    "Label": " ",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_ServingDocumentRecipient",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "otherTypeDocumentName",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "otherTypeDocumentNameLabel",
+    "Label": "${otherTypeDocumentName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ecmOfficeCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_TribunalOffice",
     "SecurityClassification": "Public"
   },
   {
