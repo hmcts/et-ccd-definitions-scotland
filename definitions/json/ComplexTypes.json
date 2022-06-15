@@ -97,6 +97,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ClaimantCorrespondence",
+    "ListElementCode": "claimant_contact_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Contact language",
+    "FieldTypeParameter": "fl_ContactLanguage",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimantEmploymentDetails",
     "FieldType": "Label",
@@ -289,9 +297,37 @@
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_tribunal_recommendation ",
+    "ListElementCode": "claimant_tribunal_recommendation",
     "FieldType": "Text",
     "ElementLabel": "Tribunal recommendation request",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "whistleblowing",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Whistleblowing claim",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "whistleblowing_authority",
+    "FieldType": "Text",
+    "ElementLabel": "Whistleblowing authority",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claim_description",
+    "FieldType": "TextArea",
+    "ElementLabel": "Describe what happened to you",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claim_description_document",
+    "FieldType": "Document",
+    "ElementLabel": "Upload your summary as a separate document",
     "SecurityClassification": "Public"
   },
   {
@@ -4801,6 +4837,20 @@
     "ListElementCode": "hearing_assistance",
     "FieldType": "Text",
     "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "reasonable_adjustments",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you have a physical, mental or learning disability or long term health condition that means you need support during your case?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "reasonable_adjustments_detail",
+    "FieldType": "TextArea",
+    "ElementLabel": "Tell us what support you need to request",
     "SecurityClassification": "Public"
   },
   {

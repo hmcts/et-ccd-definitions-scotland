@@ -522,6 +522,12 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "fl_Sex",
+    "ListElementCode": "Prefer Not To Say",
+    "ListElement": "Prefer Not To Say",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "fl_RepresentativeContact",
     "ListElementCode": "Email",
     "ListElement": "Email",
@@ -621,6 +627,18 @@
     "ID": "fl_ContactPreference",
     "ListElementCode": "Post",
     "ListElement": "Post",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ContactLanguage",
+    "ListElementCode": "English",
+    "ListElement": "English",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ContactLanguage",
+    "ListElementCode": "Welsh",
+    "ListElement": "Welsh",
     "DisplayOrder": 2
   },
   {
