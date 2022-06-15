@@ -1,16 +1,16 @@
 [
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-ET-pcqextractor",
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   }, 
