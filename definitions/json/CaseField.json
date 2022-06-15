@@ -8,20 +8,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "ClaimantPcqId",
-    "Label": "PCQ ID",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "pcqId",
-    "Label": "PCQ ID",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",

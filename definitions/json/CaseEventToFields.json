@@ -574,18 +574,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "INITIATE_CASE_DRAFT",
-    "CaseFieldID": "ClaimantPcqId",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
-    "PageFieldDisplayOrder": 1,
-    "RetainHiddenValue": "Yes",
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "receiptDate",
     "DisplayContext": "MANDATORY",
@@ -871,19 +859,6 @@
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "ClaimantPcqId",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
-    "PageFieldDisplayOrder": 1,
-    "RetainHiddenValue": "Yes",
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "preAcceptanceCase",
