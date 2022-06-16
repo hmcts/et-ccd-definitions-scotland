@@ -8,6 +8,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "typeOfClaim",
+    "Label": "Type Of Claim",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "ClaimantPcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
@@ -907,6 +914,13 @@
     "Label": "Select office to transfer case to",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTaskListChecks",
+    "Label": "Task list check",
+    "FieldType": "TaskListCheck",
     "SecurityClassification": "Public"
   },
   {

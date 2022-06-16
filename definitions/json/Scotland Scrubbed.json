@@ -523,8 +523,8 @@
   },
   {
     "ID": "fl_Sex",
-    "ListElementCode": "Prefer Not To Say",
-    "ListElement": "Prefer Not To Say",
+    "ListElementCode": "Prefer not to say",
+    "ListElement": "Prefer not to say",
     "DisplayOrder": 3
   },
   {
