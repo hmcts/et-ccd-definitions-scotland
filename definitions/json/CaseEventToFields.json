@@ -2326,6 +2326,39 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Before you start",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "CaseFieldID": "vettingBeforeLink",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "caseVetting",
+    "CaseFieldID": "vettingBeforeLinkLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "servingDocumentCollection",
     "DisplayContext": "MANDATORY",
