@@ -4581,19 +4581,19 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "vettingBeforeLink",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "vettingBeforeLink",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "vettingBeforeLink",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4611,19 +4611,19 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "vettingBeforeLinkLabel",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "vettingBeforeLinkLabel",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "vettingBeforeLinkLabel",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
