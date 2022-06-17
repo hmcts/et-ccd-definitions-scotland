@@ -874,6 +874,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "vettingBeforeLink",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "vettingBeforeLinkLabel",
+    "Label": "${vettingBeforeLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "servingDocumentCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",
