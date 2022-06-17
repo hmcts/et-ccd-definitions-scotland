@@ -50,6 +50,7 @@
     "Description": "Vetting a case",
     "DisplayOrder": 6,
     "PreConditionState(s)": "Submitted",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseCaseVetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
