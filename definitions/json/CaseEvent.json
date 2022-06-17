@@ -68,6 +68,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3Vetting",
+    "Name": "ET3 Vetting",
+    "Description": "ET3 Vetting",
+    "DisplayOrder": 8,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "acceptRejectedCase",
     "Name": "Accept Case",
     "Description": "Accept Case",
