@@ -528,6 +528,24 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "fl_StillWorking",
+    "ListElementCode": "Working",
+    "ListElement": "Working",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_StillWorking",
+    "ListElementCode": "Notice",
+    "ListElement": "Notice",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_StillWorking",
+    "ListElementCode": "No longer working",
+    "ListElement": "No longer working",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "fl_RepresentativeContact",
     "ListElementCode": "Email",
     "ListElement": "Email",
