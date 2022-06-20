@@ -2524,7 +2524,26 @@
     "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
-
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3VettingBeforeYouStart",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
   {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
