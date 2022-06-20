@@ -858,6 +858,12 @@
     "CRUD": "CRUD"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-scotland",

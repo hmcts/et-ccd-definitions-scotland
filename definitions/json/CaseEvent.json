@@ -425,6 +425,17 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsideration",
+    "Name": "Initial Consideration",
+    "Description": "Start page of the Initial Consideration process",
+    "DisplayOrder": 37,
+    "PreConditionState(s)": "Accepted;AWAITING_SUBMISSION_TO_HMCTS;Submitted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
