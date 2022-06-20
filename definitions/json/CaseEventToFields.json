@@ -124,6 +124,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "typeOfClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimant_TypeOfClaimant",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
@@ -287,6 +298,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "DisplayContext": "COMPLEX",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "receiptDate",
     "DisplayContext": "MANDATORY",
@@ -404,6 +426,17 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 10,
     "FieldShowCondition": "caseType=\"Multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "typeOfClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -569,6 +602,17 @@
     "PageDisplayOrder": 8,
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "claimantRepresentedQuestion=\"Yes\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "DisplayContext": "COMPLEX",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -708,6 +752,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "typeOfClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimant_TypeOfClaimant",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
@@ -867,6 +922,17 @@
     "PageDisplayOrder": 8,
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "claimantRepresentedQuestion=\"Yes\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "DisplayContext": "COMPLEX",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
