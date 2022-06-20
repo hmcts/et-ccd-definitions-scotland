@@ -860,6 +860,12 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
