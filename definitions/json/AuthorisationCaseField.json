@@ -4634,13 +4634,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3VettingBeforeYouStart",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3VettingBeforeYouStart",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
