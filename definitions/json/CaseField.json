@@ -22,7 +22,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "pcqId",	
+    "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -873,6 +873,28 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "ecmOfficeCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "vettingBeforeLink",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "vettingBeforeLinkLabel",
+    "Label": "${vettingBeforeLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "servingDocumentCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",
@@ -910,10 +932,72 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "ecmOfficeCT",
-    "Label": "Select office to transfer case to",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_TribunalOffice",
+    "ID": "printAndSendPaperDocuments",
+    "Label": "<hr><h2>Print and send paper documents<h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAndRespondentAddresses",
+    "Label": "claimantAndRespondentAddresses",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAndRespondentAddressesLabel",
+    "Label": "${claimantAndRespondentAddresses}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasTitle",
+    "Label": "<h2>Email documents to Acas</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailLinkToAcas",
+    "Label": "Email link to Acas placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasLink",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasInstructions",
+    "Label": "Instructions for the content of the email are on the 'Sending general correspondence to Acas via email' job card.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3VettingBeforeYouStart",
+    "Label": "To help you complete this, open the ET1 form and additional documents the claimant or respondent may have uploaded in the <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\"> Documents tab (opens in a new tab)</a>.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
