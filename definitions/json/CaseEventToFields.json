@@ -433,7 +433,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 11,
