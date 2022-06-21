@@ -2702,6 +2702,43 @@
     "PageFieldDisplayOrder": 4
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateLabelRule21Individual",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IndividualInsolvencyDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesRule21Individual",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

@@ -410,6 +410,13 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "CaseFieldID": "et3IndividualInsolvencyDocument",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
     "TabDisplayOrder": 14,

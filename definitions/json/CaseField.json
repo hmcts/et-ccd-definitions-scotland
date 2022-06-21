@@ -1072,6 +1072,35 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3DateLabelRule21Individual",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IsThereAnIndividualSearchDocument",
+    "Label": "Is there an individual insolvency search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IndividualInsolvencyDocument",
+    "Label": "Upload the individual insolvency search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesRule21Individual",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
