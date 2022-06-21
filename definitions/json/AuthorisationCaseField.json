@@ -4970,13 +4970,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateLabelRule21Individual",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateLabelRule21Individual",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -5000,13 +5000,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -5030,13 +5030,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IndividualInsolvencyDocument",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IndividualInsolvencyDocument",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -5060,13 +5060,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesRule21Individual",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesRule21Individual",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
