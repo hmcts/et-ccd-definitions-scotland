@@ -1058,7 +1058,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3UploadDocument1",
+    "ID": "et3CompanyHouseDocument",
     "Label": "Upload the Companies House search document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",

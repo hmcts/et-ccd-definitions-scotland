@@ -2685,7 +2685,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,

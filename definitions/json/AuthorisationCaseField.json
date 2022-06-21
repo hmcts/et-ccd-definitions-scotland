@@ -4903,31 +4903,31 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
