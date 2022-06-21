@@ -430,7 +430,7 @@
     "Name": "Initial Consideration",
     "Description": "Start page of the Initial Consideration process",
     "DisplayOrder": 37,
-    "PreConditionState(s)": "Accepted;AWAITING_SUBMISSION_TO_HMCTS;Submitted",
+    "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
