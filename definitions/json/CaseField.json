@@ -881,15 +881,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "vettingBeforeLink",
+    "ID": "et1VettingBeforeYouStart",
     "Label": "Serving document other type name placeholder",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "vettingBeforeLinkLabel",
-    "Label": "${vettingBeforeLink}",
+    "ID": "et1VettingBeforeYouStartLabel",
+    "Label": "${et1VettingBeforeYouStart}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

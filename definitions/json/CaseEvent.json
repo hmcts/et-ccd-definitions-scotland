@@ -45,12 +45,12 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "caseVetting",
+    "ID": "et1Vetting",
     "Name": "ET1 case vetting",
     "Description": "Vetting a case",
     "DisplayOrder": 6,
     "PreConditionState(s)": "Submitted",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseCaseVetting",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
