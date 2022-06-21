@@ -76,7 +76,8 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3VettingStart"
   },
   {
     "CaseTypeID": "ET_Scotland",
