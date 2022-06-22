@@ -1065,13 +1065,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etInitialConsiderationBeforeYouStart",
-    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",
@@ -1159,6 +1152,13 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationBeforeYouStart",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etInitialConsiderationWhatHappensNext",
+    "Label": "<hr>A tribunal caseworker will act on any instructions set out in your initial consideration to progress the case. You can <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">view the initial consideration document in the Documents tab (opens in a new tab)</a>.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
