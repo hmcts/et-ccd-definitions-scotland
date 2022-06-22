@@ -403,13 +403,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseDocuments",
-    "CaseFieldID": "et3CompanyHouseDocument",
-    "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
     "TabDisplayOrder": 14,
