@@ -2740,10 +2740,20 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ChooseRespondent",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "Select Respondent",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3Date",
     "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
     "PageColumnNumber": 1
@@ -2753,8 +2763,8 @@
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3DateLabel",
     "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
@@ -2763,8 +2773,8 @@
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereAnEt3Response",
     "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
   },
@@ -2773,8 +2783,8 @@
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3NoEt3Response",
     "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "et3IsThereAnEt3Response=\"No\"",
     "ShowSummaryChangeOption": "Y"
@@ -2784,9 +2794,9 @@
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3GeneralNotes",
     "DisplayContext": "OPTIONAL",
-    "PageID": 2,
+    "PageID": 3,
     "PageLabel": "",
-    "PageDisplayOrder": 2,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y"
   },
