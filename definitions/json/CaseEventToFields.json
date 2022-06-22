@@ -2446,7 +2446,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et1Vetting",
     "CaseFieldID": "substantiveDefectsList",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 3
