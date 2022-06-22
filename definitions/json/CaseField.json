@@ -7,6 +7,27 @@
     "SecurityClassification": "Public"
   },
   {
+  "CaseTypeID": "ET_Scotland",
+  "ID": "horizontalLine2",
+  "Label": "<hr>",
+  "FieldType": "Label",
+  "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "horizontalLine3",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "typeOfClaim",
+    "Label": "Type Of Claim",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland",
     "ID": "ClaimantPcqId",
     "Label": "PCQ ID",
@@ -15,7 +36,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "pcqId",	
+    "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -866,6 +887,28 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "ecmOfficeCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingBeforeYouStart",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingBeforeYouStartLabel",
+    "Label": "${et1VettingBeforeYouStart}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "servingDocumentCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",
@@ -903,10 +946,213 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "ecmOfficeCT",
-    "Label": "Select office to transfer case to",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_TribunalOffice",
+    "ID": "printAndSendPaperDocuments",
+    "Label": "<hr><h2>Print and send paper documents<h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAndRespondentAddresses",
+    "Label": "claimantAndRespondentAddresses",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAndRespondentAddressesLabel",
+    "Label": "${claimantAndRespondentAddresses}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasTitle",
+    "Label": "<h2>Email documents to Acas</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailLinkToAcas",
+    "Label": "Email link to Acas placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasLink",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "emailDocsToAcasInstructions",
+    "Label": "Instructions for the content of the email are on the 'Sending general correspondence to Acas via email' job card.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3VettingBeforeYouStart",
+    "Label": "To help you complete this, open the ET1 form and additional documents the claimant or respondent may have uploaded in the <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\"> Documents tab (opens in a new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTaskListChecks",
+    "Label": "Task list check",
+    "FieldType": "TaskListCheck",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3Date",
+    "Label": "et3Date",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3DateLabel",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IsThereAnEt3Response",
+    "Label": "Is there an ET3 response?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3NoEt3Response",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotes",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ChooseRespondent",
+    "Label": "Select the respondent you are processing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etInitialConsiderationBeforeYouStart",
+    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "possibleSubstantiveDefects",
+    "Label": "<h2>Possible substantive defects</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "substantiveDefectsList",
+    "Label": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_Defects",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121aTextArea",
+    "Label": "The tribunal has no jurisdiction to consider",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121bTextArea",
+    "Label": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121cTextArea",
+    "Label": "Has neither an EC number nor claims one of the EC exemptions",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121dTextArea",
+    "Label": "States that one of the EC exceptions applies but it might not",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121daTextArea",
+    "Label": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121eTextArea",
+    "Label": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule121fTextArea",
+    "Label": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SubstantiveDefectsGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SubstantiveDefectsGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
