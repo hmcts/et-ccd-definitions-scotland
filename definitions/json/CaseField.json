@@ -1044,6 +1044,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3ChooseRespondent",
+    "Label": "Select the respondent you are processing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationBeforeYouStart",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
     "FieldType": "Label",
