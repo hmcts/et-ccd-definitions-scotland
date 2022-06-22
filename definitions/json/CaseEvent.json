@@ -438,6 +438,17 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsideration",
+    "Name": "Initial Consideration",
+    "Description": "Initial Consideration",
+    "DisplayOrder": 38,
+    "PreConditionState(s)": "Accepted;Submitted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
