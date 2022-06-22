@@ -2834,7 +2834,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3GeneralNotesRule21",
+    "CaseFieldID": "et3GeneralNotesCompanyHouse",
     "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,

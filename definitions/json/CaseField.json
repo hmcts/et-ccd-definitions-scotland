@@ -1087,7 +1087,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3GeneralNotesRule21",
+    "ID": "et3GeneralNotesCompanyHouse",
     "Label": "General Notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
