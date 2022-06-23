@@ -2826,18 +2826,6 @@
     "PageColumnNumber": 1
   },
   {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationWhatHappensNext",
-    "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageLabel": "What happens next",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
