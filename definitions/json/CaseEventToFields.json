@@ -2915,7 +2915,6 @@
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Rule 21 referral",
-    "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
     "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
