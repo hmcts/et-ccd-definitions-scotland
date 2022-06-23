@@ -2588,7 +2588,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"aClaimOfInterimRelief\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"aClaimOfInterimRelief\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2598,7 +2598,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 5,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"aStatutoryAppeal\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"aStatutoryAppeal\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2608,7 +2608,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 6,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"anAllegationOfCommissionOfSexualOffence\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"anAllegationOfCommissionOfSexualOffence\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2618,7 +2618,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"insolvency\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"insolvency\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2628,7 +2628,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"jurisdictionsUnclear\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"jurisdictionsUnclear\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2638,7 +2638,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 9,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"lengthOfService\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"lengthOfService\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2648,7 +2648,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 10,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"potentiallyLinkedCasesInTheEcm\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"potentiallyLinkedCasesInTheEcm\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2658,7 +2658,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 11,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"rule50Issues\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"rule50Issues\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2668,7 +2668,7 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 12,
-    "FieldShowCondition": "substantiveDefectsList CONTAINS \"anotherReasonForJudicialReferral\""
+    "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"anotherReasonForJudicialReferral\""
   },
   {
     "CaseTypeID": "ET_Scotland",
