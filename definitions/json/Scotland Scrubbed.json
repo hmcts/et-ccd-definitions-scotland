@@ -4305,5 +4305,23 @@
     "ListElementCode": "rule121f",
     "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 12 (1)(f)",
     "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_respondent_legal_entity",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_respondent_legal_entity",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_respondent_legal_entity",
+    "ListElementCode": "Don't know",
+    "ListElement": "Don't know",
+    "DisplayOrder": 3
   }
 ]
