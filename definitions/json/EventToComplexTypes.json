@@ -5881,5 +5881,14 @@
     "EventElementLabel": "Document Upload",
     "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "JurisdictionCode",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "vettingJurisdictionCodeCollection",
+    "ListElementCode": "dynamicJurisdictionCodeElement",
+    "EventElementLabel": "Jurisdiction code",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
   }
 ]

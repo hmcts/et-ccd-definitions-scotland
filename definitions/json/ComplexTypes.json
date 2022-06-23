@@ -4910,5 +4910,12 @@
     "FieldType": "Text",
     "ElementLabel": "Short Description",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JurisdictionCode",
+    "ListElementCode": "dynamicJurisdictionCode",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Jurisdiction code",
+    "SecurityClassification": "Public"
   }
 ]
