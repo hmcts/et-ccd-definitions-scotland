@@ -1217,6 +1217,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3LegalIssue",
     "Label": "Is there an issue with whether the respondent is a legal entity?",
+    "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_respondent_legal_entity",
     "SecurityClassification": "Public"

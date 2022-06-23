@@ -2812,13 +2812,14 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageLabel": "Rule 21 referral"
+    "PageLabel": "Rule 21 referral",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 2
@@ -2874,13 +2875,14 @@
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "Rule 21 referral"
+    "PageLabel": "Rule 21 referral",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 2
@@ -2912,7 +2914,8 @@
     "PageID": 6,
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "Rule 21 referral"
+    "PageLabel": "Rule 21 referral",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
