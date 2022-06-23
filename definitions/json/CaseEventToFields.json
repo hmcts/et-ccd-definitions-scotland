@@ -1868,6 +1868,7 @@
     "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
     "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/hearingdetails/hearingMidEventValidation",
     "PageColumnNumber": 1
   },
   {
