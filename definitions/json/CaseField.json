@@ -1156,6 +1156,35 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3DateCompanyHousePage",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IsThereACompaniesHouseSearchDocument",
+    "Label": "Is there a Companies House search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3CompanyHouseDocument",
+    "Label": "Upload the Companies House search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesCompanyHouse",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

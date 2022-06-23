@@ -2757,7 +2757,8 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "PageLabel": "Minimum required information"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2800,6 +2801,45 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateCompanyHousePage",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageLabel": "Minimum required information"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3CompanyHouseDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesCompanyHouse",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_Scotland",
