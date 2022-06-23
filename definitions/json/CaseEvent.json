@@ -45,12 +45,12 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "caseVetting",
+    "ID": "et1Vetting",
     "Name": "ET1 case vetting",
     "Description": "Vetting a case",
     "DisplayOrder": 6,
     "PreConditionState(s)": "Submitted",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseCaseVetting",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
@@ -77,7 +77,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3VettingStart"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -434,6 +434,17 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "Transferred",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferToEcm",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsideration",
+    "Name": "Initial Consideration",
+    "Description": "Initial Consideration",
+    "DisplayOrder": 38,
+    "PreConditionState(s)": "Accepted;Submitted",
+    "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
