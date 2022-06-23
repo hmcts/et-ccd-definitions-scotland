@@ -2819,7 +2819,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 2
@@ -2882,7 +2882,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 2
@@ -2915,6 +2915,7 @@
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Rule 21 referral",
+    "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
     "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
