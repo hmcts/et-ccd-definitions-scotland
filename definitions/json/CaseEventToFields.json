@@ -125,7 +125,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 11,
