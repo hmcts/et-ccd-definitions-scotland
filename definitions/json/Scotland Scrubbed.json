@@ -4307,6 +4307,60 @@
     "DisplayOrder": 7
   },
   {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "\"aClaimOfInterimRelief",
+    "ListElement": "A claim of interim relief",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "aStatutoryAppeal",
+    "ListElement": "A statutory appeal",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "anAllegationOfCommissionOfSexualOffence",
+    "ListElement": "An allegation of commission of sexual offence",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "insolvency",
+    "ListElement": "Insolvency",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "jurisdictionsUnclear",
+    "ListElement": "Jurisdictions unclear",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "lengthOfService",
+    "ListElement": "Length of service",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "potentiallyLinkedCasesInTheEcm",
+    "ListElement": "Potentially linked cases in the ECM",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "rule50Issues",
+    "ListElement": "Rule 50 issues",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "anotherReasonForJudicialReferral",
+    "ListElement": "Another reason for judicial referral",
+    "DisplayOrder": 9
+  },
+  {
     "ID": "fl_respondent_legal_entity",
     "ListElementCode": "Yes",
     "ListElement": "Yes",
