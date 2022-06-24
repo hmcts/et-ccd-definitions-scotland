@@ -2895,7 +2895,8 @@
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
     "PageColumnNumber": 1,
-    "PageLabel": "Minimum required information"
+    "PageLabel": "Minimum required information",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/calculateResponseInTime"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3071,6 +3072,39 @@
     "PageID": 6,
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ResponseInTimeDateLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 7,
+    "PageLabel": "Minimum required information",
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ResponseInTime",
+    "DisplayContext": "MANDATORY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ResponseInTimeDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "et3ResponseInTime=\"Yes\" OR et3ResponseInTime=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
