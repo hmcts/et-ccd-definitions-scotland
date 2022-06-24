@@ -4308,7 +4308,7 @@
   },
   {
     "ID": "msl_judgeOrLO",
-    "ListElementCode": "\"aClaimOfInterimRelief",
+    "ListElementCode": "aClaimOfInterimRelief",
     "ListElement": "A claim of interim relief",
     "DisplayOrder": 1
   },
