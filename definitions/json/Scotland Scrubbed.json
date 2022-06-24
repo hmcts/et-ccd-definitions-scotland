@@ -4305,5 +4305,17 @@
     "ListElementCode": "rule121f",
     "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 12 (1)(f)",
     "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_isTrackAllocationCorrect",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_isTrackAllocationCorrect",
+    "ListElementCode": "No - suggest another track",
+    "ListElement": "No - suggest another track",
+    "DisplayOrder": 2
   }
 ]

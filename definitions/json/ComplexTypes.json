@@ -4913,9 +4913,10 @@
   },
   {
     "ID": "JurisdictionCode",
-    "ListElementCode": "dynamicJurisdictionCode",
-    "FieldType": "DynamicList",
+    "ListElementCode": "et1VettingJurCodeList",
+    "FieldType": "FixedList",
     "ElementLabel": "Jurisdiction code",
+    "FieldTypeParameter": "fl_jurisdictionCodes",
     "SecurityClassification": "Public"
   }
 ]

@@ -2428,6 +2428,7 @@
     "CaseEventID": "et1Vetting",
     "CaseFieldID": "horizontalLine2",
     "DisplayContext": "READONLY",
+    "PageLabel": "Case details",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
@@ -2556,6 +2557,7 @@
     "CaseFieldID": "existingJurisdictionCodes",
     "FieldShowCondition": "et1SubstantiveDefectsGeneralNotes=\"dummy\"",
     "DisplayContext": "READONLY",
+    "PageLabel": "Case details",
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 1
@@ -2619,10 +2621,67 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et1Vetting",
     "CaseFieldID": "et1JurisdictionCodeGeneralNotes",
+    "CallBackURLMidEvent": "${ET_COS_URL}/jurisdictionCodes",
     "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocation",
+    "FieldShowCondition": "et1SubstantiveDefectsGeneralNotes=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageLabel": "Case details",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocationLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "isTrackAllocationCorrectLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "isTrackAllocationCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocationGeneralNotesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocationGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland",

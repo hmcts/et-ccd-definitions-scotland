@@ -1185,17 +1185,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "vettingJurisdictionCodeCollection",
+    "ID": "et1VettingJurCodeList",
     "Label": " ",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "JurisdictionCode",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_jurisdictionCodes",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "dynamicJurisdictionCode",
+    "ID": "vettingJurisdictionCodeCollection",
     "Label": " ",
-    "FieldType": "DynamicList",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "JurisdictionCode",
     "SecurityClassification": "Public"
   },
   {
@@ -1208,6 +1209,49 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1JurisdictionCodeGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocation",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocationLabel",
+    "Label": "${trackAllocation}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isTrackAllocationCorrectLabel",
+    "Label": "**Is the track allocation correct?**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isTrackAllocationCorrect",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_isTrackAllocationCorrect",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocationGeneralNotesLabel",
+    "Label": "**General notes (Optional)**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocationGeneralNotes",
     "Label": " ",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
