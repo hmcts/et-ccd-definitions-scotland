@@ -4308,7 +4308,7 @@
   },
   {
     "ID": "msl_REJOrVP",
-    "ListElementCode": "\"vexatiousLitigantOrder",
+    "ListElementCode": "vexatiousLitigantOrder",
     "ListElement": "A claimant covered by vexatious litigant order",
     "DisplayOrder": 1
   },
