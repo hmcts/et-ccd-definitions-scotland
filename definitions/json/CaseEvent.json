@@ -445,6 +445,7 @@
     "DisplayOrder": 38,
     "PreConditionState(s)": "Accepted;Submitted",
     "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
