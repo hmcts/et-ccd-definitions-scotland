@@ -124,17 +124,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
-    "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimant_TypeOfClaimant",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
@@ -433,7 +422,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 11,
