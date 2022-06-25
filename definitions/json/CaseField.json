@@ -1058,6 +1058,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3ChooseRespondent",
+    "Label": "Select the respondent you are processing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationBeforeYouStart",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
     "FieldType": "Label",
@@ -1144,6 +1151,223 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1SubstantiveDefectsGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3DateCompanyHousePage",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IsThereACompaniesHouseSearchDocument",
+    "Label": "Is there a Companies House search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3CompanyHouseDocument",
+    "Label": "Upload the Companies House search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesCompanyHouse",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3DateIndividualInsolvency",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IsThereAnIndividualSearchDocument",
+    "Label": "Is there an individual insolvency search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3IndividualInsolvencyDocument",
+    "Label": "Upload the individual insolvency search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesIndividualInsolvency",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3LegalIssue",
+    "Label": "Is there an issue with whether the respondent is a legal entity?",
+    "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_respondent_legal_entity",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesLegalEntity",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3LegalIssueGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseInTimeDateLabel",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseInTime",
+    "Label": "Did we receive the ET3 response in time",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseInTimeDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "possibleJudgeOrLOReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralToJudgeOrLOList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_judgeOrLO",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "aClaimOfInterimReliefTextArea",
+    "Label": "A claim of interim relief",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "aStatutoryAppealTextArea",
+    "Label": "A statutory appeal",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anAllegationOfCommissionOfSexualOffenceTextArea",
+    "Label": "An allegation of commission of sexual offence",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "insolvencyTextArea",
+    "Label": "Insolvency",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jurisdictionsUnclearTextArea",
+    "Label": "Jurisdictions unclear",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "lengthOfServiceTextArea",
+    "Label": "Length of service",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "potentiallyLinkedCasesInTheEcmTextArea",
+    "Label": "Potentially linked cases in the ECM",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule50IssuesTextArea",
+    "Label": "Rule 50 issues",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anotherReasonForJudicialReferralTextArea",
+    "Label": "Another reason for judicial referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralGeneralNotes",
     "Label": " ",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"

@@ -484,6 +484,31 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "extensionRequested",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Has there been a request for an extension?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "extensionGranted",
+    "FieldType": "YesOrNo",
+    "RetainHiddenValue": "Yes",
+    "ElementLabel": "Has the request for extension been granted?",
+    "FieldShowCondition": "extensionRequested=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "extensionDate",
+    "FieldType": "Date",
+    "ElementLabel": "Enter the extension date",
+    "FieldShowCondition": "extensionGranted=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseReceived",
     "FieldType": "YesOrNo",
     "ElementLabel": "Has the ET3 form been received?",
@@ -4456,6 +4481,13 @@
     "ElementLabel": "Is there a room?",
     "FieldShowCondition": "hearingDocETCL=\"Public\" OR hearingDocETCL=\"Staff\"",
     "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ListingType",
+    "ListElementCode": "managingOffice",
+    "FieldType": "Text",
+    "ElementLabel": "Managing Office",
     "SecurityClassification": "Public"
   },
   {
