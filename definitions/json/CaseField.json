@@ -896,7 +896,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingBeforeYouStart",
-    "Label": "Serving document other type name placeholder",
+    "Label": "Before You Start placeholder",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -905,6 +905,62 @@
     "ID": "et1VettingBeforeYouStartLabel",
     "Label": "${et1VettingBeforeYouStart}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingContactDetailsLabel",
+    "Label": "<hr><h2>Contact Details</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingClaimantDetailsMarkUp",
+    "Label": "Claimant Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingClaimantDetailsLabel",
+    "Label": "${et1VettingClaimantDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentDetailsMarkUp",
+    "Label": "Respondent Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentDetailsLabel",
+    "Label": "${et1VettingRespondentDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingCanServeClaimYesOrNo",
+    "Label": "Can we serve the claim with these contact details?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingCanServeClaimNoReason",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingCanServeClaimGeneralNote",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
