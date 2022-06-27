@@ -4923,7 +4923,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4953,7 +4953,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimNoReason",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4983,7 +4983,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
