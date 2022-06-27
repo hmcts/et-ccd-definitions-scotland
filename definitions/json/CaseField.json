@@ -1344,6 +1344,241 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseInTimeDateLabel",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseInTime",
+    "Label": "Did we receive the ET3 response in time",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseInTimeDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "possibleJudgeOrLOReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralToJudgeOrLOList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_judgeOrLO",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "aClaimOfInterimReliefTextArea",
+    "Label": "A claim of interim relief",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "aStatutoryAppealTextArea",
+    "Label": "A statutory appeal",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anAllegationOfCommissionOfSexualOffenceTextArea",
+    "Label": "An allegation of commission of sexual offence",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "insolvencyTextArea",
+    "Label": "Insolvency",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jurisdictionsUnclearTextArea",
+    "Label": "Jurisdictions unclear",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "lengthOfServiceTextArea",
+    "Label": "Length of service",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "potentiallyLinkedCasesInTheEcmTextArea",
+    "Label": "Potentially linked cases in the ECM",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule50IssuesTextArea",
+    "Label": "Rule 50 issues",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anotherReasonForJudicialReferralTextArea",
+    "Label": "Another reason for judicial referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JudgeReferralGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1OtherReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "possibleOtherReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "otherReferralList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_otherFactors",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimOutOfTimeTextArea",
+    "Label": "The whole or any part of the claim is out of time",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleClaimTextArea",
+    "Label": "The claim is part of a multiple claim",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "employmentStatusIssuesTextArea",
+    "Label": "The claim has a potential issue about employment status",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pidJurisdictionRegulatorTextArea",
+    "Label": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "videoHearingPreferenceTextArea",
+    "Label": "The claimant prefers a video hearing",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rule50IssuesForOtherReferralTextArea",
+    "Label": "The claim has Rule 50 issues",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anotherReasonForOtherReferralTextArea",
+    "Label": "The claim has other relevant factors for judicial referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1OtherReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1OtherReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1OtherReferralGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

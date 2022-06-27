@@ -4307,6 +4307,60 @@
     "DisplayOrder": 7
   },
   {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "aClaimOfInterimRelief",
+    "ListElement": "A claim of interim relief",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "aStatutoryAppeal",
+    "ListElement": "A statutory appeal",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "anAllegationOfCommissionOfSexualOffence",
+    "ListElement": "An allegation of commission of sexual offence",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "insolvency",
+    "ListElement": "Insolvency",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "jurisdictionsUnclear",
+    "ListElement": "Jurisdictions unclear",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "lengthOfService",
+    "ListElement": "Length of service",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "potentiallyLinkedCasesInTheEcm",
+    "ListElement": "Potentially linked cases in the ECM",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "rule50Issues",
+    "ListElement": "Rule 50 issues",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "anotherReasonForJudicialReferral",
+    "ListElement": "Another reason for judicial referral",
+    "DisplayOrder": 9
+  },
+  {
     "ID": "msl_REJOrVP",
     "ListElementCode": "vexatiousLitigantOrder",
     "ListElement": "A claimant covered by vexatious litigant order",
@@ -4353,6 +4407,48 @@
     "ListElementCode": "anotherReasonREJOrVP",
     "ListElement": "Another reason for Regional Employment Judge / Vice-President referral",
     "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "claimOutOfTime",
+    "ListElement": "The whole or any part of the claim is out of time",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "multipleClaim",
+    "ListElement": "The claim is part of a multiple claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "employmentStatusIssues",
+    "ListElement": "The claim has a potential issue about employment status",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "pidJurisdictionRegulator",
+    "ListElement": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "videoHearingPreference",
+    "ListElement": "The claimant prefers a video hearing",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "rule50IssuesOtherFactors",
+    "ListElement": "The claim has Rule 50 issues",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "otherRelevantFactors",
+    "ListElement": "The claim has other relevant factors for judicial referral",
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_respondent_legal_entity",
