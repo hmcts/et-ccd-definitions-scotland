@@ -909,113 +909,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et1REJOrVPReferralLine1",
-    "Label": "<hr>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "possibleREJOrVPReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "referralToREJOrVPList",
-    "Label": "Select all that apply.",
-    "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "msl_REJOrVP",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "vexatiousLitigantOrderTextArea",
-    "Label": "A claimant covered by vexatious litigant order",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "aNationalSecurityIssueTextArea",
-    "Label": "A national security issue",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "nationalMultipleOrPresidentialOrderTextArea",
-    "Label": "A part of national multiple / covered by Presidential case management order",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "transferToOtherRegionTextArea",
-    "Label": "A request for transfer to another ET region",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "serviceAbroadTextArea",
-    "Label": "A request for service abroad",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "aSensitiveIssueTextArea",
-    "Label": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "anyPotentialConflictTextArea",
-    "Label": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "anotherReasonREJOrVPTextArea",
-    "Label": "Another reason for Regional Employment Judge / Vice-President referral",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1REJOrVPReferralLine2",
-    "Label": "<hr>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1REJOrVPReferralGeneralNotesLabel",
-    "Label": "**<big>General notes (Optional)</big>**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1REJOrVPReferralGeneralNotes",
-    "Label": " ",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "servingDocumentCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",
@@ -1475,6 +1368,113 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1JudgeReferralGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1REJOrVPReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "possibleREJOrVPReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralToREJOrVPList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_REJOrVP",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "vexatiousLitigantOrderTextArea",
+    "Label": "A claimant covered by vexatious litigant order",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "aNationalSecurityIssueTextArea",
+    "Label": "A national security issue",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "nationalMultipleOrPresidentialOrderTextArea",
+    "Label": "A part of national multiple / covered by Presidential case management order",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "transferToOtherRegionTextArea",
+    "Label": "A request for transfer to another ET region",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "serviceAbroadTextArea",
+    "Label": "A request for service abroad",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "aSensitiveIssueTextArea",
+    "Label": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anyPotentialConflictTextArea",
+    "Label": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "anotherReasonREJOrVPTextArea",
+    "Label": "Another reason for Regional Employment Judge / Vice-President referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1REJOrVPReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1REJOrVPReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1REJOrVPReferralGeneralNotes",
     "Label": " ",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
