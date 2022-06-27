@@ -4308,7 +4308,7 @@
   },
   {
     "ID": "msl_judgeOrLO",
-    "ListElementCode": "\"aClaimOfInterimRelief",
+    "ListElementCode": "aClaimOfInterimRelief",
     "ListElement": "A claim of interim relief",
     "DisplayOrder": 1
   },
@@ -4359,6 +4359,96 @@
     "ListElementCode": "anotherReasonForJudicialReferral",
     "ListElement": "Another reason for judicial referral",
     "DisplayOrder": 9
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "vexatiousLitigantOrder",
+    "ListElement": "A claimant covered by vexatious litigant order",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "aNationalSecurityIssue",
+    "ListElement": "A national security issue",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "nationalMultipleOrPresidentialOrder",
+    "ListElement": "A part of national multiple / covered by Presidential case management order",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "transferToOtherRegion",
+    "ListElement": "A request for transfer to another ET region",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "serviceAbroad",
+    "ListElement": "A request for service abroad",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "aSensitiveIssue",
+    "ListElement": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "anyPotentialConflict",
+    "ListElement": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "anotherReasonREJOrVP",
+    "ListElement": "Another reason for Regional Employment Judge / Vice-President referral",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "claimOutOfTime",
+    "ListElement": "The whole or any part of the claim is out of time",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "multipleClaim",
+    "ListElement": "The claim is part of a multiple claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "employmentStatusIssues",
+    "ListElement": "The claim has a potential issue about employment status",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "pidJurisdictionRegulator",
+    "ListElement": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "videoHearingPreference",
+    "ListElement": "The claimant prefers a video hearing",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "rule50IssuesOtherFactors",
+    "ListElement": "The claim has Rule 50 issues",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "otherRelevantFactors",
+    "ListElement": "The claim has other relevant factors for judicial referral",
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_respondent_legal_entity",

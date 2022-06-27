@@ -2921,6 +2921,270 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1REJOrVPReferralLine1",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Possible referral to Regional Employment Judge or Vice-President",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "possibleREJOrVPReferralOptions",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "referralToREJOrVPList",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "vexatiousLitigantOrderTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"vexatiousLitigantOrder\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "aNationalSecurityIssueTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"aNationalSecurityIssue\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "nationalMultipleOrPresidentialOrderTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"nationalMultipleOrPresidentialOrder\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "transferToOtherRegionTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"transferToOtherRegion\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "serviceAbroadTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"serviceAbroad\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "aSensitiveIssueTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 9,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"aSensitiveIssue\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "anyPotentialConflictTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"anyPotentialConflict\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "anotherReasonREJOrVPTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 11,
+    "FieldShowCondition": "referralToREJOrVPList CONTAINS \"anotherReasonREJOrVP\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1REJOrVPReferralLine2",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 12
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1REJOrVPReferralGeneralNotesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 13
+
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1REJOrVPReferralGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 14
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1OtherReferralLine1",
+    "DisplayContext": "READONLY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Other factors",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "possibleOtherReferralOptions",
+    "DisplayContext": "READONLY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "otherReferralList",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "claimOutOfTimeTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "otherReferralList CONTAINS \"claimOutOfTime\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "multipleClaimTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "otherReferralList CONTAINS \"multipleClaim\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "employmentStatusIssuesTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "otherReferralList CONTAINS \"employmentStatusIssues\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "pidJurisdictionRegulatorTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "otherReferralList CONTAINS \"pidJurisdictionRegulator\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "videoHearingPreferenceTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "otherReferralList CONTAINS \"videoHearingPreference\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "rule50IssuesForOtherReferralTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 9,
+    "FieldShowCondition": "otherReferralList CONTAINS \"rule50IssuesOtherFactors\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "anotherReasonForOtherReferralTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "otherReferralList CONTAINS \"otherRelevantFactors\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1OtherReferralLine2",
+    "DisplayContext": "READONLY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 11
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1OtherReferralGeneralNotesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 12
+
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1OtherReferralGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 13
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "servingDocumentCollection",
     "DisplayContext": "MANDATORY",
