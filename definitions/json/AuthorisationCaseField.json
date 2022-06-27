@@ -4797,19 +4797,19 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4857,19 +4857,19 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4904,13 +4904,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
-    "UserRole": "caseworker-employment-etjudge-scotland",
+    "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
@@ -4922,8 +4922,8 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4934,13 +4934,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimNoReason",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimNoReason",
-    "UserRole": "caseworker-employment-etjudge-scotland",
+    "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
@@ -4952,8 +4952,8 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimNoReason",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -4964,13 +4964,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
-    "UserRole": "caseworker-employment-etjudge-scotland",
+    "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
@@ -4982,8 +4982,8 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
