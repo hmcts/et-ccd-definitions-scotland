@@ -3731,6 +3731,26 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformation",
+    "DisplayContext": "READONLY",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Final notes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "servingDocumentCollection",
     "DisplayContext": "MANDATORY",

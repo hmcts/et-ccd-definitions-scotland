@@ -2226,6 +2226,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAdditionalInformation",
+    "Label": "<hr><h2>Additional Information (Optional)</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAdditionalInformationTextArea",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ContactDetailsLabel",
     "Label": "<hr><h2>Contact details</h2><hr>",
     "FieldType": "Label",
