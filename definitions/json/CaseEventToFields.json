@@ -3605,7 +3605,7 @@
     "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
-  }, 
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
@@ -3617,7 +3617,7 @@
     "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
-  }, 
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
@@ -3630,7 +3630,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etICJuridictionCodesInvalid=\"Yes\""
-  },   
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
@@ -3640,6 +3640,30 @@
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingAlreadyListed",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "Rule 26",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingAnyOtherDirections",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageLabel": "Rule 26",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
