@@ -3432,7 +3432,8 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
+    "CallBackURLMidEvent":"${ET_COS_URL}/et3Vetting/initRespondentDetails"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3454,6 +3455,189 @@
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "et3ResponseInTime=\"Yes\" OR et3ResponseInTime=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContactDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageLabel": "Minimum required information",
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3NameAddressRespondent",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3NameAddressRespondentLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3NameAddressRespondentLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DoWeHaveRespondentsName",
+    "DisplayContext": "MANDATORY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesRespondentName",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 9,
+    "PageLabel": "Minimum required information",
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\" AND et3DoWeHaveRespondentsName=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DoesRespondentsNameMatch",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3RespondentNameMismatchDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "et3DoesRespondentsNameMatch=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesRespondentNameMatch",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 6
+  },
+
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 10,
+    "PageLabel": "Minimum required information",
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DoWeHaveRespondentsAddress",
+    "DisplayContext": "MANDATORY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesRespondentAddress",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContactDetailsAddressMismatchLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageLabel": "Minimum required information",
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\" AND et3DoWeHaveRespondentsName=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3NameAddressRespondentAddressMismatchLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DoesRespondentsAddressMatch",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3RespondentAddressMismatchDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "et3DoesRespondentsAddressMatch=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
