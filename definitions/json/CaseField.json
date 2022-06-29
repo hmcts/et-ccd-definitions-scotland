@@ -965,6 +965,62 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertLabel",
+    "Label": "<hr><h2>Acas certificate</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertListMarkUp",
+    "Label": "Acas Cert List placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertListLabel",
+    "Label": "${et1VettingAcasCertListMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingClaimantDetailsLabel2",
+    "Label": "${et1VettingClaimantDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentDetailsLabel2",
+    "Label": "${et1VettingRespondentDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertGeneralNote",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "servingDocumentCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",

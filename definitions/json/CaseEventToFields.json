@@ -2501,6 +2501,89 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Minimum required information",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertListMarkUp",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "et1VettingContactDetailsLabel=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertListLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingClaimantDetailsLabel2",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingRespondentDetailsLabel2",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 6,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "et1VettingAcasCertIsYesOrNo=\"No\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertGeneralNote",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 8,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
     "CaseFieldID": "horizontalLine2",
     "DisplayContext": "READONLY",
     "PageID": 4,
