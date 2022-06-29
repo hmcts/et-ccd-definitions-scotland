@@ -97,6 +97,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ClaimantCorrespondence",
+    "ListElementCode": "claimant_contact_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Contact language",
+    "FieldTypeParameter": "fl_ContactLanguage",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimantEmploymentDetails",
     "FieldType": "Label",
@@ -195,20 +203,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "NewEmploymentDetails",
-    "ListElementCode": "newly_employed_from",
-    "FieldType": "Date",
-    "ElementLabel": "Employed from",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "NewEmploymentDetails",
-    "ListElementCode": "new_pay_before_tax",
-    "FieldType": "Number",
-    "ElementLabel": "Pay before tax",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pay_after_tax",
     "FieldType": "Number",
@@ -253,6 +247,35 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "pastEmployer",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Did you work for the orgainsation or person",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "EmploymentDetails",
+    "ListElementCode": "stillWorking",
+    "FieldType": "FixedList",
+    "ElementLabel": "Are you still working for the orgainsation or person",
+    "FieldTypeParameter": "fl_StillWorking",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "newly_employed_from",
+    "FieldType": "Date",
+    "ElementLabel": "Employed from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_pay_before_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantRequest",
     "ListElementCode": "claimant_compensation",
     "FieldType": "YesOrNo",
@@ -289,9 +312,37 @@
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_tribunal_recommendation ",
+    "ListElementCode": "claimant_tribunal_recommendation",
     "FieldType": "Text",
     "ElementLabel": "Tribunal recommendation request",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "whistleblowing",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Whistleblowing claim",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "whistleblowing_authority",
+    "FieldType": "Text",
+    "ElementLabel": "Whistleblowing authority",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claim_description",
+    "FieldType": "TextArea",
+    "ElementLabel": "Describe what happened to you",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "claim_description_document",
+    "FieldType": "Document",
+    "ElementLabel": "Upload your summary as a separate document",
     "SecurityClassification": "Public"
   },
   {
@@ -306,6 +357,27 @@
     "ListElementCode": "claimant_work_phone_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Work phone number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TaskListCheck",
+    "ListElementCode": "personalDetailsCheck",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you completed this section?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TaskListCheck",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you completed this section?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TaskListCheck",
+    "ListElementCode": "claimDetailsCheck",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you completed this section?",
     "SecurityClassification": "Public"
   },
   {
@@ -408,6 +480,31 @@
     "ListElementCode": "responseContinue",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the claim against this Respondent continuing? ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "extensionRequested",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Has there been a request for an extension?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "extensionGranted",
+    "FieldType": "YesOrNo",
+    "RetainHiddenValue": "Yes",
+    "ElementLabel": "Has the request for extension been granted?",
+    "FieldShowCondition": "extensionRequested=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "extensionDate",
+    "FieldType": "Date",
+    "ElementLabel": "Enter the extension date",
+    "FieldShowCondition": "extensionGranted=\"Yes\"",
+    "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
   {
@@ -4387,6 +4484,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ListingType",
+    "ListElementCode": "managingOffice",
+    "FieldType": "Text",
+    "ElementLabel": "Managing Office",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "DateListed",
     "ListElementCode": "showListingDetails",
     "FieldType": "YesOrNo",
@@ -4801,6 +4905,20 @@
     "ListElementCode": "hearing_assistance",
     "FieldType": "Text",
     "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "reasonable_adjustments",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you have a physical, mental or learning disability or long term health condition that means you need support during your case?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "reasonable_adjustments_detail",
+    "FieldType": "TextArea",
+    "ElementLabel": "Tell us what support you need to request",
     "SecurityClassification": "Public"
   },
   {

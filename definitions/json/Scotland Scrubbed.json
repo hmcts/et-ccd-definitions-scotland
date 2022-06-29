@@ -522,6 +522,30 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "fl_Sex",
+    "ListElementCode": "Prefer not to say",
+    "ListElement": "Prefer not to say",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_StillWorking",
+    "ListElementCode": "Working",
+    "ListElement": "Working",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_StillWorking",
+    "ListElementCode": "Notice",
+    "ListElement": "Notice",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_StillWorking",
+    "ListElementCode": "No longer working",
+    "ListElement": "No longer working",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "fl_RepresentativeContact",
     "ListElementCode": "Email",
     "ListElement": "Email",
@@ -621,6 +645,18 @@
     "ID": "fl_ContactPreference",
     "ListElementCode": "Post",
     "ListElement": "Post",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ContactLanguage",
+    "ListElementCode": "English",
+    "ListElement": "English",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ContactLanguage",
+    "ListElementCode": "Welsh",
+    "ListElement": "Welsh",
     "DisplayOrder": 2
   },
   {
@@ -4227,6 +4263,209 @@
     "ListElementCode": "Respondent",
     "ListElement": "Respondent",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121a",
+    "ListElement": "The tribunal has no jurisdiction to consider - Rule 12(1)(a)",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121b",
+    "ListElement": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process - Rule 12 (1)(b)",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121c",
+    "ListElement": "Has neither an EC number nor claims one of the EC exemptions - Rule 12 (1)(c)",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121d",
+    "ListElement": "States that one of the EC exceptions applies but it might not - Rule 12 (1)(d)",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121 da",
+    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 12 (1)(da)",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121e",
+    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 12 (1)(e)",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_Defects",
+    "ListElementCode": "rule121f",
+    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 12 (1)(f)",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "aClaimOfInterimRelief",
+    "ListElement": "A claim of interim relief",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "aStatutoryAppeal",
+    "ListElement": "A statutory appeal",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "anAllegationOfCommissionOfSexualOffence",
+    "ListElement": "An allegation of commission of sexual offence",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "insolvency",
+    "ListElement": "Insolvency",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "jurisdictionsUnclear",
+    "ListElement": "Jurisdictions unclear",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "lengthOfService",
+    "ListElement": "Length of service",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "potentiallyLinkedCasesInTheEcm",
+    "ListElement": "Potentially linked cases in the ECM",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "rule50Issues",
+    "ListElement": "Rule 50 issues",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_judgeOrLO",
+    "ListElementCode": "anotherReasonForJudicialReferral",
+    "ListElement": "Another reason for judicial referral",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "vexatiousLitigantOrder",
+    "ListElement": "A claimant covered by vexatious litigant order",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "aNationalSecurityIssue",
+    "ListElement": "A national security issue",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "nationalMultipleOrPresidentialOrder",
+    "ListElement": "A part of national multiple / covered by Presidential case management order",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "transferToOtherRegion",
+    "ListElement": "A request for transfer to another ET region",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "serviceAbroad",
+    "ListElement": "A request for service abroad",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "aSensitiveIssue",
+    "ListElement": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "anyPotentialConflict",
+    "ListElement": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_REJOrVP",
+    "ListElementCode": "anotherReasonREJOrVP",
+    "ListElement": "Another reason for Regional Employment Judge / Vice-President referral",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "claimOutOfTime",
+    "ListElement": "The whole or any part of the claim is out of time",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "multipleClaim",
+    "ListElement": "The claim is part of a multiple claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "employmentStatusIssues",
+    "ListElement": "The claim has a potential issue about employment status",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "pidJurisdictionRegulator",
+    "ListElement": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "videoHearingPreference",
+    "ListElement": "The claimant prefers a video hearing",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "rule50IssuesOtherFactors",
+    "ListElement": "The claim has Rule 50 issues",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_otherFactors",
+    "ListElementCode": "otherRelevantFactors",
+    "ListElement": "The claim has other relevant factors for judicial referral",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_respondent_legal_entity",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_respondent_legal_entity",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_respondent_legal_entity",
+    "ListElementCode": "Don't know",
+    "ListElement": "Don't know",
+    "DisplayOrder": 3
   }
-
 ]

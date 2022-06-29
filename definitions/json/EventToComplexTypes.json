@@ -852,6 +852,33 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "personalDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "claimDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
@@ -1731,6 +1758,33 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "personalDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "claimDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
@@ -2607,6 +2661,33 @@
     "ListElementCode": "claimant_tribunal_recommendation",
     "EventElementLabel": "Tribunal recommendation request ",
     "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "personalDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "claimDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3465,9 +3546,36 @@
     "ID": "Respondent",
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
+    "ListElementCode": "extensionRequested",
+    "EventElementLabel": "Has there been a request for an extension?",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "extensionGranted",
+    "EventElementLabel": "Has the request for extension been granted?",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "extensionDate",
+    "EventElementLabel": "Enter the extension date",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": "Has the ET3 form been received?",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3476,7 +3584,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceivedDate",
     "EventElementLabel": "Response received date",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3485,7 +3593,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentName",
     "EventElementLabel": "Title",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3494,7 +3602,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReference",
     "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3503,7 +3611,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOut",
     "EventElementLabel": "Response Struck Out",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 18,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3512,7 +3620,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutDate",
     "EventElementLabel": "Struck Out Date",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3521,7 +3629,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutChairman",
     "EventElementLabel": "Judge's only consent",
-    "FieldDisplayOrder": 17,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3530,7 +3638,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutReason",
     "EventElementLabel": "Why struck out",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 21,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3539,7 +3647,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_status",
     "EventElementLabel": "Response",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 22,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3548,7 +3656,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseToClaim",
     "EventElementLabel": "Is the claim resisted?",
-    "FieldDisplayOrder": 20,
+    "FieldDisplayOrder": 23,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3557,7 +3665,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "rejection_reason",
     "EventElementLabel": "Reason for the rejection",
-    "FieldDisplayOrder": 21,
+    "FieldDisplayOrder": 24,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3566,7 +3674,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "rejection_reason_other",
     "EventElementLabel": "Reason for the rejection",
-    "FieldDisplayOrder": 22,
+    "FieldDisplayOrder": 25,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3575,7 +3683,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotes",
     "EventElementLabel": "Notes",
-    "FieldDisplayOrder": 23,
+    "FieldDisplayOrder": 26,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3584,7 +3692,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_referred_to_judge",
     "EventElementLabel": "Date referred to Judge",
-    "FieldDisplayOrder": 24,
+    "FieldDisplayOrder": 27,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3593,7 +3701,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_returned_from_judge",
     "EventElementLabel": "Date returned from Judge",
-    "FieldDisplayOrder": 25,
+    "FieldDisplayOrder": 28,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3602,7 +3710,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseOutOfTime",
     "EventElementLabel": "Response received outside of time allowed?",
-    "FieldDisplayOrder": 26,
+    "FieldDisplayOrder": 29,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3611,7 +3719,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotOnPrescribedForm",
     "EventElementLabel": "Not on prescribed form?",
-    "FieldDisplayOrder": 27,
+    "FieldDisplayOrder": 30,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3620,7 +3728,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRequiredInfoAbsent",
     "EventElementLabel": "Required information missing?",
-    "FieldDisplayOrder": 28,
+    "FieldDisplayOrder": 31,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3629,7 +3737,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress",
     "EventElementLabel": "Respondent Address (from the ET3 form)",
-    "FieldDisplayOrder": 29,
+    "FieldDisplayOrder": 32,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3699,7 +3807,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentPhone1",
     "EventElementLabel": "Phone number (from the ET3 form)",
-    "FieldDisplayOrder": 30,
+    "FieldDisplayOrder": 33,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3708,7 +3816,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentPhone2",
     "EventElementLabel": "Alternative number (from the ET3 form)",
-    "FieldDisplayOrder": 31,
+    "FieldDisplayOrder": 34,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3717,7 +3825,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentEmail",
     "EventElementLabel": "Email address (from the ET3 form)",
-    "FieldDisplayOrder": 32,
+    "FieldDisplayOrder": 35,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3726,7 +3834,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentContactPreference",
     "EventElementLabel": "Contact preference (from the ET3 form)",
-    "FieldDisplayOrder": 33,
+    "FieldDisplayOrder": 36,
     "DisplayContext": "OPTIONAL"
   },
   {
