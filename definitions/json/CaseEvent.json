@@ -77,7 +77,8 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
   },
   {
     "CaseTypeID": "ET_Scotland",
