@@ -1213,6 +1213,78 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et1GovOrMajorLabel",
+    "Label": "<hr><h2>Is the respondent a government agency or a major employer?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1GovOrMajorQuestion",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReasonableAdjustmentsLabel",
+    "Label": "<hr><h2>Are reasonable adjustments required?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReasonableAdjustmentsQuestion",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReasonableAdjustmentsTextArea",
+    "Label": " ",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VideoHearingLabel",
+    "Label": "<hr><h2>Can the  claimant attend a video hearing?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VideoHearingQuestion",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VideoHearingTextArea",
+    "Label": " ",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1FurtherQuestionsGeneralNotesLabel",
+    "Label": "<hr><h2>General notes (Optional)</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1FurtherQuestionsGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3DateCompanyHousePage",
     "Label": "${et3Date}",
     "FieldType": "Label",

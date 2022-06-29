@@ -2628,6 +2628,101 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1GovOrMajorLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Further questions",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1GovOrMajorQuestion",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1ReasonableAdjustmentsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1ReasonableAdjustmentsQuestion",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1ReasonableAdjustmentsTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "et1ReasonableAdjustmentsQuestion=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VideoHearingLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VideoHearingQuestion",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VideoHearingTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "et1VideoHearingQuestion=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1FurtherQuestionsGeneralNotesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 9
+
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1FurtherQuestionsGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
     "CaseFieldID": "et1JudgeReferralLine1",
     "DisplayContext": "READONLY",
     "PageID": 10,
