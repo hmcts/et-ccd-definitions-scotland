@@ -1262,6 +1262,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICExtendDurationGiveDetails",
+    "Label": "Extend duration",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICOtherGiveDetails",
+    "Label": "Other",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",
