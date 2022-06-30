@@ -4533,5 +4533,17 @@
     "ListElementCode": "Unknown - no answer given",
     "ListElement": "Unknown - no answer given",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_et3_tribunal_location_change",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_et3_tribunal_location_change",
+    "ListElementCode": "No - suggest another location",
+    "ListElement": "No - suggest another location",
+    "DisplayOrder": 2
   }
 ]

@@ -4050,7 +4050,7 @@
     "PageID": 12,
     "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "et3DoWeHaveRespondentsName=\"Yes\"",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Minimum required information",
     "PageColumnNumber": 1
@@ -4074,7 +4074,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "PageColumnNumber": 1
   },
   {
@@ -4085,9 +4085,10 @@
     "PageID": 13,
     "PageDisplayOrder": 13,
     "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "et3DoWeHaveRespondentsName=\"Yes\"",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Minimum required information",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/checkHearingListed"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4109,6 +4110,130 @@
     "PageID": 13,
     "PageDisplayOrder": 13,
     "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3HearingDetails",
+    "DisplayContext": "READONLY",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
+    "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\"",
+    "PageColumnNumber": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/transferApplication"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3HearingDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 2,
+    "PageLabel": "Page Title",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsCaseListedForHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsCaseListedForHearingDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "et3IsCaseListedForHearing=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesCaseListed",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 5,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3TribunalLocation",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "et3TribunalLocationLabel=\"dummy\"",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3TribunalLocationLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 2,
+    "PageLabel": "Page Title",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThisLocationCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3RegionalOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "et3IsThisLocationCorrect=\"No - suggest another location\"",
+    "RetainHiddenValue": "Yes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3WhyWeShouldChangeTheOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "et3IsThisLocationCorrect=\"No - suggest another location\"",
+    "RetainHiddenValue": "Yes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesTransferApplication",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 6,
     "PageColumnNumber": 1
   },
   {
