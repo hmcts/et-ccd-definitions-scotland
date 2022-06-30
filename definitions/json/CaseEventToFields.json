@@ -2586,6 +2586,7 @@
     "CaseEventID": "et1Vetting",
     "CaseFieldID": "horizontalLine2",
     "DisplayContext": "READONLY",
+    "PageLabel": "Case details",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
@@ -2705,6 +2706,237 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 13
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "existingJurisdictionCodes",
+    "FieldShowCondition": "et1SubstantiveDefectsGeneralNotes=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageLabel": "Case details",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "existingJurisdictionCodesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "areTheseCodesCorrectLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "areTheseCodesCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "codesCorrectGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "areTheseCodesCorrect=\"No\"",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "vettingJurisdictionCodeCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1JurisdictionCodeGeneralNotesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1JurisdictionCodeGeneralNotes",
+    "CallBackURLMidEvent": "${ET_COS_URL}/jurisdictionCodes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocation",
+    "FieldShowCondition": "et1SubstantiveDefectsGeneralNotes=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageLabel": "Case details",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocationLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "isTrackAllocationCorrectLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "isTrackAllocationCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "suggestAnotherTrack",
+    "DisplayContext": "MANDATORY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "isTrackAllocationCorrect=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "whyChangeTrackAllocation",
+    "DisplayContext": "MANDATORY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "suggestAnotherTrack !=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocationGeneralNotesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackAllocationGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "tribunalAndOfficeLocation",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Case details",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "tribunalAndOfficeLocationLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "isLocationCorrectLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "isLocationCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "regionalOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "horizontalLine=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "regionalOfficeLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "isLocationCorrect=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "regionalOfficeList",
+    "DisplayContext": "MANDATORY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "isLocationCorrect=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "whyChangeOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "isLocationCorrect=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
