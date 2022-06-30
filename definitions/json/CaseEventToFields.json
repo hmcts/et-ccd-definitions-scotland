@@ -3534,32 +3534,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICExtendDurationGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingAlreadyListed CONTAINS \"extendHearingDuration\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICOtherGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingAlreadyListed CONTAINS \"other\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRespondent",
     "DisplayContext": "READONLY",
     "PageID": 2,
@@ -3684,36 +3658,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingAnyOtherDirections",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingAlreadyListed",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICExtendDurationGiveDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etICHearingAlreadyListed CONTAINS \"extendHearingDuration\""
@@ -3726,7 +3676,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 12,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etICHearingAlreadyListed CONTAINS \"other\""
@@ -3739,7 +3689,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 13,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
