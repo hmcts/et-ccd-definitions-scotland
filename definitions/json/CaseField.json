@@ -1941,6 +1941,186 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "existingJurisdictionCodes",
+    "Label": "existingJurisdictionCodes",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "existingJurisdictionCodesLabel",
+    "Label": "${existingJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "areTheseCodesCorrectLabel",
+    "Label": "**Are these codes correct?**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "areTheseCodesCorrect",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "codesCorrectGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingJurCodeList",
+    "Label": " ",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_jurisdictionCodes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "vettingJurisdictionCodeCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "JurisdictionCode",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JurisdictionCodeGeneralNotesLabel",
+    "Label": "**General notes (Optional)**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1JurisdictionCodeGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocation",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocationLabel",
+    "Label": "${trackAllocation}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isTrackAllocationCorrectLabel",
+    "Label": "**Is the track allocation correct?**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isTrackAllocationCorrect",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_isTrackAllocationCorrect",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocationGeneralNotesLabel",
+    "Label": "**General notes (Optional)**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackAllocationGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "suggestAnotherTrack",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_suggestAnotherTrack",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "whyChangeTrackAllocation",
+    "Label": "Why should we change the track allocation?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalAndOfficeLocation",
+    "Label": "tribunalAndOfficeLocation",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalAndOfficeLocationLabel",
+    "Label": "${tribunalAndOfficeLocation}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "regionalOffice",
+    "Label": "regionalOffice",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "regionalOfficeLabel",
+    "Label": "${regionalOffice}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "regionalOfficeList",
+    "Label": " ",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isLocationCorrectLabel",
+    "Label": "**Is the track allocation correct?**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isLocationCorrect",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_isLocationCorrect",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "whyChangeOffice",
+    "Label": "Why should we change the office?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

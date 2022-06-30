@@ -4942,5 +4942,13 @@
     "FieldType": "Text",
     "ElementLabel": "Short Description",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JurisdictionCode",
+    "ListElementCode": "et1VettingJurCodeList",
+    "FieldType": "FixedList",
+    "ElementLabel": "Jurisdiction code",
+    "FieldTypeParameter": "fl_jurisdictionCodes",
+    "SecurityClassification": "Public"
   }
 ]
