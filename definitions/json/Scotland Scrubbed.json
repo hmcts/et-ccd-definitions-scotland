@@ -4545,5 +4545,41 @@
     "ListElementCode": "No - suggest another location",
     "ListElement": "No - suggest another location",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_et3_suggested_issues",
+    "ListElement": "Applications for strike out or deposit",
+    "ListElementCode": "Applications for strike out or deposit",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_et3_suggested_issues",
+    "ListElement": "Interpreters",
+    "ListElementCode": "Interpreters",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_et3_suggested_issues",
+    "ListElement": "Jurisdictional issues",
+    "ListElementCode": "Jurisdictional issues",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_et3_suggested_issues",
+    "ListElement": "Request for adjustments",
+    "ListElementCode": "Request for adjustments",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_et3_suggested_issues",
+    "ListElement": "Rule 50",
+    "ListElementCode": "Rule 50",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_et3_suggested_issues",
+    "ListElement": "Time points",
+    "ListElementCode": "Time points",
+    "DisplayOrder": 6
   }
 ]

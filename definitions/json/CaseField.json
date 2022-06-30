@@ -2200,6 +2200,77 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3Rule26",
+    "Label": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3Rule26Details",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssues",
+    "Label": "Are there any other suggested orders, directions or issues?",
+    "FieldType": "MultiSelectList",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_et3_suggested_issues"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssuesStrikeOut",
+    "Label": "Applications for strike out or deposit",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssueInterpreters",
+    "Label": "Interpreters",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssueJurisdictional",
+    "Label": "Jurisdictional issues",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssueAdjustments",
+    "Label": "Request for adjustments",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssueRule50",
+    "Label": "Rule 50",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SuggestedIssueTimePoints",
+    "Label": "Time points",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesRule26",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
