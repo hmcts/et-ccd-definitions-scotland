@@ -2271,6 +2271,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3AdditionalInformation",
+    "Label": "Additional information",
+    "HintText": "Enter any additional information which may be useful for a judge or legal officer to consider.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
