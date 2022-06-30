@@ -1276,6 +1276,35 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingAlreadyListed",
+    "Label": "Hearing already listed",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICHearingAlreadyListed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingAnyOtherDirections",
+    "Label": "Any other directions",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICExtendDurationGiveDetails",
+    "Label": "Extend duration",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICOtherGiveDetails",
+    "Label": "Other",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",
