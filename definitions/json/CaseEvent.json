@@ -445,7 +445,8 @@
     "Description": "Initial Consideration",
     "DisplayOrder": 38,
     "PreConditionState(s)": "Accepted;Submitted",
-    "PostConditionState": "*",
+    "PostConditionState": "*",    
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
