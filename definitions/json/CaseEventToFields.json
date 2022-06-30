@@ -2687,7 +2687,6 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 11
-
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2697,7 +2696,6 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 12
-
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2792,7 +2790,6 @@
     "PageID": 9,
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 9
-
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2939,7 +2936,6 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 14
-
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3076,7 +3072,6 @@
     "PageID": 11,
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 13
-
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3203,7 +3198,6 @@
     "PageID": 12,
     "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 12
-
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3611,7 +3605,7 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
-    "CallBackURLMidEvent":"${ET_COS_URL}/et3Vetting/initRespondentDetails"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/initRespondentDetails"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3730,7 +3724,6 @@
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 6
   },
-
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
@@ -3816,6 +3809,46 @@
     "PageID": 11,
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContestClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3DoWeHaveRespondentsName=\"Yes\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Minimum required information",
+    "PageColumnNumber": 1,
+    "ShowSummaryContentOption": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContestClaimGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3ContestClaim=\"Yes\" OR et3ContestClaim=\"No\" OR et3ContestClaim=\"Unknown - no answer given\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1,
+    "ShowSummaryContentOption": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesContestClaim",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1,
+    "ShowSummaryContentOption": 1
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",

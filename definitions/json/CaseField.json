@@ -7,11 +7,11 @@
     "SecurityClassification": "Public"
   },
   {
-  "CaseTypeID": "ET_Scotland",
-  "ID": "horizontalLine2",
-  "Label": "<hr>",
-  "FieldType": "Label",
-  "SecurityClassification": "Public"
+    "CaseTypeID": "ET_Scotland",
+    "ID": "horizontalLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1833,7 +1833,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ContactDetailsAddressLabel",
@@ -1895,6 +1894,28 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesRespondentAddressMatch",
     "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ContestClaim",
+    "Label": "Does the respondent wish to contest any part of the claim?",
+    "FieldType": "FixedRadioList",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_contest_claim_status"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3GeneralNotesContestClaim",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ContestClaimGiveDetails",
+    "Label": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
