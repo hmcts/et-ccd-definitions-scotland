@@ -4515,5 +4515,23 @@
     "ListElementCode": "No track",
     "ListElement": "No track",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Unknown - no answer given",
+    "ListElement": "Unknown - no answer given",
+    "DisplayOrder": 3
   }
 ]
