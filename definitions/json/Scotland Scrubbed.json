@@ -4467,5 +4467,23 @@
     "ListElementCode": "Don't know",
     "ListElement": "Don't know",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Unknown - no answer given",
+    "ListElement": "Unknown - no answer given",
+    "DisplayOrder": 3
   }
 ]
