@@ -2317,6 +2317,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICListForPreliminaryHearing",
+    "Label": "List for preliminary hearing",
+    "FieldType": "etICListForPreliminaryHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",

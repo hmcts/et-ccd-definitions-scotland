@@ -4953,7 +4953,7 @@
   },
   {
     "ID": "etICSeekComments",
-    "ListElementCode": "typeOfCvpHearing",
+    "ListElementCode": "etICTypeOfCvpHearing",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Type of CVP hearing",
     "FieldTypeParameter": "msl_etICTypeOfCvpHearing",
@@ -4962,19 +4962,57 @@
   },
   {
     "ID": "etICSeekComments",
-    "ListElementCode": "finalHearingDetails",
+    "ListElementCode": "etICFinalHearingDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give Details of final hearing",
-    "FieldShowCondition": "typeOfCvpHearing CONTAINS \"Final\"",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Final\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "etICSeekComments",
-    "ListElementCode": "prelimHearingDetails",
+    "ListElementCode": "etICPrelimHearingDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give Details of preliminary hearing",
-    "FieldShowCondition": "typeOfCvpHearing CONTAINS \"Preliminary\"",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICListForPreliminaryHearing",
+    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of preliminary hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICListForPreliminaryHearing",
+    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Purpose of preliminary hearing field",
+    "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICListForPreliminaryHearing",
+    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details of hearing notice",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICListForPreliminaryHearing",
+    "ListElementCode": "etICLengthOfPrelimHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   }

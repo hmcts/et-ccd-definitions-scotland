@@ -4695,5 +4695,47 @@
     "ListElementCode": "Preliminary",
     "ListElement": "Preliminary",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICTypeOfHearing",
+    "ListElementCode": "Telephone",
+    "ListElement": "Telephone",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfHearing",
+    "ListElementCode": "CVP",
+    "ListElement": "CVP",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICTypeOfHearing",
+    "ListElementCode": "F2F",
+    "ListElement": "F2F",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Case management",
+    "ListElement": "Case management",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Preliminary Issue",
+    "ListElement": "Preliminary Issue",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Strike out",
+    "ListElement": "Strike out",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Deposit",
+    "ListElement": "Deposit",
+    "DisplayOrder": 4
   }
 ]
