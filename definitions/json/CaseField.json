@@ -2324,6 +2324,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICListForFinalHearing",
+    "Label": "List for final hearing",
+    "FieldType": "etICListForFinalHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",

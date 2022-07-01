@@ -5015,5 +5015,23 @@
     "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICListForFinalHearing",
+    "ListElementCode": "etICTypeOfFinalHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of final hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICListForFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
   }
 ]

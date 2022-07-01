@@ -3824,11 +3824,22 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICListForFinalHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for final hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
