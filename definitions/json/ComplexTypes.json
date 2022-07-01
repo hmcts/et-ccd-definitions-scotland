@@ -5063,6 +5063,26 @@
   },
   {
     "ID": "etICUDLHearing",
+    "ListElementCode": "etICUDLCVPIssue",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard CVP orders when listed",
+    "FieldTypeParameter": "msl_etICUDLCVPIssue",
+    "FieldShowCondition": "etICUDLHearingFormat = \"CVP hearing\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICUDLHearing",
+    "ListElementCode": "etICUDLFinalF2FIssue",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard orders when listed",
+    "FieldTypeParameter": "msl_etICUDLFinalF2FIssue",
+    "FieldShowCondition": "etICUDLHearingFormat = \"Final F2F hearings (not Aberdeen)\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICUDLHearing",
     "ListElementCode": "etICBUCheckComplianceOrders",
     "FieldType": "YesOrNo",
     "ElementLabel": "BU to check compliance with orders?",

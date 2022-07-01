@@ -4791,5 +4791,53 @@
     "ListElementCode": "Final F2F hearings (not Aberdeen)",
     "ListElement": "Final F2F hearings (not Aberdeen)",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLCVPIssue",
+    "ListElementCode": "1 Disclosure and Productions",
+    "ListElement": "1 Disclosure and Productions",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICUDLCVPIssue",
+    "ListElementCode": "2 Schedule of loss, mitigation & updated schedule of loss",
+    "ListElement": "2 Schedule of loss, mitigation & updated schedule of loss",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLCVPIssue",
+    "ListElementCode": "3 Witness statements",
+    "ListElement": "3 Witness statements",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "1 Disclosure",
+    "ListElement": "1 Disclosure",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "2 Productions",
+    "ListElement": "2 Productions",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "3 Schedule of loss",
+    "ListElement": "3 Schedule of loss",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "4 Mitigation",
+    "ListElement": "4 Mitigation",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "5 Updated schedule of loss",
+    "ListElement": "5 Updated schedule of loss",
+    "DisplayOrder": 5
   }
 ]
