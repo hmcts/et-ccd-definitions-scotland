@@ -5117,7 +5117,7 @@
   },
   {
     "ID": "etICUDLHearing",
-    "ListElementCode": "etICUDLHearingFormat",
+    "ListElementCode": "etICUDLHearFormat",
     "FieldType": "FixedList",
     "ElementLabel": "Hearing format",
     "FieldTypeParameter": "fl_etICUDLHearingFormat",
@@ -5130,7 +5130,7 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "Issue standard CVP orders when listed",
     "FieldTypeParameter": "msl_etICUDLCVPIssue",
-    "FieldShowCondition": "etICUDLHearingFormat = \"CVP hearing\"",
+    "FieldShowCondition": "etICUDLHearFormat = \"CVP hearing\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -5140,7 +5140,7 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "Issue standard orders when listed",
     "FieldTypeParameter": "msl_etICUDLFinalF2FIssue",
-    "FieldShowCondition": "etICUDLHearingFormat = \"Final F2F hearings (not Aberdeen)\"",
+    "FieldShowCondition": "etICUDLHearFormat = \"Final F2F hearings (not Aberdeen)\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
