@@ -4467,5 +4467,23 @@
     "ListElementCode": "Don't know",
     "ListElement": "Don't know",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICFurtherInformation",
+    "ListElementCode": "furtherInformationRequired",
+    "ListElement": "Further information required",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICFurtherInformation",
+    "ListElementCode": "issueRule27",
+    "ListElement": "Issue Rule 27 Notice and order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICFurtherInformation",
+    "ListElementCode": "issueRule28",
+    "ListElement": "Issue Rule 28 Notice and order",
+    "DisplayOrder": 3
   }
 ]

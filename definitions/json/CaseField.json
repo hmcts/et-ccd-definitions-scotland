@@ -1247,6 +1247,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICFurtherInformation",
+    "Label": "Further information",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICFurtherInformation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICFurtherInformationHearingAnyOtherDirections",
+    "Label": "Any other directions",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",
