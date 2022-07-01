@@ -2310,6 +2310,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICSeekComments",
+    "Label": "Seek comments on CVP hearing",
+    "FieldType": "etICSeekComments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",

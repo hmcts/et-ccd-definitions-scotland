@@ -4683,5 +4683,17 @@
     "ListElementCode": "UDL hearing",
     "ListElement": "UDL hearing",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICTypeOfCvpHearing",
+    "ListElementCode": "Final",
+    "ListElement": "Final",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfCvpHearing",
+    "ListElementCode": "Preliminary",
+    "ListElement": "Preliminary",
+    "DisplayOrder": 2
   }
 ]

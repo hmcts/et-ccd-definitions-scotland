@@ -4950,5 +4950,32 @@
     "ElementLabel": "Jurisdiction code",
     "FieldTypeParameter": "fl_vettingJurCodes",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICSeekComments",
+    "ListElementCode": "typeOfCvpHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of CVP hearing",
+    "FieldTypeParameter": "msl_etICTypeOfCvpHearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICSeekComments",
+    "ListElementCode": "finalHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give Details of final hearing",
+    "FieldShowCondition": "typeOfCvpHearing CONTAINS \"Final\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICSeekComments",
+    "ListElementCode": "prelimHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give Details of preliminary hearing",
+    "FieldShowCondition": "typeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
   }
 ]
