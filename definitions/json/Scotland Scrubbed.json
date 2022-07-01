@@ -4659,5 +4659,29 @@
     "ListElementCode": "DRB",
     "ListElement": "DRB",
     "DisplayOrder": 13
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "Seek comments on CVP hearing",
+    "ListElement": "Seek comments on CVP hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "List for preliminary hearing",
+    "ListElement": "List for preliminary hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "List for final hearing",
+    "ListElement": "List for final hearing",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "UDL hearing",
+    "ListElement": "UDL hearing",
+    "DisplayOrder": 4
   }
 ]
