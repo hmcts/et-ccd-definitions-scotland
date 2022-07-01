@@ -5033,5 +5033,40 @@
     "ElementLabel": "Length of hearing",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICUDLHearing",
+    "ListElementCode": "etICEJSitAlone",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "EJ sit alone?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICUDLHearing",
+    "ListElementCode": "etICUDLGiveReasons",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Give reasons",
+    "FieldTypeParameter": "msl_etICUDLGiveReasons",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICUDLHearing",
+    "ListElementCode": "etICUDLHearingFormat",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing format",
+    "FieldTypeParameter": "fl_etICUDLHearingFormat",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICUDLHearing",
+    "ListElementCode": "etICBUCheckComplianceOrders",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "BU to check compliance with orders?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
   }
 ]

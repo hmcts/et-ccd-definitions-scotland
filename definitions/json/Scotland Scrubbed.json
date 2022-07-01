@@ -4737,5 +4737,59 @@
     "ListElementCode": "Deposit",
     "ListElement": "Deposit",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Likelihood of dispute on facts makes full tribunal desirable",
+    "ListElement": "Likelihood of dispute on facts makes full tribunal desirable",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Little or no agreement on facts",
+    "ListElement": "Little or no agreement on facts",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Likelihood of issue of law arising makes EJSA desirable",
+    "ListElement": "Likelihood of issue of law arising makes EJSA desirable",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Views of parties",
+    "ListElement": "Views of parties",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Concurrent proceedings",
+    "ListElement": "Concurrent proceedings",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_etICUDLHearingFormat",
+    "ListElementCode": "CVP hearing",
+    "ListElement": "CVP hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_etICUDLHearingFormat",
+    "ListElementCode": "Final F2F hearings (not Aberdeen)",
+    "ListElement": "Final F2F hearings (not Aberdeen)",
+    "DisplayOrder": 2
   }
 ]

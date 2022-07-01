@@ -3835,11 +3835,22 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICUDLHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"UDL hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {

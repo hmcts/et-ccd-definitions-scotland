@@ -2331,6 +2331,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICUDLHearing",
+    "Label": "UDL hearing",
+    "FieldType": "etICUDLHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",
