@@ -77,7 +77,9 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
   },
   {

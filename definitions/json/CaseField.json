@@ -1430,7 +1430,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseInTime",
-    "Label": "Did we receive the ET3 response in time",
+    "Label": "Did we receive the ET3 response in time?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
