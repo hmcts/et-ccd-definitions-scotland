@@ -4581,5 +4581,83 @@
     "ListElement": "Time points",
     "ListElementCode": "Time points",
     "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "BOC",
+    "ListElement": "BOC",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "UDL",
+    "ListElement": "UDL",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "PID",
+    "ListElement": "PID",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "DAG",
+    "ListElement": "DAG",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "DDA",
+    "ListElement": "DDA",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "RRD",
+    "ListElement": "RRD",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "SXD",
+    "ListElement": "SXD",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "DSO",
+    "ListElement": "DSO",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "MAT",
+    "ListElement": "MAT",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "RPT",
+    "ListElement": "RPT",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "WA",
+    "ListElement": "WA",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "WTRAL",
+    "ListElement": "WTR/AL",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_vettingJurCodes",
+    "ListElementCode": "DRB",
+    "ListElement": "DRB",
+    "DisplayOrder": 13
   }
 ]
