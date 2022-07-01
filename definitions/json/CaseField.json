@@ -1262,6 +1262,28 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICFurtherInformationGiveDetails",
+    "Label": "Give details to include in the letter",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICFurtherInformationTimeToComply",
+    "Label": "How much time to comply?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule27ClaimToBe",
+    "Label": "Claim to be",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_etICRule27ClaimToBe",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",

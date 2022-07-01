@@ -8110,7 +8110,97 @@
     "CaseFieldID": "etICJuridictionCodesInvalid",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },  
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICRule27ClaimToBe",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICRule27ClaimToBe",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICRule27ClaimToBe",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICRule27ClaimToBe",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICRule27ClaimToBe",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
   {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
