@@ -5159,6 +5159,15 @@
     "DisplayContext": "MANDATORY"
   },
   {
+    "ID": "Jurisdiction",
+    "CaseEventID": "addAmendJurisdiction",
+    "CaseFieldID": "jurCodesCollection",
+    "ListElementCode": "disposalDate",
+    "EventElementLabel": "Disposal date",
+    "FieldDisplayOrder": 73,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "RestrictedReporting",
     "CaseEventID": "restrictedCases",
     "CaseFieldID": "restrictedReporting",
