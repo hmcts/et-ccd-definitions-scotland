@@ -3950,7 +3950,8 @@
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 5,
     "FieldShowCondition": "et3DoesRespondentsNameMatch=\"No\"",
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "Y",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4038,7 +4039,8 @@
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 5,
     "FieldShowCondition": "et3DoesRespondentsAddressMatch=\"No\"",
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "Y",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",

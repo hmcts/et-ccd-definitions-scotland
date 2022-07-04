@@ -2217,6 +2217,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssues",
     "Label": "Are there any other suggested orders, directions or issues?",
+    "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_et3_suggested_issues"
