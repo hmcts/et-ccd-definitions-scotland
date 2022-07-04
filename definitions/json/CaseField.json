@@ -1333,6 +1333,27 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICRespondentFurtherInfo",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingFurtherInfo",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICJurisdictionCodesFurtherInfo",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }, 
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",
