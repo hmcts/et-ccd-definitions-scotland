@@ -3636,7 +3636,7 @@
     "PageLabel": "Select Respondent",
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/populateEt3Dates"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midPopulateRespondentEt3Response"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3649,7 +3649,7 @@
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
     "PageColumnNumber": 1,
     "PageLabel": "Minimum required information",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/calculateResponseInTime"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midCalculateResponseInTime"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3840,7 +3840,7 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/initRespondentDetails"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midRespondentNameAndAddressTable"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4098,7 +4098,7 @@
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Minimum required information",
     "PageColumnNumber": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/checkHearingListed",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midHearingListedTable",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4135,7 +4135,7 @@
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\"",
     "PageColumnNumber": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/transferApplication"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midTransferApplicationTable"
   },
   {
     "CaseTypeID": "ET_Scotland",
