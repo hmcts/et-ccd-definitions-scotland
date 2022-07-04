@@ -3708,6 +3708,19 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICRule27WhichPart",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "Rule 26",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 15,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICRule27ClaimToBe CONTAINS \"dismissedInPart\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3DateIndividualInsolvency",
     "DisplayContext": "READONLY",

@@ -4497,5 +4497,29 @@
     "ListElementCode": "dismissedInPart",
     "ListElement": "Dismissed in part",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICRule27Direction",
+    "ListElementCode": "noJurisdiction",
+    "ListElement": "No jurisdiction",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICRule27Direction",
+    "ListElementCode": "noReasonableProspectOfSuccess",
+    "ListElement": "No reasonable prospect of success",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_etICRule28ClaimToBe",
+    "ListElementCode": "dismissedInFull",
+    "ListElement": "Dismissed in full",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_etICRule28ClaimToBe",
+    "ListElementCode": "dismissedInPart",
+    "ListElement": "Dismissed in part",
+    "DisplayOrder": 2
   }
 ]
