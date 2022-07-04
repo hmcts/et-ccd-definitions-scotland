@@ -3642,7 +3642,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingAlreadyListed",
     "DisplayContext": "MANDATORY",
-    "PageID": 2,    
+    "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 13,
     "ShowSummaryChangeOption": "Y",
@@ -3652,51 +3652,81 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingListed",
-    "DisplayContext": "MANDATORY",
-    "PageID": 22,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 22,
+    "CaseFieldID": "etICRespondentHearingListed",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
-    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND "  
-  },   
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingHearingListed",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICJurisdictionCodesHearingListed",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListed",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageLabel": "Rule 26",
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICExtendDurationGiveDetails",
     "DisplayContext": "MANDATORY",
-    "PageID": 22,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 22,
-    "PageFieldDisplayOrder": 2,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingAlreadyListed CONTAINS \"extendHearingDuration\""
+    "FieldShowCondition": "etICHearingListed CONTAINS \"extendHearingDuration\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICOtherGiveDetails",
     "DisplayContext": "MANDATORY",
-    "PageID": 22,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 22,
-    "PageFieldDisplayOrder": 3,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingAlreadyListed CONTAINS \"other\""
+    "FieldShowCondition": "etICHearingListed CONTAINS \"other\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
-    "PageID": 22,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 22,
-    "PageFieldDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -3711,8 +3741,8 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
-    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND "  
-  }, 
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
@@ -3724,8 +3754,8 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
-    "PageShowCondition": "etICCanProceed=\"No\""  
-  },  
+    "PageShowCondition": "etICCanProceed=\"No\""
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",

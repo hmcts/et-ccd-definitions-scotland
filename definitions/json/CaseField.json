@@ -1262,6 +1262,27 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICRespondentHearingListed",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingHearingListed",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+    {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICJurisdictionCodesHearingListed",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICFurtherInfo",
     "Label": "Further Info",
     "FieldType": "Label",
