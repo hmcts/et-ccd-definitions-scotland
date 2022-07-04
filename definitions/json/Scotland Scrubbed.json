@@ -4451,6 +4451,42 @@
     "DisplayOrder": 7
   },
   {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "proceedToHearing",
+    "ListElement": "Proceed to the hearing already listed",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "postponeHearing",
+    "ListElement": "Postpone hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "extendHearingDuration",
+    "ListElement": "Extend duration of hearing",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "convertFinalToPreliminaryHearing",
+    "ListElement": "Convert final hearing to preliminary hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "convertToF2FHearing",
+    "ListElement": "Convert to F2F hearing",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "other",
+    "ListElement": "Other",
+    "DisplayOrder": 6
+  },
+  {
     "ID": "fl_respondent_legal_entity",
     "ListElementCode": "Yes",
     "ListElement": "Yes",
@@ -4466,6 +4502,24 @@
     "ID": "fl_respondent_legal_entity",
     "ListElementCode": "Don't know",
     "ListElement": "Don't know",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Unknown - no answer given",
+    "ListElement": "Unknown - no answer given",
     "DisplayOrder": 3
   }
 ]
