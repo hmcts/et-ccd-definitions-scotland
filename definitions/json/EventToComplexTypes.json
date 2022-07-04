@@ -3744,6 +3744,15 @@
     "ID": "Respondent",
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting",
+    "FieldDisplayOrder": 33,
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "responseRespondentAddress=\"dummy\""
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.AddressLine1",
     "EventElementLabel": "Building and Street",
     "FieldDisplayOrder": 1,
