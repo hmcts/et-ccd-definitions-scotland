@@ -2839,7 +2839,7 @@
     "PageID": 6,
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 6,
-    "FieldShowCondition": "suggestAnotherTrack !=\"\""
+    "FieldShowCondition": "suggestAnotherTrack !=\"\" AND isTrackAllocationCorrect=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2937,6 +2937,15 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "isLocationCorrect=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1LocationGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 9
   },
   {
     "CaseTypeID": "ET_Scotland",
