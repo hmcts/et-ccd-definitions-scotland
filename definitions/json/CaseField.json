@@ -2281,7 +2281,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1LocationGeneralNotes",
-    "Label": "General note",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
