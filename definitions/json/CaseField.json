@@ -2180,7 +2180,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "isLocationCorrectLabel",
-    "Label": "**Is the track allocation correct?**",
+    "Label": "**Is this location correct?**",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2275,6 +2275,13 @@
     "ID": "et3AdditionalInformation",
     "Label": "Additional information",
     "HintText": "Enter any additional information which may be useful for a judge or legal officer to consider.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1LocationGeneralNotes",
+    "Label": "General note",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
