@@ -8980,36 +8980,6 @@
     "CaseFieldID": "etICOtherGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInfo",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInfo",
-    "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInfo",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInfo",
-    "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInfo",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
   },  
   {
     "CaseTypeId": "ET_Scotland",

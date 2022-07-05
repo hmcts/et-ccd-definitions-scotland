@@ -1283,13 +1283,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etICFurtherInfo",
-    "Label": "Further Info",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListed",
     "Label": "Hearing NOT Listed",
     "FieldType": "Label",
