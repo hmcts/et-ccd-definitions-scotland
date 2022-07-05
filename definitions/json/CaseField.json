@@ -1276,6 +1276,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etInitialConsiderationRule27Label",
+    "Label": "Issue Rule 27 Notice and order",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICRule27ClaimToBe",
     "Label": "Claim to be",
     "FieldType": "MultiSelectList",
@@ -1309,6 +1316,13 @@
     "ID": "etICRule27NumberOfDays",
     "Label": "Number of days for claimant to provide written representations",
     "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etInitialConsiderationRule28Label",
+    "Label": "Issue Rule 28 Notice and order",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
