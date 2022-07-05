@@ -3536,7 +3536,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationRespondentLabel=\"dummy\""
@@ -3549,7 +3549,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -3561,7 +3561,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationHearingLabel=\"dummy\""
@@ -3574,7 +3574,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
