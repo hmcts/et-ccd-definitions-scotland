@@ -1262,6 +1262,71 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedRespondentLabel",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedHearingLabel",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedJurCodesLabel",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedList",
+    "Label": "Hearing not listed",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICHearingNotListed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedSeekComments",
+    "Label": "Seek comments on CVP hearing",
+    "FieldType": "etICHearingNotListedSeekComments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "Label": "List for preliminary hearing",
+    "FieldType": "etICHearingNotListedListForPrelimHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedListForFinalHearing",
+    "Label": "List for final hearing",
+    "FieldType": "etICHearingNotListedListForFinalHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedUDLHearing",
+    "Label": "UDL hearing",
+    "FieldType": "etICHearingNotListedUDLHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedAnyOtherDirections",
+    "Label": "Any other directions",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICRespondentHearingListed",
     "Label": "${etInitialConsiderationRespondent}",
     "FieldType": "Label",

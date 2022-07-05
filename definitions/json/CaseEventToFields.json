@@ -3652,6 +3652,103 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\"",
+    "PageLabel": "Rule 26",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedList",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"Seek comments on CVP hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for preliminary hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for final hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"UDL hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICRespondentHearingListed",
     "DisplayContext": "READONLY",
     "PageID": 4,
@@ -3729,19 +3826,6 @@
     "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListed",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageLabel": "Hearing NOT listed (PLACEHOLDER RET-2029)",
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",

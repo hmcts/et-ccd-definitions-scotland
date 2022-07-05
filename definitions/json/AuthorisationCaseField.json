@@ -8893,6 +8893,276 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedList",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedList",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedList",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedList",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedList",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
