@@ -5265,7 +5265,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3Date",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5283,7 +5283,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3Date",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5295,7 +5295,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateLabel",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5313,7 +5313,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateLabel",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5325,7 +5325,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereAnEt3Response",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5343,7 +5343,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereAnEt3Response",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5355,7 +5355,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NoEt3Response",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5373,7 +5373,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NoEt3Response",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5385,7 +5385,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotes",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -5403,7 +5403,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotes",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7305,7 +7305,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ChooseRespondent",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7323,7 +7323,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ChooseRespondent",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7335,7 +7335,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7353,7 +7353,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7365,7 +7365,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateCompanyHousePage",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7383,7 +7383,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateCompanyHousePage",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7395,7 +7395,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7413,7 +7413,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7425,7 +7425,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesCompanyHouse",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7443,7 +7443,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesCompanyHouse",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7455,7 +7455,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7473,7 +7473,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7485,7 +7485,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IndividualInsolvencyDocument",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7503,7 +7503,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3IndividualInsolvencyDocument",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7515,7 +7515,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesIndividualInsolvency",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7533,7 +7533,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesIndividualInsolvency",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7545,7 +7545,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7563,7 +7563,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7575,7 +7575,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3LegalIssue",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7593,7 +7593,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3LegalIssue",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7605,7 +7605,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesLegalEntity",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7623,7 +7623,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3GeneralNotesLegalEntity",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7635,7 +7635,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3LegalIssueGiveDetails",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7653,7 +7653,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3LegalIssueGiveDetails",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7665,7 +7665,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseInTimeDateLabel",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7683,7 +7683,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseInTimeDateLabel",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7695,7 +7695,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseInTime",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7713,7 +7713,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseInTime",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7725,7 +7725,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseInTimeDetails",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7743,7 +7743,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseInTimeDetails",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -7755,7 +7755,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etInitialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
