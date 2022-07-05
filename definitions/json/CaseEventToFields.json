@@ -3808,8 +3808,57 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 4,    
     "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 15,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,    
+    "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"furtherInformationRequired\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,    
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"furtherInformationRequired\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICRule27ClaimToBe",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageLabel": "Rule 26",
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"issueRule27\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICRule27WhichPart",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,    
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICRule27ClaimToBe CONTAINS \"dismissedInPart\"",
     "PageColumnNumber": 1
   },
   {

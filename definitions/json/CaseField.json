@@ -1354,6 +1354,86 @@
   }, 
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICFurtherInformationGiveDetails",
+    "Label": "Give details to include in the letter",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICFurtherInformationTimeToComply",
+    "Label": "How much time to comply?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule27ClaimToBe",
+    "Label": "Claim to be",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_etICRule27ClaimToBe",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule27WhichPart",
+    "Label": "Which part?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule27Direction",
+    "Label": "Employment Judge's direction for Rule 27 Notice",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICRule27Direction",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule27DirectionReason",
+    "Label": "Set out reason",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule27NumberOfDays",
+    "Label": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule28ClaimToBe",
+    "Label": "Claim to be",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_etICRule28ClaimToBe",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule28WhichPart",
+    "Label": "Which part?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule28DirectionReason",
+    "Label": "Employment Judge's reasons",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICRule28NumberOfDays",
+    "Label": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "possibleSubstantiveDefects",
     "Label": "<h2>Possible substantive defects</h2>",
     "FieldType": "Label",
