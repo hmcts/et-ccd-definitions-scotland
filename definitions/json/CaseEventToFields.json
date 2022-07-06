@@ -3926,7 +3926,7 @@
     "PageLabel": "Select Respondent",
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/populateEt3Dates"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midPopulateRespondentEt3Response"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3939,7 +3939,7 @@
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
     "PageColumnNumber": 1,
     "PageLabel": "Minimum required information",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/calculateResponseInTime"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midCalculateResponseInTime"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3969,8 +3969,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"No\"",
-    "ShowSummaryChangeOption": "Y"
+    "FieldShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4002,7 +4001,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 2
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4012,7 +4012,8 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument=\"Yes\""
+    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4504,7 +4505,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 2
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4514,7 +4516,8 @@
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument=\"Yes\""
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4534,7 +4537,8 @@
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Rule 21 referral",
-    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\"",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4564,9 +4568,8 @@
     "PageLabel": "Minimum required information",
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/initRespondentDetails"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midRespondentNameAndAddressTable"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4664,7 +4667,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": 9,
     "PageDisplayOrder": 9,
-    "PageFieldDisplayOrder": 4
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4674,7 +4678,9 @@
     "PageID": 9,
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 5,
-    "FieldShowCondition": "et3DoesRespondentsNameMatch=\"No\""
+    "FieldShowCondition": "et3DoesRespondentsNameMatch=\"No\"",
+    "ShowSummaryChangeOption": "Y",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4732,7 +4738,7 @@
     "PageLabel": "Minimum required information",
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\" AND et3DoWeHaveRespondentsName=\"Yes\""
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\" AND et3DoWeHaveRespondentsAddress=\"Yes\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4750,7 +4756,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 4
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4760,7 +4767,9 @@
     "PageID": 11,
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 5,
-    "FieldShowCondition": "et3DoesRespondentsAddressMatch=\"No\""
+    "FieldShowCondition": "et3DoesRespondentsAddressMatch=\"No\"",
+    "ShowSummaryChangeOption": "Y",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4794,7 +4803,8 @@
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "et3ContestClaim=\"Yes\" OR et3ContestClaim=\"No\" OR et3ContestClaim=\"Unknown - no answer given\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4817,7 +4827,8 @@
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Minimum required information",
     "PageColumnNumber": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/checkHearingListed"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midHearingListedTable",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4829,7 +4840,8 @@
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "et3ContractClaimSection7=\"Yes\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4852,7 +4864,7 @@
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\"",
     "PageColumnNumber": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/transferApplication"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midTransferApplicationTable"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4873,7 +4885,8 @@
     "PageID": 14,
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4929,7 +4942,8 @@
     "PageID": 15,
     "PageDisplayOrder": 15,
     "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4963,7 +4977,8 @@
     "PageID": 15,
     "PageDisplayOrder": 15,
     "PageFieldDisplayOrder": 6,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "et3IsThisLocationCorrect=\"Yes\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5090,7 +5105,8 @@
     "PageDisplayOrder": 17,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Final notes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
