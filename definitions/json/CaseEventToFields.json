@@ -4217,24 +4217,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 5,
-    "PageLabel": "Rule 26",
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICFurtherInformationGiveDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICFurtherInformation CONTAINS \"furtherInformationRequired\"",
     "PageColumnNumber": 1
@@ -4247,7 +4235,7 @@
     "PageID": 5,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICFurtherInformation CONTAINS \"furtherInformationRequired\"",
     "PageColumnNumber": 1
@@ -4259,7 +4247,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICFurtherInformation CONTAINS \"issueRule27\"",
     "PageColumnNumber": 1
@@ -4271,9 +4259,21 @@
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICFurtherInformation CONTAINS \"issueRule28\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageLabel": "Rule 26",
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
