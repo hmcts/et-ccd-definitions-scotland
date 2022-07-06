@@ -3899,133 +3899,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "horizontalLine",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageLabel": "Before you start",
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3VettingBeforeYouStart",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageLabel": "Before you start",
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3ChooseRespondent",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageLabel": "Select Respondent",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midPopulateRespondentEt3Response"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3Date",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "et3DateLabel=\"dummy\"",
-    "PageColumnNumber": 1,
-    "PageLabel": "Minimum required information",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midCalculateResponseInTime"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3DateLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 2,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3IsThereAnEt3Response",
-    "DisplayContext": "MANDATORY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3NoEt3Response",
-    "DisplayContext": "MANDATORY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"No\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3GeneralNotes",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 3,
-    "PageLabel": "",
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3DateCompanyHousePage",
-    "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "PageLabel": "Rule 21 referral",
-    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3CompanyHouseDocument",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument=\"Yes\"",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3GeneralNotesCompanyHouse",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 4
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "horizontalLine",
     "DisplayContext": "READONLY",
@@ -4486,6 +4359,133 @@
     "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3VettingBeforeYouStart",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ChooseRespondent",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "Select Respondent",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midPopulateRespondentEt3Response"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3Date",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "et3DateLabel=\"dummy\"",
+    "PageColumnNumber": 1,
+    "PageLabel": "Minimum required information",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midCalculateResponseInTime"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThereAnEt3Response",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3NoEt3Response",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "et3IsThereAnEt3Response=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageLabel": "",
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateCompanyHousePage",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageLabel": "Rule 21 referral",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3CompanyHouseDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesCompanyHouse",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_Scotland",
