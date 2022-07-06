@@ -1386,7 +1386,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etICConvertPremliminaryGiveDetails",
+    "ID": "etICConvertpreliminaryGiveDetails",
     "Label": "Convert final hearing to preliminary hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",

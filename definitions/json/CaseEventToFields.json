@@ -4124,7 +4124,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICConvertPremliminaryGiveDetails",
+    "CaseFieldID": "etICConvertpreliminaryGiveDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 4,
     "PageDisplayOrder": 4,
