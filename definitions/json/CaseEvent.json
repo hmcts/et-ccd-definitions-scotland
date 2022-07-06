@@ -54,7 +54,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
