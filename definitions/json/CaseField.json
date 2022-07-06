@@ -1241,7 +1241,7 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-    {
+  {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICJurisdictionCodesHearingListed",
     "Label": "${etInitialConsiderationJurisdictionCodes}",
@@ -1254,7 +1254,7 @@
     "Label": "Hearing NOT Listed",
     "FieldType": "Label",
     "SecurityClassification": "Public"
-  },  
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingAnyOtherDirections",
@@ -1337,7 +1337,7 @@
     "Label": "${etInitialConsiderationJurisdictionCodes}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
-  }, 
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICFurtherInformationGiveDetails",

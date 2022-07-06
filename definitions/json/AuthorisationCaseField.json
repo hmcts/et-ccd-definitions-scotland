@@ -5081,7 +5081,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
-
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentAcasDetailsLabel2",
@@ -5112,7 +5111,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
-
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentAcasDetailsLabel3",
@@ -5143,7 +5141,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
-
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentAcasDetailsLabel4",
@@ -5174,7 +5171,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
-
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentAcasDetailsLabel5",
@@ -5205,7 +5201,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
-
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingRespondentAcasDetailsLabel6",

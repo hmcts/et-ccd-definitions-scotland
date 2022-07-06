@@ -559,6 +559,14 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesLegalEntity",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesLegalEntity!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3ChooseRespondent",
     "FieldType": "DynamicList",
     "ElementLabel": "Select the respondent you are processing",
