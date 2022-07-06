@@ -4451,6 +4451,42 @@
     "DisplayOrder": 7
   },
   {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "proceedToHearing",
+    "ListElement": "Proceed to the hearing already listed",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "postponeHearing",
+    "ListElement": "Postpone hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "extendHearingDuration",
+    "ListElement": "Extend duration of hearing",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "convertFinalToPreliminaryHearing",
+    "ListElement": "Convert final hearing to preliminary hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "convertToF2FHearing",
+    "ListElement": "Convert to F2F hearing",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_etICHearingAlreadyListed",
+    "ListElementCode": "other",
+    "ListElement": "Other",
+    "DisplayOrder": 6
+  },
+  {
     "ID": "fl_respondent_legal_entity",
     "ListElementCode": "Yes",
     "ListElement": "Yes",
@@ -4659,5 +4695,239 @@
     "ListElementCode": "DRB",
     "ListElement": "DRB",
     "DisplayOrder": 13
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "Seek comments on CVP hearing",
+    "ListElement": "Seek comments on CVP hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "List for preliminary hearing",
+    "ListElement": "List for preliminary hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "List for final hearing",
+    "ListElement": "List for final hearing",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICHearingNotListed",
+    "ListElementCode": "UDL hearing",
+    "ListElement": "UDL hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICTypeOfCvpHearing",
+    "ListElementCode": "Final",
+    "ListElement": "Final",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfCvpHearing",
+    "ListElementCode": "Preliminary",
+    "ListElement": "Preliminary",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICTypeOfHearing",
+    "ListElementCode": "Telephone",
+    "ListElement": "Telephone",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfHearing",
+    "ListElementCode": "CVP",
+    "ListElement": "CVP",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICTypeOfHearing",
+    "ListElementCode": "F2F",
+    "ListElement": "F2F",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Case management",
+    "ListElement": "Case management",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Preliminary Issue",
+    "ListElement": "Preliminary Issue",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Strike out",
+    "ListElement": "Strike out",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing",
+    "ListElementCode": "Deposit",
+    "ListElement": "Deposit",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Likelihood of dispute on facts makes full tribunal desirable",
+    "ListElement": "Likelihood of dispute on facts makes full tribunal desirable",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Little or no agreement on facts",
+    "ListElement": "Little or no agreement on facts",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Likelihood of issue of law arising makes EJSA desirable",
+    "ListElement": "Likelihood of issue of law arising makes EJSA desirable",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Views of parties",
+    "ListElement": "Views of parties",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Concurrent proceedings",
+    "ListElement": "Concurrent proceedings",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_etICUDLGiveReasons",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_etICUDLHearingFormat",
+    "ListElementCode": "CVP hearing",
+    "ListElement": "CVP hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_etICUDLHearingFormat",
+    "ListElementCode": "Final F2F hearings (not Aberdeen)",
+    "ListElement": "Final F2F hearings (not Aberdeen)",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLCVPIssue",
+    "ListElementCode": "1 Disclosure and Productions",
+    "ListElement": "1 Disclosure and Productions",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICUDLCVPIssue",
+    "ListElementCode": "2 Schedule of loss, mitigation & updated schedule of loss",
+    "ListElement": "2 Schedule of loss, mitigation & updated schedule of loss",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLCVPIssue",
+    "ListElementCode": "3 Witness statements",
+    "ListElement": "3 Witness statements",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "1 Disclosure",
+    "ListElement": "1 Disclosure",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "2 Productions",
+    "ListElement": "2 Productions",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "3 Schedule of loss",
+    "ListElement": "3 Schedule of loss",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "4 Mitigation",
+    "ListElement": "4 Mitigation",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_etICUDLFinalF2FIssue",
+    "ListElementCode": "5 Updated schedule of loss",
+    "ListElement": "5 Updated schedule of loss",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_etICFurtherInformation",
+    "ListElementCode": "furtherInformationRequired",
+    "ListElement": "Further information required",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICFurtherInformation",
+    "ListElementCode": "issueRule27",
+    "ListElement": "Issue Rule 27 Notice and order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICFurtherInformation",
+    "ListElementCode": "issueRule28",
+    "ListElement": "Issue Rule 28 Notice and order",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_etICRule27ClaimToBe",
+    "ListElementCode": "Dismissed in full",
+    "ListElement": "Dismissed in full",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_etICRule27ClaimToBe",
+    "ListElementCode": "Dismissed in part",
+    "ListElement": "Dismissed in part",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICRule27Direction",
+    "ListElementCode": "noJurisdiction",
+    "ListElement": "No jurisdiction",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICRule27Direction",
+    "ListElementCode": "noReasonableProspectOfSuccess",
+    "ListElement": "No reasonable prospect of success",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_etICRule28ClaimToBe",
+    "ListElementCode": "Dismissed in full",
+    "ListElement": "Dismissed in full",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_etICRule28ClaimToBe",
+    "ListElementCode": "Dismissed in part",
+    "ListElement": "Dismissed in part",
+    "DisplayOrder": 2
   }
 ]

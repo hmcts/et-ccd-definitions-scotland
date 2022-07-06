@@ -4957,5 +4957,284 @@
     "ElementLabel": "Jurisdiction code",
     "FieldTypeParameter": "fl_vettingJurCodes",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICTypeOfCvpHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of CVP hearing",
+    "FieldTypeParameter": "msl_etICTypeOfCvpHearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICFinalHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give Details of final hearing",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Final\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give Details of preliminary hearing",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of preliminary hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Purpose of preliminary hearing field",
+    "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details of hearing notice",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICLengthOfPrelimHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "etICTypeOfFinalHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of final hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICEJSitAlone",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "EJ sit alone?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLGiveReasons",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Give reasons",
+    "FieldTypeParameter": "msl_etICUDLGiveReasons",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLDisputeOnFacts",
+    "FieldType": "TextArea",
+    "ElementLabel": "Likelihood of dispute on facts makes full tribunal desirable",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Likelihood of dispute on facts makes full tribunal desirable\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLLittleOrNoAgreement",
+    "FieldType": "TextArea",
+    "ElementLabel": "Little or no agreement on facts",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Little or no agreement on facts\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLIssueOfLawArising",
+    "FieldType": "TextArea",
+    "ElementLabel": "Likelihood of issue of law arising makes EJSA desirable",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Likelihood of issue of law arising makes EJSA desirable\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLViewsOfParties",
+    "FieldType": "TextArea",
+    "ElementLabel": "Views of parties",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Views of parties\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLNoViewsExpressedByParties",
+    "FieldType": "TextArea",
+    "ElementLabel": "No views expressed by parties",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"No views expressed by parties\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLConcurrentProceedings",
+    "FieldType": "TextArea",
+    "ElementLabel": "Concurrent proceedings",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Concurrent proceedings\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Other\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLHearFormat",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing format",
+    "FieldTypeParameter": "fl_etICUDLHearingFormat",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLCVPIssue",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard CVP orders when listed",
+    "FieldTypeParameter": "msl_etICUDLCVPIssue",
+    "FieldShowCondition": "etICUDLHearFormat = \"CVP hearing\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLFinalF2FIssue",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard orders when listed",
+    "FieldTypeParameter": "msl_etICUDLFinalF2FIssue",
+    "FieldShowCondition": "etICUDLHearFormat = \"Final F2F hearings (not Aberdeen)\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICBUCheckComplianceOrders",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "BU to check compliance with orders?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27ClaimToBe",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Claim to be",
+    "FieldTypeParameter": "frl_etICRule27ClaimToBe",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27WhichPart",
+    "ElementLabel": "Which part?",
+    "FieldType": "Text",
+    "FieldShowCondition": "etICRule27ClaimToBe=\"Dismissed in part\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27Direction",
+    "ElementLabel": "Employment Judge's direction for Rule 27 Notice",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICRule27Direction",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27DirectionReason",
+    "ElementLabel": "Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noReasonableProspectOfSuccess\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NumberOfDays",
+    "ElementLabel": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28ClaimToBe",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Claim to be",
+    "FieldTypeParameter": "frl_etICRule28ClaimToBe",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28WhichPart",
+    "ElementLabel": "Which part?",
+    "FieldType": "Text",
+    "FieldShowCondition": "etICRule28ClaimToBe=\"Dismissed in part\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28DirectionReason",
+    "ElementLabel": "Employment Judge's reasons",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28NumberOfDays",
+    "ElementLabel": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
   }
 ]
