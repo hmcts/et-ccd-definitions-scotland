@@ -444,12 +444,13 @@
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
     "DisplayOrder": 38,
-    "PreConditionState(s)": "Accepted;Submitted",
+    "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",    
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
