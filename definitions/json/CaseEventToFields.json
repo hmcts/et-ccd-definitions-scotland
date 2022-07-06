@@ -3621,15 +3621,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 13,
-    "PageDisplayOrder": 13,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "servingDocumentCollection",
     "DisplayContext": "MANDATORY",
