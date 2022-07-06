@@ -1363,7 +1363,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICExtendDurationGiveDetails",
-    "Label": "Extend duration",
+    "Label": "Extend duration of hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
@@ -1386,7 +1386,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etICConvertpreliminaryGiveDetails",
+    "ID": "etICConvertPreliminaryGiveDetails",
     "Label": "Convert final hearing to preliminary hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
