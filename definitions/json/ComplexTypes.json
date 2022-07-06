@@ -2240,6 +2240,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "Jurisdiction",
+    "ListElementCode": "disposalDate",
+    "FieldType": "Date",
+    "ElementLabel": "Disposal date",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "judgmentReconsideration",
     "ListElementCode": "reconsideration",
     "FieldType": "YesOrNo",
@@ -4941,6 +4948,14 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JurisdictionCode",
+    "ListElementCode": "et1VettingJurCodeList",
+    "FieldType": "FixedList",
+    "ElementLabel": "Jurisdiction code",
+    "FieldTypeParameter": "fl_vettingJurCodes",
     "SecurityClassification": "Public"
   },
   {

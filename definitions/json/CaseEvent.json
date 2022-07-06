@@ -51,6 +51,7 @@
     "DisplayOrder": 6,
     "PreConditionState(s)": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
@@ -171,8 +172,8 @@
     "Name": "Jurisdiction",
     "Description": "Add or Amend a Jurisdiction",
     "DisplayOrder": 16,
-    "PreConditionState(s)": "Accepted;Rejected",
-    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "PreConditionState(s)": "Accepted;Rejected;Submitted",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Submitted",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendJurisdiction",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"

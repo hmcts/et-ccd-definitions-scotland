@@ -5159,6 +5159,15 @@
     "DisplayContext": "MANDATORY"
   },
   {
+    "ID": "Jurisdiction",
+    "CaseEventID": "addAmendJurisdiction",
+    "CaseFieldID": "jurCodesCollection",
+    "ListElementCode": "disposalDate",
+    "EventElementLabel": "Disposal date",
+    "FieldDisplayOrder": 73,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "RestrictedReporting",
     "CaseEventID": "restrictedCases",
     "CaseFieldID": "restrictedReporting",
@@ -5907,6 +5916,15 @@
     "ListElementCode": "depositDoc",
     "EventElementLabel": "Document Upload",
     "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "JurisdictionCode",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "vettingJurisdictionCodeCollection",
+    "ListElementCode": "et1VettingJurCodeList",
+    "EventElementLabel": "Jurisdiction code",
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   }
 ]
