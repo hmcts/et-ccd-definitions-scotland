@@ -22,6 +22,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "horizontalLine4",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "typeOfClaim",
     "Label": "Type Of Claim",
     "FieldType": "DynamicList",
@@ -959,62 +966,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingCanServeClaimGeneralNote",
-    "Label": "General notes",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingAcasCertLabel",
-    "Label": "<hr><h2>Acas certificate</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingAcasCertListMarkUp",
-    "Label": "Acas Cert List placeholder",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingAcasCertListLabel",
-    "Label": "${et1VettingAcasCertListMarkUp}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingClaimantDetailsLabel2",
-    "Label": "${et1VettingClaimantDetailsMarkUp}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingRespondentDetailsLabel2",
-    "Label": "${et1VettingRespondentDetailsMarkUp}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingAcasCertIsYesOrNo",
-    "Label": "Is there an Acas certificate?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingAcasCertExemptYesOrNo",
-    "Label": "Has the claimant ticked one of the exemptions?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
@@ -2330,6 +2281,188 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1LocationGeneralNotes",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingClaimantDetailsLabel2",
+    "Label": "${et1VettingClaimantDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetails1",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetails2",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetails3",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetails4",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetails5",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetails6",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetailsLabel1",
+    "Label": "${et1VettingRespondentAcasDetails1}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetailsLabel2",
+    "Label": "${et1VettingRespondentAcasDetails2}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetailsLabel3",
+    "Label": "${et1VettingRespondentAcasDetails3}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetailsLabel4",
+    "Label": "${et1VettingRespondentAcasDetails4}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetailsLabel5",
+    "Label": "${et1VettingRespondentAcasDetails5}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingRespondentAcasDetailsLabel6",
+    "Label": "${et1VettingRespondentAcasDetails6}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo1",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo2",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo3",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo4",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo5",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertIsYesOrNo6",
+    "Label": "Is there an Acas certificate?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo1",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo2",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo3",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo4",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo5",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertExemptYesOrNo6",
+    "Label": "Has the claimant ticked one of the exemptions?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
