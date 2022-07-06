@@ -5162,9 +5162,9 @@
   {
     "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27ClaimToBe",
-    "FieldType": "MultiSelectList",
+    "FieldType": "FixedRadioList",
     "ElementLabel": "Claim to be",
-    "FieldTypeParameter": "fl_etICRule27ClaimToBe",
+    "FieldTypeParameter": "frl_etICRule27ClaimToBe",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
   },
@@ -5173,7 +5173,7 @@
     "ListElementCode": "etICRule27WhichPart",
     "ElementLabel": "Which part?",
     "FieldType": "Text",
-    "FieldShowCondition": "etICRule27ClaimToBe CONTAINS \"dismissedInPart\"",
+    "FieldShowCondition": "etICRule27ClaimToBe=\"Dismissed in part\"",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
   },
@@ -5206,9 +5206,9 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
-    "FieldType": "MultiSelectList",
+    "FieldType": "FixedRadioList",
     "ElementLabel": "Claim to be",
-    "FieldTypeParameter": "fl_etICRule28ClaimToBe",
+    "FieldTypeParameter": "frl_etICRule28ClaimToBe",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
   },
@@ -5217,7 +5217,7 @@
     "ListElementCode": "etICRule28WhichPart",
     "ElementLabel": "Which part?",
     "FieldType": "Text",
-    "FieldShowCondition": "etICRule28ClaimToBe CONTAINS \"dismissedInPart\"",
+    "FieldShowCondition": "etICRule28ClaimToBe=\"Dismissed in part\"",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
   },

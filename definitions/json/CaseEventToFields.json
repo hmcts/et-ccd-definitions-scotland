@@ -4100,14 +4100,50 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICExtendDurationGiveDetails",
+    "CaseFieldID": "etICPostponeGiveDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
+    "FieldShowCondition": "etICHearingListed CONTAINS \"postponeHearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICExtendDurationGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1,
     "FieldShowCondition": "etICHearingListed CONTAINS \"extendHearingDuration\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICConvertPremliminaryGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "etICHearingListed CONTAINS \"convertFinalToPreliminaryHearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICConvertF2fGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "etICHearingListed CONTAINS \"convertToF2FHearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4116,7 +4152,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 4,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etICHearingListed CONTAINS \"other\""
@@ -4128,7 +4164,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },

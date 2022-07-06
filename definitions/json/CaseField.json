@@ -1364,6 +1364,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "etICExtendDurationGiveDetails",
     "Label": "Extend duration",
+    "HintText": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1371,6 +1372,31 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "etICOtherGiveDetails",
     "Label": "Other",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICPostponeGiveDetails",
+    "Label": "Postpone hearing",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICConvertPremliminaryGiveDetails",
+    "Label": "Convert final hearing to preliminary hearing",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICConvertF2fGiveDetails",
+    "Label": "Convert to F2F hearing",
+    "HintText": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },

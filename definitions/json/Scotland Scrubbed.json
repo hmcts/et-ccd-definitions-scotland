@@ -4895,14 +4895,14 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "fl_etICRule27ClaimToBe",
-    "ListElementCode": "dismissedInFull",
+    "ID": "frl_etICRule27ClaimToBe",
+    "ListElementCode": "Dismissed in full",
     "ListElement": "Dismissed in full",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_etICRule27ClaimToBe",
-    "ListElementCode": "dismissedInPart",
+    "ID": "frl_etICRule27ClaimToBe",
+    "ListElementCode": "Dismissed in part",
     "ListElement": "Dismissed in part",
     "DisplayOrder": 2
   },
@@ -4919,14 +4919,14 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "fl_etICRule28ClaimToBe",
-    "ListElementCode": "dismissedInFull",
+    "ID": "frl_etICRule28ClaimToBe",
+    "ListElementCode": "Dismissed in full",
     "ListElement": "Dismissed in full",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_etICRule28ClaimToBe",
-    "ListElementCode": "dismissedInPart",
+    "ID": "frl_etICRule28ClaimToBe",
+    "ListElementCode": "Dismissed in part",
     "ListElement": "Dismissed in part",
     "DisplayOrder": 2
   }
