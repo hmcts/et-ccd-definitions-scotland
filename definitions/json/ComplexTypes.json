@@ -510,6 +510,14 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesCompanyHouse",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesCompanyHouse!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3IsThereAnIndividualSearchDocument",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an individual insolvency search document?",
