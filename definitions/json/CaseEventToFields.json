@@ -4331,8 +4331,7 @@
     "PageID": 3,
     "PageLabel": "",
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y"
+    "PageFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_Scotland",
