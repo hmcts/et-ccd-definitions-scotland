@@ -591,6 +591,22 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3DoWeHaveRespondentsName",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do we have the respondent's name?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoWeHaveRespondentsName!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesRespondentName",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentName!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3DoesRespondentsNameMatch",
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the respondent's name match?",
@@ -615,6 +631,22 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3DoWeHaveRespondentsAddress",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do we have the respondent's address?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoWeHaveRespondentsAddress!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesRespondentAddress",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3DoesRespondentsAddressMatch",
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the respondent's address match?",
@@ -631,11 +663,11 @@
   },
   {
     "ID": "ET3Vetting",
-    "ListElementCode": "et3GeneralNotesRespondentAddress",
+    "ListElementCode": "et3GeneralNotesAddressMatch",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\""
+    "FieldShowCondition": "et3GeneralNotesAddressMatch!=\"\""
   },
   {
     "ID": "ET3Vetting",
@@ -660,6 +692,15 @@
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3GeneralNotesCaseListed!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThisLocationCorrect",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Is this location correct?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThisLocationCorrect!=\"\"",
+    "FieldTypeParameter": "fl_et3_tribunal_location_change"
   },
   {
     "ID": "ET3Vetting",
@@ -814,47 +855,6 @@
     "ElementLabel": "Additional information",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3AdditionalInformation!=\"\""
-  },
-  {
-    "ID": "ET3Vetting",
-    "ListElementCode": "et3NameAddressRespondent",
-    "FieldType": "Text",
-    "ElementLabel": "et3NameAddressRespondent",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
-  },
-  {
-    "ID": "ET3Vetting",
-    "ListElementCode": "et3DoWeHaveRespondentsName",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "et3DoWeHaveRespondentsName",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
-  },
-  {
-    "ID": "ET3Vetting",
-    "ListElementCode": "et3IsThisLocationCorrect",
-    "FieldType": "FixedRadioList",
-    "ElementLabel": "et3IsThisLocationCorrect",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\"",
-    "FieldTypeParameter": "fl_et3_tribunal_location_change"
-  },
-  {
-    "ID": "ET3Vetting",
-    "ListElementCode": "et3GeneralNotesRespondentName",
-    "FieldType": "TextArea",
-    "ElementLabel": "et3GeneralNotesRespondentName",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
-  },
-  {
-    "ID": "ET3Vetting",
-    "ListElementCode": "et3DoWeHaveRespondentsAddress",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "et3DoWeHaveRespondentsAddress",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
   },
   {
     "ID": "ET3Vetting",

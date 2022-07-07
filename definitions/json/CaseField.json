@@ -2244,7 +2244,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3GeneralNotesRespondentAddressMatch",
+    "ID": "et3GeneralNotesAddressMatch",
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"

@@ -4663,7 +4663,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "CaseFieldID": "et3GeneralNotesAddressMatch",
     "DisplayContext": "OPTIONAL",
     "PageID": 11,
     "PageDisplayOrder": 11,

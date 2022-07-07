@@ -9163,31 +9163,31 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "CaseFieldID": "et3GeneralNotesAddressMatch",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "CaseFieldID": "et3GeneralNotesAddressMatch",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "CaseFieldID": "et3GeneralNotesAddressMatch",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "CaseFieldID": "et3GeneralNotesAddressMatch",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3GeneralNotesRespondentAddressMatch",
+    "CaseFieldID": "et3GeneralNotesAddressMatch",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
