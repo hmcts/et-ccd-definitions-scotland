@@ -856,7 +856,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseRepresentative_Claimant",
     "TabLabel": "Claimant Representative",
-    "TabDisplayOrder": 3,
+    "TabDisplayOrder": 4,
     "CaseFieldID": "claimantRepresentedQuestion",
     "TabFieldDisplayOrder": 1,
     "FieldShowCondition": "caseType=\"dummy\"",
@@ -874,7 +874,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseRespondent",
     "TabLabel": "Respondent",
-    "TabDisplayOrder": 4,
+    "TabDisplayOrder": 5,
     "CaseFieldID": "respondentCollection",
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)"
@@ -900,7 +900,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseRepresentative_Respondent",
     "TabLabel": "Respondent Representative",
-    "TabDisplayOrder": 5,
+    "TabDisplayOrder": 6,
     "CaseFieldID": "repCollection",
     "TabFieldDisplayOrder": 1
   },
@@ -909,7 +909,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseJurisdictions",
     "TabLabel": "Jurisdictions",
-    "TabDisplayOrder": 6,
+    "TabDisplayOrder": 7,
     "CaseFieldID": "jurCodesCollection",
     "TabFieldDisplayOrder": 1
   },
