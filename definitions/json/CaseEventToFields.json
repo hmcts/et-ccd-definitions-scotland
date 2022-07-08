@@ -243,17 +243,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
-    "CaseFieldID": "newEmploymentType",
-    "DisplayContext": "COMPLEX",
-    "PageID": 7,
-    "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantRepresentedQuestion",
     "DisplayContext": "MANDATORY",
     "PageID": 8,
