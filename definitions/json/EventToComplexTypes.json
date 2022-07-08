@@ -656,24 +656,6 @@
   {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
-    "CaseFieldID": "newEmploymentType",
-    "ListElementCode": "newly_employed_from",
-    "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCase",
-    "CaseFieldID": "newEmploymentType",
-    "ListElementCode": "new_pay_before_tax",
-    "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_preferences",
     "EventElementLabel": "What are the claimant's hearing preferences",
