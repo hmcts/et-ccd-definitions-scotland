@@ -285,6 +285,13 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantHearingPreference",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseRepresentative_Claimant",
     "TabLabel": "Claimant Representative",
     "TabDisplayOrder": 3,

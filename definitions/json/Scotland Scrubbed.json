@@ -4929,5 +4929,23 @@
     "ListElementCode": "Dismissed in part",
     "ListElement": "Dismissed in part",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Video",
+    "ListElement": "Video",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Phone",
+    "ListElement": "Phone",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Neither",
+    "ListElement": "Neither",
+    "DisplayOrder": 3
   }
 ]
