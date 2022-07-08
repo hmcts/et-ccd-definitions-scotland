@@ -72,8 +72,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3Vetting",
-    "Name": "ET3 Vetting",
-    "Description": "ET3 Vetting",
+    "Name": "ET3 Processing",
+    "Description": "ET3 Processing",
     "DisplayOrder": 8,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
