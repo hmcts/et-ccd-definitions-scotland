@@ -296,7 +296,8 @@
     "TabLabel": "ET1 Vetting",
     "TabDisplayOrder": 3,
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"Awaiting Submission\""
   },
   {
     "CaseTypeID": "ET_Scotland",
