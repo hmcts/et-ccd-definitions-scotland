@@ -297,7 +297,7 @@
     "TabDisplayOrder": 3,
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
     "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"Awaiting Submission\""
+    "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",
