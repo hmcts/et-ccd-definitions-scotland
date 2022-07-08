@@ -907,83 +907,9 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseJurisdictions",
-    "TabLabel": "Jurisdictions",
-    "TabDisplayOrder": 7,
-    "CaseFieldID": "jurCodesCollection",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseHearings",
-    "TabLabel": "Hearings",
-    "TabDisplayOrder": 8,
-    "CaseFieldID": "hearingCollection",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseJudgments",
-    "TabLabel": "Judgments",
-    "TabDisplayOrder": 9,
-    "CaseFieldID": "judgementCollection",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseDeposit",
-    "TabLabel": "Deposit Order",
-    "TabDisplayOrder": 10,
-    "CaseFieldID": "depositType",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "RestrictedReportingTab",
-    "TabLabel": "Restricted Reporting",
-    "TabDisplayOrder": 11,
-    "CaseFieldID": "restrictedReporting",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "BroughtForwardDate",
-    "TabLabel": "BF Actions",
-    "TabDisplayOrder": 12,
-    "CaseFieldID": "bfActions",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(bfDate)"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseDocuments",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 13,
-    "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseHistory",
-    "TabLabel": "History",
-    "TabDisplayOrder": 14,
-    "CaseFieldID": "caseHistory",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "TabLabel": "Initial Consideration",
-    "TabDisplayOrder": 15,
+    "TabDisplayOrder": 7,
     "CaseFieldID": "etICJuridictionCodesInvalid",
     "TabFieldDisplayOrder": 1
   },
@@ -1140,6 +1066,80 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "TabFieldDisplayOrder": 23
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJurisdictions",
+    "TabLabel": "Jurisdictions",
+    "TabDisplayOrder": 8,
+    "CaseFieldID": "jurCodesCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseHearings",
+    "TabLabel": "Hearings",
+    "TabDisplayOrder": 9,
+    "CaseFieldID": "hearingCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "TabLabel": "Judgments",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "judgementCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDeposit",
+    "TabLabel": "Deposit Order",
+    "TabDisplayOrder": 11,
+    "CaseFieldID": "depositType",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "RestrictedReportingTab",
+    "TabLabel": "Restricted Reporting",
+    "TabDisplayOrder": 12,
+    "CaseFieldID": "restrictedReporting",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "BroughtForwardDate",
+    "TabLabel": "BF Actions",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "bfActions",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(bfDate)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 14,
+    "CaseFieldID": "documentCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseHistory",
+    "TabLabel": "History",
+    "TabDisplayOrder": 15,
+    "CaseFieldID": "caseHistory",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
