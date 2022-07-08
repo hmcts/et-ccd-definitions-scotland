@@ -423,8 +423,7 @@
     "TabLabel": "Initial Consideration",
     "TabDisplayOrder": 15,
     "CaseFieldID": "etICJuridictionCodesInvalid",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "etICJuridictionCodesInvalid!=\"\""
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
