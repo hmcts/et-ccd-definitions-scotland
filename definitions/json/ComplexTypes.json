@@ -5380,7 +5380,7 @@
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICFinalHearingDetails",
     "FieldType": "TextArea",
-    "ElementLabel": "Give Details of final hearing",
+    "ElementLabel": "Give details of final hearing",
     "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Final\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
@@ -5389,7 +5389,7 @@
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICPrelimHearingDetails",
     "FieldType": "TextArea",
-    "ElementLabel": "Give Details of preliminary hearing",
+    "ElementLabel": "Give details of preliminary hearing",
     "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
@@ -5408,7 +5408,7 @@
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICPurposeOfPreliminaryHearing",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "Purpose of preliminary hearing field",
+    "ElementLabel": "Purpose of preliminary hearing",
     "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
     "RetainHiddenValue": "No",
     "HintText": "Select all that apply",
