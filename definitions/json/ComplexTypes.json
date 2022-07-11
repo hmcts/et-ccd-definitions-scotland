@@ -360,27 +360,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "TaskListCheck",
-    "ListElementCode": "personalDetailsCheck",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Have you completed this section?",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "TaskListCheck",
-    "ListElementCode": "employmentAndRespondentCheck",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Have you completed this section?",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "TaskListCheck",
-    "ListElementCode": "claimDetailsCheck",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Have you completed this section?",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "CompanyPremises",
     "ListElementCode": "premises",
     "FieldType": "Text",
