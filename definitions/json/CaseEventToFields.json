@@ -266,17 +266,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
-    "CaseFieldID": "claimantTaskListChecks",
-    "DisplayContext": "COMPLEX",
-    "PageID": 8,
-    "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "DisplayContext": "COMPLEX",
     "PageID": 9,
