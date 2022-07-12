@@ -469,6 +469,403 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThereAnEt3Response",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there an ET3 response?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThereAnEt3Response!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3NoEt3Response",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3NoEt3Response!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotes",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotes!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThereACompaniesHouseSearchDocument",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there a Companies House search document?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3CompanyHouseDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Upload the Companies House search document",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3CompanyHouseDocument!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesCompanyHouse",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesCompanyHouse!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThereAnIndividualSearchDocument",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there an individual insolvency search document?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IndividualInsolvencyDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Upload the individual insolvency search document",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IndividualInsolvencyDocument!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesIndividualInsolvency",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesIndividualInsolvency!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3LegalIssue",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Is there an issue with whether the respondent is a legal entity?",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_respondent_legal_entity",
+    "FieldShowCondition": "et3LegalIssue!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3LegalIssueGiveDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3LegalIssueGiveDetails!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesLegalEntity",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesLegalEntity!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ChooseRespondent",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Select the respondent you are processing",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ChooseRespondent!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ResponseInTime",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Did we receive the ET3 response in time?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ResponseInTime!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ResponseInTimeDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ResponseInTimeDetails!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3DoWeHaveRespondentsName",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do we have the respondent's name?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoWeHaveRespondentsName!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesRespondentName",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentName!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3DoesRespondentsNameMatch",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the respondent's name match?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoesRespondentsNameMatch!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3RespondentNameMismatchDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3RespondentNameMismatchDetails!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesRespondentNameMatch",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentNameMatch!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3DoWeHaveRespondentsAddress",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do we have the respondent's address?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoWeHaveRespondentsAddress!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesRespondentAddress",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3DoesRespondentsAddressMatch",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the respondent's address match?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoesRespondentsAddressMatch!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3RespondentAddressMismatchDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3RespondentAddressMismatchDetails!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesAddressMatch",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesAddressMatch!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsCaseListedForHearing",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is the case listed for hearing?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsCaseListedForHearing!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsCaseListedForHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsCaseListedForHearingDetails!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesCaseListed",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesCaseListed!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThisLocationCorrect",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Is this location correct?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThisLocationCorrect!=\"\"",
+    "FieldTypeParameter": "fl_et3_tribunal_location_change"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3RegionalOffice",
+    "FieldType": "FixedList",
+    "ElementLabel": "England & Wales regional office",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "FieldShowCondition": "et3RegionalOffice!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3WhyWeShouldChangeTheOffice",
+    "FieldType": "TextArea",
+    "ElementLabel": "Why should we change the office?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3WhyWeShouldChangeTheOffice!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesTransferApplication",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesTransferApplication!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ContestClaim",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Does the respondent wish to contest any part of the claim?",
+    "FieldTypeParameter": "fl_contest_claim_status",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContestClaim!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ContestClaimGiveDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContestClaimGiveDetails!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesContestClaim",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesContestClaim!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ContractClaimSection7",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there an Employer's Contract Claim in section 7 of the ET3 response?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContractClaimSection7!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ContractClaimSection7Details",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContractClaimSection7Details!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesContractClaimSection7",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesContractClaimSection7!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3Rule26",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3Rule26!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3Rule26Details",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3Rule26Details!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssuesStrikeOut",
+    "FieldType": "TextArea",
+    "ElementLabel": "Applications for strike out or deposit",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssuesStrikeOut!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssueInterpreters",
+    "FieldType": "TextArea",
+    "ElementLabel": "Interpreters",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueInterpreters!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssueJurisdictional",
+    "FieldType": "TextArea",
+    "ElementLabel": "Jurisdictional issues",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueJurisdictional!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssueAdjustments",
+    "FieldType": "TextArea",
+    "ElementLabel": "Request for adjustments",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueAdjustments!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssueRule50",
+    "FieldType": "TextArea",
+    "ElementLabel": "Rule 50",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueRule50!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssueTimePoints",
+    "FieldType": "TextArea",
+    "ElementLabel": "Time points",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueTimePoints!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesRule26",
+    "FieldType": "TextArea",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRule26!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3AdditionalInformation",
+    "FieldType": "TextArea",
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3AdditionalInformation!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3SuggestedIssues",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Are there any other suggested orders, directions or issues?",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_et3_suggested_issues",
+    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
+  },
+  {
     "ID": "Respondent",
     "ListElementCode": "respondent_name",
     "FieldType": "TextArea",
@@ -787,6 +1184,22 @@
     "FieldType": "TextArea",
     "ElementLabel": "Notes",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3VettingCompleted",
+    "FieldType": "TextArea",
+    "ElementLabel": "et3VettingCompleted",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\""
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3Vetting",
+    "FieldType": "ET3Vetting",
+    "ElementLabel": "ET3 vetting",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3VettingCompleted=\"Yes\""
   },
   {
     "ID": "RespondentRepresentative",
@@ -2237,6 +2650,13 @@
     "ElementLabel": "Date notified",
     "FieldShowCondition": "judgmentOutcome = \"Acas conciliated settlement\" OR judgmentOutcome = \"Withdrawn or private settlement\" ",
     "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "disposalDate",
+    "FieldType": "Date",
+    "ElementLabel": "Disposal date",
     "SecurityClassification": "Public"
   },
   {
@@ -4888,23 +5308,19 @@
   },
   {
     "ID": "HearingPreference",
-    "ListElementCode": "hearing_video",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Can the claimant take part in video hearings",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "HearingPreference",
-    "ListElementCode": "hearing_phone",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Can the claimant take part in phone hearings",
+    "ListElementCode": "hearing_preferences",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "What are the claimant's hearing preferences",
+    "FieldTypeParameter": "msl_HearingPreferences",
     "SecurityClassification": "Public"
   },
   {
     "ID": "HearingPreference",
     "ListElementCode": "hearing_assistance",
-    "FieldType": "Text",
-    "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldType": "TextArea",
+    "ElementLabel": "Why is the claimant unable to take part in video or phone hearings",
+    "FieldShowCondition": "hearing_preferences CONTAINS \"Neither\"",
+    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
@@ -4942,5 +5358,292 @@
     "FieldType": "Text",
     "ElementLabel": "Short Description",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JurisdictionCode",
+    "ListElementCode": "et1VettingJurCodeList",
+    "FieldType": "FixedList",
+    "ElementLabel": "Jurisdiction code",
+    "FieldTypeParameter": "fl_jurisdictionCodes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICTypeOfCvpHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of CVP hearing",
+    "FieldTypeParameter": "msl_etICTypeOfCvpHearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICFinalHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details of final hearing",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Final\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details of preliminary hearing",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of preliminary hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Purpose of preliminary hearing",
+    "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details of hearing notice",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICLengthOfPrelimHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "etICTypeOfFinalHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of final hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICEJSitAlone",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "EJ sit alone?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLGiveReasons",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Give reasons",
+    "FieldTypeParameter": "msl_etICUDLGiveReasons",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLDisputeOnFacts",
+    "FieldType": "TextArea",
+    "ElementLabel": "Likelihood of dispute on facts makes full tribunal desirable",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Likelihood of dispute on facts makes full tribunal desirable\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLLittleOrNoAgreement",
+    "FieldType": "TextArea",
+    "ElementLabel": "Little or no agreement on facts",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Little or no agreement on facts\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLIssueOfLawArising",
+    "FieldType": "TextArea",
+    "ElementLabel": "Likelihood of issue of law arising makes EJSA desirable",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Likelihood of issue of law arising makes EJSA desirable\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLViewsOfParties",
+    "FieldType": "TextArea",
+    "ElementLabel": "Views of parties",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Views of parties\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLNoViewsExpressedByParties",
+    "FieldType": "TextArea",
+    "ElementLabel": "No views expressed by parties",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"No views expressed by parties\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLConcurrentProceedings",
+    "FieldType": "TextArea",
+    "ElementLabel": "Concurrent proceedings",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Concurrent proceedings\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other",
+    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Other\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLHearFormat",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing format",
+    "FieldTypeParameter": "fl_etICUDLHearingFormat",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLCVPIssue",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard CVP orders when listed",
+    "FieldTypeParameter": "msl_etICUDLCVPIssue",
+    "FieldShowCondition": "etICUDLHearFormat = \"CVP hearing\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLFinalF2FIssue",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard orders when listed",
+    "FieldTypeParameter": "msl_etICUDLFinalF2FIssue",
+    "FieldShowCondition": "etICUDLHearFormat = \"Final F2F hearings (not Aberdeen)\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICBUCheckComplianceOrders",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "BU to check compliance with orders?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27ClaimToBe",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Claim to be",
+    "FieldTypeParameter": "frl_etICRule27ClaimToBe",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27WhichPart",
+    "ElementLabel": "Which part?",
+    "FieldType": "Text",
+    "FieldShowCondition": "etICRule27ClaimToBe=\"Dismissed in part\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27Direction",
+    "ElementLabel": "Employment Judge's direction for Rule 27 Notice",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICRule27Direction",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27DirectionReason",
+    "ElementLabel": "Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noReasonableProspectOfSuccess\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NumberOfDays",
+    "ElementLabel": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28ClaimToBe",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Claim to be",
+    "FieldTypeParameter": "frl_etICRule28ClaimToBe",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28WhichPart",
+    "ElementLabel": "Which part?",
+    "FieldType": "Text",
+    "FieldShowCondition": "etICRule28ClaimToBe=\"Dismissed in part\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28DirectionReason",
+    "ElementLabel": "Employment Judge's reasons",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28NumberOfDays",
+    "ElementLabel": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
   }
 ]
