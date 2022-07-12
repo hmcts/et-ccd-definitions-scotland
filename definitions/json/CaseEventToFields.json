@@ -5148,6 +5148,27 @@
     "PageLabel": "What is the respondent's name?"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3RespondentAddress",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Respondent address"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseDXAddress",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
