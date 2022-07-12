@@ -5701,5 +5701,284 @@
     "EventElementLabel": "Jurisdiction code",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICTypeOfCvpHearing",
+    "EventElementLabel": "Type of CVP hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICFinalHearingDetails",
+    "EventElementLabel": "Give details of final hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingDetails",
+    "EventElementLabel": "Give details of preliminary hearing",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "EventElementLabel": "Type of preliminary hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "EventElementLabel": "Purpose of preliminary hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "EventElementLabel": "Give details of hearing notice",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "etICLengthOfPrelimHearing",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "etICTypeOfFinalHearing",
+    "EventElementLabel": "Type of final hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearing",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICEJSitAlone",
+    "EventElementLabel": "EJ sit alone?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLGiveReasons",
+    "EventElementLabel": "Give reasons",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLDisputeOnFacts",
+    "EventElementLabel": "Likelihood of dispute on facts makes full tribunal desirable",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLLittleOrNoAgreement",
+    "EventElementLabel": "Little or no agreement on facts",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLIssueOfLawArising",
+    "EventElementLabel": "Likelihood of issue of law arising makes EJSA desirable",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLViewsOfParties",
+    "EventElementLabel": "Views of parties",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLNoViewsExpressedByParties",
+    "EventElementLabel": "No views expressed by parties",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLConcurrentProceedings",
+    "EventElementLabel": "Concurrent proceedings",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLOther",
+    "EventElementLabel": "Other",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLHearFormat",
+    "EventElementLabel": "Hearing format",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLCVPIssue",
+    "EventElementLabel": "Issue standard CVP orders when listed",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUDLFinalF2FIssue",
+    "EventElementLabel": "Issue standard orders when listed",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICBUCheckComplianceOrders",
+    "EventElementLabel": "BU to check compliance with orders?",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27ClaimToBe",
+    "EventElementLabel": "Claim to be",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27WhichPart",
+    "EventElementLabel": "Which part?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27Direction",
+    "EventElementLabel": "Employment Judge's direction for Rule 27 Notice",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27DirectionReason",
+    "EventElementLabel": "Set out reason",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NumberOfDays",
+    "EventElementLabel": "Number of days for claimant to provide written representations",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28ClaimToBe",
+    "EventElementLabel": "Claim to be",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28WhichPart",
+    "EventElementLabel": "Which part?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28DirectionReason",
+    "EventElementLabel": "Employment Judge's reasons",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28NumberOfDays",
+    "EventElementLabel": "Number of days for claimant to provide written representations",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
   }
 ]
