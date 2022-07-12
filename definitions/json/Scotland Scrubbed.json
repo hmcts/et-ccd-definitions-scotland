@@ -4869,5 +4869,35 @@
     "ListElementCode": "Neither",
     "ListElement": "Neither",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Individual",
+    "ListElementCode": "Individual",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Limited company",
+    "ListElementCode": "Limited company",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Partnership",
+    "ListElementCode": "Partnership",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Unincorporated association (such as a sports club)",
+    "ListElementCode": "Unincorporated association",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Other",
+    "ListElementCode": "Other",
+    "DisplayOrder": 5
   }
 ]
