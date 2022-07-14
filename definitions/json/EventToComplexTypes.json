@@ -5980,5 +5980,14 @@
     "EventElementLabel": "Number of days for claimant to provide written representations",
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3ResponseForm",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Upload a document to your response",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
   }
 ]
