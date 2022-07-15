@@ -2855,6 +2855,59 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseAreDatesCorrect",
+    "Label": "Are the dates of employment given by the claimant correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "flr_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentStartDate",
+    "Label": "Enter the employment start date",
+    "HintText": "For example, 12 11 2020",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentEndDate",
+    "Label": "Enter employment end date",
+    "HintText": "For example, 12 11 2020",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentInformation",
+    "Label": "Do you want to provide any further information about the claimant's employment dates?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContinuingEmployment",
+    "Label": "Is the claimant's employment with the respondent continuing?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "flr_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsJobCorrect",
+    "Label": "Is the claimant's description of their job or job title correct?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseCorrectJobTitle",
+    "Label": "What is or was the claimant's correct job title?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
