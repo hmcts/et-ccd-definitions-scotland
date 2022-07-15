@@ -473,6 +473,17 @@
     "ShowSummary": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3Notification",
+    "Name": "ET3 notification",
+    "Description": "ET3 notification",
+    "DisplayOrder": 41,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",

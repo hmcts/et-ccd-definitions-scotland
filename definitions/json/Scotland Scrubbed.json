@@ -4959,5 +4959,41 @@
     "ListElement": "Annually",
     "ListElementCode": "Annually",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 10",
+    "ListElement": "Letter 10 Rejection of response by staff",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 11",
+    "ListElement": "Letter 11 Rejection of response by EJ",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 13",
+    "ListElement": "Letter 13 To respondent - response accepted",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 14",
+    "ListElement": "Letter 14 Notice to claimant of accepted response",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "et3From",
+    "ListElement": "ET3 form",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Another type of document",
+    "ListElement": "Another type of document",
+    "DisplayOrder": 6
   }
 ]
