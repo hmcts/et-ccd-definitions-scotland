@@ -5365,6 +5365,126 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseClaimantWeeklyHours",
+    "DisplayContext": "MANDATORY",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Are the claimant's total weekly work hours correct?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseClaimantCorrectHours",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 14,
+    "PageDisplayOrder": 14,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3ResponseClaimantWeeklyHours=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEarningDetailsCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Are the earnings details given by the claimant correct?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponsePayDetailsPreamble",
+    "DisplayContext": "READONLY",
+    "PageID": 16,
+    "PageDisplayOrder": 16,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3ResponseEarningDetailsCorrect=\"No\"",
+    "PageLabel": "What are the claimant's correct pay details?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponsePayFrequency",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 16,
+    "PageDisplayOrder": 16,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponsePayBeforeTax",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 16,
+    "PageDisplayOrder": 16,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponsePayTakehome",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 16,
+    "PageDisplayOrder": 16,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseIsNoticeCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 17,
+    "PageDisplayOrder": 17,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Is the information given by the claimant correct about their notice?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseCorrectNoticeDetails",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 17,
+    "PageDisplayOrder": 17,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "et3ResponseIsNoticeCorrect=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseIsPensionCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 18,
+    "PageDisplayOrder": 18,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Are the details about pension and other benefits correct?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponsePensionCorrectDetails",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 18,
+    "PageDisplayOrder": 18,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3ResponseIsPensionCorrect=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

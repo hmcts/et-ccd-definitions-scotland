@@ -2908,6 +2908,92 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantWeeklyHours",
+    "Label": "Are the claimant's total weekly work hours correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantCorrectHours",
+    "Label": "What are the claimant's correct total weekly work hours?",
+    "HintText": "Enter their hours work per week",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEarningDetailsCorrect",
+    "Label": "Are the earnings details given by the claimant correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayDetailsPreamble",
+    "Label": "If pay details are provided on the ET1 form, check whether the pay is weekly, monthly or annual. Use the same time period here.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayFrequency",
+    "Label": "How often was the claimant paid?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_et3_pay_frequency",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayBeforeTax",
+    "Label": "Enter the claimant's pay BEFORE tax",
+    "HintText": "Include overtime, commission and bonuses.",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayTakehome",
+    "Label": "Enter the claimant's normal take-home pay",
+    "HintText": "Take-home pay is the pay after tax and insurance deductions\r\n\r\nInclude overtime, commission and bonuses.",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsNoticeCorrect",
+    "Label": "Is the information given by the claimant correct about their notice?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseCorrectNoticeDetails",
+    "Label": "What are the claimant's correct notice details?",
+    "HintText": "For example, you may wish to clarify that the claimant was dismissed without notice or paid them a sum in lieu of notice.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsPensionCorrect",
+    "Label": "Are the details about pension and other benefits correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePensionCorrectDetails",
+    "Label": "What are the correct pension and benefit details?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
