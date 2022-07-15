@@ -5051,7 +5051,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5062,7 +5063,8 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "et3ResponseIsClaimantNameCorrect=\"No\"",
-    "RetainHiddenValue": "Yes"
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5142,10 +5144,9 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "et3ResponseNamePreamble=\"dummy\"",
-    "RetainHiddenValue": "Yes",
-    "PageLabel": "What is the respondent's name?"
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5482,6 +5483,141 @@
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "et3ResponseIsPensionCorrect=\"No\"",
     "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseRespondentContestClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 19,
+    "PageDisplayOrder": 19,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Does the respondent contest the claim?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimPreamble",
+    "DisplayContext": "READONLY",
+    "PageID": 20,
+    "PageDisplayOrder": 20,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "PageLabel": "Explain why the respondent contests the claim"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimDocument",
+    "DisplayContext": "COMPLEX",
+    "PageID": 20,
+    "PageDisplayOrder": 20,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimDetails",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 20,
+    "PageDisplayOrder": 20,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmployerClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 21,
+    "PageDisplayOrder": 21,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Does the respondent wish to make an Employer's Contract Claim?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmployerClaimDetailsPreamble",
+    "DisplayContext": "READONLY",
+    "PageID": 22,
+    "PageDisplayOrder": 22,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
+    "PageLabel": "Provide the background and details of your Employer's Contract Claim"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmployerClaimDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 22,
+    "PageDisplayOrder": 22,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmployerClaimDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 22,
+    "PageDisplayOrder": 22,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHealthInsetPreamble",
+    "DisplayContext": "READONLY",
+    "PageID": 23,
+    "PageDisplayOrder": 23,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseRespondentSupportNeeded",
+    "DisplayContext": "MANDATORY",
+    "PageID": 23,
+    "PageDisplayOrder": 23,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHealthDetailsPreamble",
+    "DisplayContext": "READONLY",
+    "PageID": 24,
+    "PageDisplayOrder": 24,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3ResponseRespondentSupportNeeded=\"Yes\"",
+    "PageLabel": "Give details of the support you require for the parties"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseRespondentSupportDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 24,
+    "PageDisplayOrder": 24,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseRespondentSupportDocument",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 24,
+    "PageDisplayOrder": 24,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
   },
   {

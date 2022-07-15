@@ -2692,7 +2692,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseIsClaimantNameCorrect",
-    "Label": " ",
+    "Label": "Is this the correct claimant for the claim you're responding to?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2998,6 +2998,104 @@
     "ID": "et3ResponsePensionCorrectDetails",
     "Label": "What are the correct pension and benefit details?",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentContestClaim",
+    "Label": "Does the respondent contest the claim?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_contest_claim",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContestClaimPreamble",
+    "Label": "Consider in your response:\r\n\r\n* setting out the aspects of the claim you agree or disagree with, including if you're contesting only part of the claim\r\n* making sure that any facts or events are in date order\r\n* whether you think another person or company may be liable and why\r\n\r\nYou can upload a statement of case below.\r\n\r\nFiles should be a maximum of 100MB in size (larger files must be split).",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContestClaimDocument",
+    "Label": "Upload a document to your response",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContestClaimDetails",
+    "Label": "Use this text box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaim",
+    "Label": "Does the respondent wish to make an Employer's Contract Claim?",
+    "HintText": "A respondent can make this claim against the claimant if the claimant breached their employment terms which resulted in financial loss. This typically happens when a claimant has made a notice pay claim.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaimDetailsPreamble",
+    "Label": "<h3>Consider in your answer:</h3>\r\n\r\n* the background and details of your claim\r\n* all important dates\r\n*the value of your claim and how you calculated it",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaimDetails",
+    "Label": "Provide the background and details of your Employer's Contract Claim",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaimDocument",
+    "Label": "Add a document",
+    "HintText": "Files should be a maximum of 100MB in size.",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHealthInsetPreamble",
+    "Label": "<details class=\"govuk-details\"> <summary class=\"govuk-details__summary\"><span class=\"govuk-details__summary-text\"> What support is available? </span></summary> <div class=\"govuk-details__text\"> We know people with disabilities sometimes need support to access information and use our services. We call this a reasonable adjustment. Some reasonable adjustments need to be agreed by a judge, and you can discuss with the tribunal if your needs change.<br><br>Reasonable adjustments can include:<br><br>\r\n\r\n* documents in alternative formats, colours and fonts\r\n* help with communicating, sight, hearing, speaking and interpretation\r\n* access and mobility support if a hearing takes place in person </div> </details>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentSupportNeeded",
+    "Label": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHealthDetailsPreamble",
+    "Label": "<h3>Consider in your answer:</h3>\r\n\r\nTell us what this disability or condition is and what support that anyone in the respondent party, including representative and witnesses would need as the claim progresses through the system. Consider any hearings that may take place at tribunal buildings.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentSupportDetails",
+    "Label": "Use this text box or upload the requirements in a document",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentSupportDocument",
+    "Label": "Add document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
