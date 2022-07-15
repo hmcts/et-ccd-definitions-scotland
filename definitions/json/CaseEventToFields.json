@@ -5287,6 +5287,84 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseAreDatesCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Are the dates of employment given by the claimant correct?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmploymentStartDate",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3ResponseAreDatesCorrect=\"No\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "What are the claimant's employment dates?",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Response/midEmploymentDates"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmploymentEndDate",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseEmploymentInformation",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContinuingEmployment",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Is the claimant's employment with the respondent continuing?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseIsJobCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Is the claimant's description of their job or job title correct?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseCorrectJobTitle",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3ResponseIsJobCorrect=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
