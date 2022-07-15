@@ -2781,7 +2781,7 @@
     "Label": "How would you prefer to be contacted?",
     "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_et3_contact_preference",
+    "FieldTypeParameter": "frl_et3_contact_preference",
     "SecurityClassification": "Public"
   },
   {
@@ -2804,7 +2804,7 @@
     "Label": "Which types of hearing can you, as the representative, attend?",
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "fl_et3_hearing_type",
+    "FieldTypeParameter": "msl_et3_hearing_type",
     "SecurityClassification": "Public"
   },
   {
@@ -2813,7 +2813,7 @@
     "Label": "Which types of hearing can the respondent attend?",
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "fl_et3_hearing_type",
+    "FieldTypeParameter": "msl_et3_hearing_type",
     "SecurityClassification": "Public"
   },
   {
