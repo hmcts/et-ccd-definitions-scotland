@@ -2768,6 +2768,93 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePhone",
+    "Label": "What is your contact phone number?",
+    "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContactPreference",
+    "Label": "How would you prefer to be contacted?",
+    "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_et3_contact_preference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContactReason",
+    "Label": "Provide a reason why you have selected post",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPreamble",
+    "Label": "The parties can express their preference of in-person, video or phone hearings.\r\n\r\nRequests have to be agreed by a judge and it can depend on the type of hearing. If the case goes to a final hearing, this will normally be in-person but parties will be informed in advance.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingRepresentative",
+    "Label": "Which types of hearing can you, as the representative, attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_et3_hearing_type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingRespondent",
+    "Label": "Which types of hearing can the respondent attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_et3_hearing_type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentCount",
+    "Label": "How many people does the respondent employ in Great Britain?",
+    "HintText": "It can help the tribunal to have an indication of the employer's size.\r\n\r\nEnter a rough amount in digits or leave blank if you're not sure",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseMultipleSites",
+    "Label": "Does the respondent have more than one site in Great Britain?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseSiteEmploymentCount",
+    "Label": "How many people are employed at the place where the claimant worked?",
+    "HintText": "Enter a rough amount in digits or leave blank if you're not sure",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseAcasAgree",
+    "Label": "Do you agree with the details given by the claimant about early conciliation with Acas?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseAcasAgreeReason",
+    "Label": "Why do you disagree with the Acas conciliation details given?",
+    "HintText": "For example, you may consider that the claimant gave an incorrect Acas early conciliation number of that they were wrong to say they were exempt from early conciliation.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
