@@ -5488,7 +5488,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "CaseFieldID": "et3NotificationDocCollection",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -5500,7 +5500,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Notification",
-    "CaseFieldID": "horizontalLine5",
+    "CaseFieldID": "horizontalLine4",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -5515,7 +5515,7 @@
     "CaseEventID": "et3Notification",
     "CaseFieldID": "et3OtherTypeDocumentName",
     "DisplayContext": "MANDATORY",
-    "FieldShowCondition": "horizontalLine5=\"dummy\"",
+    "FieldShowCondition": "horizontalLine4=\"dummy\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
@@ -5598,7 +5598,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3EmailDocsToAcasLine",
+    "CaseFieldID": "et3EmailDocsToAcasTitle",
     "DisplayContext": "READONLY",
     "PageID": 4,
     "PageDisplayOrder": 4,
@@ -5609,22 +5609,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3EmailDocsToAcasTitle",
-    "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 2,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailLinkToAcas",
     "DisplayContext": "MANDATORY",
     "FieldShowCondition": "et3EmailDocsToAcasTitle=\"dummy\"",
     "PageID": 4,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
   {
@@ -5634,7 +5624,7 @@
     "DisplayContext": "READONLY",
     "PageID": 4,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
     "PageColumnNumber": 1
   },
   {
@@ -5644,7 +5634,7 @@
     "DisplayContext": "READONLY",
     "PageID": 4,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
   {

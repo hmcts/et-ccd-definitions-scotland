@@ -3074,15 +3074,8 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3EmailDocsToAcasLine",
-    "Label": "<hr>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "et3EmailDocsToAcasTitle",
-    "Label": "<h2>Email documents to Acas</h2>",
+    "Label": "<hr>\r\n<h2>Email documents to Acas</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
