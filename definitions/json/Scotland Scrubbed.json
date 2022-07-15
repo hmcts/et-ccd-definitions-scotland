@@ -4959,5 +4959,35 @@
     "ListElement": "Annually",
     "ListElementCode": "Annually",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_et3_contest_claim",
+    "ListElement": "Yes - the respondent contests all or part of the claim",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_et3_contest_claim",
+    "ListElement": "No - the respondent does not contest any of the claim",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_et3_yes_no_not_sure_yet",
+    "ListElement": "Yes",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_et3_yes_no_not_sure_yet",
+    "ListElement": "No",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_et3_yes_no_not_sure_yet",
+    "ListElement": "I'm not sure yet",
+    "ListElementCode": "not sure",
+    "DisplayOrder": 3
   }
 ]
