@@ -5345,7 +5345,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Response",
-    "CaseFieldID": "et3ResponseIsJobCorrect",
+    "CaseFieldID": "et3ResponseIsJobTitleCorrect",
     "DisplayContext": "MANDATORY",
     "PageID": 13,
     "PageDisplayOrder": 13,
@@ -5361,7 +5361,7 @@
     "PageID": 13,
     "PageDisplayOrder": 13,
     "PageFieldDisplayOrder": 2,
-    "FieldShowCondition": "et3ResponseIsJobCorrect=\"No\"",
+    "FieldShowCondition": "et3ResponseIsJobTitleCorrect=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
