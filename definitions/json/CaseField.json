@@ -2780,6 +2780,7 @@
     "Label": "What is your contact phone number?",
     "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
     "FieldType": "Text",
+    "RegularExpression": "^\\+?(\\d ?){1,15}$",
     "SecurityClassification": "Public"
   },
   {
