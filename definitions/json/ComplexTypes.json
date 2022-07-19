@@ -5645,5 +5645,27 @@
     "FieldType": "Number",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "typeOfDocument",
+    "FieldType": "FixedList",
+    "ElementLabel": "Type of Document",
+    "FieldTypeParameter": "fl_Et3NotificationDocType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]

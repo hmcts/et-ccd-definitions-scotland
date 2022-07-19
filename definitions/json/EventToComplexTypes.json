@@ -5989,5 +5989,32 @@
     "EventElementLabel": "Upload a document to your response",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "typeOfDocument",
+    "EventElementLabel": "Type of Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short Description",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
   }
 ]
