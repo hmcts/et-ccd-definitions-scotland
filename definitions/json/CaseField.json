@@ -2895,9 +2895,10 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3ResponseIsJobCorrect",
+    "ID": "et3ResponseIsJobTitleCorrect",
     "Label": "Is the claimant's description of their job or job title correct?",
-    "FieldType": "YesOrNo",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
     "SecurityClassification": "Public"
   },
   {
