@@ -13533,7 +13533,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailLinkToAcas",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
