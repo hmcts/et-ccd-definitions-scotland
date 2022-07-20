@@ -468,6 +468,7 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitInitialConsideration",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
