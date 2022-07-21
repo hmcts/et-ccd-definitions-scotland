@@ -13317,19 +13317,19 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentName",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentName",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentName",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
