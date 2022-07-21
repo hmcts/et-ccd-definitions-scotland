@@ -1233,6 +1233,21 @@
   },
   {
     "ID": "RespondentRepresentative",
+    "ListElementCode": "myHmctsYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the representative have a MyHMCTS account?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisation",
+    "FieldType": "Organisation",
+    "ElementLabel": "MyHMCTS Organisation",
+    "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
     "ListElementCode": "representative_reference",
     "FieldType": "Text",
     "ElementLabel": "Reference",
