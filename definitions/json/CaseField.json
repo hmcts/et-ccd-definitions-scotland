@@ -211,6 +211,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseDocumentCollection",
+    "Label": "ET3 response documentation",
+    "HintText": "Upload documentation for the case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "additionalCaseInfo",
     "Label": "Additional information",
     "HintText": "Additional case information",
