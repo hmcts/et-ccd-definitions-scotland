@@ -15764,13 +15764,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NotificationDocCollection",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NotificationDocCollection",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -15788,13 +15788,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3SelectAllThatApply",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3SelectAllThatApply",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
@@ -15836,13 +15836,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentName",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentName",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -15872,13 +15872,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentNameLabel",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3OtherTypeDocumentNameLabel",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
@@ -15908,13 +15908,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NotificationDocRecipient",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NotificationDocRecipient",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -15938,13 +15938,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3PrintAndSendPaperDocuments",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3PrintAndSendPaperDocuments",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
@@ -15974,13 +15974,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3SendDocByFirstClass",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3SendDocByFirstClass",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
@@ -16010,13 +16010,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ClaimantAndRespondentAddresses",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ClaimantAndRespondentAddresses",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -16046,13 +16046,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ClaimantAndRespondentAddressesLabel",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ClaimantAndRespondentAddressesLabel",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
@@ -16082,13 +16082,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailLinkToAcas",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailLinkToAcas",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -16118,13 +16118,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailDocsToAcasTitle",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailDocsToAcasTitle",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
@@ -16154,13 +16154,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailDocsToAcasLink",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailDocsToAcasLink",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
@@ -16190,13 +16190,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailDocsToAcasInstructions",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3EmailDocsToAcasInstructions",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
   {
