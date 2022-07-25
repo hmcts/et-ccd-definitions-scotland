@@ -110,6 +110,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
