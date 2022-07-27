@@ -29,6 +29,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "horizontalLine5",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "typeOfClaim",
     "Label": "Type Of Claim",
     "FieldType": "DynamicList",
@@ -2638,6 +2645,559 @@
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseShowInset",
+    "Label": "Placeholder",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3StartPagePreamble",
+    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\"> open the ET1 form, ACAS certificate and other documents in the Document tab (opens in a new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3StartPageInset",
+    "Label": "This response must be completed and submitted within 28 days of the date of the claim form being sent by the tribunal.\r\n\r\nYou must provide your response to the claim even if you believe that another respondent is liable.\r\n\r\nIf you do not provide a response, a judgment may be issued against you without a hearing. If you consider another person or company maybe liable, you should still submit a response. You will have a chance in this response to explain why you think someone else may be liable.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3StartPageMainBody",
+    "Label": "It will help the tribunal and you as the respresentative if you have: \r\n\r\n* the claimant's employment start and end dates, hours of work and notice period\r\n* details of claimant's pay and benefits, before and after tax\r\n* your response to the claim, which you can upload in document format with a text field for accompanying information\r\n\r\n### How to fill in this form\r\n\r\n* read the questions carefully to make sure you're providing your details (as the representative) or the respondent's details\r\n* optional questions will be marked as such\r\n* you can review and edit your answers before you submit the form",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantName",
+    "Label": "Placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantNameLabel",
+    "Label": "${et3ResponseClaimantName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsClaimantNameCorrect",
+    "Label": "Is this the correct claimant for the claim you're responding to?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantNameCorrection",
+    "Label": "What is the correct name of the claimant?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseNamePreamble",
+    "Label": "This will be the respondent recorded in ET1 that you're representing.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseNameInset",
+    "Label": "If you consider another person or company may be liable, you should still submit a response.\r\n\r\nYou will have a chance in this form to explain why you think someone else may be liable.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentLegalName",
+    "Label": "Enter the respondent's registered or legal name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentCompanyNumber",
+    "Label": "Enter the company number if applicable",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentEmployerType",
+    "Label": "What type of employer is the respondent?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_employer_type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentPreferredTitle",
+    "Label": "If individual, what is their preferred title?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentContactName",
+    "Label": "Name of contact at respondent's address if not you as the representative",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseNameShowInset",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3RespondentAddress",
+    "Label": "Enter a UK postcode",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseDXAddress",
+    "Label": "DX address (if known)",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePhone",
+    "Label": "What is your contact phone number?",
+    "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
+    "FieldType": "Text",
+    "RegularExpression": "^\\+?(\\d ?){4,15}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContactPreference",
+    "Label": "How would you prefer to be contacted?",
+    "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_contact_preference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContactReason",
+    "Label": "Provide a reason why you have selected post",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPreamble",
+    "Label": "The parties can express their preference of in-person, video or phone hearings.\r\n\r\nRequests have to be agreed by a judge and it can depend on the type of hearing. If the case goes to a final hearing, this will normally be in-person but parties will be informed in advance.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingRepresentative",
+    "Label": "Which types of hearing can you, as the representative, attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_et3_hearing_type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingRespondent",
+    "Label": "Which types of hearing can the respondent attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_et3_hearing_type",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentCount",
+    "Label": "How many people does the respondent employ in Great Britain?",
+    "HintText": "It can help the tribunal to have an indication of the employer's size.\r\n\r\nEnter a rough amount in digits or leave blank if you're not sure",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseMultipleSites",
+    "Label": "Does the respondent have more than one site in Great Britain?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseSiteEmploymentCount",
+    "Label": "How many people are employed at the place where the claimant worked?",
+    "HintText": "Enter a rough amount in digits or leave blank if you're not sure",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseAcasAgree",
+    "Label": "Do you agree with the details given by the claimant about early conciliation with Acas?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseAcasAgreeReason",
+    "Label": "Why do you disagree with the Acas conciliation details given?",
+    "HintText": "For example, you may consider that the claimant gave an incorrect Acas early conciliation number of that they were wrong to say they were exempt from early conciliation.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseAreDatesCorrect",
+    "Label": "Are the dates of employment given by the claimant correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentStartDate",
+    "Label": "Enter the employment start date",
+    "HintText": "For example, 12 11 2020",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentEndDate",
+    "Label": "Enter employment end date",
+    "HintText": "For example, 12 11 2020",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmploymentInformation",
+    "Label": "Do you want to provide any further information about the claimant's employment dates?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContinuingEmployment",
+    "Label": "Is the claimant's employment with the respondent continuing?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsJobTitleCorrect",
+    "Label": "Is the claimant's description of their job or job title correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseCorrectJobTitle",
+    "Label": "What is or was the claimant's correct job title?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantWeeklyHours",
+    "Label": "Are the claimant's total weekly work hours correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseClaimantCorrectHours",
+    "Label": "What are the claimant's correct total weekly work hours?",
+    "HintText": "Enter their hours work per week",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEarningDetailsCorrect",
+    "Label": "Are the earnings details given by the claimant correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayDetailsPreamble",
+    "Label": "If pay details are provided on the ET1 form, check whether the pay is weekly, monthly or annual. Use the same time period here.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayFrequency",
+    "Label": "How often was the claimant paid?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_et3_pay_frequency",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayBeforeTax",
+    "Label": "Enter the claimant's pay BEFORE tax",
+    "HintText": "Include overtime, commission and bonuses.",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePayTakehome",
+    "Label": "Enter the claimant's normal take-home pay",
+    "HintText": "Take-home pay is the pay after tax and insurance deductions\r\n\r\nInclude overtime, commission and bonuses.",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsNoticeCorrect",
+    "Label": "Is the information given by the claimant correct about their notice?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseCorrectNoticeDetails",
+    "Label": "What are the claimant's correct notice details?",
+    "HintText": "For example, you may wish to clarify that the claimant was dismissed without notice or paid them a sum in lieu of notice.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseIsPensionCorrect",
+    "Label": "Are the details about pension and other benefits correct?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponsePensionCorrectDetails",
+    "Label": "What are the correct pension and benefit details?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentContestClaim",
+    "Label": "Does the respondent contest the claim?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_contest_claim",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContestClaimPreamble",
+    "Label": "Consider in your response:\r\n\r\n* setting out the aspects of the claim you agree or disagree with, including if you're contesting only part of the claim\r\n* making sure that any facts or events are in date order\r\n* whether you think another person or company may be liable and why\r\n\r\nYou can upload a statement of case below.\r\n\r\nFiles should be a maximum of 100MB in size (larger files must be split).",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContestClaimDocument",
+    "Label": "Upload a document to your response",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseContestClaimDetails",
+    "Label": "Use this text box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaim",
+    "Label": "Does the respondent wish to make an Employer's Contract Claim?",
+    "HintText": "A respondent can make this claim against the claimant if the claimant breached their employment terms which resulted in financial loss. This typically happens when a claimant has made a notice pay claim.",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaimDetailsPreamble",
+    "Label": "<h3>Consider in your answer:</h3>\r\n\r\n* the background and details of your claim\r\n* all important dates\r\n*the value of your claim and how you calculated it",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaimDetails",
+    "Label": "Provide the background and details of your Employer's Contract Claim",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseEmployerClaimDocument",
+    "Label": "Add a document",
+    "HintText": "Files should be a maximum of 100MB in size.",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHealthInsetPreamble",
+    "Label": "<details class=\"govuk-details\"> <summary class=\"govuk-details__summary\"><span class=\"govuk-details__summary-text\"> What support is available? </span></summary> <div class=\"govuk-details__text\"> We know people with disabilities sometimes need support to access information and use our services. We call this a reasonable adjustment. Some reasonable adjustments need to be agreed by a judge, and you can discuss with the tribunal if your needs change.<br><br>Reasonable adjustments can include:<br><br>\r\n\r\n* documents in alternative formats, colours and fonts\r\n* help with communicating, sight, hearing, speaking and interpretation\r\n* access and mobility support if a hearing takes place in person </div> </details>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentSupportNeeded",
+    "Label": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHealthDetailsPreamble",
+    "Label": "<h3>Consider in your answer:</h3>\r\n\r\nTell us what this disability or condition is and what support that anyone in the respondent party, including representative and witnesses would need as the claim progresses through the system. Consider any hearings that may take place at tribunal buildings.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentSupportDetails",
+    "Label": "Use this text box or upload the requirements in a document",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseRespondentSupportDocument",
+    "Label": "Add document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3NotificationDocCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Et3NotificationDocUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SelectAllThatApply",
+    "Label": "Select all that apply.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3NotificationDocRecipient",
+    "Label": " ",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_ServingDocumentRecipient",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3OtherTypeDocumentName",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3OtherTypeDocumentNameLabel",
+    "Label": "${et3OtherTypeDocumentName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ClaimantTaskListChecks",
+    "Label": "Task list check",
+    "FieldType": "TaskListCheck",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3PrintAndSendPaperDocuments",
+    "Label": "<hr><h2>Print and send paper documents<h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3SendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ClaimantAndRespondentAddresses",
+    "Label": "et3ClaimantAndRespondentAddresses",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ClaimantAndRespondentAddressesLabel",
+    "Label": "${et3ClaimantAndRespondentAddresses}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3EmailDocsToAcasTitle",
+    "Label": "<hr>\r\n<h2>Email documents to Acas</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3EmailLinkToAcas",
+    "Label": "Email link to Acas placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3EmailDocsToAcasLink",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${et3EmailLinkToAcas})",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3EmailDocsToAcasInstructions",
+    "Label": "Instructions for the content of the email are on the 'Sending general correspondence to Acas via email' job card.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {

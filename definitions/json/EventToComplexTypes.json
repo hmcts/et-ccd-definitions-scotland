@@ -3634,106 +3634,9 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "name_of_organisation",
-    "EventElementLabel": "Name of Organisation",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_occupation",
-    "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_reference",
-    "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_occupation_other",
-    "EventElementLabel": "What is the Representative's occupation?",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine2",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine3",
-    "FieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.PostTown",
-    "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 10,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.County",
-    "EventElementLabel": "County",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.Country",
-    "EventElementLabel": "Country",
-    "FieldDisplayOrder": 12,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 13,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
     "ListElementCode": "representative_phone_number",
     "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3742,7 +3645,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_mobile_number",
     "EventElementLabel": "Alternative number",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3751,7 +3654,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_email_address",
     "EventElementLabel": "Email address",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3760,7 +3663,122 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_preference",
     "EventElementLabel": "Contact preference",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "myHmctsYesNo",
+    "EventElementLabel": "Does the representative have a MyHMCTS account?",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "organisation",
+    "EventElementLabel": "MyHMCTS Organisation",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "name_of_organisation",
+    "EventElementLabel": "Name of Organisation",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_reference",
+    "EventElementLabel": "Reference",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine1",
+    "EventElementLabel": "Building and Street",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine2",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine3",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.PostTown",
+    "EventElementLabel": "Town or City",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.County",
+    "EventElementLabel": "County",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.Country",
+    "EventElementLabel": "Country",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.PostCode",
+    "EventElementLabel": "Postcode",
     "FieldDisplayOrder": 17,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_occupation",
+    "EventElementLabel": "Occupation",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_occupation_other",
+    "EventElementLabel": "What is the Representative's occupation?",
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -5979,6 +5997,42 @@
     "ListElementCode": "etICRule28NumberOfDays",
     "EventElementLabel": "Number of days for claimant to provide written representations",
     "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3ResponseForm",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Upload a document to your response",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "typeOfDocument",
+    "EventElementLabel": "Type of Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short Description",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
   }
 ]
