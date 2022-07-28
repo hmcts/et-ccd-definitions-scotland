@@ -1,7 +1,7 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "caseworker-ET-pcqextractor",
+    "UserRole": "caseworker-et-pcqextractor",
     "CRUD": "R"
   },
   {
@@ -13,7 +13,7 @@
     "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
-  }, 
+  },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
