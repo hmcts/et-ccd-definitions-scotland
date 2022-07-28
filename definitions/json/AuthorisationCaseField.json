@@ -206,7 +206,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "pcqId",
-    "UserRole": "caseworker-ET-pcqextractor",
+    "UserRole": "caseworker-et-pcqextractor",
     "CRUD": "R"
   },
   {
