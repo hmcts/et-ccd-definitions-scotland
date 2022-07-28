@@ -5597,8 +5597,17 @@
   },
   {
     "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27DirectionNoJurisdictionReason",
+    "ElementLabel": "No jurisdiction - Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noJurisdiction\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
-    "ElementLabel": "Set out reason",
+    "ElementLabel": "No reasonable prospect of success - Set out reason",
     "FieldType": "TextArea",
     "FieldShowCondition": "etICRule27Direction CONTAINS \"noReasonableProspectOfSuccess\"",
     "SecurityClassification": "Public",
