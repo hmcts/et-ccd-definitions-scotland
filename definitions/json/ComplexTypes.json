@@ -5616,7 +5616,7 @@
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
     "FieldType": "FixedRadioList",
-    "ElementLabel": "Claim to be",
+    "ElementLabel": "Response to be",
     "FieldTypeParameter": "frl_etICRule28ClaimToBe",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
@@ -5641,7 +5641,7 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28NumberOfDays",
-    "ElementLabel": "Number of days for claimant to provide written representations",
+    "ElementLabel": "Number of days for respondent to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
