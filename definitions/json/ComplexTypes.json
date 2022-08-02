@@ -1,9 +1,17 @@
 [
   {
     "ID": "ClaimantIndividual",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",
     "ElementLabel": "Title",
+    "FieldTypeParameter": "fl_PreferredTitle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_title1",
+    "FieldType": "FixedList",
+    "ElementLabel": "Deprecated",
     "FieldTypeParameter": "fl_Title",
     "SecurityClassification": "Public"
   },
@@ -12,7 +20,7 @@
     "ListElementCode": "claimant_title_other",
     "FieldType": "Text",
     "ElementLabel": "Other title",
-    "FieldShowCondition": "claimant_title1=\"Other\"",
+    "FieldShowCondition": "claimant_preferred_title=\"Other\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -55,9 +63,17 @@
   },
   {
     "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_gender_identity_same",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is the claimant's identify and sex registered at birth the same",
+    "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity",
     "FieldType": "Text",
-    "ElementLabel": "Gender Identity",
+    "ElementLabel": "Gender Identity description",
     "SecurityClassification": "Public"
   },
   {
