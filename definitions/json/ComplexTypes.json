@@ -65,7 +65,7 @@
     "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity_same",
     "FieldType": "FixedList",
-    "ElementLabel": "Is the claimant's identify and sex registered at birth the same",
+    "ElementLabel": "Is the claimant's identity and sex registered at birth the same?",
     "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
     "SecurityClassification": "Public"
   },
