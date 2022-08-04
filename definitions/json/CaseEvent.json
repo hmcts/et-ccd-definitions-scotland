@@ -49,7 +49,7 @@
     "Name": "ET1 case vetting",
     "Description": "Vetting a case",
     "DisplayOrder": 6,
-    "PreConditionState(s)": "Submitted",
+    "PreConditionState(s)": "Submitted;Rejected;Vetted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
     "PostConditionState": "Vetted",
