@@ -5949,9 +5949,18 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NoJurisdictionReason",
+    "EventElementLabel": "No jurisdiction - Set out reason",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
     "EventElementLabel": "Set out reason",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5960,7 +5969,7 @@
     "CaseFieldID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27NumberOfDays",
     "EventElementLabel": "Number of days for claimant to provide written representations",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
