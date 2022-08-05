@@ -5085,5 +5085,143 @@
     "ListElementCode": "Another type of document",
     "ListElement": "Another type of document",
     "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_ReferCaseTo",
+    "ListElementCode": "Admin",
+    "ListElement": "Admin",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ReferCaseTo",
+    "ListElementCode": "Judge",
+    "ListElement": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ReferCaseTo",
+    "ListElementCode": "Legal officer",
+    "ListElement": "Legal officer",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "ET1",
+    "ListElement": "ET1",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "ET3/ECC",
+    "ListElement": "ET3/ECC",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Amend claim",
+    "ListElement": "Amend claim",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Amend response",
+    "ListElement": "Amend response",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Strike out all or part of claim",
+    "ListElement": "Strike out all or part of claim",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Strike out all or part of response",
+    "ListElement": "Strike out all or part of response",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Withdraw claim",
+    "ListElement": "Withdraw claim",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Orders",
+    "ListElement": "Orders",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Party not responded/compiled",
+    "ListElement": "Party not responded/compiled",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Order other party",
+    "ListElement": "Order other party",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Rule 50 application",
+    "ListElement": "Rule 50 application",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Order a witness to attend",
+    "ListElement": "Order a witness to attend",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Hearings",
+    "ListElement": "Hearings",
+    "DisplayOrder": 13
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Postpone a hearing",
+    "ListElement": "Postpone a hearing",
+    "DisplayOrder": 14
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Judgment",
+    "ListElement": "Judgment",
+    "DisplayOrder": 15
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Reconsider decision",
+    "ListElement": "Reconsider decision",
+    "DisplayOrder": 16
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Reconsider judgment",
+    "ListElement": "Reconsider judgment",
+    "DisplayOrder": 17
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Extension of time request",
+    "ListElement": "Extension of time request",
+    "DisplayOrder": 18
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Transfer request",
+    "ListElement": "Transfer request",
+    "DisplayOrder": 19
+  },
+  {
+    "ID": "fl_ReferralSubject",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 20
   }
 ]

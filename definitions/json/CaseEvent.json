@@ -484,6 +484,19 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "createReferral",
+    "Name": "Referral",
+    "Description": "Referral",
+    "DisplayOrder": 42,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",

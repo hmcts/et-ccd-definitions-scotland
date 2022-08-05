@@ -1090,9 +1090,25 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "TabLabel": "Referrals",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "referralsLabel",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
     "TabLabel": "Judgments",
-    "TabDisplayOrder": 10,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "judgementCollection",
     "TabFieldDisplayOrder": 1
   },
@@ -1101,7 +1117,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseDeposit",
     "TabLabel": "Deposit Order",
-    "TabDisplayOrder": 11,
+    "TabDisplayOrder": 12,
     "CaseFieldID": "depositType",
     "TabFieldDisplayOrder": 1
   },
@@ -1110,7 +1126,7 @@
     "Channel": "CaseWorker",
     "TabID": "RestrictedReportingTab",
     "TabLabel": "Restricted Reporting",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 13,
     "CaseFieldID": "restrictedReporting",
     "TabFieldDisplayOrder": 1
   },
@@ -1119,7 +1135,7 @@
     "Channel": "CaseWorker",
     "TabID": "BroughtForwardDate",
     "TabLabel": "BF Actions",
-    "TabDisplayOrder": 13,
+    "TabDisplayOrder": 14,
     "CaseFieldID": "bfActions",
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(bfDate)"
@@ -1129,7 +1145,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseDocuments",
     "TabLabel": "Documents",
-    "TabDisplayOrder": 14,
+    "TabDisplayOrder": 15,
     "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 1
   },
@@ -1138,7 +1154,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
-    "TabDisplayOrder": 15,
+    "TabDisplayOrder": 16,
     "CaseFieldID": "caseHistory",
     "TabFieldDisplayOrder": 1
   },
