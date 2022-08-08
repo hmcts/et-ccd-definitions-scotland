@@ -175,8 +175,8 @@
     "Name": "Jurisdiction",
     "Description": "Add or Amend a Jurisdiction",
     "DisplayOrder": 16,
-    "PreConditionState(s)": "Accepted;Rejected;Submitted",
-    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Submitted",
+    "PreConditionState(s)": "Accepted;Rejected",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendJurisdiction",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
