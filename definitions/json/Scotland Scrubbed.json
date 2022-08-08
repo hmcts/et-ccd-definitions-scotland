@@ -426,6 +426,48 @@
     "DisplayOrder": 5
   },
   {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Mr",
+    "ListElement": "Mr",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Mrs",
+    "ListElement": "Mrs",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Miss",
+    "ListElement": "Miss",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Ms",
+    "ListElement": "Ms",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Mx",
+    "ListElement": "Mx",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_PreferredTitle",
+    "ListElementCode": "Prefer not to say",
+    "ListElement": "Prefer not to say",
+    "DisplayOrder": 7
+  },
+  {
     "ID": "fl_Title",
     "ListElementCode": "Dr",
     "ListElement": "Dr",
@@ -523,6 +565,24 @@
   },
   {
     "ID": "fl_Sex",
+    "ListElementCode": "Prefer not to say",
+    "ListElement": "Prefer not to say",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_YesOrNoOrPreferNot",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_YesOrNoOrPreferNot",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_YesOrNoOrPreferNot",
     "ListElementCode": "Prefer not to say",
     "ListElement": "Prefer not to say",
     "DisplayOrder": 3
@@ -4869,5 +4929,161 @@
     "ListElementCode": "Neither",
     "ListElement": "Neither",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Individual",
+    "ListElementCode": "Individual",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Limited company",
+    "ListElementCode": "Limited company",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Partnership",
+    "ListElementCode": "Partnership",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Unincorporated association (such as a sports club)",
+    "ListElementCode": "Unincorporated association",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_employer_type",
+    "ListElement": "Other",
+    "ListElementCode": "Other",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "frl_et3_contact_preference",
+    "ListElement": "Email",
+    "ListElementCode": "Email",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_et3_contact_preference",
+    "ListElement": "Post",
+    "ListElementCode": "Post",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_et3_hearing_type",
+    "ListElement": "Phone hearings",
+    "ListElementCode": "Phone hearings",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_et3_hearing_type",
+    "ListElement": "Video hearings",
+    "ListElementCode": "Video hearings",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_yes_no_not_applicable",
+    "ListElement": "Yes",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_yes_no_not_applicable",
+    "ListElement": "No",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_yes_no_not_applicable",
+    "ListElement": "Not applicable",
+    "ListElementCode": "Not applicable",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_et3_pay_frequency",
+    "ListElement": "Weekly",
+    "ListElementCode": "Weekly",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_et3_pay_frequency",
+    "ListElement": "Monthly",
+    "ListElementCode": "Monthly",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_et3_pay_frequency",
+    "ListElement": "Annually",
+    "ListElementCode": "Annually",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_et3_contest_claim",
+    "ListElement": "Yes - the respondent contests all or part of the claim",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_et3_contest_claim",
+    "ListElement": "No - the respondent does not contest any of the claim",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_et3_yes_no_not_sure_yet",
+    "ListElement": "Yes",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_et3_yes_no_not_sure_yet",
+    "ListElement": "No",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_et3_yes_no_not_sure_yet",
+    "ListElement": "I'm not sure yet",
+    "ListElementCode": "not sure",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 10",
+    "ListElement": "Letter 10 Rejection of response by staff",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 11",
+    "ListElement": "Letter 11 Rejection of response by EJ",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 13",
+    "ListElement": "Letter 13 To respondent - response accepted",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Letter 14",
+    "ListElement": "Letter 14 Notice to claimant of accepted response",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "et3From",
+    "ListElement": "ET3 form",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_Et3NotificationDocType",
+    "ListElementCode": "Another type of document",
+    "ListElement": "Another type of document",
+    "DisplayOrder": 6
   }
 ]

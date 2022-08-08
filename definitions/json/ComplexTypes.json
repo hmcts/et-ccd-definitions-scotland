@@ -1,9 +1,17 @@
 [
   {
     "ID": "ClaimantIndividual",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",
     "ElementLabel": "Title",
+    "FieldTypeParameter": "fl_PreferredTitle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_title1",
+    "FieldType": "FixedList",
+    "ElementLabel": "Deprecated",
     "FieldTypeParameter": "fl_Title",
     "SecurityClassification": "Public"
   },
@@ -12,7 +20,7 @@
     "ListElementCode": "claimant_title_other",
     "FieldType": "Text",
     "ElementLabel": "Other title",
-    "FieldShowCondition": "claimant_title1=\"Other\"",
+    "FieldShowCondition": "claimant_preferred_title=\"Other\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -55,9 +63,17 @@
   },
   {
     "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_gender_identity_same",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is the claimant's identity and sex registered at birth the same?",
+    "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity",
     "FieldType": "Text",
-    "ElementLabel": "Gender Identity",
+    "ElementLabel": "Gender Identity description",
     "SecurityClassification": "Public"
   },
   {
@@ -1229,6 +1245,21 @@
     "ListElementCode": "name_of_organisation",
     "FieldType": "Text",
     "ElementLabel": "Name of Organisation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "myHmctsYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the representative have a MyHMCTS account?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisation",
+    "FieldType": "Organisation",
+    "ElementLabel": "MyHMCTS Organisation",
+    "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -5597,6 +5628,15 @@
   },
   {
     "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NoJurisdictionReason",
+    "ElementLabel": "No jurisdiction - Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noJurisdiction\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
     "ElementLabel": "Set out reason",
     "FieldType": "TextArea",
@@ -5616,7 +5656,7 @@
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
     "FieldType": "FixedRadioList",
-    "ElementLabel": "Claim to be",
+    "ElementLabel": "Response to be",
     "FieldTypeParameter": "frl_etICRule28ClaimToBe",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
@@ -5641,9 +5681,31 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28NumberOfDays",
-    "ElementLabel": "Number of days for claimant to provide written representations",
+    "ElementLabel": "Number of days for respondent to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "typeOfDocument",
+    "FieldType": "FixedList",
+    "ElementLabel": "Type of Document",
+    "FieldTypeParameter": "fl_Et3NotificationDocType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]
