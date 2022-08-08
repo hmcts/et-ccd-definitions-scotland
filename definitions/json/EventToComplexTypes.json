@@ -5959,7 +5959,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
-    "EventElementLabel": "Set out reason",
+    "EventElementLabel": "No reasonable prospect of success - Set out reason",
     "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
   },
