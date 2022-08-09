@@ -1455,9 +1455,18 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job",
+    "EventElementLabel": "Have you got a new job",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 1,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1466,7 +1475,16 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job_pay_interval",
+    "EventElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2349,21 +2367,39 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "UpdateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
-    "ListElementCode": "newly_employed_from",
-    "EventElementLabel": "Employed from",
+    "ListElementCode": "new_job",
+    "EventElementLabel": "Have you got a new job",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "UpdateCase",
+    "ID": "CreateDraftCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job_pay_interval",
+    "EventElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
