@@ -493,6 +493,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
   },

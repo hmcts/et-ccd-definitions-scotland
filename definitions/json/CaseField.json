@@ -3202,6 +3202,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "referralCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "referralDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "referralsLabel",
     "Label": "**Referrals**",
     "FieldType": "Label",

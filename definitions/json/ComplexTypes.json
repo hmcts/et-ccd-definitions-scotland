@@ -5698,5 +5698,83 @@
     "FieldType": "Text",
     "ElementLabel": "Short Description",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralHearingDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Referral hearing details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referCaseTo",
+    "FieldType": "Text",
+    "ElementLabel": "Refer case to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referrerEmail",
+    "FieldType": "Text",
+    "ElementLabel": "Referrer email",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "isUrgent",
+    "FieldType": "Text",
+    "ElementLabel": "Is urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSubject",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSubjectSpecify",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject specify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Referral detail",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralInstruction",
+    "FieldType": "Text",
+    "ElementLabel": "Referral instruction",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referredBy",
+    "FieldType": "Text",
+    "ElementLabel": "Referred by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDate",
+    "FieldType": "Text",
+    "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
   }
 ]
