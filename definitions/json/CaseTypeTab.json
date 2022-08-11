@@ -1094,7 +1094,8 @@
     "TabLabel": "Referrals",
     "TabDisplayOrder": 10,
     "CaseFieldID": "referralsLabel",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1102,6 +1103,15 @@
     "TabID": "CaseReferrals",
     "CaseFieldID": "referralLinks",
     "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralCollection",
+    "TabFieldDisplayOrder": 3,
+    "TabLabel": "Referrals",
+    "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralStatus)"
   },
   {
     "CaseTypeID": "ET_Scotland",

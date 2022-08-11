@@ -5701,6 +5701,13 @@
   },
   {
     "ID": "referralDetails",
+    "ListElementCode": "referralNumber",
+    "FieldType": "Text",
+    "ElementLabel": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
     "ListElementCode": "referralHearingDetails",
     "FieldType": "Text",
     "ElementLabel": "Referral hearing details",
@@ -5710,7 +5717,7 @@
     "ID": "referralDetails",
     "ListElementCode": "referCaseTo",
     "FieldType": "Text",
-    "ElementLabel": "Refer case to",
+    "ElementLabel": "Referred to",
     "SecurityClassification": "Public"
   },
   {
@@ -5724,14 +5731,14 @@
     "ID": "referralDetails",
     "ListElementCode": "isUrgent",
     "FieldType": "Text",
-    "ElementLabel": "Is urgent",
+    "ElementLabel": "Urgent",
     "SecurityClassification": "Public"
   },
   {
     "ID": "referralDetails",
     "ListElementCode": "referralSubject",
     "FieldType": "Text",
-    "ElementLabel": "Referral subject",
+    "ElementLabel": "Subject",
     "SecurityClassification": "Public"
   },
   {
@@ -5775,6 +5782,13 @@
     "ListElementCode": "referralDate",
     "FieldType": "Text",
     "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralStatus",
+    "FieldType": "Text",
+    "ElementLabel": "Status",
     "SecurityClassification": "Public"
   }
 ]
