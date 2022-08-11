@@ -5597,8 +5597,17 @@
   },
   {
     "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NoJurisdictionReason",
+    "ElementLabel": "No jurisdiction - Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noJurisdiction\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
-    "ElementLabel": "Set out reason",
+    "ElementLabel": "No reasonable prospect of success - Set out reason",
     "FieldType": "TextArea",
     "FieldShowCondition": "etICRule27Direction CONTAINS \"noReasonableProspectOfSuccess\"",
     "SecurityClassification": "Public",
@@ -5616,7 +5625,7 @@
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
     "FieldType": "FixedRadioList",
-    "ElementLabel": "Claim to be",
+    "ElementLabel": "Response to be",
     "FieldTypeParameter": "frl_etICRule28ClaimToBe",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
@@ -5641,7 +5650,7 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28NumberOfDays",
-    "ElementLabel": "Number of days for claimant to provide written representations",
+    "ElementLabel": "Number of days for respondent to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"

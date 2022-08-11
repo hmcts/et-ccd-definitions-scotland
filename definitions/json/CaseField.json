@@ -1490,8 +1490,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referralToJudgeOrLOList",
-    "Label": "Does the claim include any of the following?",
-    "HintText": "Select all that apply",
+    "Label": "Possible referral to a judge or legal officer",
+    "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_judgeOrLO",
     "SecurityClassification": "Public"
@@ -1592,8 +1592,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referralToREJOrVPList",
-    "Label": "Does the claim include any of the following?",
-    "HintText": "Select all that apply",
+    "Label": "Possible referral to Regional Employment Judge or Vice-President",
+    "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_REJOrVP",
     "SecurityClassification": "Public"
@@ -1686,7 +1686,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "otherReferralList",
-    "Label": "Does the claim include any of the following?",
+    "Label": "Does the claim include any other factors?",
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
