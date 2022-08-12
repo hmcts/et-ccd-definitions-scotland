@@ -279,6 +279,13 @@
   },
   {
     "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you got a new job",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
     "ListElementCode": "newly_employed_from",
     "FieldType": "Date",
     "ElementLabel": "Employed from",
@@ -289,6 +296,14 @@
     "ListElementCode": "new_pay_before_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_job_pay_interval",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldTypeParameter": "fl_pay_cycle",
     "SecurityClassification": "Public"
   },
   {
@@ -5628,8 +5643,17 @@
   },
   {
     "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NoJurisdictionReason",
+    "ElementLabel": "No jurisdiction - Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noJurisdiction\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
-    "ElementLabel": "Set out reason",
+    "ElementLabel": "No reasonable prospect of success - Set out reason",
     "FieldType": "TextArea",
     "FieldShowCondition": "etICRule27Direction CONTAINS \"noReasonableProspectOfSuccess\"",
     "SecurityClassification": "Public",
