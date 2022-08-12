@@ -3203,7 +3203,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referralCollection",
-    "Label": " ",
+    "Label": "Referrals",
     "FieldType": "Collection",
     "FieldTypeParameter": "referralDetails",
     "SecurityClassification": "Public"
