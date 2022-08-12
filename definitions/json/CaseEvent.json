@@ -489,7 +489,7 @@
     "Name": "Referral",
     "Description": "Referral",
     "DisplayOrder": 42,
-    "PreConditionState(s)": "Accepted",
+    "PreConditionState(s)": "Submitted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
