@@ -51,6 +51,7 @@
     "DisplayOrder": 6,
     "PreConditionState(s)": "Submitted;Rejected;Vetted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL/et1VettingAboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
