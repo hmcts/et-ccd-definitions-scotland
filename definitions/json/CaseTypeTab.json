@@ -1078,6 +1078,13 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationDocument",
+    "TabFieldDisplayOrder": 24
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseJurisdictions",
     "TabLabel": "Jurisdictions",
     "TabDisplayOrder": 8,
