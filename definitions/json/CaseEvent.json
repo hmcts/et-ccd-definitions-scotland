@@ -496,6 +496,21 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyToReferral",
+    "Name": "Referral",
+    "Description": "Refer to admin, legal officer or judge",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "EventEnablingCondition": ""
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",

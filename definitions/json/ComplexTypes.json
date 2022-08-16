@@ -5748,7 +5748,7 @@
     "ID": "referralDetails",
     "ListElementCode": "referentEmail",
     "FieldType": "Text",
-    "ElementLabel": "Email",
+    "ElementLabel": "Email address",
     "SecurityClassification": "Public"
   },
   {
@@ -5769,14 +5769,14 @@
     "ID": "referralDetails",
     "ListElementCode": "referralSubjectSpecify",
     "FieldType": "Text",
-    "ElementLabel": "Referral subject specify",
+    "ElementLabel": "Referral subject",
     "SecurityClassification": "Public"
   },
   {
     "ID": "referralDetails",
     "ListElementCode": "referralDetails",
     "FieldType": "Text",
-    "ElementLabel": "Referral detail",
+    "ElementLabel": "Details of the referral",
     "SecurityClassification": "Public"
   },
   {
@@ -5791,7 +5791,7 @@
     "ID": "referralDetails",
     "ListElementCode": "referralInstruction",
     "FieldType": "Text",
-    "ElementLabel": "Referral instruction",
+    "ElementLabel": "Recommended instructions",
     "SecurityClassification": "Public"
   },
   {
