@@ -498,7 +498,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "replyToReferral",
-    "Name": "Referral",
+    "Name": "Referral (Reply)",
     "Description": "Refer to admin, legal officer or judge",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
