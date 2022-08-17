@@ -1,9 +1,17 @@
 [
   {
     "ID": "ClaimantIndividual",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",
     "ElementLabel": "Title",
+    "FieldTypeParameter": "fl_PreferredTitle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_title1",
+    "FieldType": "FixedList",
+    "ElementLabel": "Deprecated",
     "FieldTypeParameter": "fl_Title",
     "SecurityClassification": "Public"
   },
@@ -12,7 +20,7 @@
     "ListElementCode": "claimant_title_other",
     "FieldType": "Text",
     "ElementLabel": "Other title",
-    "FieldShowCondition": "claimant_title1=\"Other\"",
+    "FieldShowCondition": "claimant_preferred_title=\"Other\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -55,9 +63,17 @@
   },
   {
     "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_gender_identity_same",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is the claimant's identity and sex registered at birth the same?",
+    "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity",
     "FieldType": "Text",
-    "ElementLabel": "Gender Identity",
+    "ElementLabel": "Gender Identity description",
     "SecurityClassification": "Public"
   },
   {
@@ -263,6 +279,13 @@
   },
   {
     "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you got a new job",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
     "ListElementCode": "newly_employed_from",
     "FieldType": "Date",
     "ElementLabel": "Employed from",
@@ -273,6 +296,14 @@
     "ListElementCode": "new_pay_before_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_job_pay_interval",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldTypeParameter": "fl_pay_cycle",
     "SecurityClassification": "Public"
   },
   {
@@ -5612,8 +5643,17 @@
   },
   {
     "ID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NoJurisdictionReason",
+    "ElementLabel": "No jurisdiction - Set out reason",
+    "FieldType": "TextArea",
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"noJurisdiction\"",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
-    "ElementLabel": "Set out reason",
+    "ElementLabel": "No reasonable prospect of success - Set out reason",
     "FieldType": "TextArea",
     "FieldShowCondition": "etICRule27Direction CONTAINS \"noReasonableProspectOfSuccess\"",
     "SecurityClassification": "Public",
@@ -5631,7 +5671,7 @@
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
     "FieldType": "FixedRadioList",
-    "ElementLabel": "Claim to be",
+    "ElementLabel": "Response to be",
     "FieldTypeParameter": "frl_etICRule28ClaimToBe",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
@@ -5656,7 +5696,7 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28NumberOfDays",
-    "ElementLabel": "Number of days for claimant to provide written representations",
+    "ElementLabel": "Number of days for respondent to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
