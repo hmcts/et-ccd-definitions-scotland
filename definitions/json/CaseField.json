@@ -3285,7 +3285,7 @@
     "ID": "referralDocument",
     "Label": "Upload document",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DocumentUpload",
+    "FieldTypeParameter": "CreateReferralDocumentUpload",
     "SecurityClassification": "Public"
   },
   {
