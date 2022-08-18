@@ -501,6 +501,13 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3VettingDocument",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Processing Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3IsThereAnEt3Response",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an ET3 response?",

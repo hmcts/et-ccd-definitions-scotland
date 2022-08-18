@@ -295,7 +295,7 @@
     "TabID": "Et1Vetting",
     "TabLabel": "ET1 Vetting",
     "TabDisplayOrder": 3,
-    "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
+    "CaseFieldID": "et1VettingDocument",
     "TabFieldDisplayOrder": 1,
     "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
@@ -303,554 +303,561 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingCanServeClaimNoReason",
+    "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
     "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
+    "CaseFieldID": "et1VettingCanServeClaimNoReason",
     "TabFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertIsYesOrNo1",
+    "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
     "TabFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo1",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo1",
     "TabFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertIsYesOrNo2",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo1",
     "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo2",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo2",
     "TabFieldDisplayOrder": 7
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertIsYesOrNo3",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo2",
     "TabFieldDisplayOrder": 8
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo3",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo3",
     "TabFieldDisplayOrder": 9
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingRespondentAcasDetails4",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo3",
     "TabFieldDisplayOrder": 10
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingRespondentAcasDetailsLabel4",
+    "CaseFieldID": "et1VettingRespondentAcasDetails4",
     "TabFieldDisplayOrder": 11
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertIsYesOrNo4",
+    "CaseFieldID": "et1VettingRespondentAcasDetailsLabel4",
     "TabFieldDisplayOrder": 12
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo4",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo4",
     "TabFieldDisplayOrder": 13
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertIsYesOrNo5",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo4",
     "TabFieldDisplayOrder": 14
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo5",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo5",
     "TabFieldDisplayOrder": 15
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertIsYesOrNo6",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo5",
     "TabFieldDisplayOrder": 16
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo6",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo6",
     "TabFieldDisplayOrder": 17
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAcasCertGeneralNote",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo6",
     "TabFieldDisplayOrder": 18
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "substantiveDefectsList",
+    "CaseFieldID": "et1VettingAcasCertGeneralNote",
     "TabFieldDisplayOrder": 19
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121aTextArea",
+    "CaseFieldID": "substantiveDefectsList",
     "TabFieldDisplayOrder": 20
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121bTextArea",
+    "CaseFieldID": "rule121aTextArea",
     "TabFieldDisplayOrder": 21
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121cTextArea",
+    "CaseFieldID": "rule121bTextArea",
     "TabFieldDisplayOrder": 22
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121dTextArea",
+    "CaseFieldID": "rule121cTextArea",
     "TabFieldDisplayOrder": 23
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121daTextArea",
+    "CaseFieldID": "rule121dTextArea",
     "TabFieldDisplayOrder": 24
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121eTextArea",
+    "CaseFieldID": "rule121daTextArea",
     "TabFieldDisplayOrder": 25
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121fTextArea",
+    "CaseFieldID": "rule121eTextArea",
     "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1SubstantiveDefectsGeneralNotes",
+    "CaseFieldID": "rule121fTextArea",
     "TabFieldDisplayOrder": 27
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "areTheseCodesCorrect",
+    "CaseFieldID": "et1SubstantiveDefectsGeneralNotes",
     "TabFieldDisplayOrder": 28
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "codesCorrectGiveDetails",
+    "CaseFieldID": "areTheseCodesCorrect",
     "TabFieldDisplayOrder": 29
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "vettingJurisdictionCodeCollection",
+    "CaseFieldID": "codesCorrectGiveDetails",
     "TabFieldDisplayOrder": 30
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1JurisdictionCodeGeneralNotes",
+    "CaseFieldID": "vettingJurisdictionCodeCollection",
     "TabFieldDisplayOrder": 31
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "isTrackAllocationCorrect",
+    "CaseFieldID": "et1JurisdictionCodeGeneralNotes",
     "TabFieldDisplayOrder": 32
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "suggestAnotherTrack",
+    "CaseFieldID": "isTrackAllocationCorrect",
     "TabFieldDisplayOrder": 33
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "whyChangeTrackAllocation",
+    "CaseFieldID": "suggestAnotherTrack",
     "TabFieldDisplayOrder": 34
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "trackAllocationGeneralNotes",
+    "CaseFieldID": "whyChangeTrackAllocation",
     "TabFieldDisplayOrder": 35
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "isLocationCorrect",
+    "CaseFieldID": "trackAllocationGeneralNotes",
     "TabFieldDisplayOrder": 36
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "regionalOfficeList",
+    "CaseFieldID": "isLocationCorrect",
     "TabFieldDisplayOrder": 37
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "whyChangeOffice",
+    "CaseFieldID": "regionalOfficeList",
     "TabFieldDisplayOrder": 38
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1LocationGeneralNotes",
+    "CaseFieldID": "whyChangeOffice",
     "TabFieldDisplayOrder": 39
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1SuggestHearingVenue",
+    "CaseFieldID": "et1LocationGeneralNotes",
     "TabFieldDisplayOrder": 40
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1HearingVenues",
+    "CaseFieldID": "et1SuggestHearingVenue",
     "TabFieldDisplayOrder": 41
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1HearingVenueGeneralNotes",
+    "CaseFieldID": "et1HearingVenues",
     "TabFieldDisplayOrder": 42
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1GovOrMajorQuestion",
+    "CaseFieldID": "et1HearingVenueGeneralNotes",
     "TabFieldDisplayOrder": 43
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1ReasonableAdjustmentsQuestion",
+    "CaseFieldID": "et1GovOrMajorQuestion",
     "TabFieldDisplayOrder": 44
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1ReasonableAdjustmentsTextArea",
+    "CaseFieldID": "et1ReasonableAdjustmentsQuestion",
     "TabFieldDisplayOrder": 45
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VideoHearingQuestion",
+    "CaseFieldID": "et1ReasonableAdjustmentsTextArea",
     "TabFieldDisplayOrder": 46
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VideoHearingTextArea",
+    "CaseFieldID": "et1VideoHearingQuestion",
     "TabFieldDisplayOrder": 47
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1FurtherQuestionsGeneralNotes",
+    "CaseFieldID": "et1VideoHearingTextArea",
     "TabFieldDisplayOrder": 48
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1JudgeReferralLine1",
+    "CaseFieldID": "et1FurtherQuestionsGeneralNotes",
     "TabFieldDisplayOrder": 49
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "referralToJudgeOrLOList",
+    "CaseFieldID": "et1JudgeReferralLine1",
     "TabFieldDisplayOrder": 50
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aClaimOfInterimReliefTextArea",
+    "CaseFieldID": "referralToJudgeOrLOList",
     "TabFieldDisplayOrder": 51
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aStatutoryAppealTextArea",
+    "CaseFieldID": "aClaimOfInterimReliefTextArea",
     "TabFieldDisplayOrder": 52
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anAllegationOfCommissionOfSexualOffenceTextArea",
+    "CaseFieldID": "aStatutoryAppealTextArea",
     "TabFieldDisplayOrder": 53
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "insolvencyTextArea",
+    "CaseFieldID": "anAllegationOfCommissionOfSexualOffenceTextArea",
     "TabFieldDisplayOrder": 54
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "jurisdictionsUnclearTextArea",
+    "CaseFieldID": "insolvencyTextArea",
     "TabFieldDisplayOrder": 55
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "lengthOfServiceTextArea",
+    "CaseFieldID": "jurisdictionsUnclearTextArea",
     "TabFieldDisplayOrder": 56
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "potentiallyLinkedCasesInTheEcmTextArea",
+    "CaseFieldID": "lengthOfServiceTextArea",
     "TabFieldDisplayOrder": 57
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule50IssuesTextArea",
+    "CaseFieldID": "potentiallyLinkedCasesInTheEcmTextArea",
     "TabFieldDisplayOrder": 58
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anotherReasonForJudicialReferralTextArea",
+    "CaseFieldID": "rule50IssuesTextArea",
     "TabFieldDisplayOrder": 59
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1JudgeReferralGeneralNotes",
+    "CaseFieldID": "anotherReasonForJudicialReferralTextArea",
     "TabFieldDisplayOrder": 60
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "referralToREJOrVPList",
+    "CaseFieldID": "et1JudgeReferralGeneralNotes",
     "TabFieldDisplayOrder": 61
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "vexatiousLitigantOrderTextArea",
+    "CaseFieldID": "referralToREJOrVPList",
     "TabFieldDisplayOrder": 62
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aNationalSecurityIssueTextArea",
+    "CaseFieldID": "vexatiousLitigantOrderTextArea",
     "TabFieldDisplayOrder": 63
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "nationalMultipleOrPresidentialOrderTextArea",
+    "CaseFieldID": "aNationalSecurityIssueTextArea",
     "TabFieldDisplayOrder": 64
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "transferToOtherRegionTextArea",
+    "CaseFieldID": "nationalMultipleOrPresidentialOrderTextArea",
     "TabFieldDisplayOrder": 65
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "serviceAbroadTextArea",
+    "CaseFieldID": "transferToOtherRegionTextArea",
     "TabFieldDisplayOrder": 66
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aSensitiveIssueTextArea",
+    "CaseFieldID": "serviceAbroadTextArea",
     "TabFieldDisplayOrder": 67
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anyPotentialConflictTextArea",
+    "CaseFieldID": "aSensitiveIssueTextArea",
     "TabFieldDisplayOrder": 68
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anotherReasonREJOrVPTextArea",
+    "CaseFieldID": "anyPotentialConflictTextArea",
     "TabFieldDisplayOrder": 69
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1REJOrVPReferralGeneralNotes",
+    "CaseFieldID": "anotherReasonREJOrVPTextArea",
     "TabFieldDisplayOrder": 70
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "otherReferralList",
+    "CaseFieldID": "et1REJOrVPReferralGeneralNotes",
     "TabFieldDisplayOrder": 71
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "claimOutOfTimeTextArea",
+    "CaseFieldID": "otherReferralList",
     "TabFieldDisplayOrder": 72
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "multipleClaimTextArea",
+    "CaseFieldID": "claimOutOfTimeTextArea",
     "TabFieldDisplayOrder": 73
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "employmentStatusIssuesTextArea",
+    "CaseFieldID": "multipleClaimTextArea",
     "TabFieldDisplayOrder": 74
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "pidJurisdictionRegulatorTextArea",
+    "CaseFieldID": "employmentStatusIssuesTextArea",
     "TabFieldDisplayOrder": 75
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "videoHearingPreferenceTextArea",
+    "CaseFieldID": "pidJurisdictionRegulatorTextArea",
     "TabFieldDisplayOrder": 76
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule50IssuesForOtherReferralTextArea",
+    "CaseFieldID": "videoHearingPreferenceTextArea",
     "TabFieldDisplayOrder": 77
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anotherReasonForOtherReferralTextArea",
+    "CaseFieldID": "rule50IssuesForOtherReferralTextArea",
     "TabFieldDisplayOrder": 78
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1OtherReferralGeneralNotes",
+    "CaseFieldID": "anotherReasonForOtherReferralTextArea",
     "TabFieldDisplayOrder": 79
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "CaseFieldID": "et1OtherReferralGeneralNotes",
     "TabFieldDisplayOrder": 80
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "TabFieldDisplayOrder": 81
   },
   {
     "CaseTypeID": "ET_Scotland",
