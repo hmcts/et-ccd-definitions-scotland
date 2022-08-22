@@ -3218,7 +3218,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referralLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Close a referral</a>",    "FieldType": "Label",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Close a referral</a>",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {

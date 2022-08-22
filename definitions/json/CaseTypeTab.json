@@ -1160,19 +1160,19 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseDocuments",
-    "TabLabel": "Documents",
+    "TabID": "CaseHistory",
+    "TabLabel": "History",
     "TabDisplayOrder": 15,
-    "CaseFieldID": "documentCollection",
+    "CaseFieldID": "caseHistory",
     "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseHistory",
-    "TabLabel": "History",
+    "TabID": "CaseDocuments",
+    "TabLabel": "Documents",
     "TabDisplayOrder": 16,
-    "CaseFieldID": "caseHistory",
+    "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 1
   },
   {
