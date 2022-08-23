@@ -3241,7 +3241,7 @@
     "ID": "referCaseTo",
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_ReferCaseTo",
+    "FieldTypeParameter": "frl_ReferCaseTo",
     "SecurityClassification": "Public"
   },
   {
