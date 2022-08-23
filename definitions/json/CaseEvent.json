@@ -468,6 +468,7 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitInitialConsideration",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
