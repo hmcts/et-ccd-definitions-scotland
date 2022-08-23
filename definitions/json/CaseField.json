@@ -3209,6 +3209,117 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "referralCollection",
+    "Label": "Referrals",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "referralDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralsLabel",
+    "Label": "**Referrals**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Close a referral</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralHearingDetails",
+    "Label": "Referral Hearing Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralHearingDetailsLabel",
+    "Label": "${referralHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referCaseTo",
+    "Label": "Who are you referring this case to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referentEmail",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isUrgent",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralSubject",
+    "Label": "What is the referral subject?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_ReferralSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralSubjectSpecify",
+    "Label": "Please specify",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralDetails",
+    "Label": "Give details of the referral",
+    "HintText": "Explain what you're referring and why, include answers or directions you need.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CreateReferralDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "referralInstruction",
+    "Label": "Which instructions do you recommend?",
+    "HintText": "Give details of directions, letter or decisions to issue.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "trackType",
+    "Label": "Track Type",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "selectReferralToReply",
+    "Label": "Select a referral",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingDocument",
     "Label": "ET1 Vetting Document",
     "FieldType": "Document",
