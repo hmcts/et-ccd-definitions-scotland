@@ -5223,5 +5223,11 @@
     "ListElementCode": "Other",
     "ListElement": "Other",
     "DisplayOrder": 20
+  },
+  {
+    "ID": "msl_confirmCloseReferral",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
   }
 ]

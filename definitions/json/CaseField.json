@@ -3225,7 +3225,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referralLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Close a referral</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/closeReferral/closeReferral1\">Close a referral</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3313,7 +3313,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "selectReferralToReply",
+    "ID": "selectReferral",
     "Label": "Select a referral",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
@@ -3323,6 +3323,118 @@
     "ID": "et1VettingDocument",
     "Label": "ET1 Vetting Document",
     "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingAndReferralDetails",
+    "Label": "Hearing and Referral Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingAndReferralDetailsLabel",
+    "Label": "${hearingAndReferralDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "directionTo",
+    "Label": "Who are you sending these directions to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyToEmailAddress",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isUrgentReply",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "directionDetails",
+    "Label": "What are your directions?",
+    "HintText": "Give details of your reply to the referral and any issues you've identified",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ReplyToReferralDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyGeneralNotes",
+    "Label": "General notes",
+    "HintText": "Give details.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyTo",
+    "Label": "Who are you referring or replying to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyDetails",
+    "Label": "Give details of your reply or referral",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isJudge",
+    "Label": "For checking if user is a judge",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "closeReferralHearingDetails",
+    "Label": "Hearing and Referral Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "closeReferralHearingDetailsLabel",
+    "Label": "${closeReferralHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "confirmCloseReferral",
+    "Label": "Do you want to close this referral?",
+    "HintText": "All directions must be completed before closing referrals.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_confirmCloseReferral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "closeReferralGeneralNotes",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {

@@ -5731,6 +5731,77 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "replyDocumentCollection",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "replyDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyBy",
+    "FieldType": "Text",
+    "ElementLabel": "Reply by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "directionTo",
+    "FieldType": "Text",
+    "ElementLabel": "Reply to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyToEmailAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDate",
+    "FieldType": "Text",
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "isUrgentReply",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "directionDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Directions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDocument",
+    "FieldType": "Collection",
+    "ElementLabel": "Documents",
+    "FieldTypeParameter": "replyDocumentCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyGeneralNotes",
+    "FieldType": "Text",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "referralDetails",
     "ListElementCode": "referralNumber",
     "FieldType": "Text",
@@ -5823,6 +5894,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "referralDetails",
+    "ListElementCode": "referralReplyCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Reply",
+    "FieldTypeParameter": "referralReply",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "CreateReferralDocumentUpload",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
@@ -5831,6 +5910,20 @@
   },
   {
     "ID": "CreateReferralDocumentUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ReplyToReferralDocumentUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ReplyToReferralDocumentUpload",
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
