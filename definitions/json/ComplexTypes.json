@@ -5731,20 +5731,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "replyDocumentCollection",
-    "ListElementCode": "uploadedDocument",
-    "FieldType": "Document",
-    "ElementLabel": "Document",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "replyDocumentCollection",
-    "ListElementCode": "shortDescription",
-    "FieldType": "Text",
-    "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "referralReply",
     "ListElementCode": "replyBy",
     "FieldType": "Text",
@@ -5791,7 +5777,7 @@
     "ListElementCode": "replyDocument",
     "FieldType": "Collection",
     "ElementLabel": "Documents",
-    "FieldTypeParameter": "replyDocumentCollection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
