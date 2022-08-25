@@ -5900,33 +5900,5 @@
     "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "CreateReferralDocumentUpload",
-    "ListElementCode": "uploadedDocument",
-    "FieldType": "Document",
-    "ElementLabel": "Document",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "CreateReferralDocumentUpload",
-    "ListElementCode": "shortDescription",
-    "FieldType": "Text",
-    "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ReplyToReferralDocumentUpload",
-    "ListElementCode": "uploadedDocument",
-    "FieldType": "Document",
-    "ElementLabel": "Document",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ReplyToReferralDocumentUpload",
-    "ListElementCode": "shortDescription",
-    "FieldType": "Text",
-    "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
   }
 ]
