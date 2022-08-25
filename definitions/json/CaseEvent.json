@@ -488,7 +488,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "createReferral",
-    "Name": "Referral (Create)",
+    "Name": "Referral",
     "Description": "Referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -501,7 +501,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "replyToReferral",
-    "Name": "Referral (Reply)",
+    "Name": "Referral",
     "Description": "Refer to admin, legal officer or judge",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -516,7 +516,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "closeReferral",
-    "Name": "Referral (Close)",
+    "Name": "Referral",
     "Description": "Close referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
