@@ -1368,6 +1368,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etInitialConsiderationDocument",
+    "Label": "Initial Consideration Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "substantiveDefectsList",
     "Label": "Possible substantive defects",
     "HintText": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
@@ -2638,6 +2645,13 @@
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingDocument",
+    "Label": "ET1 Vetting Document",
+    "FieldType": "Document",
     "SecurityClassification": "Public"
   },
   {
