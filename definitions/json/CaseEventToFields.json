@@ -6063,7 +6063,8 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "PageLabel": "Close referral"
   },
   {
     "CaseTypeID": "ET_Scotland",
