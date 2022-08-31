@@ -501,6 +501,13 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3VettingDocument",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Processing Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3IsThereAnEt3Response",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an ET3 response?",
@@ -5721,6 +5728,163 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyBy",
+    "FieldType": "Text",
+    "ElementLabel": "Reply by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "directionTo",
+    "FieldType": "Text",
+    "ElementLabel": "Reply to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyToEmailAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDate",
+    "FieldType": "Text",
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "isUrgentReply",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "directionDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Directions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDocument",
+    "FieldType": "Collection",
+    "ElementLabel": "Documents",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyGeneralNotes",
+    "FieldType": "Text",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralNumber",
+    "FieldType": "Text",
+    "ElementLabel": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralHearingDate",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referCaseTo",
+    "FieldType": "Text",
+    "ElementLabel": "Referred to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referentEmail",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "isUrgent",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSubject",
+    "FieldType": "Text",
+    "ElementLabel": "Subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSubjectSpecify",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details of the referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralInstruction",
+    "FieldType": "Text",
+    "ElementLabel": "Recommended instructions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referredBy",
+    "FieldType": "Text",
+    "ElementLabel": "Referred by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDate",
+    "FieldType": "Text",
+    "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralStatus",
+    "FieldType": "Text",
+    "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralReplyCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Reply",
+    "FieldTypeParameter": "referralReply",
     "SecurityClassification": "Public"
   }
 ]
