@@ -308,30 +308,10 @@
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_compensation",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting compensation",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_tribunal",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting a tribunal",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_old_job",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting their old job back",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_another_job",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "ListElementCode": "claim_outcome",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_claimOutcomes",
+    "ElementLabel": "What do you want if your claim is successful",
     "SecurityClassification": "Public"
   },
   {

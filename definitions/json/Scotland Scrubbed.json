@@ -4325,6 +4325,30 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "msl_claimOutcomes",
+    "ListElementCode": "compensation",
+    "ListElement": "Compensation only",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_claimOutcomes",
+    "ListElementCode": "tribunal",
+    "ListElement": "If claiming discrimination, a tribunal recommendation",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_claimOutcomes",
+    "ListElementCode": "oldJob",
+    "ListElement": "If claiming unfair dismissal, to get your old job back and compensation",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_claimOutcomes",
+    "ListElementCode": "anotherJob",
+    "ListElement": "If claiming unfair dismissal, to get another job with the same employer or associated employer and compensation(re-engagement)",
+    "DisplayOrder": 4
+  },
+  {
     "ID": "msl_Defects",
     "ListElementCode": "rule121a",
     "ListElement": "The tribunal has no jurisdiction to consider - Rule 12(1)(a)",
