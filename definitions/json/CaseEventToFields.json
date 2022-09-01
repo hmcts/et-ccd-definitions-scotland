@@ -5939,6 +5939,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "CallBackURLMidEvent": "${ET_COS_URL}/replyReferral/validateReplyToEmail",
+    "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
   {
