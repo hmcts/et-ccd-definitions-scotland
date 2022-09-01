@@ -316,6 +316,13 @@
   },
   {
     "ID": "ClaimantRequest",
+    "ListElementCode": "claimant_compensation_text",
+    "FieldType": "TextArea",
+    "ElementLabel": "What compensation are you seeking?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
     "ListElementCode": "claimant_compensation_amount",
     "FieldType": "Number",
     "ElementLabel": "Compensation amount requested",
@@ -354,6 +361,22 @@
     "ListElementCode": "claim_description_document",
     "FieldType": "Document",
     "ElementLabel": "Upload your summary as a separate document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "discrimination_claims",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_discriminationClaims",
+    "ElementLabel": "What type of discrimination are you claiming?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "pay_claims",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_payClaims",
+    "ElementLabel": "What type of pay claim are you making?",
     "SecurityClassification": "Public"
   },
   {

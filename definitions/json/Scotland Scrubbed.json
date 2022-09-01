@@ -4349,6 +4349,96 @@
     "DisplayOrder": 4
   },
   {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Age",
+    "ListElement": "Age",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Disability",
+    "ListElement": "Disability",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Ethnicity",
+    "ListElement": "Ethnicity",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Gender reassignment",
+    "ListElement": "Gender reassignment",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Marriage or civil partnership",
+    "ListElement": "Marriage or civil partnership",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Pregnancy or maternity",
+    "ListElement": "Pregnancy or maternity",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Race",
+    "ListElement": "Race (including colour, nationality, and ethnic or national origins",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Religion or belief",
+    "ListElement": "Religion or belief",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Sex",
+    "ListElement": "Sex (including equal pay)",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "msl_discriminationClaims",
+    "ListElementCode": "Sexual orientation",
+    "ListElement": "Sexual orientation",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "msl_payClaims",
+    "ListElementCode": "Arrears",
+    "ListElement": "Arrears (pay you are owed)",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_payClaims",
+    "ListElementCode": "Holiday pay",
+    "ListElement": "Holiday pay",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_payClaims",
+    "ListElementCode": "Notice pay",
+    "ListElement": "Notice pay",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_payClaims",
+    "ListElementCode": "Redundancy pay",
+    "ListElement": "Redundancy pay",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_payClaims",
+    "ListElementCode": "Other payments",
+    "ListElement": "Other payments",
+    "DisplayOrder": 5
+  },
+  {
     "ID": "msl_Defects",
     "ListElementCode": "rule121a",
     "ListElement": "The tribunal has no jurisdiction to consider - Rule 12(1)(a)",
