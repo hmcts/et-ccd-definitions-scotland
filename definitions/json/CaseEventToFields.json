@@ -5804,6 +5804,7 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Refer to admin, legal officer or judge",
+    "CallBackURLMidEvent": "${ET_COS_URL}/createReferral/validateReferentEmail",
     "PageColumnNumber": 1
   },
   {
@@ -5824,6 +5825,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5834,6 +5836,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5844,6 +5847,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5854,6 +5858,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5877,6 +5882,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5887,6 +5893,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5897,6 +5904,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5930,6 +5938,8 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/replyReferral/validateReplyToEmail",
+    "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
   {
@@ -6054,7 +6064,8 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "PageLabel": "Close referral"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6081,7 +6092,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "closeReferral",
     "CaseFieldID": "closeReferralGeneralNotes",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
