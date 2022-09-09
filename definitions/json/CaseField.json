@@ -3109,14 +3109,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3ResponseDocument",
-    "Label": " ",
-    "FieldType": "Document",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "et3NotificationDocCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",
