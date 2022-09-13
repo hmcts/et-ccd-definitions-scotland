@@ -40,6 +40,8 @@
     "DisplayOrder": 5,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
