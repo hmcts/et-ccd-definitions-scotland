@@ -24,6 +24,10 @@
       "et_cos" : "http://host.docker.internal:8081",
       "ccd_url" : "http://host.docker.internal:4452"
     },
+    "cftlib": {
+      "et_cos": "http://localhost:8081",
+      "ccd_url": "http://localhost:4452"
+    },
     "demo" : {
       "et_cos": "http://et-cos-demo.service.core-compute-demo.internal",
       "ccd_url": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
@@ -45,6 +49,8 @@
     "xlsx2json": "node ./bin/xlsx2json",
     "generate-json": "yarn xlsx2json -D ./definitions/json -i ./definitions/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
     "generate-excel-local": "ET_ENV=local ET_COS_URL=$npm_package_config_local_et_cos CCD_DEF_URL=$npm_package_config_local_ccd_url yarn run generate-excel -e *-prod.json",
+    "generate-excel-cftlib": "ET_ENV=cftlib ET_COS_URL=$npm_package_config_cftlib_et_cos CCD_DEF_URL=$npm_package_config_cftlib_ccd_url yarn run generate-excel -e *-prod.json",
+    "generate-excel-preview": "ET_ENV=preview ET_COS_URL=$ET_COS_URL CCD_DEF_URL=$CCD_DEF_URL yarn run generate-excel -e *-prod.json",
     "generate-excel-demo": "ET_ENV=demo ET_COS_URL=$npm_package_config_demo_et_cos CCD_DEF_URL=$npm_package_config_demo_ccd_url yarn run generate-excel -e *-prod.json",
     "generate-excel-aat": "ET_ENV=aat ET_COS_URL=$npm_package_config_aat_et_cos CCD_DEF_URL=$npm_package_config_aat_ccd_url yarn run generate-excel -e *-prod.json",
     "generate-excel-prod": "ET_ENV=prod ET_COS_URL=$npm_package_config_prod_et_cos CCD_DEF_URL=$npm_package_config_prod_ccd_url yarn run generate-excel -e *-nonprod.json",

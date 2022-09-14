@@ -40,6 +40,8 @@
     "DisplayOrder": 5,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -82,7 +84,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
     "EventEnablingCondition": ""
   },
@@ -493,6 +495,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
@@ -508,10 +512,10 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
-    "EventEnablingCondition": ""
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -523,10 +527,10 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral",
-    "EventEnablingCondition": ""
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",

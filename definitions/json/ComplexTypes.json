@@ -5886,5 +5886,89 @@
     "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLink",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLink",
+    "ListElementCode": "link",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "personalDetails",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "et1ClaimForm",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "respondentResponse",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "hearingDetails",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "requestsAndApplications",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "respondentApplications",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "contactTribunal",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "tribunalOrders",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "tribunalJudgements",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinks",
+    "ListElementCode": "documents",
+    "FieldType": "hubLink",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   }
 ]
