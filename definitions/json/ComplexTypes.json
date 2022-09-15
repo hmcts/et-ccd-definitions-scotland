@@ -308,30 +308,17 @@
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_compensation",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting compensation",
+    "ListElementCode": "claim_outcome",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_claimOutcomes",
+    "ElementLabel": "What do you want if your claim is successful",
     "SecurityClassification": "Public"
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_tribunal",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting a tribunal",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_old_job",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting their old job back",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_another_job",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "ListElementCode": "claimant_compensation_text",
+    "FieldType": "TextArea",
+    "ElementLabel": "What compensation are you seeking?",
     "SecurityClassification": "Public"
   },
   {
@@ -374,6 +361,22 @@
     "ListElementCode": "claim_description_document",
     "FieldType": "Document",
     "ElementLabel": "Upload your summary as a separate document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "discrimination_claims",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_discriminationClaims",
+    "ElementLabel": "What type of discrimination are you claiming?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "pay_claims",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_payClaims",
+    "ElementLabel": "What type of pay claim are you making?",
     "SecurityClassification": "Public"
   },
   {
