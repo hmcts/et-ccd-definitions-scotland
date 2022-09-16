@@ -1509,8 +1509,8 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_compensation",
-    "EventElementLabel": "Claimant is reqesting compensation",
+    "ListElementCode": "claim_outcome",
+    "EventElementLabel": "What do you want if your claim is successful",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -1518,27 +1518,9 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_tribunal",
-    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "ListElementCode": "claimant_compensation_text",
+    "EventElementLabel": "What do you want if your claim is successful?",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateDraftCase",
-    "CaseEventID": "INITIATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_old_job",
-    "EventElementLabel": "Claimant is requesting their old job back",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateDraftCase",
-    "CaseEventID": "INITIATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_another_job",
-    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
-    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1547,7 +1529,7 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
     "EventElementLabel": "Compensation amount requested",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1556,11 +1538,65 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_tribunal_recommendation",
     "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing",
+    "EventElementLabel": "Whistleblowing claim",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing_authority",
+    "EventElementLabel": "Whistleblowing authority",
     "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description_document",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "discrimination_claims",
+    "EventElementLabel": "What type of discrimination are you claiming",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "pay_claims",
+    "EventElementLabel": "What type of pay claim are you making?",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
@@ -1569,7 +1605,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "employmentAndRespondentCheck",
@@ -1578,7 +1614,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "claimDetailsCheck",
@@ -2367,7 +2403,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_job",
@@ -2376,7 +2412,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
@@ -2385,7 +2421,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
@@ -2394,7 +2430,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_job_pay_interval",
@@ -2424,8 +2460,8 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_compensation",
-    "EventElementLabel": "Claimant is reqesting compensation",
+    "ListElementCode": "claim_outcome",
+    "EventElementLabel": "What do you want if your claim is successful",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -2433,27 +2469,9 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_tribunal",
-    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "ListElementCode": "claimant_compensation_text",
+    "EventElementLabel": "What do you want if your claim is successful?",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "UpdateCase",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_old_job",
-    "EventElementLabel": "Claimant is requesting their old job back",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "UpdateCase",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_another_job",
-    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
-    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2462,7 +2480,7 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
     "EventElementLabel": "Compensation amount requested",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2471,11 +2489,65 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_tribunal_recommendation",
     "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing",
+    "EventElementLabel": "Whistleblowing claim",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing_authority",
+    "EventElementLabel": "Whistleblowing authority",
     "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description_document",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "discrimination_claims",
+    "EventElementLabel": "What type of discrimination are you claiming",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "pay_claims",
+    "EventElementLabel": "What type of pay claim are you making?",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
@@ -2484,7 +2556,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "employmentAndRespondentCheck",
@@ -2493,7 +2565,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "claimDetailsCheck",
