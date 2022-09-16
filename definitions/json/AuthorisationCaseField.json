@@ -2899,12 +2899,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "documentCollection",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "restrictedReporting",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
