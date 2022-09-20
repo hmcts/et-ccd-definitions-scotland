@@ -917,17 +917,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "hubLinks",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "UPDATE_CASE_SUBMITTED",
     "CaseFieldID": "hubLinks",
     "DisplayContext": "MANDATORY",
