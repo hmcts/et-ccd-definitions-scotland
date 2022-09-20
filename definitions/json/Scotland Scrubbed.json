@@ -841,9 +841,15 @@
   },
   {
     "ID": "fl_DocumentType",
+    "ListElementCode": "Rejection of claim",
+    "ListElement": "Rejection of claim",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 12
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_ResponseStatus",
