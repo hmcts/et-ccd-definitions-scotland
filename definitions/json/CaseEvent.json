@@ -34,6 +34,16 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_CASE_SUBMITTED",
+    "Name": "UPDATE_CASE_SUBMITTED",
+    "Description": "Test updating a case when already submitted",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "SUBMIT_CASE_DRAFT",
     "Name": "Submit Draft",
     "Description": "Submit a draft case",
