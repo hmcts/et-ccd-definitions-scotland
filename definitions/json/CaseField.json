@@ -3439,9 +3439,9 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "hubLinks",
+    "ID": "hubLinksStatuses",
     "Label": " ",
-    "FieldType": "hubLinks",
+    "FieldType": "hubLinksStatuses",
     "SecurityClassification": "Public"
   },
   {
