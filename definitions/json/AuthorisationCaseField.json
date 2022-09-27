@@ -19674,7 +19674,7 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "hubLinksStatuses",
     "UserRole": "citizen",
     "CRUD": "CRUD"
