@@ -45,7 +45,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Submitted",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -81,7 +81,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Vetted",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -141,7 +141,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -183,7 +183,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Closed",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -225,7 +225,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Rejected",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
