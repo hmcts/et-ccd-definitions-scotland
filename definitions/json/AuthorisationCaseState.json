@@ -44,8 +44,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Submitted",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -80,8 +80,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Vetted",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -94,12 +94,6 @@
     "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
     "UserRole": "citizen",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -145,6 +139,12 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -181,6 +181,12 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Closed",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Rejected",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -214,6 +220,12 @@
     "CaseStateID": "Rejected",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Rejected",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",

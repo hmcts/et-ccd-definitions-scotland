@@ -2899,12 +2899,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "documentCollection",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "restrictedReporting",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
@@ -19645,38 +19639,44 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hubLinksStatuses",
+    "UserRole": "citizen",
     "CRUD": "CRUD"
   },
   {
