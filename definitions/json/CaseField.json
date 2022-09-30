@@ -6,6 +6,7 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
+
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "horizontalLine2",
@@ -39,6 +40,14 @@
     "ID": "typeOfClaim",
     "Label": "Type Of Claim",
     "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "typesOfClaim",
+    "Label": "Types Of Claim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
     "SecurityClassification": "Public"
   },
   {
