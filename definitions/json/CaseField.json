@@ -38,7 +38,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "typeOfClaim",
-    "Label": "Type Of Claim",
+    "Label": "Deprecate",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },

@@ -398,17 +398,6 @@
     "PageColumnNumber": 1
   },
   {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "INITIATE_CASE_DRAFT",
-    "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "typesOfClaim",
@@ -725,17 +714,6 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 10,
     "FieldShowCondition": "caseType=\"Multiple\"",
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
