@@ -1598,6 +1598,15 @@
   {
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "other_claim",
+    "EventElementLabel": "Please describe what type of claim you want to make",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
     "EventElementLabel": "Have you completed this section?",
@@ -2544,6 +2553,15 @@
     "ListElementCode": "pay_claims",
     "EventElementLabel": "What type of pay claim are you making?",
     "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "other_claim",
+    "EventElementLabel": "Please describe what type of claim you want to make",
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
