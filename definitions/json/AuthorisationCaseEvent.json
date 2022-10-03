@@ -921,157 +921,157 @@
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
