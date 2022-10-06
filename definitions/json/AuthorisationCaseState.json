@@ -43,6 +43,12 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Submitted",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Vetted",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -70,6 +76,12 @@
     "CaseStateID": "Vetted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Vetted",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -110,8 +122,26 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -145,6 +175,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Closed",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Closed",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Rejected",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -175,6 +217,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Rejected",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Rejected",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -202,6 +256,12 @@
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Transferred",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
