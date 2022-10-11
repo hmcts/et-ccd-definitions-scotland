@@ -4445,6 +4445,42 @@
     "DisplayOrder": 5
   },
   {
+    "ID": "msl_typeOfClaim",
+    "ListElementCode": "discrimination",
+    "ListElement": "discrimination",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_typeOfClaim",
+    "ListElementCode": "breachOfContract",
+    "ListElement": "breachOfContract",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_typeOfClaim",
+    "ListElementCode": "payRelated",
+    "ListElement": "payRelated",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_typeOfClaim",
+    "ListElementCode": "unfairDismissal",
+    "ListElement": "unfairDismissal",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_typeOfClaim",
+    "ListElementCode": "whistleBlowing",
+    "ListElement": "whistleBlowing",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_typeOfClaim",
+    "ListElementCode": "otherTypesOfClaims",
+    "ListElement": "otherTypesOfClaims",
+    "DisplayOrder": 6
+  },
+  {
     "ID": "msl_Defects",
     "ListElementCode": "rule121a",
     "ListElement": "The tribunal has no jurisdiction to consider - Rule 12(1)(a)",

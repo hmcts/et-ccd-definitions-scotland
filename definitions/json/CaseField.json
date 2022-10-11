@@ -6,6 +6,7 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
+
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "horizontalLine2",
@@ -37,8 +38,16 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "typeOfClaim",
-    "Label": "Type Of Claim",
+    "Label": "Deprecate",
     "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "typesOfClaim",
+    "Label": "Types Of Claim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
     "SecurityClassification": "Public"
   },
   {
@@ -158,9 +167,9 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "feeGroupReference",
     "Label": "Submission Reference",
-    "HintText": "Submission Reference (12 digit number)",
+    "HintText": "Submission Reference (12 or 16 digit number)",
     "FieldType": "Text",
-    "RegularExpression": "[0-9]{12}$",
+    "RegularExpression": "^([0-9]{12}|[0-9]{16})$",
     "SecurityClassification": "Public"
   },
   {
