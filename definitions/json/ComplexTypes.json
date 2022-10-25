@@ -5898,6 +5898,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSummaryPdf",
+    "FieldType": "Document",
+    "ElementLabel": "Referral Document",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "hubLinksStatuses",
     "ListElementCode": "personalDetails",
     "FieldType": "Text",
