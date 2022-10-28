@@ -2711,7 +2711,7 @@
     "ListElementCode": "dateNotified",
     "FieldType": "Date",
     "ElementLabel": "Date notified",
-    "FieldShowCondition": "judgmentOutcome = \"Acas conciliated settlement\" OR judgmentOutcome = \"Withdrawn or private settlement\" ",
+    "FieldShowCondition": "judgmentOutcome = \"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -2720,6 +2720,8 @@
     "ListElementCode": "disposalDate",
     "FieldType": "Date",
     "ElementLabel": "Disposal date",
+    "HintText": "For a hearing disposal, enter the hearing date that disposed of this jurisdiction. For a non-hearing disposal, enter the judgment sent date for this jurisdiction.",
+    "FieldShowCondition": "judgmentOutcome != \"Not allocated\" AND judgmentOutcome != \"Input in error\" AND judgmentOutcome != \"\"",
     "SecurityClassification": "Public"
   },
   {
