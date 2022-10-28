@@ -817,39 +817,45 @@
   },
   {
     "ID": "fl_DocumentType",
+    "ListElementCode": "Tribunal case file",
+    "ListElement": "Tribunal case file",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal correspondence",
     "ListElement": "Tribunal correspondence",
-    "DisplayOrder": 8
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Order/Deposit Order",
     "ListElement": "Tribunal Order/Deposit Order",
-    "DisplayOrder": 9
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Judgment/Reasons",
     "ListElement": "Tribunal Judgment/Reasons",
-    "DisplayOrder": 10
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Referral/Judicial direction",
     "ListElement": "Referral/Judicial direction",
-    "DisplayOrder": 11
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Rejection of claim",
     "ListElement": "Rejection of claim",
-    "DisplayOrder": 12
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 13
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_ResponseStatus",
