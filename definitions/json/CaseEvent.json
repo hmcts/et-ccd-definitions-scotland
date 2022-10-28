@@ -497,7 +497,8 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Notification/submitted"
   },
   {
     "CaseTypeID": "ET_Scotland",
