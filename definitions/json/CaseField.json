@@ -1095,7 +1095,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationBeforeYouStart",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>`",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
