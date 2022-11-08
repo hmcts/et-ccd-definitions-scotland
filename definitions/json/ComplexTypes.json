@@ -3005,6 +3005,35 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "JudgmentCosts",
+    "ListElementCode": "pro_bono_costs_awarded_to",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pro Bono costs awarded to",
+    "FieldTypeParameter": "fl_costs_pro_bono_awarded_to",
+    "FieldShowCondition": "costs_question=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JudgmentCosts",
+    "ListElementCode": "pro_bono_costs_awarded_against",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pro Bono costs awarded against",
+    "FieldTypeParameter": "fl_pro_bono_awarded_against",
+    "FieldShowCondition": "costs_question=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JudgmentCosts",
+    "ListElementCode": "pro_bono_costs_amount_awarded",
+    "ElementLabel": "Pro Bono costs amount awarded",
+    "FieldType": "MoneyGBP",
+    "FieldShowCondition": "costs_question=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "Judgment",
     "ListElementCode": "jurisdictionCodes",
     "FieldType": "Collection",
