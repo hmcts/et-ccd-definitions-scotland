@@ -3929,9 +3929,8 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 10,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICCanProceed=\"Yes\""
+    "FieldShowCondition": "etICCanProceed=\"dummy\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
