@@ -6107,6 +6107,16 @@
     "PageColumnNumber": 1
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "amendCaseDetails",
+    "CaseFieldID": "suggestedHearingVenues",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 18,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
