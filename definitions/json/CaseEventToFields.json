@@ -6119,6 +6119,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
+    "CaseEventID": "createCase",
+    "CaseFieldID": "managingOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "generateListing",
     "CaseFieldID": "managingOffice",
     "DisplayContext": "MANDATORY",
