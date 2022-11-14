@@ -3460,6 +3460,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "suggestedHearingVenues",
+    "Label": "Suggested hearing venue",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
