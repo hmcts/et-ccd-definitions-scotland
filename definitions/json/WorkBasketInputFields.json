@@ -25,14 +25,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
-    "CaseFieldID": "documentName",
-    "Label": "Document Name",
+    "CaseFieldID": "managingOffice",
+    "Label": "Managing Office",
+
     "DisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
-    "CaseFieldID": "listingVenue",
-    "Label": "Managing Office",
+    "CaseFieldID": "documentName",
+    "Label": "Document Name",
     "DisplayOrder": 2
   },
   {
