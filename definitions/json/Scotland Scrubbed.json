@@ -1033,9 +1033,15 @@
   },
   {
     "ID": "fl_HearingStatus",
+    "ListElementCode": "Vacated",
+    "ListElement": "Vacated",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_HearingStatus",
     "ListElementCode": "Withdrawn",
     "ListElement": "Withdrawn",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_HearingLength",
