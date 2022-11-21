@@ -1288,7 +1288,7 @@
   },
   {
     "ID": "RespondentRepresentative",
-    "ListElementCode": "organisation",
+    "ListElementCode": "respondentOrganisation",
     "FieldType": "Organisation",
     "ElementLabel": "MyHMCTS Organisation",
     "FieldShowCondition": "myHmctsYesNo=\"Yes\"",

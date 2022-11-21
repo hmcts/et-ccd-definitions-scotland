@@ -3253,6 +3253,77 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy0",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy1",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy2",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy3",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy4",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy5",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy6",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy7",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy8",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy9",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+
+    "CaseTypeID": "ET_Scotland",
     "ID": "referCaseTo",
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
