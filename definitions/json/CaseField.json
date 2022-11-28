@@ -3204,7 +3204,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3EmailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${et3EmailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${et3EmailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
