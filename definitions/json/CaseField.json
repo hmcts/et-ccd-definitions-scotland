@@ -3322,7 +3322,93 @@
     "SecurityClassification": "Public"
   },
   {
-
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers0",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers1",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers2",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers3",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers4",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers5",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers6",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers7",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers8",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers9",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "changeOrganisationRequestField",
+    "Label": "Change Organisation Request",
+    "FieldType": "ChangeOrganisationRequest",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
     "CaseTypeID": "ET_Scotland",
     "ID": "referCaseTo",
     "Label": "Who are you referring this case to?",

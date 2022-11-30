@@ -6004,5 +6004,13 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "respondentName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
   }
 ]

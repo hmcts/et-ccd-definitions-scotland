@@ -1,0 +1,11 @@
+[
+    {
+        "CaseTypeID": "ET_Scotland",
+        "ID": "NoCChallenge",
+        "DisplayOrder": "1",
+        "QuestionText": "Respondent Name",
+        "AnswerFieldType": "Text",
+        "Answer": "${noticeOfChangeAnswers0.respondentName}:[RESPONDENTSOLICITOR]",
+        "QuestionId": "respondentFirstName"
+    }
+]
