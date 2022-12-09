@@ -116,8 +116,8 @@
     "ID": "ClaimantCorrespondence",
     "ListElementCode": "claimant_contact_language",
     "FieldType": "FixedList",
-    "ElementLabel": "Contact language",
-    "FieldTypeParameter": "fl_ContactLanguage",
+    "ElementLabel": "Deprecated contact language",
+    "FieldTypeParameter": "fl_languages",
     "SecurityClassification": "Public"
   },
   {
