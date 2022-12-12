@@ -5431,24 +5431,6 @@
     "ElementLabel": "Tell us what support you need to request",
     "SecurityClassification": "Public"
   },
-   {
-    "ID": "HearingPreference",
-    "ListElementCode": "contact_language",
-    "FieldType": "FixedList",
-    "ElementLabel": "Contact language",
-    "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
-  },
-  {
-    "ID": "HearingPreference",
-    "ListElementCode": "hearing_language",
-    "FieldType": "FixedRadioList",
-    "ElementLabel": "If a hearing is required, what language do you want to speak at a hearing?",
-    "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
-  },
   {
     "ID": "ServingDocumentUpload",
     "ListElementCode": "typeOfDocument",
