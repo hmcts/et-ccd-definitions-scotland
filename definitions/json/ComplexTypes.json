@@ -1,9 +1,17 @@
 [
   {
     "ID": "ClaimantIndividual",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",
     "ElementLabel": "Title",
+    "FieldTypeParameter": "fl_PreferredTitle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_title1",
+    "FieldType": "FixedList",
+    "ElementLabel": "Deprecated",
     "FieldTypeParameter": "fl_Title",
     "SecurityClassification": "Public"
   },
@@ -12,7 +20,7 @@
     "ListElementCode": "claimant_title_other",
     "FieldType": "Text",
     "ElementLabel": "Other title",
-    "FieldShowCondition": "claimant_title1=\"Other\"",
+    "FieldShowCondition": "claimant_preferred_title=\"Other\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -55,9 +63,17 @@
   },
   {
     "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_gender_identity_same",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is the claimant's identity and sex registered at birth the same?",
+    "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity",
     "FieldType": "Text",
-    "ElementLabel": "Gender Identity",
+    "ElementLabel": "Gender Identity description",
     "SecurityClassification": "Public"
   },
   {
@@ -263,6 +279,13 @@
   },
   {
     "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_job",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Have you got a new job",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
     "ListElementCode": "newly_employed_from",
     "FieldType": "Date",
     "ElementLabel": "Employed from",
@@ -276,31 +299,26 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_compensation",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting compensation",
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_job_pay_interval",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldTypeParameter": "fl_pay_cycle",
     "SecurityClassification": "Public"
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_tribunal",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting a tribunal",
+    "ListElementCode": "claim_outcome",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_claimOutcomes",
+    "ElementLabel": "What do you want if your claim is successful",
     "SecurityClassification": "Public"
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_old_job",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant is reqesting their old job back",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRequest",
-    "ListElementCode": "claimant_another_job",
-    "FieldType": "YesOrNo",
-    "ElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "ListElementCode": "claimant_compensation_text",
+    "FieldType": "TextArea",
+    "ElementLabel": "What compensation are you seeking?",
     "SecurityClassification": "Public"
   },
   {
@@ -343,6 +361,29 @@
     "ListElementCode": "claim_description_document",
     "FieldType": "Document",
     "ElementLabel": "Upload your summary as a separate document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "discrimination_claims",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_discriminationClaims",
+    "ElementLabel": "What type of discrimination are you claiming?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "pay_claims",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_payClaims",
+    "ElementLabel": "What type of pay claim are you making?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "other_claim",
+    "FieldType": "TextArea",
+    "ElementLabel": "Please describe what type of claim you want to make",
     "SecurityClassification": "Public"
   },
   {
@@ -466,6 +507,13 @@
     "FieldType": "FixedList",
     "ElementLabel": "Contact preference",
     "FieldTypeParameter": "fl_RepresentativeContact",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3VettingDocument",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Processing Document",
     "SecurityClassification": "Public"
   },
   {
@@ -1229,6 +1277,21 @@
     "ListElementCode": "name_of_organisation",
     "FieldType": "Text",
     "ElementLabel": "Name of Organisation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "myHmctsYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the representative have a MyHMCTS account?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisation",
+    "FieldType": "Organisation",
+    "ElementLabel": "MyHMCTS Organisation",
+    "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -5654,5 +5717,254 @@
     "FieldType": "Number",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "typeOfDocument",
+    "FieldType": "FixedList",
+    "ElementLabel": "Type of Document",
+    "FieldTypeParameter": "fl_Et3NotificationDocType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyBy",
+    "FieldType": "Text",
+    "ElementLabel": "Reply by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "directionTo",
+    "FieldType": "Text",
+    "ElementLabel": "Reply to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyToEmailAddress",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDate",
+    "FieldType": "Text",
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "isUrgentReply",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "directionDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Directions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDocument",
+    "FieldType": "Collection",
+    "ElementLabel": "Documents",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyGeneralNotes",
+    "FieldType": "Text",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralNumber",
+    "FieldType": "Text",
+    "ElementLabel": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralHearingDate",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referCaseTo",
+    "FieldType": "Text",
+    "ElementLabel": "Referred to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referentEmail",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "isUrgent",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSubject",
+    "FieldType": "Text",
+    "ElementLabel": "Subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSubjectSpecify",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details of the referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralInstruction",
+    "FieldType": "Text",
+    "ElementLabel": "Recommended instructions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referredBy",
+    "FieldType": "Text",
+    "ElementLabel": "Referred by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralDate",
+    "FieldType": "Text",
+    "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralStatus",
+    "FieldType": "Text",
+    "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralReplyCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Reply",
+    "FieldTypeParameter": "referralReply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "personalDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "et1ClaimForm",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "respondentResponse",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "hearingDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "requestsAndApplications",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "respondentApplications",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "contactTribunal",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "tribunalOrders",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "tribunalJudgements",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hubLinksStatuses",
+    "ListElementCode": "documents",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   }
 ]
