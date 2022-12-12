@@ -1123,6 +1123,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
+    "CaseEventID": "createReport",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseEventID": "generateReport",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
