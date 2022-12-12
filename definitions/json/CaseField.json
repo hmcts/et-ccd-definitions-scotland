@@ -903,7 +903,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantHearingPreference",
-    "Label": "Claimant Hearing Preferences",
+    "Label": "Additional Claimant Information",
     "FieldType": "HearingPreference",
     "SecurityClassification": "Public"
   },
