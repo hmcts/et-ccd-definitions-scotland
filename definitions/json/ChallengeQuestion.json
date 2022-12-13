@@ -5,7 +5,7 @@
         "DisplayOrder": "1",
         "QuestionText": "Respondent Name",
         "AnswerFieldType": "Text",
-        "Answer": "${noticeOfChangeAnswers0.respondentName}:[RESPONDENTSOLICITOR]",
-        "QuestionId": "respondentFirstName"
+        "Answer": "${noticeOfChangeAnswers0.respondentName}:[SOLICITORA],${noticeOfChangeAnswers1.respondentName}:[SOLICITORB],${noticeOfChangeAnswers2.respondentName}:[SOLICITORC],${noticeOfChangeAnswers3.respondentName}:[SOLICITORD],${noticeOfChangeAnswers4.respondentName}:[SOLICITORE],${noticeOfChangeAnswers5.respondentName}:[SOLICITORF],${noticeOfChangeAnswers6.respondentName}:[SOLICITORG],${noticeOfChangeAnswers7.respondentName}:[SOLICITORH],${noticeOfChangeAnswers8.respondentName}:[SOLICITORI],${noticeOfChangeAnswers9.respondentName}:[SOLICITORJ]",
+        "QuestionId": "respondentName"
     }
 ]

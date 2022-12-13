@@ -11,7 +11,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITOR]",
+    "ID": "[SOLICITORA]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -20,7 +20,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORA]",
+    "ID": "[SOLICITORB]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -29,7 +29,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORB]",
+    "ID": "[SOLICITORC]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -38,7 +38,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORC]",
+    "ID": "[SOLICITORD]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -47,7 +47,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORD]",
+    "ID": "[SOLICITORE]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -56,7 +56,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORE]",
+    "ID": "[SOLICITORF]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -65,7 +65,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORF]",
+    "ID": "[SOLICITORG]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -74,7 +74,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORG]",
+    "ID": "[SOLICITORH]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -83,7 +83,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORH]",
+    "ID": "[SOLICITORI]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",
@@ -92,16 +92,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORI]",
-    "Name": "Respondent Solicitor",
-    "Description": "Respondent Solicitor role",
-    "JurisdictionID": "EMPLOYMENT",
-    "SecurityClassification": "Public"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
-    "ID": "[RESPONDENTSOLICITORJ]",
+    "ID": "[SOLICITORJ]",
     "Name": "Respondent Solicitor",
     "Description": "Respondent Solicitor role",
     "JurisdictionID": "EMPLOYMENT",

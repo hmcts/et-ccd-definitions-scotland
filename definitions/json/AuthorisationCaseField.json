@@ -608,13 +608,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "receiptDate",
-    "UserRole": "[RESPONDENTSOLICITORA]",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "receiptDate",
-    "UserRole": "[RESPONDENTSOLICITOR]",
+    "UserRole": "[SOLICITOR]",
     "CRUD": "CRU"
   },
   {

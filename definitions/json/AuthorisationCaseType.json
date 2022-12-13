@@ -66,57 +66,52 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITOR]",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORA]",
+    "UserRole": "[SOLICITORB]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORB]",
+    "UserRole": "[SOLICITORC]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORC]",
+    "UserRole": "[SOLICITORD]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORD]",
+    "UserRole": "[SOLICITORE]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORE]",
+    "UserRole": "[SOLICITORF]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORF]",
+    "UserRole": "[SOLICITORG]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORG]",
+    "UserRole": "[SOLICITORH]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORH]",
+    "UserRole": "[SOLICITORI]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORI]",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "UserRole": "[RESPONDENTSOLICITORJ]",
+    "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
   },
   {
