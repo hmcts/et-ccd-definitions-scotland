@@ -134,6 +134,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
+    "UserRole": "caseworker-approver",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
