@@ -613,12 +613,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "receiptDate",
-    "UserRole": "[SOLICITOR]",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "feeGroupReference",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
