@@ -1288,7 +1288,7 @@
   },
   {
     "ID": "RespondentRepresentative",
-    "ListElementCode": "organisation",
+    "ListElementCode": "respondentOrganisation",
     "FieldType": "Organisation",
     "ElementLabel": "MyHMCTS Organisation",
     "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
@@ -6004,5 +6004,13 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "respondentName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
   }
 ]
