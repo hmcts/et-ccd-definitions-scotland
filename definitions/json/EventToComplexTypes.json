@@ -3851,7 +3851,7 @@
     "ListElementCode": "representative_address.AddressLine1",
     "EventElementLabel": "Building and Street",
     "FieldDisplayOrder": 12,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "RespondentRepresentative",
@@ -3903,7 +3903,7 @@
     "ListElementCode": "representative_address.PostCode",
     "EventElementLabel": "Postcode",
     "FieldDisplayOrder": 18,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "RespondentRepresentative",
