@@ -3467,6 +3467,555 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "applicationsAdminLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Close application</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "applicationsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "applicationsTab",
+    "Label": "#### Applications",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "genericTseApplicationCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "genericTseDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminAdditionalInformation",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminDecision",
+    "Label": "Decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminDecision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminDecisionDetails",
+    "Label": "Decision details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminDecisionMadeBy",
+    "Label": "Decision was made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminDecisionMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminDecisionMadeByFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminEnterNotificationTitle",
+    "Label": "Enter notification title",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminResponseRequiredNoDoc",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminResponseRequiredYesDoc",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminSelectApplication",
+    "Label": "Select an application",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminSelectPartyNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminSelectPartyRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminTableLabel",
+    "Label": "${tseAdminTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdminTypeOfDecision",
+    "Label": "Type of decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminTypeOfDecision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondCopyPartyIntro",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exception circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondSelectApplication",
+    "Label": "Select an application",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseConsider",
+    "Label": "### Consider in your answer:\r\n + If you agree or disagree with the application \r\n + that if you disagree with the application, you must give reasons \r\n + that you can apply for a hearing instead of responding in writing",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseConsiderMaterial",
+    "Label": "Consider when providing material that:\r\n + you can upload letters, photos or documents to support your application\r\n + if you are taking a picture of a letter, place it on a flat surface and take the picture from above\r\n + If you are uploading written documents with tracked changes, make sure that tracked changes are turned on\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseCopyNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseCopyToOtherParty",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseHasSupportingMaterial",
+    "Label": "Supporting material",
+    "HintText": "Do you have any supporting material you want to provide?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseIntro",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseIntroLabel",
+    "Label": "${tseResponseIntro}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseSupportingMaterial",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseTable",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseTableLabel",
+    "Label": "${tseResponseTable}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseResponseText",
+    "Label": "What's your response to the claimant's application?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseCopyThisCorrespondenceText",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseCopyToOtherPartyTextArea",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseCopyToOtherPartyYesOrNo",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument1",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument10",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument11",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument12",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument2",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument3",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument4",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument5",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument6",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument7",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument8",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseDocument9",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel1",
+    "Label": " <hr>Use this form to apply to amend the ET3 response.<br><br>The tribunal will decide if you can make the amendment by judging the fairness of the application. This decision may be made at a hearing.<br><br>The tribunal also needs to know if you consider the amendment minor or substantial.<br><br>Providing details of why you want to amend the response and the importance of the amendment will help the tribunal to decide your application more quickly.<h3>Details to include in your application:</h3><ul><li>what you want to amend in your response. Be specific and refer to your ET3 response form if possible</li><li>if you consider it a minor or substantial amendment</li><li>why you want to make this amendment</li><li>why you are asking to make this amendment now</li><li>how this amendment will benefit you and how could it disadvantage you if not granted</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel10",
+    "Label": "<hr>Use this form to apply to prevent or restrict publicity in this case.<br><br>It is an important principle that justice should normally be delivered in public.<br><br>However, the tribunal has the power to prevent or restrict the public disclosure of any aspect of this case if necessary in the interests of justice or to protect the Convention rights of any person.<br><br>The tribunal also has certain other powers to sit in private or to restrict publicity in accordance with sections 10A, 10B, 11 and 12 of the Employment Tribunals Act 1996.<br><br>The tribunal may issue an order:<ul><li>that a hearing that would otherwise be in public be conducted, in whole or in part, in private</li><li>that the identities of specified parties, witnesses or other persons referred to in the proceedings should not be disclosed to the public, by the use of anonymisation or otherwise</li><li>for measures preventing witnesses at a public hearing being identifiable by members of the public</li><li>restricting the reporting of the case in the media</li></ul><h3>Details to include in your application:</h3><ul><li>how the tribunal should prevent or restrict publicity in this case</li><li>why the restrictions you want are needed. The tribunal must make the least restrictive order possible. Tell us why fewer restrictions would not be enough</li><li>any media interest in this case. Include names of media organisations or journalists that are interested. The tribunal might seek their comments before making a decision</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel11",
+    "Label": "<hr>You can request that the tribunal strike out all or parts of the claim.<br><br>If something is ‘struck out’ it is removed from the claim or response and cannot be relied upon.<br><br>The tribunal can strike out all or parts of the claimant’s claim on their own initiative or after a request from the respondent.<br><br>A strike out request must be based on at least one of the grounds of Rule 37 of the Employment Tribunals Rules of Procedure.<h3>Details to include in your application:</h3><ul><li>why you think the claim (or parts of it) should be struck out</li><li>which ground or grounds in Rule 37 you say applies in this case</li><li>if you are referring to numbered points or paragraphs in a claim, include these numbers or other references</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel12",
+    "Label": "<hr>Use this form to apply to vary or revoke an order the tribunal has issued.<br><br>Tribunal orders will not usually be varied or revoked unless there has been a material change in circumstances since the order was made, which make the variation in the interests of justice.<br><br>The tribunal will consider your reasons for varying or revoking the order and any supporting materials you provide then make a decision.<h3>Details to include in your application:</h3><ul><li>the order you want to vary or revoke </li><li>the date the tribunal issued the order</li><li>explain which part of the order you want to vary or revoke</li><li>how to vary the order</li><li>why it is in the interests of justice to vary or revoke this order. Tell us any relevant changes of circumstance since the order was made and consider the requirements of the ‘overriding objective’ in Rule 2 of the Employment Tribunal Rules of Procedure</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel2",
+    "Label": "<hr>Use this form to apply to change details like the company address, email or telephone number. <br><br>If you change the postal or email address, we’ll send any letters to the new address.<br><br>If you change the telephone number, we’ll contact you using the new number if we have questions about your response.<h3>Details you can apply to change:</h3><ul><li>name</li><li>sex and preferred title</li><li>address</li><li>telephone number</li><li>email address</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel3",
+    "Label": "<hr>Use this form to tell us that the claimant has not complied with all or part of an order from the tribunal.<br><br>You should try to resolve your complaint with the claimant. Only use this form if that is not possible.<h3>Details to include in your application:</h3><ul><li>which order has not been complied with</li><li>the date the tribunal issued the order</li><li>what the claimant has not done</li><li>what you want the tribunal to do next</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel4",
+    "Label": "<hr>Use this form to have a judgment or order made by a legal officer considered afresh by an Employment Judge.<br><br>Considered afresh means that if you disagree with a judgment or order made by a legal officer in this case, you can ask an Employment Judge to look at that decision again.<br><br>The judge will take the decision afresh on the basis of the same information as was before the legal officer, unless either side chooses to supply additional information.<h3>Details to include in your application:</h3><ul><li>the decision you want considered afresh</li><li>the date the tribunal issued the decision</li><li>why you want the decision considered afresh</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel5",
+    "Label": "<hr>Tell or ask the tribunal about something relevant to this case.<h3>Do not use this form to:</h3><ul><li>seek legal advice from the tribunal. The tribunal is an independent judicial body and cannot give legal advice</li><li>tell us about settlement offers or discussions, which are private and confidential to the parties</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel6",
+    "Label": "<hr>Use this form to ask the tribunal to order the claimant to do or provide something.<h3>Details to include in your application:</h3><ul><li>what you want the claimant to do</li><li>why it is relevant to your response</li><li>if you have already asked the claimant to do or provide this thing. If you have, tell us when you asked and what their response was</li><li>if you have not asked the claimant to do or provide this thing yet, explain why</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel7",
+    "Label": "<hr>You can ask the tribunal to order a witness to attend to give evidence.<br><br>The witness must be in Great Britain (England, Scotland and Wales). This does not include Northern Ireland.<br><br>The tribunal can limit the number of witnesses to be called to give evidence on a particular issue, especially if that issue is not central to the case.<br><br>The respondent may also be liable for the costs incurred by the witness’s attendance.<br><br>You should consider whether the evidence of this witness is likely to help your case.<h3>Details to include in your application:</h3><ul><li>the witness’s full name and address</li><li>why the attendance of this witness is necessary for a fair hearing. The tribunal needs to understand why the evidence is relevant, and why there is no alternative way of establishing the same points at the hearing without ordering a witness to attend</li><li>if you have asked this witness to attend voluntarily. If you have, tell us when you asked and what their response was</li><li>if you have not asked the witness to attend yet, explain why</li></ul>If the order is granted, the witness will be ordered to attend on the first day of the hearing. If you want them to attend on another day or days, tell us: <br><br><ul><li>the dates apart from the first day of the hearing that you want the witness to attend</li><li>why their attendance is necessary on those dates</li></ul>If you want the witness to bring documents, tell us: <br/><br/><ul><li>why these documents are relevant to the issues in this case</li><li>why an order to disclose the documents would not be enough</li><li>if you have already asked the witness or anyone else to provide these documents. If you have, tell us when you asked and what their response was</li><li>if you have not asked the witness to provide the documents yet, explain why</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel8",
+    "Label": "<hr>Use this form to ask the tribunal to postpone a hearing to a later date. <h3>Details to include in your application:</h3><ul><li>which hearing you want to postpone. If the hearing you want to postpone is listed over multiple days, tell us which day or days you are applying to postpone</li><li>the reason you want to postpone. The tribunal will use this to decide whether to grant your application</li><li>any essential documents to support your application</li><li>weekday dates within the next 3 months that you, your witnesses or representatives cannot attend a rescheduled hearing</li><li>the reason you cannot attend on those dates</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseGuidanceLabel9",
+    "Label": "<hr>Use this form to have a judgment made by a tribunal reconsidered. This may be a judgment made by a judge alone or by a judge sitting with non-legal members.<br><br>If reconsideration is necessary in the interests of justice you can ask the tribunal to look at the judgment again.<br><br>Only a judgment which finally determines an issue in your case can be reconsidered. This therefore excludes any decision that does not comprise a final determination of the claim, or part of a claim. If you wish to ask for a case management order to be varied or revoked, use the vary or revoke an order application.<br><br>You can only ask the tribunal to reconsider a judgment within 14 days of the date the judgment was sent to you.<br><br>If you want the tribunal to reconsider a judgment that was sent to you over 14 days ago you must explain why your application is late.<br><br>A reconsideration application does not affect the time limit for appealing to the Employment Appeal Tribunal.<h3>Details to include in your application:</h3><ul><li>the judgment you want reconsidered </li><li>the date the tribunal issued the judgment</li><li>your reason for a late application if the judgment was sent over 14 days ago</li><li>why it is in the interests of justice to reconsider this judgment</li><li>if the tribunal should vary or revoke the judgment</li><li>any additional information or material which the tribunal does not already have to support your application</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseHorizontalLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseSelectApplication",
+    "Label": "Select an application",
+    "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_resTseSelectApp",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox1",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox10",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox11",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox12",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox2",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox3",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox4",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox5",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox6",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox7",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox8",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTextBox9",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseAllApplicationsLabel",
+    "Label": "All applications <hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseTableLabel",
+    "Label": "${resTseTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

@@ -5417,6 +5417,186 @@
     "DisplayOrder": 1
   },
   {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Granted",
+    "ListElementCode": "Granted",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Granted in part",
+    "ListElementCode": "Granted in part",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Refused",
+    "ListElementCode": "Refused",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Other",
+    "ListElementCode": "Other",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "frl_tseAdminDecisionMadeBy",
+    "ListElement": "Legal officer",
+    "ListElementCode": "Legal officer",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminDecisionMadeBy",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminIsResponseRequired",
+    "ListElement": "Yes - view document for details",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminIsResponseRequired",
+    "ListElement": "No",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Claimant only",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Respondent only",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_tseAdminSelectPartyRespond",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_tseAdminSelectPartyRespond",
+    "ListElement": "Claimant",
+    "ListElementCode": "Claimant",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_tseAdminSelectPartyRespond",
+    "ListElement": "Respondent",
+    "ListElementCode": "Respondent",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_tseAdminTypeOfDecision",
+    "ListElement": "Judgment",
+    "ListElementCode": "Judgment",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminTypeOfDecision",
+    "ListElement": "Case management order",
+    "ListElementCode": "Case management order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_CopyToOtherPartyYesOrNo",
+    "ListElement": "Yes, I confirm I want to copy this correspondence to the other party to satisfy the Employment Tribunal Rules of Procedure. By selecting this option, a copy of this correspondence will be sent to the other party upon submission. The other party will be notified that any objections to your application should be sent to the tribunal as soon as possible and in any event within 7 days.",
+    "ListElementCode": "I confirm I want to copy",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_CopyToOtherPartyYesOrNo",
+    "ListElement": "No, I do not want to copy this correspondence to the other party. You must tell the tribunal why you do not want to inform the other party. The tribunal will consider your reasons and decide if you must inform the other party or not.",
+    "ListElementCode": "I do not want to copy",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Amend response",
+    "ListElementCode": "Amend response",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Change personal details",
+    "ListElementCode": "Change personal details",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Claimant not complied",
+    "ListElementCode": "Claimant not complied",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Consider a decision afresh",
+    "ListElementCode": "Consider a decision afresh",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Contact the tribunal",
+    "ListElementCode": "Contact the tribunal",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Order other party",
+    "ListElementCode": "Order other party",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Order a witness to attend to give evidence",
+    "ListElementCode": "Order a witness to attend to give evidence",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Postpone a hearing",
+    "ListElementCode": "Postpone a hearing",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Reconsider judgement",
+    "ListElementCode": "Reconsider judgement",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Restrict publicity",
+    "ListElementCode": "Restrict publicity",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Strike out all or part of a claim",
+    "ListElementCode": "Strike out all or part of a claim",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Vary or revoke an order",
+    "ListElementCode": "Vary or revoke an order",
+    "DisplayOrder": 12
+  },
+  {
     "ID": "fl_pro_bono_awarded_against",
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
