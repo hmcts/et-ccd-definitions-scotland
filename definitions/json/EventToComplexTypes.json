@@ -3805,9 +3805,25 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "organisation",
-    "EventElementLabel": "MyHMCTS Organisation",
+    "ListElementCode": "respondentOrganisation.OrganisationID",
     "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "respondentOrganisation.OrganisationName",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "Representative",
+    "EventElementLabel": "Representative",
+    "FieldDisplayOrder": 9,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3816,7 +3832,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "name_of_organisation",
     "EventElementLabel": "Name of Organisation",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3825,7 +3841,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_reference",
     "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3834,14 +3850,6 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine2",
     "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
@@ -3849,8 +3857,16 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine3",
+    "ListElementCode": "representative_address.AddressLine2",
     "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine3",
+    "FieldDisplayOrder": 14,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3859,7 +3875,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3868,7 +3884,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3877,7 +3893,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3886,8 +3902,8 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 17,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "RespondentRepresentative",
@@ -3895,7 +3911,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_occupation",
     "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3904,7 +3920,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_occupation_other",
     "EventElementLabel": "What is the Representative's occupation?",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6234,6 +6250,63 @@
     "ListElementCode": "shortDescription",
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToAdd.OrganisationID",
+    "FieldDisplayOrder": "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToAdd.OrganisationName",
+    "FieldDisplayOrder": "2",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToRemove.OrganisationID",
+    "FieldDisplayOrder": "3",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToRemove.OrganisationName",
+    "FieldDisplayOrder": "4",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "CaseRoleId",
+    "FieldDisplayOrder": "5",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "RequestTimestamp",
+    "FieldDisplayOrder": "6",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "ApprovalStatus",
+    "DefaultValue": "1",
+    "FieldDisplayOrder": "7",
     "DisplayContext": "OPTIONAL"
   },
   {
