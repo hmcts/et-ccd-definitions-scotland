@@ -266,14 +266,14 @@
     "ID": "EmploymentDetails",
     "ListElementCode": "pastEmployer",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Did you work for the orgainsation or person",
+    "ElementLabel": "Did you work for the organisation or person",
     "SecurityClassification": "Public"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "stillWorking",
     "FieldType": "FixedList",
-    "ElementLabel": "Are you still working for the orgainsation or person",
+    "ElementLabel": "Are you still working for the organisation or person",
     "FieldTypeParameter": "fl_StillWorking",
     "SecurityClassification": "Public"
   },
