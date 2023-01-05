@@ -6230,9 +6230,8 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageLabel": "Select an application",
-    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midDetailsTable"
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midDetailsTable",
+    "PageLabel": "Select an application"
   },
   {
     "CaseTypeID": "ET_Scotland",
