@@ -3546,6 +3546,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "reportRespondent",
+    "ListElementCode": "respondentName",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "reportET4",
     "ListElementCode": "actioned",
     "FieldType": "Text",
@@ -6008,6 +6015,22 @@
   {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantFirstName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantLastName",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public",
