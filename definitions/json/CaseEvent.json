@@ -13,6 +13,19 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "assignCase",
+    "Name": "Assign Case to Glasgow",
+    "Description": "Assign case to Glasgow",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "Submitted",
+    "PostConditionState": "Submitted",
+    "SecurityClassification": "Public",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/assignCase",
+    "EventEnablingCondition": "managingOffice =\"Unassigned\"",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "INITIATE_CASE_DRAFT",
     "Name": "Create Draft Case",
     "Description": "Create a new draft case",
@@ -133,9 +146,13 @@
     "DisplayOrder": 11,
     "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
+    "CallBackURLSubmittedEvent": ""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -311,7 +328,8 @@
     "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -322,7 +340,8 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -495,7 +514,8 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Notification/submitted"
   },
   {
     "CaseTypeID": "ET_Scotland",

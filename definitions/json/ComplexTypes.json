@@ -266,14 +266,14 @@
     "ID": "EmploymentDetails",
     "ListElementCode": "pastEmployer",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Did you work for the orgainsation or person",
+    "ElementLabel": "Did you work for the organisation or person",
     "SecurityClassification": "Public"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "stillWorking",
     "FieldType": "FixedList",
-    "ElementLabel": "Are you still working for the orgainsation or person",
+    "ElementLabel": "Are you still working for the organisation or person",
     "FieldTypeParameter": "fl_StillWorking",
     "SecurityClassification": "Public"
   },
@@ -2711,7 +2711,7 @@
     "ListElementCode": "dateNotified",
     "FieldType": "Date",
     "ElementLabel": "Date notified",
-    "FieldShowCondition": "judgmentOutcome = \"Acas conciliated settlement\" OR judgmentOutcome = \"Withdrawn or private settlement\" ",
+    "FieldShowCondition": "judgmentOutcome = \"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -2720,6 +2720,8 @@
     "ListElementCode": "disposalDate",
     "FieldType": "Date",
     "ElementLabel": "Disposal date",
+    "HintText": "For a hearing disposal, enter the hearing date that disposed of this jurisdiction. For a non-hearing disposal, enter the judgment sent date for this jurisdiction.",
+    "FieldShowCondition": "judgmentOutcome != \"Not allocated\" AND judgmentOutcome != \"Input in error\" AND judgmentOutcome != \"\"",
     "SecurityClassification": "Public"
   },
   {
@@ -2998,6 +3000,35 @@
     "ListElementCode": "wasted_cost_amount_awarded",
     "FieldType": "MoneyGBP",
     "ElementLabel": "Wasted cost amount awarded",
+    "FieldShowCondition": "costs_question=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JudgmentCosts",
+    "ListElementCode": "pro_bono_costs_awarded_to",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pro Bono costs awarded to",
+    "FieldTypeParameter": "fl_costs_pro_bono_awarded_to",
+    "FieldShowCondition": "costs_question=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JudgmentCosts",
+    "ListElementCode": "pro_bono_costs_awarded_against",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pro Bono costs awarded against",
+    "FieldTypeParameter": "fl_pro_bono_awarded_against",
+    "FieldShowCondition": "costs_question=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JudgmentCosts",
+    "ListElementCode": "pro_bono_costs_amount_awarded",
+    "ElementLabel": "Pro Bono costs amount awarded",
+    "FieldType": "MoneyGBP",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -5895,6 +5926,13 @@
     "FieldType": "Collection",
     "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralSummaryPdf",
+    "FieldType": "Document",
+    "ElementLabel": "Referral Document",
     "SecurityClassification": "Public"
   },
   {

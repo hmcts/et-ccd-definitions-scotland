@@ -6,7 +6,6 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "horizontalLine2",
@@ -1075,7 +1074,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "emailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${emailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -1096,7 +1095,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationBeforeYouStart",
-    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3451,6 +3450,20 @@
     "ID": "hubLinksStatuses",
     "Label": " ",
     "FieldType": "hubLinksStatuses",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseRejectedEmailSent",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "suggestedHearingVenues",
+    "Label": "Suggested hearing venue",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
