@@ -1596,6 +1596,22 @@
     "TabFieldDisplayOrder": 4
   },
   {
+    "CaseFieldID": "jonsTab",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 18,
+    "TabID": "JONs",
+    "TabLabel": "Judgments, orders & notifications",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "jonsLinks",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "JONs",
+    "TabFieldDisplayOrder": 2
+  },
+  {
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
     "TabID": "EventHistory",

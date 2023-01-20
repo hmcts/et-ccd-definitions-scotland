@@ -4173,6 +4173,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jonsTab",
+    "Label": "#### Judgments, orders & notifications",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jonsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentAllNotifications/pseRespondentAllNotifications1\">All judgments, orders and notifications (TODO)</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentViewANotifications/pseRespondentViewANotifications1\">View a judgment, order or notification (TODO)</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentRespondToTribunal/pseRespondentRespondToTribunal1\">Respond to an order or request from the tribunal</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

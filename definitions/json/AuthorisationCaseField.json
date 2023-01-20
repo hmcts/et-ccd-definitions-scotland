@@ -23412,6 +23412,18 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "jonsTab",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "jonsLinks",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",
