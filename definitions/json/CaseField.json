@@ -4224,6 +4224,21 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqPage2TableLabel",
+    "Label": "Consider when providing material that:<br><ul><li>you can upload letters, photos or documents to support your application</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqUploadDocument",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

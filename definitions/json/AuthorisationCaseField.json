@@ -23448,6 +23448,18 @@
     "CRUD": "CRUD"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentOrdReqPage2TableLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentOrdReqUploadDocument",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",

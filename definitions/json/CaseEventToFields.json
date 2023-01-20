@@ -6940,6 +6940,27 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "CaseFieldID": "pseRespondentOrdReqPage2TableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "pseRespondentOrdReqHasSupportingMaterial=\"Yes\"",
+    "PageLabel": "Provide supporting material"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "CaseFieldID": "pseRespondentOrdReqUploadDocument",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
