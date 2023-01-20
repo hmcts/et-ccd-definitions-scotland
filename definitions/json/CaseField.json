@@ -4194,6 +4194,36 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentRequestOrderTableLabel",
+    "Label": "${pseRespondentOrdReqTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqResponseText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqHasSupportingMaterial",
+    "Label": "Supporting material",
+    "HintText": "Do you have any supporting material you want to provide?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
