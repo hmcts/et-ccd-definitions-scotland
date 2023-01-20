@@ -6887,6 +6887,17 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "CaseFieldID": "pseRespondentSelectOrderOrRequest",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Select an Order or Request"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

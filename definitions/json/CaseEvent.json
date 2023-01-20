@@ -45,6 +45,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentRespondToTribunal",
+    "Name": "Respond to an Order or Request",
+    "Description": "Respond to an Order or Request",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseRespondToTribunal/aboutToStart"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "INITIATE_CASE_DRAFT",
     "Name": "Create Draft Case",
     "Description": "Create a new draft case",
