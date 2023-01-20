@@ -19717,6 +19717,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "claimantTse",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "claimantTse",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentOrganisationPolicy0",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"

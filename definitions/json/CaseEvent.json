@@ -84,10 +84,11 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "UPDATE_CASE_SUBMITTED",
     "Name": "UPDATE_CASE_SUBMITTED",
-    "Description": "Test updating a case when already submitted",
+    "Description": "Update a submitted case",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimant/aboutToSubmit",
     "ShowEventNotes": "N"
   },
   {

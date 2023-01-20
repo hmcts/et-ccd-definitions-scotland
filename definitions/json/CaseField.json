@@ -3611,6 +3611,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTse",
+    "Label": " ",
+    "FieldType": "claimantTse",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "caseRejectedEmailSent",
     "Label": " ",
     "FieldType": "YesOrNo",
