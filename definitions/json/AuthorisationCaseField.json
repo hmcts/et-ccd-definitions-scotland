@@ -23460,6 +23460,24 @@
     "CRUD": "CRUD"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentOrdReqCopyPartyIntro",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentOrdReqCopyToOtherParty",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",
