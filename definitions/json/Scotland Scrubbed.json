@@ -708,13 +708,13 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "fl_ContactLanguage",
+    "ID": "fl_languages",
     "ListElementCode": "English",
     "ListElement": "English",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_ContactLanguage",
+    "ID": "fl_languages",
     "ListElementCode": "Welsh",
     "ListElement": "Welsh",
     "DisplayOrder": 2
@@ -4071,6 +4071,12 @@
     "ListElementCode": "Edinburgh",
     "ListElement": "Edinburgh",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "VenueScotland",
+    "ListElementCode": "Unassigned",
+    "ListElement": "Unassigned",
+    "DisplayOrder": 5
   },
   {
     "ID": "VenueScotlandAll",

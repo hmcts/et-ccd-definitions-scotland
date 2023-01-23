@@ -13,6 +13,19 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "assignCase",
+    "Name": "Assign Case to Glasgow",
+    "Description": "Assign case to Glasgow",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "Submitted",
+    "PostConditionState": "Submitted",
+    "SecurityClassification": "Public",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/assignCase",
+    "EventEnablingCondition": "managingOffice =\"Unassigned\"",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "INITIATE_CASE_DRAFT",
     "Name": "Create Draft Case",
     "Description": "Create a new draft case",
@@ -568,7 +581,7 @@
     "Description": "Apply Notice of Change Request",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/noc-decision/about-to-submit",   
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/noc-decision/about-to-submit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/noc-decision/submitted",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
