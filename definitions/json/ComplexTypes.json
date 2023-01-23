@@ -6027,6 +6027,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "claimantTse",
+    "ListElementCode": "copyCorrespondence",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "noCopyReason",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
     "FieldType": "Text",
