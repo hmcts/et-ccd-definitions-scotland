@@ -336,6 +336,12 @@
     "DisplayOrder": "56"
   },
   {
+    "ID": "fl_Position",
+    "ListElementCode": "ET1 Online submission",
+    "ListElement": "ET1 Online submission",
+    "DisplayOrder": 57
+  },
+  {
     "ID": "fl_PositionCT",
     "ListElementCode": "Case transferred - same country",
     "ListElement": "Case transferred - same country",
