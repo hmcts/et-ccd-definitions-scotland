@@ -903,7 +903,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantHearingPreference",
-    "Label": "Claimant Hearing Preferences",
+    "Label": "Additional Claimant Information",
     "FieldType": "HearingPreference",
     "SecurityClassification": "Public"
   },
@@ -1074,7 +1074,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "emailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${emailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2686,7 +2686,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3StartPageMainBody",
-    "Label": "It will help the tribunal and you as the respresentative if you have: \r\n\r\n* the claimant's employment start and end dates, hours of work and notice period\r\n* details of claimant's pay and benefits, before and after tax\r\n* your response to the claim, which you can upload in document format with a text field for accompanying information\r\n\r\n### How to fill in this form\r\n\r\n* read the questions carefully to make sure you're providing your details (as the representative) or the respondent's details\r\n* optional questions will be marked as such\r\n* you can review and edit your answers before you submit the form",
+    "Label": "It will help the tribunal and you as the representative if you have: \r\n\r\n* the claimant's employment start and end dates, hours of work and notice period\r\n* details of claimant's pay and benefits, before and after tax\r\n* your response to the claim, which you can upload in document format with a text field for accompanying information\r\n\r\n### How to fill in this form\r\n\r\n* read the questions carefully to make sure you're providing your details (as the representative) or the respondent's details\r\n* optional questions will be marked as such\r\n* you can review and edit your answers before you submit the form",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
