@@ -5645,6 +5645,12 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "msl_closeApplicationYes",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
     "ID": "fl_pro_bono_awarded_against",
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
