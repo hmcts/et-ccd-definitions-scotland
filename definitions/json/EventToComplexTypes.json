@@ -6308,5 +6308,15 @@
     "DefaultValue": "1",
     "FieldDisplayOrder": "7",
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "tseResponseSupportingMaterial",
+    "CaseFieldID": "tseResponseSupportingMaterial",
+    "CaseEventID": "tseRespond",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   }
 ]
