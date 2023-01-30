@@ -4268,6 +4268,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseOrdReqResponses",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "genericPseDetails",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

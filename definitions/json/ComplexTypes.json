@@ -6252,5 +6252,57 @@
     "FieldType": "Text",
     "ElementLabel": "Status",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Response date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "from",
+    "FieldType": "Text",
+    "ElementLabel": "Response from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "response",
+    "FieldType": "Text",
+    "ElementLabel": "Response",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "hasSupportingMaterial",
+    "FieldType": "Text",
+    "ElementLabel": "Has supporting material",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "supportingMaterial",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Supporting material",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "copyToOtherParty",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericPseDetails",
+    "ListElementCode": "copyNoGiveDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
+    "SecurityClassification": "Public"
   }
 ]

@@ -55,7 +55,8 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "caseType=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseRespondToTribunal/aboutToStart"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseRespondToTribunal/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/pseRespondToTribunal/aboutToSubmit"
   },
   {
     "CaseTypeID": "ET_Scotland",
