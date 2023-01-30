@@ -708,13 +708,13 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "fl_ContactLanguage",
+    "ID": "fl_languages",
     "ListElementCode": "English",
     "ListElement": "English",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_ContactLanguage",
+    "ID": "fl_languages",
     "ListElementCode": "Welsh",
     "ListElement": "Welsh",
     "DisplayOrder": 2
@@ -4073,6 +4073,12 @@
     "DisplayOrder": 4
   },
   {
+    "ID": "VenueScotland",
+    "ListElementCode": "Unassigned",
+    "ListElement": "Unassigned",
+    "DisplayOrder": 5
+  },
+  {
     "ID": "VenueScotlandAll",
     "ListElementCode": "Glasgow",
     "ListElement": "Glasgow",
@@ -5643,6 +5649,12 @@
     "ListElement": "Case worker",
     "ListElementCode": "Case worker",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_closeApplicationYes",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
   },
   {
     "ID": "fl_pro_bono_awarded_against",
