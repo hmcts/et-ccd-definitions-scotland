@@ -7022,7 +7022,6 @@
     "PageFieldDisplayOrder": 12,
     "ShowSummaryChangeOption": "Y"
   },
-
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseAdminCloseAnApplication",
