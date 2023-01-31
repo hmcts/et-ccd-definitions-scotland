@@ -6407,5 +6407,12 @@
     "FieldType": "Text",
     "ElementLabel": "Status",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "closeApplicationNote",
+    "FieldType": "Text",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public"
   }
 ]
