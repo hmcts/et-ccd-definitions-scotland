@@ -6028,14 +6028,14 @@
   },
   {
     "ID": "claimantTse",
-    "ListElementCode": "copyCorrespondence",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
     "ID": "claimantTse",
-    "ListElementCode": "noCopyReason",
+    "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
