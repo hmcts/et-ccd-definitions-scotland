@@ -4268,7 +4268,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "pseOrdReqResponses",
     "Label": " ",
     "FieldType": "Collection",
