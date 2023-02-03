@@ -597,6 +597,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "DisplayContext": "COMPLEX",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "receiptDate",
     "DisplayContext": "MANDATORY",
@@ -911,6 +922,17 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 9,
     "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "DisplayContext": "COMPLEX",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
