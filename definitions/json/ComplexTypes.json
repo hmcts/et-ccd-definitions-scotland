@@ -1260,6 +1260,14 @@
   },
   {
     "ID": "RespondentRepresentative",
+    "ListElementCode": "respondentId",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent Id",
+    "FieldShowCondition": "resp_rep_name=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
     "ListElementCode": "dynamic_resp_rep_name",
     "FieldType": "DynamicList",
     "ElementLabel": "Respondent who is being represented",
