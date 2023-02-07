@@ -6335,13 +6335,6 @@
   },
   {
     "ID": "genericTseDetails",
-    "ListElementCode": "documentUpload",
-    "FieldType": "Document",
-    "ElementLabel": "Supporting material",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "genericTseDetails",
     "ListElementCode": "details",
     "FieldType": "Text",
     "ElementLabel": "What do you want to tell or ask the tribunal?",
@@ -6349,10 +6342,16 @@
   },
   {
     "ID": "genericTseDetails",
+    "ListElementCode": "documentUpload",
+    "FieldType": "Document",
+    "ElementLabel": "Supporting material",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
     "ListElementCode": "copyToOtherPartyYesOrNo",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"dummy\"",
+    "ElementLabel": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "SecurityClassification": "Public"
   },
   {
