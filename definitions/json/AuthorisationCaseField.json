@@ -18613,6 +18613,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingAlreadyListed",
     "UserRole": "citizen",
     "CRUD": "CRU"
