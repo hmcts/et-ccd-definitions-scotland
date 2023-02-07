@@ -228,6 +228,7 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicRespondentRepresentativeNames",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentRepresentative",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
