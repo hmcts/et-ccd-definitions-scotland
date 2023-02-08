@@ -4294,6 +4294,167 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationCollection",
+    "Label": "sendNotificationCollection",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "sendNotificationCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationAdditionalInfo",
+    "Label": "Additional infomation",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationAnotherLetter",
+    "Label": "Do you want to upload another letter?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationCaseManagement",
+    "Label": "Is this a case management order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationCaseManagement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationDecision",
+    "Label": "Decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationDecision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationDetails",
+    "Label": "Details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationEccQuestion",
+    "Label": "What is the ECC notification?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationEccQuestion",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationFullName",
+    "Label": "Full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationFullName2",
+    "Label": "Full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationInfo",
+    "Label": "Use this service to notifiy one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"http://localhost:3455/cases/case-details/1675157653143206/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notifcation - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notifcation service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationLetter",
+    "Label": "Is there a letter to send out?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationRequestBy",
+    "Label": "Request was made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_sendNotificationRequestBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationResponseTribunal",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationResponseTribunal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationSelectHearing",
+    "Label": "Select the hearing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationSelectParties",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_sendNotificationParties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationSubject",
+    "Label": "Notification subject",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_sendNotificationSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationTitle",
+    "Label": "Enter notification title",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationUploadDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationWhoCaseOrder",
+    "Label": "Who made the case management order?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationWhoCaseOrder",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotificationWhoMadeJudgement",
+    "Label": "Who made the judgment?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationWhoMadeJudgement",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

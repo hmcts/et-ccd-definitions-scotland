@@ -6421,5 +6421,112 @@
     "FieldType": "Text",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationTitle",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationTitle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationLetter",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationLetter",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationUploadDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "sendNotificationUploadDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationSubject",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_sendNotificationSubject",
+    "ElementLabel": "sendNotificationSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationAdditionalInfo",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationAdditionalInfo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotify",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationNotify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationAnotherLetter",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationAnotherLetter",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationSelectHearing",
+    "FieldType": "DynamicList",
+    "ElementLabel": "sendNotificationSelectHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationCaseManagement",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationCaseManagement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationResponseTribunal",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationResponseTribunal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationWhoCaseOrder",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationWhoCaseOrder",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationSelectParties",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationSelectParties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationFullName",
+    "FieldType": "Text",
+    "ElementLabel": "sendNotificationFullName",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationFullName2",
+    "FieldType": "Text",
+    "ElementLabel": "Full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details",
+    "SecurityClassification": "Public"
   }
 ]

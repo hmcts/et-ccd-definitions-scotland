@@ -6318,5 +6318,22 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "sendNotificationUploadDocument",
+    "CaseFieldID": "sendNotificationUploadDocument",
+    "CaseEventID": "sendNotification",
+    "EventElementLabel": "Short description of document",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "sendNotificationUploadDocument",
+    "CaseFieldID": "sendNotificationUploadDocument",
+    "CaseEventID": "sendNotification",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
   }
 ]
