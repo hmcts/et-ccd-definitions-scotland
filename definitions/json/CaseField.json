@@ -4310,13 +4310,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "sendNotificationAnotherLetter",
-    "Label": "Do you want to upload another letter?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationCaseManagement",
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",

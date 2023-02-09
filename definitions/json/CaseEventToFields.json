@@ -7093,16 +7093,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "sendNotification",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 19,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationCaseManagement",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
