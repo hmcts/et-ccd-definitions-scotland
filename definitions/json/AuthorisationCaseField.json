@@ -20827,48 +20827,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationAnotherLetter",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "sendNotificationCaseManagement",
     "UserRole": "et-acas-api",
     "CRUD": "R"
