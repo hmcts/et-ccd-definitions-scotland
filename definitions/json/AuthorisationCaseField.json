@@ -18895,6 +18895,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "resTseDocument2",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "resTseTextBox2",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
