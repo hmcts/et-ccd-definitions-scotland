@@ -213,6 +213,7 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicRespondentRepresentativeNames",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentRepresentative",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -960,5 +961,21 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Add Cases to Multiple"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "sendNotification",
+    "Name": "Send a Notification",
+    "Description": "Send a Notification",
+    "DisplayOrder": 69,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
