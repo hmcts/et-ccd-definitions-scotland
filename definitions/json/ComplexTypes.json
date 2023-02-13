@@ -6014,6 +6014,41 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "claimantTse",
+    "ListElementCode": "contactApplicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "contactApplicationText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "contactApplicationFile",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "copyToOtherPartyText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
     "FieldType": "Text",
