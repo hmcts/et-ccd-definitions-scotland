@@ -7145,8 +7145,8 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
-    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationWhoCaseOrder!=\"\"",
+    "PageFieldDisplayOrder": 12,
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement!=\"\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
@@ -7198,7 +7198,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement=\"Request\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
