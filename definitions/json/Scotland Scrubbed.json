@@ -5859,5 +5859,17 @@
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseApplicationsOpenOrClosed",
+    "ListElementCode": "Open",
+    "ListElement": "Open",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseApplicationsOpenOrClosed",
+    "ListElementCode": "Closed",
+    "ListElement": "Closed",
+    "DisplayOrder": 2
   }
 ]

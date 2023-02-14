@@ -7096,6 +7096,27 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseViewApplicationOpenOrClosed",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "View application",
+    "CallBackURLMidEvent": "${ET_COS_URL}/viewRespondentTSEApplications/midPopulateChooseApplication"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseViewApplicationSelect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "Select Application",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationDecision",
     "DisplayContext": "MANDATORY",
