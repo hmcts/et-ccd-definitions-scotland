@@ -21,7 +21,7 @@
   },
   "config": {
     "local": {
-      "et_cos": "http://172.18.162.75:8081",
+      "et_cos": "http://host.docker.internal:8081",
       "ccd_url": "http://host.docker.internal:4452",
       "aac_url": "http://host.docker.internal:4454"
     },
