@@ -976,6 +976,6 @@
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted"
   }
 ]
