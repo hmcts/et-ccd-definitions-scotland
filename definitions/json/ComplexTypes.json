@@ -6458,6 +6458,58 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Response date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "from",
+    "FieldType": "Text",
+    "ElementLabel": "Response from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "response",
+    "FieldType": "Text",
+    "ElementLabel": "Response",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "hasSupportingMaterial",
+    "FieldType": "Text",
+    "ElementLabel": "Has supporting material",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "supportingMaterial",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Supporting material",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "copyToOtherParty",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "copyNoGiveDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",
@@ -6562,6 +6614,28 @@
     "ListElementCode": "sendNotificationDetails",
     "FieldType": "Text",
     "ElementLabel": "Details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "number",
+    "FieldType": "Text",
+    "ElementLabel": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "respondCollection",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "pseRespondCollection",
+    "ElementLabel": "Responses",
     "SecurityClassification": "Public"
   },
   {

@@ -3640,7 +3640,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "applicationsLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewRespondentTSEApplications/viewRespondentTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",    "FieldType": "Label",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewRespondentTSEApplications/viewRespondentTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
@@ -4467,6 +4468,94 @@
     "Label": "Select application",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqCopyPartyIntro",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exception circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqCopyToOtherParty",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqHasSupportingMaterial",
+    "Label": "Supporting material",
+    "HintText": "Do you have any supporting material you want to provide?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqPage2TableLabel",
+    "Label": "Consider when providing material that:<br><ul><li>you can upload letters, photos or documents to support your application</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqResponseText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentOrdReqUploadDocument",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentRequestOrderTableLabel",
+    "Label": "${pseRespondentOrdReqTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentSelectOrderOrRequest",
+    "Label": "Select an order or request from the tribunal",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jonsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentAllNotifications/pseRespondentAllNotifications1\">All judgments, orders and notifications (TODO)</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentViewNotification/pseRespondentViewNotification1\">View a judgment, order or notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentRespondToTribunal/pseRespondentRespondToTribunal1\">Respond to an order or request from the tribunal</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "jonsTab",
+    "Label": "#### Judgments, orders & notifications",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
