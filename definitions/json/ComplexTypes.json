@@ -6563,5 +6563,12 @@
     "FieldType": "Text",
     "ElementLabel": "Details",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "viewRespondentTSEApplications",
+    "ListElementCode": "tseViewApplicationSelect",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Select Application",
+    "SecurityClassification": "Public"
   }
 ]

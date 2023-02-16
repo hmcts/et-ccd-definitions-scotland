@@ -689,6 +689,20 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmin/aboutToSubmitCloseApplication"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "viewRespondentTSEApplications",
+    "Name": "View Applications",
+    "Description": " ",
+    "DisplayOrder": 45,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "EndButtonLabel": "Close and return to case details",
+    "CallBackURLAboutToStartEvent": ""
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",

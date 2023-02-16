@@ -3640,8 +3640,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "applicationsLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",
-    "FieldType": "Label",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewRespondentTSEApplications/viewRespondentTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
@@ -4452,6 +4451,21 @@
     "Label": "Who made the judgment?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationWhoMadeJudgement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseViewApplicationOpenOrClosed",
+    "Label": "What application do you wish to view?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseApplicationsOpenOrClosed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseViewApplicationSelect",
+    "Label": "Select application",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
