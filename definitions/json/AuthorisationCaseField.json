@@ -2108,13 +2108,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "triageQuestions",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "triageQuestions",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -13748,7 +13748,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCompletedBy",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -13772,7 +13772,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCompletedBy",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
@@ -13790,7 +13790,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1DateCompleted",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -13814,7 +13814,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1DateCompleted",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
