@@ -3652,26 +3652,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1VettingCompletedBy",
-    "DisplayContext": "MANDATORY",
-    "PageID": 14,
-    "PageDisplayOrder": 14,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1DateCompleted",
-    "DisplayContext": "MANDATORY",
-    "PageID": 15,
-    "PageDisplayOrder": 15,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "servingDocumentCollection",
     "DisplayContext": "MANDATORY",
