@@ -870,6 +870,20 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingCompletedBy",
+    "TabFieldDisplayOrder": 82
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1DateCompleted",
+    "TabFieldDisplayOrder": 83
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseRepresentative_Claimant",
     "TabLabel": "Claimant Representative",
     "TabDisplayOrder": 4,
