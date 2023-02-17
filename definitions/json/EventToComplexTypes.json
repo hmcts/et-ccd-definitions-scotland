@@ -6335,5 +6335,15 @@
     "ListElementCode": "uploadedDocument",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "pseRespondentOrdReqUploadDocument",
+    "CaseFieldID": "pseRespondentOrdReqUploadDocument",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   }
 ]
