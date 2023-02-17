@@ -7316,7 +7316,7 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "pseRespondentOrdReqCopyToOtherParty=\"I do not want to copy\"",
+    "FieldShowCondition": "pseRespondentOrdReqCopyToOtherParty=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
