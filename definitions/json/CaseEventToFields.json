@@ -6326,7 +6326,7 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "tseResponseCopyToOtherParty=\"I do not want to copy\"",
+    "FieldShowCondition": "tseResponseCopyToOtherParty=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
@@ -6844,7 +6844,7 @@
     "PageID": 14,
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "resTseCopyToOtherPartyYesOrNo=\"I do not want to copy\"",
+    "FieldShowCondition": "resTseCopyToOtherPartyYesOrNo=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
