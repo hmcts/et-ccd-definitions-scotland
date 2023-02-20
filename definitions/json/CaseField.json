@@ -2003,7 +2003,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et1DateCompleted",
     "Label": "Date completed:",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
