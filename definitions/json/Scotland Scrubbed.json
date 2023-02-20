@@ -714,13 +714,13 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "fl_ContactLanguage",
+    "ID": "fl_languages",
     "ListElementCode": "English",
     "ListElement": "English",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_ContactLanguage",
+    "ID": "fl_languages",
     "ListElementCode": "Welsh",
     "ListElement": "Welsh",
     "DisplayOrder": 2
@@ -5341,7 +5341,7 @@
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Party not responded/compiled",
-    "ListElement": "Party not responded/compiled",
+    "ListElement": "Party not responded/complied",
     "DisplayOrder": 9
   },
   {
