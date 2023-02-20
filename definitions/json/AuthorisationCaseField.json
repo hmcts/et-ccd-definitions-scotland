@@ -13759,12 +13759,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et1SuggestHearingVenue",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et1VettingCompletedBy",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
