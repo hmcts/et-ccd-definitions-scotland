@@ -1376,6 +1376,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "icDateCompleted",
+    "Label": "Date completed:",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icCompletedBy",
+    "Label": "Initial consideration completed by:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationRule27",
     "Label": "Issue Rule 27 Notice and order",
     "FieldType": "etInitialConsiderationRule27",
