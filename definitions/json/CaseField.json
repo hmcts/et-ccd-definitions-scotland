@@ -1378,7 +1378,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "icDateCompleted",
     "Label": "Date completed:",
-    "FieldType": "Date",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -2017,7 +2017,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et1DateCompleted",
     "Label": "Date completed:",
-    "FieldType": "Date",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
