@@ -4558,6 +4558,13 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentSelectJudgmentOrderNotification",
+    "Label": "Select a judgment, order or notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

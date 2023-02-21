@@ -22164,6 +22164,24 @@
     "CRUD": "R"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",
