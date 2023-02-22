@@ -707,7 +707,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "viewRespondentTSEApplications",
-    "Name": "View Applications",
+    "Name": "View application",
     "Description": " ",
     "DisplayOrder": 45,
     "PreConditionState(s)": "*",
