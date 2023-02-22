@@ -224,7 +224,7 @@
     "TabID": "CaseOverview",
     "CaseFieldID": "linkedCaseCTLabel",
     "TabFieldDisplayOrder": 24,
-    "FieldShowCondition": "linkedCaseCT=\"*\""
+    "FieldShowCondition": "linkedCaseCT!=\"\""
   },
   {
     "CaseTypeID": "ET_Scotland",
