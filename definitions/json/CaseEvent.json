@@ -716,7 +716,7 @@
     "ShowEventNotes": "N",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "EndButtonLabel": "Close and return to case details",
-    "CallBackURLAboutToStartEvent": ""
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/viewRespondentTSEApplications/aboutToStart"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
