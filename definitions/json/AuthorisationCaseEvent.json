@@ -1133,6 +1133,24 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "et3Notification",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "respondentTSE",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
