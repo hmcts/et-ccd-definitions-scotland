@@ -719,6 +719,21 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/viewRespondentTSEApplications/aboutToStart"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentViewNotification",
+    "Name": "View judgment, order or noti",
+    "Description": "View a judgment, order or notification",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseRespondentView/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
