@@ -5755,7 +5755,7 @@
   {
     "ID": "sendNotificationResponseTribunal",
     "ListElement": "Yes - view document for details",
-    "ListElementCode": "Yes - view document for details",
+    "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
