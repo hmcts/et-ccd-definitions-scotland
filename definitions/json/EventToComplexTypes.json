@@ -3235,6 +3235,24 @@
     "DisplayContext": "MANDATORY"
   },
   {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "reasonable_adjustments",
+    "EventElementLabel": "Is there a physical, mental or learning disability or long term health condition which means support during the case is needed?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "reasonable_adjustments_detail",
+    "EventElementLabel": "Support requested",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
     "ID": "ClaimantRepresentative",
     "CaseEventID": "addAmendClaimantRepresentative",
     "CaseFieldID": "representativeClaimantType",
