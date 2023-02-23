@@ -1022,5 +1022,21 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotification",
+    "Name": "Respond to a notification",
+    "Description": "",
+    "DisplayOrder": 70,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
