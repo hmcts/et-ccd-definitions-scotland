@@ -5473,6 +5473,7 @@
     "ListElementCode": "reasonable_adjustments_detail",
     "FieldType": "TextArea",
     "ElementLabel": "Tell us what support you need to request",
+    "FieldShowCondition": "reasonable_adjustments=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
