@@ -2043,6 +2043,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3DueDate",
+    "Label": "ET3 Due Date",
+    "FieldType":"Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3IsThereAnEt3Response",
     "Label": "Is there an ET3 response?",
     "FieldType": "YesOrNo",
