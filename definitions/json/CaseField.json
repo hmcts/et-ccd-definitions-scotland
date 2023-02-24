@@ -3037,7 +3037,7 @@
     "ID": "et3ResponseContestClaimDocument",
     "Label": "Upload a document to your response",
     "FieldType": "Collection",
-    "FieldTypeParameter": "Document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
