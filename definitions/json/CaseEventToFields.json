@@ -7443,6 +7443,27 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewAllNotifications",
+    "CaseFieldID": "pseViewNotifications",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseViewNotificationsLabel=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "PageLabel": "All judgments, orders and notifications"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewAllNotifications",
+    "CaseFieldID": "pseViewNotificationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
