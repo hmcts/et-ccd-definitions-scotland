@@ -7158,7 +7158,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement!=\"\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
@@ -7182,7 +7182,8 @@
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Send a notification"
   },
   {
     "CaseTypeID": "ET_Scotland",
