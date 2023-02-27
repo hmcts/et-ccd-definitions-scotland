@@ -5785,7 +5785,7 @@
   {
     "ID": "fl_sendNotificationSubject",
     "ListElement": "Claimant / Respondent details",
-    "ListElementCode": "1",
+    "ListElementCode": "Claimant / Respondent details",
     "DisplayOrder": 1
   },
   {

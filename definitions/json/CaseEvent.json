@@ -1010,8 +1010,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotification",
-    "Name": "Send a Notification",
-    "Description": "Send a Notification",
+    "Name": "Send a notification",
+    "Description": "Send a notification",
     "DisplayOrder": 69,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
