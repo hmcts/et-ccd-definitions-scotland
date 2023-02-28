@@ -4311,7 +4311,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationAdditionalInfo",
-    "Label": "Additional infomation",
+    "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -4363,7 +4363,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationInfo",
-    "Label": "Use this service to notify one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"http://localhost:3455/cases/case-details/1675157653143206/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notification - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notification service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
+    "Label": "Use this service to notify one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notification - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notification service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4465,7 +4465,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseViewApplicationSelect",
-    "Label": "Select application",
+    "Label": "Select Application",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
@@ -4556,6 +4556,41 @@
     "Label": "#### Judgments, orders & notifications",
     "FieldType": "Label",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentSelectJudgmentOrderNotification",
+    "Label": "Select a judgment, order or notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SelectNotificationTitle",
+    "Label": "Select a notification",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "selectNotificationDropdown",
+    "Label": "Select a notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseViewNotifications",
+    "Label": "Placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseViewNotificationsLabel",
+    "Label": "${pseViewNotifications}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",

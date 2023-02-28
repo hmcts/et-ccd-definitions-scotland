@@ -5755,7 +5755,7 @@
   {
     "ID": "sendNotificationResponseTribunal",
     "ListElement": "Yes - view document for details",
-    "ListElementCode": "Yes - view document for details",
+    "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
@@ -5785,7 +5785,7 @@
   {
     "ID": "fl_sendNotificationSubject",
     "ListElement": "Claimant / Respondent details",
-    "ListElementCode": "1",
+    "ListElementCode": "Claimant / Respondent details",
     "DisplayOrder": 1
   },
   {
