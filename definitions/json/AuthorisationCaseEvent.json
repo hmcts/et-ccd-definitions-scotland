@@ -1452,6 +1452,12 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "viewAllNotifications",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "viewAllNotifications",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
