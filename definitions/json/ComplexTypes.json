@@ -6402,7 +6402,7 @@
     "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"dummy\"",
+    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
