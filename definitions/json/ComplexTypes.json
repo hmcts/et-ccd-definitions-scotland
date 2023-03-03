@@ -6401,7 +6401,7 @@
     "ID": "genericTseDetails",
     "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
-    "ElementLabel": " ",
+    "ElementLabel": "Details of why you do not want to inform the other party",
     "FieldShowCondition": "copyToOtherPartyYesOrNo=\"No\"",
     "SecurityClassification": "Public"
   },
