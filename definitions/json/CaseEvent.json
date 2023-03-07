@@ -52,6 +52,7 @@
     "Description": "Test updating a case when already submitted",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -617,6 +618,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "Submitted",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicListingVenue",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/listingHearings",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
