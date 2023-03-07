@@ -6401,8 +6401,8 @@
     "ID": "genericTseDetails",
     "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"dummy\"",
+    "ElementLabel": "Details of why you do not want to inform the other party",
+    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
@@ -6448,6 +6448,14 @@
     "ListElementCode": "status",
     "FieldType": "Text",
     "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "applicationState",
+    "FieldType": "Text",
+    "ElementLabel": "Application State",
+    "FieldShowCondition": "status=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {

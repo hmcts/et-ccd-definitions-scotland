@@ -707,7 +707,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "viewRespondentTSEApplications",
-    "Name": "View Applications",
+    "Name": "View application",
     "Description": " ",
     "DisplayOrder": 45,
     "PreConditionState(s)": "*",
@@ -716,7 +716,22 @@
     "ShowEventNotes": "N",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "EndButtonLabel": "Close and return to case details",
-    "CallBackURLAboutToStartEvent": ""
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/viewRespondentTSEApplications/aboutToStart"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "pseRespondentViewNotification",
+    "Name": "View judgment, order or noti",
+    "Description": "View a judgment, order or notification",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseRespondentView/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
@@ -995,8 +1010,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotification",
-    "Name": "Send a Notification",
-    "Description": "Send a Notification",
+    "Name": "Send a notification",
+    "Description": "Send a notification",
     "DisplayOrder": 69,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
@@ -1007,5 +1022,36 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotification",
+    "Name": "Respond to a notification",
+    "Description": "",
+    "DisplayOrder": 70,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "viewAllNotifications",
+    "Name": "View notifications",
+    "Description": "View all judgement, orders and notifications",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseViewNotifications/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
   }
 ]

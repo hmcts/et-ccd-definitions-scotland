@@ -7041,7 +7041,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "tseAdminSelectApplication=\"dummy\""
+    "FieldShowCondition": "tseAdminCloseApplicationTableLabel=\"dummy\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -7102,7 +7102,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "View application",
+    "PageLabel": "",
     "CallBackURLMidEvent": "${ET_COS_URL}/viewRespondentTSEApplications/midPopulateChooseApplication"
   },
   {
@@ -7111,7 +7111,7 @@
     "CaseFieldID": "tseViewApplicationSelect",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageLabel": "Select Application",
+    "PageLabel": "",
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1
   },
@@ -7158,7 +7158,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement!=\"\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
@@ -7182,7 +7182,8 @@
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Send a notification"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -7412,6 +7413,56 @@
     "PageFieldDisplayOrder": 1,
     "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midDetailsTable",
     "PageLabel": "Select an Order or Request"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentViewNotification",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "respondNotification",
+    "CaseFieldID": "SelectNotificationTitle",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "respondNotification",
+    "CaseFieldID": "selectNotificationDropdown",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewAllNotifications",
+    "CaseFieldID": "pseViewNotifications",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseViewNotificationsLabel=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "PageLabel": "All judgments, orders and notifications"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewAllNotifications",
+    "CaseFieldID": "pseViewNotificationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
