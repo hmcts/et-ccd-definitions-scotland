@@ -398,7 +398,7 @@
     "PageColumnNumber": 1
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "typesOfClaim",
     "DisplayContext": "OPTIONAL",
@@ -729,7 +729,7 @@
     "PageColumnNumber": 1
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "typesOfClaim",
     "DisplayContext": "OPTIONAL",
