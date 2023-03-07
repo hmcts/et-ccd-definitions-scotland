@@ -52,6 +52,7 @@
     "Description": "Test updating a case when already submitted",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
