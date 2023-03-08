@@ -22417,6 +22417,43 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkup",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkup",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkup",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "pseRespondentOrdReqCopyNoGiveDetails",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"

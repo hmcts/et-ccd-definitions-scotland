@@ -7154,7 +7154,28 @@
     "PageID": 2,
     "PageLabel": "",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/viewRespondentTSEApplications/midPopulateSelectedApplicationData"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkup",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "tseApplicationSummaryAndResponsesMarkupLabel=\"dummy\"",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland",

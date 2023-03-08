@@ -4513,6 +4513,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "tseApplicationSummaryAndResponsesMarkup",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "Label": "${tseApplicationSummaryAndResponsesMarkup}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentOrdReqCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
