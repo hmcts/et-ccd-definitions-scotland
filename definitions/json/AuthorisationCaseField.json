@@ -22448,7 +22448,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseApplicationSummaryAndResponsesMarkup",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
 
