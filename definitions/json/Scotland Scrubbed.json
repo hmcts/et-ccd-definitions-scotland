@@ -5867,6 +5867,54 @@
     "DisplayOrder": 1
   },
   {
+    "ID": "respondNotificationIsThis",
+    "ListElement": "Case management order",
+    "ListElementCode": "Case management order",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "respondNotificationIsThis",
+    "ListElement": "Request",
+    "ListElementCode": "Request",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": " fl_respondNotificationResponseRequried",
+    "ListElement": "Yes - view document for details",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": " fl_respondNotificationResponseRequried",
+    "ListElement": "No",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_respondNotificationWhoRespond",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_respondNotificationWhoRespond",
+    "ListElement": "Claimant only",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_respondNotificationWhoRespond",
+    "ListElement": "Respondent only",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_respondNotificationWhoRespond",
+    "ListElement": "n/a",
+    "ListElementCode": "n/a",
+    "DisplayOrder": 4
+  },
+  {
     "ID": "frl_tseApplicationsOpenOrClosed",
     "ListElementCode": "Closed",
     "ListElement": "Closed",
