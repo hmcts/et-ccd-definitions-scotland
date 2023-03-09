@@ -703,7 +703,8 @@
     "ShowSummary": "Y",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmin/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmin/aboutToSubmitCloseApplication"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmin/aboutToSubmitCloseApplication",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseAdmin/submittedCloseApplication"
   },
   {
     "CaseTypeID": "ET_Scotland",
