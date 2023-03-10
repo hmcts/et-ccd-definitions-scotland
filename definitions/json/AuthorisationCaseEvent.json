@@ -1498,6 +1498,12 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-scotland",

@@ -2045,7 +2045,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3DueDate",
     "Label": "ET3 Due Date",
-    "FieldType":"Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
