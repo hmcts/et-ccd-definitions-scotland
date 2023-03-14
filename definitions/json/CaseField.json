@@ -4626,10 +4626,10 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "respondNotificationResponseRequried",
+    "ID": "respondNotificationResponseRequired",
     "Label": "Is a response to the tribunal required",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": " fl_respondNotificationResponseRequried",
+    "FieldTypeParameter": " fl_respondNotificationResponseRequired",
     "SecurityClassification": "Public"
   },
   {

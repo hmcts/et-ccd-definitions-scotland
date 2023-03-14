@@ -5879,13 +5879,13 @@
     "DisplayOrder": 2
   },
   {
-    "ID": " fl_respondNotificationResponseRequried",
+    "ID": " fl_respondNotificationResponseRequired",
     "ListElement": "Yes - view document for details",
     "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
-    "ID": " fl_respondNotificationResponseRequried",
+    "ID": " fl_respondNotificationResponseRequired",
     "ListElement": "No",
     "ListElementCode": "No",
     "DisplayOrder": 2

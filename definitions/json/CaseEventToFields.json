@@ -7510,7 +7510,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "respondNotification",
-    "CaseFieldID": "respondNotificationResponseRequried",
+    "CaseFieldID": "respondNotificationResponseRequired",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -7525,7 +7525,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "respondNotificationResponseRequried=\"Yes\"",
+    "FieldShowCondition": "respondNotificationResponseRequired=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
