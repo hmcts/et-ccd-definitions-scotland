@@ -4610,7 +4610,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationUploadDocument",
-    "Label": "text",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
@@ -4636,7 +4637,7 @@
     "ID": "respondNotificationWhoRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_respondNotificationWhoRespond",
+    "FieldTypeParameter": "fl_sendNotificationParties",
     "SecurityClassification": "Public"
   },
   {
@@ -4651,6 +4652,30 @@
     "ID": "notificationMarkdownLabel",
     "Label": "${notificationMarkdown}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationPartyToNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationParties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationCaseManagementMadeBy",
+    "Label": "Case management order made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_sendNotificationRequestBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationFullName",
+    "Label": "Enter their full name",
+    "HintText": " ",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
