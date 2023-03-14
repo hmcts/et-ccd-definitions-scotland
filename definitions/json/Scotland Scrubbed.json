@@ -787,81 +787,93 @@
   },
   {
     "ID": "fl_DocumentType",
+    "ListElementCode": "ET1 Attachment",
+    "ListElement": "ET1 Attachment",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_DocumentType",
     "ListElementCode": "ACAS Certificate",
     "ListElement": "ACAS Certificate",
-    "DisplayOrder": 2
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of a claim",
     "ListElement": "Notice of a claim",
-    "DisplayOrder": 3
+    "DisplayOrder": 4
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3",
     "ListElement": "ET3",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "ET3 Attachment",
+    "ListElement": "ET3 Attachment",
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Claimant correspondence",
     "ListElement": "Claimant correspondence",
-    "DisplayOrder": 5
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Respondent correspondence",
     "ListElement": "Respondent correspondence",
-    "DisplayOrder": 6
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of Hearing",
     "ListElement": "Notice of Hearing",
-    "DisplayOrder": 7
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal case file",
     "ListElement": "Tribunal case file",
-    "DisplayOrder": 8
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal correspondence",
     "ListElement": "Tribunal correspondence",
-    "DisplayOrder": 9
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Order/Deposit Order",
     "ListElement": "Tribunal Order/Deposit Order",
-    "DisplayOrder": 10
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Judgment/Reasons",
     "ListElement": "Tribunal Judgment/Reasons",
-    "DisplayOrder": 11
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Referral/Judicial direction",
     "ListElement": "Referral/Judicial direction",
-    "DisplayOrder": 12
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Rejection of claim",
     "ListElement": "Rejection of claim",
-    "DisplayOrder": 13
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 14
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_ResponseStatus",
