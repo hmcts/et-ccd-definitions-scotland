@@ -760,11 +760,12 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y",
+    "ShowSummary": "N",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseRespondentView/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "",
+    "EndButtonLabel": "Close and return to case details"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
@@ -1086,6 +1087,7 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseViewNotifications/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "",
+    "EndButtonLabel": "Close and return to case details"
   }
 ]
