@@ -7339,7 +7339,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationUploadDocument",
-    "DisplayContext": "COMPLEX",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
