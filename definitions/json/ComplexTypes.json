@@ -387,6 +387,50 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "TriageQuestions",
+    "ListElementCode": "postcode",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "caseType",
+    "FieldType": "FixedList",
+    "ElementLabel": " ",
+    "FieldTypeParameter": "fl_CaseType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "acasMultiple",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "WorkAddressDetails",
     "ListElementCode": "claimant_work_address",
     "FieldType": "AddressUK",
@@ -5437,6 +5481,7 @@
     "ListElementCode": "reasonable_adjustments_detail",
     "FieldType": "TextArea",
     "ElementLabel": "Tell us what support you need to request",
+    "FieldShowCondition": "reasonable_adjustments=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -6401,8 +6446,8 @@
     "ID": "genericTseDetails",
     "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"dummy\"",
+    "ElementLabel": "Details of why you do not want to inform the other party",
+    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
@@ -6455,6 +6500,7 @@
     "ListElementCode": "applicationState",
     "FieldType": "Text",
     "ElementLabel": "Application State",
+    "FieldShowCondition": "status=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {

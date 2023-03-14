@@ -278,6 +278,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "triageQuestions",
+    "Label": " ",
+    "FieldType": "TriageQuestions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "claimantWorkAddressQuestion",
     "Label": "Is this the same as the claimant's work address?",
     "FieldType": "YesOrNo",
@@ -1369,6 +1376,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "icDateCompleted",
+    "Label": "Date completed:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icCompletedBy",
+    "Label": "Initial consideration completed by:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationRule27",
     "Label": "Issue Rule 27 Notice and order",
     "FieldType": "etInitialConsiderationRule27",
@@ -1987,6 +2008,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et1VettingCompletedBy",
+    "Label": "Vetting completed by:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1DateCompleted",
+    "Label": "Date completed:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3VettingBeforeYouStart",
     "Label": "To help you complete this, open the ET1 form and additional documents the claimant or respondent may have uploaded in the <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\"> Documents tab (opens in a new tab)</a>.",
     "FieldType": "Label",
@@ -2004,6 +2039,13 @@
     "ID": "et3DateLabel",
     "Label": "${et3Date}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3DueDate",
+    "Label": "ET3 Due Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
@@ -3037,7 +3079,7 @@
     "ID": "et3ResponseContestClaimDocument",
     "Label": "Upload a document to your response",
     "FieldType": "Collection",
-    "FieldTypeParameter": "Document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -4471,6 +4513,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "tseApplicationSummaryAndResponsesMarkup",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "Label": "${tseApplicationSummaryAndResponsesMarkup}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentOrdReqCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
@@ -4546,7 +4602,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "jonsLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentAllNotifications/pseRespondentAllNotifications1\">All judgments, orders and notifications (TODO)</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentViewNotification/pseRespondentViewNotification1\">View a judgment, order or notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentRespondToTribunal/pseRespondentRespondToTribunal1\">Respond to an order or request from the tribunal</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewAllNotifications/viewAllNotifications1\">All judgments, orders and notifications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentViewNotification/pseRespondentViewNotification1\">View a judgment, order or notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentRespondToTribunal/pseRespondentRespondToTribunal1\">Respond to an order or request from the tribunal</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
