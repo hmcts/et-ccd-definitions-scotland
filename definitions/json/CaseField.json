@@ -2045,7 +2045,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3DueDate",
     "Label": "ET3 Due Date",
-    "FieldType":"Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
@@ -2702,6 +2702,15 @@
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3RepresentingRespondent",
+    "Label": "Select which Respondent this ET3 Form is for",
+    "HintText": "If you wish to select multiple respondents, please click the Add New button",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DynamicListCollection",
     "SecurityClassification": "Public"
   },
   {
