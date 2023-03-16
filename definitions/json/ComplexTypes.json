@@ -1430,6 +1430,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "et3ResponseAcasAgree",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you agree with the details given by the claimant about early conciliation with Acas?",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "et3ResponseAcasAgreeReason",
     "FieldType": "TextArea",
     "ElementLabel": "Why do you disagree with the Acas conciliation details given?",
