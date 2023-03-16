@@ -4246,9 +4246,32 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "tseAdmReplyEnterFullName",
+    "ID": "tseAdmReplyCmoEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyRequestEnterFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyCmoIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyRequestIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
     "SecurityClassification": "Public"
   },
   {
@@ -4269,14 +4292,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "tseAdmReplyIsResponseRequired",
-    "Label": "Is a response to the tribunal required?",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "tseAdmReplyRequestMadeBy",
     "Label": "Request made by",
     "FieldType": "FixedList",
@@ -4293,7 +4308,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "tseAdmReplySelectPartyRespond",
+    "ID": "tseAdmReplyRequestSelectPartyRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyCmoSelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
