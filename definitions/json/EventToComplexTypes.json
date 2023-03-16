@@ -3870,16 +3870,6 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseRespondentContactName",
     "EventElementLabel": "Name of contact at respondent's address if not you as the representative",
-    "FieldDisplayOrder": 12,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "Respondent",
-    "CaseFieldID": "respondentCollection",
-    "CaseEventID": "amendRespondentDetails",
-    "ListElementCode": "et3ResponseRespondentContactName",
-    "EventElementLabel": "Name of contact at respondent's address if not you as the representative",
     "FieldDisplayOrder": 38,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
