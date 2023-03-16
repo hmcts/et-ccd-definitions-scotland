@@ -21404,13 +21404,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyCmoEnterFullName",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyCmoEnterFullName",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -21434,13 +21434,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyCmoIsResponseRequired",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyCmoIsResponseRequired",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -21464,13 +21464,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyRequestEnterFullName",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyRequestEnterFullName",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -21494,13 +21494,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyRequestIsResponseRequired",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyRequestIsResponseRequired",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -21524,13 +21524,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyRequestSelectPartyRespond",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyRequestSelectPartyRespond",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
@@ -21554,13 +21554,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyCmoSelectPartyRespond",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseAdmReplyCmoSelectPartyRespond",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
