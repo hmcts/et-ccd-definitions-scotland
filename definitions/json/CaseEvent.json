@@ -754,7 +754,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentViewNotification",
-    "Name": "View judgment, order or noti",
+    "Name": "Judgement, Order, Notification",
     "Description": "View a judgment, order or notification",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -1077,7 +1077,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "viewAllNotifications",
-    "Name": "View notifications",
+    "Name": "Judgement, Order, Notification",
     "Description": "View all judgement, orders and notifications",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
