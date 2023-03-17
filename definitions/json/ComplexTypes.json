@@ -1381,6 +1381,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "et3ResponseContactReason",
+    "FieldType": "Text",
+    "ElementLabel": "Provide a reason why you have selected post",
+    "FieldShowCondition": "responseStruckOut !=\"Yes\" AND responseReceived=\"Yes\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "et3ResponseHearingRepresentative",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Which types of hearing can you, as the representative, attend?",
