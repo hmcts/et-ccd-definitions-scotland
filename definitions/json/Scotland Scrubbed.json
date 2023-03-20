@@ -4122,8 +4122,8 @@
   },
   {
     "ID": "VenueScotlandAll",
-    "ListElementCode": "All",
-    "ListElement": "All",
+    "ListElementCode": "Unassigned",
+    "ListElement": "Unassigned",
     "DisplayOrder": 5
   },
   {
