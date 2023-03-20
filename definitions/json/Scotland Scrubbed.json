@@ -5867,18 +5867,6 @@
     "DisplayOrder": 1
   },
   {
-    "ID": "respondNotificationIsThis",
-    "ListElement": "Case management order",
-    "ListElementCode": "Case management order",
-    "DisplayOrder": 1
-  },
-  {
-    "ID": "respondNotificationIsThis",
-    "ListElement": "Request",
-    "ListElementCode": "Request",
-    "DisplayOrder": 2
-  },
-  {
     "ID": " fl_respondNotificationResponseRequired",
     "ListElement": "Yes - view document for details",
     "ListElementCode": "Yes",
