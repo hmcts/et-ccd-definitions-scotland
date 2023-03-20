@@ -5969,7 +5969,7 @@
     "ID": "referralDetails",
     "ListElementCode": "closeReferralGeneralNotes",
     "ElementLabel": "General notes",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
