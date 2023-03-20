@@ -7410,33 +7410,43 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "CaseFieldID": "pseRespondentSelectOrderOrRequest",
     "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "pseRespondentOrdReqCopyToOtherParty=\"No\"",
-    "RetainHiddenValue": "Yes",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentOrdReqCopyPartyIntro",
-    "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 1,
+    "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "Copy this correspondence to the other party"
+    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midDetailsTable",
+    "PageLabel": "Select an Order or Request"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentOrdReqCopyToOtherParty",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 2,
+    "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseRespondentRequestOrderTableLabel=\"dummy\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midValidateInput",
+    "PageLabel": "Your response"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "CaseFieldID": "pseRespondentRequestOrderTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "CaseFieldID": "pseRespondentOrdReqResponseText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7463,28 +7473,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentOrdReqResponseText",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
-    "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "pseRespondentRequestOrderTableLabel=\"dummy\"",
-    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midValidateInput",
-    "PageLabel": "Your response"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "pseRespondentRespondToTribunal",
     "CaseFieldID": "pseRespondentOrdReqUploadDocument",
     "DisplayContext": "COMPLEX",
     "PageID": 3,
@@ -7495,22 +7483,34 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentRequestOrderTableLabel",
+    "CaseFieldID": "pseRespondentOrdReqCopyPartyIntro",
     "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Copy this correspondence to the other party"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentRespondToTribunal",
-    "CaseFieldID": "pseRespondentSelectOrderOrRequest",
+    "CaseFieldID": "pseRespondentOrdReqCopyToOtherParty",
     "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midDetailsTable",
-    "PageLabel": "Select an Order or Request"
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "CaseFieldID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "pseRespondentOrdReqCopyToOtherParty=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
