@@ -5967,6 +5967,13 @@
   },
   {
     "ID": "referralDetails",
+    "ListElementCode": "closeReferralGeneralNotes",
+    "ElementLabel": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
     "ListElementCode": "referralReplyCollection",
     "FieldType": "Collection",
     "ElementLabel": "Reply",
