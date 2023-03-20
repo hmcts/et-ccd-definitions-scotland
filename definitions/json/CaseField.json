@@ -4607,7 +4607,8 @@
     "Label": "Upload a document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
