@@ -4122,9 +4122,15 @@
   },
   {
     "ID": "VenueScotlandAll",
+    "ListElementCode": "Unassigned",
+    "ListElement": "Unassigned",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "VenueScotlandAll",
     "ListElementCode": "All",
     "ListElement": "All",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_TribunalOffice",
