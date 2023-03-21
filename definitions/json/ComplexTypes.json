@@ -6692,6 +6692,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "notificationState",
+    "FieldType": "Text",
+    "ElementLabel": "Notification State",
+    "FieldShowCondition": "status=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "viewRespondentTSEApplications",
     "ListElementCode": "tseViewApplicationSelect",
     "FieldType": "DynamicList",
