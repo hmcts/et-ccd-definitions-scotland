@@ -2045,7 +2045,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3DueDate",
     "Label": "ET3 Due Date",
-    "FieldType":"Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
@@ -4246,9 +4246,32 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "tseAdmReplyEnterFullName",
+    "ID": "tseAdmReplyCmoEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyRequestEnterFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyCmoIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyRequestIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
     "SecurityClassification": "Public"
   },
   {
@@ -4269,14 +4292,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "tseAdmReplyIsResponseRequired",
-    "Label": "Is a response to the tribunal required?",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "tseAdmReplyRequestMadeBy",
     "Label": "Request made by",
     "FieldType": "FixedList",
@@ -4293,7 +4308,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "tseAdmReplySelectPartyRespond",
+    "ID": "tseAdmReplyRequestSelectPartyRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseAdmReplyCmoSelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
@@ -4478,7 +4501,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4583,7 +4607,8 @@
     "Label": "Upload a document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4646,6 +4671,92 @@
     "ID": "pseViewNotificationsLabel",
     "Label": "${pseViewNotifications}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationTitle",
+    "Label": "Enter response title",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationAdditionalInfo",
+    "Label": "Additional infomation",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationUploadDocument",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationIsThis",
+    "Label": "Is this a case managment order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "respondNotificationIsThis",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationResponseRequired",
+    "Label": "Is a response to the tribunal required",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": " fl_respondNotificationResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationWhoRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_sendNotificationParties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notificationMarkdown",
+    "Label": "Placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notificationMarkdownLabel",
+    "Label": "${notificationMarkdown}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationPartyToNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationParties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationCaseManagementMadeBy",
+    "Label": "Case management order made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_sendNotificationRequestBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationFullName",
+    "Label": "Enter their full name",
+    "HintText": " ",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
