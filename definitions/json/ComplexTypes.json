@@ -6696,7 +6696,7 @@
     "ListElementCode": "notificationState",
     "FieldType": "Text",
     "ElementLabel": "Notification State",
-    "FieldShowCondition": "notificationState=\"dummy\"",
+    "FieldShowCondition": "number=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
