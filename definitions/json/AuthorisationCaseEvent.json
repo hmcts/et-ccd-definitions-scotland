@@ -949,6 +949,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "et3RepresentingRespondent",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "et3RepresentingRespondent",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
