@@ -5735,19 +5735,19 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "frl_sendNotificationRequestBy",
+    "ID": "frl_sendNotificationRequestMadeBy",
     "ListElement": "Legal officer",
     "ListElementCode": "Legal officer",
     "DisplayOrder": 1
   },
   {
-    "ID": "frl_sendNotificationRequestBy",
+    "ID": "frl_sendNotificationRequestMadeBy",
     "ListElement": "Judge",
     "ListElementCode": "Judge",
     "DisplayOrder": 2
   },
   {
-    "ID": "frl_sendNotificationRequestBy",
+    "ID": "frl_sendNotificationRequestMadeBy",
     "ListElement": "Caseworker",
     "ListElementCode": "Caseworker",
     "DisplayOrder": 3
@@ -5755,7 +5755,7 @@
   {
     "ID": "sendNotificationResponseTribunal",
     "ListElement": "Yes - view document for details",
-    "ListElementCode": "Yes",
+    "ListElementCode": "Yes - view document for details",
     "DisplayOrder": 1
   },
   {
