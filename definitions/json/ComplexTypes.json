@@ -6627,6 +6627,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationCmoOrRequest",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",

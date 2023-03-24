@@ -5897,10 +5897,34 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "fl_respondNotificationWhoRespond",
-    "ListElement": "n/a",
-    "ListElementCode": "n/a",
-    "DisplayOrder": 4
+    "ID": "frl_respondNotificationCmoRequestBy",
+    "ListElement": "Legal officer",
+    "ListElementCode": "Legal officer",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_respondNotificationCmoRequestBy",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_respondNotificationRequestBy",
+    "ListElement": "Legal officer",
+    "ListElementCode": "Legal officer",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_respondNotificationRequestBy",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_respondNotificationRequestBy",
+    "ListElement": "Case worker",
+    "ListElementCode": "Case worker",
+    "DisplayOrder": 3
   },
   {
     "ID": "frl_tseApplicationsOpenOrClosed",

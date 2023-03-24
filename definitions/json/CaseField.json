@@ -4622,13 +4622,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "SelectNotificationTitle",
-    "Label": "Select a notification",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "selectNotificationDropdown",
     "Label": "Select a notification",
     "FieldType": "DynamicList",
@@ -4715,7 +4708,7 @@
     "ID": "respondNotificationCaseManagementMadeBy",
     "Label": "Case management order made by",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_sendNotificationRequestBy",
+    "FieldTypeParameter": "frl_respondNotificationCmoRequestBy",
     "SecurityClassification": "Public"
   },
   {
@@ -4729,16 +4722,24 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationDate",
-    "Label": "text",
+    "Label": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationCmoOrRequest",
-    "Label": "Is this a case managment order or request",
+    "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_tseAdminTypeOfDecision",
+    "FieldTypeParameter": "fl_sendNotificationCaseManagement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationRequestMadeBy",
+    "Label": "Request made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_respondNotificationRequestBy",
     "SecurityClassification": "Public"
   },
   {

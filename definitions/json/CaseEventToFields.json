@@ -7489,17 +7489,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "respondNotification",
-    "CaseFieldID": "SelectNotificationTitle",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/respondNotification/midGetNotification/",
-    "PageLabel": "Select a notification"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "respondNotification",
     "CaseFieldID": "selectNotificationDropdown",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
@@ -7581,6 +7570,8 @@
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "notificationMarkdownLabel=\"dummy\"",
     "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/respondNotification/midValidateInput",
     "PageLabel": "Respond to a Notification"
   },
   {
@@ -7599,7 +7590,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 21,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7609,7 +7600,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 11,
+    "FieldShowCondition": " respondNotificationCmoOrRequest=\"Case management order\"",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7619,8 +7612,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11,
-    "FieldShowCondition": "respondNotificationCaseManagementMadeBy!=\"Dummy\"",
+    "PageFieldDisplayOrder": 12,
+    "FieldShowCondition": "respondNotificationCmoOrRequest=\"Case management order\" OR respondNotificationCmoOrRequest=\"Request\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
@@ -7631,7 +7624,9 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 12
+    "PageFieldDisplayOrder": 22,
+    "FieldShowCondition": " respondNotificationCmoOrRequest=\"dummy\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -7651,6 +7646,20 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": " respondNotificationCmoOrRequest=\"Case management order\" OR respondNotificationCmoOrRequest=\"Request\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "respondNotification",
+    "CaseFieldID": "respondNotificationRequestMadeBy",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "respondNotificationCmoOrRequest=\"Request\"",
+    "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
   {
