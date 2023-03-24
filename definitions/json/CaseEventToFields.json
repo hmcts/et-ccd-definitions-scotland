@@ -7317,7 +7317,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "sendNotification",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,

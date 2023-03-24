@@ -22105,43 +22105,43 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
