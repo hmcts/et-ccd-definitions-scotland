@@ -955,6 +955,7 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Pre-Acceptance",
+    "CallBackURLMidEvent": "${ET_COS_URL}/postDefaultValues",
     "PageColumnNumber": 1
   },
   {
