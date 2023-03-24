@@ -2706,6 +2706,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3RepresentingRespondent",
+    "Label": "Select which Respondent this ET3 Form is for",
+    "HintText": "If you wish to select multiple respondents, please click the Add New button",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DynamicListCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseShowInset",
     "Label": "Placeholder",
     "FieldType": "YesOrNo",
