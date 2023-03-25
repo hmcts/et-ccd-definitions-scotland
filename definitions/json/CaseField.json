@@ -4377,7 +4377,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationCollection",
-    "Label": "sendNotificationCollection",
+    "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "sendNotificationCollection",
     "SecurityClassification": "Public"
@@ -4766,6 +4766,13 @@
     "Label": "Enter their full name",
     "HintText": " ",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notificationsTabLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
