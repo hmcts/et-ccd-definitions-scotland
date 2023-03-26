@@ -5445,6 +5445,142 @@
     "Min": 1
   },
   {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsDate",
+    "FieldType": "DateTime",
+    "ElementLabel": "Hearing Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsStatus",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing Status",
+    "FieldTypeParameter": "fl_HearingStatus",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsPostponedBy",
+    "FieldType": "FixedList",
+    "ElementLabel": "Postponed by",
+    "FieldTypeParameter": "fl_PostponedBy",
+    "FieldShowCondition": "hearingDetailsStatus=\"Postponed\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsCaseDisposed",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Has the case been disposed?",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsPartHeard",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Has the hearing been part heard?",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsReservedJudgment",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there a reserved Judgment?",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsAttendeeClaimant",
+    "FieldType": "FixedList",
+    "ElementLabel": "Attendees (Claimant)",
+    "FieldTypeParameter": "fl_Attendee",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsAttendeeNonAttendees",
+    "FieldType": "Number",
+    "ElementLabel": "Number of Non Attendees (Respondent) ",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsAttendeeRespNoRep",
+    "FieldType": "Number",
+    "ElementLabel": "Respondent Attended - No Representative",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsAttendeeRespAndRep",
+    "FieldType": "Number",
+    "ElementLabel": "Respondent and Representative Attended",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsAttendeeRepOnly",
+    "FieldType": "Number",
+    "ElementLabel": "Respondent representative only attended",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsTimingStart",
+    "FieldType": "DateTime",
+    "ElementLabel": "Start Time",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsTimingBreak",
+    "FieldType": "DateTime",
+    "ElementLabel": "Break",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsTimingResume",
+    "FieldType": "DateTime",
+    "ElementLabel": "Resume",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsTimingFinish",
+    "FieldType": "DateTime",
+    "ElementLabel": "Finish",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsTimingDuration",
+    "FieldType": "Number",
+    "ElementLabel": "Duration",
+    "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDetails",
+    "ListElementCode": "hearingDetailsHearingNotes2",
+    "FieldType": "TextArea",
+    "ElementLabel": "Hearing Notes",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "HearingPreference",
     "ListElementCode": "hearing_preferences",
     "FieldType": "MultiSelectList",
