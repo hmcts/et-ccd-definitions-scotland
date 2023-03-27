@@ -4187,6 +4187,159 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsDate",
+    "EventElementLabel": "Hearing Date",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "READONLY"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsStatus",
+    "EventElementLabel": "Hearing Status",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsPostponedBy",
+    "EventElementLabel": "Postponed by",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsCaseDisposed",
+    "EventElementLabel": "Has the case been disposed?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsPartHeard",
+    "EventElementLabel": "Has the hearing been part heard?",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsReservedJudgment",
+    "EventElementLabel": "Is there a reserved Judgment?",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsAttendeeClaimant",
+    "EventElementLabel": "Attendees (Claimant)",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsAttendeeNonAttendees",
+    "EventElementLabel": "Number of Non Attendees (Respondent) ",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsAttendeeRespNoRep",
+    "EventElementLabel": "Respondent Attended - No Representative",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsAttendeeRespAndRep",
+    "EventElementLabel": "Respondent and Representative Attended",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsAttendeeRepOnly",
+    "EventElementLabel": "Respondent representative only attended",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsTimingStart",
+    "EventElementLabel": "Start Time",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsTimingBreak",
+    "EventElementLabel": "Break",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsTimingResume",
+    "EventElementLabel": "Resume",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsTimingFinish",
+    "EventElementLabel": "Finish",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsTimingDuration",
+    "EventElementLabel": "Duration",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsHearingNotes2",
+    "EventElementLabel": "Hearing Notes",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "Judgement",
     "CaseEventID": "addAmendJudgment",
     "CaseFieldID": "judgementCollection",
