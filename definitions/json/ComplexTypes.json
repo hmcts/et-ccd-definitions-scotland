@@ -6876,44 +6876,50 @@
     "ListElementCode": "date",
     "FieldType": "Text",
     "ElementLabel": "Response date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "DisplayOrder": 2
   },
   {
     "ID": "pseRespondCollection",
     "ListElementCode": "from",
     "FieldType": "Text",
     "ElementLabel": "Response from",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "DisplayOrder": 1
   },
   {
     "ID": "pseRespondCollection",
     "ListElementCode": "response",
     "FieldType": "Text",
-    "ElementLabel": "Response",
-    "SecurityClassification": "Public"
+    "ElementLabel": "What's your response to the tribunal?",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 3
   },
   {
     "ID": "pseRespondCollection",
     "ListElementCode": "hasSupportingMaterial",
     "FieldType": "Text",
     "ElementLabel": "Has supporting material",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "pseRespondCollection",
     "ListElementCode": "supportingMaterial",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DocumentUpload",
     "ElementLabel": "Supporting material",
-    "SecurityClassification": "Public"
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 4
   },
   {
     "ID": "pseRespondCollection",
     "ListElementCode": "copyToOtherParty",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldShowCondition": " ",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 5
   },
   {
     "ID": "pseRespondCollection",
@@ -6927,44 +6933,49 @@
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationTitle",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Notification",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 1
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationLetter",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationLetter",
+    "ElementLabel": " ",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationUploadDocument",
     "FieldType": "Collection",
+    "ElementLabel": "Documents",
     "FieldTypeParameter": "DocumentUpload",
-    "ElementLabel": "sendNotificationUploadDocument",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "DisplayOrder": 7
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationSubject",
     "FieldType": "MultiSelectList",
+    "ElementLabel": " ",
     "FieldTypeParameter": "fl_sendNotificationSubject",
-    "ElementLabel": "sendNotificationSubject",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationAdditionalInfo",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationAdditionalInfo",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 6
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationNotify",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationNotify",
+    "ElementLabel": "To party",
     "SecurityClassification": "Public"
   },
   {
@@ -6978,79 +6989,88 @@
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationSelectHearing",
     "FieldType": "DynamicList",
-    "ElementLabel": "sendNotificationSelectHearing",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Hearing",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 2
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationCaseManagement",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationCaseManagement",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Case management order or request",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 4
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationResponseTribunal",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationResponseTribunal",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Response due",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 4
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationWhoCaseOrder",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationWhoCaseOrder",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Case management order made by",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 8
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationSelectParties",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationSelectParties",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Party or parties to respond",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 5
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationFullName",
     "FieldType": "Text",
-    "ElementLabel": "sendNotificationFullName",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Full name",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 9
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationFullName2",
     "FieldType": "Text",
     "ElementLabel": "Full name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "DisplayOrder": 11
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationDetails",
     "FieldType": "Text",
     "ElementLabel": "Details",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "number",
     "FieldType": "Text",
-    "ElementLabel": "Number",
+    "ElementLabel": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "date",
     "FieldType": "Text",
-    "ElementLabel": "Date",
+    "ElementLabel": "Date sent",
     "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "respondCollection",
     "FieldType": "Collection",
-    "FieldTypeParameter": "pseRespondCollection",
     "ElementLabel": "Responses",
-    "SecurityClassification": "Public"
+    "FieldTypeParameter": "pseRespondCollection",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 12
   },
   {
     "ID": "sendNotificationCollection",
@@ -7059,6 +7079,59 @@
     "ElementLabel": "Notification State",
     "FieldShowCondition": "number=\"dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationResponsesCount",
+    "FieldType": "Text",
+    "ElementLabel": "Number of responses",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationSubjectString",
+    "FieldType": "Text",
+    "ElementLabel": "Subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationSentBy",
+    "FieldType": "Text",
+    "ElementLabel": "Sent by",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationEccQuestion",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationWhoMadeJudgement",
+    "FieldType": "Text",
+    "ElementLabel": "Judgment made by",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationResponseTribunalTable",
+    "FieldType": "Text",
+    "ElementLabel": "Response due",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationRequestMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Request made by",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 10
   },
   {
     "ID": "viewRespondentTSEApplications",

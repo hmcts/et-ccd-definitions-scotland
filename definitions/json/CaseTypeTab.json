@@ -1648,6 +1648,25 @@
     "TabFieldDisplayOrder": 2
   },
   {
+    "CaseFieldID": "notificationsTabLinks",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 18,
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "sendNotificationCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, sendNotificationSubjectString, sendNotificationNotify, date, sendNotificationResponseTribunalTable, sendNotificationResponsesCount)",
+    "TabDisplayOrder": 18,
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabFieldDisplayOrder": 2
+  },
+  {
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
     "TabID": "EventHistory",
