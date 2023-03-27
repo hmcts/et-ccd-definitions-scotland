@@ -23084,6 +23084,12 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "pseViewNotifications",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseViewNotifications",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
@@ -23121,6 +23127,12 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "pseViewNotifications",
     "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "pseViewNotificationsLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
