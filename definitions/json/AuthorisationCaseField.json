@@ -2829,7 +2829,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "hearingDetailsCollection",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
