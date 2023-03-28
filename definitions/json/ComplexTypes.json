@@ -6930,6 +6930,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationCmoOrRequest",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationDate",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",
@@ -7134,6 +7148,14 @@
     "DisplayOrder": 10
   },
   {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "respondNotificationTypeCollection",
+    "FieldType": "Collection",
+    "ElementLabel": " ",
+    "FieldTypeParameter": "respondNotificationTypeCollection",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "viewRespondentTSEApplications",
     "ListElementCode": "tseViewApplicationSelect",
     "FieldType": "DynamicList",
@@ -7144,6 +7166,63 @@
     "ID": "DynamicListCollection",
     "ListElementCode": "dynamicList",
     "FieldType": "DynamicList",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationTitle",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationAdditionalInfo",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationUploadDocument",
+    "FieldType": "Collection",
+    "ElementLabel": " ",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationWhoRespond",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationCaseManagementMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationFullName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationPartyToNotify",
+    "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   }
