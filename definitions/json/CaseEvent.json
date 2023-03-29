@@ -1072,7 +1072,7 @@
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondNotification/submitted"
   },
   {
     "CaseTypeID": "ET_Scotland",
