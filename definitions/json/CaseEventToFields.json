@@ -7531,7 +7531,28 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondentView/midDetailsTable",
     "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "pseRespondentViewNotification",
+    "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseRespondentRequestOrderTableLabel=\"dummy\"",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "pseRespondentViewNotification",
+    "CaseFieldID": "pseRespondentRequestOrderTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland",
