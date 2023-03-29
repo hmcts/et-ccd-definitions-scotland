@@ -7057,6 +7057,14 @@
   },
   {
     "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationDecision",
+    "FieldType": "Text",
+    "ElementLabel": "Decision",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationDetails",
     "FieldType": "Text",
     "ElementLabel": "Details",
