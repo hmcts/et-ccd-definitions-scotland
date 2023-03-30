@@ -4656,13 +4656,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "SelectNotificationTitle",
-    "Label": "Select a notification",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "selectNotificationDropdown",
     "Label": "Select a notification",
     "FieldType": "DynamicList",
@@ -4693,7 +4686,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationAdditionalInfo",
-    "Label": "Additional infomation",
+    "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -4704,14 +4697,6 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "respondNotificationIsThis",
-    "Label": "Is this a case managment order or request?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "respondNotificationIsThis",
     "SecurityClassification": "Public"
   },
   {
@@ -4757,13 +4742,13 @@
     "ID": "respondNotificationCaseManagementMadeBy",
     "Label": "Case management order made by",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
+    "FieldTypeParameter": "frl_respondNotificationCmoRequestBy",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "HintText": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -4773,6 +4758,29 @@
     "ID": "notificationsTabLinks",
     "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationDate",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationCmoOrRequest",
+    "Label": "Is this a case management order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationCaseManagement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondNotificationRequestMadeBy",
+    "Label": "Request made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_respondNotificationRequestBy",
     "SecurityClassification": "Public"
   },
   {
