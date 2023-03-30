@@ -4656,13 +4656,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "SelectNotificationTitle",
-    "Label": "Select a notification",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "selectNotificationDropdown",
     "Label": "Select a notification",
     "FieldType": "DynamicList",
@@ -4704,14 +4697,6 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "respondNotificationIsThis",
-    "Label": "Is this a case managment order or request?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "respondNotificationIsThis",
     "SecurityClassification": "Public"
   },
   {
@@ -4763,7 +4748,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "HintText": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
