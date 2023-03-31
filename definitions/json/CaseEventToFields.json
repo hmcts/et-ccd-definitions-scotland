@@ -6227,7 +6227,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseAdmin",
     "CaseFieldID": "tseAdminEnterNotificationTitle",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 3,
