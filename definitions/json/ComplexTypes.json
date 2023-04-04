@@ -116,8 +116,8 @@
     "ID": "ClaimantCorrespondence",
     "ListElementCode": "claimant_contact_language",
     "FieldType": "FixedList",
-    "ElementLabel": "Contact language",
-    "FieldTypeParameter": "fl_ContactLanguage",
+    "ElementLabel": "Deprecated contact language",
+    "FieldTypeParameter": "fl_languages",
     "SecurityClassification": "Public"
   },
   {
@@ -384,6 +384,50 @@
     "ListElementCode": "other_claim",
     "FieldType": "TextArea",
     "ElementLabel": "Please describe what type of claim you want to make",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "postcode",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "caseType",
+    "FieldType": "FixedList",
+    "ElementLabel": " ",
+    "FieldTypeParameter": "fl_CaseType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "acasMultiple",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
+    "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
@@ -5429,6 +5473,7 @@
     "ListElementCode": "reasonable_adjustments_detail",
     "FieldType": "TextArea",
     "ElementLabel": "Tell us what support you need to request",
+    "FieldShowCondition": "reasonable_adjustments=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {

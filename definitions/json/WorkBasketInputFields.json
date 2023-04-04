@@ -19,9 +19,23 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_last_name",
+    "Label": "Claimant Last Name",
+    "DisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_first_names",
+    "Label": "Claimant First Name",
+    "DisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseFieldID": "respondent",
     "Label": "Respondent",
-    "DisplayOrder": 4
+    "DisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",

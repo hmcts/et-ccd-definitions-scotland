@@ -1346,7 +1346,7 @@
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseEventID": "multipleTransferDifferentCountry",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {

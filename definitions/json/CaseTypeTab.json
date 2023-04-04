@@ -200,22 +200,30 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "conciliationTrack",
-    "TabFieldDisplayOrder": 21
+    "CaseFieldID": "et3DueDate",
+    "TabFieldDisplayOrder": 21,
+    "FieldShowCondition": "claimServedDate!=\"\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "reasonForCT",
+    "CaseFieldID": "conciliationTrack",
     "TabFieldDisplayOrder": 22
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 23
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "linkedCaseCT",
-    "TabFieldDisplayOrder": 23,
+    "TabFieldDisplayOrder": 24,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
@@ -223,7 +231,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "linkedCaseCTLabel",
-    "TabFieldDisplayOrder": 24,
+    "TabFieldDisplayOrder": 25,
     "FieldShowCondition": "linkedCaseCT=\"*\""
   },
   {
@@ -231,7 +239,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "ethosCaseReference",
-    "TabFieldDisplayOrder": 25,
+    "TabFieldDisplayOrder": 26,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
@@ -870,6 +878,20 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingCompletedBy",
+    "TabFieldDisplayOrder": 82
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1DateCompleted",
+    "TabFieldDisplayOrder": 83
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseRepresentative_Claimant",
     "TabLabel": "Claimant Representative",
     "TabDisplayOrder": 4,
@@ -1110,6 +1132,20 @@
     "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "TabFieldDisplayOrder": 24,
     "FieldShowCondition": "etICCanProceed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 25
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icCompletedBy",
+    "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_Scotland",

@@ -21,18 +21,18 @@
   },
   "config": {
     "local": {
-      "et_cos" : "http://host.docker.internal:8081",
-      "ccd_url" : "http://host.docker.internal:4452"
+      "et_cos": "http://host.docker.internal:8081",
+      "ccd_url": "http://host.docker.internal:4452"
     },
     "cftlib": {
       "et_cos": "http://localhost:8081",
       "ccd_url": "http://localhost:4452"
     },
-    "demo" : {
+    "demo": {
       "et_cos": "http://et-cos-demo.service.core-compute-demo.internal",
       "ccd_url": "http://ccd-data-store-api-demo.service.core-compute-demo.internal"
     },
-    "aat" : {
+    "aat": {
       "et_cos": "http://et-cos-aat.service.core-compute-aat.internal",
       "ccd_url": "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
     },
@@ -40,7 +40,7 @@
       "et_cos": "http://et-cos-perftest.service.core-compute-perftest.internal",
       "ccd_url": "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
     },
-    "prod" : {
+    "prod": {
       "et_cos": "http://et-cos-prod.service.core-compute-prod.internal",
       "ccd_url": "http://ccd-data-store-api-prod.service.core-compute-prod.internal"
     }
