@@ -1076,6 +1076,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_NOTIFICATION_STATE",
+    "Name": "Respond to a notification",
+    "Description": "Respond to a notification",
+    "DisplayOrder": 71,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "viewAllNotifications",
     "Name": "Judgement, Order, Notification",
     "Description": "View all judgement, orders and notifications",
