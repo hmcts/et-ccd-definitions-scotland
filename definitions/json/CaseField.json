@@ -3675,6 +3675,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "assignOffice",
+    "Label": "Select the office you want to assign the case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
