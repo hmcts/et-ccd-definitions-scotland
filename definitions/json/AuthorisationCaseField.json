@@ -23754,6 +23754,24 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",

@@ -7731,6 +7731,16 @@
     "RetainHiddenValue": "Yes"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "BundlesPrepareDocForHearing",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Prepare and submit documents for a hearing"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
