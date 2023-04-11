@@ -23755,19 +23755,55 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotesShow",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotesShow",
+    "UserRole": "et-acas-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotesShow",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes1",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes1",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes1",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes2",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes2",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes2",
     "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
