@@ -4784,6 +4784,27 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotes1",
+    "Label": "The tribunal should have told you in a letter which documents you need to submit for your hearing.<br><br>These documents, usually agreed by both parties, will form part of the evidence at the hearing. You should include all the documents that are important to your case, and that both parties want to refer to at the hearing.<br><br>The combined set of documents must be in one PDF file, usually submitted by one party unless instructed otherwise by the tribunal.<br> <br>If an index is requested, items should be in date order or an order in which the tribunal has requested.<br><br>The single PDF document should be created offline before uploading through this form.<br><br>You must submit hearing documents according to any time limits set out in the order from the tribunal.<br><br>Refer to the orders from the tribunal about whether you need to include your witness statements here or separately.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotes2",
+    "Label": "Providing an appropriate set of documents will ensure your case gets a fairer hearing and limit delays for you and the tribunal.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotesShow",
+    "Label": "Placeholder",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
