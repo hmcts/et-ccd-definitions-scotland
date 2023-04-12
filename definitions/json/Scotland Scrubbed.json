@@ -787,81 +787,93 @@
   },
   {
     "ID": "fl_DocumentType",
+    "ListElementCode": "ET1 Attachment",
+    "ListElement": "ET1 Attachment",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_DocumentType",
     "ListElementCode": "ACAS Certificate",
     "ListElement": "ACAS Certificate",
-    "DisplayOrder": 2
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of a claim",
     "ListElement": "Notice of a claim",
-    "DisplayOrder": 3
+    "DisplayOrder": 4
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3",
     "ListElement": "ET3",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "ET3 Attachment",
+    "ListElement": "ET3 Attachment",
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Claimant correspondence",
     "ListElement": "Claimant correspondence",
-    "DisplayOrder": 5
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Respondent correspondence",
     "ListElement": "Respondent correspondence",
-    "DisplayOrder": 6
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of Hearing",
     "ListElement": "Notice of Hearing",
-    "DisplayOrder": 7
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal case file",
     "ListElement": "Tribunal case file",
-    "DisplayOrder": 8
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal correspondence",
     "ListElement": "Tribunal correspondence",
-    "DisplayOrder": 9
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Order/Deposit Order",
     "ListElement": "Tribunal Order/Deposit Order",
-    "DisplayOrder": 10
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Judgment/Reasons",
     "ListElement": "Tribunal Judgment/Reasons",
-    "DisplayOrder": 11
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Referral/Judicial direction",
     "ListElement": "Referral/Judicial direction",
-    "DisplayOrder": 12
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Rejection of claim",
     "ListElement": "Rejection of claim",
-    "DisplayOrder": 13
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 14
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_ResponseStatus",
@@ -4110,9 +4122,15 @@
   },
   {
     "ID": "VenueScotlandAll",
+    "ListElementCode": "Unassigned",
+    "ListElement": "Unassigned",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "VenueScotlandAll",
     "ListElementCode": "All",
     "ListElement": "All",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_TribunalOffice",
@@ -5352,63 +5370,69 @@
   },
   {
     "ID": "fl_ReferralSubject",
+    "ListElementCode": "Rule 21",
+    "ListElement": "Rule 21",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_ReferralSubject",
     "ListElementCode": "Rule 50 application",
     "ListElement": "Rule 50 application",
-    "DisplayOrder": 11
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Order a witness to attend",
     "ListElement": "Order a witness to attend",
-    "DisplayOrder": 12
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Hearings",
     "ListElement": "Hearings",
-    "DisplayOrder": 13
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Postpone a hearing",
     "ListElement": "Postpone a hearing",
-    "DisplayOrder": 14
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Judgment",
     "ListElement": "Judgment",
-    "DisplayOrder": 15
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Reconsider decision",
     "ListElement": "Reconsider decision",
-    "DisplayOrder": 16
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Reconsider judgment",
     "ListElement": "Reconsider judgment",
-    "DisplayOrder": 17
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Extension of time request",
     "ListElement": "Extension of time request",
-    "DisplayOrder": 18
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Transfer request",
     "ListElement": "Transfer request",
-    "DisplayOrder": 19
+    "DisplayOrder": 20
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Other",
     "ListElement": "Other",
-    "DisplayOrder": 20
+    "DisplayOrder": 21
   },
   {
     "ID": "msl_confirmCloseReferral",
