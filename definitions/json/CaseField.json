@@ -4791,7 +4791,7 @@
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
-    {
+  {
     "CaseTypeID": "ET_Scotland",
     "ID": "assignOffice",
     "Label": "Select the office you want to assign the case to",
@@ -4818,6 +4818,30 @@
     "ID": "bundlesRespondentPrepareDocNotesShow",
     "Label": "Placeholder",
     "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithOtherParty",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWithOtherParty",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithOtherPartyBut",
+    "Label": "We have agreed but there are some disputed documents",
+    "HintText": "Tell us which documents are disputed",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithOtherPartyNo",
+    "Label": "No, we have not agreed and I want to provide my own documents",
+    "HintText": "Tell us why you’ve not been able to agree with the other party",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
