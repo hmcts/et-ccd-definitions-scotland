@@ -1677,6 +1677,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "Respondent",
+    "ListElementCode": "et3Form",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Form",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "RespondentRepresentative",
     "ListElementCode": "resp_rep_name",
     "FieldType": "Text",
