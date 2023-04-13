@@ -3411,7 +3411,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "listedDateInPastWarningLabel",
-    "Label": "<h3>One of the listed dates are in past. If you want to change it please click Previous and enter a date after today otherwise click Continue.</h3>",
+    "Label": "<h3>One of the listed dates are in the past. If you want to change it please click Previous and enter a date after today otherwise click Continue.</h3>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
