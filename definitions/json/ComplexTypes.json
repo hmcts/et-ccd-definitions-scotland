@@ -7084,15 +7084,17 @@
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationCmoOrRequest",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Is this a case management order or request?",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 5
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationDate",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 2
   },
   {
     "ID": "sendNotificationCollection",
@@ -7304,13 +7306,13 @@
     "FieldType": "Text",
     "ElementLabel": "Request made by",
     "SecurityClassification": "Public",
-    "DisplayOrder": 10
+    "DisplayOrder": 8
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "respondNotificationTypeCollection",
     "FieldType": "Collection",
-    "ElementLabel": " ",
+    "ElementLabel": "Tribunal Responses",
     "FieldTypeParameter": "respondNotificationTypeCollection",
     "SecurityClassification": "Public"
   },
@@ -7332,57 +7334,65 @@
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationTitle",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Response title",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 1
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationAdditionalInfo",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 4
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationUploadDocument",
     "FieldType": "Collection",
-    "ElementLabel": " ",
+    "ElementLabel": "Documents",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "DisplayOrder": 3
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationResponseRequired",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Response due",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 8
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationWhoRespond",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Party or parties to respoond",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 9
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationCaseManagementMadeBy",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Case management order made by",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 6
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationFullName",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Full name",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 7
   },
   {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationPartyToNotify",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "ElementLabel": "Sent to",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 10
   }
 ]
