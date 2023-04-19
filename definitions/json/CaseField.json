@@ -4822,27 +4822,27 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "bundlesRespondentAgreedDocWithOtherParty",
+    "ID": "bundlesRespondentAgreedDocWith",
     "Label": "Have you agreed these documents with the other party?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWithOtherParty",
+    "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWith",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "bundlesRespondentAgreedDocWithOtherPartyBut",
-    "Label": "We have agreed but there are some disputed documents",
-    "HintText": "Tell us which documents are disputed",
+    "ID": "bundlesRespondentAgreedDocWithBut",
+    "Label": "Tell us which documents are disputed",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "bundlesRespondentAgreedDocWithOtherPartyNo",
-    "Label": "No, we have not agreed and I want to provide my own documents",
-    "HintText": "Tell us why you’ve not been able to agree with the other party",
+    "ID": "bundlesRespondentAgreedDocWithNo",
+    "Label": "Tell us why you’ve not been able to agree with the other party",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",

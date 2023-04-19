@@ -7584,7 +7584,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "bundlesRespondentPrepareDoc",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherParty",
+    "CaseFieldID": "bundlesRespondentAgreedDocWith",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -7595,24 +7595,24 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "bundlesRespondentPrepareDoc",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyBut",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithBut",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
-    "FieldShowCondition": "bundlesRespondentAgreedDocWithOtherParty=\"But\"",
+    "FieldShowCondition": "bundlesRespondentAgreedDocWith=\"But\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "bundlesRespondentPrepareDoc",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyNo",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithNo",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "bundlesRespondentAgreedDocWithOtherParty=\"No\"",
+    "FieldShowCondition": "bundlesRespondentAgreedDocWith=\"No\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
