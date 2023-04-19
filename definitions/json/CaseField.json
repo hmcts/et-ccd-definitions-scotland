@@ -4823,7 +4823,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentAgreedDocWithOtherParty",
-    "Label": " ",
+    "Label": "Have you agreed these documents with the other party?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWithOtherParty",
     "SecurityClassification": "Public"
