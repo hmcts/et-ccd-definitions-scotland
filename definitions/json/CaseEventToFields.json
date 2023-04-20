@@ -7356,7 +7356,7 @@
     "PageLabel": "View a judgment, order or notification"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentViewNotification",
     "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
     "DisplayContext": "READONLY",
@@ -7367,7 +7367,7 @@
     "PageLabel": "View a judgment, order or notification"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "pseRespondentViewNotification",
     "CaseFieldID": "pseRespondentRequestOrderTableLabel",
     "DisplayContext": "READONLY",
