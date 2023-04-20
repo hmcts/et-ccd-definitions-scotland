@@ -1052,7 +1052,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted"
@@ -1067,7 +1067,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondNotification/submitted"
