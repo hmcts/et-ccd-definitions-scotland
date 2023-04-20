@@ -1105,5 +1105,20 @@
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
     "EndButtonLabel": "Close and return to case details"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDoc",
+    "Name": "Prepare documents for hearing",
+    "Description": "Prepare documents for a hearing",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
   }
 ]

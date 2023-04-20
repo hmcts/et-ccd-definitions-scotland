@@ -5961,5 +5961,23 @@
     "ListElementCode": "Closed",
     "ListElement": "Closed",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "Yes",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "We have agreed but there are some disputed documents",
+    "ListElementCode": "But",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "No, we have not agreed and I want to provide my own documents",
+    "ListElementCode": "No",
+    "DisplayOrder": 3
   }
 ]
