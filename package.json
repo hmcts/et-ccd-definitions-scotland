@@ -31,9 +31,9 @@
       "aac_url": "http://localhost:4454"
     },
     "preview": {
-      "et_cos": "https://et-cos-et-ccd-definitions-admin-pr-93.preview.platform.hmcts.net",
-      "ccd_url": "https://ccd-data-store-api-et-ccd-definitions-admin-pr-93.preview.platform.hmcts.net",
-      "aac_url": "https://aac-et-ccd-definitions-admin-pr-93.preview.platform.hmcts.net"
+      "et_cos": "https://et-cos-et-ccd-definitions-admin-pr-95.preview.platform.hmcts.net",
+      "ccd_url": "https://ccd-data-store-api-et-ccd-definitions-admin-pr-95.preview.platform.hmcts.net",
+      "aac_url": "https://aac-et-ccd-definitions-admin-pr-95.preview.platform.hmcts.net"
     },
     "demo": {
       "et_cos": "http://et-cos-demo.service.core-compute-demo.internal",
