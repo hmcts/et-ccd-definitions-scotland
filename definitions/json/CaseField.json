@@ -363,6 +363,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "judgementCollection",
     "Label": " ",
     "FieldType": "Collection",
@@ -786,14 +794,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "hearingDetailsHearing",
-    "Label": "Select Hearing",
-    "FieldType": "DynamicList",
-    "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsStatus",
     "Label": "Hearing Status",
     "FieldType": "FixedList",
@@ -905,6 +905,14 @@
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsHearing",
+    "Label": "Select Hearing",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -4656,13 +4664,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "SelectNotificationTitle",
-    "Label": "Select a notification",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "selectNotificationDropdown",
     "Label": "Select a notification",
     "FieldType": "DynamicList",
@@ -4704,14 +4705,6 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "respondNotificationIsThis",
-    "Label": "Is this a case managment order or request?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "respondNotificationIsThis",
     "SecurityClassification": "Public"
   },
   {
@@ -4763,7 +4756,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "HintText": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -4796,6 +4789,14 @@
     "ID": "respondNotificationDate",
     "Label": " ",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "assignOffice",
+    "Label": "Select the office you want to assign the case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -4839,7 +4840,7 @@
     "ID": "managingOffice",
     "Label": "Managing Office",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_TribunalOffice",
+    "FieldTypeParameter": "VenueScotlandAll",
     "SecurityClassification": "Public"
   },
   {
