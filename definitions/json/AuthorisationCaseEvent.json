@@ -1844,5 +1844,11 @@
     "CaseEventID": "bulkAddSingleCases",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_NOTIFICATION_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
