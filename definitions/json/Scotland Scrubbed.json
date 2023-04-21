@@ -5975,6 +5975,36 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "frl_bundlesWhoseDocuments",
+    "ListElement": "Both parties' hearing documents combined",
+    "ListElementCode": "Both parties' hearing documents combined",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesWhoseDocuments",
+    "ListElement": "Respondent's documents only",
+    "ListElementCode": "Respondent's documents only",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundlesWhatDocuments",
+    "ListElement": "Witness statements only",
+    "ListElementCode": "Witness statements only",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_bundlesWhatDocuments",
+    "ListElement": "Supplementary hearing documents",
+    "ListElementCode": "Supplementary hearing documents",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesWhatDocuments",
+    "ListElement": "Hearing documents, including witness statements",
+    "ListElementCode": "Hearing documents, including witness statements",
+    "DisplayOrder": 1
+  },
+  {
     "ID": "frl_bundlesRespondentAgreedDocWith",
     "ListElement": "No, we have not agreed and I want to provide my own documents",
     "ListElementCode": "No",
