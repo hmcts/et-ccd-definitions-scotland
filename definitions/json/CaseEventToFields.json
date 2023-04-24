@@ -7649,6 +7649,26 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentUploadFileLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Upload your file of documents"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentUploadFile",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
