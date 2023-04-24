@@ -6122,11 +6122,22 @@
   {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "generateListing",
+    "CaseFieldID": "managingOffice",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseEventID": "generateListing",
     "CaseFieldID": "listingVenue",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
