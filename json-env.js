@@ -18,11 +18,11 @@ Object.entries(config[env]).forEach(([k, v]) => {
 });
 
 process.env.ET_ENV = env;
-
+let excludeJson = env === 'prod' ? 'nonprod.json' : 'prod.json';
 require('./node_modules/.bin/yarn')([
   'run',
   `generate-excel`,
   '-e',
-  '*-prod.json',
+  '*-${excludeJson}',
 ]);
 
