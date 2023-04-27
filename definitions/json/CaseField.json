@@ -3176,6 +3176,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "submitEt3Respondent",
+    "Label": "Select which respondent you want to submit the ET3 for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "confirmEt3Submit",
+    "Label": "Do you want to submit this ET3?",
+    "HintText": "If you wish to submit the ET3 to the tribunal, please select the option below and continue. You will not be able to make any further changes once submitted.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_confirmSubmitEt3",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3NotificationDocCollection",
     "Label": "Upload document PDF",
     "FieldType": "Collection",
