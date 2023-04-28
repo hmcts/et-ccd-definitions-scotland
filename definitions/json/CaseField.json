@@ -4878,11 +4878,9 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentUploadFile",
     "Label": "Upload document",
-    "FieldType": "Collection",
+    "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public",
-    "Min": "1",
-    "Max": "1"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
