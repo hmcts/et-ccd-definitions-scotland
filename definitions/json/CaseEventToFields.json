@@ -7656,6 +7656,7 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/bundlesRespondent/midValidateUpload",
     "PageLabel": "Upload your file of documents"
   },
   {
