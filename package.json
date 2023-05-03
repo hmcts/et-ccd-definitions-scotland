@@ -19,48 +19,6 @@
     "eslint-plugin-mocha": "^10.0.3",
     "mocha": "^9.2.1"
   },
-  "config": {
-    "local": {
-      "et_cos": "http://host.docker.internal:8081",
-      "ccd_url": "http://host.docker.internal:4452",
-      "aac_url": "http://host.docker.internal:4454"
-    },
-    "cftlib": {
-      "et_cos": "http://localhost:8081",
-      "ccd_url": "http://localhost:4452",
-      "aac_url": "http://localhost:4454"
-    },
-    "preview": {
-      "et_cos": "https://et-cos-et-ccd-definitions-admin-pr-93.preview.platform.hmcts.net",
-      "ccd_url": "https://ccd-data-store-api-et-ccd-definitions-admin-pr-93.preview.platform.hmcts.net",
-      "aac_url": "https://aac-et-ccd-definitions-admin-pr-93.preview.platform.hmcts.net"
-    },
-    "demo": {
-      "et_cos": "http://et-cos-demo.service.core-compute-demo.internal",
-      "ccd_url": "http://ccd-data-store-api-demo.service.core-compute-demo.internal",
-      "aac_url": "http://aac-manage-case-assignment-demo.service.core-compute-demo.internal"
-    },
-    "ithc": {
-      "et_cos": "http://et-cos-ithc.service.core-compute-ithc.internal",
-      "ccd_url": "http://ccd-data-store-api-ithc.service.core-compute-ithc.internal",
-      "aac_url": "http://aac-manage-case-assignment-ithc.service.core-compute-ithc.internal"
-    },
-    "aat": {
-      "et_cos": "http://et-cos-aat.service.core-compute-aat.internal",
-      "ccd_url": "http://ccd-data-store-api-aat.service.core-compute-aat.internal",
-      "aac_url": "http://aac-manage-case-assignment-aat.service.core-compute-aat.internal"
-    },
-    "perftest": {
-      "et_cos": "http://et-cos-perftest.service.core-compute-perftest.internal",
-      "ccd_url": "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal",
-      "aac_url": "http://aac-manage-case-assignment-perftest.service.core-compute-perftest.internal"
-    },
-    "prod": {
-      "et_cos": "http://et-cos-prod.service.core-compute-prod.internal",
-      "ccd_url": "http://ccd-data-store-api-prod.service.core-compute-prod.internal",
-      "aac_url": "http://aac-manage-case-assignment-prod.service.core-compute-prod.internal"
-    }
-  },
   "scripts": {
     "lint": "eslint src",
     "test": "mocha ./src/test --timeout 20000",
@@ -68,14 +26,14 @@
     "json2xlsx": "node ./bin/json2xlsx",
     "xlsx2json": "node ./bin/xlsx2json",
     "generate-json": "yarn xlsx2json -D ./definitions/json -i ./definitions/xlsx/ccd-config-base.xlsx && pretty-quick --pattern 'definitions/**/json/**.json'",
-    "generate-excel-local": "ET_ENV=local ET_COS_URL=$npm_package_config_local_et_cos CCD_DEF_URL=$npm_package_config_local_ccd_url CCD_DEF_AAC_URL=$npm_package_config_local_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-cftlib": "ET_ENV=cftlib ET_COS_URL=$npm_package_config_cftlib_et_cos CCD_DEF_URL=$npm_package_config_cftlib_ccd_url CCD_DEF_AAC_URL=$npm_package_config_cftlib_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-preview": "ET_ENV=preview ET_COS_URL=$npm_package_config_preview_et_cos CCD_DEF_URL=$npm_package_config_preview_ccd_url CCD_DEF_AAC_URL=$npm_package_config_preview_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-demo": "ET_ENV=demo ET_COS_URL=$npm_package_config_demo_et_cos CCD_DEF_URL=$npm_package_config_demo_ccd_url CCD_DEF_AAC_URL=$npm_package_config_demo_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-ithc": "ET_ENV=ithc ET_COS_URL=$npm_package_config_ithc_et_cos CCD_DEF_URL=$npm_package_config_ithc_ccd_url CCD_DEF_AAC_URL=$npm_package_config_ithc_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-aat": "ET_ENV=aat ET_COS_URL=$npm_package_config_aat_et_cos CCD_DEF_URL=$npm_package_config_aat_ccd_url CCD_DEF_AAC_URL=$npm_package_config_aat_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-perftest": "ET_ENV=perftest ET_COS_URL=$npm_package_config_perftest_et_cos CCD_DEF_URL=$npm_package_config_perftest_ccd_url CCD_DEF_AAC_URL=$npm_package_config_perftest_aac_url yarn run generate-excel -e *-prod.json",
-    "generate-excel-prod": "ET_ENV=prod ET_COS_URL=$npm_package_config_prod_et_cos CCD_DEF_URL=$npm_package_config_prod_ccd_url CCD_DEF_AAC_URL=$npm_package_config_prod_aac_url yarn run generate-excel -e *-nonprod.json",
+    "generate-excel-local": "node json-env.js local",
+    "generate-excel-cftlib": "node json-env.js cftlib",
+    "generate-excel-demo": "node json-env.js demo",
+    "generate-excel-aat": "node json-env.js aat",
+    "generate-excel-perftest": "node json-env.js perftest",
+    "generate-excel-prod": "node json-env.js prod",
+    "generate-excel-ithc": "node json-env.js ithc",
+    "generate-excel-preview": "node json-env.js preview",
     "generate-excel": "yarn json2xlsx -D ./definitions/json -o ./definitions/xlsx/et-scotland-ccd-config-${ET_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-ithc && yarn generate-excel-aat && yarn generate-excel-prod && yarn generate-excel-preview"
   }
