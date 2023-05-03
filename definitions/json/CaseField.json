@@ -4609,7 +4609,8 @@
     "Label": "What's your response to the tribunal?",
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": "2500"
   },
   {
     "CaseTypeID": "ET_Scotland",
