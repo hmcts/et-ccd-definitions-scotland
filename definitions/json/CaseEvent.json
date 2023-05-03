@@ -644,7 +644,6 @@
     "Description": "Update respondent representation via NoC",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/noc-decision/update-respondents",
     "SecurityClassification": "Public",
     "ShowSummary": "N",
     "ShowEventNotes": "N"
