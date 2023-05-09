@@ -6783,7 +6783,7 @@
     "ListElementCode": "decisionState",
     "FieldType": "Text",
     "ElementLabel": "Decision State",
-    "FieldShowCondition": "number=\"dummy\"",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
