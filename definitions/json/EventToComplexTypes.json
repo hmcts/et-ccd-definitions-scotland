@@ -1,5 +1,15 @@
 [
   {
+    "ID": "tseResponseSupportingMaterial",
+    "CaseFieldID": "pseRespondentOrdReqUploadDocument",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
@@ -6724,7 +6734,7 @@
     "CaseEventID": "tseRespond",
     "ListElementCode": "shortDescription",
     "EventElementLabel": "Short description",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -6761,8 +6771,8 @@
     "CaseEventID": "tseAdmReply",
     "ListElementCode": "uploadedDocument",
     "EventElementLabel": "Document",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
   },
   {
@@ -6771,7 +6781,7 @@
     "CaseEventID": "tseAdmReply",
     "ListElementCode": "shortDescription",
     "EventElementLabel": "Short description",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
