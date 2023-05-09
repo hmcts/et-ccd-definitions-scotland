@@ -767,7 +767,7 @@
     "EndButtonLabel": "Close and return to case details"
   },
   {
-    "CaseTypeID": "ET_SCOTLAND",
+    "CaseTypeID": "ET_Scotland",
     "ID": "UPDATE_ADMIN_DECISION_STATE",
     "Name": "UPDATE_ADMIN_DECISION_STATE",
     "Description": "",
