@@ -19340,13 +19340,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "listedDateInPastWarningLabel",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "listedDateInPastWarningLabel",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
