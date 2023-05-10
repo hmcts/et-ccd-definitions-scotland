@@ -767,22 +767,6 @@
     "EndButtonLabel": "Close and return to case details"
   },
   {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "UPDATE_ADMIN_DECISION_STATE",
-    "Name": "UPDATE_ADMIN_DECISION_STATE",
-    "Description": "",
-    "DisplayOrder": 9002,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "EventEnablingCondition": "caseType=\"Dummy\"",
-    "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
-  },
-  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",

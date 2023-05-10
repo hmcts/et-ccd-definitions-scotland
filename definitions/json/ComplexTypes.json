@@ -6780,14 +6780,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseAdminDecision",
-    "ListElementCode": "decisionState",
-    "FieldType": "Text",
-    "ElementLabel": "Decision State",
-    "FieldShowCondition": "date=\"dummy\"",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "tseReply",
     "ListElementCode": "from",
     "FieldType": "Text",
