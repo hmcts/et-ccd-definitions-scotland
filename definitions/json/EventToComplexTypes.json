@@ -6786,16 +6786,6 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "tseResponseSupportingMaterial",
-    "CaseFieldID": "tseAdmReplyAddDocument",
-    "CaseEventID": "tseAdmReply",
-    "ListElementCode": "uploadedDocument",
-    "EventElementLabel": "Document",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
-  },
-  {
     "ID": "tseAdminResponseRequiredNoDoc",
     "CaseFieldID": "tseAdminResponseRequiredNoDoc",
     "CaseEventID": "tseAdmin",
