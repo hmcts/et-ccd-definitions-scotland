@@ -2859,7 +2859,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3ResponseReferenceNumber",
+    "ID": "et3ResponseReference",
     "Label": "What is your reference number?",
     "FieldType": "Text",
     "SecurityClassification": "Public"
