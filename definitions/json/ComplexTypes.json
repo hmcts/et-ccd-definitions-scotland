@@ -6753,8 +6753,9 @@
   {
     "ID": "tseAdminDecision",
     "ListElementCode": "responseRequiredDoc",
-    "FieldType": "Document",
+    "FieldType": "Collection",
     "ElementLabel": "Add document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -6776,14 +6777,6 @@
     "ListElementCode": "selectPartyNotify",
     "FieldType": "Text",
     "ElementLabel": "Select the party or parties to notify",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseAdminDecision",
-    "ListElementCode": "decisionState",
-    "FieldType": "Text",
-    "ElementLabel": "Decision State",
-    "FieldShowCondition": "number=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
@@ -6864,8 +6857,9 @@
   {
     "ID": "tseReply",
     "ListElementCode": "addDocument",
-    "FieldType": "Document",
+    "FieldType": "Collection",
     "ElementLabel": "Add document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -7406,5 +7400,13 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "addDocument",
+    "FieldType": "Collection",
+    "ElementLabel": "Add document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
   }
 ]

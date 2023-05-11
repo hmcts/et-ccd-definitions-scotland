@@ -6719,6 +6719,16 @@
     "RetainHiddenValue": "No"
   },
   {
+    "ID": "tseReply",
+    "CaseFieldID": "tseResponseSupportingMaterial",
+    "CaseEventID": "tseRespond",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
     "ID": "sendNotificationUploadDocument",
     "CaseFieldID": "sendNotificationUploadDocument",
     "CaseEventID": "sendNotification",
@@ -6743,6 +6753,106 @@
     "EventElementLabel": "Document",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseAdmReplyAddDocument",
+    "CaseFieldID": "tseAdmReplyAddDocument",
+    "CaseEventID": "tseAdmReply",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseAdmReplyAddDocument",
+    "CaseFieldID": "tseAdmReplyAddDocument",
+    "CaseEventID": "tseAdmReply",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseResponseSupportingMaterial",
+    "CaseFieldID": "tseAdmReplyAddDocument",
+    "CaseEventID": "tseAdmReply",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseAdminResponseRequiredNoDoc",
+    "CaseFieldID": "tseAdminResponseRequiredNoDoc",
+    "CaseEventID": "tseAdmin",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseAdminResponseRequiredNoDoc",
+    "CaseFieldID": "tseAdminResponseRequiredNoDoc",
+    "CaseEventID": "tseAdmin",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseAdminResponseRequiredYesDoc",
+    "CaseFieldID": "tseAdminResponseRequiredYesDoc",
+    "CaseEventID": "tseAdmin",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseAdminResponseRequiredYesDoc",
+    "CaseFieldID": "tseAdminResponseRequiredYesDoc",
+    "CaseEventID": "tseAdmin",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "respondNotificationUploadDocument",
+    "CaseFieldID": "respondNotificationUploadDocument",
+    "CaseEventID": "respondNotification",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "respondNotificationUploadDocument",
+    "CaseFieldID": "respondNotificationUploadDocument",
+    "CaseEventID": "respondNotification",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseResponseSupportingMaterial",
+    "CaseFieldID": "pseRespondentOrdReqUploadDocument",
+    "CaseEventID": "pseRespondentRespondToTribunal",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
   {

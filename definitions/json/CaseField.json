@@ -3774,18 +3774,21 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminResponseRequiredNoDoc",
-    "Label": "Add document",
+    "Label": "Supporting material",
     "HintText": "Upload a document to the system",
-    "FieldType": "Document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminResponseRequiredYesDoc",
-    "Label": "Add document",
+    "Label": "Supporting material",
     "HintText": "Upload a document to the system",
-    "FieldType": "Document",
-    "SecurityClassification": "Public"
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": "1"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3903,7 +3906,8 @@
     "Label": "Upload a document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": "1"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4243,7 +4247,8 @@
     "ID": "tseAdmReplyAddDocument",
     "Label": "Add document",
     "HintText": "Upload a document to the system",
-    "FieldType": "Document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
