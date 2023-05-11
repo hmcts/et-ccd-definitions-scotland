@@ -278,18 +278,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseType",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseType",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseType",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -326,18 +314,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "preAcceptCase",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "preAcceptCase",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "preAcceptCase",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -369,18 +345,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "preAcceptCase",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseStateDesc",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseStateDesc",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -555,18 +519,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "stateAPI",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "receiptDate",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "receiptDate",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -614,18 +566,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "feeGroupReference",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "feeGroupReference",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "feeGroupReference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -657,18 +597,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "feeGroupReference",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "positionType",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "positionType",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -728,18 +656,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "ethosCaseReference",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ethosCaseReference",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "ethosCaseReference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -920,18 +836,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "clerkResponsible",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "clerkResponsible",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "clerkResponsible",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -963,18 +867,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "clerkResponsible",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "conciliationTrack",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "conciliationTrack",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -1016,18 +908,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "multipleReference",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleReference",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleReference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1059,18 +939,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "multipleReference",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleReferenceLinkMarkUp",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleReferenceLinkMarkUp",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -1112,18 +980,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "multipleReferenceLinkLabel",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleReferenceLinkLabel",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleReferenceLinkLabel",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1154,18 +1010,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "leadClaimant",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadClaimant",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadClaimant",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1250,18 +1094,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseNotes",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseNotes",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseNotes",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1346,18 +1178,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "targetHearingDate",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "targetHearingDate",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "targetHearingDate",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1394,18 +1214,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimServedDate",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "claimServedDate",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "claimServedDate",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1442,18 +1250,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3DueDate",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3DueDate",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3DueDate",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1826,18 +1622,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimant",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "claimant",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "claimant",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1874,18 +1658,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondent",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "respondent",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "respondent",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -2738,18 +2510,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "jurCodesCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "jurCodesCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "jurCodesCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -2781,18 +2541,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "jurCodesCollection",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hearingCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hearingCollection",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -2830,6 +2578,18 @@
     "CaseFieldID": "hearingCollection",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -2978,18 +2738,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "judgementCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "judgementCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "judgementCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -3021,18 +2769,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "judgementCollection",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "depositType",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "depositType",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -3074,18 +2810,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "documentCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "documentCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "documentCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -3112,18 +2836,6 @@
     "CaseFieldID": "documentCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "restrictedReporting",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "restrictedReporting",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -3159,18 +2871,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "restrictedReporting",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bfActions",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bfActions",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -3590,18 +3290,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "flagsImageAltText",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "flagsImageAltText",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "flagsImageAltText",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -3830,18 +3518,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "reasonForCT",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "reasonForCT",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "reasonForCT",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -3974,18 +3650,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "linkedCaseCT",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "linkedCaseCT",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "linkedCaseCT",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -4017,18 +3681,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "linkedCaseCT",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "linkedCaseCTLabel",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "linkedCaseCTLabel",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -4136,18 +3788,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "managingOffice",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -4179,18 +3819,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "managingOffice",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "allocatedOffice",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "allocatedOffice",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -4232,18 +3860,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "fileLocationGlasgow",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationGlasgow",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationGlasgow",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -4275,18 +3891,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "fileLocationGlasgow",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationAberdeen",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationAberdeen",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -4328,12 +3932,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "fileLocationDundee",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationDundee",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -4365,18 +3963,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "fileLocationDundee",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationEdinburgh",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "fileLocationEdinburgh",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -12572,12 +12158,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICFurtherInformation",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformation",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -12596,12 +12176,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICFurtherInformation",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformation",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -12610,12 +12184,6 @@
     "CaseFieldID": "etICFurtherInformation",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -12638,12 +12206,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -12656,12 +12218,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICCanProceed",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICCanProceed",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -12680,12 +12236,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICCanProceed",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICCanProceed",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -12694,12 +12244,6 @@
     "CaseFieldID": "etICCanProceed",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICInvalidDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -12722,12 +12266,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICInvalidDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICInvalidDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -12736,12 +12274,6 @@
     "CaseFieldID": "etICInvalidDetails",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICJuridictionCodesInvalid",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -12764,12 +12296,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICJuridictionCodesInvalid",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICJuridictionCodesInvalid",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -12778,12 +12304,6 @@
     "CaseFieldID": "etICJuridictionCodesInvalid",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingAlreadyListed",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -12802,12 +12322,6 @@
     "CaseFieldID": "etICHearingAlreadyListed",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingAlreadyListed",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -12932,18 +12446,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedList",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedList",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedList",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -12974,18 +12476,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedSeekComments",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedSeekComments",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedSeekComments",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13016,18 +12506,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13058,18 +12536,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13100,18 +12566,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13142,18 +12596,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13184,12 +12626,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingAnyOtherDirections",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13208,12 +12644,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingAnyOtherDirections",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13226,12 +12656,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICExtendDurationGiveDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICExtendDurationGiveDetails",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13250,12 +12674,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICExtendDurationGiveDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICExtendDurationGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13264,12 +12682,6 @@
     "CaseFieldID": "etICExtendDurationGiveDetails",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICOtherGiveDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13292,12 +12704,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICOtherGiveDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICOtherGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13310,12 +12716,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingListed",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingListed",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13334,12 +12734,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingListed",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingListed",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13348,12 +12742,6 @@
     "CaseFieldID": "etICHearingListed",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformationGiveDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13376,12 +12764,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICFurtherInformationGiveDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformationGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13390,12 +12772,6 @@
     "CaseFieldID": "etICFurtherInformationGiveDetails",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformationTimeToComply",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13418,12 +12794,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICFurtherInformationTimeToComply",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICFurtherInformationTimeToComply",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13432,12 +12802,6 @@
     "CaseFieldID": "etICFurtherInformationTimeToComply",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationRule27",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13460,12 +12824,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etInitialConsiderationRule27",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationRule27",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13474,12 +12832,6 @@
     "CaseFieldID": "etInitialConsiderationRule27",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationRule28",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13498,12 +12850,6 @@
     "CaseFieldID": "etInitialConsiderationRule28",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationRule28",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13772,12 +13118,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICPostponeGiveDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICPostponeGiveDetails",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -13796,12 +13136,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICPostponeGiveDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICPostponeGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13810,12 +13144,6 @@
     "CaseFieldID": "etICPostponeGiveDetails",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICConvertPreliminaryGiveDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13838,12 +13166,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICConvertPreliminaryGiveDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICConvertPreliminaryGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -13852,12 +13174,6 @@
     "CaseFieldID": "etICConvertPreliminaryGiveDetails",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICConvertF2fGiveDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13876,12 +13192,6 @@
     "CaseFieldID": "etICConvertF2fGiveDetails",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICConvertF2fGiveDetails",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13898,20 +13208,8 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDateCompleted",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "icDateCompleted",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "icDateCompleted",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13940,20 +13238,8 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icCompletedBy",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "icCompletedBy",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "icCompletedBy",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -13982,12 +13268,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etInitialConsiderationDocument",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -14001,12 +13281,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etInitialConsiderationDocument",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationDocument",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
@@ -17152,12 +16426,6 @@
     "CaseFieldID": "etICHearingAlreadyListed",
     "UserRole": "citizen",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "suggestedHearingVenues",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
