@@ -2941,7 +2941,8 @@
     "Label": "Why do you disagree with the Acas conciliation details given?",
     "HintText": "For example, you may consider that the claimant gave an incorrect Acas early conciliation number of that they were wrong to say they were exempt from early conciliation.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2972,7 +2973,8 @@
     "ID": "et3ResponseEmploymentInformation",
     "Label": "Do you want to provide any further information about the claimant's employment dates?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2995,7 +2997,8 @@
     "ID": "et3ResponseCorrectJobTitle",
     "Label": "What is or was the claimant's correct job title?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3066,7 +3069,8 @@
     "Label": "What are the claimant's correct notice details?",
     "HintText": "For example, you may wish to clarify that the claimant was dismissed without notice or paid them a sum in lieu of notice.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3081,7 +3085,8 @@
     "ID": "et3ResponsePensionCorrectDetails",
     "Label": "What are the correct pension and benefit details?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3111,7 +3116,8 @@
     "ID": "et3ResponseContestClaimDetails",
     "Label": "Use this text box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3133,7 +3139,8 @@
     "ID": "et3ResponseEmployerClaimDetails",
     "Label": "Provide the background and details of your Employer's Contract Claim",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 2500
   },
   {
     "CaseTypeID": "ET_Scotland",
