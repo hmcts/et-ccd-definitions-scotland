@@ -7103,6 +7103,14 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "respondNotificationRequestMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Request made by",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 7
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",
