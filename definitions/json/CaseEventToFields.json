@@ -5993,6 +5993,16 @@
     "ShowSummaryChangeOption": "N"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "legalrepDocuments",
+    "CaseFieldID": "legalrepDocumentCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Case Documents"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

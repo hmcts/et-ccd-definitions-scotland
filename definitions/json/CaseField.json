@@ -3691,6 +3691,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "legalrepDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
