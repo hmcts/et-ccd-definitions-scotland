@@ -14636,12 +14636,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referralLinks",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referralLinks",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -14655,12 +14649,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referralLinks",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referralLinks",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
