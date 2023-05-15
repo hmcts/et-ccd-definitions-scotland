@@ -14738,18 +14738,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referralCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referralCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referralCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
