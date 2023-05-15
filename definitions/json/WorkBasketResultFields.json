@@ -30,12 +30,6 @@
     "DisplayOrder": 5
   },
   {
-    "CaseTypeID": "ET_Scotland",
-    "CaseFieldID": "managingOffice",
-    "Label": "Tribunal Office",
-    "DisplayOrder": 6
-  },
-  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseFieldID": "documentName",
     "Label": "Document Name",
