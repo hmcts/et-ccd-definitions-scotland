@@ -80,7 +80,8 @@
     "DisplayOrder": 6,
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -115,7 +116,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
