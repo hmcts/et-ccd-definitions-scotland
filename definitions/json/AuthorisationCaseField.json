@@ -559,6 +559,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "receiptDate",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "feeGroupReference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
