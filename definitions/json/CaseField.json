@@ -363,6 +363,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "judgementCollection",
     "Label": " ",
     "FieldType": "Collection",
@@ -786,14 +794,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "hearingDetailsHearing",
-    "Label": "Select Hearing",
-    "FieldType": "DynamicList",
-    "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsStatus",
     "Label": "Hearing Status",
     "FieldType": "FixedList",
@@ -905,6 +905,14 @@
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingDetailsHearing",
+    "Label": "Select Hearing",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -3509,6 +3517,28 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedDateInPastWarning",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedDateInPastWarningLabel",
+    "Label": "<h3>One of the listed dates are in the past. If you want to change it please click Previous and enter a date after today otherwise click Continue.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "assignOffice",
+    "Label": "Select the office you want to assign the case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
@@ -3549,7 +3579,7 @@
     "ID": "managingOffice",
     "Label": "Managing Office",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_TribunalOffice",
+    "FieldTypeParameter": "VenueScotlandAll",
     "SecurityClassification": "Public"
   },
   {
