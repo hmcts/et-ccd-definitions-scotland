@@ -259,7 +259,7 @@
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pension_contribution",
     "FieldType": "FixedList",
-    "ElementLabel": "Pension Contribution",
+    "ElementLabel": "Pension Scheme",
     "FieldTypeParameter": "fl_pension_contribution",
     "SecurityClassification": "Public"
   },
