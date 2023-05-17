@@ -1,1 +1,632 @@
-[]
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingShowDetails",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingShowDetails",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_type",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_type",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingFormat",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingFormat",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "judicialMediation",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "judicialMediation",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingPublicPrivate",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingPublicPrivate",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingNumber",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingNumber",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_venue_Scotland",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_venue_Scotland",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Glasgow",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Glasgow",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Aberdeen",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Aberdeen",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Dundee",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Dundee",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Edinburgh",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_Edinburgh",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingEstLengthNum",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingEstLengthNum",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingEstLengthNumType",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingEstLengthNumType",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingSitAlone",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingSitAlone",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "judge",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "judge",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingERMember",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingERMember",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingEEMember",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingEEMember",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_stage",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "Hearing_stage",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.showListingDetails",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.showListingDetails",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.listedDate",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.listedDate",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_status",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_status",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Postponed_by",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Postponed_by",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.postponedDate",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.postponedDate",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_typeReadingDeliberation",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_typeReadingDeliberation",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingVenueDayScotland",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingVenueDayScotland",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Glasgow",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Glasgow",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Aberdeen",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Aberdeen",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Dundee",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Dundee",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Edinburgh",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_Edinburgh",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingRoom",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingRoom",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingClerk",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingClerk",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingCaseDisposed",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingCaseDisposed",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_part_heard",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_part_heard",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_reserved_judgement",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.Hearing_reserved_judgement",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_claimant",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_claimant",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_non_attendees",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_non_attendees",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_resp_no_rep",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_resp_no_rep",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_resp_&_rep",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_resp_&_rep",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_rep_only",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.attendee_rep_only",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingStart",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingStart",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingBreak",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingBreak",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingResume",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingResume",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingFinish",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingFinish",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingDuration",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "hearingCollection",
+    "ListElementCode": "hearingDateCollection.hearingTimingDuration",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  }
+]
