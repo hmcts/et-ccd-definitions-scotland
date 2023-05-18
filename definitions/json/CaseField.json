@@ -2859,6 +2859,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseReference",
+    "Label": "What is your reference number?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseContactPreference",
     "Label": "How would you prefer to be contacted?",
     "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
@@ -3700,10 +3707,32 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "listedDateInPastWarning",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedDateInPastWarningLabel",
+    "Label": "<h3>One of the listed dates are in the past. If you want to change it please click Previous and enter a date after today otherwise click Continue.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "assignOffice",
     "Label": "Select the office you want to assign the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "legalrepDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
