@@ -556,7 +556,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
