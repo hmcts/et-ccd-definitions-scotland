@@ -125,7 +125,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Save ET3 Section as draft",
+    "EndButtonLabel": "Save ET3 as draft",
     "ShowSummary": "Y"
   },
   {
@@ -141,7 +141,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Save ET3 Section as draft",
+    "EndButtonLabel": "Save ET3 as draft",
     "ShowSummary": "Y"
   },
   {
@@ -157,7 +157,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Save ET3 Section as draft",
+    "EndButtonLabel": "Save ET3 as draft",
     "ShowSummary": "Y"
   },
   {
