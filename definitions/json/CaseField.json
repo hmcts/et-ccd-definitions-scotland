@@ -3184,7 +3184,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "submitEt3Respondent",
-    "Label": "Select which respondent you want to submit the ET3 for",
+    "Label": "Select which respondent this ET3 is for",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },

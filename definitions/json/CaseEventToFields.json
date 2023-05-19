@@ -4932,7 +4932,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Response",
-    "CaseFieldID": "et3RepresentingRespondent",
+    "CaseFieldID": "submitEt3Respondent",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -5493,7 +5493,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseShowInset",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
@@ -5504,7 +5504,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3StartPagePreamble",
     "DisplayContext": "READONLY",
     "PageID": 1,
@@ -5513,7 +5513,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3StartPageInset",
     "DisplayContext": "READONLY",
     "PageID": 1,
@@ -5523,7 +5523,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3StartPageMainBody",
     "DisplayContext": "READONLY",
     "PageID": 1,
@@ -5532,7 +5532,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3RepresentingRespondent",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
@@ -5543,7 +5543,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseAcasAgree",
     "DisplayContext": "MANDATORY",
     "PageID": 3,
@@ -5554,7 +5554,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseAcasAgreeReason",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
@@ -5566,7 +5566,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseRespondentContestClaim",
     "DisplayContext": "MANDATORY",
     "PageID": 4,
@@ -5577,7 +5577,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseContestClaimPreamble",
     "DisplayContext": "READONLY",
     "PageID": 5,
@@ -5588,7 +5588,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseContestClaimDocument",
     "DisplayContext": "COMPLEX",
     "PageID": 5,
@@ -5598,7 +5598,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseContestClaimDetails",
     "DisplayContext": "OPTIONAL",
     "PageID": 5,
@@ -5608,7 +5608,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseEmployerClaim",
     "DisplayContext": "MANDATORY",
     "PageID": 6,
@@ -5619,7 +5619,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseEmployerClaimDetailsPreamble",
     "DisplayContext": "READONLY",
     "PageID": 7,
@@ -5630,7 +5630,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseEmployerClaimDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 7,
@@ -5640,7 +5640,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseEmployerClaimDocument",
     "DisplayContext": "MANDATORY",
     "PageID": 7,

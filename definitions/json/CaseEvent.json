@@ -146,9 +146,9 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3ResponseClaimDetails",
-    "Name": "ET3 - Claim Details",
-    "Description": "ET3 - Claim Details",
+    "ID": "et3ResponseDetails",
+    "Name": "ET3 - Response Details",
+    "Description": "ET3 - Response Details",
     "DisplayOrder": 11,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",

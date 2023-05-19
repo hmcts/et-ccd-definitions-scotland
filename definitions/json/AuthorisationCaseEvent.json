@@ -973,13 +973,13 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
