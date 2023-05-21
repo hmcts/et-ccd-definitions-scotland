@@ -53,6 +53,7 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -66,6 +67,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -79,6 +81,7 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1VettingAboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
@@ -110,7 +113,7 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
-    "EventEnablingCondition": ""
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -123,6 +126,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
@@ -150,7 +154,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "CallBackURLSubmittedEvent": ""
@@ -163,6 +167,7 @@
     "DisplayOrder": 12,
     "PreConditionState(s)": "Closed",
     "PostConditionState": "Closed",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "SecurityClassification": "Public",
@@ -176,6 +181,7 @@
     "DisplayOrder": 13,
     "PreConditionState(s)": "Accepted;Rejected;Closed",
     "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendClaimantDetails",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
@@ -188,6 +194,7 @@
     "DisplayOrder": 14,
     "PreConditionState(s)": "Accepted;Rejected;Closed",
     "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -199,6 +206,7 @@
     "DisplayOrder": 15,
     "PreConditionState(s)": "Accepted;Closed",
     "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentDetails",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
@@ -211,6 +219,7 @@
     "DisplayOrder": 16,
     "PreConditionState(s)": "Accepted;Closed",
     "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicRespondentRepresentativeNames",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentRepresentative",
     "SecurityClassification": "Public",
@@ -223,6 +232,7 @@
     "Description": "Add or Amend a Jurisdiction",
     "DisplayOrder": 17,
     "PreConditionState(s)": "Accepted;Rejected",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendJurisdiction",
     "SecurityClassification": "Public",
@@ -235,6 +245,7 @@
     "Description": "List a Hearing",
     "DisplayOrder": 18,
     "PreConditionState(s)": "Accepted;Rejected",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseHearings",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendHearing",
@@ -248,6 +259,7 @@
     "Description": "Allocate a Hearing",
     "DisplayOrder": 19,
     "PreConditionState(s)": "Accepted;Rejected",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/allocatehearing/initialiseHearings",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/allocatehearing/aboutToSubmit",
@@ -262,6 +274,7 @@
     "DisplayOrder": 20,
     "PreConditionState(s)": "Accepted;Rejected",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/hearingdetails/initialiseHearings",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingdetails/aboutToSubmit",
     "SecurityClassification": "Public",
@@ -275,6 +288,7 @@
     "DisplayOrder": 21,
     "PreConditionState(s)": "Accepted;Rejected",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initPrintHearingLists",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/generateListingsDocSingleCases",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/generateListingsDocSingleCasesConfirmation",
@@ -290,6 +304,7 @@
     "DisplayOrder": 22,
     "PreConditionState(s)": "Accepted;Rejected",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicJudgments",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/judgementSubmitted",
     "SecurityClassification": "Public",
@@ -304,6 +319,7 @@
     "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bfActions",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -317,6 +333,7 @@
     "PostConditionState": "Accepted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicDepositOrder",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/depositValidation",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -330,6 +347,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit"
   },
   {
@@ -342,6 +360,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted"
   },
   {
@@ -368,6 +387,7 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicRestrictedReporting",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/restrictedCases",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
