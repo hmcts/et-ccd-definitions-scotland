@@ -2053,7 +2053,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "et3DueDate",
     "Label": "ET3 Due Date",
-    "FieldType":"Date",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
@@ -2714,6 +2714,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3RepresentingRespondent",
+    "Label": "Select which Respondent this ET3 Form is for",
+    "HintText": "If you wish to select multiple respondents, please click the Add New button",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DynamicListCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseShowInset",
     "Label": "Placeholder",
     "FieldType": "YesOrNo",
@@ -2846,6 +2855,13 @@
     "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
     "FieldType": "Text",
     "RegularExpression": "^\\+?(\\d ?){4,15}$",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseReference",
+    "Label": "What is your reference number?",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -3087,7 +3103,7 @@
     "ID": "et3ResponseContestClaimDocument",
     "Label": "Upload a document to your response",
     "FieldType": "Collection",
-    "FieldTypeParameter": "Document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -3300,6 +3316,163 @@
     "Label": "${referralHearingDetails}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy0",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy1",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy2",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy3",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy4",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy5",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy6",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy7",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy8",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationPolicy9",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers0",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers1",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers2",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers3",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers4",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers5",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers6",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers7",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers8",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "noticeOfChangeAnswers9",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "changeOrganisationRequestField",
+    "Label": "Change Organisation Request",
+    "FieldType": "ChangeOrganisationRequest",
+    "SecurityClassification": "PUBLIC"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3536,6 +3709,14 @@
     "Label": "Select the office you want to assign the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "legalrepDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
