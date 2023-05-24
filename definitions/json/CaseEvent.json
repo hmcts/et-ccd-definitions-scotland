@@ -318,7 +318,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/hearingdetails/initialiseHearings",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingdetails/aboutToSubmit",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
