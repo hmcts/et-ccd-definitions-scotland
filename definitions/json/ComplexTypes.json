@@ -1020,6 +1020,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "extensionResubmitted",
+    "FieldType": "Text",
+    "ElementLabel": "Has the ET3 form been resubmitted?",
+    "FieldShowCondition": "extensionDate=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseReceived",
     "FieldType": "YesOrNo",
     "ElementLabel": "Has the ET3 form been received?",
