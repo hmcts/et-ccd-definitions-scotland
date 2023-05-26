@@ -1,6 +1,22 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "legalrepDocuments",
+    "Name": "Case Documents",
+    "Description": "View case documents",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/legalrepDocuments/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "SUBMIT_CLAIMANT_TSE",
     "Name": "Create an application",
     "Description": "Create an application",
@@ -184,7 +200,7 @@
     "ID": "acceptRejectedCase",
     "Name": "Accept Case",
     "Description": "Accept Case",
-    "DisplayOrder": 13,
+    "DisplayOrder": 10,
     "PreConditionState(s)": "Rejected",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "EventEnablingCondition": "caseType =\"dummy\"",
