@@ -3099,7 +3099,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseContestClaimPreamble",
-    "Label": "Consider in your response:\r\n\r\n* setting out the aspects of the claim you agree or disagree with, including if you're contesting only part of the claim\r\n* making sure that any facts or events are in date order\r\n* whether you think another person or company may be liable and why\r\n\r\nYou can upload a statement of case below.\r\n\r\nFiles should be a maximum of 100MB in size (larger files must be split).",
+    "Label": "Consider in your response:\r\n\r\n* setting out the aspects of the claim you agree or disagree with, including if you're contesting only part of the claim\r\n* making sure that any facts or events are in date order\r\n* whether you think another person or company may be liable and why\r\n\r\nYou can upload a statement of case below.\r\n\r\nFile should be a maximum of 100MB in size. If there is a need of uploading several documents, they should be made into one and uploaded as one document.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3109,7 +3109,8 @@
     "Label": "Upload a document to your response",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Max": 1
   },
   {
     "CaseTypeID": "ET_Scotland",

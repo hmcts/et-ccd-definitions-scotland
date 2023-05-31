@@ -1624,8 +1624,7 @@
     "ElementLabel": "Upload a document to your response",
     "FieldTypeParameter": "DocumentUpload",
     "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
-    "SecurityClassification": "Public",
-    "Max": 1
+    "SecurityClassification": "Public"
   },
   {
     "ID": "Respondent",
