@@ -2031,7 +2031,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3VettingBeforeYouStart",
-    "Label": "To help you complete this, open the ET1 form and additional documents the claimant or respondent may have uploaded in the <strong>Case Documents</strong> tab.",
+    "Label": "To help you complete this, open the ET1 form and additional documents the claimant or respondent may have uploaded in the <strong>Case Documents</strong> event.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
