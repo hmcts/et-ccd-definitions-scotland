@@ -6581,7 +6581,7 @@
   },
   {
     "ID": "et3ResponseForm",
-    "CaseEventID": "et3Response",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseContestClaimDocument",
     "ListElementCode": "uploadedDocument",
     "EventElementLabel": "Upload a document to your response",
