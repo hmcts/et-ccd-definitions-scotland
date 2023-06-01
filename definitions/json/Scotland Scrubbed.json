@@ -5445,5 +5445,11 @@
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_confirmSubmitEt3",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes - I want to submit this ET3",
+    "DisplayOrder": 1
   }
 ]
