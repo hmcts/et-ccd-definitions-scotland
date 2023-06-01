@@ -5279,18 +5279,6 @@
     "DisplayOrder": 4
   },
   {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "et3From",
-    "ListElement": "ET3 form",
-    "DisplayOrder": 5
-  },
-  {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "Another type of document",
-    "ListElement": "Another type of document",
-    "DisplayOrder": 6
-  },
-  {
     "ID": "frl_ReferCaseTo",
     "ListElementCode": "Admin",
     "ListElement": "Admin",
