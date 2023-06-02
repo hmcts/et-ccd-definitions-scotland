@@ -6613,7 +6613,7 @@
     "ListElementCode": "shortDescription",
     "EventElementLabel": "Short Description",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "referralDocument",
