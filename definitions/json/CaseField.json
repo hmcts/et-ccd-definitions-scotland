@@ -2731,7 +2731,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3StartPagePreamble",
-    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/legalrepDocuments/legalrepDocuments1\" target=\"_blank\"> open the ET1 form, ACAS certificate and other documents in the document event in the next steps menu (opens in a new tab)</a>.",
+    "Label": "To help you complete this, open the ET1 form, ACAS certificate and other documents in the <strong>Case Documents</strong> event in the next steps menu.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
