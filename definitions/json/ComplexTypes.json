@@ -1802,7 +1802,6 @@
     "ListElementCode": "representative_address",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
-    "FieldShowCondition": "myHmctsYesNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
