@@ -2448,7 +2448,8 @@
     "ID": "et3Rule26",
     "Label": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
