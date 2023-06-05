@@ -4835,6 +4835,55 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseNotAvailableWarning",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "resTseNotAvailableWarningLabel",
+    "Label": "<h3>This function is not available for this case, please click cancel to return to the main page, you will need to submit your application outside the portal via email or post.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondNotAvailableWarning",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondNotAvailableWarningLabel",
+    "Label": "<h3>This function is not available for this case, please click cancel to return to the main page, you will need to submit your application outside the portal via email or post.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondToTribunalNotAvailableWarning",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondToTribunalNotAvailableWarningLabel",
+    "Label": "<h3>This function is not available for this case, please click cancel to return to the main page, you will need to submit your application outside the portal via email or post.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1OnlineSubmission",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

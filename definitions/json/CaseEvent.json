@@ -676,6 +676,7 @@
     "ShowSummary": "Y",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentTSE/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication"
   },
