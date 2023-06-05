@@ -6656,7 +6656,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToAdd.OrganisationID",
-    "FieldDisplayOrder": "1",
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6664,7 +6664,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToAdd.OrganisationName",
-    "FieldDisplayOrder": "2",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6672,7 +6672,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToRemove.OrganisationID",
-    "FieldDisplayOrder": "3",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6680,7 +6680,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToRemove.OrganisationName",
-    "FieldDisplayOrder": "4",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6688,7 +6688,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "CaseRoleId",
-    "FieldDisplayOrder": "5",
+    "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6696,7 +6696,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "RequestTimestamp",
-    "FieldDisplayOrder": "6",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6705,7 +6705,31 @@
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "ApprovalStatus",
     "DefaultValue": "1",
-    "FieldDisplayOrder": "7",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "typeOfDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   }
 ]
