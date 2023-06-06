@@ -193,7 +193,8 @@
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
