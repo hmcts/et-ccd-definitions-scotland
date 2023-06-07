@@ -5279,18 +5279,6 @@
     "DisplayOrder": 4
   },
   {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "et3From",
-    "ListElement": "ET3 form",
-    "DisplayOrder": 5
-  },
-  {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "Another type of document",
-    "ListElement": "Another type of document",
-    "DisplayOrder": 6
-  },
-  {
     "ID": "frl_ReferCaseTo",
     "ListElementCode": "Admin",
     "ListElement": "Admin",
@@ -5457,5 +5445,11 @@
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_confirmSubmitEt3",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes - I want to submit this ET3",
+    "DisplayOrder": 1
   }
 ]

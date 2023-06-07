@@ -259,7 +259,7 @@
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pension_contribution",
     "FieldType": "FixedList",
-    "ElementLabel": "Pension Contribution",
+    "ElementLabel": "Pension Scheme",
     "FieldTypeParameter": "fl_pension_contribution",
     "SecurityClassification": "Public"
   },
@@ -1020,6 +1020,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "extensionResubmitted",
+    "FieldType": "Text",
+    "ElementLabel": "Has the ET3 form been resubmitted?",
+    "FieldShowCondition": "extensionDate=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseReceived",
     "FieldType": "YesOrNo",
     "ElementLabel": "Has the ET3 form been received?",
@@ -1682,6 +1691,30 @@
     "FieldType": "Document",
     "ElementLabel": "ET3 Form",
     "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "personalDetailsSection",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Section complete",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "claimDetailsSection",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Section complete",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employmentDetailsSection",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Section complete",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
     "SecurityClassification": "Public"
   },
   {
