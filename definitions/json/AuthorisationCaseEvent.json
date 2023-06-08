@@ -75,7 +75,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -115,6 +115,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "assignCase",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -172,6 +178,12 @@
     "CaseEventID": "preAcceptanceCase",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "preAcceptanceCase",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -502,6 +514,12 @@
     "CaseEventID": "updateHearing",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "updateHearing",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -937,6 +955,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
@@ -952,6 +976,12 @@
     "CaseEventID": "initialConsideration",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -991,6 +1021,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -1051,6 +1087,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createReferral",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -1078,6 +1120,12 @@
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "replyToReferral",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
