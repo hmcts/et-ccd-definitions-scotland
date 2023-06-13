@@ -2448,8 +2448,7 @@
     "ID": "et3Rule26",
     "Label": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3481,8 +3480,7 @@
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3496,8 +3494,7 @@
     "ID": "isUrgent",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3505,8 +3502,7 @@
     "Label": "What is the referral subject?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_ReferralSubject",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
