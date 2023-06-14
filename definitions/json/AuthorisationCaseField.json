@@ -11244,7 +11244,7 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3Rule26",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
@@ -14820,7 +14820,7 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referCaseTo",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
@@ -14910,7 +14910,7 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "isUrgent",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
@@ -14958,7 +14958,7 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referralSubject",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
