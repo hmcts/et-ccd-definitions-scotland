@@ -779,8 +779,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseRespond",
-    "Name": "Respond to an Application",
-    "Description": "Respond to an Application",
+    "Name": "Respond to an application",
+    "Description": "Respond to an application",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
