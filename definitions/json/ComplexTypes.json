@@ -6944,6 +6944,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseReply",
+    "ListElementCode": "respondentResponded",
+    "FieldType": "Text",
+    "ElementLabel": "If respondent has responded",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
