@@ -6553,6 +6553,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
     "PageLabel": "Select an application"
   },
   {
