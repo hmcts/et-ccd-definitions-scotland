@@ -3252,7 +3252,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ClaimantAndRespondentAddresses",
-    "Label": "et3ClaimantAndRespondentAddresses",
+    "Label": "Deprecated",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
