@@ -3251,6 +3251,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3ClaimantAndRespondentAddresses",
+    "Label": "et3ClaimantAndRespondentAddresses",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3EmailDocsToAcasTitle",
     "Label": "<hr>\r\n<h2>Email documents to Acas</h2>",
     "FieldType": "Label",
