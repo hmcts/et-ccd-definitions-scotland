@@ -5,7 +5,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker_profile",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -14,7 +14,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-employment",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -23,7 +23,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-employment-etjudge",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -32,7 +32,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-employment-scotland",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -41,7 +41,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-employment-etjudge-scotland",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -50,7 +50,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-employment-api",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -59,7 +59,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "citizen",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -68,7 +68,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-employment-legalrep-solicitor",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -77,7 +77,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-caa",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -86,7 +86,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker-approver",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -95,7 +95,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "et-acas-api",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   },
   {
@@ -104,7 +104,7 @@
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "caseworker_profile",
     "ReadOnly": "N",
-    "Disabled": "F",
+    "Disabled": "N",
     "CaseAccessCategories": ""
   }
 ]
