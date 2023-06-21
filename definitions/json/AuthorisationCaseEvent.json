@@ -1848,6 +1848,18 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createFlag",
+    "UserRole": "caseworker_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "UserRole": "caseworker_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createFlag",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

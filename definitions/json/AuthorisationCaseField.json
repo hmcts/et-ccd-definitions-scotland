@@ -21782,6 +21782,30 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseFlagsXui",
+    "UserRole": "caseworker_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentFlags",
+    "UserRole": "caseworker_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "flagLauncher",
+    "UserRole": "caseworker_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "claimantFlags",
+    "UserRole": "caseworker_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseFlagsXui",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
