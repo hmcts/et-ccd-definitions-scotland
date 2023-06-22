@@ -1687,7 +1687,7 @@
     "TabFieldDisplayOrder": 2
   },
   {
-    "CaseFieldID": "caseFlagsXui",
+    "CaseFieldID": "caseFlags",
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "FieldShowCondition": "flagLauncher = \"hidden\"",

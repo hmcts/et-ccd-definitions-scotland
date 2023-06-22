@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "createFlag",
-    "Name": "Create a Flag",
+    "Name": "Create a case flag",
     "Description": "Create Flag",
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
@@ -1223,7 +1223,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "manageFlags",
-    "Name": "Manage Flags",
+    "Name": "Manage case flags",
     "Description": "Manage Flags",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",

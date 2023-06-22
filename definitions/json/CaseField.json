@@ -4909,7 +4909,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "caseFlagsXui",
+    "ID": "caseFlags",
     "Label": "Case Flags",
     "FieldType": "Flags",
     "SecurityClassification": "Public"
