@@ -1883,12 +1883,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "createFlag",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "manageFlags",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1921,12 +1915,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "manageFlags",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "manageFlags",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   }
 ]
