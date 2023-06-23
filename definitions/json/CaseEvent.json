@@ -228,8 +228,6 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/startSubmitEt3",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
-    "EventEnablingCondition": "",
-    "Publish": "Y"
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
