@@ -6564,6 +6564,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
     "PageLabel": "Select an application"
   },
   {
@@ -6657,8 +6658,8 @@
     "CaseEventID": "respondentTSE",
     "CaseFieldID": "resTseTextBox3",
     "DisplayContext": "OPTIONAL",
-    "PageID": 6,
-    "PageDisplayOrder": 6,
+    "PageID": 5,
+    "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
   },

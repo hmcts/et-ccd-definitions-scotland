@@ -7061,6 +7061,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "genericTseDetails",
+    "ListElementCode": "respondentResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "If there are tribunal requests/orders that required a response from Respondent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "claimantResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "If there are tribunal requests/orders that required a response from Claimant",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "pseRespondCollection",
     "ListElementCode": "date",
     "FieldType": "Text",
