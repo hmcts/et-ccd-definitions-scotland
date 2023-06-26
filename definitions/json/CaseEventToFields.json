@@ -6451,7 +6451,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseRespond",
-    "CaseFieldID": "tseRespondToTribunal",
+    "CaseFieldID": "tseRespondingToTribunal",
     "DisplayContext": "READONLY",
     "PageID": 3,
     "PageDisplayOrder": 3,
@@ -6471,12 +6471,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseRespond",
-    "CaseFieldID": "tseRespondToTribunalText",
+    "CaseFieldID": "tseRespondingToTribunalText",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "tseRespondToTribunal=\"Yes\"",
+    "FieldShowCondition": "tseRespondingToTribunal=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
