@@ -3978,6 +3978,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondingToTribunalText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondingToTribunal",
+    "Label": "Respondent is responding to Tribunal request/order",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "resTseCopyThisCorrespondenceText",
     "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
     "FieldType": "Label",
