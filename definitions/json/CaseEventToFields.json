@@ -6466,6 +6466,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "tseRespondingToTribunal!=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
