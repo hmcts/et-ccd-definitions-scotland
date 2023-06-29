@@ -688,7 +688,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -731,7 +732,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseResponse/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseResponse/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
