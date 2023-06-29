@@ -18523,6 +18523,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseResponseConsider",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseResponseText",
     "UserRole": "et-acas-api",
     "CRUD": "R"
