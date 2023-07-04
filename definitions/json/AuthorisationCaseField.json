@@ -19376,12 +19376,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "sendNotificationCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "sendNotificationCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21315,12 +21309,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "notificationsTabLinks",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "notificationsTabLinks",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
