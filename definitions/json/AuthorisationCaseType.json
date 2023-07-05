@@ -49,12 +49,6 @@
     "CRUD": "R"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeId": "ET_Scotland_Listings",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
     "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
@@ -117,6 +111,12 @@
   {
     "CaseTypeId": "ET_Scotland",
     "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland_Listings",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
