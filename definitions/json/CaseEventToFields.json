@@ -6418,6 +6418,7 @@
     "FieldShowCondition": "tseResponseIntroLabel=\"dummy\"",
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseResponse/midValidateInput",
     "PageLabel": "Your response"
   },
   {
@@ -6461,11 +6462,33 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseRespond",
+    "CaseFieldID": "tseRespondingToTribunal",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "tseResponseTableLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "tseRespond",
     "CaseFieldID": "tseResponseText",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "tseRespondingToTribunal!=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "tseRespondingToTribunalText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "tseRespondingToTribunal=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6475,7 +6498,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {
