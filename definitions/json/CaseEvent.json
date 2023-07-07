@@ -72,7 +72,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "CallBackURLSubmittedEvent":"${ET_COS_URL}/addServiceId",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -131,7 +131,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "CallBackURLSubmittedEvent":"${ET_COS_URL}/addServiceId",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
