@@ -3975,6 +3975,23 @@
     "Label": "What's your response to the claimant's application?",
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondingToTribunalText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseRespondingToTribunal",
+    "Label": "Respondent is responding to Tribunal request/order",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -4997,6 +5014,34 @@
     "Label": "Hearing Bundles",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseFlags",
+    "Label": "Case Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagLauncher",
+    "Label": "Flag Launcher",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentFlags",
+    "Label": "Respondent Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantFlags",
+    "Label": "Claimant Flags",
+    "FieldType": "Flags",
     "SecurityClassification": "Public"
   },
   {
