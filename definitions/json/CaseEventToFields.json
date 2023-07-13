@@ -6186,6 +6186,16 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "suggestedHearingVenues",
     "DisplayContext": "OPTIONAL",
