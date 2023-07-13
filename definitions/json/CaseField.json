@@ -3761,8 +3761,7 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "genericTseDetails",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
