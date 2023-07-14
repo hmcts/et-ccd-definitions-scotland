@@ -3180,141 +3180,153 @@
   },
   {
     "ID": "fl_Part_9",
+    "ListElementCode": "77.1",
+    "ListElement": "77.1 Ack of OT claim and notice of CVP CMPH",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_Part_9",
+    "ListElementCode": "77.2",
+    "ListElement": "77.2 Notice of OT claim and notice of CVP CMPH",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_Part_9",
     "ListElementCode": "78",
     "ListElement": "78 Date listing letters final hearing (not UDL)",
-    "DisplayOrder": 7
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "79",
     "ListElement": "79 Date listing letters UDL",
-    "DisplayOrder": 8
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "80",
     "ListElement": "80 Decision on request for full tribunal for preliminary hearing",
-    "DisplayOrder": 9
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "81",
     "ListElement": "81 Notice of hearing to reconsider rejection of claim/response/employer’s contract claim/response to contract claim",
-    "DisplayOrder": 10
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "82",
     "ListElement": "82 Notice of hearing to consider dismissal of claim response under Rule 27",
-    "DisplayOrder": 11
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "83",
     "ListElement": "83 Notice of hearing to consider dismissal of response under Rule 28",
-    "DisplayOrder": 12
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "84",
     "ListElement": "84 Notice of reconsideration hearing (judgment)",
-    "DisplayOrder": 13
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "85",
     "ListElement": "85 Notice of remedy hearing",
-    "DisplayOrder": 14
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "86",
     "ListElement": "86 Notice of expenses hearing",
-    "DisplayOrder": 15
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "87",
     "ListElement": "87 Notice of hearing to consider Rule 21 judgment",
-    "DisplayOrder": 16
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "90",
     "ListElement": "90 Notice of continued hearing",
-    "DisplayOrder": 17
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91",
     "ListElement": "91 Notice of postponement of hearing",
-    "DisplayOrder": 18
+    "DisplayOrder": 20
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91.A",
     "ListElement": "91A Notice of hearing to consider respondent’s application for extension of time to submit a response",
-    "DisplayOrder": 19
+    "DisplayOrder": 21
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91.B",
     "ListElement": "91B Notice of hearing to consider claimant’s application for extension of time to submit a response to an employer’s contract claim",
-    "DisplayOrder": 20
+    "DisplayOrder": 22
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "195",
     "ListElement": "195 Acknowledgement of appeal and notice of preliminary hearing",
-    "DisplayOrder": 21
+    "DisplayOrder": 23
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "196",
     "ListElement": "196 Notice of appeal and notice of preliminary hearing",
-    "DisplayOrder": 22
+    "DisplayOrder": 24
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "198",
     "ListElement": "198 Notice of preliminary hearing (deposit)",
-    "DisplayOrder": 23
+    "DisplayOrder": 25
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "199",
     "ListElement": "199 Notice of preliminary hearing (preliminary issue)",
-    "DisplayOrder": 24
+    "DisplayOrder": 26
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "200",
     "ListElement": "200 Notice of preliminary hearing (strike out)",
-    "DisplayOrder": 25
+    "DisplayOrder": 27
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "201",
     "ListElement": "201 Notice of preliminary hearing (case management)",
-    "DisplayOrder": 26
+    "DisplayOrder": 28
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "202",
     "ListElement": "202 Notice of preliminary hearing (strike out and deposit)",
-    "DisplayOrder": 27
+    "DisplayOrder": 29
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "222",
     "ListElement": "222 Postponement Granted Rule 30A",
-    "DisplayOrder": 28
+    "DisplayOrder": 30
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "223",
     "ListElement": "223 Postponement Refused Rule 30A",
-    "DisplayOrder": 29
+    "DisplayOrder": 31
   },
   {
     "ID": "fl_Part_10",
@@ -5279,18 +5291,6 @@
     "DisplayOrder": 4
   },
   {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "et3From",
-    "ListElement": "ET3 form",
-    "DisplayOrder": 5
-  },
-  {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "Another type of document",
-    "ListElement": "Another type of document",
-    "DisplayOrder": 6
-  },
-  {
     "ID": "frl_ReferCaseTo",
     "ListElementCode": "Admin",
     "ListElement": "Admin",
@@ -5457,5 +5457,11 @@
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_confirmSubmitEt3",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes - I want to submit this ET3",
+    "DisplayOrder": 1
   }
 ]
