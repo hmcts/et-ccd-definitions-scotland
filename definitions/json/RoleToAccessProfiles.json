@@ -79,70 +79,70 @@
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORA]",
+        "RoleName": "[SOLICITORA]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORA]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORB]",
+        "RoleName": "[SOLICITORB]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORB]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORC]",
+        "RoleName": "[SOLICITORC]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORC]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORD]",
+        "RoleName": "[SOLICITORD]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORD]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORE]",
+        "RoleName": "[SOLICITORE]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORE]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORF]",
+        "RoleName": "[SOLICITORF]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORF]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORG]",
+        "RoleName": "[SOLICITORG]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORG]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORH]",
+        "RoleName": "[SOLICITORH]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORH]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORI]",
+        "RoleName": "[SOLICITORI]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORI]"
     },
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_Scotland",
-        "RoleName": "idam:[SOLICITORJ]",
+        "RoleName": "[SOLICITORJ]",
         "ReadOnly": "N",
         "AccessProfiles": "[SOLICITORJ]"
     },
