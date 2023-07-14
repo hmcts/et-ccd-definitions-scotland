@@ -6944,6 +6944,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseReply",
+    "ListElementCode": "viewedByClaimant",
+    "FieldType": "Text",
+    "ElementLabel": "Viewed by the claimant",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -7454,14 +7461,6 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "addDocument",
-    "FieldType": "Collection",
-    "ElementLabel": "Add document",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
   },
   {
     "ID": "HearingBundle",
