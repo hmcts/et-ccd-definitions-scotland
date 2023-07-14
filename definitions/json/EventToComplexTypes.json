@@ -6321,6 +6321,15 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "EventElementLabel": "Should the case be listed listed for a private preliminary hearing?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICTypeOfPreliminaryHearing",
     "EventElementLabel": "Type of preliminary hearing",
