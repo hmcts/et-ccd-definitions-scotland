@@ -5086,6 +5086,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseDeepLink",
+    "Label": "hidden",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
