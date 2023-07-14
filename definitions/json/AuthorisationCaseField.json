@@ -22075,6 +22075,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "publicCaseName",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseFlags",
     "UserRole": "et-acas-api",
     "CRUD": "R"
