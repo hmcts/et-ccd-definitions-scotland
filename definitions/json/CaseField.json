@@ -164,6 +164,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "nextListedDate",
+    "Label": "Next Listed Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "feeGroupReference",
     "Label": "Submission Reference",
     "HintText": "Submission Reference (12 or 16 digit number)",
