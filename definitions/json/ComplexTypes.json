@@ -6086,7 +6086,7 @@
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICPrelimHearingYesNo",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Should the case be listed listed for a private preliminary hearing?",
+    "ElementLabel": "Should the case be listed for a private preliminary hearing?",
     "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
