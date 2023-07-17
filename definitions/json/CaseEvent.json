@@ -413,6 +413,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit"
   },
   {

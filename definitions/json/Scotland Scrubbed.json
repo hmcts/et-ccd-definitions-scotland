@@ -5463,5 +5463,425 @@
     "ListElementCode": "Yes",
     "ListElement": "Yes - I want to submit this ET3",
     "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Starting a Claim",
+    "ListElement": "Starting a Claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Response to a Claim",
+    "ListElement": "Response to a Claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Initial Consideration",
+    "ListElement": "Initial Consideration",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Case Management",
+    "ListElement": "Case Management",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Withdrawal/Settled",
+    "ListElement": "Withdrawal/Settled",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Hearings",
+    "ListElement": "Hearings",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Judgment and Reasons",
+    "ListElement": "Judgment and Reasons",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Reconsideration",
+    "ListElement": "Reconsideration",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Misc",
+    "ListElement": "Misc",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_DocumentCategories",
+    "ListElementCode": "Legacy Document Names",
+    "ListElement": "Legacy Document Names",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "ET1",
+    "ListElement": "ET1",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "ET1 Attachment",
+    "ListElement": "ET1 Attachment",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "ACAS Certificate",
+    "ListElement": "ACAS Certificate",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "Notice of claim",
+    "ListElement": "Notice of claim",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "Claim accepted",
+    "ListElement": "Claim accepted",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "Claim rejected",
+    "ListElement": "Claim rejected",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "Claim part rejected",
+    "ListElement": "Claim part rejected",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_ResponseToAClaim",
+    "ListElementCode": "ET3",
+    "ListElement": "ET3",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_ResponseToAClaim",
+    "ListElementCode": "ET3 Attachment",
+    "ListElement": "ET3 Attachment",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_ResponseToAClaim",
+    "ListElementCode": "Response accepted",
+    "ListElement": "Response accepted",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_ResponseToAClaim",
+    "ListElementCode": "Response rejected",
+    "ListElement": "Response rejected",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_ResponseToAClaim",
+    "ListElementCode": "App to extend time to present a response",
+    "ListElement": "App to extend time to present a response",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_InitialConsideration",
+    "ListElementCode": "Initial Consideration",
+    "ListElement": "Initial Consideration",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_InitialConsideration",
+    "ListElementCode": "Rule 27 Notice",
+    "ListElement": "Rule 27 Notice",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_InitialConsideration",
+    "ListElementCode": "Rule 28 Notice",
+    "ListElement": "Rule 28 Notice",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Tribunal Order",
+    "ListElement": "Tribunal Order",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Deposit Order",
+    "ListElement": "Deposit Order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Unless Order",
+    "ListElement": "Unless Order",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Tribunal Notice",
+    "ListElement": "Tribunal Notice",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to vary an order – C",
+    "ListElement": "App to vary an order – C",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to vary an order – R",
+    "ListElement": "App to vary an order – R",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to revoke an order- C",
+    "ListElement": "App to revoke an order- C",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to revoke an order – R",
+    "ListElement": "App to revoke an order – R",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to extend time to comply to an order/directions – C",
+    "ListElement": "App to extend time to comply to an order/directions – C",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to extend time to comply to an order/directions – R",
+    "ListElement": "App to extend time to comply to an order/directions – R",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to Order the R to do something",
+    "ListElement": "App to Order the R to do something",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to Order the C to do something",
+    "ListElement": "App to Order the C to do something",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to amend claim",
+    "ListElement": "App to amend claim",
+    "DisplayOrder": 13
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to amend response",
+    "ListElement": "App to amend response",
+    "DisplayOrder": 14
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App for a Witness Order",
+    "ListElement": "App for a Witness Order",
+    "DisplayOrder": 15
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Disability Impact statement",
+    "ListElement": "Disability Impact statement",
+    "DisplayOrder": 16
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "R has not complied with an order - C",
+    "ListElement": "R has not complied with an order - C",
+    "DisplayOrder": 17
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "C has not complied with an order - R",
+    "ListElement": "C has not complied with an order - R",
+    "DisplayOrder": 18
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to Strike out all or part of the claim",
+    "ListElement": "App to Strike out all or part of the claim",
+    "DisplayOrder": 19
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App to Strike out all or part of the response",
+    "ListElement": "App to Strike out all or part of the response",
+    "DisplayOrder": 20
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Referral/Judicial Direction",
+    "ListElement": "Referral/Judicial Direction",
+    "DisplayOrder": 21
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "Change of party’s details",
+    "ListElement": "Change of party’s details",
+    "DisplayOrder": 22
+  },
+  {
+    "ID": "fl_WithdrawalSettled",
+    "ListElementCode": "Withdrawal of entire claim",
+    "ListElement": "Withdrawal of entire claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_WithdrawalSettled",
+    "ListElementCode": "Withdrawal of part of claim",
+    "ListElement": "Withdrawal of part of claim",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_WithdrawalSettled",
+    "ListElementCode": "COT3",
+    "ListElement": "COT3",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "App to restrict publicity- C",
+    "ListElement": "App to restrict publicity- C",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "App to restrict publicity- R",
+    "ListElement": "App to restrict publicity- R",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "Anonymity Order",
+    "ListElement": "Anonymity Order",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "Notice of Hearing",
+    "ListElement": "Notice of Hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "App to postpone– C",
+    "ListElement": "App to postpone– C",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "App to postpone – R",
+    "ListElement": "App to postpone – R",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "Hearing Bundle",
+    "ListElement": "Hearing Bundle",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "Schedule of loss",
+    "ListElement": "Schedule of loss",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_Hearings",
+    "ListElementCode": "Counter Schedule of Loss",
+    "ListElement": "Counter Schedule of Loss",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_JudgmentAndReasons",
+    "ListElementCode": "Judgment",
+    "ListElement": "Judgment",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_JudgmentAndReasons",
+    "ListElementCode": "Judgment with Reasons",
+    "ListElement": "Judgment with Reasons",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_JudgmentAndReasons",
+    "ListElementCode": "Reasons",
+    "ListElement": "Reasons",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_JudgmentAndReasons",
+    "ListElementCode": "Extract of Judgment",
+    "ListElement": "Extract of Judgment",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Reconsideration",
+    "ListElementCode": "App to have a Legal Officer decision considered afresh - C",
+    "ListElement": "App to have a Legal Officer decision considered afresh - C",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Reconsideration",
+    "ListElementCode": "App to have a Legal Officer decision considered afresh - R",
+    "ListElement": "App to have a Legal Officer decision considered afresh - R",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Reconsideration",
+    "ListElementCode": "App for a judgment to be reconsidered - C",
+    "ListElement": "App for a judgment to be reconsidered - C",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Reconsideration",
+    "ListElementCode": "App for a judgment to be reconsidered - R",
+    "ListElement": "App for a judgment to be reconsidered - R",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Misc",
+    "ListElementCode": "Certificate of Correction",
+    "ListElement": "Certificate of Correction",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Misc",
+    "ListElementCode": "Tribunal Case file",
+    "ListElement": "Tribunal Case file",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Misc",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 3
   }
 ]
