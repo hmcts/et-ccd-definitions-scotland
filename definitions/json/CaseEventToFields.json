@@ -1247,17 +1247,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "amendCaseDetails",
-    "CaseFieldID": "nextListedDate",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 19,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "additionalCaseInfo",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
