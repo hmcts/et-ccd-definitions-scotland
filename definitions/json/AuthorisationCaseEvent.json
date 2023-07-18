@@ -1250,6 +1250,12 @@
     "CaseEventID": "respondentTSE",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
+  },  
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "respondentTSE",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -1285,6 +1291,12 @@
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "tseRespond",
     "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "tseRespond",
+    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRU"
   },
   {
@@ -1589,8 +1601,20 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "CLAIMANT_TSE_RESPOND",
     "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRUD"
   },
   {
@@ -1916,5 +1940,29 @@
     "CaseEventID": "bundlesRespondentPrepareDoc",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
   }
 ]

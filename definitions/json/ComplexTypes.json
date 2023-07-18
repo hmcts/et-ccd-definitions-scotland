@@ -6944,6 +6944,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseReply",
+    "ListElementCode": "viewedByClaimant",
+    "FieldType": "Text",
+    "ElementLabel": "Viewed by the claimant",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -7058,6 +7065,20 @@
     "ListElementCode": "closeApplicationNote",
     "FieldType": "Text",
     "ElementLabel": "General notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "respondentResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "If there are tribunal requests/orders that required a response from Respondent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "claimantResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "If there are tribunal requests/orders that required a response from Claimant",
     "SecurityClassification": "Public"
   },
   {
@@ -7440,14 +7461,6 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "addDocument",
-    "FieldType": "Collection",
-    "ElementLabel": "Add document",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
   },
   {
     "ID": "HearingBundle",

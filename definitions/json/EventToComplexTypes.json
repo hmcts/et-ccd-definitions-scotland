@@ -6850,6 +6850,16 @@
     "RetainHiddenValue": "No"
   },
   {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
     "ID": "respondNotificationUploadDocument",
     "CaseFieldID": "respondNotificationUploadDocument",
     "CaseEventID": "respondNotification",
