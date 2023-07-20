@@ -5418,21 +5418,15 @@
   },
   {
     "ID": "fl_ReferralSubject",
-    "ListElementCode": "Rule 21 Referral",
-    "ListElement": "Rule 21 Referral",
-    "DisplayOrder": 21
-  },
-  {
-    "ID": "fl_ReferralSubject",
     "ListElementCode": "Initial Consideration",
     "ListElement": "Initial Consideration",
-    "DisplayOrder": 22
+    "DisplayOrder": 21
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Other",
     "ListElement": "Other",
-    "DisplayOrder": 23
+    "DisplayOrder": 22
   },
   {
     "ID": "msl_confirmCloseReferral",
