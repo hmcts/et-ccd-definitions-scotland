@@ -5956,9 +5956,8 @@
     "FieldShowCondition": "referralHearingDetailsLabel=\"dummy\"",
     "DisplayContext": "READONLY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
     "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
@@ -5968,7 +5967,7 @@
     "CaseFieldID": "referralHearingDetailsLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
@@ -5978,9 +5977,8 @@
     "CaseFieldID": "updateReferCaseTo",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -5989,9 +5987,8 @@
     "CaseFieldID": "updateReferentEmail",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -6000,9 +5997,8 @@
     "CaseFieldID": "updateIsUrgent",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -6011,9 +6007,8 @@
     "CaseFieldID": "updateReferralSubject",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 6,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -6022,9 +6017,8 @@
     "CaseFieldID": "updateReferralDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 7,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -6033,9 +6027,8 @@
     "CaseFieldID": "updateReferralDocument",
     "DisplayContext": "COMPLEX",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 8,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -6044,11 +6037,10 @@
     "CaseFieldID": "updateReferralSubjectSpecify",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "updateReferralSubject =\"Other\"",
     "RetainHiddenValue": "Yes",
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
@@ -6057,9 +6049,8 @@
     "CaseFieldID": "updateReferralInstruction",
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
-    "PageDisplayOrder": 1,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 10,
-    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
   {
