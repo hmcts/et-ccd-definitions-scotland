@@ -54,7 +54,7 @@
     "ID": "UPDATE_APPLICATION_STATE",
     "Name": "View an application",
     "Description": "View an application",
-    "DisplayOrder": 59,
+    "DisplayOrder": 44,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
