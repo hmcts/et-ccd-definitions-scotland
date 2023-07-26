@@ -1074,7 +1074,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "et3DueDate",
-    "DisplayContext": "READONLY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
@@ -5793,52 +5793,10 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3PrintAndSendPaperDocuments",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 1,
-    "PageLabel": "Send documents",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3SendDocByFirstClass",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 2,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3ClaimantAndRespondentAddresses",
-    "DisplayContext": "READONLY",
-    "FieldShowCondition": "et3PrintAndSendPaperDocuments=\"dummy\"",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3ClaimantAndRespondentAddressesLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 4,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailDocsToAcasTitle",
     "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Email Acas",
     "PageColumnNumber": 1
@@ -5849,8 +5807,8 @@
     "CaseFieldID": "et3EmailLinkToAcas",
     "DisplayContext": "MANDATORY",
     "FieldShowCondition": "et3EmailDocsToAcasTitle=\"dummy\"",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
@@ -5859,8 +5817,8 @@
     "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailDocsToAcasLink",
     "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 3,
     "PageColumnNumber": 1
   },
@@ -5869,8 +5827,8 @@
     "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailDocsToAcasInstructions",
     "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
@@ -6477,6 +6435,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "tseRespondingToTribunal!=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
   {

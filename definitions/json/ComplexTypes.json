@@ -3790,7 +3790,7 @@
     "ListElementCode": "dynamicHearingNumber",
     "FieldType": "DynamicList",
     "ElementLabel": "Hearing Number",
-    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
+    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"77.1\" OR Part_9_Scot_Documents=\"77.2\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -3984,7 +3984,7 @@
     "ListElementCode": "dynamicHearingNumber",
     "FieldType": "DynamicList",
     "ElementLabel": "Hearing Number",
-    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
+    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"77.1\" OR Part_9_Scot_Documents=\"77.2\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -6953,6 +6953,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseReply",
+    "ListElementCode": "viewedByClaimant",
+    "FieldType": "Text",
+    "ElementLabel": "Viewed by the claimant",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -7463,14 +7470,6 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "addDocument",
-    "FieldType": "Collection",
-    "ElementLabel": "Add document",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
   },
   {
     "ID": "HearingBundle",
