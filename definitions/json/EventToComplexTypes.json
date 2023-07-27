@@ -395,8 +395,48 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
     "EventElementLabel": "Name of respondent",
+    "FieldShowCondition": "respondentType !=\"\"",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "CreateCase",
@@ -404,7 +444,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_question",
     "EventElementLabel": "Is there an ACAS Certificate number?",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -413,7 +453,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS",
     "EventElementLabel": "ACAS Certificate Number",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -422,7 +462,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_no",
     "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -431,7 +471,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -439,7 +479,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine2",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -447,7 +487,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine3",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -456,7 +496,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -465,7 +505,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -474,7 +514,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -483,7 +523,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -492,7 +532,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone1",
     "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1184,8 +1224,48 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
     "EventElementLabel": "Name of respondent",
+    "FieldShowCondition": "respondentType !=\"\"",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "CreateDraftCase",
@@ -1193,7 +1273,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_question",
     "EventElementLabel": "Is there an ACAS Certificate number?",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -1202,7 +1282,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS",
     "EventElementLabel": "ACAS Certificate Number",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -1211,7 +1291,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_no",
     "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -1220,7 +1300,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -1228,7 +1308,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine2",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1236,7 +1316,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine3",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1245,7 +1325,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1254,7 +1334,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1263,7 +1343,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1272,7 +1352,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -1281,7 +1361,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone1",
     "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1290,7 +1370,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": "Has the ET3 form been received?",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2198,8 +2278,48 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
     "EventElementLabel": "Name of respondent",
+    "FieldShowCondition": "respondentType !=\"\"",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "UpdateCase",
@@ -2207,7 +2327,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_question",
     "EventElementLabel": "Is there an ACAS Certificate number?",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2216,7 +2336,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS",
     "EventElementLabel": "ACAS Certificate Number",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2225,7 +2345,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_no",
     "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2234,7 +2354,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2242,7 +2362,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine2",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2250,7 +2370,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine3",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2259,7 +2379,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2268,7 +2388,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2277,7 +2397,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2286,7 +2406,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -2295,7 +2415,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone1",
     "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2304,7 +2424,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": "Has the ET3 form been received?",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3416,8 +3536,48 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
     "EventElementLabel": "Name of respondent",
+    "FieldShowCondition": "respondentType !=\"\"",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "Respondent",
@@ -3425,7 +3585,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_question",
     "EventElementLabel": "Is there an ACAS Certificate number?",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3434,7 +3594,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS",
     "EventElementLabel": "ACAS Certificate Number",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3443,7 +3603,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_no",
     "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3451,7 +3611,7 @@
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3521,7 +3681,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone1",
     "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3530,7 +3690,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone2",
     "EventElementLabel": "Alternative number",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3539,7 +3699,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_email",
     "EventElementLabel": "Email address",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3548,7 +3708,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_contact_preference",
     "EventElementLabel": "Contact preference",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3557,7 +3717,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseContinue",
     "EventElementLabel": "Is the claim against this Respondent continuing? ",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3566,7 +3726,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "extensionRequested",
     "EventElementLabel": "Has there been a request for an extension?",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3575,7 +3735,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "extensionGranted",
     "EventElementLabel": "Has the request for extension been granted?",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3584,7 +3744,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "extensionDate",
     "EventElementLabel": "Enter the extension date",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3593,7 +3753,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": "Has the ET3 form been received?",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 18,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3602,7 +3762,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceivedDate",
     "EventElementLabel": "Response received date",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3611,7 +3771,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentName",
     "EventElementLabel": "Title",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3620,7 +3780,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReference",
     "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 17,
+    "FieldDisplayOrder": 21,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3629,7 +3789,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOut",
     "EventElementLabel": "Response Struck Out",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 22,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3638,7 +3798,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutDate",
     "EventElementLabel": "Struck Out Date",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 23,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3647,7 +3807,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutChairman",
     "EventElementLabel": "Judge's only consent",
-    "FieldDisplayOrder": 20,
+    "FieldDisplayOrder": 24,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3656,7 +3816,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutReason",
     "EventElementLabel": "Why struck out",
-    "FieldDisplayOrder": 21,
+    "FieldDisplayOrder": 25,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3665,7 +3825,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_status",
     "EventElementLabel": "Response",
-    "FieldDisplayOrder": 22,
+    "FieldDisplayOrder": 26,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3674,7 +3834,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseToClaim",
     "EventElementLabel": "Is the claim resisted?",
-    "FieldDisplayOrder": 23,
+    "FieldDisplayOrder": 27,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3683,7 +3843,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "rejection_reason",
     "EventElementLabel": "Reason for the rejection",
-    "FieldDisplayOrder": 24,
+    "FieldDisplayOrder": 28,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3692,7 +3852,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "rejection_reason_other",
     "EventElementLabel": "Reason for the rejection",
-    "FieldDisplayOrder": 25,
+    "FieldDisplayOrder": 29,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3701,7 +3861,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotes",
     "EventElementLabel": "Notes",
-    "FieldDisplayOrder": 26,
+    "FieldDisplayOrder": 30,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3710,7 +3870,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_referred_to_judge",
     "EventElementLabel": "Date referred to Judge",
-    "FieldDisplayOrder": 27,
+    "FieldDisplayOrder": 31,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3719,7 +3879,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_returned_from_judge",
     "EventElementLabel": "Date returned from Judge",
-    "FieldDisplayOrder": 28,
+    "FieldDisplayOrder": 32,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3728,7 +3888,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseOutOfTime",
     "EventElementLabel": "Response received outside of time allowed?",
-    "FieldDisplayOrder": 29,
+    "FieldDisplayOrder": 33,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3737,7 +3897,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotOnPrescribedForm",
     "EventElementLabel": "Not on prescribed form?",
-    "FieldDisplayOrder": 30,
+    "FieldDisplayOrder": 34,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3746,7 +3906,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRequiredInfoAbsent",
     "EventElementLabel": "Required information missing?",
-    "FieldDisplayOrder": 31,
+    "FieldDisplayOrder": 35,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3755,7 +3915,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress",
     "EventElementLabel": "Respondent Address (from the ET3 form)",
-    "FieldDisplayOrder": 32,
+    "FieldDisplayOrder": 36,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3763,7 +3923,7 @@
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "et3Vetting",
-    "FieldDisplayOrder": 33,
+    "FieldDisplayOrder": 37,
     "DisplayContext": "READONLY",
     "FieldShowCondition": "responseRespondentAddress=\"dummy\""
   },
