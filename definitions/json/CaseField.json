@@ -4996,7 +4996,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "hmctsInternalCaseName",
+    "ID": "caseNameHmctsInternal",
     "Label": "claimant vs respondent",
     "FieldType": "Text",
     "SecurityClassification": "Public"

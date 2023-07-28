@@ -21943,7 +21943,7 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "hmctsInternalCaseName",
+    "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
