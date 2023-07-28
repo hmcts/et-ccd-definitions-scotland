@@ -5079,6 +5079,24 @@
     "SecurityClassification": "Public"
   },
   {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseLinks",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseLink",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "LinkedCasesComponentLauncher",
+    "Label": "Component Launcher (for displaying Linked Cases data)",
+    "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
