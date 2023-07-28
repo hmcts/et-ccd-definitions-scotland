@@ -1266,6 +1266,15 @@
     "DisplayContextParameter": "#ARGUMENT(LinkedCases)"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseLinksTab",
+    "TabLabel": "Linked cases",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "caseLinks=\"dummy\""
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",
