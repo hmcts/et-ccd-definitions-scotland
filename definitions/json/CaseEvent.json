@@ -1312,5 +1312,33 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "createCaseLink",
+    "Name": "Link cases",
+    "Description": "To link related cases",
+    "DisplayOrder": 63,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "ShowSummary": "N",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Case Link",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "maintainCaseLink",
+    "Name": "Manage case links",
+    "Description": "To maintain linked cases",
+    "DisplayOrder": 64,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "ShowSummary": "N",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Maintain Case Links",
+    "Publish": "Y"
   }
 ]

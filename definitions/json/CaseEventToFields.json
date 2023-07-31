@@ -8031,6 +8031,52 @@
     "RetainHiddenValue": "Yes"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(CREATE,LinkedCases)",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(UPDATE,LinkedCases)",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
