@@ -5908,8 +5908,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "Publish": "Y"
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5931,8 +5930,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "Publish": "Y"
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5943,8 +5941,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "Publish": "Y"
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5994,6 +5991,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "FieldShowCondition": "referralHearingDetailsLabel=\"dummy\"",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "selectReferral",
     "DisplayContext": "MANDATORY",
@@ -6012,6 +6021,18 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "FieldShowCondition": "selectReferral=\"dummy\"",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
   {
