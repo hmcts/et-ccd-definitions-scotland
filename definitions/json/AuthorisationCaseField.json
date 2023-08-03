@@ -22130,14 +22130,14 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseLinks",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "LinkedCasesComponentLauncher",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
