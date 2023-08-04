@@ -6423,6 +6423,91 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralNumber",
+    "FieldType": "Text",
+    "ElementLabel": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralHearingDate",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferCaseTo",
+    "FieldType": "Text",
+    "ElementLabel": "Referred to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferentEmail",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details of the referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateIsUrgent",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralSubject",
+    "FieldType": "Text",
+    "ElementLabel": "Subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralSubjectSpecify",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralInstruction",
+    "FieldType": "Text",
+    "ElementLabel": "Recommended instructions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferredBy",
+    "FieldType": "Text",
+    "ElementLabel": "Referred by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDate",
+    "FieldType": "Text",
+    "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "referralDetails",
     "ListElementCode": "referralNumber",
     "FieldType": "Text",
@@ -6527,6 +6612,14 @@
     "FieldType": "Collection",
     "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "updateReferralCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Updates",
+    "FieldTypeParameter": "updateReferralDetails",
     "SecurityClassification": "Public"
   },
   {
