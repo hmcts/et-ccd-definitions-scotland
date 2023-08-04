@@ -3790,7 +3790,7 @@
     "ListElementCode": "dynamicHearingNumber",
     "FieldType": "DynamicList",
     "ElementLabel": "Hearing Number",
-    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
+    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"77.1\" OR Part_9_Scot_Documents=\"77.2\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -3984,7 +3984,7 @@
     "ListElementCode": "dynamicHearingNumber",
     "FieldType": "DynamicList",
     "ElementLabel": "Hearing Number",
-    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
+    "FieldShowCondition": "Part_9_Scot_Documents=\"72\" OR  Part_9_Scot_Documents=\"73\" OR Part_9_Scot_Documents=\"74\" OR Part_9_Scot_Documents=\"75\" OR Part_9_Scot_Documents=\"76\" OR Part_9_Scot_Documents=\"77.1\" OR Part_9_Scot_Documents=\"77.2\" OR Part_9_Scot_Documents=\"80\" OR Part_9_Scot_Documents=\"81\" OR Part_9_Scot_Documents=\"82\" OR Part_9_Scot_Documents=\"83\" OR Part_9_Scot_Documents=\"84\" OR Part_9_Scot_Documents=\"85\" OR Part_9_Scot_Documents=\"86\" OR Part_9_Scot_Documents=\"87\" OR Part_9_Scot_Documents=\"90\" OR Part_9_Scot_Documents=\"91\" OR Part_9_Scot_Documents=\"91.A\" OR Part_9_Scot_Documents=\"91.B\" OR Part_9_Scot_Documents=\"195\" OR Part_9_Scot_Documents=\"196\" OR Part_9_Scot_Documents=\"198\" OR Part_9_Scot_Documents=\"199\" OR Part_9_Scot_Documents=\"200\" OR Part_9_Scot_Documents=\"201\" OR Part_9_Scot_Documents=\"202\" OR Part_9_Scot_Documents=\"222\" OR Part_9_Scot_Documents=\"223\" ",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -6423,6 +6423,91 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralNumber",
+    "FieldType": "Text",
+    "ElementLabel": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralHearingDate",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferCaseTo",
+    "FieldType": "Text",
+    "ElementLabel": "Referred to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferentEmail",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details of the referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateIsUrgent",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralSubject",
+    "FieldType": "Text",
+    "ElementLabel": "Subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralSubjectSpecify",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralInstruction",
+    "FieldType": "Text",
+    "ElementLabel": "Recommended instructions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferredBy",
+    "FieldType": "Text",
+    "ElementLabel": "Referred by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDate",
+    "FieldType": "Text",
+    "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "referralDetails",
     "ListElementCode": "referralNumber",
     "FieldType": "Text",
@@ -6527,6 +6612,14 @@
     "FieldType": "Collection",
     "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "updateReferralCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Updates",
+    "FieldTypeParameter": "updateReferralDetails",
     "SecurityClassification": "Public"
   },
   {
