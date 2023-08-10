@@ -17173,31 +17173,31 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
