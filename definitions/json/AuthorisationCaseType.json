@@ -5,7 +5,8 @@
       "caseworker-et-pcqextractor",
       "caseworker-employment",
       "caseworker-employment-etjudge",
-      "et-acas-api"
+      "et-acas-api",
+      "caseworker-ras-validation"
     ],
     "CRUD": "R"
   },
@@ -42,6 +43,13 @@
   {
     "CaseTypeId": "ET_Scotland_Listings",
     "UserRoles": [
+      "caseworker-ras-validation"
+    ],
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
+    "UserRoles": [
       "caseworker-employment-scotland",
       "caseworker-employment-etjudge-scotland",
       "caseworker-wa-task-configuration"
@@ -52,6 +60,13 @@
     "CaseTypeId": "ET_Scotland_Listings",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "UserRoles": [
+      "caseworker-ras-validation"
+    ],
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
