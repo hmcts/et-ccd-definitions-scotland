@@ -1855,7 +1855,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocument",
     "CaseFieldID": "documentCollection",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -6339,6 +6339,31 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Case Documents"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createAndStitch",
+    "CaseFieldID": "bundleConfiguration",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "CallBackURLMidEvent": "${ET_COS_URL}/bundle/selectBundle",
+    "PageLabel": "Choose case file",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createAndStitch",
+    "CaseFieldID": "caseBundles",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Configure case file",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
