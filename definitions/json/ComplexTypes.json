@@ -123,7 +123,6 @@
     "ListElementCode": "dateOfCorrespondence",
     "FieldType": "Date",
     "ElementLabel": "Date of Correspondence",
-    "DisplayContextParameter": "#DATETIMEENTRY(dd/MM/yyyy)",
     "SecurityClassification": "Public"
   },
   {
