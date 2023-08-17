@@ -21656,12 +21656,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "digitalCaseFile",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "digitalCaseFile",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
