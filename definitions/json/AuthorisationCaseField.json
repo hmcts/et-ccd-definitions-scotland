@@ -21680,12 +21680,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
