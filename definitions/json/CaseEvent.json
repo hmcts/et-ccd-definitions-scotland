@@ -190,7 +190,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "publish": "Y"
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
