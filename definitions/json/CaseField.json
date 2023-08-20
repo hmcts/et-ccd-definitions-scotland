@@ -336,6 +336,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "claimantDocumentCollection",
+    "Label": "Claimant Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "respondentCollection",
     "Label": "Respondents",
     "FieldType": "Collection",
