@@ -2444,7 +2444,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantDocumentCollection",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
