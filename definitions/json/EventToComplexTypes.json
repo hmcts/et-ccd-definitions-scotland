@@ -7031,16 +7031,6 @@
     "ID": "genericTseDetails",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "type",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "genericTseDetails",
-    "CaseEventID": "tseRespond",
-    "CaseFieldID": "genericTseApplicationCollection",
     "ListElementCode": "applicant",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 2,
