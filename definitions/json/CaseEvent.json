@@ -118,8 +118,7 @@
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "Publish": "Y"
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
