@@ -22314,6 +22314,12 @@
     "CRUD": "R"
   },
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hearingIsLinkedFlag",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",
