@@ -31,7 +31,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseFieldID": "currentPosition",
+    "CaseFieldID": "positionType",
     "Label": "Current Position",
     "DisplayOrder": 6
   },
