@@ -30,6 +30,12 @@
     "DisplayOrder": 5
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "currentPosition",
+    "Label": "Current Position",
+    "DisplayOrder": 6
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "CaseFieldID": "documentName",
     "Label": "Document Name",
