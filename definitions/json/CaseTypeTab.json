@@ -315,6 +315,13 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantDocumentCollection",
+    "TabFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
     "TabLabel": "ET1 Vetting",
     "TabDisplayOrder": 3,
