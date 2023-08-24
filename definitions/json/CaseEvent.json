@@ -190,7 +190,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "publish": "Y"
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -636,7 +636,8 @@
     "PostConditionState": "Closed",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
