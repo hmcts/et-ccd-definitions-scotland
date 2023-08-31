@@ -293,8 +293,15 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantDocumentCollection",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
     "CaseFieldID": "claimantWorkAddress",
-    "TabFieldDisplayOrder": 7,
+    "TabFieldDisplayOrder": 8,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\""
   },
   {
@@ -302,7 +309,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "companyPremises",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\""
   },
   {
@@ -310,13 +317,6 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantHearingPreference",
-    "TabFieldDisplayOrder": 9
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 10
   },
   {
