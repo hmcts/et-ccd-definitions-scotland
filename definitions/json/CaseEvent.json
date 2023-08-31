@@ -1280,5 +1280,44 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCase",
+    "Name": "Migrate Case",
+    "Description": "Migrate Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-migration/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "migrateCase",
+    "Name": "Migrate Case",
+    "Description": "Migrate Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-migration/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "migrateCase",
+    "Name": "Migrate Case",
+    "Description": "Migrate Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-migration/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]

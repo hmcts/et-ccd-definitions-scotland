@@ -5243,6 +5243,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "claimant",
+    "Label": "Claimant",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "ID": "respondent",
+    "Label": "Respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "managingOffice",
     "Label": "Managing Office",
@@ -5770,5 +5784,19 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "claimant",
+    "Label": "Claimant",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "respondent",
+    "Label": "Respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
