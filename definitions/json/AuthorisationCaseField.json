@@ -21865,6 +21865,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
@@ -21933,6 +21939,30 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentFlags",
     "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseLinks",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseLinks",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
