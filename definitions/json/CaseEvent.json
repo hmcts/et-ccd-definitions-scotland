@@ -909,6 +909,20 @@
     "EndButtonLabel": "Close and return to case details"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "partyUnavailability",
+    "Name": "Hearings: Unavailability dates",
+    "Description": "party unavailability date ranges for hearing request",
+    "PreConditionState(s)": "Accepted;Rejected",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingUnavailability/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/hearingUnavailability/submitted"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
