@@ -279,21 +279,21 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantType",
+    "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantOtherType",
+    "CaseFieldID": "claimantType",
     "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantDocumentCollection",
+    "CaseFieldID": "claimantOtherType",
     "TabFieldDisplayOrder": 7
   },
   {
