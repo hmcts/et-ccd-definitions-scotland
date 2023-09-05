@@ -331,7 +331,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendClaimantDetails",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -358,7 +359,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentDetails",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
