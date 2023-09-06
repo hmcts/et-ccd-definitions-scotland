@@ -7075,5 +7075,41 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "claimantUnavailability",
+    "ListElementCode": "unavailable_from",
+    "EventElementLabel": "Unavailable from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "claimantUnavailability",
+    "ListElementCode": "unavailable_to",
+    "EventElementLabel": "Unavailable to",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "respondentUnavailability",
+    "ListElementCode": "unavailable_from",
+    "EventElementLabel": "Unavailable from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "respondentUnavailability",
+    "ListElementCode": "unavailable_to",
+    "EventElementLabel": "Unavailable to",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
   }
 ]

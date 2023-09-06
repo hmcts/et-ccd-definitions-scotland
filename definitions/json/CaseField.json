@@ -5180,6 +5180,30 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "partySelection",
+    "Label": "Which parties do you have hearing unavailability dates for?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "frl_partyUnavailability",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantUnavailability",
+    "Label": "Claimant unavailability date ranges",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "UnavailabilityDateRange", 
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentUnavailability",
+    "Label": "Respondent unavailability date ranges",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "UnavailabilityDateRange", 
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

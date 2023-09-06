@@ -7649,5 +7649,19 @@
     "FieldType": "Text",
     "ElementLabel": "Whose hearing documents are you uploading?",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "ListElementCode": "unavailableFromDate",
+    "FieldType": "Date",
+    "ElementLabel": "Unavailable from:",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "ListElementCode": "unavailableToDate",
+    "FieldType": "Date",
+    "ElementLabel": "Unavailable to:",
+    "SecurityClassification": "Public"
   }
 ]
