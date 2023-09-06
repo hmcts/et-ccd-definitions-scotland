@@ -1,0 +1,485 @@
+[
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C1",
+        "CategoryLabel": "Starting a Claim",
+        "DisplayOrder": 1,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C2",
+        "CategoryLabel": "Response to a Claim",
+        "DisplayOrder": 2,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C3",
+        "CategoryLabel": "Initial Consideration",
+        "DisplayOrder": 3,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C4",
+        "CategoryLabel": "Case Management",
+        "DisplayOrder": 4,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C5",
+        "CategoryLabel": "Withdrawal /Settled",
+        "DisplayOrder": 5,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C6",
+        "CategoryLabel": "Hearings",
+        "DisplayOrder": 6,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C7",
+        "CategoryLabel": "Judgment and Reasons",
+        "DisplayOrder": 7,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C8",
+        "CategoryLabel": "Reconsideration",
+        "DisplayOrder": 8,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C9",
+        "CategoryLabel": "Miscellaneous",
+        "DisplayOrder": 9,
+        "ParentCategoryID": ""
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C11",
+        "CategoryLabel": "ET1",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C12",
+        "CategoryLabel": "ET 1 Attachment",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C13",
+        "CategoryLabel": "ACAS Certificate",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C14",
+        "CategoryLabel": "Notice of claim",
+        "DisplayOrder": 4,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C15",
+        "CategoryLabel": "Claim accepted",
+        "DisplayOrder": 5,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C16",
+        "CategoryLabel": "Claim rejected",
+        "DisplayOrder": 6,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C17",
+        "CategoryLabel": "Claim part rejected",
+        "DisplayOrder": 7,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C18",
+        "CategoryLabel": "ET3",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C2"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C19",
+        "CategoryLabel": "ET3 Attachment",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C2"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C20",
+        "CategoryLabel": "Response accepted",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C2"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C21",
+        "CategoryLabel": "Response rejected",
+        "DisplayOrder": 4,
+        "ParentCategoryID": "C2"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C22",
+        "CategoryLabel": "App to extend time to present a response",
+        "DisplayOrder": 5,
+        "ParentCategoryID": "C2"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C23",
+        "CategoryLabel": "Initial Consideration",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C3"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C24",
+        "CategoryLabel": "Rule 27 Notice",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C3"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C25",
+        "CategoryLabel": "Rule 28 Notice",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C3"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C26",
+        "CategoryLabel": "Tribunal Order",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C27",
+        "CategoryLabel": "Deposit Order",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C28",
+        "CategoryLabel": "Unless Order",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C29",
+        "CategoryLabel": "Tribunal Notice",
+        "DisplayOrder": 4,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C30",
+        "CategoryLabel": "App to vary an order - C",
+        "DisplayOrder": 5,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C31",
+        "CategoryLabel": "App to vary an order - R",
+        "DisplayOrder": 6,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C32",
+        "CategoryLabel": "App to revoke an order - C",
+        "DisplayOrder": 7,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C33",
+        "CategoryLabel": "App to revoke an order - R",
+        "DisplayOrder": 8,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C34",
+        "CategoryLabel": "App to extend time to comply to an order/directions - C",
+        "DisplayOrder": 9,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C35",
+        "CategoryLabel": "App to extend time to comply to an order/directions - R",
+        "DisplayOrder": 10,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C36",
+        "CategoryLabel": "App to Order the R to do something",
+        "DisplayOrder": 11,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C37",
+        "CategoryLabel": "App to Order the C to do something",
+        "DisplayOrder": 12,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C38",
+        "CategoryLabel": "App to amend claim",
+        "DisplayOrder": 13,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C39",
+        "CategoryLabel": "App to amend response",
+        "DisplayOrder": 14,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C40",
+        "CategoryLabel": "App for a Witness Order",
+        "DisplayOrder": 15,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C41",
+        "CategoryLabel": "Disability Impact statement",
+        "DisplayOrder": 16,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C42",
+        "CategoryLabel": "R has not complied with an order - C",
+        "DisplayOrder": 17,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C43",
+        "CategoryLabel": "C has not complied with an order - R",
+        "DisplayOrder": 18,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C44",
+        "CategoryLabel": "App to Strike out all or part of the claim",
+        "DisplayOrder": 19,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C45",
+        "CategoryLabel": "App to Strike out all or part of the response",
+        "DisplayOrder": 20,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C46",
+        "CategoryLabel": "Referral/Judicial Direction",
+        "DisplayOrder": 21,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C47",
+        "CategoryLabel": "Change of party’s details",
+        "DisplayOrder": 22,
+        "ParentCategoryID": "C4"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C48",
+        "CategoryLabel": "Withdrawal of entire claim",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C5"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C49",
+        "CategoryLabel": "Withdrawal of part of claim",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C5"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C50",
+        "CategoryLabel": "COT3",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C5"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C51",
+        "CategoryLabel": "App to restrict publicity - C",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C52",
+        "CategoryLabel": "App to restrict publicity - R",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C53",
+        "CategoryLabel": "Anonymity Order",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C54",
+        "CategoryLabel": "Notice of hearing",
+        "DisplayOrder": 4,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C55",
+        "CategoryLabel": "App to postpone - C",
+        "DisplayOrder": 5,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C56",
+        "CategoryLabel": "App to postpone - R",
+        "DisplayOrder": 6,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C57",
+        "CategoryLabel": "Hearing Bundle",
+        "DisplayOrder": 7,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C58",
+        "CategoryLabel": "Schedule of loss",
+        "DisplayOrder": 8,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C59",
+        "CategoryLabel": "Counter Schedule of Loss",
+        "DisplayOrder": 9,
+        "ParentCategoryID": "C6"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C60",
+        "CategoryLabel": "Judgment",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C7"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C61",
+        "CategoryLabel": "Judgment with Reasons",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C7"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C62",
+        "CategoryLabel": "Reasons",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C7"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C63",
+        "CategoryLabel": "Extract of Judgment",
+        "DisplayOrder": 4,
+        "ParentCategoryID": "C7"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C64",
+        "CategoryLabel": "App to have a Legal Officer decision considered afresh - C",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C8"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C65",
+        "CategoryLabel": "App to have a Legal Officer decision considered afresh - R",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C8"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C66",
+        "CategoryLabel": "App for a judgment to be reconsidered - C",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C8"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C67",
+        "CategoryLabel": "App for a judgment to be reconsidered - R",
+        "DisplayOrder": 4,
+        "ParentCategoryID": "C8"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C68",
+        "CategoryLabel": "Certificate of Correction",
+        "DisplayOrder": 1,
+        "ParentCategoryID": "C9"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C69",
+        "CategoryLabel": "Tribunal Case file",
+        "DisplayOrder": 2,
+        "ParentCategoryID": "C9"
+    },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "CategoryID": "C70",
+        "CategoryLabel": "Other",
+        "DisplayOrder": 3,
+        "ParentCategoryID": "C9"
+    }
+]

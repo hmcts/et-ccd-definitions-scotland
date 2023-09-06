@@ -1262,6 +1262,15 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 20,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",
