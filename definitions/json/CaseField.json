@@ -4057,6 +4057,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "resTseCopyThisCorrespondenceTextBold",
+    "Label": "<strong>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</strong>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "resTseCopyToOtherPartyTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
@@ -4252,6 +4259,13 @@
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_resTseSelectApp",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "systemUserYesOrNo",
+    "FieldType": "YesOrNo",
+    "Label": "Dummy Label This Field is used only check for showing resTseCopyThisCorrespondenceTextBold field or not",
     "SecurityClassification": "Public"
   },
   {

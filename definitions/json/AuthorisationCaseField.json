@@ -17203,6 +17203,24 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "systemUserYesOrNo",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "systemUserYesOrNo",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "systemUserYesOrNo",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "resTseHorizontalLine",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
@@ -17234,6 +17252,24 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "resTseCopyThisCorrespondenceText",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "resTseCopyThisCorrespondenceTextBold",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "resTseCopyThisCorrespondenceTextBold",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "resTseCopyThisCorrespondenceTextBold",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
