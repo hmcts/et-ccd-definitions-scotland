@@ -5550,13 +5550,13 @@
   },
   {
     "ID": "frl_CopyToOtherPartyYesOrNo",
-    "ListElement": "Yes, I confirm I want to copy this correspondence to the other party to satisfy the Employment Tribunal Rules of Procedure. By selecting this option, a copy of this correspondence will be sent to the other party upon submission. The other party will be notified that any objections to your application should be sent to the tribunal as soon as possible and in any event within 7 days.",
+    "ListElement": "Yes, I confirm I will copy this correspondence to the other party to satisfy the Employment Tribunal Rules of Procedure. Important: Do not submit your application until you have copied this correspondence to the other party.<br><br>You should also notify the other party that any objections to your application should be sent to the tribunal as soon as possible and in any event by [application date plus 7 days].",
     "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_CopyToOtherPartyYesOrNo",
-    "ListElement": "No, I do not want to copy this correspondence to the other party. You must tell the tribunal why you do not want to inform the other party. The tribunal will consider your reasons and decide if you must inform the other party or not.",
+    "ListElement": "No, I do not want to copy this correspondence to the other party. Important: You must tell the tribunal why you do not want to inform the other party. The tribunal will consider your reasons and decide if you must inform the other party or not.",
     "ListElementCode": "No",
     "DisplayOrder": 2
   },
