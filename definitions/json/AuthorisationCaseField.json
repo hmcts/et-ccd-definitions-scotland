@@ -23965,168 +23965,168 @@
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "SearchCriteria",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementLocation",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "SearchCriteria",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementLocation",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "SearchCriteria",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "caseManagementLocation",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "SearchCriteria",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "caseManagementLocation",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Listings",
+    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "SearchCriteria",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseManagementLocation",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "SearchCriteria",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseManagementLocation",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
