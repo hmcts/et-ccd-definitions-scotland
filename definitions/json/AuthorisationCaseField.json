@@ -691,24 +691,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "claimant",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondent",
     "UserRole": "caseworker-caa",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "respondent",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "ethosCaseReference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
@@ -3945,12 +3933,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "managingOffice",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -22039,12 +22021,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
-    "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingLabel",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
@@ -22587,13 +22563,13 @@
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "claimant",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "respondent",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
@@ -22618,12 +22594,6 @@
     "CaseFieldID": "managingOffice",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
@@ -23955,13 +23925,13 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "claimant",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "respondent",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
