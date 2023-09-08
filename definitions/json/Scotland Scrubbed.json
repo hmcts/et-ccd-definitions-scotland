@@ -5567,6 +5567,12 @@
     "DisplayOrder": 7
   },
   {
+    "ID": "fl_StartingAClaim",
+    "ListElementCode": "ET1 Vetting",
+    "ListElement": "ET1 Vetting",
+    "DisplayOrder": 8
+  },
+  {
     "ID": "fl_ResponseToAClaim",
     "ListElementCode": "ET3",
     "ListElement": "ET3",
@@ -5595,6 +5601,12 @@
     "ListElementCode": "App to extend time to present a response",
     "ListElement": "App to extend time to present a response",
     "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_ResponseToAClaim",
+    "ListElementCode": "ET3 Processing",
+    "ListElement": "ET3 Processing",
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_InitialConsideration",
