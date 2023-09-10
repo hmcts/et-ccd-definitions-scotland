@@ -1748,5 +1748,35 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "externalFlagLauncher",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#ARGUMENT(READ,EXTERNAL)",
+    "TabDisplayOrder": 1,
+    "TabID": "flagsSupport",
+    "TabLabel": "Support",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "externalRespondentFlags",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "caseType=\"dummy\"",
+    "TabDisplayOrder": 1,
+    "TabID": "flagsSupport",
+    "TabLabel": "Support",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "externalClaimantFlags",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "caseType=\"dummy\"",
+    "TabDisplayOrder": 1,
+    "TabID": "flagsSupport",
+    "TabLabel": "Support",
+    "TabFieldDisplayOrder": 2
   }
 ]
