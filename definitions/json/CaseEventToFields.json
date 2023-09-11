@@ -6583,32 +6583,11 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseRespond",
-    "CaseFieldID": "systemUserYesOrNo",
-    "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 2,
-    "PageLabel": "Select an application",
-    "FieldShowCondition": "tseRespondCopyPartyIntro = \"Dummy\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "tseRespond",
-    "CaseFieldID": "resTseCopyThisCorrespondenceTextBold",
-    "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "systemUserYesOrNo =\"No\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "tseRespond",
     "CaseFieldID": "tseResponseCopyToOtherParty",
     "DisplayContext": "MANDATORY",
     "PageID": 4,
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6618,7 +6597,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 4,
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "tseResponseCopyToOtherParty=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -7041,32 +7020,11 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "systemUserYesOrNo",
-    "DisplayContext": "READONLY",
-    "PageID": 14,
-    "PageDisplayOrder": 14,
-    "PageFieldDisplayOrder": 3,
-    "PageLabel": "Select an application",
-    "FieldShowCondition": "resTseCopyThisCorrespondenceText = \"Dummy\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "respondentTSE",
-    "CaseFieldID": "resTseCopyThisCorrespondenceTextBold",
-    "DisplayContext": "READONLY",
-    "PageID": 14,
-    "PageDisplayOrder": 14,
-    "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "systemUserYesOrNo =\"No\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "respondentTSE",
     "CaseFieldID": "resTseCopyToOtherPartyYesOrNo",
     "DisplayContext": "MANDATORY",
     "PageID": 14,
     "PageDisplayOrder": 14,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7076,7 +7034,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 14,
     "PageDisplayOrder": 14,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "resTseCopyToOtherPartyYesOrNo=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
