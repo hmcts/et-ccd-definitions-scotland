@@ -33,7 +33,7 @@
     "generate-excel-perftest": "node json-env.js perftest",
     "generate-excel-prod": "node json-env.js prod",
     "generate-excel-ithc": "node json-env.js ithc",
-    "generate-excel-preview": "node preview-env.js preview",
+    "generate-excel-preview": "node preview-env.js",
     "generate-excel": "yarn json2xlsx -D ./definitions/json -o ./definitions/xlsx/et-scotland-ccd-config-${ET_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-ithc && yarn generate-excel-aat && yarn generate-excel-prod"
   },
