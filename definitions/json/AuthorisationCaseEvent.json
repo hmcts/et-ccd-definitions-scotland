@@ -1578,12 +1578,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "retrieveAcasCertificate",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "retrieveAcasCertificate",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
