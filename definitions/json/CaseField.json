@@ -3946,7 +3946,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseRespondCopyPartyIntro",
-    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exception circumstances.",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.<br><br><strong>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</strong><br/><br/><strong>Important: </strong>Do not submit your application until you have copied this correspondence to the other party.<br/> You should also notify the other party that any objections to your application should be sent to the tribunal as soon as possible and in any event within 7 days.<br/><br/><strong>Important: </strong>If you do not want to copy this correspondence to the other party you must tell the tribunal why. The tribunal will consider your reasons and decide if you must inform the other party or not.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4059,14 +4059,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseCopyThisCorrespondenceText",
-    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "resTseCopyThisCorrespondenceTextBold",
-    "Label": "<strong>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</strong>",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.<br><br><strong>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</strong><br/><br/><strong>Important: </strong>Do not submit your application until you have copied this correspondence to the other party.<br/> You should also notify the other party that any objections to your application should be sent to the tribunal as soon as possible and in any event within 7 days.<br/><br/><strong>Important: </strong>If you do not want to copy this correspondence to the other party you must tell the tribunal why. The tribunal will consider your reasons and decide if you must inform the other party or not.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4267,13 +4260,6 @@
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_resTseSelectApp",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "systemUserYesOrNo",
-    "FieldType": "YesOrNo",
-    "Label": "Dummy Label This Field is used only check for showing resTseCopyThisCorrespondenceTextBold field or not",
     "SecurityClassification": "Public"
   },
   {
