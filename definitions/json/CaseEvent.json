@@ -323,6 +323,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "retrieveAcasCertificate",
+    "Name": "Search ACAS Certificate",
+    "Description": "Search ACAS Certificate",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/acasCertificate/retrieveCertificate",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/acasCertificate/confirmation",
+    "SecurityClassification": "Public",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "amendRespondentDetails",
     "Name": "Respondent Details",
     "Description": "Amend Respondent Details",
