@@ -2,7 +2,7 @@
   {
     "LiveFrom": "01/01/2020",
     "CaseTypeID": "ET_Scotland",
-    "SearchPartyCollectionFieldName": "claimantIndType",
+    "SearchPartyCollectionFieldName": "",
     "SearchPartyName": "claimantIndType.claimant_first_names,claimantIndType.claimant_last_name",
     "SearchPartyEmailAddress": "claimantType.claimant_email_address",
     "SearchPartyAddressLine1": "claimantType.claimant_addressUK.AddressLine1",
@@ -13,9 +13,9 @@
     "LiveFrom": "01/01/2020",
     "CaseTypeID": "ET_Scotland",
     "SearchPartyCollectionFieldName": "respondentCollection",
-    "SearchPartyName": "respondentCollection.respondent_name",
-    "SearchPartyEmailAddress": "respondentCollection.respondent_email",
-    "SearchPartyAddressLine1": "respondentCollection.respondent_address.AddressLine1",
-    "SearchPartyPostCode": "respondentCollection.respondent_address.PostCode"
+    "SearchPartyName": "respondent_name",
+    "SearchPartyEmailAddress": "respondent_email",
+    "SearchPartyAddressLine1": "respondent_address.AddressLine1",
+    "SearchPartyPostCode": "respondent_address.PostCode"
   }
 ]
