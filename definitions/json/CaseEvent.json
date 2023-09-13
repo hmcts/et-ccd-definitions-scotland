@@ -349,6 +349,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "retrieveAcasCertificate",
+    "Name": "Search ACAS Certificate",
+    "Description": "Search ACAS Certificate",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/acasCertificate/retrieveCertificate",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/acasCertificate/confirmation",
+    "SecurityClassification": "Public",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "amendRespondentDetails",
     "Name": "Respondent Details",
     "Description": "Amend Respondent Details",
@@ -1366,6 +1381,38 @@
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "createCaseLink",
+    "Name": "Link cases",
+    "Description": "To link related cases",
+    "DisplayOrder": 63,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "ShowSummary": "N",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Case Link",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/create/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "maintainCaseLink",
+    "Name": "Manage case links",
+    "Description": "To maintain linked cases",
+    "DisplayOrder": 64,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "ShowSummary": "N",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Maintain Case Links",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/maintain/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   }
 ]
