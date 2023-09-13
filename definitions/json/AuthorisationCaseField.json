@@ -21993,6 +21993,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantFlags",
     "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -22022,6 +22023,12 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseLinks",
     "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseLinks",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
   },
   {
