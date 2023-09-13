@@ -1262,33 +1262,6 @@
     "TabFieldDisplayOrder": 1
   },
   {
-    "CaseTypeID": "ET_Scotland",
-    "TabID": "caseLinksTab",
-    "TabLabel": "Linked cases",
-    "CaseFieldID": "caseLinks",
-    "TabDisplayOrder": 19,
-    "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "LinkedCasesComponentLauncher!=\"\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "TabID": "caseLinksTab",
-    "TabLabel": "Linked cases",
-    "CaseFieldID": "LinkedCasesComponentLauncher",
-    "TabDisplayOrder": 19,
-    "TabFieldDisplayOrder": 2,
-    "DisplayContextParameter": "#ARGUMENT(LinkedCases)"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "TabID": "caseLinksTab",
-    "TabLabel": "Linked cases",
-    "CaseFieldID": "caseNameHmctsInternal",
-    "TabDisplayOrder": 19,
-    "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "caseLinks=\"dummy\""
-  },
-  {
     "CaseTypeID": "ET_Scotland_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",
@@ -1706,46 +1679,6 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseFieldID": "claimantFlags",
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
-    "TabDisplayOrder": 69,
-    "TabID": "caseFlags",
-    "TabLabel": "Case Flags",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseFieldID": "respondentFlags",
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
-    "TabDisplayOrder": 1,
-    "TabID": "caseFlags",
-    "TabLabel": "Case Flags",
-    "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseFieldID": "caseFlags",
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncher = \"hidden\"",
-    "TabDisplayOrder": 69,
-    "TabID": "caseFlags",
-    "TabLabel": "Case Flags",
-    "TabFieldDisplayOrder": 3
-  },
-  {
-    "CaseFieldID": "flagLauncher",
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabDisplayOrder": 69,
-    "TabID": "caseFlags",
-    "TabLabel": "Case Flags",
-    "TabFieldDisplayOrder": 4,
-    "DisplayContextParameter": "#ARGUMENT(READ)"
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
