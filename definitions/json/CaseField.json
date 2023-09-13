@@ -336,6 +336,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "claimantDocumentCollection",
+    "Label": "Claimant Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "respondentCollection",
     "Label": "Respondents",
     "FieldType": "Collection",
@@ -4026,7 +4034,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseResponseText",
-    "Label": "What's your response to the claimant's application?",
+    "Label": "What's your response to the application?",
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
@@ -5072,6 +5080,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "acasCertificate",
+    "Label": "Please enter an ACAS Certificate number",
+    "HintText": "For example R123456/12/34, MU123456/12/34",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseNameHmctsInternal",
+    "Label": "claimant vs respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "caseFlags",
     "Label": "Case Flags",
     "FieldType": "Flags",
@@ -5096,6 +5120,24 @@
     "ID": "claimantFlags",
     "Label": "Claimant Flags",
     "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseLinks",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseLink",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "LinkedCasesComponentLauncher",
+    "Label": "Component Launcher (for displaying Linked Cases data)",
+    "FieldType": "ComponentLauncher",
     "SecurityClassification": "Public"
   },
   {

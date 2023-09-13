@@ -25,7 +25,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "feeGroupReference",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
@@ -8075,6 +8075,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "retrieveAcasCertificate",
+    "CaseFieldID": "acasCertificate",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Retrieve ACAS Certificate"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createFlag",
     "CaseFieldID": "caseFlags",
     "DisplayContext": "OPTIONAL",
@@ -8147,6 +8158,52 @@
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "flagLauncher=\"hidden\"",
     "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(CREATE,LinkedCases)",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(UPDATE,LinkedCases)",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
