@@ -21949,6 +21949,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
