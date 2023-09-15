@@ -1266,7 +1266,7 @@
     "TabID": "caseFileView",
     "TabLabel": "Case File View",
     "CaseFieldID": "componentLauncher",
-    "TabDisplayOrder": 20,
+    "TabDisplayOrder": 19,
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
   },

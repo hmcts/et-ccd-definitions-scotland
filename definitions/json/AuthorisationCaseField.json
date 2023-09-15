@@ -21944,7 +21944,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "componentLauncher",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
