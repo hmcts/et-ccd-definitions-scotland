@@ -5205,6 +5205,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "unavailabilityTabTitle",
+    "Label": "# Unavailability Dates",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "caseManagementLocationCode",
     "Label": "hidden",
     "FieldType": "Text",

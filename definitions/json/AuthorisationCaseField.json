@@ -22429,6 +22429,30 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "unavailabilityTabTitle",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "unavailabilityTabTitle",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "unavailabilityTabTitle",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },  
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "unavailabilityTabTitle",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementLocationCode",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
