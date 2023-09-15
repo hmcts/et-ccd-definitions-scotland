@@ -384,7 +384,7 @@
     "ListElementCode": "claim_description_document",
     "FieldType": "Document",
     "ElementLabel": "Upload your summary as a separate document",
-    "CategoryID": "C11",
+    "CategoryID": "C12",
     "SecurityClassification": "Public"
   },
   {
