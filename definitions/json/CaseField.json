@@ -5211,6 +5211,13 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseManagementLocationCode",
+    "Label": "hidden",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
