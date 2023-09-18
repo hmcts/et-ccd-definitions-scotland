@@ -4,17 +4,5 @@
     "LiveTo": "",
     "CaseTypeID": "ET_Scotland",
     "OtherCaseReference": "ethosCaseReference"
-  },
-  {
-    "LiveFrom": "",
-    "LiveTo": "",
-    "CaseTypeID": "ET_Scotland_Listings",
-    "OtherCaseReference": "ethosCaseReference"
-  },
-  {
-    "LiveFrom": "",
-    "LiveTo": "",
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "OtherCaseReference": "ethosCaseReference"
   }
 ]
