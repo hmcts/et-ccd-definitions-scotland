@@ -1352,7 +1352,7 @@
     "DisplayOrder": 64,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "ShowSummary": "N",
+    "ShowSummary": "Y",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Maintain Case Links",
