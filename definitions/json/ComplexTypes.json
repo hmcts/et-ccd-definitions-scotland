@@ -5573,7 +5573,7 @@
     "ID": "DateListed",
     "ListElementCode": "hearingCaseDisposed",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Has the case been disposed?",
+    "ElementLabel": "Has the case or part of the case been disposed?",
     "FieldShowCondition": "Hearing_status=\"Heard\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -5885,7 +5885,7 @@
     "ID": "HearingDetails",
     "ListElementCode": "hearingDetailsCaseDisposed",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Has the case been disposed?",
+    "ElementLabel": "Has the case or part of the case been disposed?",
     "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
     "SecurityClassification": "Public"
   },
