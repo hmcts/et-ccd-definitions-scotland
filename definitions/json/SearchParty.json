@@ -17,5 +17,14 @@
     "SearchPartyEmailAddress": "respondent_email",
     "SearchPartyAddressLine1": "respondent_address.AddressLine1",
     "SearchPartyPostCode": "respondent_address.PostCode"
+  },
+  {
+    "LiveFrom": "01/01/2020",
+    "CaseTypeID": "ET_Scotland",
+    "SearchPartyCollectionFieldName": "repCollection",
+    "SearchPartyName": "resp_rep_name",
+    "SearchPartyEmailAddress": "representative_email_address",
+    "SearchPartyAddressLine1": "representative_address.AddressLine1",
+    "SearchPartyPostCode": "representative_address.PostCode"
   }
 ]
