@@ -4988,6 +4988,15 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "acasCertificate",
+    "Label": "Please enter an ACAS Certificate number",
+    "HintText": "For example R123456/12/34, MU123456/12/34",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
@@ -5248,20 +5257,6 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "adhocReport",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Listings",
-    "ID": "claimant",
-    "Label": "Claimant",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Listings",
-    "ID": "respondent",
-    "Label": "Respondent",
-    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -5728,83 +5723,5 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Listings",
-    "ID": "SearchCriteria",
-    "Label": " ",
-    "FieldType": "SearchCriteria",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Listings",
-    "ID": "caseNameHmctsInternal",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Listings",
-    "ID": "caseManagementLocation",
-    "Label": " ",
-    "FieldType": "CaseLocation",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Listings",
-    "ID": "caseManagementCategory",
-    "Label": " ",
-    "FieldType": "DynamicList",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "SearchCriteria",
-    "Label": " ",
-    "FieldType": "SearchCriteria",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "caseNameHmctsInternal",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "caseManagementLocation",
-    "Label": " ",
-    "FieldType": "CaseLocation",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "caseManagementCategory",
-    "Label": " ",
-    "FieldType": "DynamicList",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "claimant",
-    "Label": "Claimant",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "respondent",
-    "Label": "Respondent",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
   }
 ]
