@@ -5192,7 +5192,7 @@
     "ID": "claimantUnavailability",
     "Label": "Claimant unavailability date ranges",
     "FieldType": "Collection",
-    "FieldTypeParameter": "UnavailabilityDateRange", 
+    "FieldTypeParameter": "UnavailabilityDateRange",
     "SecurityClassification": "Public"
   },
   {
@@ -5200,7 +5200,7 @@
     "ID": "respondentUnavailability",
     "Label": "Respondent unavailability date ranges",
     "FieldType": "Collection",
-    "FieldTypeParameter": "UnavailabilityDateRange", 
+    "FieldTypeParameter": "UnavailabilityDateRange",
     "SecurityClassification": "Public"
   },
   {

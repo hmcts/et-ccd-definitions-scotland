@@ -1166,16 +1166,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseHearings",
-    "TabLabel": "Hearings",
-    "TabDisplayOrder": 9,
-    "CaseFieldID": "hearingCollection",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
     "TabID": "CaseReferrals",
     "TabLabel": "Referrals",
     "TabDisplayOrder": 10,
@@ -1775,5 +1765,15 @@
     "TabDisplayOrder": 70,
     "CaseFieldID": "respondentUnavailability",
     "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseFieldID": "hearingCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)",
+    "TabID": "CaseHearingsLegacy",
+    "TabLabel": "ECM Hearings",
+    "TabDisplayOrder": 9,
+    "TabFieldDisplayOrder": 1
   }
 ]
