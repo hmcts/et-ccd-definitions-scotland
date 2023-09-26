@@ -1173,8 +1173,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseHearings",
-    "TabLabel": "Hearings",
+    "TabID": "CaseHearingsLegacy",
+    "TabLabel": "ECM Hearings",
     "TabDisplayOrder": 9,
     "CaseFieldID": "hearingCollection",
     "TabFieldDisplayOrder": 1,
