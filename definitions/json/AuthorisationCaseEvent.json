@@ -1571,6 +1571,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_APPLICATION_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -1610,6 +1616,30 @@
     "CaseEventID": "partyUnavailability",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland_Listings",
@@ -1964,5 +1994,11 @@
     "CaseEventID": "maintainCaseLink",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "migrateCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
   }
 ]

@@ -7301,6 +7301,22 @@
     "DisplayOrder": 7
   },
   {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "state",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "respondNotificationDate=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "isClaimantResponseDue",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "state=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",

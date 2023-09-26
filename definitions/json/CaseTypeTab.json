@@ -279,22 +279,29 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantType",
+    "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantOtherType",
+    "CaseFieldID": "claimantType",
     "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantOtherType",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
     "CaseFieldID": "claimantWorkAddress",
-    "TabFieldDisplayOrder": 7,
+    "TabFieldDisplayOrder": 8,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\""
   },
   {
@@ -302,7 +309,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "companyPremises",
-    "TabFieldDisplayOrder": 8,
+    "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\""
   },
   {
@@ -310,7 +317,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantHearingPreference",
-    "TabFieldDisplayOrder": 9
+    "TabFieldDisplayOrder": 10
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1162,6 +1169,16 @@
     "TabDisplayOrder": 8,
     "CaseFieldID": "jurCodesCollection",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseHearingsLegacy",
+    "TabLabel": "ECM Hearings",
+    "TabDisplayOrder": 9,
+    "CaseFieldID": "hearingCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
   },
   {
     "CaseTypeID": "ET_Scotland",
