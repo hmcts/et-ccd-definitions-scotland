@@ -18,6 +18,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "managingOffice=\"dummy\"",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
