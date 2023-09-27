@@ -90,6 +90,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -155,7 +156,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "CallBackURLSubmittedEvent": "",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
@@ -1335,5 +1336,18 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCase",
+    "Name": "Migrate Case",
+    "Description": "Migrate Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-migration/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]
