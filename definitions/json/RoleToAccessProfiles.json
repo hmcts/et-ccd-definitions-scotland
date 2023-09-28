@@ -267,5 +267,75 @@
     "ReadOnly": "Y",
     "Disabled": "F",
     "CaseAccessCategories": ""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Listings",
+    "RoleName": "idam:caseworker-employment-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Listings",
+    "RoleName": "idam:caseworker-employment-etjudge-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-etjudge-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Listings",
+    "RoleName": "idam:caseworker-employment-api",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-api"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Listings",
+    "RoleName": "idam:caseworker-wa-task-configuration",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-wa-task-configuration"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Listings",
+    "RoleName": "idam:caseworker-ras-validation",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-ras-validation"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "RoleName": "idam:caseworker-employment-api",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-api"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "RoleName": "idam:caseworker-employment-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "RoleName": "idam:caseworker-employment-etjudge-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-etjudge-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "RoleName": "idam:caseworker-wa-task-configuration",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-wa-task-configuration"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "RoleName": "idam:caseworker-ras-validation",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-ras-validation"
   }
 ]

@@ -6632,6 +6632,36 @@
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
+  },  
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referCaseTo",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "isUrgent",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   },
   {
     "ID": "updateReferralDocument",
@@ -6668,6 +6698,56 @@
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referCaseTo",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.directionTo",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.isUrgentReply",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   },
   {
     "ID": "ChangeOrganisationRequest",
@@ -6866,6 +6946,126 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "applicant",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "responsesCount",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.from",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "applicant",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "responsesCount",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.from",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   },
   {
     "ID": "respondNotificationUploadDocument",
