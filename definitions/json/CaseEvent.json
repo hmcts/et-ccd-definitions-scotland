@@ -49,6 +49,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_APPLICATION_STATE",
+    "Name": "View an application",
+    "Description": "View an application",
+    "DisplayOrder": 44,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentRespondToTribunal",
     "Name": "Respond to an Order or Request",
     "Description": "Respond to an Order or Request",
@@ -1359,5 +1375,17 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/maintain/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "ID": "migrateCase",
+    "Name": "Migrate Case",
+    "Description": "Migrate Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-migration/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]

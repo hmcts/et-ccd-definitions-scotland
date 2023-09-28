@@ -24052,5 +24052,61 @@
     "CaseFieldID": "bulkAddSingleCasesImportFile",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]

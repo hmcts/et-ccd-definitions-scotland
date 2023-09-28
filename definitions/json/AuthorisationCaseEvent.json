@@ -1571,6 +1571,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_APPLICATION_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -1934,5 +1940,11 @@
     "CaseEventID": "maintainCaseLink",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "migrateCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
   }
 ]
