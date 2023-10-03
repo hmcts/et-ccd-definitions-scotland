@@ -6,7 +6,8 @@
       "caseworker-employment",
       "caseworker-employment-etjudge",
       "et-acas-api",
-      "caseworker-ras-validation"
+      "caseworker-ras-validation",
+      "GS_profile"
     ],
     "CRUD": "R"
   },
