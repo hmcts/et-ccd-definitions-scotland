@@ -1326,5 +1326,18 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rollbackCase",
+    "Name": "Rollback Case",
+    "Description": "Rollback Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-rollback/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-rollback/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]

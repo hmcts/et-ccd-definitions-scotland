@@ -1910,5 +1910,11 @@
     "CaseEventID": "migrateCase",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "rollbackCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
   }
 ]
