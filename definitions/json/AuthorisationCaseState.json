@@ -49,7 +49,8 @@
           "caseworker-et-pcqextractor",
           "caseworker-employment",
           "caseworker-employment-etjudge",
-          "caseworker-ras-validation"
+          "caseworker-ras-validation",
+          "GS_profile"
         ],
         "CRUD": "R"
       }
@@ -78,7 +79,8 @@
         "UserRoles": [
           "caseworker-employment",
           "caseworker-employment-etjudge",
-          "caseworker-ras-validation"
+          "caseworker-ras-validation",
+          "GS_profile"
         ],
         "CRUD": "R"
       }
@@ -111,7 +113,8 @@
           "caseworker-employment",
           "caseworker-employment-etjudge",
           "et-acas-api",
-          "caseworker-ras-validation"
+          "caseworker-ras-validation",
+          "GS_profile"
         ],
         "CRUD": "R"
       }
@@ -141,7 +144,8 @@
           "caseworker-employment",
           "caseworker-employment-etjudge",
           "et-acas-api",
-          "caseworker-ras-validation"
+          "caseworker-ras-validation",
+          "GS_profile"
         ],
         "CRUD": "R"
       }
@@ -171,7 +175,8 @@
           "caseworker-employment",
           "caseworker-employment-etjudge",
           "et-acas-api",
-          "caseworker-ras-validation"
+          "caseworker-ras-validation",
+          "GS_profile"
         ],
         "CRUD": "R"
       }
@@ -200,7 +205,8 @@
           "caseworker-employment",
           "caseworker-employment-etjudge",
           "et-acas-api",
-          "caseworker-ras-validation"
+          "caseworker-ras-validation",
+          "GS_profile"
         ],
         "CRUD": "R"
       }
