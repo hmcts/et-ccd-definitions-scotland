@@ -1400,6 +1400,7 @@
     "CallBackURLSubmittedEvent": ""
   },
   {
+    "CaseTypeID": "ET_Scotland",
     "ID": "migrateCase",
     "Name": "Migrate Case",
     "Description": "Migrate Case",
