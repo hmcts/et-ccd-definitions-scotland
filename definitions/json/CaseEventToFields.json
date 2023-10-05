@@ -6287,6 +6287,42 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "adrDocuments",
+    "CaseFieldID": "adrDocumentCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "ADR Documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "piiDocuments",
+    "CaseFieldID": "piiDocumentCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "PII Documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "appealDocuments",
+    "CaseFieldID": "appealDocumentCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Appeals Documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseAdmin",
     "CaseFieldID": "tseAdminAdditionalInformation",
     "DisplayContext": "OPTIONAL",
