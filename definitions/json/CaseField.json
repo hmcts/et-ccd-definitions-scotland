@@ -3579,7 +3579,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "piiDocumentCollection",
+    "ID": "appealDocumentCollection",
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "AppealDocumentUploadDetails",
