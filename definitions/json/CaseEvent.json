@@ -1325,7 +1325,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "appealDocuments",
-    "Name": "PII Documents",
+    "Name": "Appeal Documents",
     "Description": "Appeal Documents",
     "DisplayOrder": 55,
     "PreConditionState(s)": "*",
