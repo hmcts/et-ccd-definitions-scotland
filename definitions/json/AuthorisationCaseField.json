@@ -24055,6 +24055,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   }
 ]
