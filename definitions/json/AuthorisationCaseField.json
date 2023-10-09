@@ -24011,6 +24011,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "GS_profile",
     "CRUD": "R"
@@ -24042,5 +24049,12 @@
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
   }
 ]
