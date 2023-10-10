@@ -4998,9 +4998,48 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "caseNameHmctsInternal",
-    "Label": "claimant vs respondent",
-    "FieldType": "Text",
+    "ID": "caseFlags",
+    "Label": "Case Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagLauncher",
+    "Label": "Flag Launcher",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentFlags",
+    "Label": "Respondent Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantFlags",
+    "Label": "Claimant Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2022",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseLinks",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseLink",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "LinkedCasesComponentLauncher",
+    "Label": "Component Launcher (for displaying Linked Cases data)",
+    "FieldType": "ComponentLauncher",
     "SecurityClassification": "Public"
   },
   {
@@ -5704,6 +5743,14 @@
     "ID": "SearchCriteria",
     "Label": " ",
     "FieldType": "SearchCriteria",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseNameHmctsInternal",
+    "Label": " ",
+    "FieldType": "Text",
     "SecurityClassification": "Public",
     "Searchable": "Y"
   },
