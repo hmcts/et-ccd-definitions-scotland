@@ -20,6 +20,6 @@ Object.entries(config[env]).forEach(([k, v]) => {
 
 process.env.ET_ENV = env;
 let excludeJson = env === 'prod' ? 'nonprod.json' : 'prod.json';
-args = [  'run',  `generate-excel`,  '-e',  '*-${excludeJson}'];
+args = [  'run',  `generate-excel`,  '-e',  `*-${excludeJson}`];
 execFileSync("yarn", args,{ encoding: 'utf-8', stdio: 'inherit' })
 
