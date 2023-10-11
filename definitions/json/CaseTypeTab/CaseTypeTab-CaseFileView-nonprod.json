@@ -1,0 +1,1701 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "TabLabel": "Case Details",
+    "TabDisplayOrder": 1,
+    "CaseFieldID": "flagsImageAltText",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "claimant",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "respondent",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "caseStateDesc",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "positionType",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "managingOffice",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseFieldID": "suggestedHearingVenues",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 1,
+    "TabID": "CaseOverview",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "allocatedOffice",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "fileLocationGlasgow",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "managingOffice=\"Glasgow\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "fileLocationAberdeen",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "managingOffice=\"Aberdeen\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "fileLocationDundee",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "managingOffice=\"Dundee\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "fileLocationEdinburgh",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "managingOffice=\"Edinburgh\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "clerkResponsible",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "caseNotes",
+    "TabFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "caseType",
+    "TabFieldDisplayOrder": 11
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "multipleReferenceLinkMarkUp",
+    "TabFieldDisplayOrder": 12,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "multipleReferenceLinkLabel",
+    "TabFieldDisplayOrder": 12,
+    "FieldShowCondition": "caseType=\"Multiple\" AND multipleReferenceLinkMarkUp !=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "multipleReference",
+    "TabFieldDisplayOrder": 11,
+    "FieldShowCondition": "caseType=\"Multiple\" AND multipleReferenceLinkMarkUp !=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "subMultipleName",
+    "TabFieldDisplayOrder": 13,
+    "FieldShowCondition": "caseType=\"Multiple\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "leadClaimant",
+    "TabFieldDisplayOrder": 14,
+    "FieldShowCondition": "caseType=\"Multiple\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "feeGroupReference",
+    "TabFieldDisplayOrder": 15
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "receiptDate",
+    "TabFieldDisplayOrder": 16
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "[STATE]",
+    "TabFieldDisplayOrder": 17,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "preAcceptCase",
+    "TabFieldDisplayOrder": 18,
+    "FieldShowCondition": "[STATE] != \"Submitted\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "targetHearingDate",
+    "TabFieldDisplayOrder": 19
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "claimServedDate",
+    "TabFieldDisplayOrder": 20
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "et3DueDate",
+    "TabFieldDisplayOrder": 21,
+    "FieldShowCondition": "claimServedDate!=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "conciliationTrack",
+    "TabFieldDisplayOrder": 22
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 23
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "linkedCaseCT",
+    "TabFieldDisplayOrder": 24,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "linkedCaseCTLabel",
+    "TabFieldDisplayOrder": 25,
+    "FieldShowCondition": "linkedCaseCT=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "ethosCaseReference",
+    "TabFieldDisplayOrder": 26,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "nextListedDate",
+    "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "TabLabel": "Claimant",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "claimant_TypeOfClaimant",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimant_Company ",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantIndType",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantDocumentCollection",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantType",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantOtherType",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantWorkAddress",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "companyPremises",
+    "TabFieldDisplayOrder": 9,
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantHearingPreference",
+    "TabFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "TabLabel": "ET1 Vetting",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "et1VettingDocument",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingCanServeClaimNoReason",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo1",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo1",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo2",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo2",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo3",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo3",
+    "TabFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingRespondentAcasDetails4",
+    "TabFieldDisplayOrder": 11
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingRespondentAcasDetailsLabel4",
+    "TabFieldDisplayOrder": 12
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo4",
+    "TabFieldDisplayOrder": 13
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo4",
+    "TabFieldDisplayOrder": 14
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo5",
+    "TabFieldDisplayOrder": 15
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo5",
+    "TabFieldDisplayOrder": 16
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertIsYesOrNo6",
+    "TabFieldDisplayOrder": 17
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertExemptYesOrNo6",
+    "TabFieldDisplayOrder": 18
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAcasCertGeneralNote",
+    "TabFieldDisplayOrder": 19
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "substantiveDefectsList",
+    "TabFieldDisplayOrder": 20
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121aTextArea",
+    "TabFieldDisplayOrder": 21
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121bTextArea",
+    "TabFieldDisplayOrder": 22
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121cTextArea",
+    "TabFieldDisplayOrder": 23
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121dTextArea",
+    "TabFieldDisplayOrder": 24
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121daTextArea",
+    "TabFieldDisplayOrder": 25
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121eTextArea",
+    "TabFieldDisplayOrder": 26
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule121fTextArea",
+    "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1SubstantiveDefectsGeneralNotes",
+    "TabFieldDisplayOrder": 28
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "areTheseCodesCorrect",
+    "TabFieldDisplayOrder": 29
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "codesCorrectGiveDetails",
+    "TabFieldDisplayOrder": 30
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "vettingJurisdictionCodeCollection",
+    "TabFieldDisplayOrder": 31
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1JurisdictionCodeGeneralNotes",
+    "TabFieldDisplayOrder": 32
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "isTrackAllocationCorrect",
+    "TabFieldDisplayOrder": 33
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "suggestAnotherTrack",
+    "TabFieldDisplayOrder": 34
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "whyChangeTrackAllocation",
+    "TabFieldDisplayOrder": 35
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "trackAllocationGeneralNotes",
+    "TabFieldDisplayOrder": 36
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "isLocationCorrect",
+    "TabFieldDisplayOrder": 37
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "regionalOfficeList",
+    "TabFieldDisplayOrder": 38
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "whyChangeOffice",
+    "TabFieldDisplayOrder": 39
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1LocationGeneralNotes",
+    "TabFieldDisplayOrder": 40
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1SuggestHearingVenue",
+    "TabFieldDisplayOrder": 41
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1HearingVenues",
+    "TabFieldDisplayOrder": 42
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1HearingVenueGeneralNotes",
+    "TabFieldDisplayOrder": 43
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1GovOrMajorQuestion",
+    "TabFieldDisplayOrder": 44
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1ReasonableAdjustmentsQuestion",
+    "TabFieldDisplayOrder": 45
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1ReasonableAdjustmentsTextArea",
+    "TabFieldDisplayOrder": 46
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VideoHearingQuestion",
+    "TabFieldDisplayOrder": 47
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VideoHearingTextArea",
+    "TabFieldDisplayOrder": 48
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1FurtherQuestionsGeneralNotes",
+    "TabFieldDisplayOrder": 49
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1JudgeReferralLine1",
+    "TabFieldDisplayOrder": 50
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "referralToJudgeOrLOList",
+    "TabFieldDisplayOrder": 51
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "aClaimOfInterimReliefTextArea",
+    "TabFieldDisplayOrder": 52
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "aStatutoryAppealTextArea",
+    "TabFieldDisplayOrder": 53
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "anAllegationOfCommissionOfSexualOffenceTextArea",
+    "TabFieldDisplayOrder": 54
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "insolvencyTextArea",
+    "TabFieldDisplayOrder": 55
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "jurisdictionsUnclearTextArea",
+    "TabFieldDisplayOrder": 56
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "lengthOfServiceTextArea",
+    "TabFieldDisplayOrder": 57
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "potentiallyLinkedCasesInTheEcmTextArea",
+    "TabFieldDisplayOrder": 58
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule50IssuesTextArea",
+    "TabFieldDisplayOrder": 59
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "anotherReasonForJudicialReferralTextArea",
+    "TabFieldDisplayOrder": 60
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1JudgeReferralGeneralNotes",
+    "TabFieldDisplayOrder": 61
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "referralToREJOrVPList",
+    "TabFieldDisplayOrder": 62
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "vexatiousLitigantOrderTextArea",
+    "TabFieldDisplayOrder": 63
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "aNationalSecurityIssueTextArea",
+    "TabFieldDisplayOrder": 64
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "nationalMultipleOrPresidentialOrderTextArea",
+    "TabFieldDisplayOrder": 65
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "transferToOtherRegionTextArea",
+    "TabFieldDisplayOrder": 66
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "serviceAbroadTextArea",
+    "TabFieldDisplayOrder": 67
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "aSensitiveIssueTextArea",
+    "TabFieldDisplayOrder": 68
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "anyPotentialConflictTextArea",
+    "TabFieldDisplayOrder": 69
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "anotherReasonREJOrVPTextArea",
+    "TabFieldDisplayOrder": 70
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1REJOrVPReferralGeneralNotes",
+    "TabFieldDisplayOrder": 71
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "otherReferralList",
+    "TabFieldDisplayOrder": 72
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "claimOutOfTimeTextArea",
+    "TabFieldDisplayOrder": 73
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "multipleClaimTextArea",
+    "TabFieldDisplayOrder": 74
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "employmentStatusIssuesTextArea",
+    "TabFieldDisplayOrder": 75
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "pidJurisdictionRegulatorTextArea",
+    "TabFieldDisplayOrder": 76
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "videoHearingPreferenceTextArea",
+    "TabFieldDisplayOrder": 77
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule50IssuesForOtherReferralTextArea",
+    "TabFieldDisplayOrder": 78
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "anotherReasonForOtherReferralTextArea",
+    "TabFieldDisplayOrder": 79
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1OtherReferralGeneralNotes",
+    "TabFieldDisplayOrder": 80
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "TabFieldDisplayOrder": 81
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingCompletedBy",
+    "TabFieldDisplayOrder": 82
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1DateCompleted",
+    "TabFieldDisplayOrder": 83
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRepresentative_Claimant",
+    "TabLabel": "Claimant Representative",
+    "TabDisplayOrder": 4,
+    "CaseFieldID": "claimantRepresentedQuestion",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "caseType=\"dummy\"",
+    "TabShowCondition": "claimantRepresentedQuestion=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRepresentative_Claimant",
+    "CaseFieldID": "representativeClaimantType",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRespondent",
+    "TabLabel": "Respondent",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "respondentCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRespondent",
+    "CaseFieldID": "eccCases",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "eccCases !=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRespondent",
+    "CaseFieldID": "counterClaim",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "counterClaim !=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRepresentative_Respondent",
+    "TabLabel": "Respondent Representative",
+    "TabDisplayOrder": 6,
+    "CaseFieldID": "repCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "TabLabel": "Initial Consideration",
+    "TabDisplayOrder": 7,
+    "CaseFieldID": "etInitialConsiderationDocument",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICJuridictionCodesInvalid",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICInvalidDetails",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "etICJuridictionCodesInvalid=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICCanProceed",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingAlreadyListed",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "etICCanProceed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedList",
+    "TabFieldDisplayOrder": 6,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "TabFieldDisplayOrder": 7,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Seek comments on CVP hearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for preliminary hearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "TabFieldDisplayOrder": 9,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for final hearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "TabFieldDisplayOrder": 10,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"UDL hearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "TabFieldDisplayOrder": 11,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingListed",
+    "TabFieldDisplayOrder": 12,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICPostponeGiveDetails",
+    "TabFieldDisplayOrder": 13,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"postponeHearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICExtendDurationGiveDetails",
+    "TabFieldDisplayOrder": 14,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"extendHearingDuration\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICConvertPreliminaryGiveDetails",
+    "TabFieldDisplayOrder": 15,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"convertFinalToPreliminaryHearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICConvertF2fGiveDetails",
+    "TabFieldDisplayOrder": 16,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"convertToF2FHearing\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICOtherGiveDetails",
+    "TabFieldDisplayOrder": 17,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"other\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingAnyOtherDirections",
+    "TabFieldDisplayOrder": 18,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformation",
+    "TabFieldDisplayOrder": 19,
+    "FieldShowCondition": "etICCanProceed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationGiveDetails",
+    "TabFieldDisplayOrder": 20,
+    "FieldShowCondition": "etICCanProceed=\"No\" AND etICFurtherInformation CONTAINS \"furtherInformationRequired\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationTimeToComply",
+    "TabFieldDisplayOrder": 21,
+    "FieldShowCondition": "etICCanProceed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "TabFieldDisplayOrder": 22,
+    "FieldShowCondition": "etICCanProceed=\"No\" AND etICFurtherInformation CONTAINS \"furtherInformationRequired\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "TabFieldDisplayOrder": 23,
+    "FieldShowCondition": "etICCanProceed=\"No\" AND etICFurtherInformation CONTAINS \"issueRule28\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
+    "TabFieldDisplayOrder": 24,
+    "FieldShowCondition": "etICCanProceed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 25
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icCompletedBy",
+    "TabFieldDisplayOrder": 26
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJurisdictions",
+    "TabLabel": "Jurisdictions",
+    "TabDisplayOrder": 8,
+    "CaseFieldID": "jurCodesCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseHearingsLegacy",
+    "TabLabel": "ECM Hearings",
+    "TabDisplayOrder": 9,
+    "CaseFieldID": "hearingCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "TabLabel": "Referrals",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "referralsLabel",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralCollection",
+    "TabFieldDisplayOrder": 3,
+    "TabLabel": "Referrals",
+    "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "TabLabel": "Judgments",
+    "TabDisplayOrder": 11,
+    "CaseFieldID": "judgementCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDeposit",
+    "TabLabel": "Deposit Order",
+    "TabDisplayOrder": 12,
+    "CaseFieldID": "depositType",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "RestrictedReportingTab",
+    "TabLabel": "Restricted Reporting",
+    "TabDisplayOrder": 13,
+    "CaseFieldID": "restrictedReporting",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "BroughtForwardDate",
+    "TabLabel": "BF Actions",
+    "TabDisplayOrder": 14,
+    "CaseFieldID": "bfActions",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(bfDate)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseHistory",
+    "TabLabel": "History",
+    "TabDisplayOrder": 15,
+    "CaseFieldID": "caseHistory",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "documentCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "TabLabel": "Cause List",
+    "TabDisplayOrder": 1,
+    "CaseFieldID": "hearingDocType",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "hearingDocType=\"ETCL - Cause List\"",
+    "TabShowCondition": "hearingDocType=\"ETCL - Cause List\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "hearingDateType",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "hearingDateType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "listingDate",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "listingDateFrom",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "listingDateTo",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "listingLabel",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Single\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "listingLabelRange",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Range\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ListingsOverview",
+    "CaseFieldID": "listingCollection",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(causeListDate, causeListTime, causeListVenue, elmoCaseReference, Hearing_room, jurisdictionCodesList, hearingType, estHearingLength)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "TabLabel": "IT56 - List of Exhibits",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "hearingDateType",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "hearingDateType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "CaseFieldID": "listingDate",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\"",
+    "TabShowCondition": "hearingDocType=\"IT56 - List of Exhibits\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "CaseFieldID": "listingDateFrom",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "CaseFieldID": "listingDateTo",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "CaseFieldID": "listingLabel",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Single\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "CaseFieldID": "listingLabelRange",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Range\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT56Overview",
+    "CaseFieldID": "listingCollection",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(causeListDate, causeListTime, causeListVenue, elmoCaseReference, Hearing_room, jurisdictionCodesList, hearingType, estHearingLength)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "TabLabel": "ETRP - Recording of Proceedings",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "listingDate",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\"",
+    "TabShowCondition": "hearingDocType=\"ETRP - ET recording of proceeding\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "CaseFieldID": "hearingDateType",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "hearingDateType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "CaseFieldID": "listingDateFrom",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "CaseFieldID": "listingDateTo",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "CaseFieldID": "listingLabel",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Single\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "CaseFieldID": "listingLabelRange",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Range\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "IT57Overview",
+    "CaseFieldID": "listingCollection",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(causeListDate, causeListTime, causeListVenue, elmoCaseReference, Hearing_room, jurisdictionCodesList, hearingType, estHearingLength)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "TabLabel": "Brought Forward Report",
+    "TabDisplayOrder": 4,
+    "CaseFieldID": "reportType",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "reportType=\"Brought Forward Report\"",
+    "TabShowCondition": "reportType=\"Brought Forward Report\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "hearingDateType",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "hearingDateType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "listingDate",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "listingDateFrom",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "listingDateTo",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "listingDate=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "listingLabel",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Single\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "listingLabelRange",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingDateType=\"Range\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Listings",
+    "Channel": "CaseWorker",
+    "TabID": "ReportOverview",
+    "CaseFieldID": "bfDateCollection",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(caseReference, broughtForwardDate, broughtForwardDateReason, broughtForwardDateCleared)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "TabLabel": "Multiple Cases",
+    "TabDisplayOrder": 1,
+    "CaseFieldID": "stateLabel",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "multipleName",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "multipleReference",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "multipleSource",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "managingOffice",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "leadCase",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "leadCaseLabel",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseCounter",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseCounterLabel",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseImporterFile",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "linkedMultipleCT",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "linkedMultipleCTLabel",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "linkedMultipleCT=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabDisplayOrder": 17,
+    "CaseFieldID": "applicationsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseFieldID": "genericTseApplicationCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
+    "TabDisplayOrder": 17,
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "JONs",
+    "TabLabel": "Judgments, orders & notifications",
+    "TabDisplayOrder": 18,
+    "CaseFieldID": "jonsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "JONs",
+    "CaseFieldID": "jonsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "notificationsTabLinks",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 18,
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "sendNotificationCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, sendNotificationSubjectString, sendNotificationNotify, date, sendNotificationResponseTribunalTable, sendNotificationResponsesCount)",
+    "TabDisplayOrder": 18,
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "EventHistory",
+    "TabLabel": "History",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "customHistoryViewer",
+    "TabFieldDisplayOrder": 1
+  }
+]
