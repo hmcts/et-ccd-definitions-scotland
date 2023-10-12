@@ -1782,15 +1782,5 @@
     "TabDisplayOrder": 70,
     "CaseFieldID": "respondentUnavailability",
     "TabFieldDisplayOrder": 3
-  },
-  {
-    "CaseFieldID": "hearingCollection",
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)",
-    "TabID": "CaseHearingsLegacy",
-    "TabLabel": "ECM Hearings",
-    "TabDisplayOrder": 9,
-    "TabFieldDisplayOrder": 1
   }
 ]

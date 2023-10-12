@@ -5940,14 +5940,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "caseNameHmctsInternal",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "caseManagementLocation",
     "Label": " ",
     "FieldType": "CaseLocation",
