@@ -1,5 +1,32 @@
 [
   {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseLinksTab",
+    "TabLabel": "Linked cases",
+    "CaseFieldID": "caseLinks",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "LinkedCasesComponentLauncher!=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseLinksTab",
+    "TabLabel": "Linked cases",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#ARGUMENT(LinkedCases)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseLinksTab",
+    "TabLabel": "Linked cases",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "caseLinks=\"dummy\""
+  },
+  {
     "CaseFieldID": "claimantFlags",
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
