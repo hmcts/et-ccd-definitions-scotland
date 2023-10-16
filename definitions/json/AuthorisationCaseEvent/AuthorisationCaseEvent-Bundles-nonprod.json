@@ -16,5 +16,11 @@
     "CaseEventID": "bundlesRespondentPrepareDoc",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "SUBMIT_CLAIMANT_BUNDLES",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
