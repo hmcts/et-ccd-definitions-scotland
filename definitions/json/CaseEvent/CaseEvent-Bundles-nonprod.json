@@ -14,5 +14,20 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SUBMIT_CLAIMANT_BUNDLES",
+    "Name": "Submit hearing docs",
+    "Description": "Submit hearing docs",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
