@@ -1,0 +1,120 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotesShow",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "bundlesRespondentPrepareDocNotes1=\"dummy\"",
+    "PageLabel": "Prepare and submit documents for a hearing"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes1",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes2",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "bundlesRespondentPrepareDocNotesShow=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentAgreedDocWith",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/bundlesRespondent/midPopulateHearings",
+    "PageLabel": "Have you agreed these documents with the other party?"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithBut",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "bundlesRespondentAgreedDocWith=\"But\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithNo",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "bundlesRespondentAgreedDocWith=\"No\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentSelectHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "About your hearing documents"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentWhoseDocuments",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentWhatDocuments",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentUploadFileLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/bundlesRespondent/midValidateUpload",
+    "PageLabel": "Upload your file of documents"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentUploadFile",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  }
+]
