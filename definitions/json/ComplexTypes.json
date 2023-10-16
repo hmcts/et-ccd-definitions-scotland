@@ -6366,6 +6366,69 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "AdrDocumentUploadDetails",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document Link",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AdrDocumentUploadDetails",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AdrDocumentUploadDetails",
+    "ListElementCode": "creationDate",
+    "FieldType": "Date",
+    "ElementLabel": "Date Uploaded",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "PiiDocumentUploadDetails",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document Link",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "PiiDocumentUploadDetails",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "PiiDocumentUploadDetails",
+    "ListElementCode": "creationDate",
+    "FieldType": "Date",
+    "ElementLabel": "Date Uploaded",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AppealDocumentUploadDetails",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document Link",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AppealDocumentUploadDetails",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AppealDocumentUploadDetails",
+    "ListElementCode": "creationDate",
+    "FieldType": "Date",
+    "ElementLabel": "Date Uploaded",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "referralReply",
     "ListElementCode": "replyBy",
     "FieldType": "Text",
