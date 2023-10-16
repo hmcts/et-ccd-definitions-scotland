@@ -3563,6 +3563,30 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "adrDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "AdrDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "piiDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "PiiDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "appealDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "AppealDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "referCaseTo",
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
