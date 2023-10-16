@@ -877,27 +877,9 @@
   },
   {
     "ID": "fl_DocumentType",
-    "ListElementCode": "ADR Document",
-    "ListElement": "ADR Document",
-    "DisplayOrder": 17
-  },
-  {
-    "ID": "fl_DocumentType",
-    "ListElementCode": "PII Document",
-    "ListElement": "PII Document",
-    "DisplayOrder": 18
-  },
-  {
-    "ID": "fl_DocumentType",
-    "ListElementCode": "Appeal Document",
-    "ListElement": "Appeal Document",
-    "DisplayOrder": 19
-  },
-  {
-    "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 20
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_ResponseStatus",

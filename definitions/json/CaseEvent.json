@@ -1304,7 +1304,6 @@
     "DisplayOrder": 53,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/adrDocuments/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -1317,7 +1316,6 @@
     "DisplayOrder": 54,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/piiDocuments/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -1330,7 +1328,6 @@
     "DisplayOrder": 55,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/appealDocuments/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"

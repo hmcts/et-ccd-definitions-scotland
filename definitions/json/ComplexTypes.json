@@ -6367,14 +6367,6 @@
   },
   {
     "ID": "AdrDocumentUploadDetails",
-    "ListElementCode": "typeOfDocument",
-    "FieldType": "FixedList",
-    "ElementLabel": "Type of Document",
-    "FieldTypeParameter": "fl_DocumentType",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AdrDocumentUploadDetails",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document Link",
@@ -6396,14 +6388,6 @@
   },
   {
     "ID": "PiiDocumentUploadDetails",
-    "ListElementCode": "typeOfDocument",
-    "FieldType": "FixedList",
-    "ElementLabel": "Type of Document",
-    "FieldTypeParameter": "fl_DocumentType",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "PiiDocumentUploadDetails",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document Link",
@@ -6421,14 +6405,6 @@
     "ListElementCode": "creationDate",
     "FieldType": "Date",
     "ElementLabel": "Date Uploaded",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AppealDocumentUploadDetails",
-    "ListElementCode": "typeOfDocument",
-    "FieldType": "FixedList",
-    "ElementLabel": "Type of Document",
-    "FieldTypeParameter": "fl_DocumentType",
     "SecurityClassification": "Public"
   },
   {
