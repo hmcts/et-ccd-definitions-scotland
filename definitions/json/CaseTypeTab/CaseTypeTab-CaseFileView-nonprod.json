@@ -1,0 +1,11 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
+  }
+]
