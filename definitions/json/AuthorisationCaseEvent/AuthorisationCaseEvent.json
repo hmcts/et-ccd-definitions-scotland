@@ -1606,12 +1606,6 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "UPDATE_HUBLINK_STATUS",
-    "UserRole": "citizen",
-    "CRUD": "CRUD"
-  },
-  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-scotland",
