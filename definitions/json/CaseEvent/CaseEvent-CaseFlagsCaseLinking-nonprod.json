@@ -75,5 +75,31 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCaseFlags",
+    "Name": "Migrate Case Flags",
+    "Description": "Migrate Case Flags",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/case-flags-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rollbackCaseFlags",
+    "Name": "Rollback Case Flags",
+    "Description": "Rollback Case Flags",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/case-flags-rollback/about-to-submit",
+    "CallBackURLSubmittedEvent": "",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]
