@@ -1430,6 +1430,7 @@
     "ID": "etInitialConsiderationDocument",
     "Label": "Initial Consideration Document",
     "FieldType": "Document",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -2119,6 +2120,7 @@
     "Label": "Upload the Companies House search document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -2148,6 +2150,7 @@
     "Label": "Upload the individual insolvency search document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -3165,6 +3168,7 @@
     "HintText": "Files should be a maximum of 100MB in size.",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C2",
     "SecurityClassification": "Public"
   },
   {
@@ -3202,6 +3206,7 @@
     "Label": "Add document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C2",
     "SecurityClassification": "Public"
   },
   {
@@ -3665,6 +3670,7 @@
     "ID": "et1VettingDocument",
     "Label": "ET1 Vetting Document",
     "FieldType": "Document",
+    "CategoryID": "C11",
     "SecurityClassification": "Public"
   },
   {
@@ -4107,6 +4113,7 @@
     "ID": "resTseDocument1",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4114,6 +4121,7 @@
     "ID": "resTseDocument10",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4121,6 +4129,7 @@
     "ID": "resTseDocument11",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4128,6 +4137,7 @@
     "ID": "resTseDocument12",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4135,6 +4145,7 @@
     "ID": "resTseDocument2",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4142,6 +4153,7 @@
     "ID": "resTseDocument3",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4149,6 +4161,7 @@
     "ID": "resTseDocument4",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4156,6 +4169,7 @@
     "ID": "resTseDocument5",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4163,6 +4177,7 @@
     "ID": "resTseDocument6",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4170,6 +4185,7 @@
     "ID": "resTseDocument7",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4177,6 +4193,7 @@
     "ID": "resTseDocument8",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -4184,6 +4201,7 @@
     "ID": "resTseDocument9",
     "Label": "Document",
     "FieldType": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {

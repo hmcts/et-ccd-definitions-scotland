@@ -1,0 +1,134 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "caseFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "caseFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "claimantFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "claimantFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "flagLauncher",
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(CREATE)",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "flagLauncher",
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(UPDATE)",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "respondentFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "respondentFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(CREATE,LinkedCases)",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(UPDATE,LinkedCases)",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  }
+]

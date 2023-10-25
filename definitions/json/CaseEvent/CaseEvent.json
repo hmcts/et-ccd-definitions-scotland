@@ -940,6 +940,21 @@
     "EndButtonLabel": "Close and return to case details"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SUBMIT_STORED_CLAIMANT_TSE",
+    "Name": "Submit stored application",
+    "Description": "Submit a stored application",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
