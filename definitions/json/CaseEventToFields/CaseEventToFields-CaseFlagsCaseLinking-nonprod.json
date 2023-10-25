@@ -88,6 +88,18 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createCaseLink",
     "CaseFieldID": "LinkedCasesComponentLauncher",
     "PageFieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
