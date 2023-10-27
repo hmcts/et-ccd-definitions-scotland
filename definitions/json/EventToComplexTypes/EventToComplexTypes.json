@@ -6659,7 +6659,17 @@
     "CaseFieldID": "referralCollection",
     "ListElementCode": "isUrgent",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralNumber",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
