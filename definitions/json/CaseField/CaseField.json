@@ -826,7 +826,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsCaseDisposed",
-    "Label": "Has the case been disposed?",
+    "Label": "Has the case or part of the case been disposed?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -3564,6 +3564,30 @@
     "ID": "changeOrganisationRequestField",
     "Label": "Change Organisation Request",
     "FieldType": "ChangeOrganisationRequest",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "adrDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "AdrDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "piiDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "PiiDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "appealDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "AppealDocumentUploadDetails",
     "SecurityClassification": "PUBLIC"
   },
   {

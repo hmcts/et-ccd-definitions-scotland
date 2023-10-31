@@ -60,5 +60,46 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/maintain/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_HUBLINK_STATUS",
+    "Name": "Update hublink status",
+    "Description": "Update hublink status",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCaseFlags",
+    "Name": "Migrate Case Flags",
+    "Description": "Migrate Case Flags",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/case-flags-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rollbackCaseFlags",
+    "Name": "Rollback Case Flags",
+    "Description": "Rollback Case Flags",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/case-flags-rollback/about-to-submit",
+    "CallBackURLSubmittedEvent": "",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]

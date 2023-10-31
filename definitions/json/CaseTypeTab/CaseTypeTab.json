@@ -1646,6 +1646,33 @@
     "TabFieldDisplayOrder": 4
   },
   {
+    "CaseFieldID": "adrDocumentCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 19,
+    "TabID": "ADR",
+    "TabLabel": "ADR",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "piiDocumentCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 20,
+    "TabID": "PII",
+    "TabLabel": "PII",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "appealDocumentCollection",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 21,
+    "TabID": "Appeals",
+    "TabLabel": "Appeals",
+    "TabFieldDisplayOrder": 1
+  },
+  {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "JONs",
