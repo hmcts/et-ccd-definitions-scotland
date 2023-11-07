@@ -1,52 +1,52 @@
 [
-    {
-        "ID": "HearingBundle",
-        "ListElementCode": "agreedDocWith",
-        "FieldType": "Text",
-        "ElementLabel": "Have you agreed these documents with the other party?",
-        "SecurityClassification": "Public"
-      },
-      {
-        "ID": "HearingBundle",
-        "ListElementCode": "agreedDocWithBut",
-        "FieldType": "Text",
-        "ElementLabel": "Which documents are disputed",
-        "SecurityClassification": "Public"
-      },
-      {
-        "ID": "HearingBundle",
-        "ListElementCode": "agreedWithNo",
-        "FieldType": "Text",
-        "ElementLabel": "Why you've not been able to agree with the other party",
-        "SecurityClassification": "Public"
-      },
-      {
-        "ID": "HearingBundle",
-        "ListElementCode": "hearing",
-        "FieldType": "Text",
-        "ElementLabel": "Hearing these documents are for",
-        "SecurityClassification": "Public"
-      },
-      {
-        "ID": "HearingBundle",
-        "ListElementCode": "uploadFile",
-        "FieldType": "Document",
-        "ElementLabel": "Document",
-        "FieldTypeParameter": "DocumentUpload",
-        "SecurityClassification": "Public"
-      },
-      {
-        "ID": "HearingBundle",
-        "ListElementCode": "whatDocuments",
-        "FieldType": "Text",
-        "ElementLabel": "What are these hearing documents?",
-        "SecurityClassification": "Public"
-      },
-      {
-        "ID": "HearingBundle",
-        "ListElementCode": "whoseDocuments",
-        "FieldType": "Text",
-        "ElementLabel": "Whose hearing documents are you uploading?",
-        "SecurityClassification": "Public"
-      }
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "agreedDocWith",
+    "FieldType": "Text",
+    "ElementLabel": "Have you agreed these documents with the other party?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "agreedDocWithBut",
+    "FieldType": "Text",
+    "ElementLabel": "Which documents are disputed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "agreedWithNo",
+    "FieldType": "Text",
+    "ElementLabel": "Why you've not been able to agree with the other party",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "hearing",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing these documents are for",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "uploadFile",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "whatDocuments",
+    "FieldType": "Text",
+    "ElementLabel": "What are these hearing documents?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "whoseDocuments",
+    "FieldType": "Text",
+    "ElementLabel": "Whose hearing documents are you uploading?",
+    "SecurityClassification": "Public"
+  }
 ]
