@@ -15,7 +15,7 @@
   },
   {
     "ID": "HearingBundle",
-    "ListElementCode": "agreedWithNo",
+    "ListElementCode": "agreedDocWithNo",
     "FieldType": "Text",
     "ElementLabel": "Why you've not been able to agree with the other party",
     "SecurityClassification": "Public"
