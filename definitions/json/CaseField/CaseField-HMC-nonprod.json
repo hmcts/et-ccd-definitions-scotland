@@ -1,0 +1,44 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantId",
+    "Label": "claimantId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "publicCaseName",
+    "Label": "Public case name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseManagementLocationCode",
+    "Label": "caseManagementLocationCode",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseInterpreterRequiredFlag",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseAdditionalSecurityFlag",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "privateHearingRequiredFlag",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  }
+]
