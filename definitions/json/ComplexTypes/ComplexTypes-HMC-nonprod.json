@@ -1,0 +1,10 @@
+[
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representative_id",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "representative_occupation=\"dummy\"",
+    "SecurityClassification": "Public"
+  }
+]
