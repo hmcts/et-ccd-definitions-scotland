@@ -1,0 +1,14 @@
+[
+  {
+    "ID": "frl_partyUnavailability",
+    "ListElementCode": "claimant",
+    "ListElement": "Claimant",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_partyUnavailability",
+    "ListElementCode": "respondent",
+    "ListElement": "Respondent",
+    "DisplayOrder": 2
+  }
+]

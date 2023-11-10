@@ -1,0 +1,29 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "HearingUnavailability",
+    "TabLabel": "Hearing Unavailability",
+    "TabDisplayOrder": 70,
+    "CaseFieldID": "unavailabilityTabTitle",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "HearingUnavailability",
+    "TabLabel": "Hearing Unavailability",
+    "TabDisplayOrder": 70,
+    "CaseFieldID": "claimantUnavailability",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "HearingUnavailability",
+    "TabLabel": "Hearing Unavailability",
+    "TabDisplayOrder": 70,
+    "CaseFieldID": "respondentUnavailability",
+    "TabFieldDisplayOrder": 3
+  }
+]
