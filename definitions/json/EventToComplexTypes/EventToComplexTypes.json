@@ -6632,7 +6632,7 @@
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
-  },  
+  },
   {
     "ID": "ReferralDetails",
     "CaseEventID": "createReferral",
