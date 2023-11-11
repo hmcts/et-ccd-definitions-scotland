@@ -4187,6 +4187,18 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
+    "CaseFieldID": "respondentCollection",
+    "DisplayContext": "COMPLEX",
+    "FieldShowCondition": "et3ChooseRespondent=\"dummy\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3Date",
     "DisplayContext": "READONLY",
     "PageID": 3,
@@ -4783,8 +4795,7 @@
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Issues identified",
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Y",
-    "Publish": "Y"
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
