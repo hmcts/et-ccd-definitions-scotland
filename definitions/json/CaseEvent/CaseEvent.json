@@ -336,19 +336,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "addAmendClaimantRepresentative",
-    "Name": "Claimant Representative",
-    "Description": "Add or Amend a Claimant Representative",
-    "DisplayOrder": 14,
-    "PreConditionState(s)": "Accepted;Rejected;Closed",
-    "PostConditionState": "*",
-    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "retrieveAcasCertificate",
     "Name": "Search ACAS Certificate",
     "Description": "Search ACAS Certificate",
