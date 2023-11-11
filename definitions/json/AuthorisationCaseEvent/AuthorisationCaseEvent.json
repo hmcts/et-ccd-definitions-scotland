@@ -2071,6 +2071,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "CRU"
+    "CRUD": "R"
   }
 ]
