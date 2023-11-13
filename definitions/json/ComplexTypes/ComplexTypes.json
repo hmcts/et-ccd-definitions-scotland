@@ -6275,7 +6275,8 @@
     "ElementLabel": "Claim to be",
     "FieldTypeParameter": "frl_etICRule27ClaimToBe",
     "SecurityClassification": "Public",
-    "RetainHiddenValue": "No"
+    "RetainHiddenValue": "No",
+    "Publish": "Y"
   },
   {
     "ID": "etInitialConsiderationRule27",
@@ -6328,7 +6329,8 @@
     "ElementLabel": "Response to be",
     "FieldTypeParameter": "frl_etICRule28ClaimToBe",
     "SecurityClassification": "Public",
-    "RetainHiddenValue": "No"
+    "RetainHiddenValue": "No",
+    "Publish": "Y"
   },
   {
     "ID": "etInitialConsiderationRule28",
