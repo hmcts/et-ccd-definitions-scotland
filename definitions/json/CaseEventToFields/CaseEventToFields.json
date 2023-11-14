@@ -4190,18 +4190,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Vetting",
-    "CaseFieldID": "respondentCollection",
-    "DisplayContext": "COMPLEX",
-    "FieldShowCondition": "et3ChooseRespondent=\"dummy\"",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3Date",
     "DisplayContext": "READONLY",
     "PageID": 3,
@@ -5964,18 +5952,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "createReferral",
-    "CaseFieldID": "referralCollection",
-    "FieldShowCondition": "referralHearingDetailsLabel=\"dummy\"",
-    "DisplayContext": "COMPLEX",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "updateReferral",
     "CaseFieldID": "selectReferral",
     "DisplayContext": "MANDATORY",
@@ -6109,18 +6085,6 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "replyToReferral",
-    "CaseFieldID": "referralCollection",
-    "FieldShowCondition": "selectReferral=\"dummy\"",
-    "DisplayContext": "COMPLEX",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
   {
@@ -6291,26 +6255,6 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "DisplayContext": "COMPLEX",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "CLAIMANT_TSE_RESPOND",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "DisplayContext": "COMPLEX",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
     "PageColumnNumber": 1
   },
   {
@@ -6579,18 +6523,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseRespond",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "FieldShowCondition": "tseRespondSelectApplication=\"dummy\"",
-    "DisplayContext": "COMPLEX",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "tseRespond",
     "CaseFieldID": "tseResponseIntro",
     "DisplayContext": "READONLY",
     "PageID": 3,
@@ -6770,18 +6702,6 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Select an application"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "respondentTSE",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "FieldShowCondition": "resTseSelectApplication=\"dummy\"",
-    "DisplayContext": "COMPLEX",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
