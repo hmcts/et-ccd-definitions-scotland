@@ -2,17 +2,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "issueInitialConsiderationDirectionsWA",
-    "Name": "issueICDirectionsWA",
-    "Description": "",
-    "PreConditionState(s)": "*",
+    "Name": "Issue IC Directions WA",
+    "Description": "Issue IC Directions WA",
+    "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "EventEnablingCondition": "caseType=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startIssueInitialConsiderationDirectionsWA",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitIssueInitialConsiderationDirectionsWA",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeIssueInitialConsiderationDirectionsWA",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
