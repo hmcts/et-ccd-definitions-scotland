@@ -6496,8 +6496,7 @@
     "ListElementCode": "etICRule27ClaimToBe",
     "EventElementLabel": "Claim to be",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "Publish": "Y"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "InitialConsideration",
@@ -6551,8 +6550,7 @@
     "ListElementCode": "etICRule28ClaimToBe",
     "EventElementLabel": "Response to be",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "Publish": "Y"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "InitialConsideration",
