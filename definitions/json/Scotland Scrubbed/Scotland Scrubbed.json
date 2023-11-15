@@ -3007,12 +3007,6 @@
   {
     "ID": "fl_Part_6",
     "ListElementCode": "52",
-    "ListElement": "51 Notification of lead case",
-    "DisplayOrder": 24
-  },
-  {
-    "ID": "fl_Part_6",
-    "ListElementCode": "52",
     "ListElement": "52 Order specifying lead case(s)",
     "DisplayOrder": 25
   },
@@ -5433,18 +5427,6 @@
     "ListElementCode": "Transfer request",
     "ListElement": "Transfer request",
     "DisplayOrder": 20
-  },
-  {
-    "ID": "fl_ReferralSubject",
-    "ListElementCode": "Initial Consideration",
-    "ListElement": "Initial Consideration",
-    "DisplayOrder": 21
-  },
-  {
-    "ID": "fl_ReferralSubject",
-    "ListElementCode": "Other",
-    "ListElement": "Other",
-    "DisplayOrder": 22
   },
   {
     "ID": "msl_confirmCloseReferral",
