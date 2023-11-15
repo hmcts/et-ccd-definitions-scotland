@@ -1897,12 +1897,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "claimantIndType",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "newEmploymentType",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
@@ -2571,12 +2565,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentCollection",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "respondentCollection",
-    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
   },
   {
@@ -11295,12 +11283,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3Rule26",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "et3Rule26",
-    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
   },
   {
@@ -15073,12 +15055,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referralCollection",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referCaseTo",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -15111,12 +15087,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referCaseTo",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referCaseTo",
-    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
   },
   {
@@ -15193,12 +15163,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "isUrgent",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referralSubject",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -15231,12 +15195,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referralSubject",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "referralSubject",
-    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
   },
   {
@@ -22062,12 +22020,6 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseNameHmctsInternal",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD"
-  },
-  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-scotland",
@@ -24089,13 +24041,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseManagementLocation",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "R"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "GS_profile",
     "CRUD": "R"
@@ -24127,12 +24072,5 @@
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseManagementCategory",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "R"
   }
 ]

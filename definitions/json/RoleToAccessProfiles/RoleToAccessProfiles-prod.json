@@ -1,0 +1,20 @@
+[
+  {
+    "RoleName": "tribunal-caseworker",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "senior-tribunal-caseworker",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  }
+]
