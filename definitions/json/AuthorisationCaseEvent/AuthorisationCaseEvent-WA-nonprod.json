@@ -78,19 +78,19 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
