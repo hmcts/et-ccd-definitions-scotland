@@ -28,5 +28,13 @@
     "ElementLabel": " ",
     "FieldShowCondition": "myHmctsYesNo=\"dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "organisationId",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "representative_id=\"dummy\"",
+    "SecurityClassification": "Public"
   }
 ]
