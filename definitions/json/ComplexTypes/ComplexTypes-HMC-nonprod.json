@@ -1,0 +1,24 @@
+[
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representative_id",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "representative_occupation=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "ListElementCode": "unavailableFromDate",
+    "FieldType": "Date",
+    "ElementLabel": "Unavailable from:",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "ListElementCode": "unavailableToDate",
+    "FieldType": "Date",
+    "ElementLabel": "Unavailable to:",
+    "SecurityClassification": "Public"
+  }
+]

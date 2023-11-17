@@ -1,0 +1,278 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-et-pcqextractor",
+    "ReadOnly": "Y",
+    "AccessProfiles": "caseworker-et-pcqextractor"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment",
+    "ReadOnly": "Y",
+    "AccessProfiles": "caseworker-employment"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-etjudge",
+    "ReadOnly": "Y",
+    "AccessProfiles": "caseworker-employment-etjudge"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-etjudge-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-etjudge-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-api",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-api"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:citizen",
+    "ReadOnly": "N",
+    "AccessProfiles": "citizen"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[CREATOR]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[CREATOR]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-legalrep-solicitor"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:et-acas-api",
+    "ReadOnly": "Y",
+    "AccessProfiles": "et-acas-api"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-caa",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-caa"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-approver",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-approver"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORA]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORA]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORB]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORB]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORC]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORC]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORD]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORD]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORE]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORE]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORF]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORF]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORG]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORG]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORH]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORH]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORI]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORI]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "[SOLICITORJ]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORJ]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-wa-task-configuration",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-wa-task-configuration"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-ras-validation",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-ras-validation"
+  },
+  {
+    "RoleName": "circuit-judge",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "hmcts-judiciary",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "case-allocator",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "hmcts-admin",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "hmcts-legal-operations",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "hmcts-ctsc",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "hmcts-staff",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "tribunal-caseworker",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "specific-access-legal-ops",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "challenged-access-legal-ops",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "senior-tribunal-caseworker",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "specific-access-ctsc",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  }
+]
