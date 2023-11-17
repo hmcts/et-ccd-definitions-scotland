@@ -4130,8 +4130,7 @@
     "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICFurtherInformation CONTAINS \"issueRule27\"",
-    "PageColumnNumber": 1,
-    "Publish": "Y"
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4143,8 +4142,7 @@
     "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICFurtherInformation CONTAINS \"issueRule28\"",
-    "PageColumnNumber": 1,
-    "Publish": "Y"
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
