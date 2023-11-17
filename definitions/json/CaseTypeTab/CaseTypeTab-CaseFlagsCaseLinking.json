@@ -4,7 +4,7 @@
     "TabID": "caseLinksTab",
     "TabLabel": "Linked cases",
     "CaseFieldID": "caseLinks",
-    "TabDisplayOrder": 19,
+    "TabDisplayOrder": 71,
     "TabFieldDisplayOrder": 1,
     "FieldShowCondition": "LinkedCasesComponentLauncher!=\"\""
   },
@@ -13,7 +13,7 @@
     "TabID": "caseLinksTab",
     "TabLabel": "Linked cases",
     "CaseFieldID": "LinkedCasesComponentLauncher",
-    "TabDisplayOrder": 19,
+    "TabDisplayOrder": 71,
     "TabFieldDisplayOrder": 2,
     "DisplayContextParameter": "#ARGUMENT(LinkedCases)"
   },
