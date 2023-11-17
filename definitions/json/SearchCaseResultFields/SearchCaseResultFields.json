@@ -1,0 +1,42 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "[CASE_REFERENCE]",
+    "Label": "Case Reference",
+    "DisplayOrder": 1,
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "ethosCaseReference",
+    "Label": "Case Number",
+    "DisplayOrder": 1,
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimant",
+    "Label": "Claimant",
+    "DisplayOrder": 1,
+    "UseCase": "orgcases"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "respondent",
+    "Label": "Respondent",
+    "DisplayOrder": 1,
+    "UseCase": "orgcases"
+  }, 
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "[STATE]",
+    "Label": "State",
+    "DisplayOrder": 1,
+    "UseCase": "orgcases"
+  }
+]
