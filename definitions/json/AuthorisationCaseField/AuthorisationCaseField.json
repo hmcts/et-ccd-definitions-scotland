@@ -1179,7 +1179,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "additionalCaseInfo",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
