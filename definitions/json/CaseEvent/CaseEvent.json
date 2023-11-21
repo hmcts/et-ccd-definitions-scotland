@@ -49,6 +49,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_APPLICATION_STATE",
+    "Name": "View an application",
+    "Description": "View an application",
+    "DisplayOrder": 44,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentRespondToTribunal",
     "Name": "Respond to an Order or Request",
     "Description": "Respond to an Order or Request",
@@ -72,6 +88,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -136,6 +153,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -304,19 +322,6 @@
     "PostConditionState": "*",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendClaimantDetails",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "addAmendClaimantRepresentative",
-    "Name": "Claimant Representative",
-    "Description": "Add or Amend a Claimant Representative",
-    "DisplayOrder": 14,
-    "PreConditionState(s)": "Accepted;Rejected;Closed",
-    "PostConditionState": "*",
-    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -923,6 +928,21 @@
     "EndButtonLabel": "Close and return to case details"
   },
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SUBMIT_STORED_CLAIMANT_TSE",
+    "Name": "Submit stored application",
+    "Description": "Submit a stored application",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "createCase",
     "Name": "Create Case",
@@ -1283,6 +1303,42 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "adrDocuments",
+    "Name": "ADR Documents",
+    "Description": "View ADR Documents",
+    "DisplayOrder": 53,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "piiDocuments",
+    "Name": "PII Documents",
+    "Description": "View PII Documents",
+    "DisplayOrder": 54,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "appealDocuments",
+    "Name": "Appeal Documents",
+    "Description": "Appeal Documents",
+    "DisplayOrder": 55,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "UPDATE_NOTIFICATION_RESPONSE",
     "Name": "UPDATE_NOTIFICATION_RESPONSE",
     "Description": "",
@@ -1296,5 +1352,18 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCase",
+    "Name": "Migrate Case",
+    "Description": "Migrate Case",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/global-search-migration/about-to-submit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/global-search-migration/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]

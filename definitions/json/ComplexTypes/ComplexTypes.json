@@ -102,6 +102,7 @@
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -488,6 +489,7 @@
     "ListElementCode": "claim_description_document",
     "FieldType": "Document",
     "ElementLabel": "Upload your summary as a separate document",
+    "CategoryID": "C12",
     "SecurityClassification": "Public"
   },
   {
@@ -685,6 +687,7 @@
     "ListElementCode": "et3VettingDocument",
     "FieldType": "Document",
     "ElementLabel": "ET3 Processing Document",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -725,6 +728,7 @@
     "FieldType": "Document",
     "ElementLabel": "Upload the Companies House search document",
     "SecurityClassification": "Public",
+    "CategoryID": "C18",
     "FieldShowCondition": "et3CompanyHouseDocument!=\"\""
   },
   {
@@ -749,6 +753,7 @@
     "FieldType": "Document",
     "ElementLabel": "Upload the individual insolvency search document",
     "SecurityClassification": "Public",
+    "CategoryID": "C18",
     "FieldShowCondition": "et3IndividualInsolvencyDocument!=\"\""
   },
   {
@@ -1762,6 +1767,7 @@
     "ElementLabel": "Add a document",
     "FieldTypeParameter": "DocumentUpload",
     "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -1788,6 +1794,7 @@
     "ElementLabel": "Add document",
     "FieldTypeParameter": "DocumentUpload",
     "FieldShowCondition": "et3ResponseRespondentSupportNeeded=\"Yes\"",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -1796,6 +1803,7 @@
     "FieldType": "Document",
     "ElementLabel": "ET3 Form",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -2162,6 +2170,7 @@
     "ListElementCode": "depositDoc",
     "FieldType": "Document",
     "ElementLabel": "Document Upload",
+    "CategoryID": "C27",
     "SecurityClassification": "Public"
   },
   {
@@ -2487,6 +2496,7 @@
     "FieldType": "Document",
     "ElementLabel": "File",
     "SecurityClassification": "Public",
+    "CategoryID": "C4",
     "RegularExpression": ".xlsx"
   },
   {
@@ -3670,6 +3680,7 @@
     "ListElementCode": "judgement_outcome_doc",
     "FieldType": "Document",
     "ElementLabel": "Upload outcome of Judgment",
+    "CategoryID": "C60",
     "SecurityClassification": "Public"
   },
   {
@@ -5678,7 +5689,7 @@
     "ID": "DateListed",
     "ListElementCode": "hearingCaseDisposed",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Has the case been disposed?",
+    "ElementLabel": "Has the case or part of the case been disposed?",
     "FieldShowCondition": "Hearing_status=\"Heard\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -5990,7 +6001,7 @@
     "ID": "HearingDetails",
     "ListElementCode": "hearingDetailsCaseDisposed",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Has the case been disposed?",
+    "ElementLabel": "Has the case or part of the case been disposed?",
     "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
     "SecurityClassification": "Public"
   },
@@ -6143,6 +6154,7 @@
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -6461,6 +6473,7 @@
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
+    "CategoryID": "C18",
     "SecurityClassification": "Public"
   },
   {
@@ -6468,6 +6481,69 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AdrDocumentUploadDetails",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document Link",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AdrDocumentUploadDetails",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AdrDocumentUploadDetails",
+    "ListElementCode": "creationDate",
+    "FieldType": "Date",
+    "ElementLabel": "Date Uploaded",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "PiiDocumentUploadDetails",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document Link",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "PiiDocumentUploadDetails",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "PiiDocumentUploadDetails",
+    "ListElementCode": "creationDate",
+    "FieldType": "Date",
+    "ElementLabel": "Date Uploaded",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AppealDocumentUploadDetails",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document Link",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AppealDocumentUploadDetails",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "AppealDocumentUploadDetails",
+    "ListElementCode": "creationDate",
+    "FieldType": "Date",
+    "ElementLabel": "Date Uploaded",
     "SecurityClassification": "Public"
   },
   {
@@ -6732,6 +6808,7 @@
     "ListElementCode": "referralSummaryPdf",
     "FieldType": "Document",
     "ElementLabel": "Referral Document",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -6823,6 +6900,7 @@
     "ListElementCode": "contactApplicationFile",
     "FieldType": "Document",
     "ElementLabel": " ",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -6835,6 +6913,13 @@
   {
     "ID": "claimantTse",
     "ListElementCode": "copyToOtherPartyText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "storedPending",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
@@ -6922,6 +7007,7 @@
     "ElementLabel": " ",
     "FieldShowCondition": "from=\"dummy\"",
     "RetainHiddenValue": "No",
+    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -7360,6 +7446,22 @@
     "ElementLabel": "Request made by",
     "SecurityClassification": "Public",
     "DisplayOrder": 7
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "state",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "respondNotificationDate=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "isClaimantResponseDue",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "state=\"dummy\"",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
