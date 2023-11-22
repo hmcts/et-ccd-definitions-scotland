@@ -1,14 +1,14 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "leadMultipleName",
+    "ID": "multipleName",
     "Label": "Multiple Name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "multipleCaseNumbers",
+    "ID": "caseIdCollection",
     "Label": "Case Number",
     "HintText": "The first case will be assigned as the lead for this multiple",
     "FieldType": "Collection",

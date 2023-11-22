@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createLeadCase",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
@@ -11,7 +11,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createLeadCase",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,

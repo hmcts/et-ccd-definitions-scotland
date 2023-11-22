@@ -1,85 +1,85 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "citizen",
     "CRUD": "CRU"
   }
