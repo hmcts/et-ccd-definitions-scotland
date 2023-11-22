@@ -36,24 +36,6 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName": "senior-tribunal-caseworker",
-    "Authorisation": "",
-    "CaseTypeID": "ET_Scotland",
-    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "tribunal-caseworker",
-    "Authorisation": "",
-    "CaseTypeID": "ET_Scotland",
-    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
     "RoleName": "hearing-centre-team-leader",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
