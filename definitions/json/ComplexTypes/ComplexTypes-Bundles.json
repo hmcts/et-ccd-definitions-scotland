@@ -33,6 +33,7 @@
     "FieldType": "Document",
     "ElementLabel": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C57",
     "SecurityClassification": "Public"
   },
   {
