@@ -6,12 +6,6 @@
     "DisplayOrder": 21
   },
   {
-    "ID": "fl_Part_6",
-    "ListElementCode": "52",
-    "ListElement": "52 Order specifying lead case(s)",
-    "DisplayOrder": 25
-  },
-  {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Other",
     "ListElement": "Other",
