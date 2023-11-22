@@ -308,5 +308,15 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "Publish": "Y"
+  },
+  {
+    "ID": "BFActions",
+    "CaseEventID": "broughtForward",
+    "CaseFieldID": "bfActions",
+    "ListElementCode": "bfDate",
+    "EventElementLabel": "B/F Date",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
   }
 ]
