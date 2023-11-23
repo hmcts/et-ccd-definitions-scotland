@@ -672,14 +672,14 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-mocha@npm:^10.0.3":
-  version: 10.0.4
-  resolution: "eslint-plugin-mocha@npm:10.0.4"
+  version: 10.2.0
+  resolution: "eslint-plugin-mocha@npm:10.2.0"
   dependencies:
     eslint-utils: ^3.0.0
-    ramda: ^0.28.0
+    rambda: ^7.4.0
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: f175eb94b1e238ece54bf46fa36389758591131397ec96db149d6d4046d7f25476f70c7de68499a72ae94f8d8303d592264a4ce6446f31bc891abd953324c94f
+  checksum: d284812141ea18b9dcd1f173477e364bda2b86a621cd2a1c13636065255d32498df33b5d9a6fa1d64b187bd86819a7707ae8b0895228a9f545f12ed153fac1a2
   languageName: node
   linkType: hard
 
@@ -1969,10 +1969,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ramda@npm:^0.28.0":
-  version: 0.28.0
-  resolution: "ramda@npm:0.28.0"
-  checksum: 44ea6e5010bba70151b6a92d8114a91915e8b5a16105cce65fae58c9d7386b812c429645e35f21141d7087568550ce383bc10ee1a65cdec951f4b69ea457e6a4
+"rambda@npm:^7.4.0":
+  version: 7.5.0
+  resolution: "rambda@npm:7.5.0"
+  checksum: ad608a9a4160d0b6b0921047cea1329276bf239ff58d439135288712dcdbbf0df47c76591843ad249d89e7c5a9109ce86fe099aa54aef0dc0aa92a9b4dd1b8eb
   languageName: node
   linkType: hard
 
