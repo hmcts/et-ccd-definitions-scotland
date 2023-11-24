@@ -1,0 +1,32 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CRUD": "R",
+    "UserRole": "caseworker-ras-validation"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CRUD": "CRU",
+    "UserRole": "caseworker-wa-task-configuration"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
+    "CRUD": "R",
+    "UserRole": "caseworker-ras-validation"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Listings",
+    "CRUD": "CRU",
+    "UserRole": "caseworker-wa-task-configuration"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CRUD": "R",
+    "UserRole": "caseworker-ras-validation"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CRUD": "CRU",
+    "UserRole": "caseworker-wa-task-configuration"
+  }
+]

@@ -5435,12 +5435,6 @@
     "DisplayOrder": 20
   },
   {
-    "ID": "fl_ReferralSubject",
-    "ListElementCode": "Other",
-    "ListElement": "Other",
-    "DisplayOrder": 21
-  },
-  {
     "ID": "msl_confirmCloseReferral",
     "ListElementCode": "Yes",
     "ListElement": "Yes",
