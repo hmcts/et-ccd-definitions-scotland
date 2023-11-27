@@ -86,7 +86,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentCollection",
-    "Label": "Hearing Bundles",
+    "Label": "Respondent Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
@@ -94,9 +94,16 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesClaimantCollection",
-    "Label": "Hearing Bundles",
+    "Label": "Claimant Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesTabTitle",
+    "Label": "### Hearing Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
   }
 ]

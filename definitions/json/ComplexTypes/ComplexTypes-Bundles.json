@@ -24,7 +24,8 @@
     "ID": "HearingBundle",
     "ListElementCode": "hearing",
     "FieldType": "Text",
-    "ElementLabel": "Hearing these documents are for",
+    "ElementLabel": "Hearing",
+    "FieldShowCondition": "formattedSelectedHearing=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
@@ -48,6 +49,20 @@
     "ListElementCode": "whoseDocuments",
     "FieldType": "Text",
     "ElementLabel": "Whose hearing documents are you uploading?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "uploadDateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Uploaded date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "formattedSelectedHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing these documents are for",
     "SecurityClassification": "Public"
   }
 ]
