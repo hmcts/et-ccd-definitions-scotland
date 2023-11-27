@@ -110,6 +110,16 @@
     "Publish": "Y"
   },
   {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.referralNumber",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
     "ID": "genericTseDetails",
     "CaseEventID": "SUBMIT_CLAIMANT_TSE",
     "CaseFieldID": "genericTseApplicationCollection",
