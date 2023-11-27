@@ -80,6 +80,7 @@
     "Label": "Upload document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C57",
     "SecurityClassification": "Public"
   },
   {
