@@ -321,12 +321,12 @@
   },
   {
     "ID": "BFActions",
-    "CaseEventID": "broughtForward",
+    "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
     "ListElementCode": "bfDate",
-    "EventElementLabel": "B/F Date",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   }
 ]

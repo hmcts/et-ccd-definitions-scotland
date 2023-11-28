@@ -114,5 +114,16 @@
     "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "bfActions",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
   }
 ]
