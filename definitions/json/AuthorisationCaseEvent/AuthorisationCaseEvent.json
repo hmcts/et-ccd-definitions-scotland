@@ -1290,8 +1290,8 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "asyncStitchingComplete",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
