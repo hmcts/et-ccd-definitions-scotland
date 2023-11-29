@@ -6493,15 +6493,6 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRule27",
-    "ListElementCode": "etICRule27ClaimToBe",
-    "EventElementLabel": "Claim to be",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27WhichPart",
     "EventElementLabel": "Which part?",
     "FieldDisplayOrder": 2,
@@ -6541,15 +6532,6 @@
     "ListElementCode": "etICRule27NumberOfDays",
     "EventElementLabel": "Number of days for claimant to provide written representations",
     "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRule28",
-    "ListElementCode": "etICRule28ClaimToBe",
-    "EventElementLabel": "Response to be",
-    "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
   {
