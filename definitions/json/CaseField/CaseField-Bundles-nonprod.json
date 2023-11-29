@@ -33,16 +33,14 @@
     "ID": "bundlesRespondentAgreedDocWithBut",
     "Label": "Tell us which documents are disputed",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public",
-    "Max": 2500
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentAgreedDocWithNo",
     "Label": "Tell us why you’ve not been able to agree with the other party",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public",
-    "Max": 2500
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
