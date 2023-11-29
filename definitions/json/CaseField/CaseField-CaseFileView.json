@@ -1,0 +1,9 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "componentLauncher",
+    "Label": "Component Launcher (for displaying Case View categories)",
+    "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  }
+]

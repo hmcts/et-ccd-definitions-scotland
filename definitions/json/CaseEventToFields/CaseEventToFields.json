@@ -18,6 +18,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "managingOffice=\"dummy\"",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -6286,6 +6287,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "adrDocuments",
+    "CaseFieldID": "adrDocumentCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "ADR Documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createAndStitch",
     "CaseFieldID": "bundleConfiguration",
     "DisplayContext": "MANDATORY",
@@ -6307,6 +6320,30 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "N",
     "PageLabel": "Configure case file",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "piiDocuments",
+    "CaseFieldID": "piiDocumentCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "PII Documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "appealDocuments",
+    "CaseFieldID": "appealDocumentCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Appeals Documents",
     "PageColumnNumber": 1
   },
   {

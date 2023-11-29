@@ -1,0 +1,17 @@
+[
+    {
+        "CaseTypeID": "ET_Scotland",
+        "ID": "createLeadCase",
+        "Name": "Create Lead Case",
+        "Description": "Create Lead Case",
+        "PreConditionState(s)": "Accepted",
+        "PostConditionState": "*",
+        "SecurityClassification": "Public",
+        "ShowEventNotes": "N",
+        "ShowSummary": "N",
+        "EventEnablingCondition": "",
+        "CallBackURLAboutToStartEvent": "",
+        "CallBackURLAboutToSubmitEvent": "",
+        "CallBackURLSubmittedEvent": ""
+      }
+]

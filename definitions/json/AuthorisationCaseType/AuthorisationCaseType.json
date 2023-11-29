@@ -140,5 +140,10 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
   }
 ]

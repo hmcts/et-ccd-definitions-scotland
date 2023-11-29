@@ -1,0 +1,37 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "claimantUnavailability",
+    "DisplayContext": "MANDATORY",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "partySelection CONTAINS \"claimant\"",
+    "PageLabel": "Unavailability date ranges - Claimant"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "partySelection",
+    "DisplayContext": "MANDATORY",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Party Selection"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "respondentUnavailability",
+    "DisplayContext": "MANDATORY",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "partySelection CONTAINS \"respondent\"",
+    "PageLabel": "Unavailability date ranges - Respondent"
+  }
+]
