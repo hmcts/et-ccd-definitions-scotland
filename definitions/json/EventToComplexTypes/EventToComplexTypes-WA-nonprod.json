@@ -328,5 +328,15 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
+  },
+  {
+    "ID": "BFActions",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "bfActions",
+    "ListElementCode": "allActions",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   }
 ]

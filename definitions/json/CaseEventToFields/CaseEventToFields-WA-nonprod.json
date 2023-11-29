@@ -116,9 +116,10 @@
     "Publish": "Y"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
+    "FieldShowCondition": "otherTypeDocumentName=\"dummy\"",
     "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
