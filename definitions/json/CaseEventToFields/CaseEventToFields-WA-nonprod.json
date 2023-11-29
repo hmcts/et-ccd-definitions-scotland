@@ -114,5 +114,17 @@
     "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "bfActions",
+    "FieldShowCondition": "otherTypeDocumentName=\"dummy\"",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
   }
 ]
