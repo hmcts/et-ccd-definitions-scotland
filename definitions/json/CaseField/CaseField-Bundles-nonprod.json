@@ -33,16 +33,14 @@
     "ID": "bundlesRespondentAgreedDocWithBut",
     "Label": "Tell us which documents are disputed",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public",
-    "Max": 2500
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentAgreedDocWithNo",
     "Label": "Tell us why you’ve not been able to agree with the other party",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public",
-    "Max": 2500
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -80,12 +78,13 @@
     "Label": "Upload document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C57",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentCollection",
-    "Label": "Hearing Bundles",
+    "Label": "Respondent Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
@@ -93,9 +92,16 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesClaimantCollection",
-    "Label": "Hearing Bundles",
+    "Label": "Claimant Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesTabTitle",
+    "Label": "### Hearing Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
   }
 ]
