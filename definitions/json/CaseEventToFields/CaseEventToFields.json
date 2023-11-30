@@ -6300,13 +6300,12 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createAndStitch",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "bundleYesNo",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "N",
-    "CallBackURLMidEvent": "${ET_COS_URL}/bundle/selectBundle",
     "PageLabel": "Choose case file",
     "PageColumnNumber": 1
   },
@@ -6315,11 +6314,12 @@
     "CaseEventID": "createAndStitch",
     "CaseFieldID": "caseBundles",
     "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "N",
     "PageLabel": "Configure case file",
+    "FieldShowCondition": "bundleYesNo=\"Yes\"",
     "PageColumnNumber": 1
   },
   {

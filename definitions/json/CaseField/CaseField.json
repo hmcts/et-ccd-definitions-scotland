@@ -5001,8 +5001,15 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "digitalCaseFile",
     "Label": "Digital Case File",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "DocumentUpload",
+    "FieldType": "DigitalCaseFile",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundleYesNo",
+    "Label": "Do you want to configure the bundle manually?",
+    "HintText": "Selecting No will generate a case file with all the documents in the Documents tab",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {

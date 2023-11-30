@@ -8052,5 +8052,20 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Digital Case File",
+    "SecurityClassification": "Public",
+    "CategoryID": "C69"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "dateGenerated",
+    "FieldType": "Date",
+    "ElementLabel": "Date Generated",
+    "SecurityClassification": "Public"
   }
 ]
