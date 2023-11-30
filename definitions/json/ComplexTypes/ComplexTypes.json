@@ -102,7 +102,6 @@
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
-    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -124,7 +123,6 @@
     "ListElementCode": "dateOfCorrespondence",
     "FieldType": "Date",
     "ElementLabel": "Date of Correspondence",
-    "DisplayContextParameter": "#DATETIMEENTRY(dd/MM/yyyy)",
     "SecurityClassification": "Public"
   },
   {
@@ -687,7 +685,7 @@
     "ListElementCode": "et3VettingDocument",
     "FieldType": "Document",
     "ElementLabel": "ET3 Processing Document",
-    "CategoryID": "C18",
+    "CategoryID": "C72",
     "SecurityClassification": "Public"
   },
   {
@@ -1767,7 +1765,7 @@
     "ElementLabel": "Add a document",
     "FieldTypeParameter": "DocumentUpload",
     "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
-    "CategoryID": "C18",
+    "CategoryID": "C19",
     "SecurityClassification": "Public"
   },
   {
