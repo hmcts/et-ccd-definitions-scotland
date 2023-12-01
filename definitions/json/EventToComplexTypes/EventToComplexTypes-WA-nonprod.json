@@ -320,6 +320,16 @@
     "Publish": "Y"
   },
   {
+    "ID": "amendRespondentDetails",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "responseReceived",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
     "ID": "BFActions",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
