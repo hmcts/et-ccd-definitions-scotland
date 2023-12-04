@@ -31,5 +31,16 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyToEmailAddress",
+    "DisplayContext": "OPTIONAL",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "PageColumnNumber": 1
   }
 ]

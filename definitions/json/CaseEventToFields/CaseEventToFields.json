@@ -6102,7 +6102,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "replyToEmailAddress",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
