@@ -3006,7 +3006,7 @@
   },
   {
     "ID": "fl_Part_6",
-    "ListElementCode": "52",
+    "ListElementCode": "51",
     "ListElement": "51 Notification of lead case",
     "DisplayOrder": 24
   },
@@ -5433,12 +5433,6 @@
     "ListElementCode": "Transfer request",
     "ListElement": "Transfer request",
     "DisplayOrder": 20
-  },
-  {
-    "ID": "fl_ReferralSubject",
-    "ListElementCode": "Other",
-    "ListElement": "Other",
-    "DisplayOrder": 21
   },
   {
     "ID": "msl_confirmCloseReferral",

@@ -1,0 +1,75 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantId",
+    "Label": "claimantId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "publicCaseName",
+    "Label": "Public case name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseManagementLocationCode",
+    "Label": "caseManagementLocationCode",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseInterpreterRequiredFlag",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseAdditionalSecurityFlag",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "privateHearingRequiredFlag",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantUnavailability",
+    "Label": "Claimant unavailability date ranges",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "UnavailabilityDateRange",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "partySelection",
+    "Label": "Which parties do you have hearing unavailability dates for?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "frl_partyUnavailability",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentUnavailability",
+    "Label": "Respondent unavailability date ranges",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "UnavailabilityDateRange",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "unavailabilityTabTitle",
+    "Label": "# Unavailability Dates",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  }
+]

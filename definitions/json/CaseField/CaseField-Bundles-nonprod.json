@@ -1,0 +1,107 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotes1",
+    "Label": "The tribunal should have told you in a letter which documents you need to submit for your hearing.<br><br>These documents, usually agreed by both parties, will form part of the evidence at the hearing. You should include all the documents that are important to your case, and that both parties want to refer to at the hearing.<br><br>The combined set of documents must be in one PDF file, usually submitted by one party unless instructed otherwise by the tribunal.<br> <br>If an index is requested, items should be in date order or an order in which the tribunal has requested.<br><br>The single PDF document should be created offline before uploading through this form.<br><br>You must submit hearing documents according to any time limits set out in the order from the tribunal.<br><br>Refer to the orders from the tribunal about whether you need to include your witness statements here or separately.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotes2",
+    "Label": "Providing an appropriate set of documents will ensure your case gets a fairer hearing and limit delays for you and the tribunal.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotesShow",
+    "Label": "Placeholder",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWith",
+    "Label": "Have you agreed these documents with the other party?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWith",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithBut",
+    "Label": "Tell us which documents are disputed",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithNo",
+    "Label": "Tell us why you’ve not been able to agree with the other party",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentSelectHearing",
+    "Label": "Select the hearing these documents are for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentWhoseDocuments",
+    "Label": "Whose hearing documents are you uploading?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesWhoseDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentWhatDocuments",
+    "Label": "What are these documents?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesWhatDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentUploadFileLabel",
+    "Label": "Once you’ve read the orders from the tribunal, make sure:<br><ul><li>you have the set of documents in one PDF file</li><li>that if an index is requested, the items are in date order or an order in which the tribunal have requested</li><li>the index item refers to the correct page in the document</li><li>you only include relevant documents and material for your case</li><li>the PDF document falls within any page limits given by the tribunal</li></ul>If you’re referencing one section of a document like a contract of employment, say which part in the index.<br><br>If you need to refer to previous case documents, go to your <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">case documents (opens in new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentUploadFile",
+    "Label": "Upload document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C57",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentCollection",
+    "Label": "Respondent Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesClaimantCollection",
+    "Label": "Claimant Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesTabTitle",
+    "Label": "### Hearing Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  }
+]
