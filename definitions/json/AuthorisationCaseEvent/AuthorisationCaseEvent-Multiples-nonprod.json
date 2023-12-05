@@ -1,0 +1,8 @@
+[
+    {
+        "CaseTypeId": "ET_Scotland",
+        "CaseEventID": "createLeadCase",
+        "UserRole": "caseworker-employment-scotland",
+        "CRUD": "CRUD"
+      }
+]
