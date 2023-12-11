@@ -21680,12 +21680,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "bundleYesNo",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleYesNo",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21706,12 +21700,6 @@
     "CaseFieldID": "bundleYesNo",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundleConfiguration",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -21740,12 +21728,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseBundles",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseBundles",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21770,12 +21752,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "digitalCaseFile",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "digitalCaseFile",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21796,12 +21772,6 @@
     "CaseFieldID": "digitalCaseFile",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
