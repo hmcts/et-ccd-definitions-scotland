@@ -6095,6 +6095,15 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Should the case be listed for a private preliminary hearing?",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICTypeOfPreliminaryHearing",
     "FieldType": "MultiSelectList",
