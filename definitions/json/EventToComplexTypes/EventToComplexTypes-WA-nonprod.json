@@ -1,0 +1,361 @@
+[
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referCaseTo",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "isUrgent",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralNumber",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referCaseTo",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.directionTo",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.isUrgentReply",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.replyDateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.referralNumber",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.from",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.dateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.from",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.dateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "completeInitialConsideration",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "completeInitialConsideration",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting.et3Rule26",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "ListElementCode": "etICRule27ClaimToBe",
+    "EventElementLabel": "Claim to be",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "ListElementCode": "etICRule28ClaimToBe",
+    "EventElementLabel": "Response to be",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
+  },
+  {
+    "ID": "amendRespondentDetails",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "responseReceived",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "BFActions",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "bfActions",
+    "ListElementCode": "bfDate",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "BFActions",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "bfActions",
+    "ListElementCode": "allActions",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "EventElementLabel": "Should the case be listed for a private preliminary hearing?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  }
+]

@@ -1,16 +1,18 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "addAmendClaimantRepresentative",
-    "Name": "Claimant Representative",
-    "Description": "Add or Amend a Claimant Representative",
-    "DisplayOrder": 14,
-    "PreConditionState(s)": "Accepted;Rejected;Closed",
+    "ID": "issueInitialConsiderationDirectionsWA",
+    "Name": "Issue IC Directions WA",
+    "Description": "Issue IC Directions WA",
+    "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
-    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startIssueInitialConsiderationDirectionsWA",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitIssueInitialConsiderationDirectionsWA",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeIssueInitialConsiderationDirectionsWA",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -26,7 +28,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimant/aboutToSubmit",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -42,7 +45,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -53,7 +57,8 @@
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -68,7 +73,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -81,7 +87,8 @@
     "EventEnablingCondition": "caseType !=\"Multiple\" AND preAcceptCase.caseAccepted !=\"Yes\" AND managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -97,7 +104,8 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Save ET3 as draft",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -114,7 +122,8 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Submit ET3 to Tribunal",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -130,7 +139,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -144,7 +154,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendClaimantDetails",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -158,7 +169,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentDetails",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -172,7 +184,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendJurisdiction",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -187,7 +200,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendHearing",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -202,7 +216,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingdetails/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -217,7 +232,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/judgementSubmitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -231,7 +247,8 @@
     "ShowEventNotes": "N",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -246,7 +263,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/generateDocumentConfirmation",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -262,7 +280,8 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Transfer Case",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -274,7 +293,8 @@
     "PostConditionState": "Closed",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -289,7 +309,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -305,7 +326,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -321,7 +343,8 @@
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -337,7 +360,8 @@
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -352,7 +376,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentTSE/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -367,6 +392,7 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseResponse/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseResponse/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted",
+    "Publish": "Y"
   }
 ]

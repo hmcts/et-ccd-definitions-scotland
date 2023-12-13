@@ -1,0 +1,37 @@
+[
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDateTime",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "referralSubject",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "referralNumber",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "dateTime",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "applicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  }
+]

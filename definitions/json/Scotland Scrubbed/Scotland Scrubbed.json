@@ -3006,7 +3006,7 @@
   },
   {
     "ID": "fl_Part_6",
-    "ListElementCode": "52",
+    "ListElementCode": "51",
     "ListElement": "51 Notification of lead case",
     "DisplayOrder": 24
   },
@@ -5435,12 +5435,6 @@
     "DisplayOrder": 20
   },
   {
-    "ID": "fl_ReferralSubject",
-    "ListElementCode": "Other",
-    "ListElement": "Other",
-    "DisplayOrder": 21
-  },
-  {
     "ID": "msl_confirmCloseReferral",
     "ListElementCode": "Yes",
     "ListElement": "Yes",
@@ -5736,21 +5730,21 @@
   },
   {
     "ID": "sendNotificationEccQuestion",
-    "ListElement": "Acceptance/Rejection of ECC response",
-    "ListElementCode": "Acceptance/Rejection of ECC response",
+    "ListElement": "Acceptance of ECC response",
+    "ListElementCode": "Acceptance of ECC response",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationEccQuestion",
+    "ListElement": "Rejection of ECC response",
+    "ListElementCode": "Rejection of ECC response",
+    "DisplayOrder": 3
   },
   {
     "ID": "sendNotificationEccQuestion",
     "ListElement": "Provide parties with access to ECC case view",
     "ListElementCode": "Provide parties with access to ECC case view",
-    "DisplayOrder": 3
-  },
-  {
-    "ID": "sendNotificationNotify",
-    "ListElement": "Both parties",
-    "ListElementCode": "Both parties",
-    "DisplayOrder": 1
+    "DisplayOrder": 4
   },
   {
     "ID": "sendNotificationNotify",
