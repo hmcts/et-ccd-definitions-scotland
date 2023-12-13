@@ -167,7 +167,7 @@
     "Name": "Case Details",
     "Description": "Amend Case Details",
     "DisplayOrder": 11,
-    "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted",
+    "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted;Transferred",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
