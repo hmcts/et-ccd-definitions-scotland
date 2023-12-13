@@ -706,8 +706,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "transferredCaseLink",
+    "Label": "Case Link:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "linkedCaseCTLabel",
-    "Label": "Case Transfer: ${linkedCaseCT}",
+    "Label": "Case Transfer: ${linkedCaseCT} ${transferredCaseLink}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
