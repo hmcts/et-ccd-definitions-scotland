@@ -77,35 +77,27 @@
     "ID": "caseRestrictedFlag",
     "Label": "hidden",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public",
-    "feature": "",
-    "ext": ""
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "autoListFlag",
     "Label": "hidden",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public",
-    "feature": "",
-    "ext": ""
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "caseDeepLink",
     "Label": "hidden",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "feature": "",
-    "ext": ""
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingIsLinkedFlag",
     "Label": "hidden",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "feature": "",
-    "ext": ""
+    "SecurityClassification": "Public"
   }
 ]

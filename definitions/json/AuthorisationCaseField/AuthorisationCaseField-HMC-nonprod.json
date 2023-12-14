@@ -387,48 +387,36 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseRestrictedFlag",
     "UserRole": "caseworker-employment",
-    "CRUD": "R",
-    "feature": "",
-    "ext": ""
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseRestrictedFlag",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD",
-    "feature": "",
-    "ext": ""
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "autoListFlag",
     "UserRole": "caseworker-employment",
-    "CRUD": "R",
-    "feature": "",
-    "ext": ""
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "autoListFlag",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD",
-    "feature": "",
-    "ext": ""
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseDeepLink",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD",
-    "feature": "",
-    "ext": ""
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "hearingIsLinkedFlag",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD",
-    "feature": "",
-    "ext": ""
+    "CRUD": "CRUD"
   }
 ]
