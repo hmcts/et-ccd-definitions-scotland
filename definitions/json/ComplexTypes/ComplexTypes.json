@@ -7319,6 +7319,14 @@
     "SecurityClassification": "Public"
   },
   {
+  "ID": "pseRespondCollection",
+  "ListElementCode": "responseState",
+  "FieldType": "Text",
+  "ElementLabel": " ",
+  "FieldShowCondition": "date=\"dummy\"",
+  "SecurityClassification": "Public"
+  },
+  {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationCmoOrRequest",
     "FieldType": "Text",
