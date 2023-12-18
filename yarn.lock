@@ -391,7 +391,7 @@ __metadata:
     eslint: ^8.9.0
     eslint-plugin-mocha: ^10.0.3
     glob: ^10.0.0
-    json-stringify-pretty-compact: ^3.0.0
+    json-stringify-pretty-compact: ^4.0.0
     lodash: ^4.17.21
     matcher: 4.0.0
     minimist: ^1.2.6
@@ -1323,10 +1323,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-stringify-pretty-compact@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "json-stringify-pretty-compact@npm:3.0.0"
-  checksum: 01ab5c5c8260299414868d96db97f53aef93c290fe469edd9a1363818e795006e01c952fa2fd7b47cbbab506d5768998eccc25e1da4fa2ccfebd1788c6098791
+"json-stringify-pretty-compact@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "json-stringify-pretty-compact@npm:4.0.0"
+  checksum: a10d5c423e467872994a49c5c1b56b073f277ce02d899cf567fc625f3783b89406bee6408bfb3b4bdeeff509b6a562f5259227e26754a6186f721809ca895f0c
   languageName: node
   linkType: hard
 
