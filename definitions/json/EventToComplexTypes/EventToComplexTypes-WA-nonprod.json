@@ -330,6 +330,15 @@
     "Publish": "Y"
   },
   {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "EventElementLabel": "Should the case be listed for a private preliminary hearing?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
     "ID": "BFActions",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
