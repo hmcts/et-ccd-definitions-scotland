@@ -148,5 +148,11 @@
     "CaseEventID": "WA_REVIEW_RULE21_REFERRAL",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "WA_REVIEW_RULE21_REFERRAL",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   }
 ]
