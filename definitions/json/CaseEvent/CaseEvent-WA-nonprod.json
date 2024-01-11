@@ -301,7 +301,7 @@
     "ID": "initialConsideration",
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
-    "DisplayOrder": 42,
+    "DisplayOrder": 44,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
