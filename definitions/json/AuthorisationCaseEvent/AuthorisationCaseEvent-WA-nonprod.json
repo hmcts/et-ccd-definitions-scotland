@@ -86,7 +86,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
