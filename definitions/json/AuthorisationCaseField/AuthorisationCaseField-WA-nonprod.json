@@ -66,5 +66,11 @@
     "CaseFieldID": "bfActions",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "waRule21ReferralSent",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
