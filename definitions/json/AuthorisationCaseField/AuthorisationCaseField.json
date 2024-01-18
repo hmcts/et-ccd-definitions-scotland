@@ -4827,7 +4827,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "servingDocumentCollection",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
