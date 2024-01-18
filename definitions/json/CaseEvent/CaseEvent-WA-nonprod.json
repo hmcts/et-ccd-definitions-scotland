@@ -394,5 +394,21 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseResponse/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "WA_REVIEW_RULE21_REFERRAL",
+    "Name": "WA_REVIEW_RULE21_REFERRAL",
+    "Description": "",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
   }
 ]
