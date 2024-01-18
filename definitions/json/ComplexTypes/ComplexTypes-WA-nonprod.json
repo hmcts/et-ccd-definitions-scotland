@@ -33,5 +33,14 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Should the case be listed for a private preliminary hearing?",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
   }
 ]

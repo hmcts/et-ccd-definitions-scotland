@@ -13,6 +13,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "managingOffice",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3Rule26",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
@@ -60,5 +66,17 @@
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "bfActions",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "waRule21ReferralSent",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]

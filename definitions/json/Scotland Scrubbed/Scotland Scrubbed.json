@@ -5730,21 +5730,21 @@
   },
   {
     "ID": "sendNotificationEccQuestion",
-    "ListElement": "Acceptance/Rejection of ECC response",
-    "ListElementCode": "Acceptance/Rejection of ECC response",
+    "ListElement": "Acceptance of ECC response",
+    "ListElementCode": "Acceptance of ECC response",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationEccQuestion",
+    "ListElement": "Rejection of ECC response",
+    "ListElementCode": "Rejection of ECC response",
+    "DisplayOrder": 3
   },
   {
     "ID": "sendNotificationEccQuestion",
     "ListElement": "Provide parties with access to ECC case view",
     "ListElementCode": "Provide parties with access to ECC case view",
-    "DisplayOrder": 3
-  },
-  {
-    "ID": "sendNotificationNotify",
-    "ListElement": "Both parties",
-    "ListElementCode": "Both parties",
-    "DisplayOrder": 1
+    "DisplayOrder": 4
   },
   {
     "ID": "sendNotificationNotify",

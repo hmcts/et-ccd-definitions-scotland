@@ -36,5 +36,40 @@
     "ElementLabel": " ",
     "FieldShowCondition": "representative_id=\"dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentType",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Type of respondent",
+    "FieldTypeParameter": "frl_respondentType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentFirstName",
+    "FieldType": "Text",
+    "RetainHiddenValue": "No",
+    "ElementLabel": "Respondent First Name",
+    "FieldShowCondition": "respondentType=\"Individual\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentLastName",
+    "FieldType": "Text",
+    "RetainHiddenValue": "No",
+    "ElementLabel": "Respondent Last Name",
+    "FieldShowCondition": "respondentType=\"Individual\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentOrganisation",
+    "FieldType": "Text",
+    "RetainHiddenValue": "No",
+    "ElementLabel": "Organisation or business name",
+    "FieldShowCondition": "respondentType=\"Organisation\"",
+    "SecurityClassification": "Public"
   }
 ]
