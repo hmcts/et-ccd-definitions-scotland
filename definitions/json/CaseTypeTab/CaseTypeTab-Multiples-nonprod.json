@@ -1,5 +1,13 @@
 [
   {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Notes",
+    "TabLabel": "Notes",
+    "CaseFieldID": "multiplesNotes",
+    "TabDisplayOrder": 2
+  },
+  {
     "CaseFieldID": "multiplesDocumentsTabTitle",
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
