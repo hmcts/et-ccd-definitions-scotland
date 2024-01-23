@@ -3915,14 +3915,14 @@
     "RetainHiddenValue": "No"
   },
   {
-     "ID": "Respondent",
-     "CaseFieldID": "respondentCollection",
-     "CaseEventID": "amendRespondentDetails",
-     "ListElementCode": "et3ResponseContestClaimDocument.uploadedDocument",
-     "EventElementLabel": "Upload a document to your response",
-     "FieldDisplayOrder": 42,
-     "DisplayContext": "OPTIONAL",
-     "RetainHiddenValue": "No"
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseContestClaimDocument.uploadedDocument",
+    "EventElementLabel": "Upload a document to your response",
+    "FieldDisplayOrder": 42,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "Respondent",
