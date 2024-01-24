@@ -1,0 +1,20 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  }  
+]
