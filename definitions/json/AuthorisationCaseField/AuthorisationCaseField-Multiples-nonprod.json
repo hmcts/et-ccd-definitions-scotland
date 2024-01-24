@@ -101,7 +101,7 @@
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
-    {
+  {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "caseFileView",
     "UserRole": "caseworker-employment-scotland",
