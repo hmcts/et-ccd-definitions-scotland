@@ -6743,6 +6743,133 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "topLevelDocuments",
+    "EventElementLabel": "Document Category",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "startingClaimDocuments",
+    "EventElementLabel": "Starting a Claim",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "responseClaimDocuments",
+    "EventElementLabel": "Response to a Claim",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "initialConsiderationDocuments",
+    "EventElementLabel": "Initial Consideration",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "caseManagementDocuments",
+    "EventElementLabel": "Case Management",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "withdrawalSettledDocuments",
+    "EventElementLabel": "Withdrawal/Settled",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "hearingsDocuments",
+    "EventElementLabel": "Hearings",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "judgmentAndReasonsDocuments",
+    "EventElementLabel": "Judgment and Reasons",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "reconsiderationDocuments",
+    "EventElementLabel": "Reconsideration",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "miscDocuments",
+    "EventElementLabel": "Misc",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "typeOfDocument",
+    "EventElementLabel": "Type of Document",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\""
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short Description",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "dateOfCorrespondence",
+    "EventElementLabel": "Date of Correspondence",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "tseResponseSupportingMaterial",
     "CaseFieldID": "tseResponseSupportingMaterial",
     "CaseEventID": "tseRespond",
