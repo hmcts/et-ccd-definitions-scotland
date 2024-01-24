@@ -1,5 +1,32 @@
 [
   {
+    "CaseFieldID": "multiplesDocumentsTabTitle",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 101,
+    "TabID": "MultiplesDocumentsTab",
+    "TabLabel": "Documents",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "multiplesClaimantDocumentsTabTitle",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 102,
+    "TabID": "MultiplesClaimantDocumentsTab",
+    "TabLabel": "Docs - Claimant",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "multiplesRespondentDocumentsTabTitle",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 103,
+    "TabID": "MultiplesRespondentDocumentsTab",
+    "TabLabel": "Docs - Respondent",
+    "TabFieldDisplayOrder": 1
+  },
+  {
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
     "TabID": "CaseFileView",
@@ -9,3 +36,4 @@
     "TabFieldDisplayOrder": 1
   }
 ]
+
