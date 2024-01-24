@@ -1845,7 +1845,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocument",
     "CaseFieldID": "documentCollection",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
