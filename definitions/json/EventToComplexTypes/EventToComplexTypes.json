@@ -6758,7 +6758,7 @@
     "ListElementCode": "startingClaimDocuments",
     "EventElementLabel": "Starting a Claim",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6767,7 +6767,7 @@
     "ListElementCode": "responseClaimDocuments",
     "EventElementLabel": "Response to a Claim",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6776,7 +6776,7 @@
     "ListElementCode": "initialConsiderationDocuments",
     "EventElementLabel": "Initial Consideration",
     "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6785,7 +6785,7 @@
     "ListElementCode": "caseManagementDocuments",
     "EventElementLabel": "Case Management",
     "FieldDisplayOrder": 5,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6794,7 +6794,7 @@
     "ListElementCode": "withdrawalSettledDocuments",
     "EventElementLabel": "Withdrawal/Settled",
     "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6803,7 +6803,7 @@
     "ListElementCode": "hearingsDocuments",
     "EventElementLabel": "Hearings",
     "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6812,7 +6812,7 @@
     "ListElementCode": "judgmentAndReasonsDocuments",
     "EventElementLabel": "Judgment and Reasons",
     "FieldDisplayOrder": 8,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6821,7 +6821,7 @@
     "ListElementCode": "reconsiderationDocuments",
     "EventElementLabel": "Reconsideration",
     "FieldDisplayOrder": 9,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6830,7 +6830,7 @@
     "ListElementCode": "miscDocuments",
     "EventElementLabel": "Misc",
     "FieldDisplayOrder": 10,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
@@ -6839,7 +6839,7 @@
     "ListElementCode": "typeOfDocument",
     "EventElementLabel": "Type of Document",
     "FieldDisplayOrder": 11,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\""
   },
   {
