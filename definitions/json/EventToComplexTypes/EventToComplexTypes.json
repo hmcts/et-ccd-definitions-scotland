@@ -2701,6 +2701,24 @@
   },
   {
     "ID": "AmendCase",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "preAcceptCase",
+    "ListElementCode": "dateAccepted",
+    "EventElementLabel": "Date Accepted",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "AmendCase",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "preAcceptCase",
+    "ListElementCode": "dateRejected",
+    "EventElementLabel": "Date Rejected",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "AmendCase",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "preAcceptCase",
     "ListElementCode": "dateAccepted",
@@ -2717,6 +2735,7 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
+
   {
     "ID": "AmendCase",
     "CaseEventID": "amendCaseDetailsClosed",
