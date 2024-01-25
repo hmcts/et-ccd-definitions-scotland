@@ -289,7 +289,7 @@
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 5,
-    "DisplayContextParameter": "#TABLE(uploadedDocument, documentType, dateOfCorrespondence)"
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_Scotland",
