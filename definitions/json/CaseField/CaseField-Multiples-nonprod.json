@@ -1,0 +1,30 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesDocumentsTabTitle",
+    "Label": "### Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesClaimantDocumentsTabTitle",
+    "Label": "### Claimant Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesRespondentDocumentsTabTitle",
+    "Label": "### Respondent Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseFileView",
+    "Label": "Case File View",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }
+]
