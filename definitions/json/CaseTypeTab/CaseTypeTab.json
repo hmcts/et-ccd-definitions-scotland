@@ -289,7 +289,7 @@
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 5,
-    "DisplayContextParameter": "#TABLE(uploadedDocument, documentType, dateOfCorrespondence)"
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1269,7 +1269,7 @@
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
@@ -1722,7 +1722,7 @@
     "Channel": "CaseWorker",
     "TabID": "EventHistory",
     "TabLabel": "History",
-    "TabDisplayOrder": 2,
+    "TabDisplayOrder": 3,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
   }
