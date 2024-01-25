@@ -1,6 +1,13 @@
 [
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesNotes",
+    "Label": "Notes",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "multiplesDocumentsTabTitle",
     "Label": "### Documents",
     "FieldType": "Label",
