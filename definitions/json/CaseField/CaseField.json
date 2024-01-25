@@ -1437,7 +1437,7 @@
     "ID": "etInitialConsiderationDocument",
     "Label": "Initial Consideration Document",
     "FieldType": "Document",
-    "CategoryID": "C18",
+    "CategoryID": "C23",
     "SecurityClassification": "Public"
   },
   {
