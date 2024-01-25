@@ -1,5 +1,23 @@
 [
   {
+    "RoleName": "specific-access-judiciary",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-etjudge-scotland",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "challenged-access-judiciary",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-etjudge-scotland",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
     "RoleName": "leadership-judge",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
@@ -36,7 +54,52 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName": "hearing-centre-team-leader",
+    "RoleName": "specific-access-legal-ops",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "challenged-access-legal-ops",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "senior-tribunal-caseworker",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "tribunal-caseworker",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "specific-access-admin",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-scotland",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "challenged-access-admin",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "GS_profile,caseworker-employment-scotland",
@@ -45,7 +108,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName": "regional-centre-team-leader",
+    "RoleName": "hearing-centre-team-leader",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "GS_profile,caseworker-employment-scotland",
@@ -63,7 +126,34 @@
     "CaseAccessCategories": ""
   },
   {
+    "RoleName": "regional-centre-team-leader",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-scotland",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
     "RoleName": "regional-centre-admin",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-scotland",
+    "ReadOnly": "N",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "specific-access-ctsc",
+    "Authorisation": "",
+    "CaseTypeID": "ET_Scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment-scotland",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "challenged-access-ctsc",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
     "AccessProfiles": "GS_profile,caseworker-employment-scotland",
