@@ -1269,7 +1269,7 @@
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
