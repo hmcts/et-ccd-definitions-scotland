@@ -6839,8 +6839,7 @@
     "ListElementCode": "typeOfDocument",
     "EventElementLabel": "Type of Document",
     "FieldDisplayOrder": 11,
-    "DisplayContext": "OPTIONAL",
-    "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\""
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Documents",
