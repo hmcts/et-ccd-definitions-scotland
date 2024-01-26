@@ -61,6 +61,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "multiplesDocumentsTabTitle",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "multiplesClaimantDocumentsTabTitle",
     "UserRole": "et-acas-api",
     "CRUD": "R"
