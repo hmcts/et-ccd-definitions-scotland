@@ -1,6 +1,13 @@
 [
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "notificationsTabLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "multiplesNotes",
     "Label": "Notes",
     "FieldType": "Label",
