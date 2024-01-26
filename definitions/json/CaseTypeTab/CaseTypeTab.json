@@ -1722,7 +1722,7 @@
     "Channel": "CaseWorker",
     "TabID": "EventHistory",
     "TabLabel": "History",
-    "TabDisplayOrder": 3,
+    "TabDisplayOrder": 4,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
   }

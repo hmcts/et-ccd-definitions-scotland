@@ -1,6 +1,30 @@
 [
   {
     "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "multiplesNotes",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
@@ -34,6 +58,12 @@
     "CaseFieldID": "multiplesDocumentsTabTitle",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "multiplesDocumentsTabTitle",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
