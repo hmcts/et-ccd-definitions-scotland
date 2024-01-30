@@ -51,7 +51,7 @@
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "applicationsLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/\">View an application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewRespondentTSEApplications/viewRespondentTSEApplications1\">View an application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
