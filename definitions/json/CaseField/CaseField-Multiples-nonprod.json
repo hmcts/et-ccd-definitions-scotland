@@ -1,6 +1,13 @@
 [
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "notificationsTabLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "multiplesNotes",
     "Label": "Notes",
     "FieldType": "Label",
@@ -31,6 +38,20 @@
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "caseFileView",
     "Label": "Case File View",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "applicationsTab",
+    "Label": "### Applications",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "applicationsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewRespondentTSEApplications/viewRespondentTSEApplications1\">View an application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
