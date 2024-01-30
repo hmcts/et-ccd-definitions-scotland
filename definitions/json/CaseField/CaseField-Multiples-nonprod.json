@@ -40,5 +40,19 @@
     "Label": "Case File View",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "applicationsTab",
+    "Label": "### Applications",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "applicationsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/\">View an application</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
