@@ -1,0 +1,44 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "notificationsTabLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesNotes",
+    "Label": "Notes",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesDocumentsTabTitle",
+    "Label": "### Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesClaimantDocumentsTabTitle",
+    "Label": "### Claimant Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multiplesRespondentDocumentsTabTitle",
+    "Label": "### Respondent Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseFileView",
+    "Label": "Case File View",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }
+]
