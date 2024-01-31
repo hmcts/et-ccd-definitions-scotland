@@ -1,0 +1,17 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "waRule21ReferralSent",
+    "Label": "text",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hmctsCaseCategory",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  }
+]

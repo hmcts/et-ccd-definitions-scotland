@@ -5730,21 +5730,21 @@
   },
   {
     "ID": "sendNotificationEccQuestion",
-    "ListElement": "Acceptance/Rejection of ECC response",
-    "ListElementCode": "Acceptance/Rejection of ECC response",
+    "ListElement": "Acceptance of ECC response",
+    "ListElementCode": "Acceptance of ECC response",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationEccQuestion",
+    "ListElement": "Rejection of ECC response",
+    "ListElementCode": "Rejection of ECC response",
+    "DisplayOrder": 3
   },
   {
     "ID": "sendNotificationEccQuestion",
     "ListElement": "Provide parties with access to ECC case view",
     "ListElementCode": "Provide parties with access to ECC case view",
-    "DisplayOrder": 3
-  },
-  {
-    "ID": "sendNotificationNotify",
-    "ListElement": "Both parties",
-    "ListElementCode": "Both parties",
-    "DisplayOrder": 1
+    "DisplayOrder": 4
   },
   {
     "ID": "sendNotificationNotify",
@@ -6069,7 +6069,8 @@
     "ListElementCode": "Claim part rejected",
     "ListElement": "Claim part rejected",
     "DisplayOrder": 7
-  },  {
+  },
+  {
     "ID": "fl_StartingAClaim",
     "ListElementCode": "ET1 Vetting",
     "ListElement": "ET1 Vetting",
@@ -6173,8 +6174,8 @@
   },
   {
     "ID": "fl_CaseManagement",
-    "ListElementCode": "App to revoke an order- C",
-    "ListElement": "App to revoke an order- C",
+    "ListElementCode": "App to revoke an order - C",
+    "ListElement": "App to revoke an order - C",
     "DisplayOrder": 7
   },
   {
@@ -6185,14 +6186,14 @@
   },
   {
     "ID": "fl_CaseManagement",
-    "ListElementCode": "App to vary or revoke an order – C",
-    "ListElement": "App to revoke an order – C",
+    "ListElementCode": "App to vary or revoke an order - C",
+    "ListElement": "App to vary or revoke an order - C",
     "DisplayOrder": 9
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "App to vary or revoke an order – R",
-    "ListElement": "App to revoke an order – R",
+    "ListElement": "App to vary or revoke an order – R",
     "DisplayOrder": 10
   },
   {
@@ -6233,63 +6234,69 @@
   },
   {
     "ID": "fl_CaseManagement",
-    "ListElementCode": "App for a Witness Order",
-    "ListElement": "App for a Witness Order",
+    "ListElementCode": "App for a Witness Order - C",
+    "ListElement": "App for a Witness Order - C",
     "DisplayOrder": 17
+  },
+  {
+    "ID": "fl_CaseManagement",
+    "ListElementCode": "App for a Witness Order - R",
+    "ListElement": "App for a Witness Order - R",
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "Disability Impact statement",
     "ListElement": "Disability Impact statement",
-    "DisplayOrder": 18
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "R has not complied with an order - C",
     "ListElement": "R has not complied with an order - C",
-    "DisplayOrder": 19
+    "DisplayOrder": 20
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "C has not complied with an order - R",
     "ListElement": "C has not complied with an order - R",
-    "DisplayOrder": 20
+    "DisplayOrder": 21
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "App to Strike out all or part of the claim",
     "ListElement": "App to Strike out all or part of the claim",
-    "DisplayOrder": 21
+    "DisplayOrder": 22
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "App to Strike out all or part of the response",
     "ListElement": "App to Strike out all or part of the response",
-    "DisplayOrder": 22
+    "DisplayOrder": 23
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "Referral/Judicial Direction",
     "ListElement": "Referral/Judicial Direction",
-    "DisplayOrder": 23
+    "DisplayOrder": 24
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "Change of party’s details",
     "ListElement": "Change of party’s details",
-    "DisplayOrder": 24
+    "DisplayOrder": 25
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "Contact the tribunal about something else - C",
     "ListElement": "Contact the tribunal about something else - C",
-    "DisplayOrder": 25
+    "DisplayOrder": 26
   },
   {
     "ID": "fl_CaseManagement",
     "ListElementCode": "Contact the tribunal about something else - R",
     "ListElement": "Contact the tribunal about something else - R",
-    "DisplayOrder": 26
+    "DisplayOrder": 27
   },
   {
     "ID": "fl_WithdrawalSettled",
@@ -6317,14 +6324,14 @@
   },
   {
     "ID": "fl_Hearings",
-    "ListElementCode": "App to restrict publicity- C",
-    "ListElement": "App to restrict publicity- C",
+    "ListElementCode": "App to restrict publicity - C",
+    "ListElement": "App to restrict publicity - C",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_Hearings",
-    "ListElementCode": "App to restrict publicity- R",
-    "ListElement": "App to restrict publicity- R",
+    "ListElementCode": "App to restrict publicity - R",
+    "ListElement": "App to restrict publicity - R",
     "DisplayOrder": 2
   },
   {
@@ -6341,8 +6348,8 @@
   },
   {
     "ID": "fl_Hearings",
-    "ListElementCode": "App to postpone– C",
-    "ListElement": "App to postpone– C",
+    "ListElementCode": "App to postpone – C",
+    "ListElement": "App to postpone – C",
     "DisplayOrder": 5
   },
   {

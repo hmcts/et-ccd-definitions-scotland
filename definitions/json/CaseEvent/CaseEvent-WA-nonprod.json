@@ -109,6 +109,24 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "submitEt3",
+    "Name": "Submit ET3 Form",
+    "Description": "Submit ET3 Form",
+    "DisplayOrder": 44,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/startSubmitEt3",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Submit ET3 to Tribunal",
+    "ShowSummary": "Y",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3Vetting",
     "Name": "ET3 Processing",
     "Description": "ET3 Processing",
@@ -283,7 +301,7 @@
     "ID": "initialConsideration",
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
-    "DisplayOrder": 42,
+    "DisplayOrder": 44,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
@@ -375,6 +393,22 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseResponse/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseResponse/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "WA_REVIEW_RULE21_REFERRAL",
+    "Name": "WA_REVIEW_RULE21_REFERRAL",
+    "Description": "",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
   }
 ]

@@ -238,6 +238,14 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "transferredCaseLink",
+    "TabFieldDisplayOrder": 25,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "ethosCaseReference",
     "TabFieldDisplayOrder": 26,
     "FieldShowCondition": "caseType=\"dummy\""
@@ -280,7 +288,8 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 5,
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1703,7 +1712,7 @@
     "Channel": "CaseWorker",
     "TabID": "EventHistory",
     "TabLabel": "History",
-    "TabDisplayOrder": 2,
+    "TabDisplayOrder": 4,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
   }

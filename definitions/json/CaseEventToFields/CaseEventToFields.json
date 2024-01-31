@@ -5838,17 +5838,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "createReferral",
-    "CaseFieldID": "referentEmail",
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 4,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "createReferral",
     "CaseFieldID": "isUrgent",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
@@ -5955,16 +5944,6 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "updateReferral",
-    "CaseFieldID": "updateReferentEmail",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
   {
@@ -6096,17 +6075,6 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "replyToReferral",
-    "CaseFieldID": "replyToEmailAddress",
-    "DisplayContext": "MANDATORY",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
   {

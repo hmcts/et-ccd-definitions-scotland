@@ -109,6 +109,7 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
+    "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\"",
     "SecurityClassification": "Public"
   },
   {
@@ -123,6 +124,13 @@
     "ListElementCode": "dateOfCorrespondence",
     "FieldType": "Date",
     "ElementLabel": "Date of Correspondence",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "docNumber",
+    "FieldType": "Number",
+    "ElementLabel": "Number",
     "SecurityClassification": "Public"
   },
   {
@@ -7419,6 +7427,14 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "copyToOtherParty=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "responseState",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {

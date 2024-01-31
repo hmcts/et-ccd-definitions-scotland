@@ -320,6 +320,25 @@
     "Publish": "Y"
   },
   {
+    "ID": "amendRespondentDetails",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "responseReceived",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "EventElementLabel": "Should the case be listed for a private preliminary hearing?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
     "ID": "BFActions",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
