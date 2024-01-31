@@ -134,6 +134,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "DocumentUpload",
+    "ListElementCode": "tornadoEmbeddedPdfUrl",
+    "FieldType": "Text",
+    "ElementLabel": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",
