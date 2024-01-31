@@ -67,5 +67,21 @@
     "TabID": "Applications",
     "CaseFieldID": "applicationsLinks",
     "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "TabLabel": "Referrals",
+    "TabDisplayOrder": 106,
+    "CaseFieldID": "referralsLabel",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralLinks",
+    "TabFieldDisplayOrder": 2
   }
 ]
