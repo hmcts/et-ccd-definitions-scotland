@@ -1,0 +1,317 @@
+[
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "excludeFromDcf",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Exclude from Digital Case File",
+    "FieldTypeParameter": "msl_Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleDocument",
+    "ListElementCode": "name",
+    "FieldType": "Text",
+    "ElementLabel": "Document Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleDocument",
+    "ListElementCode": "sortIndex",
+    "FieldType": "Number",
+    "ElementLabel": "Sort Index",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleDocument",
+    "ListElementCode": "description",
+    "FieldType": "Text",
+    "ElementLabel": "Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleDocument",
+    "ListElementCode": "sourceDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Source Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder2",
+    "ListElementCode": "name",
+    "FieldType": "Text",
+    "ElementLabel": "Subfolder Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder2",
+    "ListElementCode": "documents",
+    "FieldType": "Collection",
+    "ElementLabel": "Folder Documents",
+    "FieldTypeParameter": "BundleDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder2",
+    "ListElementCode": "sortIndex",
+    "FieldType": "Number",
+    "ElementLabel": "Sort Index",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder",
+    "ListElementCode": "name",
+    "FieldType": "Text",
+    "ElementLabel": "Subfolder Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder",
+    "ListElementCode": "documents",
+    "FieldType": "Collection",
+    "ElementLabel": "Folder Documents",
+    "FieldTypeParameter": "BundleDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder",
+    "ListElementCode": "folders",
+    "FieldType": "Collection",
+    "ElementLabel": "Subfolders",
+    "FieldTypeParameter": "BundleSubfolder2",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleSubfolder",
+    "ListElementCode": "sortIndex",
+    "FieldType": "Number",
+    "ElementLabel": "Sort Index",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleFolder",
+    "ListElementCode": "name",
+    "FieldType": "Text",
+    "ElementLabel": "Folder Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleFolder",
+    "ListElementCode": "documents",
+    "FieldType": "Collection",
+    "ElementLabel": "Folder Documents",
+    "FieldTypeParameter": "BundleDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleFolder",
+    "ListElementCode": "folders",
+    "FieldType": "Collection",
+    "ElementLabel": "Subfolders",
+    "FieldTypeParameter": "BundleSubfolder",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "BundleFolder",
+    "ListElementCode": "sortIndex",
+    "FieldType": "Number",
+    "ElementLabel": "Sort Index",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentImage",
+    "ListElementCode": "imageRendering",
+    "FieldType": "FixedList",
+    "ElementLabel": "How would you like to have the image rendered?",
+    "FieldTypeParameter": "imageRendering",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentImage",
+    "ListElementCode": "imageRenderingLocation ",
+    "FieldType": "FixedList",
+    "ElementLabel": "Where would you like to embed the image in stitched document?",
+    "FieldTypeParameter": "imageRenderingLocation ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentImage",
+    "ListElementCode": "docmosisAssetId",
+    "FieldType": "Text",
+    "ElementLabel": "The filename of the Image you wish to embed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentImage",
+    "ListElementCode": "coordinateX",
+    "FieldType": "Number",
+    "ElementLabel": "X position of the image",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentImage",
+    "ListElementCode": "coordinateY",
+    "FieldType": "Number",
+    "ElementLabel": "Y position of the image",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "id",
+    "FieldType": "Text",
+    "ElementLabel": "Bundle ID",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "title",
+    "FieldType": "Text",
+    "ElementLabel": "Name of bundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "description",
+    "FieldType": "TextArea",
+    "ElementLabel": "Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "eligibleForStitching",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is this the bundle you want to stitch?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "eligibleForCloning",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is this the bundle you want to clone?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "documents",
+    "FieldType": "Collection",
+    "ElementLabel": "Bundle document",
+    "FieldTypeParameter": "BundleDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "folders",
+    "FieldType": "Collection",
+    "ElementLabel": "Bundle folder",
+    "FieldTypeParameter": "BundleFolder",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "stitchStatus",
+    "FieldType": "Text",
+    "ElementLabel": "Stitch Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "stitchedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Stitched Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "hasCoversheets",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Should this bundle have coversheets separating each document?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "hasTableOfContents",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Should this bundle have a title page with a table of contents?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "hasFolderCoversheets",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Should this bundle’s folders have a coversheet?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "stitchingFailureMessage",
+    "FieldType": "Text",
+    "ElementLabel": "Error from Stiching service",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "fileName",
+    "FieldType": "Text",
+    "ElementLabel": "Name of the PDF",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "fileNameIdentifier",
+    "FieldType": "Text",
+    "ElementLabel": "Unique filename identifier",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "paginationStyle",
+    "FieldType": "FixedList",
+    "ElementLabel": "Pagination Style",
+    "FieldTypeParameter": "paginationStyle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "coverpageTemplate",
+    "FieldType": "Text",
+    "ElementLabel": "Cover page template",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "pageNumberFormat",
+    "FieldType": "FixedList",
+    "ElementLabel": "Page Number Format",
+    "FieldTypeParameter": "pageNumberFormat",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "enableEmailNotification",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Enable Email Notification?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Bundle",
+    "ListElementCode": "documentImage",
+    "FieldType": "DocumentImage",
+    "ElementLabel": "Configure image for stitched PDF?",
+    "FieldTypeParameter": "DocumentImage",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Digital Case File",
+    "SecurityClassification": "Public",
+    "CategoryID": "C69"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "dateGenerated",
+    "FieldType": "Date",
+    "ElementLabel": "Date Generated",
+    "SecurityClassification": "Public"
+  }
+]

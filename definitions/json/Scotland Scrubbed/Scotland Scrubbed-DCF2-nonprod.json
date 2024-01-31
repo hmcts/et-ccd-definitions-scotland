@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "pageNumberFormat",
+    "ListElementCode": "pageRange",
+    "ListElement": "Page Range",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "pageNumberFormat",
+    "ListElementCode": "numberOfPages",
+    "ListElement": "Number Of Pages",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "off",
+    "ListElement": "Off",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "topLeft",
+    "ListElement": "Top Left",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "topCenter",
+    "ListElement": "Top Center",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "topRight",
+    "ListElement": "Top Right",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "bottomLeft",
+    "ListElement": "Bottom Left",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "bottomCenter",
+    "ListElement": "Bottom Center",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "paginationStyle",
+    "ListElementCode": "bottomRight",
+    "ListElement": "Bottom Right",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "imageRendering",
+    "ListElementCode": "opaque",
+    "ListElement": "Opaque",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "imageRendering",
+    "ListElementCode": "translucent",
+    "ListElement": "Translucent",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "imageRenderingLocation",
+    "ListElementCode": "allPages",
+    "ListElement": "Image on all pages of the Document",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "imageRenderingLocation",
+    "ListElementCode": "firstPage",
+    "ListElement": "Image on the First Page of each document",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "configurationFiles",
+    "ListElementCode": "et-dcf-2.yaml",
+    "ListElement": "ET Digital Case File",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "configurationFiles",
+    "ListElementCode": "et-dcf-ordered.yaml",
+    "ListElement": "ET Digital Case File (Ordered)",
+    "DisplayOrder": 2
+  }
+]

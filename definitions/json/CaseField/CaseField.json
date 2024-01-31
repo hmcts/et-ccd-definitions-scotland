@@ -4982,45 +4982,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "bundleConfiguration",
-    "Label": "Digital Case File configuration",
-    "FieldType": "FixedList",
-    "FieldTypeParameter": "configurationFiles",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "caseBundles",
-    "Label": "Case Bundles",
-    "HintText": "Bundle to hold documents",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "Bundle",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "digitalCaseFile",
-    "Label": "Digital Case File",
-    "FieldType": "DigitalCaseFile",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "bundleYesNo",
-    "Label": "Do you want to configure the bundle manually?",
-    "HintText": "Selecting No will generate a case file with all the documents in the Documents tab",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "createDigitalCaseFileLink",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createAndStitch/createAndStitch1\">Create DCF</a>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "resTseNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
