@@ -13,5 +13,37 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "createReferral",
+    "Name": "Referral",
+    "Description": "Referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 49,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
+    "ShowEventNotes": "N",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "uploadDocument",
+    "Name": "Upload Document",
+    "Description": "Upload a Document",
+    "DisplayOrder": 29,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
+    "ShowSummary": "N"
   }
 ]
