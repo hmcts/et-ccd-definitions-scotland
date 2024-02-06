@@ -1,0 +1,43 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "exampleGetAnotherCase",
+    "CaseFieldID": "exampleCaseIdToLookup",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "anotherCaseLookup",
+    "PageLabel": "Look up case details"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "exampleGetAnotherCase",
+    "CaseFieldID": "exampleCaseDetails",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "exampleLookup",
+    "CaseFieldID": "exampleLeadCaseHearingDetails",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "exampleLeadCaseHearingDetailsLabel=\"dummy\"",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "exampleLookup",
+    "CaseFieldID": "exampleLeadCaseHearingDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  }
+]

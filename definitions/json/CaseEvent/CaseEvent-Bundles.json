@@ -4,7 +4,7 @@
     "ID": "bundlesRespondentPrepareDoc",
     "Name": "Prepare documents for hearing",
     "Description": "Prepare documents for a hearing",
-    "DisplayOrder": 1,
+    "DisplayOrder": 2,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
