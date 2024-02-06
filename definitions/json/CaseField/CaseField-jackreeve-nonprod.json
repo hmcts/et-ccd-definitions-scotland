@@ -1,0 +1,30 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "exampleLeadCaseHearingDetails",
+    "Label": "Placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "exampleLeadCaseHearingDetailsLabel",
+    "Label": "${exampleLeadCaseHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "exampleCaseIdToLookup",
+    "Label": "Enter a case id to look up",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "exampleCaseDetails",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  }
+]

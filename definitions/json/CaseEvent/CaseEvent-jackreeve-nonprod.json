@@ -1,0 +1,36 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "exampleGetAnotherCase",
+    "Name": "Another Case",
+    "Description": "Lookup data on another case",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "exampleLookup",
+    "Name": "exampleLookup",
+    "Description": "",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/leadCaseHearingDetails",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "N"
+  }
+]
