@@ -109,7 +109,6 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\"",
     "SecurityClassification": "Public"
   },
   {
