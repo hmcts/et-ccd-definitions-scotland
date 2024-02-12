@@ -6077,12 +6077,6 @@
     "DisplayOrder": 8
   },
   {
-    "ID": "fl_StartingAClaim",
-    "ListElementCode": "ET1 Vetting",
-    "ListElement": "ET1 Vetting",
-    "DisplayOrder": 8
-  },
-  {
     "ID": "fl_ResponseToAClaim",
     "ListElementCode": "ET3",
     "ListElement": "ET3",
