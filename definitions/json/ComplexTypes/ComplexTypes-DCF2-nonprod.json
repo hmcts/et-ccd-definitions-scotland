@@ -127,17 +127,17 @@
   },
   {
     "ID": "DocumentImage",
-    "ListElementCode": "imageRenderingLocation ",
+    "ListElementCode": "imageRenderingLocation",
     "FieldType": "FixedList",
-    "ElementLabel": "Where would you like to embed the image in stitched document?",
-    "FieldTypeParameter": "imageRenderingLocation ",
+    "ElementLabel": "Where would you like to embed the image in the stitched document?",
+    "FieldTypeParameter": "imageRenderingLocation",
     "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentImage",
     "ListElementCode": "docmosisAssetId",
     "FieldType": "Text",
-    "ElementLabel": "The filename of the Image you wish to embed",
+    "ElementLabel": "The filename of the image you wish to embed",
     "SecurityClassification": "Public"
   },
   {
@@ -244,7 +244,7 @@
     "ID": "Bundle",
     "ListElementCode": "stitchingFailureMessage",
     "FieldType": "Text",
-    "ElementLabel": "Error from Stiching service",
+    "ElementLabel": "Error from Stitching service",
     "SecurityClassification": "Public"
   },
   {
