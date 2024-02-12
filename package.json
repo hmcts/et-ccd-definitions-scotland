@@ -8,7 +8,7 @@
     "lodash": "^4.17.21",
     "matcher": "4.0.0",
     "minimist": "^1.2.6",
-    "moment": "^2.29.4",
+    "moment": "^2.30.1",
     "prettier": "^3.0.0",
     "pretty-quick": "^4.0.0",
     "xlsx": "^0.18.2",
