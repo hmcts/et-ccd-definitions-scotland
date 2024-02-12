@@ -426,6 +426,6 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "CallBackURLSubmittedEvent": "",
-    "Publish": "N"
+    "Publish": "Y"
   }
 ]
