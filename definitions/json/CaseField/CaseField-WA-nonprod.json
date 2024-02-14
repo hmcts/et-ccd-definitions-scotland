@@ -13,5 +13,19 @@
     "FieldType": "Text",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "draftAndSignJudgementLink",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/draftAndSignJudgement/draftAndSignJudgement1\">Draft & Sign Judgment</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "draftAndSignJudgement",
+    "Label": "Draft and Sign Judgement",
+    "FieldType": "DraftAndSignJudgement",
+    "SecurityClassification": "Public"
   }
 ]

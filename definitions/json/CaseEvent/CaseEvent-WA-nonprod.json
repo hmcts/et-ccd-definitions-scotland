@@ -427,5 +427,21 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "draftAndSignJudgement",
+    "Name": "Draft and Sign Judgement",
+    "Description": "Draft and Sign Judgement",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
   }
 ]
