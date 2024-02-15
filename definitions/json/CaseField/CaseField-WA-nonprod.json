@@ -17,7 +17,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgementLink",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/draftAndSignJudgement/draftAndSignJudgement1\">Draft & Sign Judgment</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/draftAndSignJudgement/draftAndSignJudgement1\">Draft & Sign Judgement</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

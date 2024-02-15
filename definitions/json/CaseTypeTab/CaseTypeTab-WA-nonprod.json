@@ -3,7 +3,7 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
-    "TabLabel": "Judgments",
+    "TabLabel": "Judgements",
     "TabDisplayOrder": 11,
     "CaseFieldID": "draftAndSignJudgementLink",
     "TabFieldDisplayOrder": 1
