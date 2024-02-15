@@ -1,0 +1,11 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "TabLabel": "Judgments",
+    "TabDisplayOrder": 11,
+    "CaseFieldID": "judgementCollection",
+    "TabFieldDisplayOrder": 1
+  }
+]

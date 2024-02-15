@@ -7774,5 +7774,28 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "ListElementCode": "isJudgement",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is this a Judgement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "ListElementCode": "draftAndSignJudgementDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document upload",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C60",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "ListElementCode": "furtherDirections",
+    "FieldType": "TextArea",
+    "ElementLabel": "Any further directions",
+    "SecurityClassification": "Public"
   }
 ]
