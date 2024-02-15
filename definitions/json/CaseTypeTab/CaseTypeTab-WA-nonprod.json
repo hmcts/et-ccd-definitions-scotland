@@ -1,0 +1,25 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "TabLabel": "Judgements",
+    "TabDisplayOrder": 11,
+    "CaseFieldID": "draftAndSignJudgementLink",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "CaseFieldID": "draftAndSignJudgement",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "CaseFieldID": "judgementCollection",
+    "TabFieldDisplayOrder": 3
+  }
+]
