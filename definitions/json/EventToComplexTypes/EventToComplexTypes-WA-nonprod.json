@@ -359,12 +359,30 @@
     "Publish": "Y"
   },
   {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedSeekComments",
-    "ListElementCode": "etICPrelimHearingYesNo",
-    "EventElementLabel": "Should the case be listed for a private preliminary hearing?",
-    "FieldDisplayOrder": 4,
+    "ID": "DraftAndSignJudgement",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "draftAndSignJudgement",
+    "ListElementCode": "isJudgement",
+    "EventElementLabel": "Is this a Judgement?",
+    "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "draftAndSignJudgement",
+    "ListElementCode": "draftAndSignJudgementDocument",
+    "EventElementLabel": "Document upload",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "draftAndSignJudgement",
+    "ListElementCode": "furtherDirections",
+    "EventElementLabel": "Any further directions?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
   }
 ]

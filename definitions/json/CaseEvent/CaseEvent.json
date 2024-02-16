@@ -163,22 +163,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "amendCaseDetails",
-    "Name": "Case Details",
-    "Description": "Amend Case Details",
-    "DisplayOrder": 11,
-    "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted;Transferred",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y",
-    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
-    "CallBackURLSubmittedEvent": ""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "amendCaseDetailsClosed",
     "Name": "Case Details",
     "Description": "Amend Case Details",
@@ -295,6 +279,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
     "ShowSummary": "N"
   },

@@ -1,10 +1,100 @@
 [
   {
     "ID": "DocumentUpload",
+    "ListElementCode": "topLevelDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Document Category",
+    "FieldTypeParameter": "fl_DocumentCategories",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "startingClaimDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Starting a Claim",
+    "FieldTypeParameter": "fl_StartingAClaim",
+    "FieldShowCondition": "topLevelDocuments=\"Starting a Claim\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "responseClaimDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Response to a Claim",
+    "FieldTypeParameter": "fl_ResponseToAClaim",
+    "FieldShowCondition": "topLevelDocuments=\"Response to a Claim\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "initialConsiderationDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Initial Consideration",
+    "FieldTypeParameter": "fl_InitialConsideration",
+    "FieldShowCondition": "topLevelDocuments=\"Initial Consideration\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "caseManagementDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Case Management",
+    "FieldTypeParameter": "fl_CaseManagement",
+    "FieldShowCondition": "topLevelDocuments=\"Case Management\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "withdrawalSettledDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Withdrawal/Settled",
+    "FieldTypeParameter": "fl_WithdrawalSettled",
+    "FieldShowCondition": "topLevelDocuments=\"Withdrawal/Settled\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "hearingsDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearings",
+    "FieldTypeParameter": "fl_Hearings",
+    "FieldShowCondition": "topLevelDocuments=\"Hearings\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "judgmentAndReasonsDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Judgment and Reasons",
+    "FieldTypeParameter": "fl_JudgmentAndReasons",
+    "FieldShowCondition": "topLevelDocuments=\"Judgment and Reasons\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "reconsiderationDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Reconsideration",
+    "FieldTypeParameter": "fl_Reconsideration",
+    "FieldShowCondition": "topLevelDocuments=\"Reconsideration\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "miscDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Misc",
+    "FieldTypeParameter": "fl_Misc",
+    "FieldShowCondition": "topLevelDocuments=\"Misc\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
     "ListElementCode": "typeOfDocument",
     "FieldType": "FixedList",
     "ElementLabel": "Type of Document",
     "FieldTypeParameter": "fl_DocumentType",
+    "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\" OR topLevelDocuments != \"*\"",
     "SecurityClassification": "Public"
   },
   {
@@ -12,7 +102,6 @@
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
-    "CategoryID": "C4",
     "SecurityClassification": "Public"
   },
   {
@@ -20,6 +109,27 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "documentType",
+    "FieldType": "Text",
+    "ElementLabel": "Type of Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "dateOfCorrespondence",
+    "FieldType": "Date",
+    "ElementLabel": "Date of Correspondence",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
+    "ListElementCode": "docNumber",
+    "FieldType": "Number",
+    "ElementLabel": "Number",
     "SecurityClassification": "Public"
   },
   {
@@ -582,7 +692,7 @@
     "ListElementCode": "et3VettingDocument",
     "FieldType": "Document",
     "ElementLabel": "ET3 Processing Document",
-    "CategoryID": "C18",
+    "CategoryID": "C72",
     "SecurityClassification": "Public"
   },
   {
@@ -1662,7 +1772,7 @@
     "ElementLabel": "Add a document",
     "FieldTypeParameter": "DocumentUpload",
     "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
-    "CategoryID": "C18",
+    "CategoryID": "C19",
     "SecurityClassification": "Public"
   },
   {
@@ -7664,5 +7774,28 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "ListElementCode": "isJudgement",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is this a Judgement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "ListElementCode": "draftAndSignJudgementDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document upload",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C60",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "ListElementCode": "furtherDirections",
+    "FieldType": "TextArea",
+    "ElementLabel": "Any further directions",
+    "SecurityClassification": "Public"
   }
 ]

@@ -63,8 +63,43 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-ras-validation",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseManagementCategory",
     "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "caseworker-ras-validation",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hmctsCaseCategory",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hmctsCaseCategory",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hmctsCaseCategory",
+    "UserRole": "caseworker-ras-validation",
     "CRUD": "R"
   },
   {
@@ -78,5 +113,23 @@
     "CaseFieldID": "waRule21ReferralSent",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "draftAndSignJudgementLink",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
   }
 ]
