@@ -17,13 +17,14 @@
     "TabDisplayOrder": 3
   },
   {
-    "CaseFieldID": "multiplesDocumentsTabTitle",
+    "CaseFieldID": "documentCollection",
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
     "TabDisplayOrder": 101,
     "TabID": "MultiplesDocumentsTab",
     "TabLabel": "Documents",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
     "CaseFieldID": "multiplesClaimantDocumentsTabTitle",

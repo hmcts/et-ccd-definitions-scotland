@@ -71,6 +71,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "documentCollection",
+    "Label": "Case documentation",
+    "HintText": "Upload documentation for the case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "referralCollection",
     "Label": "Referrals",
     "FieldType": "Collection",

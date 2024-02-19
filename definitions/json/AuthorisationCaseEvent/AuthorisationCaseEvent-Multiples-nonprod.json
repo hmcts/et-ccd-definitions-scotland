@@ -7,61 +7,55 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "createReferral",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
+    "CaseEventID": "uploadDocument",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "createReferral",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "createReferral",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "createReferral",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "createReferral",
+    "CaseEventID": "uploadDocument",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseEventID": "uploadDocument",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "uploadDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseEventID": "uploadDocument",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "createReferral",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "createReferral",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "uploadDocument",
+    "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseEventID": "uploadDocument",
+    "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }
