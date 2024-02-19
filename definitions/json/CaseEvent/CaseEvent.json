@@ -867,20 +867,6 @@
     "ShowSummary": "N"
   },
   {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "uploadDocument",
-    "Name": "Upload Document",
-    "Description": "Upload a Document",
-    "DisplayOrder": 15,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotification",
     "Name": "Send a notification",

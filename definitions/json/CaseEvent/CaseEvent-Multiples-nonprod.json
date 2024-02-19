@@ -36,7 +36,7 @@
     "ID": "uploadDocument",
     "Name": "Upload Document",
     "Description": "Upload a Document",
-    "DisplayOrder": 29,
+    "DisplayOrder": 16,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
