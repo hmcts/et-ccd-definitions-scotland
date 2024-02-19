@@ -158,5 +158,16 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "draftAndSignJudgement",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
   }
 ]
