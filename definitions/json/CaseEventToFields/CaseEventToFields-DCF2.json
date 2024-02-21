@@ -1,0 +1,27 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "dcfYesNo",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Configure case file",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "caseBundles",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Configure case file",
+    "FieldShowCondition": "dcfYesNo=\"No\"",
+    "PageColumnNumber": 1
+  }
+]

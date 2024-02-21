@@ -1,0 +1,30 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "createDcf",
+    "Name": "Create Digital Case File",
+    "Description": "Create Digital Case File",
+    "DisplayOrder": 29,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dcf/selectDcf",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/dcf/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Digital Case File",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "asyncStitchingComplete",
+    "Name": "Stitching bundle complete",
+    "Description": "Stitching bundle complete",
+    "DisplayOrder": 9000,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  }
+]
