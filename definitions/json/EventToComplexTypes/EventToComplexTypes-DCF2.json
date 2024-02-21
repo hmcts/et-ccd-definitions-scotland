@@ -1,0 +1,38 @@
+[
+  {
+    "ID": "Documents",
+    "CaseEventID": "uploadDocument",
+    "CaseFieldID": "documentCollection",
+    "ListElementCode": "excludeFromDcf",
+    "EventElementLabel": "Do you want to exclude this document from the DCF?",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "caseBundles",
+    "ListElementCode": "documents",
+    "EventElementLabel": "Digital Case File documents",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "caseBundles",
+    "ListElementCode": "documents.name",
+    "EventElementLabel": "Document name",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "caseBundles",
+    "ListElementCode": "documents.sourceDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  }
+]
