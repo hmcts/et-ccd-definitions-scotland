@@ -2,15 +2,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabID": "CaseDocuments",
-    "TabDisplayOrder": 16,
-    "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
     "TabLabel": "Judgments",
     "TabDisplayOrder": 11,
