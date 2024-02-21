@@ -1,0 +1,40 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundleConfiguration",
+    "Label": "Digital Case File configuration",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "configurationFiles",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseBundles",
+    "Label": "DCF",
+    "HintText": "DCF Collection",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Bundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "digitalCaseFile",
+    "Label": "Digital Case File",
+    "FieldType": "DigitalCaseFile",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "dcfYesNo",
+    "Label": "Do you want to automatically generate the DCF?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "createDigitalCaseFileLink",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createDcf/createDcf1\">Create DCF</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }
+]
