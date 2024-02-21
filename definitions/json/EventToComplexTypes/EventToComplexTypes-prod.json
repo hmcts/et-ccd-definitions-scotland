@@ -16,5 +16,16 @@
     "EventElementLabel": "Response to be",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
-  }
+  },
+  [
+    {
+      "ID": "HearingDetails",
+      "CaseEventID": "updateHearing",
+      "CaseFieldID": "hearingDetailsCollection",
+      "ListElementCode": "hearingDetailsStatus",
+      "EventElementLabel": "Hearing Status",
+      "FieldDisplayOrder": 2,
+      "DisplayContext": "MANDATORY"
+    }
+  ]
 ]
