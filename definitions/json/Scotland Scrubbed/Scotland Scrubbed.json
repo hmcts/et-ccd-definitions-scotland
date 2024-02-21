@@ -5754,6 +5754,12 @@
   },
   {
     "ID": "sendNotificationNotify",
+    "ListElement": "Both Parties",
+    "ListElementCode": "Both Parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationNotify",
     "ListElement": "Claimant only",
     "ListElementCode": "Claimant only",
     "DisplayOrder": 2
