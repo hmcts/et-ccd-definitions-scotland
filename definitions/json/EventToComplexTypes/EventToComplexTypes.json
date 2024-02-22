@@ -4345,15 +4345,6 @@
     "ID": "HearingDetails",
     "CaseEventID": "updateHearing",
     "CaseFieldID": "hearingDetailsCollection",
-    "ListElementCode": "hearingDetailsStatus",
-    "EventElementLabel": "Hearing Status",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "HearingDetails",
-    "CaseEventID": "updateHearing",
-    "CaseFieldID": "hearingDetailsCollection",
     "ListElementCode": "hearingDetailsPostponedBy",
     "EventElementLabel": "Postponed by",
     "FieldDisplayOrder": 3,
