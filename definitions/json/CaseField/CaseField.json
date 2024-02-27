@@ -1111,7 +1111,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "emailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${emailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [ets3@acas.org.uk](${emailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
