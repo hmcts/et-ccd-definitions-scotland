@@ -1,0 +1,28 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "createDigitalCaseFileLink",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "digitalCaseFile",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "TabDisplayOrder": 16,
+    "CaseFieldID": "documentCollection",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
+  }
+]

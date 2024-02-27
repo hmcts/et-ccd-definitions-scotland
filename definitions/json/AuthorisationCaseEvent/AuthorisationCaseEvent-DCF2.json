@@ -1,0 +1,50 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createDcf",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createDcf",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createDcf",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createDcf",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "asyncStitchingComplete",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "asyncStitchingComplete",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "asyncStitchingComplete",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "asyncStitchingComplete",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  }
+]
