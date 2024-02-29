@@ -1253,16 +1253,6 @@
     "TabFieldDisplayOrder": 1
   },
   {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "CaseDocuments",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 16,
-    "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
-  },
-  {
     "CaseTypeID": "ET_Scotland_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",

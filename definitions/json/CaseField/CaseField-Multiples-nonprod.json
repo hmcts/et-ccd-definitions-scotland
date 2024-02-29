@@ -160,5 +160,12 @@
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "leadCaseId",
+    "Label": "Lead CaseId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

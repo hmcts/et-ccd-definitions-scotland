@@ -365,7 +365,8 @@
     "ListElementCode": "isJudgement",
     "EventElementLabel": "Is this a Judgement?",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
   },
   {
     "ID": "DraftAndSignJudgement",
@@ -384,5 +385,15 @@
     "EventElementLabel": "Any further directions?",
     "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "HearingDetails",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "hearingDetailsCollection",
+    "ListElementCode": "hearingDetailsStatus",
+    "EventElementLabel": "Hearing Status",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
   }
 ]

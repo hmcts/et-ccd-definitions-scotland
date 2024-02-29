@@ -1212,14 +1212,14 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "adrDocuments",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "adrDocuments",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRU"
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
