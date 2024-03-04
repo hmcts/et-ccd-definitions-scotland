@@ -84,5 +84,19 @@
     "Label": "Lead CaseId",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchCaseStayed",
+    "Label": "Case stayed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "batchCaseStayed",
+    "Label": "Case stayed",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

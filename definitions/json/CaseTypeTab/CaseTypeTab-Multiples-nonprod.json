@@ -84,5 +84,14 @@
     "TabID": "CaseReferrals",
     "CaseFieldID": "referralLinks",
     "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "batchCaseStayed",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 1,
+    "TabID": "CaseOverview",
+    "TabLabel": "Case Details",
+    "TabFieldDisplayOrder": 1
   }
 ]
