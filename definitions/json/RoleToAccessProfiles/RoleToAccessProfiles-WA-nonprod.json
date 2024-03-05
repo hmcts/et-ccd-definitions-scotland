@@ -75,7 +75,7 @@
     "RoleName": "senior-tribunal-caseworker",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
-    "AccessProfiles": "GS_profile,caseworker-employment,caseworker-employment-scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment,caseworker-employment-scotland,caseworker-employment-etjudge-scotland",
     "ReadOnly": "N",
     "Disabled": "F",
     "CaseAccessCategories": ""
@@ -84,7 +84,7 @@
     "RoleName": "tribunal-caseworker",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
-    "AccessProfiles": "GS_profile,caseworker-employment,caseworker-employment-scotland",
+    "AccessProfiles": "GS_profile,caseworker-employment,caseworker-employment-scotland,caseworker-employment-etjudge-scotland",
     "ReadOnly": "N",
     "Disabled": "F",
     "CaseAccessCategories": ""

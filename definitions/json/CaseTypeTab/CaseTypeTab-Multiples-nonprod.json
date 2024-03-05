@@ -92,5 +92,14 @@
     "CaseFieldID": "referralCollection",
     "TabFieldDisplayOrder": 3,
     "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
+  },
+  {
+    "CaseFieldID": "batchCaseStayed",
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 1,
+    "TabID": "CaseOverview",
+    "TabLabel": "Case Details",
+    "TabFieldDisplayOrder": 1
   }
 ]
