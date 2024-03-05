@@ -6860,6 +6860,132 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "topLevelDocuments",
+    "EventElementLabel": "Document Category",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "startingClaimDocuments",
+    "EventElementLabel": "Starting a Claim",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "responseClaimDocuments",
+    "EventElementLabel": "Response to a Claim",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "initialConsiderationDocuments",
+    "EventElementLabel": "Initial Consideration",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "caseManagementDocuments",
+    "EventElementLabel": "Case Management",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "withdrawalSettledDocuments",
+    "EventElementLabel": "Withdrawal/Settled",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "hearingsDocuments",
+    "EventElementLabel": "Hearings",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "judgmentAndReasonsDocuments",
+    "EventElementLabel": "Judgment and Reasons",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "reconsiderationDocuments",
+    "EventElementLabel": "Reconsideration",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "miscDocuments",
+    "EventElementLabel": "Misc",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "typeOfDocument",
+    "EventElementLabel": "Type of Document",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short Description",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "manageDocUpload",
+    "CaseFieldID": "uploadDocumentCollection",
+    "ListElementCode": "dateOfCorrespondence",
+    "EventElementLabel": "Date of Correspondence",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "tseResponseSupportingMaterial",
     "CaseFieldID": "tseResponseSupportingMaterial",
     "CaseEventID": "tseRespond",

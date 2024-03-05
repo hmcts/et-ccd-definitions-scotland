@@ -285,6 +285,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "manageDocUpload",
+    "Name": "Manage Doc Upload",
+    "Description": "Manage Doc Upload - Add new docs",
+    "DisplayOrder": 65,
+    "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/manageDocUpload/aboutToSubmit",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "restrictedCases",
     "Name": "Restricted Reporting",
     "Description": "Restricted reporting cases",

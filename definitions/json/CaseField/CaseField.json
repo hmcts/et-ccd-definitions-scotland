@@ -226,6 +226,16 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "uploadDocumentCollection",
+    "Label": "Manage Case Document Upload",
+    "HintText": "Upload documentation for the case(excludes already uploaded docs)",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "additionalCaseInfo",
     "Label": "Additional information",
     "HintText": "Additional case information",
