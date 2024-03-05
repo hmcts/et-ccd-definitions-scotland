@@ -325,7 +325,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 1,
+    "FieldDisplayOrder": 25,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
