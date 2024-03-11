@@ -60,5 +60,22 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/sendNotification/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyToReferral",
+    "Name": "Referral",
+    "Description": "Refer to admin, legal officer or judge",
+    "DisplayOrder": 48,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "multipleReference =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
+    "Publish": "Y"
   }
 ]

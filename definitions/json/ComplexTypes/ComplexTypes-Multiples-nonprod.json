@@ -1,10 +1,10 @@
 [
-    {
-        "ID": "sendNotificationCollection",
-        "ListElementCode": "sendNotificationNotifyLeadCase",
-        "FieldType": "Text",
-        "ElementLabel": "To party",
-        "FieldShowCondition": "sendNotificationNotify=\"Lead case\"",
-        "SecurityClassification": "Public"
-      }
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotifyLeadCase",
+    "FieldType": "Text",
+    "ElementLabel": "To party",
+    "FieldShowCondition": "sendNotificationNotify=\"Lead case\"",
+    "SecurityClassification": "Public"
+  }
 ]
