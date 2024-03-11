@@ -57,8 +57,8 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "state=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multipleSendNotification/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multipleSendNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multipleSendNotification/submitted"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/sendNotification/submitted"
   }
 ]
