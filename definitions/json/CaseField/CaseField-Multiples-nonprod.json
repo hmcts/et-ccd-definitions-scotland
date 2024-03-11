@@ -351,5 +351,101 @@
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "directionDetails",
+    "Label": "What are your directions?",
+    "HintText": "Give details of your reply to the referral and any issues you've identified",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "directionTo",
+    "Label": "Who are you sending these directions to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "hearingAndReferralDetails",
+    "Label": "Hearing and Referral Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "hearingAndReferralDetailsLabel",
+    "Label": "${hearingAndReferralDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "isJudge",
+    "Label": "For checking if user is a judge",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "isUrgentReply",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "nextListedDate",
+    "Label": "Next Listed Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyDetails",
+    "Label": "Give details of your reply or referral",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyGeneralNotes",
+    "Label": "General notes",
+    "HintText": "Give details.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyTo",
+    "Label": "Who are you referring or replying to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyToEmailAddress",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "selectReferral",
+    "Label": "Select a referral",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
   }
 ]
