@@ -25,14 +25,16 @@
     "ListElementCode": "dateTime",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "date = \"dummy\""
   },
   {
     "ID": "tseReply",
     "ListElementCode": "applicationType",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "date = \"dummy\""
   },
   {
     "ID": "etICHearingNotListedSeekComments",
