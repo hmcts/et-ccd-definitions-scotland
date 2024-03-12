@@ -106,5 +106,14 @@
     "Description": "Creator of case",
     "JurisdictionID": "EMPLOYMENT",
     "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "[CREATOR]",
+    "Name": "Creator",
+    "Description": "Creator of case",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
   }
 ]
