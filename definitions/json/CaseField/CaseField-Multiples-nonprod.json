@@ -80,9 +80,372 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralCollection",
+    "Label": "Referrals",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "referralDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralHearingDetails",
+    "Label": "Referral Hearing Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralHearingDetailsLabel",
+    "Label": "${referralHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referCaseTo",
+    "Label": "Who are you referring this case to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referentEmail",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "isUrgent",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralSubject",
+    "Label": "What is the referral subject?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_ReferralSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralSubjectSpecify",
+    "Label": "Please specify",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralDetails",
+    "Label": "Give details of the referral",
+    "HintText": "Explain what you're referring and why, include answers or directions you need.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "referralInstruction",
+    "Label": "Which instructions do you recommend?",
+    "HintText": "Give details of directions, letter or decisions to issue.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "leadCaseId",
     "Label": "Lead CaseId",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "batchCaseStayed",
+    "Label": "Case stayed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "batchCaseStayed",
+    "Label": "Case stayed",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "  leadEthosCaseRef",
+    "Label": "Lead ethos case reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationInfo",
+    "Label": "Use this service to send a notification to parties within this multiple. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationLetter",
+    "Label": "Is there a letter to send out?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationUploadDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationSubject",
+    "Label": "Notification subject",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_sendNotificationSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationAdditionalInfo",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "notifyMultiple",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationNotifyLeadCase",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifyLead",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationSelectHearing",
+    "Label": "Select the hearing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationCaseManagement",
+    "Label": "Is this a case management order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationCaseManagement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationResponseTribunal",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationResponseTribunal",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationWhoCaseOrder",
+    "Label": "Who made the case management order?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationWhoCaseOrder",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationFullName",
+    "Label": "Full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationSelectParties",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_sendNotificationParties",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationTitle",
+    "Label": "Enter notification title",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing. Please note the text entered here will be displayed in the notification e-mail sent to the parties.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationWhoMadeJudgement",
+    "Label": "Who made the judgment?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationWhoMadeJudgement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationDecision",
+    "Label": "Decision",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationDecision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationFullName2",
+    "Label": "Full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationEccQuestion",
+    "Label": "What is the ECC notification?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationEccQuestion",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "sendNotificationCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationDetails",
+    "Label": "Details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationRequestMadeBy",
+    "Label": "Request was made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "directionDetails",
+    "Label": "What are your directions?",
+    "HintText": "Give details of your reply to the referral and any issues you've identified",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "directionTo",
+    "Label": "Who are you sending these directions to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "hearingAndReferralDetails",
+    "Label": "Hearing and Referral Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "hearingAndReferralDetailsLabel",
+    "Label": "${hearingAndReferralDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "isJudge",
+    "Label": "For checking if user is a judge",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "isUrgentReply",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "nextListedDate",
+    "Label": "Next Listed Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyDetails",
+    "Label": "Give details of your reply or referral",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyGeneralNotes",
+    "Label": "General notes",
+    "HintText": "Give details.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyTo",
+    "Label": "Who are you referring or replying to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "replyToEmailAddress",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "selectReferral",
+    "Label": "Select a referral",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   }
 ]
