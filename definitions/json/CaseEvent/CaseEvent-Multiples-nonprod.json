@@ -40,9 +40,9 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/createReferral/completeCreateReferral",
     "ShowEventNotes": "N",
     "Publish": "Y"
   },

@@ -7,6 +7,13 @@
     "AccessProfiles": "caseworker-employment"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-etjudge",
+    "ReadOnly": "Y",
+    "AccessProfiles": "caseworker-employment-etjudge"
+  },
+  {
     "RoleName": "specific-access-legal-ops",
     "Authorisation": "",
     "CaseTypeID": "ET_Scotland",
