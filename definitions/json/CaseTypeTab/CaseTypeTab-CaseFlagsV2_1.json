@@ -1,0 +1,29 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "CaseFieldID": "claimantExternalFlags",
+    "TabDisplayOrder": 72,
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "flagLauncher=\"hidden\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "CaseFieldID": "respondentExternalFlags",
+    "TabDisplayOrder": 72,
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "flagLauncher=\"hidden\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "CaseFieldID": "flagLauncherExternal",
+    "TabDisplayOrder": 72,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(READ,EXTERNAL)"
+  }
+]

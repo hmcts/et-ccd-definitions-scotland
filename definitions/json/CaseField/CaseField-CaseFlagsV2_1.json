@@ -1,0 +1,37 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagLauncherExternal",
+    "Label": "Launch the external Flags screen",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantInternalFlags",
+    "Label": "Claimant Internal Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentInternalFlags",
+    "Label": "Respondent Internal Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantExternalFlags",
+    "Label": "Claimant External Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentExternalFlags",
+    "Label": "Respondent External Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  }
+]
