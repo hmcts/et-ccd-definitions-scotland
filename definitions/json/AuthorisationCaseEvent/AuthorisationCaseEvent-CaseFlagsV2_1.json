@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "requestSupport",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "manageSupport",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  }
+]
