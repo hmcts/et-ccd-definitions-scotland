@@ -133,6 +133,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "DocumentUpload",
+    "ListElementCode": "documentIndex",
+    "FieldType": "Number",
+    "ElementLabel": "Document Index",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",

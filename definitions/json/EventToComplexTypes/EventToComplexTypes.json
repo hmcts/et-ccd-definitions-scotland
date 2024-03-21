@@ -6860,6 +6860,141 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "topLevelDocuments",
+    "EventElementLabel": "Document Category",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "startingClaimDocuments",
+    "EventElementLabel": "Starting a Claim",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "responseClaimDocuments",
+    "EventElementLabel": "Response to a Claim",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "initialConsiderationDocuments",
+    "EventElementLabel": "Initial Consideration",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "caseManagementDocuments",
+    "EventElementLabel": "Case Management",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "withdrawalSettledDocuments",
+    "EventElementLabel": "Withdrawal/Settled",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "hearingsDocuments",
+    "EventElementLabel": "Hearings",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "judgmentAndReasonsDocuments",
+    "EventElementLabel": "Judgment and Reasons",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "reconsiderationDocuments",
+    "EventElementLabel": "Reconsideration",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "miscDocuments",
+    "EventElementLabel": "Misc",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "typeOfDocument",
+    "EventElementLabel": "Type of Document",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short Description",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "dateOfCorrespondence",
+    "EventElementLabel": "Date of Correspondence",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "documentIndex",
+    "EventElementLabel": "Document Index",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "tseResponseSupportingMaterial",
     "CaseFieldID": "tseResponseSupportingMaterial",
     "CaseEventID": "tseRespond",
