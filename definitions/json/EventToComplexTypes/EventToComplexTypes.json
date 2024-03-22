@@ -7131,5 +7131,86 @@
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "adrDocumentCollection",
+    "CaseEventID": "adrDocuments",
+    "EventElementLabel": "Document Link",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "adrDocumentCollection",
+    "CaseEventID": "adrDocuments",
+    "EventElementLabel": "Short Description",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "adrDocumentCollection",
+    "CaseEventID": "adrDocuments",
+    "EventElementLabel": "Date of Correspondence",
+    "ListElementCode": "creationDate",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "piiDocumentCollection",
+    "CaseEventID": "piiDocuments",
+    "EventElementLabel": "Document Link",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "piiDocumentCollection",
+    "CaseEventID": "piiDocuments",
+    "EventElementLabel": "Short Description",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "piiDocumentCollection",
+    "CaseEventID": "piiDocuments",
+    "EventElementLabel": "Date of Correspondence",
+    "ListElementCode": "creationDate",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "appealDocumentCollection",
+    "CaseEventID": "appealDocuments",
+    "EventElementLabel": "Document Link",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "appealDocumentCollection",
+    "CaseEventID": "appealDocuments",
+    "EventElementLabel": "Short Description",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseFieldID": "appealDocumentCollection",
+    "CaseEventID": "appealDocuments",
+    "EventElementLabel": "Date of Correspondence",
+    "ListElementCode": "creationDate",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
   }
 ]
