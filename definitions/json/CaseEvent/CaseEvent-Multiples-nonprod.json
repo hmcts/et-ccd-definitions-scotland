@@ -40,9 +40,9 @@
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/createReferral/completeCreateReferral",
     "ShowEventNotes": "N",
     "Publish": "Y"
   },
@@ -57,9 +57,9 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "state=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multipleSendNotification/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multipleSendNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multipleSendNotification/submitted"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/sendNotification/submitted"
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
