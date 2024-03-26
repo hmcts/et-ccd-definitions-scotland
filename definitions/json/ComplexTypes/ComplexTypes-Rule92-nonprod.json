@@ -5,5 +5,13 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "respondStoredCollection",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseReply",
+    "ElementLabel": "Responses",
+    "SecurityClassification": "Public"
   }
 ]
