@@ -1,0 +1,20 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationStoredCollection",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationStoredCollection",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tseApplicationStoredCollection",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  }
+]

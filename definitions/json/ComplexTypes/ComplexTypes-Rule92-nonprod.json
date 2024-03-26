@@ -1,0 +1,9 @@
+[
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "storedApplicationId",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  }
+]

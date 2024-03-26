@@ -6937,13 +6937,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "claimantTse",
-    "ListElementCode": "storedPending",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
     "FieldType": "Text",
