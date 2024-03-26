@@ -136,7 +136,7 @@
     "ID": "DocumentUpload",
     "ListElementCode": "documentIndex",
     "FieldType": "Number",
-    "ElementLabel": "Document Index",
+    "ElementLabel": "Document Number",
     "SecurityClassification": "Public"
   },
   {

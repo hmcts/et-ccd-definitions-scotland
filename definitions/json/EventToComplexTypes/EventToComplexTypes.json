@@ -6990,7 +6990,7 @@
     "CaseEventID": "addDocument",
     "CaseFieldID": "addDocumentCollection",
     "ListElementCode": "documentIndex",
-    "EventElementLabel": "Document Index",
+    "EventElementLabel": "Document Number",
     "FieldDisplayOrder": 15,
     "DisplayContext": "OPTIONAL"
   },
