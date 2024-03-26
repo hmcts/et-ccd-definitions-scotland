@@ -1679,7 +1679,13 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "SUBMIT_STORED_CLAIMANT_TSE",
+    "CaseEventID": "STORE_CLAIMANT_TSE",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "STORE_CLAIMANT_TSE",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
