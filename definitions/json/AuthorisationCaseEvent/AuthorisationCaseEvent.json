@@ -1678,18 +1678,6 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "STORE_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "STORE_CLAIMANT_TSE",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
     "CaseTypeId": "ET_Scotland_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-scotland",
