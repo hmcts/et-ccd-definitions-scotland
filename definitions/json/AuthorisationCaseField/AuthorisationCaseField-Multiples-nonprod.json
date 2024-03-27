@@ -1706,13 +1706,13 @@
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationNotifyAll",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationNotifyAll",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
