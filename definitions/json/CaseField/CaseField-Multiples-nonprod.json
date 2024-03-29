@@ -1,5 +1,12 @@
 [
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notificationSentFrom",
+    "Label": "Sent from multiple",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "notificationsTabLinks",
     "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a>",

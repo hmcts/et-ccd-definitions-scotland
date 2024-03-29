@@ -1,5 +1,17 @@
 [
   {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "notificationSentFrom",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "notificationSentFrom",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "notificationsTabLinks",
     "UserRole": "et-acas-api",
