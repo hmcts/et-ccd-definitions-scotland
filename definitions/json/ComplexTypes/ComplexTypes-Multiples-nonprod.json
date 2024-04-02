@@ -14,5 +14,13 @@
     "ElementLabel": "To",
     "FieldShowCondition": "sendNotificationNotify=\"Lead and sub cases\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "notificationSentFrom",
+    "FieldType": "Text",
+    "ElementLabel": "Multiple ref",
+    "FieldShowCondition": "sendNotificationNotify=\"dummy\"",
+    "SecurityClassification": "Public"
   }
 ]
