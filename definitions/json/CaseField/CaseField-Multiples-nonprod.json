@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "notificationsTabLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -242,6 +242,14 @@
     "Label": "Party Selection",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationNotifyLead",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationNotifyAll",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifyAll",
     "SecurityClassification": "Public"
   },
   {
