@@ -18075,7 +18075,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "genericTseApplicationCollection",
     "UserRole": "citizen",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
