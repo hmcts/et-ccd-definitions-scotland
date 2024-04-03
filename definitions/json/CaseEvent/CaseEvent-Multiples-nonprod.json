@@ -77,5 +77,20 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferral",
+    "Name": "Update Referral",
+    "Description": "Update Referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 47,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "multipleReference =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/updateReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updateReferral/aboutToSubmit",
+    "ShowEventNotes": "N"
   }
 ]
