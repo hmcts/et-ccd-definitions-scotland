@@ -459,6 +459,17 @@
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationNotifyAll",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 20,
+    "FieldShowCondition": "sendNotificationNotify=\"Lead and sub cases\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationAdditionalInfo",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
