@@ -137,11 +137,5 @@
     "CaseFieldID": "nextListedDate",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "R"
   }
 ]
