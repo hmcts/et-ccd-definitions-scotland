@@ -330,16 +330,6 @@
     "Publish": "Y"
   },
   {
-    "ID": "amendRespondentDetails",
-    "CaseEventID": "amendRespondentDetails",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "responseReceivedCount",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",

@@ -1,0 +1,11 @@
+[
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseReceivedCount",
+    "FieldType": "Number",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  }
+]
