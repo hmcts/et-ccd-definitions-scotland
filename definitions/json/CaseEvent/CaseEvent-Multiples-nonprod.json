@@ -93,5 +93,22 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "closeReferral",
+    "Name": "Referral",
+    "Description": "Close referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 51,
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "multipleReference =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/closeReferral/completeCloseReferral",
+    "Publish": "Y"
   }
 ]
