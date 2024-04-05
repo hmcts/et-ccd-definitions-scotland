@@ -61,8 +61,8 @@
     "CaseFieldID": "genericTseApplicationCollection",
     "FieldShowCondition": "tseRespondSelectApplication=\"dummy\"",
     "DisplayContext": "COMPLEX",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
+    "PageID": 1,
+    "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
