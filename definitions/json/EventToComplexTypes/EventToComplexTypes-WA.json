@@ -280,7 +280,7 @@
     "Publish": "Y"
   },
   {
-    "ID": "completeInitialConsideration",
+    "ID": "rule21",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "et3Vetting",
@@ -290,10 +290,10 @@
     "Publish": "Y"
   },
   {
-    "ID": "completeInitialConsideration",
+    "ID": "rule21",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "respondentCollection",
-    "ListElementCode": "et3Vetting.et3Rule26",
+    "ListElementCode": "et3Vetting.et3IsThereAnEt3Response",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",

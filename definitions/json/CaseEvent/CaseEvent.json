@@ -424,7 +424,6 @@
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/updateReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updateReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/updateReferral/completeUpdateReferral",
     "ShowEventNotes": "N"
   },
   {
@@ -553,21 +552,6 @@
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
     "EndButtonLabel": "Close and return to case details"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "SUBMIT_STORED_CLAIMANT_TSE",
-    "Name": "Submit stored application",
-    "Description": "Submit a stored application",
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "EventEnablingCondition": "caseType=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
@@ -874,8 +858,8 @@
     "DisplayOrder": 15,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/uploadDocument/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/uploadDocument/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
