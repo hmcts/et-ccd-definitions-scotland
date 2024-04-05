@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotifyLeadCase",
+    "FieldType": "Text",
+    "ElementLabel": "To",
+    "FieldShowCondition": "sendNotificationNotify=\"Lead case\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotifyAll",
+    "FieldType": "Text",
+    "ElementLabel": "To",
+    "FieldShowCondition": "sendNotificationNotify=\"Lead and sub cases\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "notificationSentFrom",
+    "FieldType": "Text",
+    "ElementLabel": "Multiple ref",
+    "FieldShowCondition": "sendNotificationNotify=\"dummy\"",
+    "SecurityClassification": "Public"
+  }
+]
