@@ -1,6 +1,20 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "caseFlags",
+    "Label": "Case Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "flagLauncherInternal",
+    "Label": "Flag Launcher",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "flagLauncherExternal",
     "Label": "Launch the external Flags screen",
     "FieldType": "FlagLauncher",

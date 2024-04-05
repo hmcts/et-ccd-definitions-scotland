@@ -1,12 +1,120 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "flagLauncherInternal",
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(CREATE,VERSION2.1)",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "caseFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "claimantInternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "claimantExternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "respondentInternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "respondentExternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "flagLauncherInternal",
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(UPDATE,VERSION2.1)",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "caseFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "claimantInternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageFlags",
+    "CaseFieldID": "respondentInternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantInternalFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 110,
     "FieldShowCondition": "managingOffice=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -17,7 +125,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 111,
     "FieldShowCondition": "managingOffice=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -28,7 +136,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 112,
     "FieldShowCondition": "managingOffice=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -39,7 +147,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 113,
     "FieldShowCondition": "managingOffice=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -50,7 +158,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 110,
     "FieldShowCondition": "feeGroupReference=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -61,7 +169,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 111,
     "FieldShowCondition": "feeGroupReference=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -72,7 +180,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 112,
     "FieldShowCondition": "feeGroupReference=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -83,30 +191,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 113,
     "FieldShowCondition": "feeGroupReference=\"dummy\"",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "requestSupport",
-    "CaseFieldID": "claimantExternalFlags",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncherExternal=\"dummy\"",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "requestSupport",
-    "CaseFieldID": "respondentExternalFlags",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncherExternal=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -121,23 +207,23 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "manageSupport",
+    "CaseEventID": "requestSupport",
     "CaseFieldID": "claimantExternalFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "flagLauncherExternal=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "manageSupport",
+    "CaseEventID": "requestSupport",
     "CaseFieldID": "respondentExternalFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "flagLauncherExternal=\"dummy\"",
     "RetainHiddenValue": "Yes"
   },
@@ -150,5 +236,27 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(UPDATE,EXTERNAL)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageSupport",
+    "CaseFieldID": "claimantExternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "flagLauncherExternal=\"dummy\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "manageSupport",
+    "CaseFieldID": "respondentExternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "flagLauncherExternal=\"dummy\"",
+    "RetainHiddenValue": "Yes"
   }
 ]

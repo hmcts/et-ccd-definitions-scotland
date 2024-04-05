@@ -1,29 +1,91 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "TabID": "support",
-    "TabLabel": "Support",
+    "CaseFieldID": "flagLauncherInternal",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "UserRole": "caseworker-employment-scotland",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(READ)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "caseFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "UserRole": "caseworker-employment-scotland",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantInternalFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "UserRole": "caseworker-employment-scotland",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "respondentInternalFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "UserRole": "caseworker-employment-scotland",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseFieldID": "claimantExternalFlags",
-    "TabDisplayOrder": 72,
-    "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-scotland",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "TabID": "support",
-    "TabLabel": "Support",
     "CaseFieldID": "respondentExternalFlags",
-    "TabDisplayOrder": 72,
-    "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-scotland",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "flagLauncherExternal",
     "TabID": "support",
     "TabLabel": "Support",
-    "CaseFieldID": "flagLauncherExternal",
-    "TabDisplayOrder": 72,
+    "TabDisplayOrder": 111,
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(READ,EXTERNAL)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "claimantExternalFlags",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabDisplayOrder": 111,
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "respondentExternalFlags",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabDisplayOrder": 111,
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "flagLauncherInternal=\"visible\""
   }
 ]
