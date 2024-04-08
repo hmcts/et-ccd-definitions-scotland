@@ -2,7 +2,7 @@
   {
     "ID": "Respondent",
     "ListElementCode": "responseReceivedCount",
-    "FieldType": "Number",
+    "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "responseReceived=\"dummy\"",
     "RetainHiddenValue": "Yes",
