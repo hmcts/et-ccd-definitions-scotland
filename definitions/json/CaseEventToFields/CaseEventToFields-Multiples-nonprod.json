@@ -531,7 +531,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/replyReferral/initHearingAndReferralDetails",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multiples/replyReferral/initHearingAndReferralDetails",
     "PageLabel": "Refer to admin, legal officer or judge"
   },
   {
@@ -564,7 +564,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/updateReferral/initHearingAndReferralDetails",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multiples/updateReferral/initHearingAndReferralDetails",
     "PageLabel": "Update Referral"
   },
   {
