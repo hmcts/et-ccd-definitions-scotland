@@ -438,7 +438,6 @@
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/updateReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updateReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/updateReferral/completeUpdateReferral",
     "ShowEventNotes": "N"
   },
   {
