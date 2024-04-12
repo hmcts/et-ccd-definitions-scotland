@@ -598,15 +598,15 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-mocha@npm:^10.0.3":
-  version: 10.4.1
-  resolution: "eslint-plugin-mocha@npm:10.4.1"
+  version: 10.4.2
+  resolution: "eslint-plugin-mocha@npm:10.4.2"
   dependencies:
     eslint-utils: ^3.0.0
     globals: ^13.24.0
     rambda: ^7.4.0
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 26076c832899608de1f960325c4cfb4520cc644280e58879cec83596e699196c43568d67bf71880a1bd22fd1a59879645cf1690ba422ee40cbc24b77c3bfdda3
+  checksum: df245a2e59ff4bfe6871170bfa168df8b8650e338f87446ad2d0fd6d555653129588f4e59c921227aff68e07a27b1ce704465a122a6f9600f5d7aa3114da8691
   languageName: node
   linkType: hard
 
