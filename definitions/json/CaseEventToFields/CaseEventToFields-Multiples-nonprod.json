@@ -398,6 +398,62 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "subMultiple",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "sendNotificationNotify=\"Selected cases\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "flag1",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "flag2",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "flag3",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "flag4",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "directionDetails",
     "DisplayContext": "MANDATORY",
@@ -531,7 +587,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/replyReferral/initHearingAndReferralDetails",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multiples/replyReferral/initHearingAndReferralDetails",
     "PageLabel": "Refer to admin, legal officer or judge"
   },
   {
@@ -564,7 +620,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/updateReferral/initHearingAndReferralDetails",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multiples/updateReferral/initHearingAndReferralDetails",
     "PageLabel": "Update Referral"
   },
   {
