@@ -369,6 +369,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationNotifySelected",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifySelected",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "directionDetails",
     "Label": "What are your directions?",
     "HintText": "Give details of your reply to the referral and any issues you've identified",

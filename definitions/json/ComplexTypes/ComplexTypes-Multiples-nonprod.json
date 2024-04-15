@@ -22,5 +22,13 @@
     "ElementLabel": "Multiple ref",
     "FieldShowCondition": "sendNotificationNotify=\"dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotifySelected",
+    "FieldType": "Text",
+    "ElementLabel": "To",
+    "FieldShowCondition": "sendNotificationNotify=\"Selected cases\"",
+    "SecurityClassification": "Public"
   }
 ]

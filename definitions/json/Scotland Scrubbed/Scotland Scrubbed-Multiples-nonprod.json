@@ -36,6 +36,24 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "sendNotificationNotifySelected",
+    "ListElement": "Claimants from selected cases",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationNotifySelected",
+    "ListElement": "Respondents from selected cases",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationNotifySelected",
+    "ListElement": "All parties from selected cases",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "notifyMultiple",
     "ListElement": "Parties from lead case",
     "ListElementCode": "Lead case",
@@ -46,5 +64,11 @@
     "ListElement": "Parties from lead case and sub cases",
     "ListElementCode": "Lead and sub cases",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "notifyMultiple",
+    "ListElement": "Parties from selected cases (batch processing)",
+    "ListElementCode": "Selected cases",
+    "DisplayOrder": 3
   }
 ]
