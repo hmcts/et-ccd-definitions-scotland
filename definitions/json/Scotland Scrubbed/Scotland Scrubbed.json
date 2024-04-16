@@ -5754,8 +5754,8 @@
   },
   {
     "ID": "sendNotificationNotify",
-    "ListElement": "Both Parties",
-    "ListElementCode": "Both Parties",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
     "DisplayOrder": 1
   },
   {
