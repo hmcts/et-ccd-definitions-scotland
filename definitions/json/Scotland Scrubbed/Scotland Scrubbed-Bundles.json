@@ -26,19 +26,19 @@
   {
     "ID": "frl_bundlesWhatDocuments",
     "ListElement": "Documents that will be referred to by witnesses when giving evidence, sometimes called the \"hearing bundle\"",
-    "ListElementCode": "Documents that will be referred to by witnesses when giving evidence, sometimes called the \"hearing bundle\"",
+    "ListElementCode": "Supplementary hearing documents",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_bundlesWhatDocuments",
     "ListElement": "Witness statements (only upload these if the tribunal has said witness statements are to be used)",
-    "ListElementCode": "Witness statements (only upload these if the tribunal has said witness statements are to be used)",
+    "ListElementCode": "Witness statements only",
     "DisplayOrder": 2
   },
   {
     "ID": "frl_bundlesWhatDocuments",
     "ListElement": "A combined hearing bundles and witness statements",
-    "ListElementCode": "A combined hearing bundles and witness statements",
+    "ListElementCode": "Hearing documents, including witness statements",
     "DisplayOrder": 3
   },
   {
