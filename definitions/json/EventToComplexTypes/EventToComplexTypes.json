@@ -6986,6 +6986,15 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "documentIndex",
+    "EventElementLabel": "Document Number",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "tseResponseSupportingMaterial",
     "CaseFieldID": "tseResponseSupportingMaterial",
     "CaseEventID": "tseRespond",
