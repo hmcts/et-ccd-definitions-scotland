@@ -1,8 +1,15 @@
 [
   {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notificationSentFrom",
+    "Label": "Sent from multiple",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "notificationsTabLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -246,6 +253,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationNotifyAll",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifyAll",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "sendNotificationSelectHearing",
     "Label": "Select the hearing",
     "FieldType": "DynamicList",
@@ -354,6 +369,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "sendNotificationNotifySelected",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifySelected",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "directionDetails",
     "Label": "What are your directions?",
     "HintText": "Give details of your reply to the referral and any issues you've identified",
@@ -446,6 +469,97 @@
     "ID": "selectReferral",
     "Label": "Select a referral",
     "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateIsUrgent",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferCaseTo",
+    "Label": "Who are you referring this case to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferentEmail",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferralDetails",
+    "Label": "Give details of the referral",
+    "HintText": "Explain what you're referring and why, include answers or directions you need.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferralDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferralInstruction",
+    "Label": "Which instructions do you recommend?",
+    "HintText": "Give details of directions, letter or decisions to issue.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferralSubject",
+    "Label": "What is the referral subject?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_ReferralSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "updateReferralSubjectSpecify",
+    "Label": "Please specify",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "closeReferralHearingDetails",
+    "Label": "Hearing and Referral Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "closeReferralHearingDetailsLabel",
+    "Label": "${closeReferralHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "confirmCloseReferral",
+    "Label": "Do you want to close this referral?",
+    "HintText": "All directions must be completed before closing referrals.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_confirmCloseReferral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "closeReferralGeneralNotes",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   }
 ]

@@ -15,7 +15,7 @@
     "xlsx-populate": "^1.21.0"
   },
   "devDependencies": {
-    "eslint": "^8.9.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-mocha": "^10.0.3",
     "mocha": "^10.2.0"
   },
@@ -45,5 +45,5 @@
     "generate-excel": "yarn json2xlsx -D ./definitions/json -o ./definitions/xlsx/et-scotland-ccd-config-${ET_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-ithc && yarn generate-excel-aat && yarn generate-excel-prod"
   },
-  "packageManager": "yarn@3.8.0"
+  "packageManager": "yarn@3.8.1"
 }
