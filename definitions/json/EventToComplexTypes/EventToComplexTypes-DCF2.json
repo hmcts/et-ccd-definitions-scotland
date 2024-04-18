@@ -9,6 +9,15 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "Documents",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
+    "ListElementCode": "excludeFromDcf",
+    "EventElementLabel": "Do you want to exclude this document from the DCF?",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "DigitalCaseFile",
     "CaseEventID": "createDcf",
     "CaseFieldID": "caseBundles",
