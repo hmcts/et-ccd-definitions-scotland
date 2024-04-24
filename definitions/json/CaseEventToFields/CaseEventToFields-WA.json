@@ -169,5 +169,16 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
+    "CaseFieldID": "sendNotificationCollection",
+    "PageShowCondition": "sendNotificationCollection.number=\"dummy\"",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1
   }
 ]

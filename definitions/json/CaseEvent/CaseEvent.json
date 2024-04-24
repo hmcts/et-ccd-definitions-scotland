@@ -964,22 +964,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "UPDATE_NOTIFICATION_RESPONSE",
-    "Name": "UPDATE_NOTIFICATION_RESPONSE",
-    "Description": "",
-    "DisplayOrder": 9001,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "EventEnablingCondition": "caseType=\"Dummy\"",
-    "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "migrateCase",
     "Name": "Migrate Case",
     "Description": "Migrate Case",
