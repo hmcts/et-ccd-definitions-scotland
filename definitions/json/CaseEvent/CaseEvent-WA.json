@@ -163,7 +163,7 @@
     "Name": "Respondent Details",
     "Description": "Amend Respondent Details",
     "DisplayOrder": 16,
-    "PreConditionState(s)": "Accepted;Closed",
+    "PreConditionState(s)": "Accepted;Closed;Rejected",
     "PostConditionState": "*",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentDetails",

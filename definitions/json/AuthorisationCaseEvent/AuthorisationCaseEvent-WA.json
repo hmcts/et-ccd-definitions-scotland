@@ -133,6 +133,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
