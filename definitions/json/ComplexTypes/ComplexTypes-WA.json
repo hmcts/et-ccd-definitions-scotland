@@ -56,23 +56,5 @@
     "FieldShowCondition": "responseReceived=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "pseRespondCollection",
-    "ListElementCode": "dateTime",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
-    "RetainHiddenValue": "Yes",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "pseRespondCollection",
-    "ListElementCode": "isECC",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "copyToOtherParty=\"dummy\"",
-    "RetainHiddenValue": "Yes",
-    "SecurityClassification": "Public"
   }
 ]
