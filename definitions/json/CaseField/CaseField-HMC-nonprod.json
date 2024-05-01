@@ -15,13 +15,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "caseManagementLocationCode",
-    "Label": "caseManagementLocationCode",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "caseInterpreterRequiredFlag",
     "Label": "text",
     "FieldType": "Text",
