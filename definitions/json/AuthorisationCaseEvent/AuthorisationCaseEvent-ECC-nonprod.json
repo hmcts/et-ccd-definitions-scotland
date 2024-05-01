@@ -1,0 +1,8 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  }
+]
