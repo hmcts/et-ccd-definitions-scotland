@@ -2193,7 +2193,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantWorkAddressQuestion",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -2241,7 +2241,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantWorkAddress",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -17396,7 +17396,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "applicationsTab",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
@@ -17414,7 +17414,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "applicationsLinks",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
@@ -20930,7 +20930,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "jonsLinks",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "R"
   },
   {
@@ -20948,7 +20948,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "jonsTab",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "R"
   },
   {

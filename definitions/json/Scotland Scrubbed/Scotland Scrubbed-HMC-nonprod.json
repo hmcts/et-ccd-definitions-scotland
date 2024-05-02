@@ -10,17 +10,5 @@
     "ListElementCode": "respondent",
     "ListElement": "Respondent",
     "DisplayOrder": 2
-  },
-  {
-    "ID": "frl_respondentType",
-    "ListElement": "Individual",
-    "ListElementCode": "Individual",
-    "DisplayOrder": 1
-  },
-  {
-    "ID": "frl_respondentType",
-    "ListElement": "Organisation",
-    "ListElementCode": "Organisation",
-    "DisplayOrder": 2
   }
 ]

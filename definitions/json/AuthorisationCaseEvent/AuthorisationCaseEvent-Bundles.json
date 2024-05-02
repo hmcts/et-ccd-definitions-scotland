@@ -2,7 +2,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "bundlesRespondentPrepareDoc",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {

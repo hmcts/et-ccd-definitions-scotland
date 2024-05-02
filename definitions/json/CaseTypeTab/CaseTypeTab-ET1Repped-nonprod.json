@@ -1,0 +1,4 @@
+[
+  {"CaseTypeID": "ET_Scotland", "Channel": "CaseWorker", "TabID": "DraftCaseOverview", "TabLabel": "ET1 Claim", "TabDisplayOrder": 1, "CaseFieldID": "et1ClaimStatuses", "TabFieldDisplayOrder": 1, "FieldShowCondition": "caseType=\"dummy\"", "TabShowCondition": "[STATE]=\"AWAITING_SUBMISSION_TO_HMCTS\""},
+  {"CaseTypeID": "ET_Scotland", "Channel": "CaseWorker", "TabID": "DraftCaseOverview", "CaseFieldID": "et1ClaimStatusesLabel", "TabFieldDisplayOrder": 2}
+]

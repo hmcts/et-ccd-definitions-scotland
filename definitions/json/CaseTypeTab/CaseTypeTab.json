@@ -7,7 +7,8 @@
     "TabDisplayOrder": 1,
     "CaseFieldID": "flagsImageAltText",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "caseType=\"dummy\""
+    "FieldShowCondition": "caseType=\"dummy\"",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -265,7 +266,8 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "claimant_TypeOfClaimant",
     "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "claimant_TypeOfClaimant=\"dummy\""
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"dummy\"",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -921,7 +923,7 @@
     "CaseFieldID": "claimantRepresentedQuestion",
     "TabFieldDisplayOrder": 1,
     "FieldShowCondition": "caseType=\"dummy\"",
-    "TabShowCondition": "claimantRepresentedQuestion=\"Yes\""
+    "TabShowCondition": "claimantRepresentedQuestion=\"Yes\" AND [STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -938,7 +940,8 @@
     "TabDisplayOrder": 5,
     "CaseFieldID": "respondentCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)"
+    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1634,7 +1637,8 @@
     "TabDisplayOrder": 17,
     "TabID": "Applications",
     "TabLabel": "Applications",
-    "TabFieldDisplayOrder": 4
+    "TabFieldDisplayOrder": 4,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseFieldID": "adrDocumentCollection",
@@ -1670,7 +1674,8 @@
     "TabLabel": "Judgments, orders & notifications",
     "TabDisplayOrder": 18,
     "CaseFieldID": "jonsTab",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_Scotland",

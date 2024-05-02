@@ -1,0 +1,17 @@
+[
+  {"ID": "CreateRespondent", "ListElementCode": "respondentType", "FieldType": "FixedRadioList", "ElementLabel": "Respondent name", "FieldTypeParameter": "frl_respondentType", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondentFirstName", "FieldType": "Text", "ElementLabel": "Enter the first name of the individual", "FieldShowCondition": "respondentType=\"Individual\"", "RetainHiddenValue": "No", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondentLastName", "FieldType": "Text", "ElementLabel": "Enter the last name of the individual", "FieldShowCondition": "respondentType=\"Individual\"", "RetainHiddenValue": "No", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondentOrganisation", "FieldType": "Text", "ElementLabel": "Enter the name of the organisation", "FieldShowCondition": "respondentType=\"Organisation\"", "RetainHiddenValue": "No", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondent_address", "FieldType": "AddressUK", "ElementLabel": "Respondent address", "FieldTypeParameter": "Please enter address details", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondent_ACAS_question", "FieldType": "FixedRadioList", "ElementLabel": "Do you have an Acas certificate number for this respondent", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondent_ACAS", "FieldType": "Text", "ElementLabel": "Enter the Acas certificate number", "FieldShowCondition": "respondent_ACAS_question=\"Yes\"", "SecurityClassification": "Public", "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondent_ACAS_no", "FieldType": "FixedRadioList", "ElementLabel": "Why is there no Acas certificate number?", "FieldTypeParameter": "frl_noAcasReason", "FieldShowCondition": "respondent_ACAS_question=\"No\"", "SecurityClassification": "Public", "HintText": "Incorrectly claiming an exemption may lead to the claim being rejected. If in doubt, please contact Acas"},
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "myHmctsOrganisation",
+    "FieldType": "Organisation",
+    "ElementLabel": "MyHMCTS Organisation",
+    "SecurityClassification": "Public"
+  }
+]
