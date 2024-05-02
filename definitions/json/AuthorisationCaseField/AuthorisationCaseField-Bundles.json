@@ -242,7 +242,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "bundlesRespondentCollection",
-    "UserRole": "[caseworker-employment-legalrep-solicitor]",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
@@ -290,7 +290,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "bundlesClaimantCollection",
-    "UserRole": "[caseworker-employment-legalrep-solicitor]",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
