@@ -465,6 +465,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "extractNotifications",
+    "CaseFieldID": "extractEventText",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageLabel": "Notification Extract"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "directionDetails",
     "DisplayContext": "MANDATORY",
