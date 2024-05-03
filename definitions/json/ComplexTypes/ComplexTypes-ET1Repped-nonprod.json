@@ -13,5 +13,13 @@
     "FieldType": "Organisation",
     "ElementLabel": "MyHMCTS Organisation",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representativeAttendHearing",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_HearingAttendence",
+    "ElementLabel": "Hearing Attendence",
+    "SecurityClassification": "Public"
   }
 ]
