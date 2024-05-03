@@ -198,10 +198,5 @@
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "downloadDraftEt1Date", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "applicationsTab", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "applicationsLinks", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
-  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "genericTseApplicationCollection", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
-  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "hearingLanguageQuestion", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "contactLanguageQuestion", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "hearingLanguageQuestion", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "contactLanguageQuestion", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
-
+  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "genericTseApplicationCollection", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"}
 ]
