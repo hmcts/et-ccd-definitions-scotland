@@ -1,12 +1,19 @@
 [
   {
-    "CaseFieldID": "notificationsTabLinks",
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
-    "TabDisplayOrder": 2,
-    "TabID": "notificationsTabLinks",
+    "TabID": "notifications",
     "TabLabel": "Notifications",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "notificationsTabLinks",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "CaseFieldID": "notificationsExtract",
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",

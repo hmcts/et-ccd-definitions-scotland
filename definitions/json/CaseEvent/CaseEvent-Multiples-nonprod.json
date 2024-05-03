@@ -63,6 +63,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "extractNotifications",
+    "Name": "Extract notifications",
+    "Description": "Extract notifications from sub cases",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "state=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/extractNotifications/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/extractNotifications/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "replyToReferral",
     "Name": "Referral",
     "Description": "Refer to admin, legal officer or judge",

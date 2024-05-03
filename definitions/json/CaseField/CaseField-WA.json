@@ -27,5 +27,12 @@
     "Label": "Draft and Sign Judgement",
     "FieldType": "DraftAndSignJudgement",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseManagementLocationCode",
+    "Label": "caseManagementLocationCode",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
