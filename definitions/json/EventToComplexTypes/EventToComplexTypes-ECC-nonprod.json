@@ -48,5 +48,15 @@
     "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
+  },
+  {
+    "ID": "rule21",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting.et3ContractClaimSection7",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   }
 ]
