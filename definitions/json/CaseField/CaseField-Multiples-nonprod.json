@@ -57,13 +57,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "caseFileView",
-    "Label": "Case File View",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "applicationsTab",
     "Label": "### Applications",
     "FieldType": "Label",
@@ -574,6 +567,13 @@
     "ID": "closeReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "componentLauncher",
+    "Label": "Component Launcher (for displaying Case View categories)",
+    "FieldType": "ComponentLauncher",
     "SecurityClassification": "Public"
   }
 ]
