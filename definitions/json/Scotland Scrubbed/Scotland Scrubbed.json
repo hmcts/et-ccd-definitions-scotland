@@ -378,6 +378,12 @@
     "DisplayOrder": 4
   },
   {
+    "ID": "caseSourceList",
+    "ListElementCode": "MyHMCTS",
+    "ListElement": "MyHMCTS",
+    "DisplayOrder": 5
+  },
+  {
     "ID": "fl_CaseType",
     "ListElementCode": "Single",
     "ListElement": "Single",
