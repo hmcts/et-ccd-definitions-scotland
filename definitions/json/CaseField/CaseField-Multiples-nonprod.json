@@ -568,7 +568,7 @@
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
-  }, 
+  },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "documentSelect",
@@ -600,7 +600,8 @@
     "Label": "Documents available to legal reps",
     "HintText": "These are documents that legal reps have access to",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DocumentUpload"
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
