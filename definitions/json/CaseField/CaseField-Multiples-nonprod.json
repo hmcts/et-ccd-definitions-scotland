@@ -600,7 +600,7 @@
     "Label": "Documents available to legal reps",
     "HintText": "These are documents that legal reps have access to",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DocumentUpload",
+    "FieldTypeParameter": "DocumentUpload"
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
