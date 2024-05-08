@@ -127,7 +127,7 @@
     "Publish": "Y"
   },
   {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "documentSelect",
     "Name": "Document Access",
     "Description": "Document Access",
