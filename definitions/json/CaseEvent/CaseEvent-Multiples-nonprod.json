@@ -125,5 +125,19 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/closeReferral/completeCloseReferral",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentSelect",
+    "Name": "Document Access",
+    "Description": "Document Access",
+    "DisplayOrder": 17,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
   }
 ]
