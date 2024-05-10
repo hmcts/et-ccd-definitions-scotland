@@ -54,15 +54,6 @@
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
-    "TabID": "CaseFileView",
-    "TabLabel": "Case File View",
-    "TabDisplayOrder": 104,
-    "CaseFieldID": "caseFileView",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "Channel": "CaseWorker",
     "TabID": "Applications",
     "TabLabel": "Applications",
     "TabDisplayOrder": 105,
@@ -116,5 +107,14 @@
     "TabID": "CaseOverview",
     "CaseFieldID": "nextListedDate",
     "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 107,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
   }
 ]
