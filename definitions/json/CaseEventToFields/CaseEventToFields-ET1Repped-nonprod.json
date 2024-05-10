@@ -10,7 +10,7 @@
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantPreferredTitle", "DisplayContext": "OPTIONAL", "PageID": 3, "PageDisplayOrder": 3, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y"},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "DisplayContext": "MANDATORY", "PageID": 4, "PageDisplayOrder": 4, "PageFieldDisplayOrder": 1, "ShowSummaryChangeOption": "Y", "PageLabel": "Claimant contact address"},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "hearingFormatPreamble", "DisplayContext": "READONLY", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 1, "PageLabel":  "Hearing format"},
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "representativeAttendHearing", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "representativeAttendHearing", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y", "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/sectionOne/validateHearingPreferences"},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantAttendHearing", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "ShowSummaryChangeOption": "Y"},
   {
     "CaseTypeID": "ET_Scotland",
