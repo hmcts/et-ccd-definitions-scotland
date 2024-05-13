@@ -1,0 +1,29 @@
+[
+  {
+    "ID": "caseNote",
+    "CaseEventID": "addCaseNote",
+    "CaseFieldID": "caseNote",
+    "ListElementCode": "title",
+    "EventElementLabel": "Title",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "caseNote",
+    "CaseEventID": "addCaseNote",
+    "CaseFieldID": "caseNote",
+    "ListElementCode": "note",
+    "EventElementLabel": "Note",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "caseNote",
+    "CaseEventID": "addCaseNote",
+    "CaseFieldID": "caseNote",
+    "ListElementCode": "author",
+    "EventElementLabel": "Author",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  }
+]
