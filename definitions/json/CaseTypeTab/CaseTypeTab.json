@@ -1627,20 +1627,10 @@
     "TabFieldDisplayOrder": 3
   },
   {
-    "CaseFieldID": "genericTseApplicationCollection",
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
-    "TabDisplayOrder": 17,
-    "TabID": "Applications",
-    "TabLabel": "Applications",
-    "TabFieldDisplayOrder": 4
-  },
-  {
     "CaseFieldID": "adrDocumentCollection",
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabDisplayOrder": 19,
+    "TabDisplayOrder": 17,
     "TabID": "ADR",
     "TabLabel": "ADR",
     "TabFieldDisplayOrder": 1
@@ -1649,7 +1639,7 @@
     "CaseFieldID": "piiDocumentCollection",
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
-    "TabDisplayOrder": 20,
+    "TabDisplayOrder": 19,
     "TabID": "PII",
     "TabLabel": "PII",
     "TabFieldDisplayOrder": 1
