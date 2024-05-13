@@ -7,7 +7,7 @@
   },
   {
     "ID": "frl_bundlesRespondentAgreedDocWith",
-    "ListElement": "We have agreed but there are some disputed documents",
+    "ListElement": "We have agreed that this set of documents will be uploaded but we disagree about whether some of the documents should be referred to at the hearing.",
     "ListElementCode": "But",
     "DisplayOrder": 2
   },
@@ -25,21 +25,21 @@
   },
   {
     "ID": "frl_bundlesWhatDocuments",
-    "ListElement": "Witness statements only",
-    "ListElementCode": "Witness statements only",
-    "DisplayOrder": 3
+    "ListElement": "Documents that will be referred to by witnesses when giving evidence, sometimes called the \"hearing bundle\"",
+    "ListElementCode": "Supplementary hearing documents",
+    "DisplayOrder": 1
   },
   {
     "ID": "frl_bundlesWhatDocuments",
-    "ListElement": "Supplementary hearing documents",
-    "ListElementCode": "Supplementary hearing documents",
+    "ListElement": "Witness statements (only upload these if the tribunal has said witness statements are to be used)",
+    "ListElementCode": "Witness statements only",
     "DisplayOrder": 2
   },
   {
     "ID": "frl_bundlesWhatDocuments",
-    "ListElement": "Hearing documents, including witness statements",
+    "ListElement": "A combined hearing bundles and witness statements",
     "ListElementCode": "Hearing documents, including witness statements",
-    "DisplayOrder": 1
+    "DisplayOrder": 3
   },
   {
     "ID": "frl_bundlesRespondentAgreedDocWith",

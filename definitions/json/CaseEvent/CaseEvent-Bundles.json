@@ -2,8 +2,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentPrepareDoc",
-    "Name": "Prepare documents for hearing",
-    "Description": "Prepare documents for a hearing",
+    "Name": "Upload documents for hearing",
+    "Description": "Upload documents for a hearing",
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
