@@ -1266,6 +1266,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "transferredCaseLink",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "amendCaseDetailsClosed",
     "CaseFieldID": "receiptDate",
     "DisplayContext": "MANDATORY",
