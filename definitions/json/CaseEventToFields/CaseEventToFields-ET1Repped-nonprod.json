@@ -72,8 +72,8 @@
     "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/sectionTwo/validateClaimantWrittenNoticePeriod",
     "PageLabel": "Does the claimant have a written contract with \r\na notice period? (Optional)"
   },
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantStillWorkingNoticePeriodMonths", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 2, "FieldShowCondition": "claimantStillWorkingNoticePeriod CONTAINS \"Yes, in months\"", "ShowSummaryChangeOption": "Y"},
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantStillWorkingNoticePeriodWeeks", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "FieldShowCondition": "claimantStillWorkingNoticePeriod CONTAINS \"Yes, in weeks\"", "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantStillWorkingNoticePeriodMonths", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 2, "FieldShowCondition": "claimantStillWorkingNoticePeriod CONTAINS \"Months\"", "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantStillWorkingNoticePeriodWeeks", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "FieldShowCondition": "claimantStillWorkingNoticePeriod CONTAINS \"Weeks\"", "ShowSummaryChangeOption": "Y"},
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et1SectionTwo",
