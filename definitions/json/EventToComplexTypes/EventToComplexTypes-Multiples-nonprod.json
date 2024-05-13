@@ -16,14 +16,5 @@
     "EventElementLabel": "Note",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "caseNote",
-    "CaseEventID": "addCaseNote",
-    "CaseFieldID": "caseNote",
-    "ListElementCode": "author",
-    "EventElementLabel": "Author",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
   }
 ]
