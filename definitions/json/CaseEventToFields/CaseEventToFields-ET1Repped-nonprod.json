@@ -150,7 +150,7 @@
     "PageID": 12,
     "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "didClaimantWorkForOrg CONTAINS \"Yes\" AND claimantStillWorking CONTAINS \"No longer working\"",
+    "PageShowCondition": "didClaimantWorkForOrg CONTAINS \"Yes\" AND claimantStillWorking CONTAINS \"No longer working\" AND claimantNewJob CONTAINS \"Yes\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/sectionTwo/validateClaimantNewJobPay",
     "PageLabel": "New job pay details"
   },
