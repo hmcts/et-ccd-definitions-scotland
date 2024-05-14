@@ -128,6 +128,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "addCaseNote",
+    "Name": "Case: Add note",
+    "Description": "Case: Add note",
+    "DisplayOrder": 50,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/caseNotes/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "documentSelect",
     "Name": "Document Access",
     "Description": "Document Access",

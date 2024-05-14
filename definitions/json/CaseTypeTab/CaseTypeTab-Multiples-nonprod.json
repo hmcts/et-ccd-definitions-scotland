@@ -20,8 +20,9 @@
     "Channel": "CaseWorker",
     "TabID": "Notes",
     "TabLabel": "Notes",
-    "CaseFieldID": "multiplesNotes",
-    "TabDisplayOrder": 3
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "multipleCaseNotesCollection",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseFieldID": "documentCollection",

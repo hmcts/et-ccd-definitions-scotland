@@ -47,10 +47,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.1.1":
-  version: 9.1.1
-  resolution: "@eslint/js@npm:9.1.1"
-  checksum: b71844776d582de74a3599abcbccd2b9009a9292aaf81cb780469c9037985eb8c220c0a08708db205d7fecb54cf087c3c2b2066bd04819b1bc325fa72a52e3e0
+"@eslint/js@npm:9.2.0":
+  version: 9.2.0
+  resolution: "@eslint/js@npm:9.2.0"
+  checksum: b5617fd35bd4d9521c6b21c1dc6692b29b65be54d35905f2ed529f02e4014b9ad9d1fcdbd3dfea589636a98c8396489625c94f5dd05ce3c35ca5ac5537904764
   languageName: node
   linkType: hard
 
@@ -644,13 +644,13 @@ __metadata:
   linkType: hard
 
 "eslint@npm:^9.0.0":
-  version: 9.1.1
-  resolution: "eslint@npm:9.1.1"
+  version: 9.2.0
+  resolution: "eslint@npm:9.2.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.6.1
     "@eslint/eslintrc": ^3.0.2
-    "@eslint/js": 9.1.1
+    "@eslint/js": 9.2.0
     "@humanwhocodes/config-array": ^0.13.0
     "@humanwhocodes/module-importer": ^1.0.1
     "@humanwhocodes/retry": ^0.2.3
@@ -683,7 +683,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: b96852334eb8397cbee4d8d2342c247a304bf59ba38573e0229e28b6f4589a315af065e5a19989133103b09ada8c958f7cd83e95d327b1d3532e9b2c119d6692
+  checksum: 692f58f3e1939efc0875641af2f9a2788ebd870adf3b6a3c516e5e5d05df7cc54288056d7148200b7cecbbabdd14c61ded880861e95a230e5a8b80c184e780b7
   languageName: node
   linkType: hard
 
@@ -945,17 +945,17 @@ __metadata:
   linkType: hard
 
 "glob@npm:^10.0.0, glob@npm:^10.2.2, glob@npm:^10.3.10":
-  version: 10.3.12
-  resolution: "glob@npm:10.3.12"
+  version: 10.3.15
+  resolution: "glob@npm:10.3.15"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.3.6
     minimatch: ^9.0.1
     minipass: ^7.0.4
-    path-scurry: ^1.10.2
+    path-scurry: ^1.11.0
   bin:
     glob: dist/esm/bin.mjs
-  checksum: 2b0949d6363021aaa561b108ac317bf5a97271b8a5d7a5fac1a176e40e8068ecdcccc992f8a7e958593d501103ac06d673de92adc1efcbdab45edefe35f8d7c6
+  checksum: c7aeae0b4eea0dfedc6682b71a8ad4d1ea9dfec0f2440571f916e1918c046824c8d441bbe1965c06fede025a0726c6daab5ae8019afe667364f43776eaaf9044
   languageName: node
   linkType: hard
 
@@ -1733,13 +1733,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-scurry@npm:^1.10.2":
-  version: 1.10.2
-  resolution: "path-scurry@npm:1.10.2"
+"path-scurry@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "path-scurry@npm:1.11.0"
   dependencies:
     lru-cache: ^10.2.0
     minipass: ^5.0.0 || ^6.0.2 || ^7.0.0
-  checksum: 6739b4290f7d1a949c61c758b481c07ac7d1a841964c68cf5e1fa153d7e18cbde4872b37aadf9c5173c800d627f219c47945859159de36c977dd82419997b9b8
+  checksum: 79732c6a4d989846632d3ff8a441fabb8ea197ecdc7f328ea0f1694d611ed9bd3f0c940582d91c7dd108a29898866212a359d1a9b92ca69c4dbb16ebeae86b73
   languageName: node
   linkType: hard
 
@@ -2127,8 +2127,8 @@ __metadata:
   linkType: hard
 
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
-  version: 6.2.0
-  resolution: "tar@npm:6.2.0"
+  version: 6.2.1
+  resolution: "tar@npm:6.2.1"
   dependencies:
     chownr: ^2.0.0
     fs-minipass: ^2.0.0
@@ -2136,7 +2136,7 @@ __metadata:
     minizlib: ^2.1.1
     mkdirp: ^1.0.3
     yallist: ^4.0.0
-  checksum: db4d9fe74a2082c3a5016630092c54c8375ff3b280186938cfd104f2e089c4fd9bad58688ef6be9cf186a889671bf355c7cda38f09bbf60604b281715ca57f5c
+  checksum: f1322768c9741a25356c11373bce918483f40fa9a25c69c59410c8a1247632487edef5fe76c5f12ac51a6356d2f1829e96d2bc34098668a2fc34d76050ac2b6c
   languageName: node
   linkType: hard
 

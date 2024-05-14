@@ -29,13 +29,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "multiplesNotes",
-    "Label": "Notes",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "multiplesDocumentsTabTitle",
     "Label": "### Documents",
     "FieldType": "Label",
@@ -608,6 +601,21 @@
     "ID": "componentLauncher",
     "Label": "Component Launcher (for displaying Case View categories)",
     "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multipleCaseNotesCollection",
+    "Label": "Multiple notes",
+    "FieldTypeParameter": "caseNote",
+    "FieldType": "Collection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "caseNote",
+    "Label": "Note",
+    "FieldType": "caseNote",
     "SecurityClassification": "Public"
   }
 ]
