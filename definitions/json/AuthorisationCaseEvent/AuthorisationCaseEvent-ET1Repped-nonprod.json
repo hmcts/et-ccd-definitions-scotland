@@ -22,6 +22,11 @@
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "pseRespondentRespondToTribunal", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "pseRespondentViewNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "viewAllNotifications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
-  {"CaseTypeId": "ET_Scotland", "CaseEventID": "bundlesRespondentPrepareDoc", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"}
-
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "bundlesRespondentPrepareDoc", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "submitEt1Draft",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
+  }
 ]

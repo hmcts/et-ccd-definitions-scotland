@@ -73,7 +73,8 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "EndButtonLabel": "Submit ET1",
-    "EventEnablingCondition": "et1ReppedSectionOne = \"Yes\" AND et1ReppedSectionTwo = \"Yes\" AND et1ReppedSectionThree = \"Yes\""
+    "EventEnablingCondition": "et1ReppedSectionOne = \"Yes\" AND et1ReppedSectionTwo = \"Yes\" AND et1ReppedSectionThree = \"Yes\"",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
