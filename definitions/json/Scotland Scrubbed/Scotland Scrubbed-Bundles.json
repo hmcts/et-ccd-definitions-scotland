@@ -46,5 +46,17 @@
     "ListElement": "No, we have not agreed and I want to provide my own documents",
     "ListElementCode": "No",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_selectHearingBundlesCollection",
+    "ListElement": "Claimant's Hearing Bundles",
+    "ListElementCode": "selectClaimantHearingBundles",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_selectHearingBundlesCollection",
+    "ListElement": "Respondent's Hearing Bundles",
+    "ListElementCode": "selectRespondentHearingBundles",
+    "DisplayOrder": 2
   }
 ]

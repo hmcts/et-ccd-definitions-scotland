@@ -64,5 +64,26 @@
     "FieldType": "Text",
     "ElementLabel": "Hearing these documents are for",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "bundleName",
+    "FieldType": "Text",
+    "ElementLabel": "Document Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "removedDateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Removed Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "removedReason",
+    "FieldType": "Text",
+    "ElementLabel": "Reason for removal",
+    "SecurityClassification": "Public"
   }
 ]

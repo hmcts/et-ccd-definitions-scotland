@@ -23,5 +23,13 @@
     "CaseFieldID": "bundlesClaimantCollection",
     "TabFieldDisplayOrder": 3,
     "DisplayContextParameter": "#TABLE(formattedSelectedHearing,uploadDateTime,uploadFile)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Bundles",
+    "CaseFieldID": "removedHearingBundlesCollection",
+    "TabFieldDisplayOrder": 4,
+    "DisplayContextParameter": "#TABLE(bundleName,removedDateTime,removedReason)"
   }
 ]
