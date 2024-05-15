@@ -125,5 +125,20 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/closeReferral/completeCloseReferral",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "addCaseNote",
+    "Name": "Case: Add note",
+    "Description": "Case: Add note",
+    "DisplayOrder": 50,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/caseNotes/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
