@@ -229,6 +229,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "amendCaseDetailsClosed",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
