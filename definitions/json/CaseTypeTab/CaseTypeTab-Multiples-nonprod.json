@@ -1,20 +1,28 @@
 [
   {
-    "CaseFieldID": "notificationsTabLinks",
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
-    "TabDisplayOrder": 2,
-    "TabID": "notificationsTabLinks",
+    "TabID": "notifications",
     "TabLabel": "Notifications",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "notificationsTabLinks",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "CaseFieldID": "notificationsExtract",
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
     "TabID": "Notes",
     "TabLabel": "Notes",
-    "CaseFieldID": "multiplesNotes",
-    "TabDisplayOrder": 3
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "multipleCaseNotesCollection",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseFieldID": "documentCollection",
@@ -42,15 +50,6 @@
     "TabDisplayOrder": 103,
     "TabID": "MultiplesRespondentDocumentsTab",
     "TabLabel": "Docs - Respondent",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "CaseFileView",
-    "TabLabel": "Case File View",
-    "TabDisplayOrder": 104,
-    "CaseFieldID": "caseFileView",
     "TabFieldDisplayOrder": 1
   },
   {
@@ -109,5 +108,14 @@
     "TabID": "CaseOverview",
     "CaseFieldID": "nextListedDate",
     "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 107,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
   }
 ]

@@ -465,6 +465,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "extractNotifications",
+    "CaseFieldID": "extractEventText",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageLabel": "Notification Extract"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "directionDetails",
     "DisplayContext": "MANDATORY",
@@ -769,6 +780,17 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "addCaseNote",
+    "CaseFieldID": "caseNote",
+    "DisplayContext": "COMPLEX",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
     "PageColumnNumber": 1
   }
 ]
