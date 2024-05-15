@@ -163,6 +163,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCaseLinkDetails",
+    "Name": "Migrate Case Link Details",
+    "Description": "Migrate Transferred Case Link",
+    "DisplayOrder": 111,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/migrateCaseLinkDetails",
+    "SecurityClassification": "Public",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "amendCaseDetailsClosed",
     "Name": "Case Details",
     "Description": "Amend Case Details",
