@@ -5782,5 +5782,12 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantId",
+    "Label": "claimantId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
