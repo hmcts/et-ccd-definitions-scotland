@@ -268,5 +268,29 @@
     "CaseEventID": "documentSelect",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "multipleReference",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "legalRepCollection",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "legalRepCollection",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "legalRepCollection",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
