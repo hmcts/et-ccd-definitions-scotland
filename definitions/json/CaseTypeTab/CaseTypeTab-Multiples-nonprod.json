@@ -44,6 +44,15 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseFieldID": "claimantDocumentCollection",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 102,
+    "TabID": "MultiplesClaimantDocumentsTab",
+    "TabLabel": "Docs - Claimant",
+    "TabFieldDisplayOrder": 2
+  },
+  {
     "CaseFieldID": "multiplesRespondentDocumentsTabTitle",
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
@@ -51,6 +60,15 @@
     "TabID": "MultiplesRespondentDocumentsTab",
     "TabLabel": "Docs - Respondent",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "legalrepDocumentCollection",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 103,
+    "TabID": "MultiplesRespondentDocumentsTab",
+    "TabLabel": "Docs - Respondent",
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",

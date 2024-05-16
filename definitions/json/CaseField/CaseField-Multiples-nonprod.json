@@ -564,6 +564,40 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "documentSelect",
+    "Label": "Select a document",
+    "HintText": "Select a document or documents",
+    "FieldType": "DynamicMultiSelectList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "documentAccess",
+    "Label": "Select the roles",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "DocumentAccess",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "claimantDocumentCollection",
+    "Label": "Documents available to Claimants",
+    "HintText": "These are documents that claimants have access to",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "legalrepDocumentCollection",
+    "Label": "Documents available to legal reps",
+    "HintText": "These are documents that legal reps have access to",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "componentLauncher",
     "Label": "Component Launcher (for displaying Case View categories)",
     "FieldType": "ComponentLauncher",
