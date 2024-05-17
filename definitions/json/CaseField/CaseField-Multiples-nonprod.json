@@ -617,5 +617,13 @@
     "Label": "Note",
     "FieldType": "caseNote",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "legalRepCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "SubCaseLegalRepDetails",
+    "SecurityClassification": "Public"
   }
 ]
