@@ -1,13 +1,6 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "claimantId",
-    "Label": "claimantId",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "publicCaseName",
     "Label": "Public case name",
     "FieldType": "Text",
