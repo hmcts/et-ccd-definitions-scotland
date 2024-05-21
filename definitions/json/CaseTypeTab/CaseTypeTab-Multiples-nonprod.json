@@ -25,13 +25,27 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "MultiplesDocumentsTab",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 101,
+    "CaseFieldID": "createDigitalCaseFileLink",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "MultiplesDocumentsTab",
+    "CaseFieldID": "digitalCaseFile",
+    "TabFieldDisplayOrder": 2
+  },
+  {
     "CaseFieldID": "documentCollection",
     "CaseTypeID": "ET_Scotland_Multiple",
     "Channel": "CaseWorker",
-    "TabDisplayOrder": 101,
     "TabID": "MultiplesDocumentsTab",
-    "TabLabel": "Documents",
-    "TabFieldDisplayOrder": 1,
+    "TabFieldDisplayOrder": 3,
     "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
