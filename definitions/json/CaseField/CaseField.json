@@ -136,13 +136,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "multipleReferenceLinkLabel",
-    "Label": "<h3> Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "leadClaimant",
     "Label": "Lead claimant",
     "FieldType": "YesOrNo",
