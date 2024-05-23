@@ -1,0 +1,26 @@
+[
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseType",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "multipleReference",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "multipleReferenceLinkMarkUp",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "multipleReferenceLinkLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  }
+]
