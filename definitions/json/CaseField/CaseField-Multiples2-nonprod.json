@@ -1,0 +1,9 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "multipleReferenceLinkLabel",
+    "Label": "<h3> View the group claim. Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  }
+]
