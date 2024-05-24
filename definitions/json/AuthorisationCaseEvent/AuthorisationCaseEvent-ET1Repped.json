@@ -28,5 +28,11 @@
     "CaseEventID": "submitEt1Draft",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "generateEt1Documents",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
