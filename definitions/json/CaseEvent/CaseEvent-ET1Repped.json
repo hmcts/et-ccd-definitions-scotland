@@ -66,7 +66,6 @@
     "DisplayOrder": 57,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et1Repped/submitClaim/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/submitClaim",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Repped/submitted",
     "SecurityClassification": "Public",
