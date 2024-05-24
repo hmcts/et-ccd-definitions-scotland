@@ -46,5 +46,23 @@
     "CaseFieldID": "multipleReferenceLinkLabel",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "multipleLeadClaim",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "multipleStayedCase",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "multipleNotStayedCase",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
   }
 ]
