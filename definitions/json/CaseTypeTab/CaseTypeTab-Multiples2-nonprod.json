@@ -13,7 +13,7 @@
     "TabID": "CaseOverview",
     "CaseFieldID": "multipleStayedCase",
     "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "caseType=\"Multiple\" AND batchStayedCase=\"Yes\""
+    "FieldShowCondition": "caseType=\"Multiple\" AND batchCaseStayed=\"Yes\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -21,7 +21,7 @@
     "TabID": "CaseOverview",
     "CaseFieldID": "multipleNotStayedCase",
     "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "caseType=\"Multiple\" AND batchStayedCase=\"No\""
+    "FieldShowCondition": "caseType=\"Multiple\" AND batchCaseStayed=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
