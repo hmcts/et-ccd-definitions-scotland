@@ -11,7 +11,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1ReppedTriageError",
-    "Label": "The postcode you entered is not included under the early adopter sites yet.\r\n\r\nUntil your submitted location is supported, complete this <a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">ET1 claim form</a>.\r\n\r\n<div class=\"govuk-inset-text\">\r\n  This service is only available to solicitors representing single claimants, for a limited number of claims within our four early adopter sites; Leeds, Glasgow, Bristol and Nottingham who meet the current reform criteria.\r\n</div>",
+    "Label": "The postcode you entered is not included under the early adopter sites yet.\r\n\r\nUntil your submitted location is supported, complete this <a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">ET1 claim form</a>.\r\n\r\n<div class=\"govuk-inset-text\">\r\n  This service is only available to solicitors representing single claimants, for a limited number of claims within our four early adopter sites who meet the current reform criteria.\r\n</div>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
