@@ -10,8 +10,8 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "EventEnablingCondition": "caseType=\"Multiple\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startAddLegalRepToMultiple",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitAddLegalRepToMultiple",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeAddLegalRepToMultiple"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/addLegalRepToMultiple/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/addLegalRepToMultiple/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/addLegalRepToMultiple/completed"
   }
 ]
