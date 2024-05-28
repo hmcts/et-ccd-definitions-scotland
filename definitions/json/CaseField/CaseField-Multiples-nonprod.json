@@ -620,14 +620,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "legalRepCollection",
-    "Label": " ",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "SubCaseLegalRepDetails",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "bundleConfiguration",
     "Label": "Digital Case File configuration",
     "FieldType": "FixedList",
