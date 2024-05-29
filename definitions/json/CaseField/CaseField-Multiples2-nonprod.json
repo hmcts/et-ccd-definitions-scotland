@@ -17,24 +17,21 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "multipleLeadClaim",
-    "Label": "<h1>LEAD CLAIM</h1>",
-    "HintText": "This case is assigned as the lead case in a group claim",
+    "Label": "<h1>LEAD CLAIM</h1><p>This case is assigned as the lead case in a group claim<p><h3> View the group claim. Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "multipleStayedCase",
-    "Label": "<h1>STAYED CASE</h1>",
-    "HintText": "This case stayed and linked to a group claim",
+    "Label": "<h1>STAYED CASE</h1><p>This case is stayed and linked to a group claim<p><h3> View the group claim. Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "multipleNotStayedCase",
-    "Label": "<h1></h1>",
-    "HintText": "This case is linked to a group claim",
+    "Label": "<h1></h1><p>This case is linked to a group claim<p><h3> View the group claim. Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   }
