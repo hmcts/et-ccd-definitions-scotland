@@ -129,8 +129,8 @@
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "addCaseNote",
-    "Name": "Case: Add note",
-    "Description": "Case: Add note",
+    "Name": "Add note",
+    "Description": "Add note",
     "DisplayOrder": 50,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
