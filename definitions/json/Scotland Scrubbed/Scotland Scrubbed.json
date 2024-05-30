@@ -378,6 +378,12 @@
     "DisplayOrder": 4
   },
   {
+    "ID": "caseSourceList",
+    "ListElementCode": "MyHMCTS",
+    "ListElement": "MyHMCTS",
+    "DisplayOrder": 5
+  },
+  {
     "ID": "fl_CaseType",
     "ListElementCode": "Single",
     "ListElement": "Single",
@@ -6471,5 +6477,17 @@
     "ListElementCode": "Yes",
     "ListElement": "Yes",
     "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_respondentType",
+    "ListElementCode": "Organisation",
+    "ListElement": "Organisation",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_respondentType",
+    "ListElementCode": "Individual",
+    "ListElement": "Individual",
+    "DisplayOrder": 2
   }
 ]
