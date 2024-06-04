@@ -18235,6 +18235,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "adrDocumentCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
