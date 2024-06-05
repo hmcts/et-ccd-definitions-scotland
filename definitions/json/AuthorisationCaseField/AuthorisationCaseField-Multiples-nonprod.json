@@ -2992,5 +2992,29 @@
     "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-ras-validation",
+    "CRUD": "R"
   }
 ]
