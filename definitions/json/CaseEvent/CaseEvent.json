@@ -481,8 +481,7 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_AAC_URL}/noc/check-noc-approval",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
-    "ShowEventNotes": "Y",
-    "EventEnablingCondition": "caseType =\"dummy\""
+    "ShowEventNotes": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
