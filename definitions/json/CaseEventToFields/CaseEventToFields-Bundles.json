@@ -116,5 +116,39 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "removeHearingBundles",
+    "CaseFieldID": "removeBundleDropDownSelectedParty",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Please specify the party whose hearing bundles are to be removed",
+    "CallBackURLMidEvent": "${ET_COS_URL}/bundlesRespondent/midPopulateRemoveHearingBundles"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "removeHearingBundles",
+    "CaseFieldID": "removeHearingBundleSelect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Remove Hearing Bundle"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "removeHearingBundles",
+    "CaseFieldID": "hearingBundleRemoveReason",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Remove Hearing Bundle"
   }
 ]
