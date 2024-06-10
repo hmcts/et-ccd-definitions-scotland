@@ -1,0 +1,17 @@
+[
+  {
+    "ID": "SubCaseLegalRepDetails",
+    "ListElementCode": "caseReference",
+    "ElementLabel": "caseReference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "SubCaseLegalRepDetails",
+    "ListElementCode": "legalRepIds",
+    "ElementLabel": "legalRepIds",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  }
+]

@@ -10,7 +10,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/legalrepDocuments/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""

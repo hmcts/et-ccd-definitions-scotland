@@ -136,13 +136,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "multipleReferenceLinkLabel",
-    "Label": "<h3> Multiple reference : ${multipleReferenceLinkMarkUp} </h3>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "leadClaimant",
     "Label": "Lead claimant",
     "FieldType": "YesOrNo",
@@ -5782,5 +5775,12 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantId",
+    "Label": "claimantId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

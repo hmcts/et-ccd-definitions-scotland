@@ -129,8 +129,8 @@
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "addCaseNote",
-    "Name": "Case: Add note",
-    "Description": "Case: Add note",
+    "Name": "Add note",
+    "Description": "Add note",
     "DisplayOrder": 50,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -140,5 +140,47 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/caseNotes/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "documentSelect",
+    "Name": "Document Access",
+    "Description": "Document Access",
+    "DisplayOrder": 17,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "createDcf",
+    "Name": "Create Digital Case File",
+    "Description": "Create Digital Case File",
+    "DisplayOrder": 29,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/dcf/selectDcf",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/dcf/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Digital Case File",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "asyncStitchingComplete",
+    "Name": "Stitching bundle complete",
+    "Description": "Stitching bundle complete",
+    "DisplayOrder": 9000,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "multipleReference=\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]
