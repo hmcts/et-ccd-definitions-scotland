@@ -5033,7 +5033,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeDAG",
-    "EventElementLabel": "Discrimination, including harassment or victimisation or discrimination based on association or perception on grounds of age",
+    "EventElementLabel": "Discrimination, including harassment or discrimination based on association or perception on grounds of age",
     "FieldDisplayOrder": 18,
     "DisplayContext": "MANDATORY"
   },
@@ -5042,7 +5042,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeDDA",
-    "EventElementLabel": "Suffered a detriment, discrimination, including indirect discrimination, and discrimination based on association or perception, harassment, victimisation and/or dismissal on grounds of disability or f",
+    "EventElementLabel": "Suffered a detriment, discrimination, including indirect discrimination, and discrimination based on association or perception, harassment and/or dismissal on grounds of disability or failure of employer to make reasonable adjustments",
     "FieldDisplayOrder": 19,
     "DisplayContext": "MANDATORY"
   },
@@ -5051,7 +5051,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeDRB",
-    "EventElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of religion or belief",
+    "EventElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception or harassment on grounds of religion or belief",
     "FieldDisplayOrder": 20,
     "DisplayContext": "MANDATORY"
   },
@@ -5060,7 +5060,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeDSO",
-    "EventElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of sexual orientation",
+    "EventElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception or harassment on grounds of sexual orientation",
     "FieldDisplayOrder": 21,
     "DisplayContext": "MANDATORY"
   },
@@ -5087,7 +5087,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeRRD",
-    "EventElementLabel": "Discrimination, including indirect discrimination based on association or perception, harassment or victimisation on grounds of race or ethnic origin",
+    "EventElementLabel": "Discrimination, including indirect discrimination based on association or perception or harassment on grounds of race or ethnic origin",
     "FieldDisplayOrder": 24,
     "DisplayContext": "MANDATORY"
   },
@@ -5096,7 +5096,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeSXD",
-    "EventElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of sex, marriage and civil partnership or gender reassignme",
+    "EventElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, or harassment on grounds of sex, marriage and civil partnership",
     "FieldDisplayOrder": 25,
     "DisplayContext": "MANDATORY"
   },
@@ -5132,7 +5132,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeFTO",
-    "EventElementLabel": "Failure to allow time off for trade union activities or duties, for ante-natal care or for public duties",
+    "EventElementLabel": "Failure to allow time off for trade union activities or duties, for ante-natal care, for adoption, for parental leave, for carer’s leave or for public duties",
     "FieldDisplayOrder": 29,
     "DisplayContext": "MANDATORY"
   },
@@ -5357,7 +5357,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodePLD",
-    "EventElementLabel": "Suffer a detriment and/or dismissal due to requesting or taking paternity or adoption leave or time off to assist a dependant",
+    "EventElementLabel": "Suffer a detriment and/or dismissal due to requesting or taking leave for family and domestic reasons including maternity, paternity, adoption, parental bereavement, ante-natal care or carers leave or time off to assist a dependant",
     "FieldDisplayOrder": 54,
     "DisplayContext": "MANDATORY"
   },
@@ -5420,7 +5420,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTUM",
-    "EventElementLabel": "Suffer a detriment and/or dismissal related to being, not being or proposing to become a trade union member",
+    "EventElementLabel": "Suffer a detriment and/or dismissal relating to being, not being or proposing to become a trade union member",
     "FieldDisplayOrder": 61,
     "DisplayContext": "MANDATORY"
   },
