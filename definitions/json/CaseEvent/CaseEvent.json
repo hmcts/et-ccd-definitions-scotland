@@ -150,6 +150,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "downloadDraftEt3",
+    "Name": "Download draft ET3 Form",
+    "Description": "Download draft ET3 Form",
+    "DisplayOrder": 44,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/downloadDraft/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/downloadDraft/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/downloadDraft/submitted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Download draft ET3 form",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "acceptRejectedCase",
     "Name": "Accept Case",
     "Description": "Accept Case",
