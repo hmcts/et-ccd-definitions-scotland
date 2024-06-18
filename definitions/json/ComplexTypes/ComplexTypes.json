@@ -3062,6 +3062,15 @@
   },
   {
     "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeFPI",
+    "FieldType": "Label",
+    "ElementLabel": "Failure of a transferor to provide employee liability information to a transferee",
+    "FieldShowCondition": "juridictionCodesList = \"FPI\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeFTE",
     "FieldType": "Label",
     "ElementLabel": "Suffered less favourable treatment and/or dismissal as a fixed term employee, than a full-time employee or, on becoming permanent, failed to receive a written statement of confirmation from employer",
@@ -3093,6 +3102,15 @@
     "FieldType": "Label",
     "ElementLabel": "Failure to provide a written statement of reasons for dismissal or the contents of the statement are disputed",
     "FieldShowCondition": "juridictionCodesList = \"FWS\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeGRA",
+    "FieldType": "Label",
+    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, or harassment because of gender reassignment",
+    "FieldShowCondition": "juridictionCodesList = \"GRA\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -3215,6 +3233,15 @@
   },
   {
     "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeTUI",
+    "FieldType": "Label",
+    "ElementLabel": "Suffer an inducement relating to union membership, activities or collective bargaining",
+    "FieldShowCondition": "juridictionCodesList = \"TUI\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeTUM",
     "FieldType": "Label",
     "ElementLabel": "Suffer a detriment and/or dismissal relating to being, not being or proposing to become a trade union member",
@@ -3273,6 +3300,15 @@
     "FieldType": "Label",
     "ElementLabel": "unfair dismissal in connection to a lock out, strike or other industrial action",
     "FieldShowCondition": "juridictionCodesList = \"UIA\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeVIC",
+    "FieldType": "Label",
+    "ElementLabel": "Subjected to a detriment because of a protected act",
+    "FieldShowCondition": "juridictionCodesList = \"VIC\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
