@@ -1907,6 +1907,12 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Amend multiple note",
+    "ListElement": "Amend multiple note",
+    "DisplayOrder": 4
+  },
+  {
     "ID": "fl_batchUpdate",
     "ListElementCode": "batchUpdateType1",
     "ListElement": "Batch update based on flag criteria",

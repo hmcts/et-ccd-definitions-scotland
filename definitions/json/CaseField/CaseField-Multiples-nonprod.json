@@ -663,5 +663,12 @@
     "FieldType": "CaseLocation",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "multipleNote",
+    "Label": "Multiple Note",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
