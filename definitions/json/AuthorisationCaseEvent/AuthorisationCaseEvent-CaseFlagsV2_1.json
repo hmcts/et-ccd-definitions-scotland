@@ -7,12 +7,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "manageFlags",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "createFlag",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
@@ -20,14 +14,14 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "manageFlags",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "UPDATE_HUBLINK_STATUS",
-    "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CaseEventID": "manageFlags",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -40,5 +34,17 @@
     "CaseEventID": "rollbackCaseFlags",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "requestSupport",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "manageSupport",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
   }
 ]
