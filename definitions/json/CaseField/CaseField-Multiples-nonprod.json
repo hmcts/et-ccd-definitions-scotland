@@ -670,5 +670,21 @@
     "Label": "Multiple Note",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "altCaseIdCollection",
+    "Label": "Case Numbers",
+    "HintText": "The lead case cannot be removed",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "removeCasesLabel",
+    "Label": "**Press Continue to remove cases from this Multiple**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
