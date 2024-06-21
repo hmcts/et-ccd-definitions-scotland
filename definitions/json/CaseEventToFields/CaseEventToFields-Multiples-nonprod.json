@@ -852,5 +852,31 @@
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "amendMultipleDetails",
+    "CaseFieldID": "removeCasesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "typeOfAmendment CONTAINS \"Remove cases from multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "amendMultipleDetails",
+    "CaseFieldID": "altCaseIdCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "typeOfAmendment CONTAINS \"Remove cases from multiple\"",
+    "PageShowCondition": "typeOfAmendment CONTAINS \"Remove cases from multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleRemoveCaseIdsMidEventValidation",
+    "PageColumnNumber": 1
   }
 ]
