@@ -8661,7 +8661,8 @@
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "caseType=\"dummy\""
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",

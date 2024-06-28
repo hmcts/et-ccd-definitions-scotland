@@ -886,7 +886,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "Publish": "N"
   }
