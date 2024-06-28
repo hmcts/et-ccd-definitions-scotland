@@ -60,6 +60,12 @@
     "CRUD": "CRUD"
   },
   {
+    "CaseTypeId": "ET_Scotland_Multiple",
+    "CaseEventID": "createReferral",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "sendNotificationMultiple",
     "UserRole": "caseworker-employment-scotland",
