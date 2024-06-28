@@ -3022,11 +3022,5 @@
     "CaseFieldID": "batchUpdateJurisdictionList",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "batchUpdateJurisdictionList",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
   }
 ]
