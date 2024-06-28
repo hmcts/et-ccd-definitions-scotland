@@ -810,20 +810,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
-    "ID": "close",
-    "Name": "Close",
-    "Description": "Close Multiple",
-    "DisplayOrder": 10,
-    "PreConditionState(s)": "Open",
-    "PostConditionState": "Closed",
-    "EventEnablingCondition": "multipleSource=\"Manually Created\" OR multipleSource=\"Migrated\" OR preAcceptDone =\"Yes\"",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeMultiple",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland_Multiple",
     "ID": "resetMultipleState",
     "Name": "Reset Multiple State",
     "Description": "Reset Multiple State",
