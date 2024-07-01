@@ -890,5 +890,16 @@
     "ShowSummaryChangeOption": "Y",
     "CallBackURLMidEvent": "${ET_COS_URL}/multipleRemoveCaseIdsMidEventValidation",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "batchUpdateJurisdictionList",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "Publish": "N"
   }
 ]
