@@ -692,7 +692,7 @@
     "ID": "batchUpdateJurisdictionList",
     "Label": "Jurisdictions",
     "FieldType": "Collection",
-    "FieldTypeParameter": "DynamicList",
+    "FieldTypeParameter": "DynamicListCollection",
     "SecurityClassification": "Public"
   }
 ]
