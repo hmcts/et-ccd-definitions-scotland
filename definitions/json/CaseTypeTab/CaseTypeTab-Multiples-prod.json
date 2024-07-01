@@ -1,0 +1,76 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "multipleSource",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "managingOffice",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "leadCase",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "leadCaseLabel",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseCounter",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseCounterLabel",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseImporterFile",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "linkedMultipleCT",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "linkedMultipleCTLabel",
+    "TabFieldDisplayOrder": 8,
+    "FieldShowCondition": "linkedMultipleCT=\"*\""
+  }
+]
