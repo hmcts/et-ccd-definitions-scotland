@@ -5782,5 +5782,19 @@
     "Label": "claimantId",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyToReferralDcfLink",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyToReferralDcfLinkLabel",
+    "Label": "${replyToReferralDcfLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
