@@ -6055,8 +6055,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "replyToReferral",
-    "CaseFieldID": "hearingAndReferralDetails",
-    "FieldShowCondition": "hearingAndReferralDetailsLabel=\"dummy\"",
+    "CaseFieldID": "replyToReferralDcfLink",
+    "FieldShowCondition": "replyToReferralDcfLinkLabel=\"dummy\"",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -6068,11 +6068,32 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "replyToReferral",
-    "CaseFieldID": "hearingAndReferralDetailsLabel",
+    "CaseFieldID": "replyToReferralDcfLinkLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "hearingAndReferralDetails",
+    "FieldShowCondition": "hearingAndReferralDetailsLabel=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "hearingAndReferralDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
   {
@@ -6084,7 +6105,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
   {
@@ -6096,7 +6117,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 6,
     "PageColumnNumber": 1
   },
   {
@@ -6107,7 +6128,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 8,
     "PageColumnNumber": 1
   },
   {
@@ -6119,7 +6140,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 9,
     "PageColumnNumber": 1
   },
   {
@@ -6131,7 +6152,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 10,
     "PageColumnNumber": 1
   },
   {
@@ -6142,7 +6163,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 11,
     "PageColumnNumber": 1
   },
   {
@@ -6153,7 +6174,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 12,
     "PageColumnNumber": 1
   },
   {
