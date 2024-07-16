@@ -2821,7 +2821,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeDAG",
     "FieldType": "Label",
-    "ElementLabel": "Discrimination, including harassment or victimisation or discrimination based on association or perception on grounds of age",
+    "ElementLabel": "Discrimination, including harassment or discrimination based on association or perception on grounds of age",
     "FieldShowCondition": "juridictionCodesList = \"DAG\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2830,7 +2830,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeDDA",
     "FieldType": "Label",
-    "ElementLabel": "Suffered a detriment, discrimination, including indirect discrimination, and discrimination based on association or perception, harassment, victimisation and/or dismissal on grounds of disability or failure of employer to make reasonable adjustments",
+    "ElementLabel": "Suffered a detriment, discrimination, including indirect discrimination, and discrimination based on association or perception, harassment and/or dismissal on grounds of disability or failure of employer to make reasonable adjustments",
     "FieldShowCondition": "juridictionCodesList = \"DDA\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2839,7 +2839,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeDRB",
     "FieldType": "Label",
-    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of religion or belief",
+    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception or harassment on grounds of religion or belief",
     "FieldShowCondition": "juridictionCodesList = \"DRB\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2848,7 +2848,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeDSO",
     "FieldType": "Label",
-    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of sexual orientation",
+    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception or harassment on grounds of sexual orientation",
     "FieldShowCondition": "juridictionCodesList = \"DSO\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2875,7 +2875,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeRRD",
     "FieldType": "Label",
-    "ElementLabel": "Discrimination, including indirect discrimination based on association or perception, harassment or victimisation on grounds of race or ethnic origin",
+    "ElementLabel": "Discrimination, including indirect discrimination based on association or perception or harassment on grounds of race or ethnic origin",
     "FieldShowCondition": "juridictionCodesList = \"RRD\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2884,7 +2884,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeSXD",
     "FieldType": "Label",
-    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, harassment or victimisation on grounds of sex, marriage and civil partnership or gender reassignment",
+    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, or harassment on grounds of sex, marriage and civil partnership",
     "FieldShowCondition": "juridictionCodesList = \"SXD\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2929,7 +2929,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeFTO",
     "FieldType": "Label",
-    "ElementLabel": "Failure to allow time off for trade union activities or duties, for ante-natal care or for public duties",
+    "ElementLabel": "Failure to allow time off for trade union activities or duties, for ante-natal care, for adoption, for parental leave, for carer’s leave or for public duties",
     "FieldShowCondition": "juridictionCodesList = \"FTO\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3062,6 +3062,15 @@
   },
   {
     "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeFPI",
+    "FieldType": "Label",
+    "ElementLabel": "Failure of a transferor to provide employee liability information to a transferee",
+    "FieldShowCondition": "juridictionCodesList = \"FPI\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeFTE",
     "FieldType": "Label",
     "ElementLabel": "Suffered less favourable treatment and/or dismissal as a fixed term employee, than a full-time employee or, on becoming permanent, failed to receive a written statement of confirmation from employer",
@@ -3093,6 +3102,15 @@
     "FieldType": "Label",
     "ElementLabel": "Failure to provide a written statement of reasons for dismissal or the contents of the statement are disputed",
     "FieldShowCondition": "juridictionCodesList = \"FWS\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeGRA",
+    "FieldType": "Label",
+    "ElementLabel": "Discrimination, including indirect discrimination, discrimination based on association or perception, or harassment because of gender reassignment",
+    "FieldShowCondition": "juridictionCodesList = \"GRA\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -3154,7 +3172,7 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodePLD",
     "FieldType": "Label",
-    "ElementLabel": "Suffer a detriment and/or dismissal due to requesting or taking paternity or adoption leave or time off to assist a dependant",
+    "ElementLabel": "Suffer a detriment and/or dismissal due to requesting or taking leave for family and domestic reasons including maternity, paternity, adoption, parental bereavement, ante-natal care or carers leave or time off to assist a dependant",
     "FieldShowCondition": "juridictionCodesList = \"PLD\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3215,9 +3233,18 @@
   },
   {
     "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeTUI",
+    "FieldType": "Label",
+    "ElementLabel": "Suffer an inducement relating to union membership, activities or collective bargaining",
+    "FieldShowCondition": "juridictionCodesList = \"TUI\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeTUM",
     "FieldType": "Label",
-    "ElementLabel": "Suffer a detriment and/or dismissal related to being, not being or proposing to become a trade union member",
+    "ElementLabel": "Suffer a detriment and/or dismissal relating to being, not being or proposing to become a trade union member",
     "FieldShowCondition": "juridictionCodesList = \"TUM\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3273,6 +3300,15 @@
     "FieldType": "Label",
     "ElementLabel": "unfair dismissal in connection to a lock out, strike or other industrial action",
     "FieldShowCondition": "juridictionCodesList = \"UIA\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeVIC",
+    "FieldType": "Label",
+    "ElementLabel": "Subjected to a detriment because of a protected act",
+    "FieldShowCondition": "juridictionCodesList = \"VIC\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -7445,6 +7481,14 @@
   {
     "ID": "pseRespondCollection",
     "ListElementCode": "responseState",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "author",
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "date=\"dummy\"",

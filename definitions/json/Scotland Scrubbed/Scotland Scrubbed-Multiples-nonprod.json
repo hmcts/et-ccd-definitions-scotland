@@ -94,5 +94,17 @@
     "ListElementCode": "None (clear access)",
     "ListElement": "None (clear access)",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Remove cases from multiple",
+    "ListElement": "Remove cases from multiple",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Amend multiple note",
+    "ListElement": "Amend multiple note",
+    "DisplayOrder": 5
   }
 ]

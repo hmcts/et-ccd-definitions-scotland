@@ -150,6 +150,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
+    "FieldShowCondition": "referralHearingDetailsLabel=\"dummy\"",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "CaseEventID": "batchUpdateCases",
     "CaseFieldID": "batchCaseStayed",
     "DisplayContext": "OPTIONAL",
@@ -839,5 +851,55 @@
     "PageLabel": "Configure case file",
     "FieldShowCondition": "dcfYesNo=\"No\"",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "amendMultipleDetails",
+    "CaseFieldID": "multipleNote",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "typeOfAmendment CONTAINS \"Amend multiple note\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "amendMultipleDetails",
+    "CaseFieldID": "removeCasesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "typeOfAmendment CONTAINS \"Remove cases from multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "amendMultipleDetails",
+    "CaseFieldID": "altCaseIdCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "typeOfAmendment CONTAINS \"Remove cases from multiple\"",
+    "PageShowCondition": "typeOfAmendment CONTAINS \"Remove cases from multiple\"",
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleRemoveCaseIdsMidEventValidation",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "batchUpdateJurisdictionList",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "Publish": "N"
   }
 ]

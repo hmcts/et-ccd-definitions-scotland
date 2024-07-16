@@ -103,5 +103,35 @@
     "Label": "### Hearing Documents",
     "FieldType": "Label",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removeBundleDropDownSelectedParty",
+    "Label": "Please specify the party whose hearing bundles are to be removed",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_selectHearingBundlesCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removeHearingBundleSelect",
+    "Label": "Please select the hearing bundle to be removed",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingBundleRemoveReason",
+    "Label": "Reason for removing the hearing bundle",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removedHearingBundlesCollection",
+    "Label": "Removed Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "RemovedHearingBundle",
+    "SecurityClassification": "Public"
   }
 ]

@@ -5789,5 +5789,19 @@
     "Label": "Click submit to download a draft copy of the ET3 form completed so far for the respondent selected.\r\n\r\nThis will not submit the ET3 to the tribunal. If you wish to submit the ET3, please use the Submit ET3 event",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  }.
+    {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyToReferralDcfLink",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "replyToReferralDcfLinkLabel",
+    "Label": "${replyToReferralDcfLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
