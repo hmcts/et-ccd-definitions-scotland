@@ -694,5 +694,13 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DynamicListCollection",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "liveCases",
+    "Label": "Update Live cases only?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_liveCases",
+    "SecurityClassification": "Public"
   }
 ]

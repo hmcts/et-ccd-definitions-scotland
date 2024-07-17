@@ -1,0 +1,68 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "batchUpdateType",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "subMultiple",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "flag1",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "flag2",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "flag3",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CaseEventID": "batchUpdateCases",
+    "CaseFieldID": "flag4",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  }
+]
