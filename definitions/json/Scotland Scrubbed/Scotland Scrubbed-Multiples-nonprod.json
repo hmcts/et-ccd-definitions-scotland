@@ -106,5 +106,17 @@
     "ListElementCode": "Amend multiple note",
     "ListElement": "Amend multiple note",
     "DisplayOrder": 5
+  },
+  {
+    "ID": "frl_liveCases",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_liveCases",
+    "ListElementCode": "No",
+    "ListElement": "No - all cases",
+    "DisplayOrder": 2
   }
 ]
