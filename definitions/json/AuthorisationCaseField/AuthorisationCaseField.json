@@ -24462,5 +24462,17 @@
     "CaseFieldID": "claimantId",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "downloadDraftEt3Label",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "downloadDraftEt3Label",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
   }
 ]

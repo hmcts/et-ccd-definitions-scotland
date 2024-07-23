@@ -9009,5 +9009,25 @@
     "ShowSummaryChangeOption": "Y",
     "CallBackURLMidEvent": "${ET_COS_URL}/bulkAddSingleCasesImportFileMidEventValidation",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "downloadDraftEt3",
+    "CaseFieldID": "downloadDraftEt3Label",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "downloadDraftEt3",
+    "CaseFieldID": "submitEt3Respondent",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
   }
 ]
