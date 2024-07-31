@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1ReppedTriageLabel",
-    "Label": "If the claimant works or worked at home occasionally or full time, enter the postcode of where they travel into work or where they would have travelled to.\r\n\r\nIf they're claiming against a respondent that they've not worked for - as best as you can, enter the postcode of where the respondent is based.\r\n\r\n<a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">Complete this ET1 claim form if the respondent's work location is outside the UK</a>\n\n<a href=\"cases/case-create/EMPLOYMENT/ET_EnglandWales/et1ReppedCreateCase/et1ReppedCreateCase1\" target=\"_blank\">Complete this ET1 claim form if the the respondent's work location is in England and Wales</a>\n\n<div class=\"govuk-inset-text\">\r\n  This service is only available to professional users presenting a single claim in Scotland.\r\n</div>",
+    "Label": "If the claimant works or worked at home occasionally or full time, enter the postcode of where they travel into work or where they would have travelled to.\r\n\r\nIf they're claiming against a respondent that they've not worked for - as best as you can, enter the postcode of where the respondent is based\r\n\r\n If the respondent's work location is within England and Wales, complete this <a href=\"cases/case-create/EMPLOYMENT/ET_EnglandWales/et1ReppedCreateCase/et1ReppedCreateCase1\" target=\"_blank\">ET1 claim form</a>.\n\n<div class=\"govuk-inset-text\">\r\n  This service is only available to professional users presenting a single claim in Scotland.\r\n</div>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
