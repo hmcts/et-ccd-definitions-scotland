@@ -4854,6 +4854,13 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "hearingClaimantViewState",
+    "Label": "Hearing Claimant Notification Viewed State",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "pseViewNotifications",
     "Label": "Placeholder",
     "FieldType": "Text",
