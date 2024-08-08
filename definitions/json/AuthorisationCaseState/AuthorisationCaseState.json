@@ -127,6 +127,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Accepted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRUD"
