@@ -7695,6 +7695,14 @@
   },
   {
     "ID": "sendNotificationCollection",
+    "ListElementCode": "hearingClaimantViewState",
+    "FieldType": "Text",
+    "ElementLabel": "Claimant Hearing Notification Viewed State",
+    "FieldShowCondition": "number=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationResponsesCount",
     "FieldType": "Text",
     "ElementLabel": "Number of responses",
