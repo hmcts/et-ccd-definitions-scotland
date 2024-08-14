@@ -1,0 +1,207 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "notificationsTabLinks",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "CaseFieldID": "notificationsExtract",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Notes",
+    "TabLabel": "Notes",
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "multipleCaseNotesCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "MultiplesDocumentsTab",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 101,
+    "CaseFieldID": "createDigitalCaseFileLink",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "MultiplesDocumentsTab",
+    "CaseFieldID": "digitalCaseFile",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "documentCollection",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "MultiplesDocumentsTab",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
+  },
+  {
+    "CaseFieldID": "multiplesClaimantDocumentsTabTitle",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 102,
+    "TabID": "MultiplesClaimantDocumentsTab",
+    "TabLabel": "Docs - Claimant",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "claimantDocumentCollection",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 102,
+    "TabID": "MultiplesClaimantDocumentsTab",
+    "TabLabel": "Docs - Claimant",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabDisplayOrder": 105,
+    "CaseFieldID": "applicationsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "TabLabel": "Referrals",
+    "TabDisplayOrder": 106,
+    "CaseFieldID": "referralsLabel",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralCollection",
+    "TabFieldDisplayOrder": 3,
+    "TabLabel": "Referrals",
+    "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "multipleNote",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "multipleSource",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "managingOffice",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "leadCase",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "leadCaseLabel",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseCounter",
+    "TabFieldDisplayOrder": 6,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseCounterLabel",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "caseImporterFile",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "linkedMultipleCT",
+    "TabFieldDisplayOrder": 9,
+    "FieldShowCondition": "stateLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "linkedMultipleCTLabel",
+    "TabFieldDisplayOrder": 9,
+    "FieldShowCondition": "linkedMultipleCT=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "CaseMultiple",
+    "CaseFieldID": "nextListedDate",
+    "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 107,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
+  }
+]

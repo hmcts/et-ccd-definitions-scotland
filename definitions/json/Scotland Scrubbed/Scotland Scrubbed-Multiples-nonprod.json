@@ -1,0 +1,122 @@
+[
+  {
+    "ID": "sendNotificationNotifyLead",
+    "ListElement": "Both parties from Lead Case",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationNotifyLead",
+    "ListElement": "Claimant (Lead Case only)",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationNotifyLead",
+    "ListElement": "Respondent (Lead Case only)",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "sendNotificationNotifyAll",
+    "ListElement": "All parties from lead case and sub cases",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationNotifyAll",
+    "ListElement": "All Claimants from lead case and sub cases",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationNotifyAll",
+    "ListElement": "All Respondents from lead case and sub cases",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "sendNotificationNotifySelected",
+    "ListElement": "Claimants from selected cases",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationNotifySelected",
+    "ListElement": "Respondents from selected cases",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationNotifySelected",
+    "ListElement": "All parties from selected cases",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "notifyMultiple",
+    "ListElement": "Parties from lead case",
+    "ListElementCode": "Lead case",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "notifyMultiple",
+    "ListElement": "Parties from lead case and sub cases",
+    "ListElementCode": "Lead and sub cases",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "notifyMultiple",
+    "ListElement": "Parties from selected cases (batch processing)",
+    "ListElementCode": "Selected cases",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "Citizens",
+    "ListElement": "Citizens",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "Legal rep/respondents",
+    "ListElement": "Legal rep/respondents",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "Both Citizens and Legal rep/respondents",
+    "ListElement": "Both Citizens and Legal rep/respondents",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "None (clear access)",
+    "ListElement": "None (clear access)",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Remove cases from multiple",
+    "ListElement": "Remove cases from multiple",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Amend multiple note",
+    "ListElement": "Amend multiple note",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "frl_liveCases",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_liveCases",
+    "ListElementCode": "No",
+    "ListElement": "No - all cases",
+    "DisplayOrder": 2
+  }
+]

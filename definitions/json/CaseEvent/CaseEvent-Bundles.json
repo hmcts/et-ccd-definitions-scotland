@@ -1,0 +1,47 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDoc",
+    "Name": "Upload documents for hearing",
+    "Description": "Upload documents for a hearing",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": " ",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SUBMIT_CLAIMANT_BUNDLES",
+    "Name": "Submit hearing docs",
+    "Description": "Submit hearing docs",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removeHearingBundles",
+    "Name": "Remove hearing bundles",
+    "Description": "Remove hearing bundles",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": " ",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle"
+  }
+]

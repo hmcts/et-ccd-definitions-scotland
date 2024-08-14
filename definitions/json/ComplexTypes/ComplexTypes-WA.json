@@ -1,0 +1,60 @@
+[
+  {
+    "ID": "referralReply",
+    "ListElementCode": "replyDateTime",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "replyDateTime = \"dummy\""
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "referralSubject",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "replyDateTime = \"dummy\""
+  },
+  {
+    "ID": "referralReply",
+    "ListElementCode": "referralNumber",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "replyDateTime = \"dummy\""
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "dateTime",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "date = \"dummy\""
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "applicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "date = \"dummy\""
+  },
+  {
+    "ID": "etICHearingNotListedSeekComments",
+    "ListElementCode": "etICPrelimHearingYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Should the case be listed for a private preliminary hearing?",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseReceivedCount",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  }
+]

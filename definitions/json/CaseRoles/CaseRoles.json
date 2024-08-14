@@ -1,0 +1,119 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[CLAIMANTSOLICITOR]",
+    "Name": "Claimant Solicitor",
+    "Description": "Claimant Solicitor 1",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORA]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORB]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORC]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORD]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORE]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORF]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORG]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORH]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORI]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[SOLICITORJ]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "ID": "[CREATOR]",
+    "Name": "Creator",
+    "Description": "Creator of case",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "ID": "[CREATOR]",
+    "Name": "Creator",
+    "Description": "Creator of case",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "et1ReppedTriageAddress", "FieldDisplayOrder": 1, "DisplayContext": "MANDATORY"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "AddressLine1", "FieldDisplayOrder": 2, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "AddressLine2", "FieldDisplayOrder": 3, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "AddressLine3", "FieldDisplayOrder": 4, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "PostTown", "FieldDisplayOrder": 5, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "County", "FieldDisplayOrder": 6, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "Country", "FieldDisplayOrder": 7, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "PostCode", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "AddressLine1", "EventElementLabel": "Building and Street", "FieldDisplayOrder": 2, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "AddressLine2", "FieldDisplayOrder": 3, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "AddressLine3", "FieldDisplayOrder": 4, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "PostTown", "EventElementLabel": "Town or City", "FieldDisplayOrder": 5, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "County", "EventElementLabel": "County", "FieldDisplayOrder": 6, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "Country", "EventElementLabel": "Country", "FieldDisplayOrder": 7, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantContactAddress", "ListElementCode": "PostCode", "EventElementLabel": "Postcode", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address", "FieldDisplayOrder": 1, "DisplayContext": "MANDATORY"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.AddressLine1", "EventElementLabel": "Building and Street", "FieldDisplayOrder": 2, "DisplayContext": "MANDATORY"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.AddressLine2", "FieldDisplayOrder": 3, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.AddressLine3", "FieldDisplayOrder": 4, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.PostTown", "EventElementLabel": "Town or City", "FieldDisplayOrder": 5, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.County", "EventElementLabel": "County", "FieldDisplayOrder": 6, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.Country", "EventElementLabel": "Country", "FieldDisplayOrder": 7, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1SectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimant_work_address.PostCode", "EventElementLabel": "Postcode", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"},
+  {
+    "ID": "ClaimantRepresentative",
+    "CaseEventID": "addAmendClaimantRepresentative",
+    "CaseFieldID": "representativeClaimantType",
+    "ListElementCode": "myHmctsOrganisation.OrganisationID",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "CaseEventID": "addAmendClaimantRepresentative",
+    "CaseFieldID": "representativeClaimantType",
+    "ListElementCode": "myHmctsOrganisation.OrganisationName",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  }
+]

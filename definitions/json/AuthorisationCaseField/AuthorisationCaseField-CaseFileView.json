@@ -1,0 +1,26 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  }
+]

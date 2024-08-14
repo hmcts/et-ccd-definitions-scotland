@@ -1,0 +1,194 @@
+[
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "claimantUnavailability",
+    "ListElementCode": "unavailable_to",
+    "EventElementLabel": "Unavailable to",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "claimantUnavailability",
+    "ListElementCode": "unavailable_from",
+    "EventElementLabel": "Unavailable from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "respondentUnavailability",
+    "ListElementCode": "unavailable_to",
+    "EventElementLabel": "Unavailable to",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UnavailabilityDateRange",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "respondentUnavailability",
+    "ListElementCode": "unavailable_from",
+    "EventElementLabel": "Unavailable from",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentType",
+    "EventElementLabel": "Type of respondent",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentOrganisation",
+    "EventElementLabel": "Organisation or business name",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentFirstName",
+    "EventElementLabel": "Respondent first name",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentLastName",
+    "EventElementLabel": "Respondent last name",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  }
+]

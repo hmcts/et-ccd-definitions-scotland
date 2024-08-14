@@ -1,0 +1,32 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addAmendClaimantRepresentative",
+    "Name": "Claimant Representative",
+    "Description": "Add or Amend a Claimant Representative",
+    "DisplayOrder": 14,
+    "PreConditionState(s)": "Accepted;Rejected;Closed",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "partyUnavailability",
+    "Name": "Hearings: Unavailability dates",
+    "Description": "party unavailability date ranges for hearing request",
+    "PreConditionState(s)": "Accepted;Rejected",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingUnavailability/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/hearingUnavailability/submitted"
+  }
+]

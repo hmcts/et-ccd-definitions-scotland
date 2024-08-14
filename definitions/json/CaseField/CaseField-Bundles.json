@@ -1,0 +1,137 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotes1",
+    "Label": "Please refer to any instructions or guidance given by the Tribunal as to what documents are needed for the hearing.<br><br>These documents, usually agreed by both parties, will form part of the evidence at the hearing. You should include all the documents that are important to your case, and that both parties want to refer to at the hearing.<br><br>The combined set of documents must be in one PDF file, usually submitted by one party unless instructed otherwise by the tribunal.<br> <br>Generally the documents should be included in the PDF file in date order, and the first page or pages of the pdf numbering should be an index showing the name of the document, its date and the page number.<br><br>The single PDF document should be created offline before uploading through this form.<br><br>You must submit hearing documents according to any time limits set out by the Tribunal.<br><br>Refer to the orders from the tribunal about whether you need to include your witness statements here or separately.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotes2",
+    "Label": "Providing a file which contains all relevant documents, and only relevant documents, will help ensure a fair hearing and minimise any delays.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentPrepareDocNotesShow",
+    "Label": "Placeholder",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWith",
+    "Label": "Have you agreed with the other party that this PDF set of documents will be used by both parties at the hearing and that no other documents will be referred to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWith",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithBut",
+    "Label": "Tell us which documents are disputed",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentAgreedDocWithNo",
+    "Label": "Tell us why you’ve not been able to agree with the other party",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentSelectHearing",
+    "Label": "Select the hearing these documents are for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentWhoseDocuments",
+    "Label": "Whose hearing documents are you uploading?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesWhoseDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentWhatDocuments",
+    "Label": "What are these documents?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesWhatDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentUploadFileLabel",
+    "Label": "Once you’ve read the orders from the tribunal, make sure:<br><ul><li>you have the set of documents in one PDF file</li><li>the documents are in date order or some other logical order and comply with any directions given by the Tribunal</li><li>the index item refers to the correct page in the document</li><li>you only include relevant documents and material for your case</li><li>the PDF document falls within any page limits given by the tribunal</li></ul>If you’re referencing one section of a document like a contract of employment, say which part in the index.<br><br>If you need to refer to previous case documents, go to your <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">case documents (opens in new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentUploadFile",
+    "Label": "Upload document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C57",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesRespondentCollection",
+    "Label": "Respondent Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesClaimantCollection",
+    "Label": "Claimant Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "bundlesTabTitle",
+    "Label": "### Hearing Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removeBundleDropDownSelectedParty",
+    "Label": "Please specify the party whose hearing bundles are to be removed",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_selectHearingBundlesCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removeHearingBundleSelect",
+    "Label": "Please select the hearing bundle to be removed",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingBundleRemoveReason",
+    "Label": "Reason for removing the hearing bundle",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removedHearingBundlesCollection",
+    "Label": "Removed Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "RemovedHearingBundle",
+    "SecurityClassification": "Public"
+  }
+]

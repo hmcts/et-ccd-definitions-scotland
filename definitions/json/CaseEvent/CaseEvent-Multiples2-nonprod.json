@@ -1,0 +1,17 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addLegalRepToMultiple",
+    "Name": "Add me to Multiple",
+    "Description": "Add me to Multiple",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"Multiple\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/addLegalRepToMultiple/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/addLegalRepToMultiple/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/addLegalRepToMultiple/completed"
+  }
+]

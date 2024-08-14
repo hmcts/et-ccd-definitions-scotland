@@ -1,0 +1,38 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "waRule21ReferralSent",
+    "Label": "text",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hmctsCaseCategory",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "draftAndSignJudgementLink",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/draftAndSignJudgement/draftAndSignJudgement1\">Draft & Sign Judgement</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "draftAndSignJudgement",
+    "Label": "Draft and Sign Judgement",
+    "FieldType": "DraftAndSignJudgement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseManagementLocationCode",
+    "Label": "caseManagementLocationCode",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Bundles",
+    "TabLabel": "Hearing Documents",
+    "TabDisplayOrder": 71,
+    "CaseFieldID": "bundlesTabTitle",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Bundles",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#TABLE(formattedSelectedHearing,uploadDateTime,uploadFile)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Bundles",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "TabFieldDisplayOrder": 3,
+    "DisplayContextParameter": "#TABLE(formattedSelectedHearing,uploadDateTime,uploadFile)"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Bundles",
+    "CaseFieldID": "removedHearingBundlesCollection",
+    "TabFieldDisplayOrder": 4,
+    "DisplayContextParameter": "#TABLE(bundleName,removedDateTime,removedReason)"
+  }
+]

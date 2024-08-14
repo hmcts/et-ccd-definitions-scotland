@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "Yes",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "We have agreed that this set of documents will be uploaded but we disagree about whether some of the documents should be referred to at the hearing.",
+    "ListElementCode": "But",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesWhoseDocuments",
+    "ListElement": "Both parties' hearing documents combined",
+    "ListElementCode": "Both parties' hearing documents combined",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesWhoseDocuments",
+    "ListElement": "Respondent's documents only",
+    "ListElementCode": "Respondent's documents only",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundlesWhatDocuments",
+    "ListElement": "Documents that will be referred to by witnesses when giving evidence, sometimes called the \"hearing bundle\"",
+    "ListElementCode": "Supplementary hearing documents",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundlesWhatDocuments",
+    "ListElement": "Witness statements (only upload these if the tribunal has said witness statements are to be used)",
+    "ListElementCode": "Witness statements only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundlesWhatDocuments",
+    "ListElement": "A combined hearing bundles and witness statements",
+    "ListElementCode": "Hearing documents, including witness statements",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "No, we have not agreed and I want to provide my own documents",
+    "ListElementCode": "No",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_selectHearingBundlesCollection",
+    "ListElement": "Claimant's Hearing Bundles",
+    "ListElementCode": "selectClaimantHearingBundles",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_selectHearingBundlesCollection",
+    "ListElement": "Respondent's Hearing Bundles",
+    "ListElementCode": "selectRespondentHearingBundles",
+    "DisplayOrder": 2
+  }
+]
