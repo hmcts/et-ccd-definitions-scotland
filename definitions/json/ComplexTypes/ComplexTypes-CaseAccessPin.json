@@ -1,0 +1,24 @@
+[
+  {
+    "ID": "CaseAccessPin",
+    "ListElementCode": "accessCode",
+    "FieldType": "Text",
+    "ElementLabel": "Access Code",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseAccessPin",
+    "ListElementCode": "expiryDate",
+    "FieldType": "Text",
+    "ElementLabel": "Expiry Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "CaseAccessPin",
+    "ListElementCode": "caseAccessibleRoles",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_CaseAccessRoles",
+    "ElementLabel": "Case Accessible Roles",
+    "SecurityClassification": "Public"
+  }
+]

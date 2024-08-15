@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "fl_CaseAccessRoles",
+    "ListElementCode": "[CITIZEN]",
+    "ListElement": "Citizen case access role",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_CaseAccessRoles",
+    "ListElementCode": "[DEFENDANT]",
+    "ListElement": "Defendant case access role",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_CaseAccessRoles",
+    "ListElementCode": "[CLAIMANTSOLICITOR]",
+    "ListElement": "Claimant solicitor case access role",
+    "DisplayOrder": 3
+  }
+]
