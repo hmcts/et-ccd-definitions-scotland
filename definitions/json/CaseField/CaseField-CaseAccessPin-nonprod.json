@@ -1,0 +1,9 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseAccessPin",
+    "Label": "Case Access Pin",
+    "FieldType": "CaseAccessPin",
+    "SecurityClassification": "Public"
+  }
+]
