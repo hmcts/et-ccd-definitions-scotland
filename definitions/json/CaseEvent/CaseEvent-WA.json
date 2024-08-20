@@ -431,8 +431,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgement",
-    "Name": "Draft and Sign Judgement",
-    "Description": "Draft and Sign Judgement",
+    "Name": "Draft and sign judgment/order",
+    "Description": "Draft and sign judgment/order",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",

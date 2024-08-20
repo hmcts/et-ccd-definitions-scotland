@@ -383,7 +383,7 @@
     "CaseEventID": "draftAndSignJudgement",
     "CaseFieldID": "draftAndSignJudgement",
     "ListElementCode": "isJudgement",
-    "EventElementLabel": "Is this a Judgement?",
+    "EventElementLabel": "Is this a Judgment?",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "Publish": "Y"
