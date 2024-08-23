@@ -44,6 +44,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_Scotland",
+    "RoleName": "[DEFENDANT]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[DEFENDANT]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
     "RoleName": "idam:caseworker-employment-legalrep-solicitor",
     "ReadOnly": "N",
     "AccessProfiles": "caseworker-employment-legalrep-solicitor"
