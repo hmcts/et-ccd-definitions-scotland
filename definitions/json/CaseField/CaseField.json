@@ -165,8 +165,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "feeGroupReference",
-    "Label": "Submission Reference",
-    "HintText": "Submission Reference (12 or 16 digit number)",
+    "Label": "Digital Case Reference",
+    "HintText": "Digital Case Reference (12 or 16 digit number)",
     "FieldType": "Text",
     "RegularExpression": "^([0-9]{12}|[0-9]{16})$",
     "SecurityClassification": "Public"
