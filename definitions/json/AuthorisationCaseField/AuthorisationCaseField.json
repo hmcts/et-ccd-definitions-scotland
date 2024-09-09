@@ -22027,6 +22027,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "legalrepDocumentCollection",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondNotificationDate",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
