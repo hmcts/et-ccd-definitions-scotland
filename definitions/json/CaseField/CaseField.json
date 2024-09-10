@@ -5803,5 +5803,19 @@
     "Label": "${replyToReferralDcfLink}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "legalRepDocumentsMarkdown",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "legalRepDocumentsMarkdownLabel",
+    "Label": "${legalRepDocumentsMarkdown}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

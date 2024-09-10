@@ -91,12 +91,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "legalrepDocumentCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "multipleLeadClaim",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
