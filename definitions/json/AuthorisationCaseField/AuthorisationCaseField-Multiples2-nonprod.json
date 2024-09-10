@@ -84,12 +84,6 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "legalrepDocumentCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "legalrepDocumentCollection",
     "UserRole": "caseworker-employment-legalrep-solicitor",
