@@ -78,7 +78,14 @@
     },
     {
       "ID": "et3HubLinksStatuses",
-      "ListElementCode": "employeeDetails",
+      "ListElementCode": "employerDetails",
+      "FieldType": "Text",
+      "ElementLabel": " ",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "et3HubLinksStatuses",
+      "ListElementCode": "conciliationAndEmployeeDetails",
       "FieldType": "Text",
       "ElementLabel": " ",
       "SecurityClassification": "Public"
