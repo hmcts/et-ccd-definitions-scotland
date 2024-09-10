@@ -1,0 +1,16 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3CaseDetailsLinksStatuses",
+    "Label": " ",
+    "FieldType": "et3CaseDetailsLinksStatuses",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3HubLinksStatuses",
+    "Label": " ",
+    "FieldType": "et3HubLinksStatuses",
+    "SecurityClassification": "Public"
+  }
+]
