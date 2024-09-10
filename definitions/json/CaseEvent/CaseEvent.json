@@ -12,7 +12,7 @@
     "ShowSummary": "N",
     "EventEnablingCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/legalrepDocuments/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/legalrepDocuments/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   },
   {
