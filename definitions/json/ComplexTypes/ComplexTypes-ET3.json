@@ -1,107 +1,107 @@
 [
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "personalDetails",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "et1ClaimForm",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "respondentResponse",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "hearingDetails",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "requestsAndApplications",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "respondentApplications",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "contactTribunal",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "tribunalOrders",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "tribunalJudgements",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-  "ID": "et3CaseDetailsLinksStatuses",
-  "ListElementCode": "documents",
-  "FieldType": "Text",
-  "ElementLabel": " ",
-  "SecurityClassification": "Public"
-  },
-  {
-    "ID": "et3HubLinksStatuses",
-    "ListElementCode": "contactDetails",
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "personalDetails",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "et3HubLinksStatuses",
-    "ListElementCode": "employeeDetails",
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "et1ClaimForm",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "et3HubLinksStatuses",
-    "ListElementCode": "payPensionBenefitDetails",
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "respondentResponse",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "et3HubLinksStatuses",
-    "ListElementCode": "contestClaim",
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "hearingDetails",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "et3HubLinksStatuses",
-    "ListElementCode": "checkYorAnswers",
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "requestsAndApplications",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
-  }
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "respondentApplications",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "contactTribunal",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "tribunalOrders",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "tribunalJudgements",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+    },
+    {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "documents",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+    },
+    {
+      "ID": "et3HubLinksStatuses",
+      "ListElementCode": "contactDetails",
+      "FieldType": "Text",
+      "ElementLabel": " ",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "et3HubLinksStatuses",
+      "ListElementCode": "employeeDetails",
+      "FieldType": "Text",
+      "ElementLabel": " ",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "et3HubLinksStatuses",
+      "ListElementCode": "payPensionBenefitDetails",
+      "FieldType": "Text",
+      "ElementLabel": " ",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "et3HubLinksStatuses",
+      "ListElementCode": "contestClaim",
+      "FieldType": "Text",
+      "ElementLabel": " ",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "et3HubLinksStatuses",
+      "ListElementCode": "checkYorAnswers",
+      "FieldType": "Text",
+      "ElementLabel": " ",
+      "SecurityClassification": "Public"
+    }
 ]
