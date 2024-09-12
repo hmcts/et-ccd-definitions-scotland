@@ -3206,6 +3206,15 @@
   },
   {
     "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeTIP",
+    "FieldType": "Label",
+    "ElementLabel": "Suffer a failure by an employer to comply with provisions about distribution of or information about tips",
+    "FieldShowCondition": "juridictionCodesList = \"TIP\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeTPE",
     "FieldType": "Label",
     "ElementLabel": "Suffer less favourable treatment and/or dismissal as a temp. employee than a full-time employee",
