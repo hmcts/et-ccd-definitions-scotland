@@ -550,6 +550,13 @@
   },
   {
     "ID": "TriageQuestions",
+    "ListElementCode": "claimJurisdiction",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
     "ListElementCode": "claimantRepresentedQuestion",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
