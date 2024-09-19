@@ -1389,5 +1389,14 @@
     "TabDisplayOrder": 4,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseFieldID": "caseSource",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "caseSource=\"dummy\"",
+    "TabShowCondition": "caseSource!=\"MyHMCTS\""
   }
 ]
