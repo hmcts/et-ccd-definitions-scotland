@@ -47,14 +47,5 @@
     "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "Respondent",
-    "ListElementCode": "responseReceivedCount",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "responseReceived=\"dummy\"",
-    "RetainHiddenValue": "Yes",
-    "SecurityClassification": "Public"
   }
 ]
