@@ -2084,5 +2084,17 @@
     "CaseEventID": "downloadDraftEt3",
     "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "claimantTransferredCaseAccess",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "claimantTransferredCaseAccess",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
