@@ -1004,5 +1004,17 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTransferredCaseAccess",
+    "Name": "Assign Claimant Access to Case",
+    "Description": "Give the claimant access back to the case after it's been transferred",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseAccess/claimant/transferredCase",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]
