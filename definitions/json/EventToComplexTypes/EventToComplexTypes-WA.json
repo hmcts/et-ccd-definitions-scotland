@@ -393,7 +393,7 @@
     "CaseEventID": "draftAndSignJudgement",
     "CaseFieldID": "draftAndSignJudgement",
     "ListElementCode": "draftAndSignJudgementDocuments",
-    "EventElementLabel": "Document upload",
+    "EventElementLabel": "Document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
