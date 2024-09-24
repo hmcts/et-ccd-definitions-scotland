@@ -585,7 +585,7 @@
     "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentViewNotification",
     "Name": "Judgment, Order, Notification",
-    "Description": "View a judgment, order and notification",
+    "Description": "View a judgment, order or notification",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
