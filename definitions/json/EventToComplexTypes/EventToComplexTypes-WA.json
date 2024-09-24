@@ -383,7 +383,7 @@
     "CaseEventID": "draftAndSignJudgement",
     "CaseFieldID": "draftAndSignJudgement",
     "ListElementCode": "isJudgement",
-    "EventElementLabel": "Is this a Judgement?",
+    "EventElementLabel": "Is this a Judgment?",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "Publish": "Y"
@@ -392,7 +392,7 @@
     "ID": "DraftAndSignJudgement",
     "CaseEventID": "draftAndSignJudgement",
     "CaseFieldID": "draftAndSignJudgement",
-    "ListElementCode": "draftAndSignJudgementDocument",
+    "ListElementCode": "draftAndSignJudgementDocuments",
     "EventElementLabel": "Document upload",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
@@ -401,9 +401,27 @@
     "ID": "DraftAndSignJudgement",
     "CaseEventID": "draftAndSignJudgement",
     "CaseFieldID": "draftAndSignJudgement",
+    "ListElementCode": "draftAndSignJudgementDocuments.uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "draftAndSignJudgement",
+    "ListElementCode": "draftAndSignJudgementDocuments.shortDescription",
+    "EventElementLabel": "Description",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "draftAndSignJudgement",
     "ListElementCode": "furtherDirections",
     "EventElementLabel": "Any further directions?",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
   {
