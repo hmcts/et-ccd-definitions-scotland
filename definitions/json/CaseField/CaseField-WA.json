@@ -17,14 +17,14 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgementLink",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/draftAndSignJudgement/draftAndSignJudgement1\">Draft & Sign Judgement</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/draftAndSignJudgement/draftAndSignJudgement1\">Draft and sign judgment/order</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgement",
-    "Label": "Draft and Sign Judgement",
+    "Label": "Draft and Sign Judgment",
     "FieldType": "DraftAndSignJudgement",
     "SecurityClassification": "Public"
   },
