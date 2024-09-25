@@ -7108,6 +7108,16 @@
   },
   {
     "ID": "DraftAndSignJudgement",
+    "ListElementCode": "draftAndSignJudgementDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document upload",
+    "FieldTypeParameter": "DocumentUpload",
+    "FieldShowCondition": "isJudgement=\"dummy\"",
+    "CategoryID": "C60",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DraftAndSignJudgement",
     "ListElementCode": "draftAndSignJudgementDocuments",
     "FieldType": "Collection",
     "ElementLabel": "Documents",
