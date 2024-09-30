@@ -6955,7 +6955,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "resTseSelectApplication=\"Reconsider judgement\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/respondentTSE/validateGiveDetails",
-    "PageLabel": "Reconsider judgement"
+    "PageLabel": "Reconsider judgment"
   },
   {
     "CaseTypeID": "ET_Scotland",
