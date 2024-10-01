@@ -1278,8 +1278,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedDoNotListHearing",
-    "Label": "Do not list",
-    "FieldType": "etICHearingNotListedDoNotListHearing",
+    "Label": "Add further directions",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
