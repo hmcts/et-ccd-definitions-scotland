@@ -803,8 +803,16 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
     "TabFieldDisplayOrder": 11,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Do not list\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "TabFieldDisplayOrder": 12,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {
@@ -812,7 +820,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingListed",
-    "TabFieldDisplayOrder": 12,
+    "TabFieldDisplayOrder": 13,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
   {
@@ -820,7 +828,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICPostponeGiveDetails",
-    "TabFieldDisplayOrder": 13,
+    "TabFieldDisplayOrder": 14,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"postponeHearing\""
   },
   {
@@ -828,7 +836,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICExtendDurationGiveDetails",
-    "TabFieldDisplayOrder": 14,
+    "TabFieldDisplayOrder": 15,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"extendHearingDuration\""
   },
   {
@@ -836,7 +844,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICConvertPreliminaryGiveDetails",
-    "TabFieldDisplayOrder": 15,
+    "TabFieldDisplayOrder": 16,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"convertFinalToPreliminaryHearing\""
   },
   {
@@ -844,7 +852,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICConvertF2fGiveDetails",
-    "TabFieldDisplayOrder": 16,
+    "TabFieldDisplayOrder": 17,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"convertToF2FHearing\""
   },
   {
@@ -852,7 +860,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICOtherGiveDetails",
-    "TabFieldDisplayOrder": 17,
+    "TabFieldDisplayOrder": 18,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"other\""
   },
   {
@@ -860,7 +868,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingAnyOtherDirections",
-    "TabFieldDisplayOrder": 18,
+    "TabFieldDisplayOrder": 19,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
   {
@@ -868,7 +876,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICFurtherInformation",
-    "TabFieldDisplayOrder": 19,
+    "TabFieldDisplayOrder": 20,
     "FieldShowCondition": "etICCanProceed=\"No\""
   },
   {
@@ -876,7 +884,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICFurtherInformationGiveDetails",
-    "TabFieldDisplayOrder": 20,
+    "TabFieldDisplayOrder": 21,
     "FieldShowCondition": "etICCanProceed=\"No\" AND etICFurtherInformation CONTAINS \"furtherInformationRequired\""
   },
   {
@@ -884,7 +892,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICFurtherInformationTimeToComply",
-    "TabFieldDisplayOrder": 21,
+    "TabFieldDisplayOrder": 22,
     "FieldShowCondition": "etICCanProceed=\"No\""
   },
   {
@@ -892,7 +900,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRule27",
-    "TabFieldDisplayOrder": 22,
+    "TabFieldDisplayOrder": 23,
     "FieldShowCondition": "etICCanProceed=\"No\" AND etICFurtherInformation CONTAINS \"furtherInformationRequired\""
   },
   {
@@ -900,7 +908,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRule28",
-    "TabFieldDisplayOrder": 23,
+    "TabFieldDisplayOrder": 24,
     "FieldShowCondition": "etICCanProceed=\"No\" AND etICFurtherInformation CONTAINS \"issueRule28\""
   },
   {
@@ -908,7 +916,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
-    "TabFieldDisplayOrder": 24,
+    "TabFieldDisplayOrder": 25,
     "FieldShowCondition": "etICCanProceed=\"No\""
   },
   {
@@ -916,14 +924,14 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "icDateCompleted",
-    "TabFieldDisplayOrder": 25
+    "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "icCompletedBy",
-    "TabFieldDisplayOrder": 26
+    "TabFieldDisplayOrder": 27
   },
   {
     "CaseTypeID": "ET_Scotland",
