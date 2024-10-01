@@ -803,7 +803,7 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
     "TabFieldDisplayOrder": 11,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Do not list\""
   },
