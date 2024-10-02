@@ -12775,31 +12775,31 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

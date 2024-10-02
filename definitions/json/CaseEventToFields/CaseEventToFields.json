@@ -3910,7 +3910,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,
