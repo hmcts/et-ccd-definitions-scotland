@@ -6519,5 +6519,95 @@
     "ListElementCode": "Individual",
     "ListElement": "Individual",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Amend claim",
+    "ListElementCode": "Amend claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Change personal details",
+    "ListElementCode": "Change personal details",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Consider decision afresh",
+    "ListElementCode": "Consider decision afresh",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Contact the tribunal",
+    "ListElementCode": "Contact the tribunal",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Order a witness to attend to give evidence",
+    "ListElementCode": "Order a witness to attend to give evidence",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Order other party",
+    "ListElementCode": "Order other party",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Postpone a hearing",
+    "ListElementCode": "Postpone a hearing",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Reconsider judgment",
+    "ListElementCode": "Reconsider judgment",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Respondent not complied",
+    "ListElementCode": "Respondent not complied",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Restrict publicity",
+    "ListElementCode": "Restrict publicity",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Strike out all or part of the response",
+    "ListElementCode": "Strike out all or part of the response",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Vary or revoke an order",
+    "ListElementCode": "Vary or revoke an order",
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_claimantTseSelectApp",
+    "ListElement": "Withdraw all or part of claim",
+    "ListElementCode": "Withdraw all or part of claim",
+    "DisplayOrder": 13
+  },
+  {
+    "ID": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
+    "ListElement": "Yes I confirm I will copy this correspondence to the other party to satisfy the Employment Tribunal Rules of Procedure. I will also notify the other party that any objections to the application should be sent to the tribunal as soon as possible and in any event within 7 days.",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
+    "ListElement": "No, I do not want to copy this correspondence to the other party. You must tell the tribunal why you do not want to inform the other party. The tribunal will consider your reasons and decide if you must inform the other party or not.",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
   }
 ]

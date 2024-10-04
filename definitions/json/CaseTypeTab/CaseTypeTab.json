@@ -1305,6 +1305,13 @@
     "Channel": "CaseWorker",
     "TabID": "Applications",
     "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinksClaimantRep",
     "TabFieldDisplayOrder": 3
   },
   {

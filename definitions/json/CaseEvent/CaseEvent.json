@@ -1016,5 +1016,48 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTSE",
+    "Name": "Make an Application",
+    "Description": "Claimant Tell Something Else",
+    "PreConditionState(s)": "Submitted;Vetted;Rejected;Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantTSE/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/claimantTSE/completeApplication",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseAllApplications",
+    "Name": "All applications",
+    "Description": " ",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/displayTable",
+    "EndButtonLabel": "Close and return to case details",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "viewClaimantTSEApplications",
+    "Name": "View application",
+    "Description": " ",
+    "DisplayOrder": 56,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "EndButtonLabel": "Close and return to case details",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/viewApplicationsAboutToStart"
   }
 ]

@@ -443,5 +443,22 @@
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseClaimantRepResponse",
+    "Name": "Respond to an application",
+    "Description": "Respond to an application",
+    "DisplayOrder": 62,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseClaimantRepResponse/submitted",
+    "Publish": "Y"
   }
 ]
