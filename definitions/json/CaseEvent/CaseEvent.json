@@ -1022,7 +1022,7 @@
     "ID": "claimantTSE",
     "Name": "Make an Application",
     "Description": "Claimant Tell Something Else",
-    "PreConditionState(s)": "Submitted;Vetted;Rejected;Accepted",
+    "PreConditionState(s)": "Submitted;Vetted;Rejected;Accepted;Closed",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
