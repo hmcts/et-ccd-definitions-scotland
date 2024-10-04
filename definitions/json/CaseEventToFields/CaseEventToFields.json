@@ -9600,18 +9600,19 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 2
-  },{
-  "CaseTypeID": "ET_Scotland",
-  "CaseEventID": "tseClaimantRepResponse",
-  "CaseFieldID": "claimantTseRespNotAvailable",
-  "FieldShowCondition": "claimantRepRespondSelectApplication=\"dummy\"",
-  "DisplayContext": "READONLY",
-  "PageID": 1,
-  "PageDisplayOrder": 1,
-  "PageFieldDisplayOrder": 1,
-  "CallBackURLMidEvent": "${ET_COS_URL}/tseClaimantRepResponse/showError",
-  "PageColumnNumber": 1
-},
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantTseRespNotAvailable",
+    "FieldShowCondition": "claimantRepRespondSelectApplication=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseClaimantRepResponse/showError",
+    "PageColumnNumber": 1
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "tseClaimantRepResponse",
