@@ -201,7 +201,6 @@
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "genericTseApplicationCollection", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "requiresSubmissionDocuments", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "requiresSubmissionDocuments", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "requiresSubmissionDocuments", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "claimantNotificationTableMarkdownLabel", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "claimantNotificationTableMarkdownLabel", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "claimantNotificationTableMarkdown", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
