@@ -104,6 +104,49 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "EventEnablingCondition": "caseType = \"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantViewNotification",
+    "Name": "View Notification",
+    "Description": "View Notification",
+    "DisplayOrder": 59,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantViewNotification/aboutToStart",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantViewAllNotifications",
+    "Name": "View All Notifications",
+    "Description": "View Notification",
+    "DisplayOrder": 60,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantViewNotification/all/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantViewNotification/all/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRespondToNotification",
+    "Name": "Respond to an Order or Request",
+    "Description": "Claimant - Respond to an Order or Request",
+    "DisplayOrder": 61,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantRespondNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantRespondNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/claimantRespondNotification/submitted"
   }
 ]
 

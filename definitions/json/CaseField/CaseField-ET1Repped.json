@@ -197,5 +197,93 @@
     "Label": " ",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantSelectNotification",
+    "Label": "Select a judgment, order or notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationTableMarkdown",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationTableMarkdownLabel",
+    "Label": "${claimantNotificationTableMarkdown}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantJonsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantViewAllNotifications/claimantViewAllNotifications1\">All judgments, orders and notifications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantViewNotification/claimantViewNotification1\">View a judgment, order or notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantRespondToNotification/claimantRespondToNotification1\">Respond to an order or request from the tribunal</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationResponseText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer to the tribunal.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationSupportingMaterial",
+    "Label": "Do you have any supporting material?",
+    "FieldType": "YesOrNo",
+    "HintText": "Use this option if you have any documents or other material to support your response.",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationSupportingMaterialLabel",
+    "Label": "Consider when providing material that:<br><ul><li>you can upload letters, photos or documents to support your application</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationDocuments",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationCopyToOtherParty",
+    "Label": "Do you want to send a copy of this response to the other party?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ClaimantCopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNotificationsCopyNoDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "isRespondentSystemUser",
+    "Label": "Is the respondent a system user?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRule92TextWhenRespOffline",
+    "Label": "<h3>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

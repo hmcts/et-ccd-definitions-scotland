@@ -1403,7 +1403,6 @@
     "Channel": "CaseWorker",
     "TabID": "notifications",
     "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "caseSource=\"dummy\"",
-    "TabShowCondition": "caseSource!=\"MyHMCTS\""
+    "FieldShowCondition": "caseSource=\"dummy\""
   }
 ]
