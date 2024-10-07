@@ -186,6 +186,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "responseRespondentNameQuestion",
+    "FieldType": "Text",
+    "ElementLabel": "Title",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseRespondentName",
     "FieldType": "Text",
     "ElementLabel": "Title",
