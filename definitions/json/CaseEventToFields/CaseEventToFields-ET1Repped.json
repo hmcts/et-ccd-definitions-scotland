@@ -203,6 +203,181 @@
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionThree", "CaseFieldID": "linkedCasesDetails", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "FieldShowCondition": "linkedCasesYesNo CONTAINS \"Yes\"", "ShowSummaryChangeOption": "Y"},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "submitEt1Draft", "CaseFieldID": "submitEt1Preamble", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "submitEt1Draft", "CaseFieldID": "submitEt1Confirmation", "DisplayContext": "MANDATORY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2},
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "createDraftEt1", "CaseFieldID": "et1DoNotSubmitDraftMessage", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2}
-
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "createDraftEt1", "CaseFieldID": "et1DoNotSubmitDraftMessage", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2},
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantViewNotification",
+    "CaseFieldID": "claimantSelectNotification",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantViewNotification/midDetailsTable",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantViewNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdown",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "claimantNotificationTableMarkdownLabel=\"dummy\"",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantViewNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdownLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantViewAllNotifications",
+    "CaseFieldID": "pseViewNotifications",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseViewNotificationsLabel=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "PageLabel": "All judgments, orders and notifications"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantViewAllNotifications",
+    "CaseFieldID": "pseViewNotificationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantSelectNotification",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantRespondNotification/midDetailsTable",
+    "PageLabel": "Select an Order or Request",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdown",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "claimantNotificationTableMarkdownLabel=\"dummy\"",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdownLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationResponseText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationSupportingMaterial",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationSupportingMaterialLabel",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "claimantNotificationSupportingMaterial=\"Yes\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationDocuments",
+    "DisplayContext": "COMPLEX",
+    "FieldShowCondition": "claimantNotificationSupportingMaterial=\"Yes\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantRespondNotification/midValidateInput",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "pseRespondentOrdReqCopyPartyIntro",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "isRespondentSystemUser",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "claimantNotificationCopyToOtherParty=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantRule92TextWhenRespOffline",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "isRespondentSystemUser=\"No\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationCopyToOtherParty",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationsCopyNoDetails",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "claimantNotificationCopyToOtherParty=\"No\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  }
 ]
