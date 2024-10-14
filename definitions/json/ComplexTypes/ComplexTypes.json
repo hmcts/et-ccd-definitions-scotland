@@ -5602,74 +5602,19 @@
   },
   {
     "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLGiveReasons",
-    "FieldType": "MultiSelectList",
+    "ListElementCode": "etICIssueStandardDirections",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Issue standard directions?",
+    "FieldShowCondition": "etICEJSitAlone=\"Yes\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedUDLHearing",
+    "ListElementCode": "etICUdlGiveReasonsIsd",
+    "FieldType": "TextArea",
     "ElementLabel": "Give reasons",
-    "FieldTypeParameter": "msl_etICUDLGiveReasons",
-    "RetainHiddenValue": "No",
-    "HintText": "Select all that apply",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLDisputeOnFacts",
-    "FieldType": "TextArea",
-    "ElementLabel": "Likelihood of dispute on facts makes full tribunal desirable",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Likelihood of dispute on facts makes full tribunal desirable\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLLittleOrNoAgreement",
-    "FieldType": "TextArea",
-    "ElementLabel": "Little or no agreement on facts",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Little or no agreement on facts\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLIssueOfLawArising",
-    "FieldType": "TextArea",
-    "ElementLabel": "Likelihood of issue of law arising makes EJSA desirable",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Likelihood of issue of law arising makes EJSA desirable\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLViewsOfParties",
-    "FieldType": "TextArea",
-    "ElementLabel": "Views of parties",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Views of parties\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLNoViewsExpressedByParties",
-    "FieldType": "TextArea",
-    "ElementLabel": "No views expressed by parties",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"No views expressed by parties\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLConcurrentProceedings",
-    "FieldType": "TextArea",
-    "ElementLabel": "Concurrent proceedings",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Concurrent proceedings\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLOther",
-    "FieldType": "TextArea",
-    "ElementLabel": "Other",
-    "FieldShowCondition": "etICUDLGiveReasons CONTAINS \"Other\"",
+    "FieldShowCondition": "etICIssueStandardDirections=\"No\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },

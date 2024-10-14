@@ -6431,8 +6431,8 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLGiveReasons",
-    "EventElementLabel": "Give reasons",
+    "ListElementCode": "etICIssueStandardDirections",
+    "EventElementLabel": "Issue standard directions?",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
@@ -6440,63 +6440,9 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLDisputeOnFacts",
-    "EventElementLabel": "Likelihood of dispute on facts makes full tribunal desirable",
+    "ListElementCode": "etICUDLGiveReasonsISD",
+    "EventElementLabel": "Give reasons",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLLittleOrNoAgreement",
-    "EventElementLabel": "Little or no agreement on facts",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLIssueOfLawArising",
-    "EventElementLabel": "Likelihood of issue of law arising makes EJSA desirable",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLViewsOfParties",
-    "EventElementLabel": "Views of parties",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLNoViewsExpressedByParties",
-    "EventElementLabel": "No views expressed by parties",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLConcurrentProceedings",
-    "EventElementLabel": "Concurrent proceedings",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLOther",
-    "EventElementLabel": "Other",
-    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6505,7 +6451,7 @@
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICUDLHearFormat",
     "EventElementLabel": "Hearing format",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6514,7 +6460,7 @@
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICUDLCVPIssue",
     "EventElementLabel": "Issue standard CVP orders when listed",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6523,7 +6469,7 @@
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICUDLFinalF2FIssue",
     "EventElementLabel": "Issue standard orders when listed",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6532,7 +6478,7 @@
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICBUCheckComplianceOrders",
     "EventElementLabel": "BU to check compliance with orders?",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
   },
   {
