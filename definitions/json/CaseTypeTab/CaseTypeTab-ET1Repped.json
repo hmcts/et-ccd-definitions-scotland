@@ -1,4 +1,11 @@
 [
   {"CaseTypeID": "ET_Scotland", "Channel": "CaseWorker", "TabID": "DraftCaseOverview", "TabLabel": "ET1 Claim", "TabDisplayOrder": 1, "CaseFieldID": "et1ClaimStatuses", "TabFieldDisplayOrder": 2, "FieldShowCondition": "caseType=\"dummy\"", "TabShowCondition": "[STATE]=\"AWAITING_SUBMISSION_TO_HMCTS\""},
-  {"CaseTypeID": "ET_Scotland", "Channel": "CaseWorker", "TabID": "DraftCaseOverview", "CaseFieldID": "et1ClaimStatusesLabel", "TabFieldDisplayOrder": 2}
+  {"CaseTypeID": "ET_Scotland", "Channel": "CaseWorker", "TabID": "DraftCaseOverview", "CaseFieldID": "et1ClaimStatusesLabel", "TabFieldDisplayOrder": 2},
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "JONs",
+    "CaseFieldID": "claimantJonsLinks",
+    "TabFieldDisplayOrder": 2
+  }
 ]

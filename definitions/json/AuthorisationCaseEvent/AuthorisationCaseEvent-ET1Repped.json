@@ -18,7 +18,7 @@
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "respondentTSE", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "respondentTseAllApplications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "viewRespondentTSEApplications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
-  {"CaseTypeId": "ET_Scotland", "CaseEventID": "tseRespond", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "tseClaimantRepResponse", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "pseRespondentRespondToTribunal", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "pseRespondentViewNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_Scotland", "CaseEventID": "viewAllNotifications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
@@ -34,5 +34,11 @@
     "CaseEventID": "generateEt1Documents",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  }
+  },
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "claimantViewNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRU"},
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "claimantViewNotification", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "claimantViewAllNotifications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRU"},
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "claimantViewAllNotifications", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "claimantRespondToNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRU"},
+  {"CaseTypeId": "ET_Scotland", "CaseEventID": "claimantRespondToNotification", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
 ]
