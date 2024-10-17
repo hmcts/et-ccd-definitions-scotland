@@ -106,6 +106,13 @@
   },
   {
     "ID": "et3HubLinksStatuses",
+    "ListElementCode": "employersContractClaim",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
     "ListElementCode": "checkYorAnswers",
     "FieldType": "Text",
     "ElementLabel": " ",
@@ -888,6 +895,79 @@
   {
     "ID": "Respondent",
     "ListElementCode": "responseReceivedCount",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3ResponseLanguagePreference",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Language Preference",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "FieldTypeParameter": "fl_languages",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3ResponseHearingRespondentNoDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "contactDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employerDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "conciliationAndEmployeeDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "payPensionBenefitDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "contestClaimSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employersContractClaimSection",
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "responseReceived=\"dummy\"",
