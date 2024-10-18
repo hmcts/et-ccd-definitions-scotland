@@ -973,5 +973,32 @@
     "FieldShowCondition": "responseReceived=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3Status",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3IsRespondentAddressCorrect",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3ContactPreferencePostReason",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
   }
 ]
