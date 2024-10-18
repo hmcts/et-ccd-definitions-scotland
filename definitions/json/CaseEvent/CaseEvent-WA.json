@@ -431,8 +431,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgement",
-    "Name": "Draft and Sign Judgement",
-    "Description": "Draft and Sign Judgement",
+    "Name": "Draft and sign judgment/order",
+    "Description": "Draft and sign judgment/order",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
@@ -442,6 +442,23 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tseClaimantRepResponse",
+    "Name": "Respond to an application",
+    "Description": "Respond to an application",
+    "DisplayOrder": 62,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseClaimantRepResponse/submitted",
     "Publish": "Y"
   }
 ]

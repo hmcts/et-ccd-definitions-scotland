@@ -39,5 +39,25 @@
     "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "claimantNotificationUploadDocument",
+    "CaseFieldID": "claimantNotificationDocuments",
+    "CaseEventID": "claimantRespondToNotification",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "claimantNotificationUploadDocument",
+    "CaseFieldID": "claimantNotificationDocuments",
+    "CaseEventID": "claimantRespondToNotification",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
   }
 ]
