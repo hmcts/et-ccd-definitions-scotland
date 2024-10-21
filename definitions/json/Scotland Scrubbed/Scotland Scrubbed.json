@@ -5267,12 +5267,6 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "msl_et3_hearing_type",
-    "ListElement": "No",
-    "ListElementCode": "No, I cannot take part in either a video or phone hearing",
-    "DisplayOrder": 3
-  },
-  {
     "ID": "frl_yes_no_not_applicable",
     "ListElement": "Yes",
     "ListElementCode": "Yes",
