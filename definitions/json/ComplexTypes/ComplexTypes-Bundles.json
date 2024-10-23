@@ -85,5 +85,19 @@
     "FieldType": "Text",
     "ElementLabel": "Reason for removal",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]
