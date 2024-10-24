@@ -34,37 +34,5 @@
     "Label": "caseManagementLocationCode",
     "FieldType": "Text",
     "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "icAllDocumentCollection",
-    "Label": "Upload document",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "icDocumentCollection1",
-    "Label": "Upload document",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "icDocumentCollection2",
-    "Label": "Upload document",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "icDocumentCollection3",
-    "Label": "Upload document",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
   }
 ]
