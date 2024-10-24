@@ -915,7 +915,7 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icDateCompleted",
+    "CaseFieldID": "icAllDocumentCollection",
     "TabFieldDisplayOrder": 25
   },
   {
@@ -924,6 +924,13 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "icCompletedBy",
     "TabFieldDisplayOrder": 26
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 27
   },
   {
     "CaseTypeID": "ET_Scotland",
