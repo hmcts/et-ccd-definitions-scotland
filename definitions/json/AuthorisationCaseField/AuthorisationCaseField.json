@@ -24886,13 +24886,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etIcHearingPanelPreference",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etIcHearingPanelPreference",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -24928,13 +24928,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etIcHearingPanelPreferenceLabel",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etIcHearingPanelPreferenceLabel",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {

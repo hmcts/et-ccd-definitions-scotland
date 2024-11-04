@@ -3785,7 +3785,7 @@
     "PageColumnNumber": 1
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etIcHearingPanelPreference",
     "DisplayContext": "READONLY",
@@ -3797,7 +3797,7 @@
     "FieldShowCondition": "etIcHearingPanelPreferenceLabel=\"dummy\""
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etIcHearingPanelPreferenceLabel",
     "DisplayContext": "READONLY",
