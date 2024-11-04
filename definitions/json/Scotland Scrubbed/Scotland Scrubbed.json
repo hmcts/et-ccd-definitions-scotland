@@ -720,6 +720,24 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "fl_HearingPanelPreference",
+    "ListElementCode": "No preference",
+    "ListElement": "No preference",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_HearingPanelPreference",
+    "ListElementCode": "Judge",
+    "ListElement": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_HearingPanelPreference",
+    "ListElementCode": "Panel",
+    "ListElement": "Panel",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "fl_languages",
     "ListElementCode": "English",
     "ListElement": "English",
