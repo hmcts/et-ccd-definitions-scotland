@@ -5164,6 +5164,13 @@
   },
   {
     "ID": "Hearing",
+    "ListElementCode": "hearingNotesDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Hearing notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Hearing",
     "ListElementCode": "hearingFormat",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Hearing Format",

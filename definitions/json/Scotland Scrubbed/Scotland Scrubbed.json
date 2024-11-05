@@ -6609,5 +6609,11 @@
     "ListElement": "No, I do not want to copy this correspondence to the other party. You must tell the tribunal why you do not want to inform the other party. The tribunal will consider your reasons and decide if you must inform the other party or not.",
     "ListElementCode": "No",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_removeDocument",
+    "ListElementCode": "Yes - Remove document",
+    "ListElement": "Yes - Remove document",
+    "DisplayOrder": 1
   }
 ]

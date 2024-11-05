@@ -1820,11 +1820,46 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "updateHearing",
+    "CaseFieldID": "uploadHearingNotesDocument",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "doesHearingNotesDocExist",
+    "FieldShowCondition": "uploadHearingNotesDocument=\"dummy\"",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "updateHearing",
+    "CaseFieldID": "removeHearingNotesDocument",
+    "FieldShowCondition": "doesHearingNotesDocExist=\"Yes\"",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "updateHearing",
     "CaseFieldID": "hearingDetailsCollection",
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
