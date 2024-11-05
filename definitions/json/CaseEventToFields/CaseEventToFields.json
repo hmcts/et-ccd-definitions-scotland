@@ -3784,6 +3784,30 @@
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
+
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icHearingPanelPreference",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "icHearingPanelPreferenceLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
@@ -3791,7 +3815,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationJurisdictionCodesLabel=\"dummy\""
@@ -3803,7 +3827,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 12,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },

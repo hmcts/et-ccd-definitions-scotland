@@ -1169,6 +1169,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "icHearingPanelPreference",
+    "Label": "icHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icHearingPanelPreferenceLabel",
+    "Label": "${icHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationJurisdictionCodes",
     "Label": "etInitialConsiderationJurisdictionCodes",
     "FieldType": "Text",
