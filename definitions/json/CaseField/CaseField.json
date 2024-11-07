@@ -1169,14 +1169,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etIcHearingPanelPreference",
-    "Label": "etIcHearingPanelPreference",
+    "ID": "icRespondentHearingPanelPreference",
+    "Label": "icRespondentHearingPanelPreference",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etIcHearingPanelPreferenceLabel",
+    "ID": "etIcHearingPanelPreference",
     "Label": "${etIcHearingPanelPreference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
