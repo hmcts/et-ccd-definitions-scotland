@@ -3810,7 +3810,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationJurisdictionCodes",
+    "CaseFieldID": "etIcHearingPanelPreference",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,

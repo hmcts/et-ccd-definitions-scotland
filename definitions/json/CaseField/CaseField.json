@@ -1176,7 +1176,21 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etIcHearingPanelPreference",
+    "ID": "icRespondentHearingPanelPreferenceLabel",
+    "Label": "${icRespondentHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "ID": "etIcHearingPanelPreference",
+        "Label": "etIcHearingPanelPreference",
+        "FieldType": "Text",
+        "SecurityClassification": "Public"
+    },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcHearingPanelPreferenceLabel",
     "Label": "${etIcHearingPanelPreference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
