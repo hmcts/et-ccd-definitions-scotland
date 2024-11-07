@@ -3787,23 +3787,23 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
-    "FieldShowCondition": "icHearingPanelPreferenceLabel=\"dummy\""
+    "FieldShowCondition": "icRespondentHearingPanelPreferenceLabel=\"dummy\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
