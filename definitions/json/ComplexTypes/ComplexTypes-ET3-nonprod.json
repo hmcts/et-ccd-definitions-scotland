@@ -846,6 +846,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "et3FormWelsh",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Form",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C18",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "personalDetailsSection",
     "FieldType": "YesOrNo",
     "ElementLabel": "Section complete",
