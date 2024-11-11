@@ -22,6 +22,22 @@
     "ElementLabel": "Hearing Attendence",
     "SecurityClassification": "Public"
   },
+    {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "hearingContactLanguage",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_languages",
+    "ElementLabel": "Hearing Language",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "contactLanguageQuestion",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_languages",
+    "ElementLabel": "Contact Language",
+    "SecurityClassification": "Public"
+  },
   {
     "ID": "Respondent",
     "ListElementCode": "respondentType",

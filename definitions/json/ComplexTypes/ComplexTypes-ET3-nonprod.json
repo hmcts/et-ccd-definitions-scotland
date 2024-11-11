@@ -922,15 +922,6 @@
   },
   {
     "ID": "Respondent",
-    "ListElementCode": "et3ResponseHearingRespondentNoDetails",
-    "FieldType": "TextArea",
-    "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
-    "FieldShowCondition": "responseReceived=\"Yes\"",
-    "RetainHiddenValue": "Yes",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "Respondent",
     "ListElementCode": "et3Status",
     "FieldType": "Text",
     "ElementLabel": " ",

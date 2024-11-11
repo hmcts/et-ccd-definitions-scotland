@@ -5410,9 +5410,18 @@
     "ID": "Jurisdiction",
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
+    "ListElementCode": "jurisdictionCodeTIP",
+    "EventElementLabel": "Suffer a failure by an employer to comply with provisions about distribution of or information about tips",
+    "FieldDisplayOrder": 60,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Jurisdiction",
+    "CaseEventID": "addAmendJurisdiction",
+    "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTPE",
     "EventElementLabel": "Suffer less favourable treatment and/or dismissal as a temp. employee than a full-time employee",
-    "FieldDisplayOrder": 60,
+    "FieldDisplayOrder": 61,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5421,7 +5430,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTT",
     "EventElementLabel": "Suffer a detriment and/or dismissal for requesting time to train. Failure of employer to follow correct procedures/reject request based on incorrect facts",
-    "FieldDisplayOrder": 61,
+    "FieldDisplayOrder": 62,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5430,7 +5439,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTUE",
     "EventElementLabel": "Suffer discrimination in obtaining employment due to membership or non-membership of a trade union; or refused employment or suffered a detriment for a reason related to a blacklist",
-    "FieldDisplayOrder": 62,
+    "FieldDisplayOrder": 63,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5439,7 +5448,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTUI",
     "EventElementLabel": "Suffer an inducement relating to union membership, activities or collective bargaining",
-    "FieldDisplayOrder": 63,
+    "FieldDisplayOrder": 64,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5448,7 +5457,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTUM",
     "EventElementLabel": "Suffer a detriment and/or dismissal relating to being, not being or proposing to become a trade union member",
-    "FieldDisplayOrder": 64,
+    "FieldDisplayOrder": 65,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5457,7 +5466,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTUR",
     "EventElementLabel": "(a) Failure of the employer to consult or report about training in relation to a bargaining unit\r\n(b) Suffered a detriment on grounds related to recognition of a trade union for collective bargaining",
-    "FieldDisplayOrder": 65,
+    "FieldDisplayOrder": 66,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5466,7 +5475,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTUS",
     "EventElementLabel": "Suffer discrimination in obtaining the services of an employment agency due to membership or non-membership of a trade union; or refused employment agency services or suffered a detriment for a reason",
-    "FieldDisplayOrder": 66,
+    "FieldDisplayOrder": 67,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5475,7 +5484,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTXC(ST)",
     "EventElementLabel": "Suffered a detriment and/or dismissal due to exercising rights under the Tax Credits Act (JST to be notified if a claim is received)",
-    "FieldDisplayOrder": 67,
+    "FieldDisplayOrder": 68,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5484,7 +5493,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeUDC",
     "EventElementLabel": "Unfair dismissal after exercising or claiming a statutory right",
-    "FieldDisplayOrder": 68,
+    "FieldDisplayOrder": 69,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5493,7 +5502,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeUDL",
     "EventElementLabel": "Unfair dismissal on grounds of capability, conduct or some other general reason including the result of a transfer of an undertaking",
-    "FieldDisplayOrder": 69,
+    "FieldDisplayOrder": 70,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5502,7 +5511,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeUIA",
     "EventElementLabel": "unfair dismissal in connection to a lock out, strike or other industrial action",
-    "FieldDisplayOrder": 70,
+    "FieldDisplayOrder": 71,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5511,7 +5520,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeVIC",
     "EventElementLabel": "Subjected to a detriment because of a protected act",
-    "FieldDisplayOrder": 71,
+    "FieldDisplayOrder": 72,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5520,7 +5529,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeWTR",
     "EventElementLabel": "Failure to limit weekly or night working time, or to ensure rest breaks",
-    "FieldDisplayOrder": 72,
+    "FieldDisplayOrder": 73,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5529,7 +5538,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeFML",
     "EventElementLabel": "Failure to pay remuneration whilst suspended from work for health and safety reasons whilst pregnant or on mat. Leave",
-    "FieldDisplayOrder": 73,
+    "FieldDisplayOrder": 74,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5538,7 +5547,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeZNON",
     "EventElementLabel": "Dummy code for purposes of record closure only used when undertaken as part of a reasonable and proportionate data cleansing checking exercise where the actual jurisdiction and outcome are unknown",
-    "FieldDisplayOrder": 74,
+    "FieldDisplayOrder": 75,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5547,7 +5556,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "judgmentOutcome",
     "EventElementLabel": "Outcome",
-    "FieldDisplayOrder": 75,
+    "FieldDisplayOrder": 76,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -5556,7 +5565,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "dateNotified",
     "EventElementLabel": "Date notified",
-    "FieldDisplayOrder": 76,
+    "FieldDisplayOrder": 77,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -5565,7 +5574,7 @@
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "disposalDate",
     "EventElementLabel": "Disposal date",
-    "FieldDisplayOrder": 77,
+    "FieldDisplayOrder": 78,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -7257,5 +7266,25 @@
     "ListElementCode": "creationDate",
     "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "claimantRepResSupportingMaterial",
+    "CaseFieldID": "claimantRepResSupportingMaterial",
+    "CaseEventID": "tseClaimantRepResponse",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "tseReply",
+    "CaseFieldID": "claimantRepResSupportingMaterial",
+    "CaseEventID": "tseClaimantRepResponse",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
   }
 ]

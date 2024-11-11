@@ -3804,13 +3804,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "claimantTse",
-    "Label": " ",
-    "FieldType": "claimantTse",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "caseRejectedEmailSent",
     "Label": " ",
     "FieldType": "YesOrNo",
@@ -5817,5 +5810,463 @@
     "Label": "${legalRepDocumentsMarkdown}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTse",
+    "Label": " ",
+    "FieldType": "claimantTse",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "applicationsLinksClaimantRep",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTseAllApplications/claimantTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewClaimantTSEApplications/viewClaimantTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseClaimantRepResponse/tseClaimantRepResponse1\"> Respond to an application</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseSelectApplication",
+    "Label": "Select an application",
+    "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_claimantTseSelectApp",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel1",
+    "Label": "<p>Use this form to apply to amend the ET1 claim.</p> <p>The tribunal will decide if you can make the amendment by judging the fairness of the application. This decision may be made at a hearing.</p> <p>The tribunal also needs to know if you consider the amendment minor or substantial.</p> <p>Providing details of why you want to amend the claim and the importance of the amendment will help the tribunal to decide your application more quickly.</p> <h3>Details to include in your application:</h3> <ul><li>What you want to amend in the claim</li><li>If you consider it a minor or substantial amendment</li><li>Why you want to make this amendment</li><li>Why you are asking to make this amendment now</li><li>How this amendment will benefit you and how could it disadvantage you if not granted</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument1",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox1",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel2",
+    "Label": "<p>Use this form to apply to change the personal details given when making the claim.</p> <p>If you change the postal or email address, we’ll send any letters to the new address.</p> <p>If you change the telephone number, we’ll contact you using the new number if we have questions about the claim.</p> <h3>Details you can apply to change:</h3> <ul><li>Name</li><li>Sex and preferred title</li><li>Contact or home address</li><li>Telephone number</li><li>Email address</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument2",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox2",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel3",
+    "Label": "<p>Use this form to have a judgment or order made by a legal officer considered afresh by an Employment Judge.</p> <p>Considered afresh means that if you disagree with a judgment or order made by a legal officer in this case, you can ask an Employment Judge to look at that decision again.</p> <p>The judge will take the decision afresh on the basis of the same information as was before the legal officer, unless either side chooses to supply additional information.</p> <h3>Details to include in your application: </h3> <ul><li>The decision you want considered afresh</li><li>The date the tribunal issued the decision</li><li>Why you want the decision considered afresh</li><li>Any relevant additional information</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument3",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox3",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel4",
+    "Label": "<p>Tell or ask the tribunal about something relevant to your case.</p> <h3>Do not use this form to: </h3> <ul><li>Seek legal advice from the tribunal. The tribunal is an independent judicial body and cannot give legal advice</li><li>Tell us about settlement offers or discussions, which are private and confidential to the parties</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument4",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox4",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel5",
+    "Label": "<p>You can ask the tribunal to order a witness to attend to give evidence.</p> <p>The witness must be in Great Britain (England, Scotland and Wales). This does not include Northern Ireland.</p> <p>The tribunal can limit the number of witnesses to be called to give evidence on a particular issue, especially if that issue is not central to the case.</p> <p>The claimant may also be liable for the costs incurred by the witness’s attendance.</p> <p>You should consider whether the evidence of this witness is likely to help your case.</p> <h3>Details to include in your application: </h3> <ul><li>The witness’s full name and address </li><li>Why the attendance of this witness is necessary for a fair hearing. The tribunal needs to understand why the evidence is relevant, and why there is no alternative way of establishing the same points at the hearing without ordering a witness to attend</li><li>If you have asked this witness to attend voluntarily. If you have, tell us when you asked and what their response was</li><li>If you have not asked the witness to attend yet, explain why</li></ul> <p>If the order is granted, the witness will be ordered to attend on the first day of the hearing. If you want them to attend on another day or days, tell us:</p> <ul><li>The dates apart from the first day of the hearing that you want the witness to attend</li><li>Why their attendance is necessary on those dates</li></ul> <p>If you want the witness to bring documents, tell us: </p> <ul><li>Why these documents are relevant to the issues in this case</li><li>Why an order to disclose the documents would not be enough</li><li>If you have already asked the witness or anyone else to provide these documents. If you have, tell us when you asked and what their response was</li><li>If you have not asked the witness to provide the documents yet, explain why</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument5",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox5",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel6",
+    "Label": "<p>Use this form to ask the tribunal to order the respondent to do or provide something.</p> <h3>Details to include in your application: </h3> <ul><li>What you want the respondent to do</li><li>Why it is relevant to your claim</li><li>If you have already asked the respondent to do or provide this thing. If you have, tell us when you asked and what their response was</li><li>If you have not asked the respondent to do or provide this thing yet, explain why</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument6",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox6",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel7",
+    "Label": "<p>Use this form to ask the tribunal to postpone a hearing to a later date.</p> <h3>Details to include in your application: </h3> <ul><li>which hearing you want to postpone. If the hearing you want to postpone is listed over multiple days, tell us which day or days you are applying to postpone</li><li>the reason you want to postpone. The tribunal will use this to decide whether to grant your application</li><li>any essential documents to support your application</li><li>Weekday dates within the next 3 months that you, your witnesses or representatives cannot attend a rescheduled hearing</li><li>The reason you cannot attend on those dates</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument7",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox7",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel8",
+    "Label": "<p>Use this form to have a judgment made by a tribunal reconsidered. This may be a judgment made by a judge alone or by a judge sitting with non-legal members.</p> <p>If reconsideration is necessary in the interests of justice you can ask the tribunal to look at the judgment again.</p> <p>Only a judgment which finally determines an issue in your case can be reconsidered. This therefore excludes any decision that does not comprise a final determination of the claim, or part of a claim. If you wish to ask for a case management order to be varied or revoked, use the vary or revoke an order application.</p> <p>You can only ask the tribunal to reconsider a judgment within 14 days of the date the judgment was sent to you.</p> <p>If you want the tribunal to reconsider a judgment that was sent to you over 14 days ago you must explain why your application is late.</p> <p>A reconsideration application does not affect the time limit for appealing to the Employment Appeal Tribunal.</p> <h3>Details to include in your application: </h3> <ul><li>The judgment you want reconsidered</li><li>The date the tribunal issued the judgment</li><li>Your reason for a late application if the judgment was sent over 14 days ago</li><li>Why it is in the interests of justice to reconsider this judgment</li><li>If the tribunal should vary or revoke the judgment</li><li>Any additional information or material which the tribunal does not already have to support your application</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument8",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox8",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel9",
+    "Label": "<p>Use this form to tell us that the respondent has not complied with all or part of an order from the tribunal.</p> <p>You should try to resolve your complaint with the respondent. Only use this form if that is not possible.</p> <h3>Details to include in your application: </h3> <ul><li>Which order has not been complied with</li><li>The date the tribunal issued the order</li><li>What the respondent has not done</li><li>What you want the tribunal to do next</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument9",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox9",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel10",
+    "Label": "<p>Use this form to apply to prevent or restrict publicity in this case.</p> <p>It is an important principle that justice should normally be delivered in public. However, the tribunal has the power to prevent or restrict the public disclosure of any aspect of your case if necessary in the interests of justice or to protect the Convention rights of any person.</p> <p>The tribunal also has certain other powers to sit in private or to restrict publicity in accordance with sections 10A, 10B, 11 and 12 of the Employment Tribunals Act 1996.</p> <p>The tribunal may issue an order:</p><ul><li>That a hearing that would otherwise be in public be conducted, in whole or in part, in private</li><li>That the identities of specified parties, witnesses or other persons referred to in the proceedings should not be disclosed to the public, by the use of anonymisation or otherwise</li><li>For measures preventing witnesses at a public hearing being identifiable by members of the public</li><li>Restricting the reporting of the case in the media</li></ul> <h3>Details to include in your application: </h3> <ul><li>How the tribunal should prevent or restrict publicity in this case</li><li>Why the restrictions you want are needed. The tribunal must make the least restrictive order possible. Tell us why fewer restrictions would not be enough</li><li>Any media interest in this case. Include names of media organisations or journalists that are interested. The tribunal might seek their comments before making a decision</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument10",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox10",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel11",
+    "Label": "<p>You can request that the tribunal strike out all or parts of the response.</p> <p>If something is ‘struck out’ it is removed from the claim or response and cannot be relied upon.</p> <p>The tribunal can strike out all or parts of the respondent's response on their own initiative or after a request from the claimant.</p> <p>A strike out request must be based on at least one of the grounds of Rule 37 of the Employment Tribunals Rules of Procedure.</p> <h3>Details to include in your application: </h3> <ul><li>Why you think the response (or parts of it) should be struck out</li><li>Which ground or grounds in Rule 37 you say applies in your case</li><li>If you are referring to numbered points or paragraphs in a respondent's response, include these numbers or other references</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument11",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox11",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel12",
+    "Label": "<p>Use this form to apply to vary or revoke an order the tribunal has issued.</p> <p>Tribunal orders will not usually be varied or revoked unless there has been a material change in circumstances since the order was made, which make the variation in the interests of justice.</p> <p>The tribunal will consider your reasons for varying or revoking the order and any supporting materials you provide then make a decision.</p><h3>Details to include in your application: </h3> <ul><li>The order you want to vary or revoke</li><li>The date the tribunal issued the order</li><li>Explain which part of the order you want to vary or revoke</li><li>How to vary the order</li><li>Why it is in the interests of justice to vary or revoke this order. Tell us any relevant changes of circumstance since the order was made and consider the requirements of the ‘overriding objective’ in Rule 2 of the Employment Tribunal Rules of Procedure</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument12",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox12",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseGuidanceLabel13",
+    "Label": "<p>Use this form when you’ve reached a settlement or do not want to continue with all or part of the claim.</p> <p>You can withdraw the whole claim or tell us which parts you want to withdraw.</p> <p>This brings the claim or part of it to an end.</p> <p>You can withdraw at any point before or during a hearing.</p> <p>If you’re withdrawing because of a settlement, make sure you have the settlement in writing.</p> <h3>Withdrawal and dismissal</h3> <p>Once you have told the tribunal you want to withdraw the claim, the tribunal will usually issue a judgment dismissing the claim or part of the claim.</p> <p>A dismissal judgment stops you from making that claim against the same respondents in the future.</p> <p>The tribunal will use Rule 52 of the Employment Tribunal Rules of Procedure to decide whether a dismissal judgment is issued following a withdrawal.</p> <p>Withdrawal and dismissal through this service will be final unless:</p> <ul><li>The tribunal contacts you needing more information</li><li>You have given an acceptable reason why dismissal should not happen</li></ul> <h3>Details to include in your application:</h3> <ul><li>Which parts of the claim you want withdrawn and dismissed</li><li>If you do not want the claim (or part of it) dismissed, you must explain why</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseDocument13",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTextBox13",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseRule92TextArea",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseRule92TextWhenRespOffline",
+    "Label": "<h3>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseRule92",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseRule92AnsNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseRespNotAvailable",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseAllApplicationsLabel",
+    "Label": "All applications <hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantTseTableLabel",
+    "Label": "${claimantTseTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepRespondSelectApplication",
+    "Label": "Select an application",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseIntro",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepTseRespIntroLabel",
+    "Label": "${claimantRepResponseIntro}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseTable",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseTableLabel",
+    "Label": "${claimantRepResponseTable}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseText",
+    "Label": "What's your response to the application?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseHasSupportingMaterial",
+    "Label": "Supporting material",
+    "HintText": "Do you have any supporting material you want to provide?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResSupportingMaterial",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": "1"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseCopyToOtherParty",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResponseCopyNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResToTribunal",
+    "Label": "Claimant Representative is responding to Tribunal request/order",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepResToTribunalText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
   }
 ]
