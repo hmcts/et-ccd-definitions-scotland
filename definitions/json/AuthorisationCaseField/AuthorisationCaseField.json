@@ -14616,7 +14616,7 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "submitEt3Respondent",
     "UserRole": "citizen",
     "CRUD": "CRUD"
