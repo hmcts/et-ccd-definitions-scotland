@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "submitET3Form",
+    "Name": "Submit ET3 Form",
+    "Description": "Submit ET3 Form",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "CallBackURLSubmittedEvent": ""
+  }
+]
