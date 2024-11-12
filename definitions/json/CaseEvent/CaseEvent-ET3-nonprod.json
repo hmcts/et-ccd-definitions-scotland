@@ -1,7 +1,7 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "submitET3Form",
+    "ID": "SUBMIT_ET3_FORM",
     "Name": "Submit ET3 Form",
     "Description": "Submit ET3 Form",
     "PreConditionState(s)": "Accepted",
