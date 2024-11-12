@@ -4,11 +4,11 @@
     "ID": "submitET3Form",
     "Name": "Submit ET3 Form",
     "Description": "Submit ET3 Form",
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "Accepted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "CallBackURLSubmittedEvent": ""
+    "Publish": "Y"
   }
 ]
