@@ -7146,5 +7146,22 @@
     "FieldType": "TextArea",
     "ElementLabel": "Any further directions",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "claimant_hearing_panel_preference",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Hearing panel preference",
+    "FieldTypeParameter": "claimant_hearingPanelPreference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "claimant_hearing_panel_preference_why",
+    "FieldType": "TextArea",
+    "ElementLabel": "Panel preference reason",
+    "FieldShowCondition": "claimant_hearing_panel_preference=\"Judge\" OR claimant_hearing_panel_preference=\"Panel\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
   }
 ]
