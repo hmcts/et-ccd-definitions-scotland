@@ -6418,6 +6418,124 @@
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
+
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "EventElementLabel": "Type of preliminary hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICLengthOfPrelimHearing",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "prelimHearingLengthNumType",
+    "EventElementLabel": "Days, Hours or Minutes",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "EventElementLabel": "Purpose of preliminary hearing",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "EventElementLabel": "Give details of hearing notice",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembers",
+    "EventElementLabel": "Do you consider this preliminary hearing should be listed with members?",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersReason",
+    "EventElementLabel": "Give reasons for requiring members",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICTypeOfFinalHearing",
+    "EventElementLabel": "Type of final hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICLengthOfFinalHearing",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingLengthNumType",
+    "EventElementLabel": "Days, Hours or Minutes",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAlone",
+    "EventElementLabel": "EJ sit alone?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReason",
+    "EventElementLabel": "Give reason for requesting EJ sit alone:",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
+    "EventElementLabel": "Further details",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",

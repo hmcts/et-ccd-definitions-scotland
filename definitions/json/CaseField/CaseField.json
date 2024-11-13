@@ -1249,6 +1249,29 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedListUpdated",
+    "Label": "Hearing not listed",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICHearingNotListedUpdated",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "Label": "List for preliminary hearing",
+    "FieldType": "etICHearingNotListedListForPrelimHearingUpdated",
+     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "Label": "List for final hearing",
+    "FieldType": "etICHearingNotListedListForFinalHearingUpdated",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedSeekComments",
     "Label": "Seek comments on CVP hearing",
     "FieldType": "etICHearingNotListedSeekComments",

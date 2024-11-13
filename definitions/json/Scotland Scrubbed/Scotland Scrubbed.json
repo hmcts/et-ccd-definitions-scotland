@@ -4997,6 +4997,60 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "msl_etICHearingNotListedUpdated",
+    "ListElementCode": "List for preliminary hearing",
+    "ListElement": "List for preliminary hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingNotListedUpdated",
+    "ListElementCode": "List for final hearing",
+    "ListElement": "List for final hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingNotListedUpdated",
+    "ListElementCode": "Do not list at present (give other directions below)",
+    "ListElement": "Do not list at present (give other directions below)",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICTypeOfHearingUpdated",
+    "ListElementCode": "Video",
+    "ListElement": "Video",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfHearingUpdated",
+    "ListElementCode": "F2F",
+    "ListElement": "F2F",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_FinalHearingIsEJSitAloneReason",
+    "ListElementCode": "Members experience is likely to add significant value to the process of adjudication",
+    "ListElement": "Members experience is likely to add significant value to the process of adjudication",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_FinalHearingIsEJSitAloneReason",
+    "ListElementCode": "Members experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_FinalHearingIsEJSitAloneReason",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_FinalHearingIsEJSitAloneReason",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 4
+  },
+  {
     "ID": "msl_etICTypeOfHearing",
     "ListElementCode": "Telephone",
     "ListElement": "Telephone",
