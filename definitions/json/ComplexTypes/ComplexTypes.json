@@ -5698,7 +5698,6 @@
     "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Further details",
-    "FieldShowCondition": "etICFinalHearingIsEJSitAloneReason != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
