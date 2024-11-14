@@ -5586,6 +5586,24 @@
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Purpose of preliminary hearing",
+    "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details of hearing notice",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
     "ListElementCode": "etICLengthOfPrelimHearing",
     "FieldType": "Text",
     "ElementLabel": "Length of hearing",
@@ -5599,23 +5617,6 @@
     "FieldType": "FixedList",
     "ElementLabel": "Days, Hours or Minutes",
     "FieldTypeParameter": "fl_HearingLength",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICPurposeOfPreliminaryHearing",
-    "FieldType": "MultiSelectList",
-    "ElementLabel": "Purpose of preliminary hearing",
-    "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICGiveDetailsOfHearingNotice",
-    "FieldType": "TextArea",
-    "ElementLabel": "Give details of hearing notice",
     "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
@@ -5655,6 +5656,50 @@
     "FieldTypeParameter": "msl_etICTypeOfHearingUpdated",
     "RetainHiddenValue": "No",
     "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICLengthOfFinalHearing",
+    "FieldType": "Text",
+    "ElementLabel": "Length of hearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingLengthNumType",
+    "FieldType": "FixedList",
+    "ElementLabel": "Days, Hours or Minutes",
+    "FieldTypeParameter": "fl_HearingLength",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAlone",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "EJ sit alone?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReason",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Give reason for requesting EJ sit alone:",
+    "FieldTypeParameter": "fl_FinalHearingIsEJSitAloneReason",
+    "RetainHiddenValue": "No",
+    "HintText": "Select one that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Further details",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAloneReason != \"\"",
+    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {

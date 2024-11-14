@@ -106,17 +106,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedList",
-    "DisplayContext": "MANDATORY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 4,
-    "ShowSummaryChangeOption": "Y",
-    "Publish": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
     "FieldShowCondition": "otherTypeDocumentName=\"dummy\"",
