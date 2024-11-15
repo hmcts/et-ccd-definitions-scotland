@@ -3866,7 +3866,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
+    "CaseFieldID": "etICHearingNotListedList",
     "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,
@@ -3881,7 +3881,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 55,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"dummy\"",
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3892,7 +3892,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 56,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"dummy\"",
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3903,7 +3903,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 6,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for preliminary hearing\"",
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for preliminary hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3914,7 +3914,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 57,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"dummy\"",
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3925,7 +3925,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for final hearing\"",
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for final hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3936,7 +3936,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 58,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"dummy\"",
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
     "ShowSummaryChangeOption": "Y"
   },
   {

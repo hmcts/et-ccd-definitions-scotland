@@ -12655,36 +12655,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
-    "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
-    "UserRole": "caseworker-employment-etjudge-scotland",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedSeekComments",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"

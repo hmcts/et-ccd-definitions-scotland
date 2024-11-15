@@ -765,14 +765,6 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedList",
     "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedListUpdated",
-    "TabFieldDisplayOrder": 6,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {

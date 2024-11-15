@@ -1244,15 +1244,6 @@
     "Label": "Hearing not listed",
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "msl_etICHearingNotListed",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "etICHearingNotListedListUpdated",
-    "Label": "Hearing not listed",
-    "HintText": "Select all that apply",
-    "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICHearingNotListedUpdated",
     "SecurityClassification": "Public"
   },
