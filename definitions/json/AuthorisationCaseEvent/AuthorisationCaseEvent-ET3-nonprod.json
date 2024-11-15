@@ -11,4 +11,11 @@
     "UserRole": "citizen",
     "CRUD": "CRUD"
   }
+  ,
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_ET3_FORM",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  }
 ]

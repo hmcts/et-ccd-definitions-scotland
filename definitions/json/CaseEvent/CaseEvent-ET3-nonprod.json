@@ -10,5 +10,17 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_ET3_FORM",
+    "Name": "Update ET3 Form",
+    "Description": "Update ET3 Form",
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "Accepted",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "Publish": "Y"
   }
 ]
