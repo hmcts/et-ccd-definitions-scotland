@@ -3946,8 +3946,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 59,
-    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"dummy\"",
+    "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {
