@@ -87,7 +87,7 @@
     "PageID": 2,
     "PageLabel": "Rule 26",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "Publish": "Y"
@@ -99,7 +99,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 12,
     "FieldShowCondition": "etICCanProceed=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "Publish": "Y"

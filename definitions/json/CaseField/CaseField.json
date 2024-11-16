@@ -1169,6 +1169,34 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "icRespondentHearingPanelPreference",
+    "Label": "icRespondentHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icRespondentHearingPanelPreferenceLabel",
+    "Label": "${icRespondentHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+    {
+        "CaseTypeID": "ET_Scotland",
+        "ID": "etIcHearingPanelPreference",
+        "Label": "etIcHearingPanelPreference",
+        "FieldType": "Text",
+        "SecurityClassification": "Public"
+    },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcHearingPanelPreferenceLabel",
+    "Label": "${etIcHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationJurisdictionCodes",
     "Label": "etInitialConsiderationJurisdictionCodes",
     "FieldType": "Text",
@@ -6282,5 +6310,27 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
     "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingNotesDocument",
+    "Label": "Upload hearing notes",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "removeHearingNotesDocument",
+    "Label": "Do you want to remove the uploaded hearing notes document?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_removeDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "doesHearingNotesDocExist",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]

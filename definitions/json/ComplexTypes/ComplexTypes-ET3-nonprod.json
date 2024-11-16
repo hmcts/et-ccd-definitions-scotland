@@ -120,6 +120,23 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "respondent_hearing_panel_preference",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Hearing panel preference",
+    "FieldTypeParameter": "fl_HearingPanelPreference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondent_hearing_panel_preference_reason",
+    "FieldType": "TextArea",
+    "ElementLabel": "Hearing panel preference reason",
+    "FieldShowCondition": "respondent_hearing_panel_preference=\"Judge\" OR respondent_hearing_panel_preference=\"Panel\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseContinue",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the claim against this Respondent continuing? ",
