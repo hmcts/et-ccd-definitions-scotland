@@ -2910,21 +2910,45 @@
   },
   {
     "ID": "fl_Part_5",
+    "ListElementCode": "31.1",
+    "ListElement": "31.1 Short and Standard version - Claim allowed to proceed after representations",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_Part_5",
     "ListElementCode": "32",
     "ListElement": "32 Response allowed to proceed after representations",
-    "DisplayOrder": 7
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_Part_5",
+    "ListElementCode": "32.1",
+    "ListElement": "32.1 Short and Standard version - Response allowed to proceed after repr",
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_Part_5",
     "ListElementCode": "33",
     "ListElement": "33 Initial consideration, claim and response allowed to proceed – orders issued",
-    "DisplayOrder": 8
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_Part_5",
+    "ListElementCode": "33.1",
+    "ListElement": "33.1 Short and Standard version - Initial consideration, claim and response allowed to proceed - orders issued",
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_Part_5",
     "ListElementCode": "33.A",
     "ListElement": "33A Initial consideration, claim, response, employers contract claim and response allowed to proceed – orders issued",
-    "DisplayOrder": 9
+    "DisplayOrder": 12
+  },
+  {
+    "ID": "fl_Part_5",
+    "ListElementCode": "33.A.1",
+    "ListElement": "33A.1 Short and Standard version - Initial consideration, claim, response, employers contract claim and response allowed to proceed - orders issued",
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_Part_6",
