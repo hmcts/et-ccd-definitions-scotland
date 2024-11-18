@@ -773,13 +773,21 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
     "TabFieldDisplayOrder": 7,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Seek comments on CVP hearing\""
+    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"dummy\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "TabFieldDisplayOrder": 88,
+    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\" AND etICHearingNotListedList CONTAINS \"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
     "TabFieldDisplayOrder": 8,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for preliminary hearing\""
   },
@@ -788,6 +796,14 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "TabFieldDisplayOrder": 99,
+    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\" AND etICHearingNotListedList CONTAINS \"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "TabFieldDisplayOrder": 9,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for final hearing\""
   },
@@ -797,7 +813,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "TabFieldDisplayOrder": 10,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"UDL hearing\""
+    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\" AND etICHearingNotListedList CONTAINS \"dummy\""
   },
   {
     "CaseTypeID": "ET_Scotland",

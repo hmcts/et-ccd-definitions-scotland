@@ -6459,7 +6459,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "ListElementCode": "etICTypeOfPreliminaryHearingV2",
     "EventElementLabel": "Type of preliminary hearing",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
@@ -6468,7 +6468,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "ListElementCode": "etICPurposeOfPreliminaryHearingV2",
     "EventElementLabel": "Purpose of preliminary hearing",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
@@ -6477,7 +6477,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "ListElementCode": "etICGiveDetailsOfHearingNoticeV2",
     "EventElementLabel": "Give details of hearing notice",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
@@ -6486,7 +6486,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICLengthOfPrelimHearing",
+    "ListElementCode": "etICLengthOfPrelimHearingV2",
     "EventElementLabel": "Length of hearing",
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
@@ -6495,7 +6495,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "prelimHearingLengthNumType",
+    "ListElementCode": "prelimHearingLengthNumTypeV2",
     "EventElementLabel": "Days, Hours or Minutes",
     "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
@@ -6504,7 +6504,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICIsPreliminaryHearingWithMembers",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersV2",
     "EventElementLabel": "Do you consider this preliminary hearing should be listed with members?",
     "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
@@ -6513,7 +6513,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICIsPreliminaryHearingWithMembersReason",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersReasonV2",
     "EventElementLabel": "Give reasons for requiring members",
     "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
@@ -6522,7 +6522,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "etICTypeOfFinalHearing",
+    "ListElementCode": "etICTypeOfFinalHearingV2",
     "EventElementLabel": "Type of final hearing",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
@@ -6531,7 +6531,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "etICLengthOfFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearingV2",
     "EventElementLabel": "Length of hearing",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
@@ -6540,7 +6540,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "etICFinalHearingLengthNumType",
+    "ListElementCode": "finalHearingLengthNumTypeV2",
     "EventElementLabel": "Days, Hours or Minutes",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"

@@ -5577,13 +5577,12 @@
     "ListElementCode": "etICLengthOfPrelimHearing",
     "FieldType": "Text",
     "ElementLabel": "Length of hearing",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICTypeOfPreliminaryHearing",
+    "ListElementCode": "etICTypeOfPreliminaryHearingV2",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Type of preliminary hearing",
     "FieldTypeParameter": "msl_etICTypeOfHearingUpdated",
@@ -5593,7 +5592,7 @@
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "ListElementCode": "etICPurposeOfPreliminaryHearingV2",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Purpose of preliminary hearing",
     "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing",
@@ -5602,35 +5601,33 @@
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICGiveDetailsOfHearingNotice",
+    "ListElementCode": "etICGiveDetailsOfHearingNoticeV2",
     "FieldType": "TextArea",
     "ElementLabel": "Give details of hearing notice",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearingV2 != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICLengthOfPrelimHearing",
+    "ListElementCode": "etICLengthOfPrelimHearingV2",
     "FieldType": "Text",
     "ElementLabel": "Length of hearing",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "prelimHearingLengthNumType",
+    "ListElementCode": "prelimHearingLengthNumTypeV2",
     "FieldType": "FixedList",
     "ElementLabel": "Days, Hours or Minutes",
     "FieldTypeParameter": "fl_HearingLength",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
-    "RetainHiddenValue": "No",
+     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICIsPreliminaryHearingWithMembers",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersV2",
     "FieldType": "YesOrNo",
     "ElementLabel": "Do you consider this preliminary hearing should be listed with members?",
     "RetainHiddenValue": "No",
@@ -5638,10 +5635,10 @@
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
-    "ListElementCode": "etICIsPreliminaryHearingWithMembersReason",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersReasonV2",
     "FieldType": "TextArea",
     "ElementLabel": "Give reasons for requiring members",
-    "FieldShowCondition": "etICIsPreliminaryHearingWithMembers=\"Yes\"",
+    "FieldShowCondition": "etICIsPreliminaryHearingWithMembersV2=\"Yes\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -5657,7 +5654,7 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "etICTypeOfFinalHearing",
+    "ListElementCode": "etICTypeOfFinalHearingV2",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Type of final hearing",
     "FieldTypeParameter": "msl_etICTypeOfHearingUpdated",
@@ -5667,7 +5664,7 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "etICLengthOfFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearingV2",
     "FieldType": "Text",
     "ElementLabel": "Length of hearing",
     "RetainHiddenValue": "No",
@@ -5675,7 +5672,7 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "etICFinalHearingLengthNumType",
+    "ListElementCode": "finalHearingLengthNumTypeV2",
     "FieldType": "FixedList",
     "ElementLabel": "Days, Hours or Minutes",
     "FieldTypeParameter": "fl_HearingLength",
