@@ -5727,7 +5727,6 @@
     "ListElementCode": "etICFinalHearingIsEJSitAlone",
     "FieldType": "YesOrNo",
     "ElementLabel": "EJ sit alone?",
-    "FieldTypeParameter": "fl_HearingLength",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
