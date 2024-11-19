@@ -14337,7 +14337,7 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3NotificationDocCollection",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
