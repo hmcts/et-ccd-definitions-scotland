@@ -12791,7 +12791,6 @@
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
-
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",

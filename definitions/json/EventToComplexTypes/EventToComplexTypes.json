@@ -6454,7 +6454,6 @@
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
-
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
