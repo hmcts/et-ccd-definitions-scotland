@@ -44,13 +44,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseFieldID": "hearingCollection",
-    "ListElementCode": "hearingNotesDocument",
-    "UserRole": "citizen",
-    "CRUD": "D"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingFormat",
     "UserRole": "caseworker-employment",
     "CRUD": "CRU"
