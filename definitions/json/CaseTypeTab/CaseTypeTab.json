@@ -771,6 +771,14 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListUpdated",
+    "TabFieldDisplayOrder": 6,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
     "TabFieldDisplayOrder": 7,
     "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"dummy\""
@@ -789,7 +797,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
     "TabFieldDisplayOrder": 8,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for preliminary hearing\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedListUpdated CONTAINS \"List for preliminary hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -805,7 +813,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "TabFieldDisplayOrder": 9,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for final hearing\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedListUpdated CONTAINS \"List for final hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
