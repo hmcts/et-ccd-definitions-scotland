@@ -781,7 +781,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
     "TabFieldDisplayOrder": 7,
-    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"dummy\""
+    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Seek comments on the video hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -789,7 +789,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
     "TabFieldDisplayOrder": 88,
-    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\" AND etICHearingNotListedList CONTAINS \"dummy\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for preliminary hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -805,7 +805,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
     "TabFieldDisplayOrder": 99,
-    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\" AND etICHearingNotListedList CONTAINS \"dummy\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedListUpdated CONTAINS \"List for final hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -821,7 +821,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "TabFieldDisplayOrder": 10,
-    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"dummy\" AND etICHearingNotListedList CONTAINS \"dummy\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"UDL hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
