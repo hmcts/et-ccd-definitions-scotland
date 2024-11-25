@@ -805,7 +805,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
     "TabFieldDisplayOrder": 99,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedListUpdated CONTAINS \"List for final hearing\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for final hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
