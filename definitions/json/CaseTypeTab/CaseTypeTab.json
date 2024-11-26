@@ -781,7 +781,7 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
     "TabFieldDisplayOrder": 7,
-    "FieldShowCondition": "etICCanProceed=\"dummy\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Seek comments on the video hearing\""
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Seek comments on the video hearing\""
   },
   {
     "CaseTypeID": "ET_Scotland",
