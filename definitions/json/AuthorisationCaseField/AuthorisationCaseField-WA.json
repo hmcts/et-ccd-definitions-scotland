@@ -189,13 +189,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDocumentCollection1",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDocumentCollection1",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -219,13 +219,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDocumentCollection2",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDocumentCollection2",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -249,13 +249,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDocumentCollection3",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icDocumentCollection3",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
@@ -279,13 +279,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icAllDocumentCollection",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "icAllDocumentCollection",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
