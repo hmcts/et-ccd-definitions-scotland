@@ -158,7 +158,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondentType",
     "EventElementLabel": "Type of respondent",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -167,7 +167,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondentOrganisation",
     "EventElementLabel": "Organisation or business name",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
   },
@@ -177,7 +177,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondentFirstName",
     "EventElementLabel": "Respondent first name",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
   },
@@ -187,7 +187,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondentLastName",
     "EventElementLabel": "Respondent last name",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
   }
