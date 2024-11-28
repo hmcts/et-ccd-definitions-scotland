@@ -3947,12 +3947,35 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedList",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICCanProceed=\"dummy\"",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListUpdated",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 5,
-    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"Seek comments on CVP hearing\"",
+    "PageFieldDisplayOrder": 55,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3962,8 +3985,19 @@
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 56,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 6,
-    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for preliminary hearing\"",
+    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for preliminary hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3973,8 +4007,19 @@
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 57,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for final hearing\"",
+    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for final hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3984,8 +4029,8 @@
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"UDL hearing\"",
+    "PageFieldDisplayOrder": 58,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"dummy\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3996,6 +4041,16 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection1",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4118,6 +4173,16 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection2",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICRespondentFurtherInfo",
     "DisplayContext": "READONLY",
     "PageID": 5,
@@ -4222,6 +4287,16 @@
     "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection3",
+    "DisplayContext": "COMPLEX",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
