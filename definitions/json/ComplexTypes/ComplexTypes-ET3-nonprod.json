@@ -771,7 +771,7 @@
     "FieldType": "Collection",
     "ElementLabel": "Upload a document to your response",
     "FieldTypeParameter": "DocumentUpload",
-    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -779,7 +779,7 @@
     "ListElementCode": "et3ResponseContestClaimDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Use this text box for any accompanying information",
-    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -890,7 +890,7 @@
     "ListElementCode": "et3CaseDetailsLinksStatuses",
     "FieldType": "et3CaseDetailsLinksStatuses",
     "ElementLabel": "ET3 case details links statuses",
-    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "FieldShowCondition": "responseReceived=\"Dummy\"",
     "SecurityClassification": "Public"
   },
   {
@@ -898,7 +898,7 @@
     "ListElementCode": "et3HubLinksStatuses",
     "FieldType": "et3HubLinksStatuses",
     "ElementLabel": "ET3 hub links statuses",
-    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "FieldShowCondition": "responseReceived=\"Dummy\"",
     "SecurityClassification": "Public"
   },
   {
