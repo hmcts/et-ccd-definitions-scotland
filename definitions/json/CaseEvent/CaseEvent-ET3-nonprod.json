@@ -20,7 +20,6 @@
     "PostConditionState": "Accepted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "Publish": "Y"
+    "ShowSummary": "N"
   }
 ]
