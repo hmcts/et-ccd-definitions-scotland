@@ -335,7 +335,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 1,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
@@ -345,7 +345,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceivedCount",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
@@ -513,5 +513,69 @@
     "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icAllDocumentCollection",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icAllDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection1",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection1",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection2",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection2",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection3",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection3",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
   }
 ]
