@@ -106,6 +106,13 @@
   },
   {
     "ID": "et3HubLinksStatuses",
+    "ListElementCode": "employersContractClaim",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
     "ListElementCode": "checkYorAnswers",
     "FieldType": "Text",
     "ElementLabel": " ",
@@ -197,6 +204,15 @@
     "ListElementCode": "responseStruckOut",
     "FieldType": "YesOrNo",
     "ElementLabel": "Response Struck Out",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseRespondentNameQuestion",
+    "FieldType": "Text",
+    "ElementLabel": "Title",
     "FieldShowCondition": "responseReceived=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -772,7 +788,7 @@
     "FieldType": "Collection",
     "ElementLabel": "Upload a document to your response",
     "FieldTypeParameter": "DocumentUpload",
-    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -780,7 +796,7 @@
     "ListElementCode": "et3ResponseContestClaimDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Use this text box for any accompanying information",
-    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -847,6 +863,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "et3FormWelsh",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Form",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C18",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "personalDetailsSection",
     "FieldType": "YesOrNo",
     "ElementLabel": "Section complete",
@@ -882,7 +907,7 @@
     "ListElementCode": "et3CaseDetailsLinksStatuses",
     "FieldType": "et3CaseDetailsLinksStatuses",
     "ElementLabel": "ET3 case details links statuses",
-    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "FieldShowCondition": "responseReceived=\"Dummy\"",
     "SecurityClassification": "Public"
   },
   {
@@ -890,12 +915,94 @@
     "ListElementCode": "et3HubLinksStatuses",
     "FieldType": "et3HubLinksStatuses",
     "ElementLabel": "ET3 hub links statuses",
-    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "FieldShowCondition": "responseReceived=\"Dummy\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "Respondent",
     "ListElementCode": "responseReceivedCount",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3ResponseLanguagePreference",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Language Preference",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "FieldTypeParameter": "fl_languages",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3Status",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3IsRespondentAddressCorrect",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "contactDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employerDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "conciliationAndEmployeeDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "payPensionBenefitDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "contestClaimSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employersContractClaimSection",
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "responseReceived=\"dummy\"",
