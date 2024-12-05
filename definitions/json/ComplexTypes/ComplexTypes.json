@@ -5661,7 +5661,8 @@
     "ElementLabel": "Issue standard video orders when listed",
     "FieldTypeParameter": "msl_IcVideoOrders",
     "FieldShowCondition": "etICTypeOfFinalHearingV2 CONTAINS \"Video\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "No"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
@@ -5670,7 +5671,8 @@
     "ElementLabel": "Issue standard orders when listed",
     "FieldTypeParameter": "msl_IcF2FOrders",
     "FieldShowCondition": "etICTypeOfFinalHearingV2 CONTAINS \"F2F\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "No"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
@@ -5678,7 +5680,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "BU to check compliance with orders?",
     "FieldShowCondition": "etICTypeOfVideoHearingOrder != \"\" OR etICTypeOfF2fHearingOrder != \"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "No"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
