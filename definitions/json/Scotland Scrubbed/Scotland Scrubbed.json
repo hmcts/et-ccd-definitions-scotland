@@ -6729,5 +6729,53 @@
     "ListElementCode": "Yes - Remove document",
     "ListElement": "Yes - Remove document",
     "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_IcVideoOrders",
+    "ListElementCode": "1 Disclosure and Productions",
+    "ListElement": "1 Disclosure and Productions",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_IcVideoOrders",
+    "ListElementCode": "2 Schedule of loss, mitigation & updated schedule of loss",
+    "ListElement": "2 Schedule of loss, mitigation & updated schedule of loss",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_IcVideoOrders",
+    "ListElementCode": "3 Witness statements",
+    "ListElement": "3 Witness statements",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_IcF2FOrders",
+    "ListElementCode": "1 Disclosure",
+    "ListElement": "1 Disclosure",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_IcF2FOrders",
+    "ListElementCode": "2 Productions",
+    "ListElement": "2 Productions",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_IcF2FOrders",
+    "ListElementCode": "3 Schedule of loss",
+    "ListElement": "3 Schedule of loss",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_IcF2FOrders",
+    "ListElementCode": "4 Mitigation",
+    "ListElement": "4 Mitigation",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_IcF2FOrders",
+    "ListElementCode": "5 Updated schedule of loss",
+    "ListElement": "5 Updated schedule of loss",
+    "DisplayOrder": 5
   }
 ]
