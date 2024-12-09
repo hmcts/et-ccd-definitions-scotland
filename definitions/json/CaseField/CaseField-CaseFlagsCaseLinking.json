@@ -18,7 +18,8 @@
     "ID": "flagLauncher",
     "Label": "Flag Launcher",
     "FieldType": "FlagLauncher",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -43,6 +44,7 @@
     "ID": "LinkedCasesComponentLauncher",
     "Label": "Component Launcher (for displaying Linked Cases data)",
     "FieldType": "ComponentLauncher",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

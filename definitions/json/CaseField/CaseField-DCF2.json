@@ -5,7 +5,8 @@
     "Label": "Digital Case File configuration",
     "FieldType": "FixedList",
     "FieldTypeParameter": "configurationFiles",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -28,7 +29,8 @@
     "ID": "dcfYesNo",
     "Label": "Do you want to automatically generate the DCF?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",

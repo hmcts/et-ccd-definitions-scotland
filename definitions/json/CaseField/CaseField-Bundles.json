@@ -18,7 +18,8 @@
     "ID": "bundlesRespondentPrepareDocNotesShow",
     "Label": "Placeholder",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -26,28 +27,32 @@
     "Label": "Have you agreed with the other party that this PDF set of documents will be used by both parties at the hearing and that no other documents will be referred to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWith",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentAgreedDocWithBut",
     "Label": "Tell us which documents are disputed",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentAgreedDocWithNo",
     "Label": "Tell us why you’ve not been able to agree with the other party",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "bundlesRespondentSelectHearing",
     "Label": "Select the hearing these documents are for",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -55,7 +60,8 @@
     "Label": "Whose hearing documents are you uploading?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_bundlesWhoseDocuments",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -63,7 +69,8 @@
     "Label": "What are these documents?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_bundlesWhatDocuments",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -79,7 +86,8 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C57",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -87,7 +95,8 @@
     "Label": "Respondent Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -95,7 +104,8 @@
     "Label": "Claimant Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -110,21 +120,24 @@
     "Label": "Please specify the party whose hearing bundles are to be removed",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_selectHearingBundlesCollection",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "removeHearingBundleSelect",
     "Label": "Please select the hearing bundle to be removed",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingBundleRemoveReason",
     "Label": "Reason for removing the hearing bundle",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -132,6 +145,7 @@
     "Label": "Removed Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "RemovedHearingBundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
