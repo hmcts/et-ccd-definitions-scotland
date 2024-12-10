@@ -257,8 +257,7 @@
     "HintText": "Is the claimant an individual or a company?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ClaimantType",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -351,8 +350,7 @@
     "ID": "claimantRepresentedQuestion",
     "Label": "Is the Claimant Represented?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -752,16 +750,14 @@
     "ID": "linkedCaseCT",
     "Label": "Link to related case",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "transferredCaseLink",
     "Label": "Case Link:",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
