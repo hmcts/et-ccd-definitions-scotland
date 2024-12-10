@@ -629,8 +629,7 @@
     "ID": "dateToPosition",
     "Label": "Date To Position",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_Scotland",
