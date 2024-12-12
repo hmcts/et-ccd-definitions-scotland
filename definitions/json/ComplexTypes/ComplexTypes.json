@@ -5651,8 +5651,37 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "Type of final hearing",
     "FieldTypeParameter": "msl_etICTypeOfHearingUpdated",
-     "HintText": "Select all that apply",
+    "HintText": "Select all that apply",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICTypeOfVideoHearingOrder",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard video orders when listed",
+    "FieldTypeParameter": "msl_IcVideoOrders",
+    "FieldShowCondition": "etICTypeOfFinalHearingV2 CONTAINS \"Video\"",
+    "SecurityClassification": "Public",
+    "Searchable": "No"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICTypeOfF2fHearingOrder",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard orders when listed",
+    "FieldTypeParameter": "msl_IcF2FOrders",
+    "FieldShowCondition": "etICTypeOfFinalHearingV2 CONTAINS \"F2F\"",
+    "SecurityClassification": "Public",
+    "Searchable": "No"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICHearingOrderBUCompliance",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "BU to check compliance with orders?",
+    "FieldShowCondition": "etICTypeOfVideoHearingOrder != \"\" OR etICTypeOfF2fHearingOrder != \"\"",
+    "SecurityClassification": "Public",
+    "Searchable": "No"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
