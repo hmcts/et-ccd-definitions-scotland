@@ -39,7 +39,8 @@
     "ID": "typeOfClaim",
     "Label": "Deprecate",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -54,49 +55,56 @@
     "ID": "ClaimantPcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tribunalCorrespondenceTelephone",
     "Label": "Correspondence Telephone",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tribunalCorrespondenceFax",
     "Label": "Correspondence Fax",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tribunalCorrespondenceDX",
     "Label": "Correspondence DX",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tribunalCorrespondenceEmail",
     "Label": "Correspondence Email",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -118,7 +126,8 @@
     "ID": "multipleFlag",
     "Label": "check multiple",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -132,7 +141,8 @@
     "ID": "multipleReferenceLinkMarkUp",
     "Label": "Go to:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -160,7 +170,8 @@
     "ID": "nextListedDate",
     "Label": "Next Listed Date",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -184,7 +195,8 @@
     "ID": "caseNotes",
     "Label": "Case Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -215,7 +227,8 @@
     "HintText": "Upload documentation for the case",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -225,7 +238,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": 1
+    "Min": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -233,7 +247,8 @@
     "Label": "Additional information",
     "HintText": "Additional case information",
     "FieldType": "AdditionalCaseDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -270,35 +285,40 @@
     "ID": "claimantOtherType",
     "Label": "Other details",
     "FieldType": "EmploymentDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "newEmploymentType",
     "Label": "New employment details",
     "FieldType": "NewEmploymentDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantRequests",
     "Label": "Claimant Requests",
     "FieldType": "ClaimantRequest",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "triageQuestions",
     "Label": " ",
     "FieldType": "TriageQuestions",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantWorkAddressQuestion",
     "Label": "Is this the same as the claimant's work address?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -306,7 +326,8 @@
     "Label": "Please select the Respondent whose address should be used",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -314,7 +335,8 @@
     "Label": " ",
     "HintText": "If the claimant has worked at a different address to the Respondent Address, please give the full address",
     "FieldType": "WorkAddressDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -343,7 +365,8 @@
     "Label": "Claimant Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -385,7 +408,8 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -401,7 +425,8 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "Deposit",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -416,14 +441,16 @@
     "ID": "restrictedReporting",
     "Label": "Restricted Case",
     "FieldType": "RestrictedCase",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "caseHistory",
     "Label": "History",
     "FieldType": "CaseHistoryViewer",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -438,7 +465,8 @@
     "ID": "targetHearingDate",
     "Label": "Target Hearing Date",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -452,21 +480,24 @@
     "ID": "printHearingDetails",
     "Label": "Hearing List",
     "FieldType": "ListingType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "printHearingCollection",
     "Label": "Hearing List",
     "FieldType": "ListingType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "docMarkUp",
     "Label": "Doc MarkUp",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -481,7 +512,8 @@
     "Label": "Address labels",
     "FieldType": "Collection",
     "FieldTypeParameter": "addressLabel",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -518,35 +550,40 @@
     "Label": "Which respondent is raising the Employer Contract Claim?",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "ccdID",
     "Label": "Employer Contract Claim",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "caseRefNumberCount",
     "Label": "Case Ref Number Count",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "startCaseRefNumber",
     "Label": "Start Case Ref Number",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "multipleRefNumber",
     "Label": "Multiple Ref Number",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -567,14 +604,16 @@
     "ID": "flagsImageFileName",
     "Label": "Flags Image File Name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "flagsImageAltText",
     "Label": "Flags Image Alt Text",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -595,14 +634,16 @@
     "ID": "state",
     "Label": "state",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "stateAPI",
     "Label": "state",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -676,21 +717,24 @@
     "Label": "Select office to transfer case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "reasonForCT",
     "Label": "Reason for Case Transfer",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "relatedCaseCT",
     "Label": "Link to related case",
     "FieldType": "CaseLink",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -698,7 +742,8 @@
     "Label": "Current Position",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_PositionCT",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -727,7 +772,8 @@
     "Label": "Select Hearing",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -735,7 +781,8 @@
     "Label": "Managing Office",
     "FieldType": "FixedList",
     "FieldTypeParameter": "VenueScotland",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -743,7 +790,8 @@
     "Label": "Select Hearing Venue",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -751,7 +799,8 @@
     "Label": "Select Room",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -759,7 +808,8 @@
     "Label": "Select Clerk",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -767,7 +817,8 @@
     "Label": "Sit Alone or Full Panel",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_SitAlone",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -775,7 +826,8 @@
     "Label": "Employment Judge",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -783,7 +835,8 @@
     "Label": "Employer Member",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -791,7 +844,8 @@
     "Label": "EmployeeMember",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -799,7 +853,8 @@
     "Label": "Postponed by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_PostponedBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -807,7 +862,8 @@
     "Label": "Hearing Status",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_HearingStatus",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -815,7 +871,8 @@
     "Label": "Reading Day, Deliberation Day or Members Meeting?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_HearingReadingDelib",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -823,7 +880,8 @@
     "Label": "Hearing Status",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_HearingStatus",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -831,28 +889,32 @@
     "Label": "Postponed by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_PostponedBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsCaseDisposed",
     "Label": "Has the case or part of the case been disposed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsPartHeard",
     "Label": "Has the hearing been part heard?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsReservedJudgment",
     "Label": "Is there a reserved Judgment?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -860,77 +922,88 @@
     "Label": "Attendees (Claimant)",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_Attendee",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsAttendeeNonAttendees",
     "Label": "Number of Non Attendees (Respondent) ",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsAttendeeRespNoRep",
     "Label": "Respondent Attended - No Representative",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsAttendeeRespAndRep",
     "Label": "Respondent and Representative Attended",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsAttendeeRepOnly",
     "Label": "Respondent representative only attended",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsTimingStart",
     "Label": "Start Time",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsTimingBreak",
     "Label": "Break",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsTimingResume",
     "Label": "Resume",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsTimingFinish",
     "Label": "Finish",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsTimingDuration",
     "Label": "Duration",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -938,14 +1011,16 @@
     "Label": "Select Hearing",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantHearingPreference",
     "Label": "Additional Claimant Information",
     "FieldType": "HearingPreference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -953,14 +1028,16 @@
     "Label": "Select office to transfer case to",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_TribunalOffice",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingBeforeYouStart",
     "Label": "Before You Start placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -981,7 +1058,8 @@
     "ID": "et1VettingClaimantDetailsMarkUp",
     "Label": "Claimant Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -995,7 +1073,8 @@
     "ID": "et1VettingRespondentDetailsMarkUp",
     "Label": "Respondent Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1009,21 +1088,24 @@
     "ID": "et1VettingCanServeClaimYesOrNo",
     "Label": "Can we serve the claim with these contact details?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingCanServeClaimNoReason",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingCanServeClaimGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1031,7 +1113,8 @@
     "Label": "Upload document PDF",
     "FieldType": "Collection",
     "FieldTypeParameter": "ServingDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1046,14 +1129,16 @@
     "Label": " ",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_ServingDocumentRecipient",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "otherTypeDocumentName",
     "Label": "Serving document other type name placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1081,7 +1166,8 @@
     "ID": "claimantAndRespondentAddresses",
     "Label": "claimantAndRespondentAddresses",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1109,7 +1195,8 @@
     "ID": "emailLinkToAcas",
     "Label": "Email link to Acas placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1130,7 +1217,8 @@
     "ID": "claimantTaskListChecks",
     "Label": "Task list check",
     "FieldType": "TaskListCheck",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1144,7 +1232,8 @@
     "ID": "etInitialConsiderationRespondent",
     "Label": "etInitialConsiderationRespondent",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1158,7 +1247,8 @@
     "ID": "etInitialConsiderationHearing",
     "Label": "etInitialConsiderationHearing",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1172,7 +1262,8 @@
     "ID": "icRespondentHearingPanelPreference",
     "Label": "icRespondentHearingPanelPreference",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1181,13 +1272,14 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-    {
-        "CaseTypeID": "ET_Scotland",
-        "ID": "etIcHearingPanelPreference",
-        "Label": "etIcHearingPanelPreference",
-        "FieldType": "Text",
-        "SecurityClassification": "Public"
-    },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcHearingPanelPreference",
+    "Label": "etIcHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etIcHearingPanelPreferenceLabel",
@@ -1200,7 +1292,8 @@
     "ID": "etInitialConsiderationJurisdictionCodes",
     "Label": "etInitialConsiderationJurisdictionCodes",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1214,28 +1307,32 @@
     "ID": "etICJuridictionCodesInvalid",
     "Label": "Are there any issues or instructions regarding the jurisdiction codes?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICCanProceed",
     "Label": "Can the claim and response proceed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICInvalidDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingAlreadyListed",
     "Label": "Is the hearing already listed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1243,7 +1340,8 @@
     "Label": "Hearing already listed",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICHearingAlreadyListed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1273,7 +1371,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICHearingNotListed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1282,56 +1381,64 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICHearingNotListedUpdated",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
     "Label": "List for preliminary hearing",
     "FieldType": "etICHearingNotListedListForPrelimHearingUpdated",
-     "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "Label": "List for final hearing",
     "FieldType": "etICHearingNotListedListForFinalHearingUpdated",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedSeekComments",
     "Label": "Seek comments on CVP hearing",
     "FieldType": "etICHearingNotListedSeekComments",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedListForPrelimHearing",
     "Label": "List for preliminary hearing",
     "FieldType": "etICHearingNotListedListForPrelimHearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedListForFinalHearing",
     "Label": "List for final hearing",
     "FieldType": "etICHearingNotListedListForFinalHearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedUDLHearing",
     "Label": "UDL hearing",
     "FieldType": "etICHearingNotListedUDLHearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICHearingNotListedAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1366,7 +1473,8 @@
     "ID": "etICHearingAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1374,7 +1482,8 @@
     "Label": "Extend duration of hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1382,7 +1491,8 @@
     "Label": "Other",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1390,7 +1500,8 @@
     "Label": "Postpone hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1398,7 +1509,8 @@
     "Label": "Convert final hearing to preliminary hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1406,7 +1518,8 @@
     "Label": "Convert to F2F hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1414,14 +1527,16 @@
     "Label": "Further information",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICFurtherInformation",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICFurtherInformationHearingAnyOtherDirections",
     "Label": "Any other directions",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1449,42 +1564,48 @@
     "ID": "etICFurtherInformationGiveDetails",
     "Label": "Give details to include in the letter",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICFurtherInformationTimeToComply",
     "Label": "How much time to comply?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "icDateCompleted",
     "Label": "Date completed:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "icCompletedBy",
     "Label": "Initial consideration completed by:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationRule27",
     "Label": "Issue Rule 27 Notice and order",
     "FieldType": "etInitialConsiderationRule27",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationRule28",
     "Label": "Issue Rule 28 Notice and order",
     "FieldType": "etInitialConsiderationRule28",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1492,7 +1613,8 @@
     "Label": "Initial Consideration Document",
     "FieldType": "Document",
     "CategoryID": "C23",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1501,7 +1623,8 @@
     "HintText": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_Defects",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1509,7 +1632,8 @@
     "Label": "The tribunal has no jurisdiction to consider",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1517,7 +1641,8 @@
     "Label": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1525,7 +1650,8 @@
     "Label": "Has neither an EC number nor claims one of the EC exemptions",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1533,7 +1659,8 @@
     "Label": "States that one of the EC exceptions applies but it might not",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1541,7 +1668,8 @@
     "Label": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1549,7 +1677,8 @@
     "Label": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1557,56 +1686,64 @@
     "Label": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1SubstantiveDefectsGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1GovOrMajorQuestion",
     "Label": "Is the respondent a government agency or a major employer?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1ReasonableAdjustmentsQuestion",
     "Label": "Are reasonable adjustments required?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1ReasonableAdjustmentsTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VideoHearingQuestion",
     "Label": "Can the claimant attend a video hearing?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VideoHearingTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1FurtherQuestionsGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1622,7 +1759,8 @@
     "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_judgeOrLO",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1630,7 +1768,8 @@
     "Label": "A claim of interim relief",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1638,7 +1777,8 @@
     "Label": "A statutory appeal",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1646,7 +1786,8 @@
     "Label": "An allegation of commission of sexual offence",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1654,7 +1795,8 @@
     "Label": "Insolvency",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1662,7 +1804,8 @@
     "Label": "Jurisdictions unclear",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1670,7 +1813,8 @@
     "Label": "Length of service",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1678,7 +1822,8 @@
     "Label": "Potentially linked cases in the ECM",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1686,7 +1831,8 @@
     "Label": "Rule 50 issues",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1694,7 +1840,8 @@
     "Label": "Another reason for judicial referral",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1708,7 +1855,8 @@
     "ID": "et1JudgeReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1724,7 +1872,8 @@
     "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_REJOrVP",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1732,7 +1881,8 @@
     "Label": "A claimant covered by vexatious litigant order",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1740,7 +1890,8 @@
     "Label": "A national security issue",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1748,7 +1899,8 @@
     "Label": "A part of national multiple / covered by Presidential case management order",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1756,7 +1908,8 @@
     "Label": "A request for transfer to another ET region",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1764,7 +1917,8 @@
     "Label": "A request for service abroad",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1772,7 +1926,8 @@
     "Label": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1780,7 +1935,8 @@
     "Label": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1788,7 +1944,8 @@
     "Label": "Another reason for Regional Employment Judge / Vice-President referral",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1802,7 +1959,8 @@
     "ID": "et1REJOrVPReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1818,7 +1976,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1826,7 +1985,8 @@
     "Label": "The whole or any part of the claim is out of time",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1834,7 +1994,8 @@
     "Label": "The claim is part of a multiple claim",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1842,7 +2003,8 @@
     "Label": "The claim has a potential issue about employment status",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1850,7 +2012,8 @@
     "Label": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1858,7 +2021,8 @@
     "Label": "The claimant prefers a video hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1866,7 +2030,8 @@
     "Label": "The claim has Rule 50 issues",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1874,7 +2039,8 @@
     "Label": "The claim has other relevant factors for judicial referral",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1888,21 +2054,24 @@
     "ID": "et1OtherReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAdditionalInformationTextArea",
     "Label": "Additional Information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "existingJurisdictionCodes",
     "Label": "existingJurisdictionCodes",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1916,14 +2085,16 @@
     "ID": "areTheseCodesCorrect",
     "Label": "Are these codes correct?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "codesCorrectGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1931,7 +2102,8 @@
     "Label": " ",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_jurisdictionCodes",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1939,21 +2111,24 @@
     "Label": "Jurisdiction code",
     "FieldType": "Collection",
     "FieldTypeParameter": "JurisdictionCode",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1JurisdictionCodeGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "trackAllocation",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1968,14 +2143,16 @@
     "Label": "Is the track allocation correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isTrackAllocationCorrect",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "trackAllocationGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1983,21 +2160,24 @@
     "Label": "Track allocation",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_suggestAnotherTrack",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "whyChangeTrackAllocation",
     "Label": "Why should we change the track allocation?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tribunalAndOfficeLocation",
     "Label": "tribunalAndOfficeLocation",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2011,7 +2191,8 @@
     "ID": "regionalOffice",
     "Label": "regionalOffice",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2025,7 +2206,8 @@
     "ID": "regionalOfficeList",
     "Label": "Local or regional office",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2033,21 +2215,24 @@
     "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isLocationCorrect",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "whyChangeOffice",
     "Label": "Why should we change the office?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1AddressDetails",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2061,14 +2246,16 @@
     "ID": "et1SuggestHearingVenue",
     "Label": "Do you want to suggest a hearing venue?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1TribunalRegion",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2082,28 +2269,32 @@
     "ID": "et1HearingVenues",
     "Label": "Hearing venue selected",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1HearingVenueGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingCompletedBy",
     "Label": "Vetting completed by:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1DateCompleted",
     "Label": "Date completed:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2117,7 +2308,8 @@
     "ID": "et3Date",
     "Label": "et3Date",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2138,28 +2330,32 @@
     "ID": "et3IsThereAnEt3Response",
     "Label": "Is there an ET3 response?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3NoEt3Response",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotes",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ChooseRespondent",
     "Label": "Select the respondent you are processing",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2173,7 +2369,8 @@
     "ID": "et3IsThereACompaniesHouseSearchDocument",
     "Label": "Is there a Companies House search document?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2182,14 +2379,16 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C18",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesCompanyHouse",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2203,7 +2402,8 @@
     "ID": "et3IsThereAnIndividualSearchDocument",
     "Label": "Is there an individual insolvency search document?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2212,14 +2412,16 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C18",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesIndividualInsolvency",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2228,21 +2430,24 @@
     "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_respondent_legal_entity",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesLegalEntity",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3LegalIssueGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2256,14 +2461,16 @@
     "ID": "et3ResponseInTime",
     "Label": "Did we receive the ET3 response in time?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseInTimeDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2277,7 +2484,8 @@
     "ID": "et3NameAddressRespondent",
     "Label": "et3NameAddressRespondent",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2291,14 +2499,16 @@
     "ID": "et3DoWeHaveRespondentsName",
     "Label": "Do we have the respondent's name?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesRespondentName",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2320,21 +2530,24 @@
     "Label": "Does the respondent's name match?",
     "FieldType": "YesOrNo",
     "HintText": "Check the ET1 name.",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3RespondentNameMismatchDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesRespondentNameMatch",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2355,14 +2568,16 @@
     "ID": "et3DoWeHaveRespondentsAddress",
     "Label": "Do we have the respondent's address?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesRespondentAddress",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2384,21 +2599,24 @@
     "Label": "Does the respondent's address match?",
     "FieldType": "YesOrNo",
     "HintText": "Check the ET1 address.",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3RespondentAddressMismatchDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesAddressMatch",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2406,49 +2624,56 @@
     "Label": "Does the respondent wish to contest any part of the claim?",
     "FieldType": "FixedRadioList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_contest_claim_status"
+    "FieldTypeParameter": "fl_contest_claim_status",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ContestClaimGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesContestClaim",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ContractClaimSection7",
     "Label": "Is there an Employer's Contract Claim in section 7 of the ET3 response?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ContractClaimSection7Details",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesContractClaimSection7",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3HearingDetails",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2462,28 +2687,32 @@
     "ID": "et3IsCaseListedForHearing",
     "Label": "Is the case listed for hearing?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3IsCaseListedForHearingDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesCaseListed",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3TribunalLocation",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2498,7 +2727,8 @@
     "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_et3_tribunal_location_change"
+    "FieldTypeParameter": "fl_et3_tribunal_location_change",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2506,35 +2736,40 @@
     "Label": "Scotland regional office",
     "FieldType": "FixedList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_TribunalOffice"
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3WhyWeShouldChangeTheOffice",
     "Label": "Why should we change the office?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesTransferApplication",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3Rule26",
     "Label": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3Rule26Details",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2543,56 +2778,64 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_et3_suggested_issues"
+    "FieldTypeParameter": "fl_et3_suggested_issues",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssuesStrikeOut",
     "Label": "Applications for strike out or deposit",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssueInterpreters",
     "Label": "Interpreters",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssueJurisdictional",
     "Label": "Jurisdictional issues",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssueAdjustments",
     "Label": "Request for adjustments",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssueRule50",
     "Label": "Rule 50",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3SuggestedIssueTimePoints",
     "Label": "Time points",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3GeneralNotesRule26",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2600,14 +2843,16 @@
     "Label": "Additional information",
     "HintText": "Enter any additional information which may be useful for a judge or legal officer to consider.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1LocationGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2621,42 +2866,48 @@
     "ID": "et1VettingRespondentAcasDetails1",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingRespondentAcasDetails2",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingRespondentAcasDetails3",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingRespondentAcasDetails4",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingRespondentAcasDetails5",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingRespondentAcasDetails6",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2705,91 +2956,104 @@
     "ID": "et1VettingAcasCertIsYesOrNo1",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertIsYesOrNo2",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertIsYesOrNo3",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertIsYesOrNo4",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertIsYesOrNo5",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertIsYesOrNo6",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertExemptYesOrNo1",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertExemptYesOrNo2",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertExemptYesOrNo3",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertExemptYesOrNo4",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertExemptYesOrNo5",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertExemptYesOrNo6",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2798,14 +3062,16 @@
     "HintText": "If you wish to select multiple respondents, please click the Add New button",
     "FieldType": "Collection",
     "FieldTypeParameter": "DynamicListCollection",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseShowInset",
     "Label": "Placeholder",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2833,7 +3099,8 @@
     "ID": "et3ResponseClaimantName",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2847,14 +3114,16 @@
     "ID": "et3ResponseIsClaimantNameCorrect",
     "Label": "Is this the correct claimant for the claim you're responding to?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseClaimantNameCorrection",
     "Label": "What is the correct name of the claimant?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2875,14 +3144,16 @@
     "ID": "et3ResponseRespondentLegalName",
     "Label": "Enter the respondent's registered or legal name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseRespondentCompanyNumber",
     "Label": "Enter the company number if applicable",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2890,42 +3161,48 @@
     "Label": "What type of employer is the respondent?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_employer_type",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseRespondentPreferredTitle",
     "Label": "If individual, what is their preferred title?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseRespondentContactName",
     "Label": "Name of contact at respondent's address if not you as the representative",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseNameShowInset",
     "Label": "hidden",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3RespondentAddress",
     "Label": "Enter a UK postcode",
     "FieldType": "AddressUK",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseDXAddress",
     "Label": "DX address (if known)",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2934,14 +3211,16 @@
     "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
     "FieldType": "Text",
     "RegularExpression": "^\\+?(\\d ?){4,15}$",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseReference",
     "Label": "What is your reference number?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2950,14 +3229,16 @@
     "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_et3_contact_preference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseContactReason",
     "Label": "Provide a reason why you have selected post",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2973,7 +3254,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_et3_hearing_type",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2982,7 +3264,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_et3_hearing_type",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -2990,14 +3273,16 @@
     "Label": "How many people does the respondent employ in Great Britain?",
     "HintText": "It can help the tribunal to have an indication of the employer's size.\r\n\r\nEnter a rough amount in digits or leave blank if you're not sure",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseMultipleSites",
     "Label": "Does the respondent have more than one site in Great Britain?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3005,14 +3290,16 @@
     "Label": "How many people are employed at the place where the claimant worked?",
     "HintText": "Enter a rough amount in digits or leave blank if you're not sure",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseAcasAgree",
     "Label": "Do you agree with the details given by the claimant about early conciliation with Acas?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3021,7 +3308,8 @@
     "HintText": "For example, you may consider that the claimant gave an incorrect Acas early conciliation number of that they were wrong to say they were exempt from early conciliation.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3029,7 +3317,8 @@
     "Label": "Are the dates of employment given by the claimant correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3037,7 +3326,8 @@
     "Label": "Enter the employment start date",
     "HintText": "For example, 12 11 2020",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3045,7 +3335,8 @@
     "Label": "Enter employment end date",
     "HintText": "For example, 12 11 2020",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3053,7 +3344,8 @@
     "Label": "Do you want to provide any further information about the claimant's employment dates?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3061,7 +3353,8 @@
     "Label": "Is the claimant's employment with the respondent continuing?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3069,7 +3362,8 @@
     "Label": "Is the claimant's description of their job or job title correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3077,7 +3371,8 @@
     "Label": "What is or was the claimant's correct job title?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3085,7 +3380,8 @@
     "Label": "Are the claimant's total weekly work hours correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3093,7 +3389,8 @@
     "Label": "What are the claimant's correct total weekly work hours?",
     "HintText": "Enter their hours work per week",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3101,7 +3398,8 @@
     "Label": "Are the earnings details given by the claimant correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3116,7 +3414,8 @@
     "Label": "How often was the claimant paid?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_et3_pay_frequency",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3124,7 +3423,8 @@
     "Label": "Enter the claimant's pay BEFORE tax",
     "HintText": "Include overtime, commission and bonuses.",
     "FieldType": "MoneyGBP",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3132,7 +3432,8 @@
     "Label": "Enter the claimant's normal take-home pay",
     "HintText": "Take-home pay is the pay after tax and insurance deductions\r\n\r\nInclude overtime, commission and bonuses.",
     "FieldType": "MoneyGBP",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3140,7 +3441,8 @@
     "Label": "Is the information given by the claimant correct about their notice?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3149,7 +3451,8 @@
     "HintText": "For example, you may wish to clarify that the claimant was dismissed without notice or paid them a sum in lieu of notice.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3157,7 +3460,8 @@
     "Label": "Are the details about pension and other benefits correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3165,7 +3469,8 @@
     "Label": "What are the correct pension and benefit details?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3173,7 +3478,8 @@
     "Label": "Does the respondent contest the claim?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_et3_contest_claim",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3189,7 +3495,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Max": 1
+    "Max": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3197,7 +3504,8 @@
     "Label": "Use this text box for any accompanying information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3205,7 +3513,8 @@
     "Label": "Does the respondent wish to make an Employer's Contract Claim?",
     "HintText": "A respondent can make this claim against the claimant if the claimant breached their employment terms which resulted in financial loss. This typically happens when a claimant has made a notice pay claim.",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3220,7 +3529,8 @@
     "Label": "Provide the background and details of your Employer's Contract Claim",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3230,7 +3540,8 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3245,7 +3556,8 @@
     "Label": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3259,7 +3571,8 @@
     "ID": "et3ResponseRespondentSupportDetails",
     "Label": "Use this text box or upload the requirements in a document",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3268,14 +3581,16 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "submitEt3Respondent",
     "Label": "Select which respondent this ET3 is for",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3284,7 +3599,8 @@
     "HintText": "If you wish to submit the ET3 to the tribunal, please select the option below and continue. You will not be able to make any further changes once submitted.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_confirmSubmitEt3",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3292,7 +3608,8 @@
     "Label": "Upload document PDF",
     "FieldType": "Collection",
     "FieldTypeParameter": "Et3NotificationDocUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3307,14 +3624,16 @@
     "Label": " ",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_ServingDocumentRecipient",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3OtherTypeDocumentName",
     "Label": "Serving document other type name placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3328,14 +3647,16 @@
     "ID": "et3ClaimantTaskListChecks",
     "Label": "Task list check",
     "FieldType": "TaskListCheck",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et3ClaimantAndRespondentAddresses",
     "Label": "Deprecated",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3349,7 +3670,8 @@
     "ID": "et3EmailLinkToAcas",
     "Label": "Email link to Acas placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3371,7 +3693,8 @@
     "Label": "Referrals",
     "FieldType": "Collection",
     "FieldTypeParameter": "referralDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3392,7 +3715,8 @@
     "ID": "referralHearingDetails",
     "Label": "Referral Hearing Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3407,21 +3731,24 @@
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "updateReferentEmail",
     "Label": "What is their email address?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "updateIsUrgent",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3429,7 +3756,8 @@
     "Label": "What is the referral subject?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_ReferralSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3437,14 +3765,16 @@
     "Label": "Give details of the referral",
     "HintText": "Explain what you're referring and why, include answers or directions you need.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "updateReferralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3452,7 +3782,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3460,7 +3791,8 @@
     "Label": "Which instructions do you recommend?",
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3468,7 +3800,8 @@
     "Label": "Which instructions do you recommend?",
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3633,7 +3966,8 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "AdrDocumentUploadDetails",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "PUBLIC",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3641,7 +3975,8 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "PiiDocumentUploadDetails",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "PUBLIC",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3649,7 +3984,8 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "AppealDocumentUploadDetails",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "PUBLIC",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3657,21 +3993,24 @@
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referentEmail",
     "Label": "What is their email address?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "isUrgent",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3679,14 +4018,16 @@
     "Label": "What is the referral subject?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_ReferralSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "referralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3694,7 +4035,8 @@
     "Label": "Give details of the referral",
     "HintText": "Explain what you're referring and why, include answers or directions you need.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3702,7 +4044,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3710,21 +4053,24 @@
     "Label": "Which instructions do you recommend?",
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "trackType",
     "Label": "Track Type",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "selectReferral",
     "Label": "Select a referral",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3732,14 +4078,16 @@
     "Label": "ET1 Vetting Document",
     "FieldType": "Document",
     "CategoryID": "C11",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hearingAndReferralDetails",
     "Label": "Hearing and Referral Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3754,21 +4102,24 @@
     "Label": "Who are you sending these directions to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "replyToEmailAddress",
     "Label": "What is their email address?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "isUrgentReply",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3776,7 +4127,8 @@
     "Label": "What are your directions?",
     "HintText": "Give details of your reply to the referral and any issues you've identified",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3784,7 +4136,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3792,7 +4145,8 @@
     "Label": "General notes",
     "HintText": "Give details.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3800,28 +4154,32 @@
     "Label": "Who are you referring or replying to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "replyDetails",
     "Label": "Give details of your reply or referral",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "isJudge",
     "Label": "For checking if user is a judge",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "closeReferralHearingDetails",
     "Label": "Hearing and Referral Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3837,42 +4195,48 @@
     "HintText": "All directions must be completed before closing referrals.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_confirmCloseReferral",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "closeReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "hubLinksStatuses",
     "Label": " ",
     "FieldType": "hubLinksStatuses",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "caseRejectedEmailSent",
     "Label": " ",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "suggestedHearingVenues",
     "Label": "Suggested hearing venue",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "listedDateInPastWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3915,7 +4279,8 @@
     "ID": "tseAdminAdditionalInformation",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3923,14 +4288,16 @@
     "Label": "Decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminDecision",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminDecisionDetails",
     "Label": "Decision details",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3938,14 +4305,16 @@
     "Label": "Decision was made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminDecisionMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminDecisionMadeByFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3953,7 +4322,8 @@
     "Label": "Enter notification title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3961,7 +4331,8 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3970,7 +4341,8 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3980,14 +4352,16 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": "1"
+    "Min": "1",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminSelectApplication",
     "Label": "Select an application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -3995,7 +4369,8 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4003,14 +4378,16 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4025,7 +4402,8 @@
     "Label": "Type of decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminTypeOfDecision",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4039,7 +4417,8 @@
     "ID": "tseRespondSelectApplication",
     "Label": "Select an application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4060,7 +4439,8 @@
     "ID": "tseResponseCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4068,7 +4448,8 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4076,14 +4457,16 @@
     "Label": "Supporting material",
     "HintText": "Do you have any supporting material you want to provide?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseResponseIntro",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4099,14 +4482,16 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": "1"
+    "Min": "1",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseResponseTable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4122,7 +4507,8 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4131,14 +4517,16 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseRespondingToTribunal",
     "Label": "Respondent is responding to Tribunal request/order",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4152,7 +4540,8 @@
     "ID": "resTseCopyToOtherPartyTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4160,7 +4549,8 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4168,7 +4558,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4176,7 +4567,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4184,7 +4576,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4192,7 +4585,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4200,7 +4594,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4208,7 +4603,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4216,7 +4612,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4224,7 +4621,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4232,7 +4630,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4240,7 +4639,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4248,7 +4648,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4256,7 +4657,8 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4356,91 +4758,104 @@
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_resTseSelectApp",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox1",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox10",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox11",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox12",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox2",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox3",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox4",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox5",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox6",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox7",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox8",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseTextBox9",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4454,7 +4869,8 @@
     "ID": "resTseTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4470,14 +4886,16 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdmReplyAdditionalInformation",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4485,21 +4903,24 @@
     "Label": "Case management order made by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdmReplyCmoMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdmReplyCmoEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdmReplyRequestEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4507,7 +4928,8 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4515,7 +4937,8 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4523,7 +4946,8 @@
     "Label": "Enter response title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4531,7 +4955,8 @@
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdmReplyIsCmoOrRequest",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4539,7 +4964,8 @@
     "Label": "Request made by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdmReplyRequestMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4547,7 +4973,8 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4555,7 +4982,8 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4563,14 +4991,16 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdmReplyTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4584,7 +5014,8 @@
     "ID": "tseAdminCloseApplicationTable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4599,14 +5030,16 @@
     "Label": "Do you want to close this application?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_closeApplicationYes",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseAdminCloseApplicationText",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4621,7 +5054,8 @@
     "ID": "sendNotificationAdditionalInfo",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4629,7 +5063,8 @@
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationCaseManagement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4637,14 +5072,16 @@
     "Label": "Decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationDecision",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationDetails",
     "Label": "Details",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4652,21 +5089,24 @@
     "Label": "What is the ECC notification?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationEccQuestion",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationFullName",
     "Label": "Full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationFullName2",
     "Label": "Full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4680,7 +5120,8 @@
     "ID": "sendNotificationLetter",
     "Label": "Is there a letter to send out?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4688,7 +5129,8 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationNotify",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4696,7 +5138,8 @@
     "Label": "Request was made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4704,14 +5147,16 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationResponseTribunal",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "sendNotificationSelectHearing",
     "Label": "Select the hearing",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4719,7 +5164,8 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_sendNotificationParties",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4728,7 +5174,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_sendNotificationSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4736,7 +5183,8 @@
     "Label": "Enter notification title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing. Please note the text entered here will be displayed in the notification e-mail sent to the parties.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4745,7 +5193,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": 1
+    "Min": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4753,7 +5202,8 @@
     "Label": "Who made the case management order?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationWhoCaseOrder",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4761,7 +5211,8 @@
     "Label": "Who made the judgment?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationWhoMadeJudgement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4769,21 +5220,24 @@
     "Label": "What application do you wish to view?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseApplicationsOpenOrClosed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseViewApplicationSelect",
     "Label": "Select Application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "tseApplicationSummaryAndResponsesMarkup",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4797,7 +5251,8 @@
     "ID": "pseRespondentOrdReqCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4812,7 +5267,8 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4820,7 +5276,8 @@
     "Label": "Supporting material",
     "HintText": "Do you have any supporting material you want to provide?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4836,14 +5293,16 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": "2500"
+    "Max": "2500",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "pseRespondentOrdReqTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4852,7 +5311,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": 1
+    "Min": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4866,7 +5326,8 @@
     "ID": "pseRespondentSelectOrderOrRequest",
     "Label": "Select an order or request from the tribunal",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4887,21 +5348,24 @@
     "ID": "pseRespondentSelectJudgmentOrderNotification",
     "Label": "Select a judgment, order or notification",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "selectNotificationDropdown",
     "Label": "Select a notification",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "pseViewNotifications",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4916,14 +5380,16 @@
     "Label": "Enter response title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationAdditionalInfo",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4932,7 +5398,8 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4940,7 +5407,8 @@
     "Label": "Is a response to the tribunal required",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": " fl_respondNotificationResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4948,14 +5416,16 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_sendNotificationParties",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "notificationMarkdown",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4970,7 +5440,8 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationParties",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4978,7 +5449,8 @@
     "Label": "Case management order made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_respondNotificationCmoRequestBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4986,7 +5458,8 @@
     "Label": "Full name",
     "HintText": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5001,7 +5474,8 @@
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationCaseManagement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5009,14 +5483,16 @@
     "Label": "Request made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_respondNotificationRequestBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondNotificationDate",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5024,7 +5500,8 @@
     "Label": "Select the office you want to assign the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5032,14 +5509,16 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "resTseNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5053,7 +5532,8 @@
     "ID": "tseRespondNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5067,7 +5547,8 @@
     "ID": "respondToTribunalNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5081,7 +5562,8 @@
     "ID": "et1OnlineSubmission",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5090,7 +5572,8 @@
     "HintText": "For example R123456/12/34, MU123456/12/34",
     "FieldType": "Text",
     "SecurityClassification": "Public",
-    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}"
+    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland_Listings",
@@ -5825,7 +6308,8 @@
     "ID": "claimantId",
     "Label": "claimantId",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5839,7 +6323,8 @@
     "ID": "replyToReferralDcfLink",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5853,7 +6338,8 @@
     "ID": "legalRepDocumentsMarkdown",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5867,7 +6353,8 @@
     "ID": "claimantTse",
     "Label": " ",
     "FieldType": "claimantTse",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5883,7 +6370,8 @@
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_claimantTseSelectApp",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5898,14 +6386,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox1",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5920,14 +6410,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox2",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5942,14 +6434,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox3",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5964,14 +6458,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox4",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -5986,14 +6482,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox5",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6008,14 +6506,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox6",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6030,14 +6530,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox7",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6052,14 +6554,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox8",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6074,14 +6578,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox9",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6096,14 +6602,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox10",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6118,14 +6626,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox11",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6140,14 +6650,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox12",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6162,14 +6674,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseTextBox13",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6191,21 +6705,24 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseRule92AnsNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantTseRespNotAvailable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6219,7 +6736,8 @@
     "ID": "claimantTseTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6233,14 +6751,16 @@
     "ID": "claimantRepRespondSelectApplication",
     "Label": "Select an application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantRepResponseIntro",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6254,7 +6774,8 @@
     "ID": "claimantRepResponseTable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6270,7 +6791,8 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6278,7 +6800,8 @@
     "Label": "Supporting material",
     "HintText": "Do you have any supporting material you want to provide?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6287,7 +6810,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": "1"
+    "Min": "1",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6295,21 +6819,24 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantRepResponseCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantRepResToTribunal",
     "Label": "Claimant Representative is responding to Tribunal request/order",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6318,14 +6845,16 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "uploadHearingNotesDocument",
     "Label": "Upload hearing notes",
     "FieldType": "Document",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -6333,13 +6862,15 @@
     "Label": "Do you want to remove the uploaded hearing notes document?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_removeDocument",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "doesHearingNotesDocExist",
     "Label": " ",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

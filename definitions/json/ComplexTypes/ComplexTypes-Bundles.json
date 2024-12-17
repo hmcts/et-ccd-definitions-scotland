@@ -4,21 +4,24 @@
     "ListElementCode": "agreedDocWith",
     "FieldType": "Text",
     "ElementLabel": "Have you agreed these documents with the other party?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
     "ListElementCode": "agreedDocWithBut",
     "FieldType": "Text",
     "ElementLabel": "Which documents are disputed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
     "ListElementCode": "agreedDocWithNo",
     "FieldType": "Text",
     "ElementLabel": "Why you've not been able to agree with the other party",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
@@ -26,7 +29,8 @@
     "FieldType": "Text",
     "ElementLabel": "Hearing",
     "FieldShowCondition": "formattedSelectedHearing=\"dummy\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
@@ -35,69 +39,79 @@
     "ElementLabel": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C57",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
     "ListElementCode": "whatDocuments",
     "FieldType": "Text",
     "ElementLabel": "What are these hearing documents?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
     "ListElementCode": "whoseDocuments",
     "FieldType": "Text",
     "ElementLabel": "Whose hearing documents are you uploading?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
     "ListElementCode": "uploadDateTime",
     "FieldType": "Text",
     "ElementLabel": "Uploaded date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingBundle",
     "ListElementCode": "formattedSelectedHearing",
     "FieldType": "Text",
     "ElementLabel": "Hearing these documents are for",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RemovedHearingBundle",
     "ListElementCode": "bundleName",
     "FieldType": "Text",
     "ElementLabel": "Document Name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RemovedHearingBundle",
     "ListElementCode": "removedDateTime",
     "FieldType": "Text",
     "ElementLabel": "Removed Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RemovedHearingBundle",
     "ListElementCode": "removedReason",
     "FieldType": "Text",
     "ElementLabel": "Reason for removal",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "icDocumentUpload",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "icDocumentUpload",
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

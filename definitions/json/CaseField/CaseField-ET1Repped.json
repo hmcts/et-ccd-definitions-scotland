@@ -6,8 +6,22 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ReppedTriageAddress", "Label": " ", "FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ReppedTriageYesNo", "Label": " ", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReppedTriageAddress",
+    "Label": " ",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReppedTriageYesNo",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1ReppedTriageError",
@@ -15,11 +29,45 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ClaimStatuses", "Label": " ", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ClaimStatusesLabel", "Label": "${et1ClaimStatuses}", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ReppedSectionOne", "Label": "ET1 Repped Section One", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ReppedSectionTwo", "Label": "ET1 Repped Section Two", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ReppedSectionThree", "Label": "ET1 Repped Section Three", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ClaimStatuses",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ClaimStatusesLabel",
+    "Label": "${et1ClaimStatuses}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReppedSectionOne",
+    "Label": "ET1 Repped Section One",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReppedSectionTwo",
+    "Label": "ET1 Repped Section Two",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReppedSectionThree",
+    "Label": "ET1 Repped Section Three",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1Section1PreambleLabel",
@@ -27,54 +75,410 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantFirstName", "Label": "Claimant's First Name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantLastName", "Label": "Claimant's Last Name", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantDateOfBirth", "Label": "Claimant's Date of Birth", "HintText": "For example, 23 04 1981", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantSex", "Label": "Select the claimant's sex", "FieldType": "MultiSelectList", "FieldTypeParameter": "fl_Sex", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantPreferredTitle", "Label": "What is the claimant’s preferred title?", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantContactAddress", "Label": " ", "FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "hearingFormatPreamble", "Label": "The parties can express their preference of phone, video or in person hearings. Requests have to be agreed by a judge and it can depend on the type of hearing.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "representativeAttendHearing", "Label": "Which types of hearing can you, as the representative, attend?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_HearingAttendence", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantAttendHearing", "Label": "Which types of hearing can the claimant attend?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_HearingAttendence", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantSupportQuestion", "Label": " Are there any support requirements?", "FieldType": "MultiSelectList", "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantSupportQuestionReason", "Label": "Give details of the support required", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "representativeInformationPreamble", "Label": "In most circumstances the tribunal will communicate with you (as the representative) by email. If you need communication by post, please tell us why.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "representativeContactPreference", "Label": "How would you prefer to be contacted?", "FieldType": "MultiSelectList", "FieldTypeParameter": "fl_ContactPreference", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "contactPreferencePostReason", "Label": "Provide a reason why you have selected post", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "representativePhoneNumber", "Label": "What is you contact phone number?", "HintText": "Where we can contact you during the day. For international numbers include the country code.", "FieldType": "PhoneUK", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "representativeReferenceNumber", "Label": "What is your representative reference number?", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1Section2PreambleLabel", "Label": "In this section, you’ll need to provide:\r\n<ul>\r\n<li>employment status</li>\r\n<li>respondent details</li>\r\n</ul>", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "didClaimantWorkForOrg", "Label": "Did the claimant work for the respondent?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantStillWorking", "Label": "Is the claimant still working for the respondent?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_StillWorking", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantJobTitle", "Label": "Enter job title", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantStartDate", "Label": "Enter employment start date", "HintText": "For example, 12 11 2020", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantEndDate", "Label": "Enter employment end date", "HintText": "For example, 12 11 2020", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantStillWorkingNoticePeriod", "Label": "Is there a notice period?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_NoticePeriod", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantStillWorkingNoticePeriodMonths", "Label": "How many months is the notice period?", "FieldType": "Number", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantStillWorkingNoticePeriodWeeks", "Label": "How many weeks is the notice period?", "FieldType": "Number", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNoLongerWorkingQuestion", "Label": "Work or paid a notice period", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_WorkPayNoticePeriod", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantWorkingNoticePeriod", "Label": "Notice period length", "FieldType": "MultiSelectList", "FieldTypeParameter": "fl_notice_period_unit", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantWorkingNoticePeriodMonths", "Label": "How many months of the notice period is the claimant being paid for?", "FieldType": "Number", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantWorkingNoticePeriodWeeks", "Label": "How many weeks of the notice period is the claimant being paid for?", "FieldType": "Number", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantWorkingNoticePeriodEndDate", "Label": "When does the notice period end?", "HintText": "For example, 23 04 1981", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNoLongerWorking", "Label": "Notice period length", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_NoticePeriodLength", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNoLongerWorkingMonths", "Label": "How many months was the notice period?", "FieldType": "Number", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNoLongerWorkingWeeks", "Label": "How many weeks was the notice period?", "FieldType": "Number", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantAverageWeeklyWorkHoursPreamble", "Label": "If the number of hours the claimant worked changed each week (for example, they had a zero-hours contract), use the final 12 weeks of payslips to work out their weekly average.\r\n\r\nDo not include overtime hours.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantAverageWeeklyWorkHours", "Label": "Enter average weekly hours", "FieldType": "Number", "Min": 0, "Max": 168, "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantPayPreamble", "Label": "For unfair dismissal and some other claims, the tribunal will need the average of the claimant’s last 12 weeks’ pay. Provide your best estimate for the average weekly pay.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantPayBeforeTax", "Label": "Enter the claimant's pay BEFORE tax and National Insurance", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantPayAfterTax", "Label": "Enter the claimant's pay AFTER tax and National Insurance", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantPayType", "Label": "Is this weekly, monthly or annual pay?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_PayFrequency", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantPensionContribution", "Label": "Did the respondent make contributions to the claimant's pension?", "FieldType": "MultiSelectList", "FieldTypeParameter": "fl_pension_contribution", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantWeeklyPension", "Label": "Enter their pension contributions - worked out weekly", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantEmployeeBenefits", "Label": "Did the claimant receive any employee benefits?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantBenefits", "Label": "Tell us about any benefits", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNewJob", "Label": "Has the claimant got a new job?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNewJobStartDate", "Label": "When did the claimant start?", "HintText": "If you do not know the exact date then enter the best estimate", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNewJobPayPreamble", "Label": "Tell us about the claimant's gross pay before tax and other deductions", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNewJobPayBeforeTax", "Label": "Enter pay BEFORE tax and National Insurance", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimantNewJobPayPeriod", "Label": "Is this weekly, monthly or annual pay?", "FieldType": "MultiSelectList", "FieldTypeParameter": "fl_pay_cycle", "SecurityClassification": "Public"},
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantFirstName",
+    "Label": "Claimant's First Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantLastName",
+    "Label": "Claimant's Last Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantDateOfBirth",
+    "Label": "Claimant's Date of Birth",
+    "HintText": "For example, 23 04 1981",
+    "FieldType": "Date",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantSex",
+    "Label": "Select the claimant's sex",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_Sex",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantPreferredTitle",
+    "Label": "What is the claimant’s preferred title?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantContactAddress",
+    "Label": " ",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "hearingFormatPreamble",
+    "Label": "The parties can express their preference of phone, video or in person hearings. Requests have to be agreed by a judge and it can depend on the type of hearing.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativeAttendHearing",
+    "Label": "Which types of hearing can you, as the representative, attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_HearingAttendence",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAttendHearing",
+    "Label": "Which types of hearing can the claimant attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_HearingAttendence",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantSupportQuestion",
+    "Label": " Are there any support requirements?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantSupportQuestionReason",
+    "Label": "Give details of the support required",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativeInformationPreamble",
+    "Label": "In most circumstances the tribunal will communicate with you (as the representative) by email. If you need communication by post, please tell us why.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativeContactPreference",
+    "Label": "How would you prefer to be contacted?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_ContactPreference",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "contactPreferencePostReason",
+    "Label": "Provide a reason why you have selected post",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativePhoneNumber",
+    "Label": "What is you contact phone number?",
+    "HintText": "Where we can contact you during the day. For international numbers include the country code.",
+    "FieldType": "PhoneUK",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativeReferenceNumber",
+    "Label": "What is your representative reference number?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1Section2PreambleLabel",
+    "Label": "In this section, you’ll need to provide:\r\n<ul>\r\n<li>employment status</li>\r\n<li>respondent details</li>\r\n</ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "didClaimantWorkForOrg",
+    "Label": "Did the claimant work for the respondent?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_YesNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantStillWorking",
+    "Label": "Is the claimant still working for the respondent?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_StillWorking",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantJobTitle",
+    "Label": "Enter job title",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantStartDate",
+    "Label": "Enter employment start date",
+    "HintText": "For example, 12 11 2020",
+    "FieldType": "Date",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantEndDate",
+    "Label": "Enter employment end date",
+    "HintText": "For example, 12 11 2020",
+    "FieldType": "Date",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantStillWorkingNoticePeriod",
+    "Label": "Is there a notice period?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_NoticePeriod",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantStillWorkingNoticePeriodMonths",
+    "Label": "How many months is the notice period?",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantStillWorkingNoticePeriodWeeks",
+    "Label": "How many weeks is the notice period?",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNoLongerWorkingQuestion",
+    "Label": "Work or paid a notice period",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_WorkPayNoticePeriod",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkingNoticePeriod",
+    "Label": "Notice period length",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_notice_period_unit",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkingNoticePeriodMonths",
+    "Label": "How many months of the notice period is the claimant being paid for?",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkingNoticePeriodWeeks",
+    "Label": "How many weeks of the notice period is the claimant being paid for?",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWorkingNoticePeriodEndDate",
+    "Label": "When does the notice period end?",
+    "HintText": "For example, 23 04 1981",
+    "FieldType": "Date",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNoLongerWorking",
+    "Label": "Notice period length",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_NoticePeriodLength",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNoLongerWorkingMonths",
+    "Label": "How many months was the notice period?",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNoLongerWorkingWeeks",
+    "Label": "How many weeks was the notice period?",
+    "FieldType": "Number",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAverageWeeklyWorkHoursPreamble",
+    "Label": "If the number of hours the claimant worked changed each week (for example, they had a zero-hours contract), use the final 12 weeks of payslips to work out their weekly average.\r\n\r\nDo not include overtime hours.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantAverageWeeklyWorkHours",
+    "Label": "Enter average weekly hours",
+    "FieldType": "Number",
+    "Min": 0,
+    "Max": 168,
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantPayPreamble",
+    "Label": "For unfair dismissal and some other claims, the tribunal will need the average of the claimant’s last 12 weeks’ pay. Provide your best estimate for the average weekly pay.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantPayBeforeTax",
+    "Label": "Enter the claimant's pay BEFORE tax and National Insurance",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantPayAfterTax",
+    "Label": "Enter the claimant's pay AFTER tax and National Insurance",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantPayType",
+    "Label": "Is this weekly, monthly or annual pay?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_PayFrequency",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantPensionContribution",
+    "Label": "Did the respondent make contributions to the claimant's pension?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_pension_contribution",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantWeeklyPension",
+    "Label": "Enter their pension contributions - worked out weekly",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantEmployeeBenefits",
+    "Label": "Did the claimant receive any employee benefits?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_YesNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantBenefits",
+    "Label": "Tell us about any benefits",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNewJob",
+    "Label": "Has the claimant got a new job?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_YesNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNewJobStartDate",
+    "Label": "When did the claimant start?",
+    "HintText": "If you do not know the exact date then enter the best estimate",
+    "FieldType": "Date",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNewJobPayPreamble",
+    "Label": "Tell us about the claimant's gross pay before tax and other deductions",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNewJobPayBeforeTax",
+    "Label": "Enter pay BEFORE tax and National Insurance",
+    "FieldType": "MoneyGBP",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantNewJobPayPeriod",
+    "Label": "Is this weekly, monthly or annual pay?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_pay_cycle",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "respondentNamePreamble",
@@ -82,35 +486,251 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentType", "Label": " ", "FieldType": "FixedRadioList", "FieldTypeParameter": "frl_respondentType", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentOrganisationName", "Label": "Enter the name of the organisation", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentFirstName", "Label": "Enter the first name of the individual", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentLastName", "Label": "Enter the last name of the individual", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentEndLabel", "Label": "You can add more respondents later if you need to", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentAddress", "Label": " ", "FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "didClaimantWorkAtSameAddressPreamble", "Label": " ", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "didClaimantWorkAtSameAddressPreambleLabel", "Label": "${didClaimantWorkAtSameAddressPreamble}", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "didClaimantWorkAtSameAddress", "Label": "Did the claimant work at this address?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentAcasYesNo", "Label": "Do you have an Acas certificate number for the respondent?", "FieldType": "FixedRadioList", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentAcasNumber", "Label": "Enter the Acas number", "FieldType": "Text", "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "respondentNoAcasCertificateReason", "Label": "Why is there no certificate number?", "FieldType": "FixedRadioList", "FieldTypeParameter": "frl_noAcasReason", "HintText": "Incorrectly claiming an exemption may lead to the claim being rejected. If in doubt, please contact Acas.","SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "addAdditionalRespondentPreamble", "Label": " ", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "addAdditionalRespondentPreambleLabel", "Label": "${addAdditionalRespondentPreamble}", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "addAdditionalRespondent", "Label": "Do you want to add another respondent?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1ReppedRespondentCollection", "Label": "Additional respondents", "FieldType": "Collection", "FieldTypeParameter": "CreateRespondent", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1SectionThreePreamble", "Label": "You’ll need to provide details of the claim. This can be uploaded in a document.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1SectionThreeDetailsPreamble", "Label": "Upload the claim details in a document or use the text box.\r\nYou can use both if you need to.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1SectionThreeClaimDetails", "Label": "Enter details of the claim", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1SectionThreeDocumentUpload", "Label": "Upload the details of the claim", "FieldType": "Document", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "et1SectionThreeTypeOfClaim", "Label": "What type of claim is this?","HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_et1TypesOfClaim", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "discriminationTypesOfClaim", "Label": "What type of discrimination are you claiming?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_et1DiscriminationClaims", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "payTypesOfClaim", "Label": "What type of pay claim are you making?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_payClaims", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "whistleblowingYesNo", "Label": "Do you want us to forward this claim to a relevant regulator or body?", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "whistleblowingRegulator", "Label": "Enter the name of the relevant regulator or body you want us to send this to", "HintText": "If you cannot find one, enter N/A", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "otherTypeOfClaimDetails", "Label": "Enter the type of claim", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "claimSuccessful", "Label": "What does the claimant want if their claim is successful?" ,"HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_claimOutcomes", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "compensationDetails", "Label": "What compensation is the claimant seeking?", "HintText": "Set out all compensation the claimant is claiming for, and provide a total if possible.", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_Scotland", "ID": "tribunalRecommendationDetails", "Label": "What tribunal recommendation would you like to make?", "HintText": "Tell us what action you’d like the tribunal to recommend the respondent makes to reduce the impact of any discrimination which has occurred.", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentType",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_respondentType",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentOrganisationName",
+    "Label": "Enter the name of the organisation",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentFirstName",
+    "Label": "Enter the first name of the individual",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentLastName",
+    "Label": "Enter the last name of the individual",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentEndLabel",
+    "Label": "You can add more respondents later if you need to",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentAddress",
+    "Label": " ",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "didClaimantWorkAtSameAddressPreamble",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "didClaimantWorkAtSameAddressPreambleLabel",
+    "Label": "${didClaimantWorkAtSameAddressPreamble}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "didClaimantWorkAtSameAddress",
+    "Label": "Did the claimant work at this address?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentAcasYesNo",
+    "Label": "Do you have an Acas certificate number for the respondent?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "msl_YesNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentAcasNumber",
+    "Label": "Enter the Acas number",
+    "FieldType": "Text",
+    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentNoAcasCertificateReason",
+    "Label": "Why is there no certificate number?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_noAcasReason",
+    "HintText": "Incorrectly claiming an exemption may lead to the claim being rejected. If in doubt, please contact Acas.",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addAdditionalRespondentPreamble",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addAdditionalRespondentPreambleLabel",
+    "Label": "${addAdditionalRespondentPreamble}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addAdditionalRespondent",
+    "Label": "Do you want to add another respondent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1ReppedRespondentCollection",
+    "Label": "Additional respondents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CreateRespondent",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SectionThreePreamble",
+    "Label": "You’ll need to provide details of the claim. This can be uploaded in a document.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SectionThreeDetailsPreamble",
+    "Label": "Upload the claim details in a document or use the text box.\r\nYou can use both if you need to.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SectionThreeClaimDetails",
+    "Label": "Enter details of the claim",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SectionThreeDocumentUpload",
+    "Label": "Upload the details of the claim",
+    "FieldType": "Document",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et1SectionThreeTypeOfClaim",
+    "Label": "What type of claim is this?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_et1TypesOfClaim",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "discriminationTypesOfClaim",
+    "Label": "What type of discrimination are you claiming?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_et1DiscriminationClaims",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "payTypesOfClaim",
+    "Label": "What type of pay claim are you making?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_payClaims",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "whistleblowingYesNo",
+    "Label": "Do you want us to forward this claim to a relevant regulator or body?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_YesNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "whistleblowingRegulator",
+    "Label": "Enter the name of the relevant regulator or body you want us to send this to",
+    "HintText": "If you cannot find one, enter N/A",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "otherTypeOfClaimDetails",
+    "Label": "Enter the type of claim",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimSuccessful",
+    "Label": "What does the claimant want if their claim is successful?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_claimOutcomes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "compensationDetails",
+    "Label": "What compensation is the claimant seeking?",
+    "HintText": "Set out all compensation the claimant is claiming for, and provide a total if possible.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tribunalRecommendationDetails",
+    "Label": "What tribunal recommendation would you like to make?",
+    "HintText": "Tell us what action you’d like the tribunal to recommend the respondent makes to reduce the impact of any discrimination which has occurred.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "linkedCasesPreamble",
@@ -124,7 +744,8 @@
     "Label": "Are there any existing cases which may be linked to this new claim",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_YesNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -132,28 +753,32 @@
     "Label": "Details of linked cases",
     "HintText": "Enter the case numbers and names of the people in the existing case or cases.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1SectionOneDateCompleted",
     "Label": "Date completed",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1SectionTwoDateCompleted",
     "Label": "Date completed",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "et1SectionThreeDateCompleted",
     "Label": "Date completed",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -161,7 +786,8 @@
     "Label": "Do you want to submit this ET1 claim?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_submitEt1",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -189,7 +815,8 @@
     "ID": "downloadDraftEt1Date",
     "Label": " ",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -203,14 +830,16 @@
     "ID": "claimantSelectNotification",
     "Label": "Select a judgment, order or notification",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantNotificationTableMarkdown",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -232,7 +861,8 @@
     "Label": "What's your response to the tribunal?",
     "HintText": "Use this box to provide your answer to the tribunal.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -240,7 +870,8 @@
     "Label": "Do you have any supporting material?",
     "FieldType": "YesOrNo",
     "HintText": "Use this option if you have any documents or other material to support your response.",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -255,7 +886,8 @@
     "Label": "Upload a document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -263,21 +895,24 @@
     "Label": "Do you want to send a copy of this response to the other party?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ClaimantCopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "claimantNotificationsCopyNoDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "isRespondentSystemUser",
     "Label": "Is the respondent a system user?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",

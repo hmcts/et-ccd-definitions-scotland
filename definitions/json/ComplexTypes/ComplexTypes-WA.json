@@ -46,6 +46,7 @@
     "ElementLabel": "Should the case be listed for a private preliminary hearing?",
     "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

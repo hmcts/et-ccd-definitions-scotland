@@ -26,7 +26,8 @@
     "ID": "draftAndSignJudgement",
     "Label": "Draft and Sign Judgment",
     "FieldType": "DraftAndSignJudgement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -41,7 +42,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -49,7 +51,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -57,7 +60,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -65,6 +69,7 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

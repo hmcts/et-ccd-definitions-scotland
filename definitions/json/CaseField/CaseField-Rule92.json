@@ -5,6 +5,7 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "genericTseDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
