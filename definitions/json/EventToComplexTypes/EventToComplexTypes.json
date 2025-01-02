@@ -6729,7 +6729,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27Direction",
-    "EventElementLabel": "Employment Judge's direction for Rule 27 Notice",
+    "EventElementLabel": "Employment Judge's direction for Rule 28 Notice",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
   },
