@@ -1346,7 +1346,7 @@
   {
     "ID": "fl_JudgmentOutcome",
     "ListElementCode": "Dismissed under Rule 27",
-    "ListElement": "Dismissed under Rule 27",
+    "ListElement": "Dismissed under Rule 28",
     "DisplayOrder": 11
   },
   {
@@ -1400,7 +1400,7 @@
   {
     "ID": "fl_JudgementType",
     "ListElementCode": "Rule21",
-    "ListElement": "Rule 21",
+    "ListElement": "Rule 22",
     "DisplayOrder": 6
   },
   {
@@ -2479,13 +2479,13 @@
   {
     "ID": "fl_TopLevel",
     "ListElementCode": "EM-TRB-SCO-ENG-00045",
-    "ListElement": "PART 4  – Rule 21 Judgments",
+    "ListElement": "PART 4  – Rule 22 Judgments",
     "DisplayOrder": 5
   },
   {
     "ID": "fl_TopLevel",
     "ListElementCode": "EM-TRB-SCO-ENG-00046",
-    "ListElement": "PART 5  – Initial consideration Rules 25 – 28",
+    "ListElement": "PART 5  – Initial consideration Rules 26 – 29",
     "DisplayOrder": 6
   },
   {
@@ -2683,7 +2683,7 @@
   {
     "ID": "fl_Part_1",
     "ListElementCode": "4",
-    "ListElement": "4 Application for reconsideration not considered – failure to comply with rule 12(2)",
+    "ListElement": "4 Application for reconsideration not considered – failure to comply with rule 14(2)",
     "DisplayOrder": 10
   },
   {
@@ -2815,13 +2815,13 @@
   {
     "ID": "fl_Part_3",
     "ListElementCode": "21",
-    "ListElement": "21 Acknowledgment of response to contract claim",
+    "ListElement": "21 Acknowledgment of reply to contract claim",
     "DisplayOrder": 5
   },
   {
     "ID": "fl_Part_3",
     "ListElementCode": "22",
-    "ListElement": "22 Notice of response to contract claim",
+    "ListElement": "22 Notice of reply to contract claim",
     "DisplayOrder": 6
   },
   {
@@ -2833,13 +2833,13 @@
   {
     "ID": "fl_Part_3",
     "ListElementCode": "24",
-    "ListElement": "24 Extension of time to submit response to contract claim granted",
+    "ListElement": "24 Extension of time to submit reply to contract claim granted",
     "DisplayOrder": 8
   },
   {
     "ID": "fl_Part_3",
     "ListElementCode": "25",
-    "ListElement": "25 Extension of time to submit response to contract claim refused",
+    "ListElement": "25 Extension of time to submit reply to contract claim refused",
     "DisplayOrder": 9
   },
   {
@@ -2851,25 +2851,25 @@
   {
     "ID": "fl_Part_4",
     "ListElementCode": "16",
-    "ListElement": "16 Rule 21 judgment template",
+    "ListElement": "16 Rule 22 judgment template",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_Part_4",
     "ListElementCode": "16.A",
-    "ListElement": "16A Simple Rule 21 judgment template",
+    "ListElement": "16A Simple Rule 22 judgment template",
     "DisplayOrder": 3
   },
   {
     "ID": "fl_Part_4",
     "ListElementCode": "16.B",
-    "ListElement": "16B Rule 21 judgment - liability only",
+    "ListElement": "16B Rule 22 judgment - liability only",
     "DisplayOrder": 4
   },
   {
     "ID": "fl_Part_4",
     "ListElementCode": "17",
-    "ListElement": "17 Notice of Rule 21 Judgment",
+    "ListElement": "17 Notice of Rule 22 Judgment",
     "DisplayOrder": 5
   },
   {
@@ -2893,13 +2893,13 @@
   {
     "ID": "fl_Part_5",
     "ListElementCode": "29",
-    "ListElement": "29 Letter from tribunal confirming dismissal under Rule 27",
+    "ListElement": "29 Letter from tribunal confirming dismissal under Rule 28",
     "DisplayOrder": 4
   },
   {
     "ID": "fl_Part_5",
     "ListElementCode": "30",
-    "ListElement": "30 Letter from tribunal confirming dismissal under Rule 28",
+    "ListElement": "30 Letter from tribunal confirming dismissal under Rule 29",
     "DisplayOrder": 5
   },
   {
@@ -2941,7 +2941,7 @@
   {
     "ID": "fl_Part_5",
     "ListElementCode": "33.A",
-    "ListElement": "33A Initial consideration, claim, response, employers contract claim and response allowed to proceed – orders issued",
+    "ListElement": "33A Initial consideration, claim, response, employers contract claim and reply allowed to proceed – orders issued",
     "DisplayOrder": 12
   },
   {
@@ -3121,7 +3121,7 @@
   {
     "ID": "fl_Part_6",
     "ListElementCode": "56",
-    "ListElement": "56 Order Rule 50(3)b)",
+    "ListElement": "56 Order Rule 49(3)b)",
     "DisplayOrder": 29
   },
   {
@@ -3133,19 +3133,19 @@
   {
     "ID": "fl_Part_6",
     "ListElementCode": "57.A",
-    "ListElement": "57A Application to set aside dismissal under rule 38 refused",
+    "ListElement": "57A Application to set aside dismissal under rule 39 refused",
     "DisplayOrder": 31
   },
   {
     "ID": "fl_Part_6",
     "ListElementCode": "57.B",
-    "ListElement": "57B Dismissal under Rule 38 set aside",
+    "ListElement": "57B Dismissal under Rule 39 set aside",
     "DisplayOrder": 32
   },
   {
     "ID": "fl_Part_6",
     "ListElementCode": "57.C",
-    "ListElement": "57C Application to set aside dismissal under rule 38 – hearing will be fixed",
+    "ListElement": "57C Application to set aside dismissal under rule 39 – hearing will be fixed",
     "DisplayOrder": 33
   },
   {
@@ -3229,7 +3229,7 @@
   {
     "ID": "fl_Part_8",
     "ListElementCode": "69",
-    "ListElement": "69 Judgment rule 52 dismissal on withdrawal",
+    "ListElement": "69 Judgment rule 51 dismissal on withdrawal",
     "DisplayOrder": 6
   },
   {
@@ -3319,19 +3319,19 @@
   {
     "ID": "fl_Part_9",
     "ListElementCode": "81",
-    "ListElement": "81 Notice of hearing to reconsider rejection of claim/response/employer’s contract claim/response to contract claim",
+    "ListElement": "81 Notice of hearing to reconsider rejection of claim/response/employer’s contract claim/reply to contract claim",
     "DisplayOrder": 15
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "82",
-    "ListElement": "82 Notice of hearing to consider dismissal of claim response under Rule 27",
+    "ListElement": "82 Notice of hearing to consider dismissal of claim response under Rule 28",
     "DisplayOrder": 16
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "83",
-    "ListElement": "83 Notice of hearing to consider dismissal of response under Rule 28",
+    "ListElement": "83 Notice of hearing to consider dismissal of response under Rule 29",
     "DisplayOrder": 17
   },
   {
@@ -3355,7 +3355,7 @@
   {
     "ID": "fl_Part_9",
     "ListElementCode": "87",
-    "ListElement": "87 Notice of hearing to consider Rule 21 judgment",
+    "ListElement": "87 Notice of hearing to consider Rule 22 judgment",
     "DisplayOrder": 21
   },
   {
@@ -3379,7 +3379,7 @@
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91.B",
-    "ListElement": "91B Notice of hearing to consider claimant’s application for extension of time to submit a response to an employer’s contract claim",
+    "ListElement": "91B Notice of hearing to consider claimant’s application for extension of time to submit a reply to an employer’s contract claim",
     "DisplayOrder": 25
   },
   {
@@ -3427,13 +3427,13 @@
   {
     "ID": "fl_Part_9",
     "ListElementCode": "222",
-    "ListElement": "222 Postponement Granted Rule 30A",
+    "ListElement": "222 Postponement Granted Rule 32",
     "DisplayOrder": 33
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "223",
-    "ListElement": "223 Postponement Refused Rule 30A",
+    "ListElement": "223 Postponement Refused Rule 32",
     "DisplayOrder": 34
   },
   {
@@ -4099,19 +4099,19 @@
   {
     "ID": "fl_Part_16",
     "ListElementCode": "LO1",
-    "ListElement": "LO1 Rejection rule 12",
+    "ListElement": "LO1 Rejection rule 13",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_Part_16",
     "ListElementCode": "LO2",
-    "ListElement": "LO2 Rule 20 granted",
+    "ListElement": "LO2 Rule 21 granted",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_Part_16",
     "ListElementCode": "LO3",
-    "ListElement": "LO3 Rule 20 App Refused",
+    "ListElement": "LO3 Rule 21 App Refused",
     "DisplayOrder": 3
   },
   {
@@ -4183,7 +4183,7 @@
   {
     "ID": "fl_Part_16",
     "ListElementCode": "LO15",
-    "ListElement": "LO15 Rule 52 Judgment template",
+    "ListElement": "LO15 Rule 51 Judgment template",
     "DisplayOrder": 15
   },
   {
@@ -4651,43 +4651,43 @@
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121a",
-    "ListElement": "The tribunal has no jurisdiction to consider - Rule 12(1)(a)",
+    "ListElement": "The tribunal has no jurisdiction to consider - Rule 13(1)(a)",
     "DisplayOrder": 1
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121b",
-    "ListElement": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process - Rule 12 (1)(b)",
+    "ListElement": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process - Rule 13 (1)(b)",
     "DisplayOrder": 2
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121c",
-    "ListElement": "Has neither an EC number nor claims one of the EC exemptions - Rule 12 (1)(c)",
+    "ListElement": "Has neither an EC number nor claims one of the EC exemptions - Rule 13 (1)(c)",
     "DisplayOrder": 3
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121d",
-    "ListElement": "States that one of the EC exceptions applies but it might not - Rule 12 (1)(d)",
+    "ListElement": "States that one of the EC exceptions applies but it might not - Rule 13 (1)(d)",
     "DisplayOrder": 4
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121 da",
-    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 12 (1)(da)",
+    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 13 (1)(da)",
     "DisplayOrder": 5
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121e",
-    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 12 (1)(e)",
+    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 13 (1)(e)",
     "DisplayOrder": 6
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121f",
-    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 12 (1)(f)",
+    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 13 (1)(f)",
     "DisplayOrder": 7
   },
   {
@@ -4735,7 +4735,7 @@
   {
     "ID": "msl_judgeOrLO",
     "ListElementCode": "rule50Issues",
-    "ListElement": "Rule 50 issues",
+    "ListElement": "Rule 49 issues",
     "DisplayOrder": 8
   },
   {
@@ -4825,7 +4825,7 @@
   {
     "ID": "msl_otherFactors",
     "ListElementCode": "rule50IssuesOtherFactors",
-    "ListElement": "The claim has Rule 50 issues",
+    "ListElement": "The claim has Rule 49 issues",
     "DisplayOrder": 6
   },
   {
@@ -4992,7 +4992,7 @@
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Rule 50",
+    "ListElement": "Rule 49",
     "ListElementCode": "Rule 50",
     "DisplayOrder": 5
   },
@@ -5245,13 +5245,13 @@
   {
     "ID": "msl_etICFurtherInformation",
     "ListElementCode": "issueRule27",
-    "ListElement": "Issue Rule 27 Notice and order",
+    "ListElement": "Issue Rule 28 Notice and order",
     "DisplayOrder": 2
   },
   {
     "ID": "msl_etICFurtherInformation",
     "ListElementCode": "issueRule28",
-    "ListElement": "Issue Rule 28 Notice and order",
+    "ListElement": "Issue Rule 29 Notice and order",
     "DisplayOrder": 3
   },
   {
@@ -5533,13 +5533,13 @@
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Rule 21",
-    "ListElement": "Rule 21",
+    "ListElement": "Rule 22",
     "DisplayOrder": 11
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Rule 50 application",
-    "ListElement": "Rule 50 application",
+    "ListElement": "Rule 49 application",
     "DisplayOrder": 12
   },
   {
@@ -6283,13 +6283,13 @@
   {
     "ID": "fl_InitialConsideration",
     "ListElementCode": "Rule 27 Notice",
-    "ListElement": "Rule 27 Notice",
+    "ListElement": "Rule 28 Notice",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_InitialConsideration",
     "ListElementCode": "Rule 28 Notice",
-    "ListElement": "Rule 28 Notice",
+    "ListElement": "Rule 29 Notice",
     "DisplayOrder": 3
   },
   {

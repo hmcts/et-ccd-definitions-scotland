@@ -171,14 +171,14 @@
     {
         "CaseTypeID": "ET_Scotland",
         "CategoryID": "C24",
-        "CategoryLabel": "Rule 27 Notice",
+        "CategoryLabel": "Rule 28 Notice",
         "DisplayOrder": 2,
         "ParentCategoryID": "C3"
     },
     {
         "CaseTypeID": "ET_Scotland",
         "CategoryID": "C25",
-        "CategoryLabel": "Rule 28 Notice",
+        "CategoryLabel": "Rule 29 Notice",
         "DisplayOrder": 3,
         "ParentCategoryID": "C3"
     },
@@ -710,14 +710,14 @@
     {
         "CaseTypeID": "ET_Scotland_Multiple",
         "CategoryID": "C24",
-        "CategoryLabel": "Rule 27 Notice",
+        "CategoryLabel": "Rule 28 Notice",
         "DisplayOrder": 2,
         "ParentCategoryID": "C3"
     },
     {
         "CaseTypeID": "ET_Scotland_Multiple",
         "CategoryID": "C25",
-        "CategoryLabel": "Rule 28 Notice",
+        "CategoryLabel": "Rule 29 Notice",
         "DisplayOrder": 3,
         "ParentCategoryID": "C3"
     },
