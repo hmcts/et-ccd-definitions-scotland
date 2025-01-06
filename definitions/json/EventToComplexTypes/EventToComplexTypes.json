@@ -5636,7 +5636,7 @@
     "CaseEventID": "restrictedCases",
     "CaseFieldID": "restrictedReporting",
     "ListElementCode": "imposed",
-    "EventElementLabel": "Rule 50(3)(d) Applies",
+    "EventElementLabel": "Rule 49(3)(d) Applies",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
@@ -5654,7 +5654,7 @@
     "CaseEventID": "restrictedCases",
     "CaseFieldID": "restrictedReporting",
     "ListElementCode": "rule503b",
-    "EventElementLabel": "Rule 50(3)(b) Applies",
+    "EventElementLabel": "Rule 49(3)(b) Applies",
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
   },
