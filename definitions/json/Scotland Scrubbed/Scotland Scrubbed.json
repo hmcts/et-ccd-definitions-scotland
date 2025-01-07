@@ -4651,7 +4651,7 @@
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121a",
-    "ListElement": "The tribunal has no jurisdiction to consider - Rule 13(1)(a)",
+    "ListElement": "The tribunal has no jurisdiction to consider - Rule 13 (1)(a)",
     "DisplayOrder": 1
   },
   {
@@ -4675,19 +4675,19 @@
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121 da",
-    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 13 (1)(da)",
+    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 13 (1)(e)",
     "DisplayOrder": 5
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121e",
-    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 13 (1)(e)",
+    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 13 (1)(f)",
     "DisplayOrder": 6
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121f",
-    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 13 (1)(f)",
+    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 13 (1)(g)",
     "DisplayOrder": 7
   },
   {
