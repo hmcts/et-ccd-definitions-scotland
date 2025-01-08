@@ -1,5 +1,141 @@
 [
   {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "personalDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "et1ClaimForm",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "respondentResponse",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "hearingDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "respondentRequestsAndApplications",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "claimantApplications",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "contactTribunal",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "tribunalOrders",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "tribunalJudgements",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "documents",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "contactDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "employerDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "conciliationAndEmployeeDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "payPensionBenefitDetails",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "contestClaim",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "employersContractClaim",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3HubLinksStatuses",
+    "ListElementCode": "checkYorAnswers",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
     "ID": "Respondent",
     "ListElementCode": "respondentType",
     "FieldType": "FixedRadioList",
@@ -127,6 +263,16 @@
     "ListElementCode": "responseStruckOut",
     "FieldType": "YesOrNo",
     "ElementLabel": "Response Struck Out",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseRespondentNameQuestion",
+    "FieldType": "Text",
+    "ElementLabel": "Title",
     "FieldShowCondition": "responseReceived=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
@@ -497,20 +643,20 @@
   },
   {
     "ID": "Respondent",
-    "ListElementCode": "et3ResponseContactReason",
+    "ListElementCode": "et3ResponseDXAddress",
     "FieldType": "Text",
-    "ElementLabel": "Provide a reason why you have selected post",
-    "FieldShowCondition": "responseStruckOut !=\"Yes\" AND responseReceived=\"Yes\"",
+    "ElementLabel": "DX address (if known)",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
   {
     "ID": "Respondent",
-    "ListElementCode": "et3ResponseDXAddress",
+    "ListElementCode": "et3ResponseContactReason",
     "FieldType": "Text",
-    "ElementLabel": "DX address (if known)",
-    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "ElementLabel": "Provide a reason why you have selected post",
+    "FieldShowCondition": "responseStruckOut !=\"Yes\" AND responseReceived=\"Yes\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -766,7 +912,7 @@
     "FieldType": "Collection",
     "ElementLabel": "Upload a document to your response",
     "FieldTypeParameter": "DocumentUpload",
-    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -775,7 +921,7 @@
     "ListElementCode": "et3ResponseContestClaimDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Use this text box for any accompanying information",
-    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -793,7 +939,7 @@
     "ListElementCode": "et3ResponseEmployerClaimDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Provide the background and details of your Employer's Contract Claim",
-    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -803,8 +949,8 @@
     "FieldType": "Document",
     "ElementLabel": "Add a document",
     "FieldTypeParameter": "DocumentUpload",
+    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "CategoryID": "C19",
-    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -833,14 +979,24 @@
     "FieldType": "Document",
     "ElementLabel": "Add document",
     "FieldTypeParameter": "DocumentUpload",
-    "CategoryID": "C19",
     "FieldShowCondition": "et3ResponseRespondentSupportNeeded=\"Yes\"",
+    "CategoryID": "C19",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
   {
     "ID": "Respondent",
     "ListElementCode": "et3Form",
+    "FieldType": "Document",
+    "ElementLabel": "ET3 Form",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C18",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3FormWelsh",
     "FieldType": "Document",
     "ElementLabel": "ET3 Form",
     "FieldTypeParameter": "DocumentUpload",
@@ -877,11 +1033,129 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "idamId",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent idam id",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3CaseDetailsLinksStatuses",
+    "FieldType": "et3CaseDetailsLinksStatuses",
+    "ElementLabel": "ET3 case details links statuses",
+    "FieldShowCondition": "responseReceived=\"Dummy\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3HubLinksStatuses",
+    "FieldType": "et3HubLinksStatuses",
+    "ElementLabel": "ET3 hub links statuses",
+    "FieldShowCondition": "responseReceived=\"Dummy\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseReceivedCount",
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "responseReceived=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3ResponseLanguagePreference",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Language Preference",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "FieldTypeParameter": "fl_languages",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3Status",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3IsRespondentAddressCorrect",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "contactDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employerDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "conciliationAndEmployeeDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "payPensionBenefitDetailsSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "contestClaimSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "employersContractClaimSection",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
