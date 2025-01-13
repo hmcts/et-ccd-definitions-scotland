@@ -45,5 +45,5 @@
     "generate-excel": "yarn json2xlsx -D ./definitions/json -o ./definitions/xlsx/et-scotland-ccd-config-${ET_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-ithc && yarn generate-excel-aat && yarn generate-excel-prod"
   },
-  "packageManager": "yarn@3.8.3"
+  "packageManager": "yarn@3.8.7"
 }
