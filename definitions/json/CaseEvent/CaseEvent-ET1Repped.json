@@ -11,7 +11,10 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Create draft claim",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "SignificantEvent": "Yes",
+    "TTLIncrement": "365",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
