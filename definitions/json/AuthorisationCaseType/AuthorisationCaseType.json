@@ -66,6 +66,11 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "UserRole": "TTL_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
