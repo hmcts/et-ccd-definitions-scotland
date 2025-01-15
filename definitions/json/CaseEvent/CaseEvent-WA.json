@@ -72,8 +72,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "Publish": "Y"
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -85,8 +84,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "Publish": "Y"
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",

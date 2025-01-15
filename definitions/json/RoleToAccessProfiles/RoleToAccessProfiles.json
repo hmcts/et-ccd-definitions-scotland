@@ -60,7 +60,7 @@
     "CaseTypeID": "ET_Scotland",
     "RoleName": "idam:caseworker-employment-legalrep-solicitor",
     "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-legalrep-solicitor"
+    "AccessProfiles": "TTL_profile,caseworker-employment-legalrep-solicitor"
   },
   {
     "LiveFrom": "01/01/2017",
