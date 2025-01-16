@@ -88,17 +88,5 @@
     "CaseEventID": "removeHearingBundles",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "manageCaseTTL",
-    "UserRole": "TTL_profile",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "migrateCaseTTLDetails",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
   }
 ]

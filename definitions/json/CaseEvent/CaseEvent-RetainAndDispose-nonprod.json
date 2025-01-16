@@ -1,0 +1,38 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "manageCaseTTL",
+    "Name": "Manage Case TTL",
+    "Description": "Manage Case TTL",
+    "DisplayOrder": 100,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migrateCaseTTLDetails",
+    "Name": "Migrate Case TTL Details",
+    "Description": "Migrate Case TTL Details",
+    "DisplayOrder": 200,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rollbackMigrateCaseTTLDetails",
+    "Name": "Rollback Migrate Case TTL Details",
+    "Description": "Rollback Migrate Case TTL Details",
+    "DisplayOrder": 201,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  }
+]
