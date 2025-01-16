@@ -12,8 +12,6 @@
     "ShowEventNotes": "N",
     "EndButtonLabel": "Create draft claim",
     "ShowSummary": "N",
-    "SignificantEvent": "Yes",
-    "TTLIncrement": "365",
     "Publish": "Y"
   },
   {
