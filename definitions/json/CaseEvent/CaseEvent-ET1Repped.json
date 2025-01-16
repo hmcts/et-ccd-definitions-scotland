@@ -73,8 +73,10 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Repped/submitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
     "EndButtonLabel": "Submit ET1",
+    "ShowSummary": "N",
+    "SignificantEvent": "Yes",
+    "TTLIncrement": "365",
     "EventEnablingCondition": "et1ReppedSectionOne = \"Yes\" AND et1ReppedSectionTwo = \"Yes\" AND et1ReppedSectionThree = \"Yes\"",
     "Publish": "Y"
   },
