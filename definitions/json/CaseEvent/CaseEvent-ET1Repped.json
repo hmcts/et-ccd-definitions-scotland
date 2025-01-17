@@ -1,21 +1,6 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et1ReppedCreateCase",
-    "Name": "Create draft claim",
-    "Description": "Create a new draft claim",
-    "DisplayOrder": 54,
-    "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/createCase/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Repped/createCase/submitted",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "EndButtonLabel": "Create draft claim",
-    "ShowSummary": "N",
-    "Publish": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "et1SectionOne",
     "Name": "ET1 - Claimant details",
     "Description": "Claimant details",

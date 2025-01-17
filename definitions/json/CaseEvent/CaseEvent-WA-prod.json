@@ -9,7 +9,6 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "SignificantEvent": "Yes",
-    "TTLIncrement": "365"
+    "Publish": "Y"
   }
 ]

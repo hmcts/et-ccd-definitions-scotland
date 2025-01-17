@@ -14,7 +14,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "migrateCaseTTLDetails",
-    "Name": "Migrate Case TTL Details",
+    "Name": "Migrate Case TTL",
     "Description": "Migrate Case TTL Details",
     "DisplayOrder": 200,
     "PreConditionState(s)": "*",
@@ -26,7 +26,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "rollbackMigrateCaseTTLDetails",
-    "Name": "Rollback Migrate Case TTL Details",
+    "Name": "Rollback Migrate Case TTL",
     "Description": "Rollback Migrate Case TTL Details",
     "DisplayOrder": 201,
     "PreConditionState(s)": "*",
