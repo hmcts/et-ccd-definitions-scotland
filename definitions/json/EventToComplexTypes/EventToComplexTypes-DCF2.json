@@ -43,5 +43,14 @@
     "EventElementLabel": "Document",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "CreateDCF",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "digitalCaseFile",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Digital Case File",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
   }
 ]
