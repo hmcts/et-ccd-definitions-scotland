@@ -460,5 +460,39 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseClaimantRepResponse/submitted",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SUBMIT_RESPONDENT_TSE",
+    "Name": "Create an application",
+    "Description": "Create an application",
+    "DisplayOrder": 57,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseRespondent/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "RESPONDENT_TSE_RESPOND",
+    "Name": "Respond to an application",
+    "Description": "Respond to an application",
+    "DisplayOrder": 58,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
   }
 ]

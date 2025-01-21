@@ -25194,5 +25194,17 @@
     "CaseFieldID": "etIcHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentTse",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentTse",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
