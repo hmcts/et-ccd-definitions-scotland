@@ -3032,12 +3032,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "bfActions",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bfActions",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
@@ -3897,12 +3891,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "caseHistory",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "caseHistory",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -16899,12 +16887,6 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "changeOrganisationRequestField",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etICHearingAlreadyListed",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
