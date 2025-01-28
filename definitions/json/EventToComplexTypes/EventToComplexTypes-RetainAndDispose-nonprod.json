@@ -1,0 +1,29 @@
+[
+  {
+    "ID": "ManageCaseTTL",
+    "CaseEventID": "manageCaseTTL",
+    "CaseFieldID": "TTL",
+    "ListElementCode": "SystemTTL",
+    "EventElementLabel": "System TTL",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "READONLY"
+  },
+  {
+    "ID": "ManageCaseTTL",
+    "CaseEventID": "manageCaseTTL",
+    "CaseFieldID": "TTL",
+    "ListElementCode": "OverrideTTL",
+    "EventElementLabel": "Override TTL",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ManageCaseTTL",
+    "CaseEventID": "manageCaseTTL",
+    "CaseFieldID": "TTL",
+    "ListElementCode": "Suspended",
+    "EventElementLabel": "Suspend Deletion",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  }
+]

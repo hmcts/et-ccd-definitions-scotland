@@ -1,0 +1,30 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-scotland",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-scotland"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-api",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-api"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:citizen",
+    "ReadOnly": "N",
+    "AccessProfiles": "citizen"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_Scotland",
+    "RoleName": "idam:caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-legalrep-solicitor"
+  }
+]
