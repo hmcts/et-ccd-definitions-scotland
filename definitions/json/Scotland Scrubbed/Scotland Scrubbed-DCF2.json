@@ -88,5 +88,23 @@
     "ListElementCode": "et-dcf-ordered.yaml",
     "ListElement": "ET Digital Case File (Ordered)",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "createUploadOrRemove",
+    "ListElementCode": "Create",
+    "ListElement": "Create",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "createUploadOrRemove",
+    "ListElementCode": "Upload",
+    "ListElement": "Upload",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "createUploadOrRemove",
+    "ListElementCode": "Remove",
+    "ListElement": "Remove",
+    "DisplayOrder": 3
   }
 ]
