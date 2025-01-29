@@ -313,5 +313,19 @@
     "FieldType": "Date",
     "ElementLabel": "Date Generated",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "error",
+    "FieldType": "Text",
+    "ElementLabel": "Error",
+    "SecurityClassification": "Public"
   }
 ]
