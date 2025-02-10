@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "createEcmCase",
+    "Name": "Create ECM Case",
+    "Description": "Create ECM Case from Migration",
+    "DisplayOrder": 37,
+    "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;Vetted(stateAPI=\"Vetted\"):6;*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  }
+]

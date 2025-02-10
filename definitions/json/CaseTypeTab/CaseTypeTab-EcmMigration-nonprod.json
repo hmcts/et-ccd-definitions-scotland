@@ -1,0 +1,25 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "ecmFeeGroupReference",
+    "TabFieldDisplayOrder": 20
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "ecmCaseLink",
+    "TabFieldDisplayOrder": 29,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "ecmCaseLinkLabel",
+    "TabFieldDisplayOrder": 30,
+    "FieldShowCondition": "ecmCaseLink=\"*\""
+  }
+]
