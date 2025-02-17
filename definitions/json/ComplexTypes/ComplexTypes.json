@@ -6838,6 +6838,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "fromIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Response from Idam id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
@@ -6980,6 +6987,13 @@
     "ListElementCode": "applicant",
     "FieldType": "Text",
     "ElementLabel": "Applicant",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "applicantIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Applicant id",
     "SecurityClassification": "Public"
   },
   {
