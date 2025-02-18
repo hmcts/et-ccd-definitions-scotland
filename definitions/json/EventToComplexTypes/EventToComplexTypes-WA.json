@@ -577,5 +577,85 @@
     "ListElementCode": "shortDescription",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.from",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.dateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   }
 ]

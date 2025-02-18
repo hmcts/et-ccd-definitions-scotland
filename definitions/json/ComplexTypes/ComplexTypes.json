@@ -6838,6 +6838,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "fromIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Response from Idam id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
@@ -6980,6 +6987,13 @@
     "ListElementCode": "applicant",
     "FieldType": "Text",
     "ElementLabel": "Applicant",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "applicantIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Applicant id",
     "SecurityClassification": "Public"
   },
   {
@@ -7559,5 +7573,41 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationFile",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   }
 ]
