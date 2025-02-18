@@ -1,0 +1,8 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createEcmCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  }
+]

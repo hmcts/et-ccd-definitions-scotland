@@ -35,8 +35,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "createDigitalCaseFileLink",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createDcf/createDcf1\">Create DCF</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createDcf/createDcf1\">Create, Upload or Remove DCF</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadOrRemoveDcf",
+    "Label": "Create, Upload or Remove DCF",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "createUploadOrRemove",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

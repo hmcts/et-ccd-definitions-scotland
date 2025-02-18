@@ -2,16 +2,14 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "createDcf",
-    "Name": "Create Digital Case File",
-    "Description": "Create Digital Case File",
+    "Name": "Create, Upload or Remove DCF",
+    "Description": "Create, Upload or Remove DCF",
     "DisplayOrder": 29,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dcf/selectDcf",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/dcf/aboutToSubmit",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/dcf/asyncAboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Create Digital Case File",
     "ShowSummary": "N"
   },
   {
@@ -23,6 +21,7 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/dcf/asyncCompleteAboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
