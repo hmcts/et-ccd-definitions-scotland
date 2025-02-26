@@ -3269,6 +3269,54 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPanelPreamble",
+    "Label": "You can have your case heard by:\r\n\r\n* A judge; or\r\n* A judge with two non-legal members, known as a 'panel'.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPanelInset1",
+    "Label": "<details class=\"govuk-details\" aria-expanded=\"false\"><summary class=\"govuk-details__summary\" style=\"margin-top=0\"><span class=\"govuk-details__summary-text\">What is a panel</span></summary><div class=\"govuk-details__text\">Non-legal members are lay people appointed because of their particular experience in the workplace as either workers or managers. A panel will consist of a judge, a member with worker or union experience, and a member with management experience. Each has an equally say in the decision.<br/><br/>A judge will decide whether your case is heard by a judge or by a panel. When making this decision, the judge will consider whether the case involves the sort of legal or factual problem where the experience of the non-legal members may help the tribunal reach its decision.</div></details>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPanelInset2",
+    "Label": "<details class=\"govuk-details\" aria-expanded=\"false\"><summary class=\"govuk-details__summary\"><span class=\"govuk-details__summary-text\">Presidential Guidance explains the types of cases where this experience may help.</span></summary><div class=\"govuk-details__text\"><a href=\"https://www.judiciary.uk/guidance-and-resources/employment-rules-and-legislation-practice-directions/\" target=\"_blank\">Practice Directions and guidance for Employment Tribunals(England and Wales)(opens in a new tab)</a><br/><a href=\"https://www.judiciary.uk/guidance-and-resources/directions-for-employment-tribunals-scotland/\" target=\"_blank\">Directions and Guidance for Employment Tribunal(Scotland)(opens in a new tab)</a></div></details>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPanelMainBody",
+    "Label": "You have an opportunity to say if you would like your case heard by a judge or a panel. The judge will then consider your preference.\r\n\r\nif you express a preference, you will be asked to give reasons.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPanelPreference",
+    "Label": "How do you prefer your case heard?",
+    "FieldType": "FixedRadioList",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_hearing_panel_preference"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "et3ResponseHearingPanelPreferenceReason",
+    "Label": "Give reason",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseEmploymentCount",
     "Label": "How many people does the respondent employ in Great Britain?",
     "HintText": "It can help the tribunal to have an indication of the employer's size.\r\n\r\nEnter a rough amount in digits or leave blank if you're not sure",
