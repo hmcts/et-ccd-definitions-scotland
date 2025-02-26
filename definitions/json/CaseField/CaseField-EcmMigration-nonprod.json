@@ -1,0 +1,30 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ecmCaseLink",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ecmCaseLinkLabel",
+    "Label": "ECM Case: ${ecmCaseLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "migratedFromEcm",
+    "Label": "Migrated from ECM",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ecmFeeGroupReference",
+    "Label": "ECM Submission Reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  }
+]
