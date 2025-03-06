@@ -1,0 +1,10 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "Delete",
+    "Name": "Delete",
+    "Description": "Cases to be deleted",
+    "DisplayOrder": 7,
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
+  }
+]
