@@ -49,6 +49,14 @@
   },
   {
     "ID": "et3CaseDetailsLinksStatuses",
+    "ListElementCode": "otherRespondentApplications",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "et3CaseDetailsLinksStatuses",
     "ListElementCode": "contactTribunal",
     "FieldType": "Text",
     "ElementLabel": " ",

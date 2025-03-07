@@ -2133,5 +2133,17 @@
     "CaseEventID": "tseClaimantRepResponse",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
