@@ -6969,6 +6969,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseStatus",
+    "ListElementCode": "userIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "User Idam Id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseStatus",
+    "ListElementCode": "applicationState",
+    "FieldType": "Text",
+    "ElementLabel": "Application state",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -7088,7 +7102,8 @@
   {
     "ID": "genericTseDetails",
     "ListElementCode": "respondentState",
-    "FieldType": "tseStatus",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseStatus",
     "ElementLabel": "Respondent application State",
     "FieldShowCondition": "status=\"dummy\"",
     "SecurityClassification": "Public"
@@ -7112,20 +7127,6 @@
     "ListElementCode": "claimantResponseRequired",
     "FieldType": "Text",
     "ElementLabel": "If there are tribunal requests/orders that required a response from Claimant",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseStatus",
-    "ListElementCode": "userIdamId",
-    "FieldType": "Text",
-    "ElementLabel": "User Idam Id",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseStatus",
-    "ListElementCode": "applicationState",
-    "FieldType": "Text",
-    "ElementLabel": "Application state",
     "SecurityClassification": "Public"
   },
   {
