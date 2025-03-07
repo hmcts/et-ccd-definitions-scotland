@@ -3305,7 +3305,7 @@
     "Label": "How do you prefer your case heard?",
     "FieldType": "FixedRadioList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_hearing_panel_preference",
+    "FieldTypeParameter": "fl_HearingPanelPreference",
     "Searchable": "N"
   },
   {
