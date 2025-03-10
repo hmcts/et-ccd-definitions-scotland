@@ -728,13 +728,13 @@
   {
     "ID": "fl_HearingPanelPreference",
     "ListElementCode": "Judge",
-    "ListElement": "Judge",
+    "ListElement": "I prefer my case to be heard by a judge",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_HearingPanelPreference",
     "ListElementCode": "Panel",
-    "ListElement": "Panel",
+    "ListElement": "I prefer my case to be heard by a panel including non-legal members",
     "DisplayOrder": 3
   },
   {
