@@ -6318,7 +6318,7 @@
   {
     "ID": "referralReply",
     "ListElementCode": "directionDetails",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Directions",
     "SecurityClassification": "Public"
   },
@@ -6333,7 +6333,7 @@
   {
     "ID": "referralReply",
     "ListElementCode": "replyGeneralNotes",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public"
   },
@@ -6368,7 +6368,7 @@
   {
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferralDetails",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Details of the referral",
     "SecurityClassification": "Public"
   },
@@ -6404,7 +6404,7 @@
   {
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferralInstruction",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Recommended instructions",
     "SecurityClassification": "Public"
   },
@@ -6474,7 +6474,7 @@
   {
     "ID": "referralDetails",
     "ListElementCode": "referralDetails",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Details of the referral",
     "SecurityClassification": "Public"
   },
@@ -6489,7 +6489,7 @@
   {
     "ID": "referralDetails",
     "ListElementCode": "referralInstruction",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Recommended instructions",
     "SecurityClassification": "Public"
   },
