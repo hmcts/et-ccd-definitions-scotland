@@ -798,6 +798,16 @@
     "Searchable": "N"
   },
   {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representative_dx_address",
+    "FieldType": "Text",
+    "ElementLabel": "Representative DX address",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "representative_preference=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "Searchable": "N"
+  },
+  {
     "ID": "ET3Vetting",
     "ListElementCode": "et3VettingDocument",
     "FieldType": "Document",
@@ -1384,6 +1394,16 @@
     "ListElementCode": "representative_contact_preference_post_reason",
     "FieldType": "Text",
     "ElementLabel": "Contact preference reason",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "representative_preference=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_dx_address",
+    "FieldType": "Text",
+    "ElementLabel": "Representative DX address",
     "SecurityClassification": "Public",
     "FieldShowCondition": "representative_preference=\"Dummy\"",
     "RetainHiddenValue": "No",
