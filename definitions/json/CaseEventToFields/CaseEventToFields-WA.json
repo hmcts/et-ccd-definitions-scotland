@@ -47,8 +47,30 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "PageShowCondition": "genericTseApplicationCollection.type=\"dummy\"",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "CLAIMANT_TSE_RESPOND",
     "CaseFieldID": "genericTseApplicationCollection",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "PageShowCondition": "genericTseApplicationCollection.type=\"dummy\"",
     "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
