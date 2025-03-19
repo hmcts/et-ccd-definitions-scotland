@@ -9,6 +9,22 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish:": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "rollbackMigrateCase",
+    "Name": "Rollback Migrate Case",
+    "Description": "Rollback Migrate Case",
+    "DisplayOrder": 37,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "Delete",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/migrate/rollback/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "SignificantEvent": "Yes",
+    "Publish:": "Yes"
   }
 ]
