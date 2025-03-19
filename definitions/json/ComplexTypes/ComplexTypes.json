@@ -7008,7 +7008,8 @@
     "ListElementCode": "applicantIdamId",
     "FieldType": "Text",
     "ElementLabel": "Applicant id",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "applicant=\"dummy\""
   },
   {
     "ID": "genericTseDetails",
