@@ -4,5 +4,23 @@
     "CaseEventID": "createEcmCase",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "createEcmCase",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "rollbackMigrateCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "rollbackMigrateCase",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
   }
 ]

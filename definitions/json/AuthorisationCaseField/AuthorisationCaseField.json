@@ -2936,7 +2936,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "documentCollection",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {
