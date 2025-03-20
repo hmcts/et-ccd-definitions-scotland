@@ -6872,5 +6872,13 @@
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "respondentTse",
+    "Label": " ",
+    "FieldType": "respondentTse",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
