@@ -2936,7 +2936,13 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "documentCollection",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {
@@ -25223,6 +25229,18 @@
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "etIcHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentTse",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentTse",
+    "UserRole": "citizen",
     "CRUD": "CRUD"
   }
 ]

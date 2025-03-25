@@ -6878,6 +6878,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "fromIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Response from Idam id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
@@ -7002,6 +7009,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseStatus",
+    "ListElementCode": "userIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "User Idam Id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseStatus",
+    "ListElementCode": "applicationState",
+    "FieldType": "Text",
+    "ElementLabel": "Application state",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -7021,6 +7042,14 @@
     "FieldType": "Text",
     "ElementLabel": "Applicant",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "applicantIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Applicant id",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "applicant=\"dummy\""
   },
   {
     "ID": "genericTseDetails",
@@ -7108,6 +7137,15 @@
     "ListElementCode": "applicationState",
     "FieldType": "Text",
     "ElementLabel": "Application State",
+    "FieldShowCondition": "status=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "respondentState",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseStatus",
+    "ElementLabel": "Respondent application State",
     "FieldShowCondition": "status=\"dummy\"",
     "SecurityClassification": "Public"
   },
@@ -7599,5 +7637,48 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationFile",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "respondentIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent id",
+    "SecurityClassification": "Public"
   }
 ]
