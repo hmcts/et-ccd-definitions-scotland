@@ -827,6 +827,12 @@
     "ListElement": "Notice of a claim",
     "DisplayOrder": 4
   },
+    {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "Acknowledgement of claim",
+    "ListElement": "Acknowledgement of claim",
+    "DisplayOrder": 4
+  },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3",
