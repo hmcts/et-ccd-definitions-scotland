@@ -13993,6 +13993,30 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tmpClaimantHearingPanelPreference",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tmpClaimantHearingPanelPreference",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tmpClaimantHearingPanelPreferenceReason",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "tmpClaimantHearingPanelPreferenceReason",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseEmploymentCount",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
