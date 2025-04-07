@@ -936,6 +936,7 @@
     "Label": "Give reason",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
+    "Max": "700",
     "Searchable": "N"
   }
 ]
