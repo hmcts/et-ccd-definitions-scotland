@@ -14005,13 +14005,13 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "tmpClaimantHearingPanelPreferenceReason",
+    "CaseFieldID": "tmpClaimantHearingPanelPrefReason",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "tmpClaimantHearingPanelPreferenceReason",
+    "CaseFieldID": "tmpClaimantHearingPanelPrefReason",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },

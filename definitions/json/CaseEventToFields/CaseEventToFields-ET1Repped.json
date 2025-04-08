@@ -17,7 +17,7 @@
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "et3ResponseHearingPanelInset2", "DisplayContext": "READONLY", "PageID": 6, "PageDisplayOrder": 6, "PageFieldDisplayOrder": 3},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "et3ResponseHearingPanelMainBody", "DisplayContext": "READONLY", "PageID": 6, "PageDisplayOrder": 6, "PageFieldDisplayOrder": 4},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "tmpClaimantHearingPanelPreference", "DisplayContext": "OPTIONAL", "PageID": 6, "PageDisplayOrder": 6, "PageFieldDisplayOrder": 5},
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "tmpClaimantHearingPanelPreferenceReason", "DisplayContext": "MANDATORY", "PageID": 6, "PageDisplayOrder": 6, "PageFieldDisplayOrder": 6, "FieldShowCondition": "tmpClaimantHearingPanelPreference=\"Judge\" OR tmpClaimantHearingPanelPreference=\"Panel\"", "RetainHiddenValue": "Yes", "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "tmpClaimantHearingPanelPrefReason", "DisplayContext": "MANDATORY", "PageID": 6, "PageDisplayOrder": 6, "PageFieldDisplayOrder": 6, "FieldShowCondition": "tmpClaimantHearingPanelPreference=\"Judge\" OR tmpClaimantHearingPanelPreference=\"Panel\"", "RetainHiddenValue": "Yes", "ShowSummaryChangeOption": "Y"},
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et1SectionOne",
