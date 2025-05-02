@@ -11,7 +11,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "ecmCaseLink",
-    "TabFieldDisplayOrder": 29,
+    "TabFieldDisplayOrder": 34,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
@@ -19,7 +19,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "ecmCaseLinkLabel",
-    "TabFieldDisplayOrder": 30,
+    "TabFieldDisplayOrder": 35,
     "FieldShowCondition": "ecmCaseLink=\"*\""
   }
 ]

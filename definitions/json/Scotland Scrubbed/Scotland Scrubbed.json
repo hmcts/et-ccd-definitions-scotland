@@ -827,6 +827,12 @@
     "ListElement": "Notice of a claim",
     "DisplayOrder": 4
   },
+    {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "Acknowledgement of claim",
+    "ListElement": "Acknowledgement of claim",
+    "DisplayOrder": 4
+  },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3",
@@ -6615,6 +6621,12 @@
     "ListElementCode": "Other",
     "ListElement": "Other",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Misc",
+    "ListElementCode": "Needs updating",
+    "ListElement": "NEEDS UPDATING",
+    "DisplayOrder": 4
   },
   {
     "ID": "msl_Yes",
