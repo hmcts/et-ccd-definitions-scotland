@@ -1300,7 +1300,6 @@
     "ListElementCode": "name_of_organisation",
     "FieldType": "Text",
     "ElementLabel": "Name of Organisation",
-    "FieldShowCondition": "myHmctsYesNo=\"No\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
