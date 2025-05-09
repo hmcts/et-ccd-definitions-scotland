@@ -25194,5 +25194,23 @@
     "CaseFieldID": "respondentTse",
     "UserRole": "citizen",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "acasCertificateRequired",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "acasCertificateRequired",
+    "UserRole": "[CLAIMANTSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "acasCertificateRequired",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
