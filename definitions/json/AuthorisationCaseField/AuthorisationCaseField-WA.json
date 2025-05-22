@@ -43,6 +43,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "hearingDetailsCollection",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "referCaseTo",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
