@@ -814,9 +814,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "allocateHearingSitAlone",
-    "Label": "Sit Alone or Full Panel",
+    "Label": "Panel Type",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_SitAlone",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "allocateHearingAdditionalJudge",
+    "Label": "Employment Judge",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },

@@ -1164,6 +1164,12 @@
     "DisplayOrder": 2
   },
   {
+    "ID": "frl_SitAlone",
+    "ListElementCode": "Two Judges",
+    "ListElement": "Two Judges",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "fl_Stage",
     "ListElementCode": "Stage 1",
     "ListElement": "Stage 1",
