@@ -961,8 +961,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "adrDocuments",
-    "Name": "ADR Documents",
-    "Description": "View ADR Documents",
+    "Name": "ADR/Privileged Documents",
+    "Description": "View ADR/Privileged Documents",
     "DisplayOrder": 53,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
