@@ -973,7 +973,7 @@
     "TabDisplayOrder": 9,
     "CaseFieldID": "hearingCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue_Scotland)"
+    "DisplayContextParameter": "#TABLE(hearingNumber, Hearing_type, Hearing_venue_Scotland)"
   },
   {
     "CaseTypeID": "ET_Scotland",
