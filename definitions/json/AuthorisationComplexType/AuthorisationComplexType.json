@@ -683,7 +683,7 @@
     "CaseFieldID": "additionalCaseInfo",
     "ListElementCode": "interventionRequired",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_Scotland",
