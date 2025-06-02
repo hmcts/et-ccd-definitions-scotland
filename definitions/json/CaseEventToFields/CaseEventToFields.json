@@ -1727,6 +1727,18 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "allocateHearing",
+    "CaseFieldID": "allocateHearingAdditionalJudge",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "allocateHearingSitAlone=\"Two Judges\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "allocateHearing",
     "CaseFieldID": "allocateHearingEmployerMember",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
