@@ -1174,6 +1174,6 @@
     "FieldShowCondition": "responseReceived=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
-    "Searchable": "N"
+    "Searchable": "Y"
   }
 ]
