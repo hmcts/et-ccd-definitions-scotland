@@ -1165,5 +1165,15 @@
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3NotificationAcceptedDate",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
   }
 ]
