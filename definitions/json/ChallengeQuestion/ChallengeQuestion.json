@@ -3,27 +3,18 @@
         "CaseTypeID": "ET_Scotland",
         "ID": "NoCChallenge",
         "DisplayOrder": "1",
-        "QuestionText": "Respondent Name",
+        "QuestionText": "Please enter the name of the party you are representing",
         "AnswerFieldType": "Text",
-        "Answer": "${noticeOfChangeAnswers0.respondentName}:[SOLICITORA],${noticeOfChangeAnswers1.respondentName}:[SOLICITORB],${noticeOfChangeAnswers2.respondentName}:[SOLICITORC],${noticeOfChangeAnswers3.respondentName}:[SOLICITORD],${noticeOfChangeAnswers4.respondentName}:[SOLICITORE],${noticeOfChangeAnswers5.respondentName}:[SOLICITORF],${noticeOfChangeAnswers6.respondentName}:[SOLICITORG],${noticeOfChangeAnswers7.respondentName}:[SOLICITORH],${noticeOfChangeAnswers8.respondentName}:[SOLICITORI],${noticeOfChangeAnswers9.respondentName}:[SOLICITORJ]",
-        "QuestionId": "respondentName"
+        "Answer": "${claimant}:[CLAIMANTSOLICITOR],${noticeOfChangeAnswers0.partyName}:[SOLICITORA],${noticeOfChangeAnswers1.partyName}:[SOLICITORB],${noticeOfChangeAnswers2.partyName}:[SOLICITORC],${noticeOfChangeAnswers3.partyName}:[SOLICITORD],${noticeOfChangeAnswers4.partyName}:[SOLICITORE],${noticeOfChangeAnswers5.partyName}:[SOLICITORF],${noticeOfChangeAnswers6.partyName}:[SOLICITORG],${noticeOfChangeAnswers7.partyName}:[SOLICITORH],${noticeOfChangeAnswers8.partyName}:[SOLICITORI],${noticeOfChangeAnswers9.partyName}:[SOLICITORJ]",
+        "QuestionId": "partyName"
     },
     {
         "CaseTypeID": "ET_Scotland",
         "ID": "NoCChallenge",
         "DisplayOrder": "2",
-        "QuestionText": "Claimant First Name",
+        "QuestionText": "Employment Case Number",
         "AnswerFieldType": "Text",
-        "Answer": "${noticeOfChangeAnswers0.claimantFirstName}:[SOLICITORA],${noticeOfChangeAnswers1.claimantFirstName}:[SOLICITORB],${noticeOfChangeAnswers2.claimantFirstName}:[SOLICITORC],${noticeOfChangeAnswers3.claimantFirstName}:[SOLICITORD],${noticeOfChangeAnswers4.claimantFirstName}:[SOLICITORE],${noticeOfChangeAnswers5.claimantFirstName}:[SOLICITORF],${noticeOfChangeAnswers6.claimantFirstName}:[SOLICITORG],${noticeOfChangeAnswers7.claimantFirstName}:[SOLICITORH],${noticeOfChangeAnswers8.claimantFirstName}:[SOLICITORI],${noticeOfChangeAnswers9.claimantFirstName}:[SOLICITORJ]",
-        "QuestionId": "claimantFirstName"
-    },
-    {
-        "CaseTypeID": "ET_Scotland",
-        "ID": "NoCChallenge",
-        "DisplayOrder": "3",
-        "QuestionText": "Claimant Last Name",
-        "AnswerFieldType": "Text",
-        "Answer": "${noticeOfChangeAnswers0.claimantLastName}:[SOLICITORA],${noticeOfChangeAnswers1.claimantLastName}:[SOLICITORB],${noticeOfChangeAnswers2.claimantLastName}:[SOLICITORC],${noticeOfChangeAnswers3.claimantLastName}:[SOLICITORD],${noticeOfChangeAnswers4.claimantLastName}:[SOLICITORE],${noticeOfChangeAnswers5.claimantLastName}:[SOLICITORF],${noticeOfChangeAnswers6.claimantLastName}:[SOLICITORG],${noticeOfChangeAnswers7.claimantLastName}:[SOLICITORH],${noticeOfChangeAnswers8.claimantLastName}:[SOLICITORI],${noticeOfChangeAnswers9.claimantLastName}:[SOLICITORJ]",
-        "QuestionId": "claimantLastName"
+        "Answer": "${ethosCaseReference}:[CLAIMANTSOLICITOR],${ethosCaseReference}:[SOLICITORA],${ethosCaseReference}:[SOLICITORB],${ethosCaseReference}:[SOLICITORC],${ethosCaseReference}:[SOLICITORD],${ethosCaseReference}:[SOLICITORE],${ethosCaseReference}:[SOLICITORF],${ethosCaseReference}:[SOLICITORG],${ethosCaseReference}:[SOLICITORH],${ethosCaseReference}:[SOLICITORI],${ethosCaseReference}:[SOLICITORJ]",
+        "QuestionId": "caseReference"
     }
 ]
