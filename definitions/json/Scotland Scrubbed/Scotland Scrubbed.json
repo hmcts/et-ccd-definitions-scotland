@@ -2664,93 +2664,45 @@
   },
   {
     "ID": "fl_Part_1",
-    "ListElementCode": "3.1",
-    "ListElement": "3 1 Acknowledgment of claim open track Aberdeen",
-    "DisplayOrder": 5
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "3.2",
-    "ListElement": "3.2  Acknowledgment of claim open track Dundee",
-    "DisplayOrder": 6
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "3.3",
-    "ListElement": "3.3 Acknowledgment of claim open track Edinburgh",
-    "DisplayOrder": 7
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "3.4",
-    "ListElement": "3.4 Acknowledgment of claim open track Glasgow",
-    "DisplayOrder": 8
-  },
-  {
-    "ID": "fl_Part_1",
     "ListElementCode": "3.5",
     "ListElement": "3.5 Letter to claimant when time bar issue identified",
-    "DisplayOrder": 9
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_Part_1",
     "ListElementCode": "4",
     "ListElement": "4 Application for reconsideration not considered – failure to comply with rule 14(2)",
-    "DisplayOrder": 10
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_Part_1",
     "ListElementCode": "5",
     "ListElement": "5 Application for reconsideration granted",
-    "DisplayOrder": 11
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_1",
     "ListElementCode": "6",
     "ListElement": "6 Application for reconsideration – rejection confirmed",
-    "DisplayOrder": 12
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_Part_1",
     "ListElementCode": "7",
     "ListElement": "7 Notice of claim standard",
-    "DisplayOrder": 13
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_Part_1",
     "ListElementCode": "7 Reform",
     "ListElement": "7 Reform Notice of claim standard",
-    "DisplayOrder": 14
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "7.1",
-    "ListElement": "7.1 Notice of claim open track Aberdeen",
-    "DisplayOrder": 15
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "7.2",
-    "ListElement": "7.2 Notice of claim open track Dundee",
-    "DisplayOrder": 16
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "7.3",
-    "ListElement": "7.3 Notice of claim open track Edinburgh",
-    "DisplayOrder": 17
-  },
-  {
-    "ID": "fl_Part_1",
-    "ListElementCode": "7.4",
-    "ListElement": "7.4 Notice of claim open track Glasgow",
-    "DisplayOrder": 18
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_Part_1",
     "ListElementCode": "7.5",
     "ListElement": "7.5 Letter to respondent when time bar issue identified",
-    "DisplayOrder": 19
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_Part_2",
@@ -3234,33 +3186,27 @@
   },
   {
     "ID": "fl_Part_8",
-    "ListElementCode": "65",
-    "ListElement": "65 Hearing cancelled pending settlement",
-    "DisplayOrder": 2
-  },
-  {
-    "ID": "fl_Part_8",
     "ListElementCode": "66",
     "ListElement": "66 Case remains listed pending settlement",
-    "DisplayOrder": 3
+    "DisplayOrder": 2
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "67",
     "ListElement": "67 Settlement intimated by parties",
-    "DisplayOrder": 4
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "68",
     "ListElement": "68 Settlement intimated by ACAS",
-    "DisplayOrder": 5
+    "DisplayOrder": 4
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "69",
     "ListElement": "69 Judgment rule 51 dismissal on withdrawal",
-    "DisplayOrder": 6
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_Part_9",
@@ -3270,201 +3216,189 @@
   },
   {
     "ID": "fl_Part_9",
-    "ListElementCode": "72",
-    "ListElement": "72 Short track notice of claim and notice of hearing",
-    "DisplayOrder": 2
-  },
-  {
-    "ID": "fl_Part_9",
-    "ListElementCode": "72 Reform",
-    "ListElement": "72 Reform Short track notice of claim and notice of hearing",
-    "DisplayOrder": 3
-  },
-  {
-    "ID": "fl_Part_9",
     "ListElementCode": "73",
     "ListElement": "73 Notice of preliminary hearing",
-    "DisplayOrder": 4
+    "DisplayOrder": 2
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "74",
     "ListElement": "74 Notice of final hearing",
-    "DisplayOrder": 5
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "75",
     "ListElement": "75 Acknowledgment of claim and notice of preliminary hearing open track",
-    "DisplayOrder": 6
+    "DisplayOrder": 4
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "76",
     "ListElement": "76 Notice of claim and notice of preliminary hearing open track",
-    "DisplayOrder": 7
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "76 Reform",
     "ListElement": "76 Reform Notice of claim and notice of preliminary hearing open track",
-    "DisplayOrder": 8
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "77.1",
     "ListElement": "77.1 Ack of OT claim and notice of CVP CMPH",
-    "DisplayOrder": 9
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "77.2",
     "ListElement": "77.2 Notice of OT claim and notice of CVP CMPH",
-    "DisplayOrder": 10
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "77.2 Reform",
     "ListElement": "77.2 Reform Notice of OT claim and notice of CVP CMPH",
-    "DisplayOrder": 11
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "78",
     "ListElement": "78 Date listing letters final hearing (not UDL)",
-    "DisplayOrder": 12
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "79",
     "ListElement": "79 Date listing letters UDL",
-    "DisplayOrder": 13
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "80",
     "ListElement": "80 Decision on request for full tribunal for preliminary hearing",
-    "DisplayOrder": 14
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "81",
     "ListElement": "81 Notice of hearing to reconsider rejection of claim/response/employer’s contract claim/reply to contract claim",
-    "DisplayOrder": 15
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "82",
     "ListElement": "82 Notice of hearing to consider dismissal of claim response under Rule 28",
-    "DisplayOrder": 16
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "83",
     "ListElement": "83 Notice of hearing to consider dismissal of response under Rule 29",
-    "DisplayOrder": 17
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "84",
     "ListElement": "84 Notice of reconsideration hearing (judgment)",
-    "DisplayOrder": 18
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "85",
     "ListElement": "85 Notice of remedy hearing",
-    "DisplayOrder": 19
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "86",
     "ListElement": "86 Notice of expenses hearing",
-    "DisplayOrder": 20
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "87",
     "ListElement": "87 Notice of hearing to consider Rule 22 judgment",
-    "DisplayOrder": 21
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "90",
     "ListElement": "90 Notice of continued hearing",
-    "DisplayOrder": 22
+    "DisplayOrder": 20
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91",
     "ListElement": "91 Notice of postponement of hearing",
-    "DisplayOrder": 23
+    "DisplayOrder": 21
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91.A",
     "ListElement": "91A Notice of hearing to consider respondent’s application for extension of time to submit a response",
-    "DisplayOrder": 24
+    "DisplayOrder": 22
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "91.B",
     "ListElement": "91B Notice of hearing to consider claimant’s application for extension of time to submit a reply to an employer’s contract claim",
-    "DisplayOrder": 25
+    "DisplayOrder": 23
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "195",
     "ListElement": "195 Acknowledgement of appeal and notice of preliminary hearing",
-    "DisplayOrder": 26
+    "DisplayOrder": 24
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "196",
     "ListElement": "196 Notice of appeal and notice of preliminary hearing",
-    "DisplayOrder": 27
+    "DisplayOrder": 25
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "198",
     "ListElement": "198 Notice of preliminary hearing (deposit)",
-    "DisplayOrder": 28
+    "DisplayOrder": 26
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "199",
     "ListElement": "199 Notice of preliminary hearing (preliminary issue)",
-    "DisplayOrder": 29
+    "DisplayOrder": 27
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "200",
     "ListElement": "200 Notice of preliminary hearing (strike out)",
-    "DisplayOrder": 30
+    "DisplayOrder": 28
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "201",
     "ListElement": "201 Notice of preliminary hearing (case management)",
-    "DisplayOrder": 31
+    "DisplayOrder": 29
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "202",
     "ListElement": "202 Notice of preliminary hearing (strike out and deposit)",
-    "DisplayOrder": 32
+    "DisplayOrder": 30
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "222",
     "ListElement": "222 Postponement Granted Rule 32",
-    "DisplayOrder": 33
+    "DisplayOrder": 31
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "223",
     "ListElement": "223 Postponement Refused Rule 32",
-    "DisplayOrder": 34
+    "DisplayOrder": 32
   },
   {
     "ID": "fl_Part_10",
@@ -3702,267 +3636,225 @@
   },
   {
     "ID": "fl_Part_13",
-    "ListElementCode": "121",
-    "ListElement": "121 Request for transfer to England and Wales",
-    "DisplayOrder": 14
-  },
-  {
-    "ID": "fl_Part_13",
     "ListElementCode": "122",
     "ListElement": "122 Request for comments on correspondence",
-    "DisplayOrder": 15
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "123.C",
     "ListElement": "123C Return of documents to claimant",
-    "DisplayOrder": 16
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "123.R",
     "ListElement": "123R Return of documents to respondent",
-    "DisplayOrder": 17
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "124.C",
     "ListElement": "124C Return of productions to claimant",
-    "DisplayOrder": 18
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "124.R",
     "ListElement": "124R Return of productions to respondent",
-    "DisplayOrder": 19
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "125.C",
     "ListElement": "125C Change of address claimant",
-    "DisplayOrder": 20
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "125.R",
     "ListElement": "125R Change of address respondent",
-    "DisplayOrder": 21
+    "DisplayOrder": 20
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "126",
     "ListElement": "126 Decision on transfer between offices in Scotland",
-    "DisplayOrder": 22
+    "DisplayOrder": 21
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "127",
     "ListElement": "127 Blank Scottish letter template",
-    "DisplayOrder": 23
+    "DisplayOrder": 22
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "128",
     "ListElement": "128 Sist police enquiries",
-    "DisplayOrder": 24
+    "DisplayOrder": 23
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "129.C",
     "ListElement": "129C Soul and conscience certificate for claimant",
-    "DisplayOrder": 25
+    "DisplayOrder": 24
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "129.R",
     "ListElement": "129R Soul and conscience certificate for respondent",
-    "DisplayOrder": 26
+    "DisplayOrder": 25
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "130",
     "ListElement": "130 Request not to copy to respondent",
-    "DisplayOrder": 27
+    "DisplayOrder": 26
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "131",
     "ListElement": "131 Claim in which S of S may be liable",
-    "DisplayOrder": 28
+    "DisplayOrder": 27
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "132",
     "ListElement": "132 Serve afresh",
-    "DisplayOrder": 29
+    "DisplayOrder": 28
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "133",
     "ListElement": "133 Trading name respondent",
-    "DisplayOrder": 30
+    "DisplayOrder": 29
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "134",
     "ListElement": "134 Recall of sist",
-    "DisplayOrder": 31
+    "DisplayOrder": 30
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "135",
     "ListElement": "135 Respondent in administration – consent required",
-    "DisplayOrder": 32
+    "DisplayOrder": 31
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "136",
     "ListElement": "136 Administration show cause",
-    "DisplayOrder": 33
+    "DisplayOrder": 32
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "137",
     "ListElement": "137 Strike out judgment administration",
-    "DisplayOrder": 34
+    "DisplayOrder": 33
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "138",
     "ListElement": "138 Compulsory liquidation-consent required",
-    "DisplayOrder": 35
+    "DisplayOrder": 34
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "139",
     "ListElement": "139 Compulsory liquidation show cause",
-    "DisplayOrder": 36
+    "DisplayOrder": 35
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "140",
     "ListElement": "140 Strike out judgment comp liquidation",
-    "DisplayOrder": 37
+    "DisplayOrder": 36
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "141",
     "ListElement": "141 Consent to EJ sitting alone",
-    "DisplayOrder": 38
+    "DisplayOrder": 37
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "142",
     "ListElement": "142 Consent to EJ and 1 member",
-    "DisplayOrder": 39
-  },
-  {
-    "ID": "fl_Part_13",
-    "ListElementCode": "143",
-    "ListElement": "143 Change of time of hearing",
-    "DisplayOrder": 40
+    "DisplayOrder": 38
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "144",
     "ListElement": "144 Change in length of hearing",
-    "DisplayOrder": 41
+    "DisplayOrder": 39
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "145",
     "ListElement": "145 Letter enclosing extract of award",
-    "DisplayOrder": 42
+    "DisplayOrder": 40
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "146",
     "ListElement": "146 Letter certified judgment –respondent in E & W",
-    "DisplayOrder": 43
+    "DisplayOrder": 41
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "147",
     "ListElement": "147 Extract refused – have not received recoupment notice",
-    "DisplayOrder": 44
+    "DisplayOrder": 42
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "148",
     "ListElement": "148 Company dissolved cannot proceed",
-    "DisplayOrder": 45
+    "DisplayOrder": 43
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "149",
     "ListElement": "149 Company dissolved show cause",
-    "DisplayOrder": 46
+    "DisplayOrder": 44
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "150",
     "ListElement": "150 Company dissolved strike out judgment",
-    "DisplayOrder": 47
+    "DisplayOrder": 45
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "151",
     "ListElement": "151 Insolvency RPO claims enquiry",
-    "DisplayOrder": 48
-  },
-  {
-    "ID": "fl_Part_13",
-    "ListElementCode": "152",
-    "ListElement": "152 Fax cover sheet",
-    "DisplayOrder": 49
-  },
-  {
-    "ID": "fl_Part_13",
-    "ListElementCode": "208",
-    "ListElement": "208 Postponed - no Notice to Pay ",
-    "DisplayOrder": 50
+    "DisplayOrder": 46
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "219",
     "ListElement": "219 Letter to Companies House Strike Out/Dissolution",
-    "DisplayOrder": 51
+    "DisplayOrder": 47
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "220",
     "ListElement": "220 Letter to claimant enclosing reply from Companies House",
-    "DisplayOrder": 52
+    "DisplayOrder": 48
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "221",
     "ListElement": "221 Equal Pay Status Enquiry",
-    "DisplayOrder": 53
+    "DisplayOrder": 49
   },
   {
     "ID": "fl_Part_13",
     "ListElementCode": "226",
     "ListElement": "226 Serve Afresh Respondent",
-    "DisplayOrder": 54
-  },
-  {
-    "ID": "fl_Part_13",
-    "ListElementCode": "227",
-    "ListElement": "227 Reinstatement - claim rejected at issue fee stage, we cannot recover the ET1",
-    "DisplayOrder": 55
-  },
-  {
-    "ID": "fl_Part_13",
-    "ListElementCode": "228",
-    "ListElement": "228 Reinstatement - claim dismissed for non-payment of hearing fee",
-    "DisplayOrder": 56
-  },
-  {
-    "ID": "fl_Part_13",
-    "ListElementCode": "229",
-    "ListElement": "229 Reinstatement - claim dismissed for non-payment of hearing fee - no file",
-    "DisplayOrder": 57
+    "DisplayOrder": 50
   },
   {
     "ID": "fl_Part_14",
