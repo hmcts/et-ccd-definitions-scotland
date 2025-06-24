@@ -14,7 +14,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseApplicationStoredCollection",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   }
 ]
