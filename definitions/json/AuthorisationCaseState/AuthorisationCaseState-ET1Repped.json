@@ -25,6 +25,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Submitted",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseStateID": "Vetted",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"

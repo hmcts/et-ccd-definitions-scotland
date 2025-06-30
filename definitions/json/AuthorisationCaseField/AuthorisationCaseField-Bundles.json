@@ -332,12 +332,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "bundlesTabTitle",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "bundlesTabTitle",
     "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
