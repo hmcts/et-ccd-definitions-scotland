@@ -5631,7 +5631,7 @@
     "CaseTypeID": "ET_Scotland_Listings",
     "ID": "showAll",
     "Label": "Show all cases?",
-    "HintText": "Includes Settled, Withdrawn and Postponed",
+    "HintText": "Includes Settled, Withdrawn, Postponed and Vacated",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
