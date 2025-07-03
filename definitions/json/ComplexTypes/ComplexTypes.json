@@ -1381,7 +1381,7 @@
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_preference_reason",
     "FieldType": "Text",
-    "ElementLabel": "Representative preference reason",
+    "ElementLabel": "Representative contact preference reason",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
