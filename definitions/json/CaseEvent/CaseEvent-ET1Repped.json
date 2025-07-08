@@ -116,6 +116,21 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantRespondNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantRespondNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/claimantRespondNotification/submitted"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepresentativeDetails",
+    "Name": "Amend contact details",
+    "Description": "Claimant - Amend Contact Details",
+    "DisplayOrder": 62,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et1Repped/aboutToStartRepresentativeInfo",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/aboutToSubmitRepresentativeInfo",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Repped/representativeInfoSubmitted"
   }
 ]
 
