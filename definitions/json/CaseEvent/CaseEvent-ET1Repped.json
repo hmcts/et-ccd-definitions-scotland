@@ -123,14 +123,13 @@
     "Name": "Amend contact details",
     "Description": "Claimant - Amend Contact Details",
     "DisplayOrder": 62,
-    "PreConditionState(s)": "*",
+    "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et1Repped/aboutToStartRepresentativeInfo",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/aboutToSubmitRepresentativeInfo",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Repped/representativeInfoSubmitted"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/aboutToSubmitRepresentativeInfo"
   }
 ]
 
