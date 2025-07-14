@@ -13909,6 +13909,62 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "et3ResponseContactLanguage",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "[SOLICITORA]",
+          "[SOLICITORB]",
+          "[SOLICITORC]",
+          "[SOLICITORD]",
+          "[SOLICITORE]",
+          "[SOLICITORF]",
+          "[SOLICITORG]",
+          "[SOLICITORH]",
+          "[SOLICITORI]",
+          "[SOLICITORJ]",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "[CLAIMANTSOLICITOR]"
+        ],
+        "CRUD": "D"
+      }
+    ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "et3ResponseAddress",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "[SOLICITORA]",
+          "[SOLICITORB]",
+          "[SOLICITORC]",
+          "[SOLICITORD]",
+          "[SOLICITORE]",
+          "[SOLICITORF]",
+          "[SOLICITORG]",
+          "[SOLICITORH]",
+          "[SOLICITORI]",
+          "[SOLICITORJ]",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "[CLAIMANTSOLICITOR]"
+        ],
+        "CRUD": "D"
+      }
+    ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "et3ResponseHearingPreamble",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
