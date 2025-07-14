@@ -118,6 +118,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "et3RespondentRepresentativeDetails",
+    "Name": "Amend contact details",
+    "Description": "Amend contact details",
+    "DisplayOrder": 53,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStartRepresentativeInfo",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitRepresentativeInfo"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseEmploymentDetails",
     "Name": "ET3 - Employment Details",
     "Description": "ET3 - Employment Details",
