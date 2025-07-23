@@ -3,7 +3,7 @@
         "CaseTypeID": "ET_Scotland",
         "ID": "NoCChallenge",
         "DisplayOrder": "1",
-        "QuestionText": "Enter the fill name of the party you are representing, exactly as it is written on the ET1 claim form",
+        "QuestionText": "Enter the full name of the party you are representing, exactly as it is written on the ET1 claim form",
         "AnswerFieldType": "Text",
         "Answer": "${claimant}:[CLAIMANTSOLICITOR],${noticeOfChangeAnswers0.respondentName}:[SOLICITORA],${noticeOfChangeAnswers1.respondentName}:[SOLICITORB],${noticeOfChangeAnswers2.respondentName}:[SOLICITORC],${noticeOfChangeAnswers3.respondentName}:[SOLICITORD],${noticeOfChangeAnswers4.respondentName}:[SOLICITORE],${noticeOfChangeAnswers5.respondentName}:[SOLICITORF],${noticeOfChangeAnswers6.respondentName}:[SOLICITORG],${noticeOfChangeAnswers7.respondentName}:[SOLICITORH],${noticeOfChangeAnswers8.respondentName}:[SOLICITORI],${noticeOfChangeAnswers9.respondentName}:[SOLICITORJ]",
         "QuestionId": "respondentName"
