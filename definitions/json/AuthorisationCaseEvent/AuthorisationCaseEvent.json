@@ -2161,7 +2161,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "refreshSharedUsers",
-    "UserRole": "caseworker-employment-englandwales",
+    "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
   },
   {
