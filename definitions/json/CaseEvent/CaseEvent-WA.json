@@ -57,6 +57,7 @@
     "PreConditionState(s)": "Accepted;Rejected;Vetted",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "EventEnablingCondition": "caseType !=\"Multiple\" AND preAcceptCase.caseAccepted !=\"Yes\" AND managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/preAcceptanceCase/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
