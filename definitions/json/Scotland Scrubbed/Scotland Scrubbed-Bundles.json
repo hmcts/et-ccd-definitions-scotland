@@ -12,16 +12,22 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "frl_bundlesWhoseDocuments",
-    "ListElement": "Both parties' hearing documents combined",
-    "ListElementCode": "Both parties' hearing documents combined",
-    "DisplayOrder": 2
+    "ID": "frl_bundlesRespondentAgreedDocWith",
+    "ListElement": "No, we have not agreed and I want to provide my own documents",
+    "ListElementCode": "No",
+    "DisplayOrder": 3
   },
   {
     "ID": "frl_bundlesWhoseDocuments",
     "ListElement": "Respondent's documents only",
     "ListElementCode": "Respondent's documents only",
     "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundlesWhoseDocuments",
+    "ListElement": "Both parties' hearing documents combined",
+    "ListElementCode": "Both parties' hearing documents combined",
+    "DisplayOrder": 2
   },
   {
     "ID": "frl_bundlesWhatDocuments",
@@ -42,12 +48,6 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "frl_bundlesRespondentAgreedDocWith",
-    "ListElement": "No, we have not agreed and I want to provide my own documents",
-    "ListElementCode": "No",
-    "DisplayOrder": 3
-  },
-  {
     "ID": "fl_selectHearingBundlesCollection",
     "ListElement": "Claimant's Hearing Bundles",
     "ListElementCode": "selectClaimantHearingBundles",
@@ -58,5 +58,41 @@
     "ListElement": "Respondent's Hearing Bundles",
     "ListElementCode": "selectRespondentHearingBundles",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_futureOrPastHearing",
+    "ListElement": "Past",
+    "ListElementCode": "Past",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_futureOrPastHearing",
+    "ListElement": "Future",
+    "ListElementCode": "Future",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundleType",
+    "ListElement": "Hearing Bundle",
+    "ListElementCode": "Hearing Bundle",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_bundleType",
+    "ListElement": "Witness Statements",
+    "ListElementCode": "Witness Statements",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_bundleType",
+    "ListElement": "Case management agenda",
+    "ListElementCode": "Case management agenda",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_bundleType",
+    "ListElement": "Other",
+    "ListElementCode": "Other",
+    "DisplayOrder": 4
   }
 ]

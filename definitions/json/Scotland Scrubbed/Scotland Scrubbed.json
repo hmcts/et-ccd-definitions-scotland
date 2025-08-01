@@ -1499,13 +1499,13 @@
     "DisplayOrder": 5
   },
   {
-    "ID": "fl_Costs",
+    "ID": "fl_ClaimantOrRespondent",
     "ListElementCode": "Claimant",
     "ListElement": "Claimant",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_Costs",
+    "ID": "fl_ClaimantOrRespondent",
     "ListElementCode": "Respondent",
     "ListElement": "Respondent",
     "DisplayOrder": 2
@@ -5615,19 +5615,19 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "fl_tseAdminSelectPartyRespond",
+    "ID": "fl_ClaimantRespondentBothParties",
     "ListElement": "Both parties",
     "ListElementCode": "Both parties",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_tseAdminSelectPartyRespond",
+    "ID": "fl_ClaimantRespondentBothParties",
     "ListElement": "Claimant",
     "ListElementCode": "Claimant",
     "DisplayOrder": 2
   },
   {
-    "ID": "fl_tseAdminSelectPartyRespond",
+    "ID": "fl_ClaimantRespondentBothParties",
     "ListElement": "Respondent",
     "ListElementCode": "Respondent",
     "DisplayOrder": 3
@@ -6723,5 +6723,17 @@
     "ListElementCode": "5 Updated schedule of loss",
     "ListElement": "5 Updated schedule of loss",
     "DisplayOrder": 5
+  },
+  {
+    "ID": "frl_ClaimantOrRespondents",
+    "ListElementCode": "Claimant",
+    "ListElement": "Claimant",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_ClaimantOrRespondents",
+    "ListElementCode": "Respondent",
+    "ListElement": "Respondent(s)",
+    "DisplayOrder": 2
   }
 ]
