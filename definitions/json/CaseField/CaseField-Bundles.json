@@ -211,7 +211,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "uploadHearingDocumentsDateSubmitted",
-    "Label": "What date was these documents submitted?",
+    "Label": "What date were these documents submitted?",
     "FieldType": "Date",
     "SecurityClassification": "Public",
     "Searchable": "N"
