@@ -46,7 +46,31 @@
     "ID": "HearingBundle",
     "ListElementCode": "whatDocuments",
     "FieldType": "Text",
-    "ElementLabel": "What are these hearing documents?",
+    "ElementLabel": "Type",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "whatDocumentsOther",
+    "FieldType": "Text",
+    "ElementLabel": "Type (other)",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "submittedDate",
+    "FieldType": "Text",
+    "ElementLabel": "Submitted",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "HearingBundle",
+    "ListElementCode": "uploadedBy",
+    "FieldType": "Text",
+    "ElementLabel": "Uploaded by",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -113,5 +137,32 @@
     "ElementLabel": "Short Description",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "HearingDocumentUpload",
+    "ListElementCode": "document",
+    "FieldType": "Document",
+    "ElementLabel": "Upload Hearing Documents",
+    "FieldTypeParameter": "DocumentUpload",
+    "RegularExpression": ".pdf",
+    "CategoryID": "C57",
+    "HintText": "Upload a single PDF file containing the hearing documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDocumentUpload",
+    "ListElementCode": "type",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "What are these hearing documents?",
+    "FieldTypeParameter": "frl_bundleType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDocumentUpload",
+    "ListElementCode": "typeOther",
+    "FieldType": "Text",
+    "ElementLabel": "Please specify",
+    "FieldShowCondition": "type=\"Other\"",
+    "SecurityClassification": "Public"
   }
 ]

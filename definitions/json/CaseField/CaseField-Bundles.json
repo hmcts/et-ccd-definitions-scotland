@@ -147,5 +147,73 @@
     "FieldTypeParameter": "RemovedHearingBundle",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsSelectPastOrFutureHearing",
+    "Label": "Select if the hearing is in the past or in the future",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_futureOrPastHearing",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsSelectFutureHearing",
+    "Label": "Select which hearing these documents are for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsSelectPastHearing",
+    "Label": "Select which hearing these documents are for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentType",
+    "Label": "Upload Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingDocumentUpload",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsWhatAreDocuments",
+    "Label": "What are these hearing documents?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundleType",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsWhatAreDocumentsOther",
+    "Label": "Please specify",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsWhoseDocuments",
+    "Label": "Which party has submitted these documents?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ClaimantOrRespondents",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocumentsDateSubmitted",
+    "Label": "What date was these documents submitted?",
+    "FieldType": "Date",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
