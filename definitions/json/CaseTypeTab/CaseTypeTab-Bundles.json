@@ -7,7 +7,7 @@
     "CaseFieldID": "bundlesRespondentCollection",
     "TabFieldDisplayOrder": 1,
     "TabDisplayOrder": 17,
-    "DisplayContextParameter": "#TABLE(formattedSelectedHearing,uploadDateTime,uploadFile)"
+    "DisplayContextParameter": "#TABLE(formattedSelectedHearing,uploadDateTime,uploadFile)",
     "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
