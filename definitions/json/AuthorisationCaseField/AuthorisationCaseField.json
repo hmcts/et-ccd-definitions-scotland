@@ -2526,6 +2526,12 @@
     "CRUD": "R"
   },
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRepresentativeRemoved",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentCollection",
     "UserRole": "caseworker-employment-legalrep-solicitor",
