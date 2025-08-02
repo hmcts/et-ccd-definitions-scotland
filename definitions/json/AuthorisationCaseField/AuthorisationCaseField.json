@@ -2526,7 +2526,7 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantRepresentativeRemoved",
     "UserRole": "citizen",
     "CRUD": "CRUD"

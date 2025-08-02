@@ -6920,7 +6920,7 @@
     "Searchable": "Y"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "claimantRepresentativeRemoved",
     "Label": " ",
     "FieldType": "YesOrNo",
