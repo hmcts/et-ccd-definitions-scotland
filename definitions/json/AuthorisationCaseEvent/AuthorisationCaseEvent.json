@@ -1196,6 +1196,13 @@
     "CRUD": "CRUD"
   },
   {
+    "LiveFrom": "04/08/2025",
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "applyNocDecision",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "updateRepresentation",
