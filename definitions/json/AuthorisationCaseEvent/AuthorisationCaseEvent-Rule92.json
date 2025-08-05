@@ -2,31 +2,31 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "STORE_CLAIMANT_TSE",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "STORE_CLAIMANT_TSE_RESPOND",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "SUBMIT_STORED_CLAIMANT_TSE_RESPOND",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "STORE_PSE_RESPONSE",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "SUBMIT_STORED_PSE_RESPONSE",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   }
 ]

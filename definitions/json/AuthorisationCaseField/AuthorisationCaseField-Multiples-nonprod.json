@@ -554,12 +554,6 @@
   {
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "referralCollection",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "referralCollection",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRU"
   },
@@ -721,12 +715,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationInfo",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationLetter",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -759,12 +747,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationLetter",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationLetter",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -847,12 +829,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationSubject",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationAdditionalInfo",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -885,12 +861,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationAdditionalInfo",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationAdditionalInfo",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -931,12 +901,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationNotify",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationSelectHearing",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -969,12 +933,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationSelectHearing",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationSelectHearing",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -1015,12 +973,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationCaseManagement",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationResponseTribunal",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1053,12 +1005,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationResponseTribunal",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationResponseTribunal",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -1141,12 +1087,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationFullName",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationSelectParties",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1183,12 +1123,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationSelectParties",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationTitle",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1221,12 +1155,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationTitle",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationTitle",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -1309,12 +1237,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationDecision",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationFullName2",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1351,12 +1273,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationFullName2",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationEccQuestion",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1389,12 +1305,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationEccQuestion",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationEccQuestion",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -1471,12 +1381,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationDetails",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1513,12 +1417,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationRequestMadeBy",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationNotifyLeadCase",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -1545,12 +1443,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationNotifyLeadCase",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationNotifyLeadCase",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -1585,12 +1477,6 @@
   },
   {
     "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationNotifyAll",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationNotifySelected",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -1617,12 +1503,6 @@
     "CaseTypeId": "ET_Scotland_Multiple",
     "CaseFieldID": "sendNotificationNotifySelected",
     "UserRole": "caseworker-employment-scotland",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_Scotland_Multiple",
-    "CaseFieldID": "sendNotificationNotifySelected",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
