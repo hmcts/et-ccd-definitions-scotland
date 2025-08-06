@@ -57,5 +57,25 @@
     "CaseEventID": "removeHearingBundles",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-scotland",
+          "caseworker-employment-etjudge-scotland",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "caseworker-employment-etjudge"
+        ],
+        "CRUD": "R"
+      }
+    ]
   }
 ]
