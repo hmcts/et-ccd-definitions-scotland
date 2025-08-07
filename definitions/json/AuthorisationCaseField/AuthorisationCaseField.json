@@ -16257,6 +16257,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy0",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentOrganisationPolicy1",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
@@ -16272,6 +16278,12 @@
     "CaseFieldID": "respondentOrganisationPolicy1",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy1",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -16293,6 +16305,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy2",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentOrganisationPolicy3",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
@@ -16308,6 +16326,12 @@
     "CaseFieldID": "respondentOrganisationPolicy3",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy3",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -16329,6 +16353,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy4",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentOrganisationPolicy5",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
@@ -16344,6 +16374,12 @@
     "CaseFieldID": "respondentOrganisationPolicy5",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy5",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -16365,6 +16401,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy6",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentOrganisationPolicy7",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
@@ -16380,6 +16422,12 @@
     "CaseFieldID": "respondentOrganisationPolicy7",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy7",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
@@ -16401,6 +16449,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy8",
+    "UserRole": "citizen",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "respondentOrganisationPolicy9",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
@@ -16416,6 +16470,12 @@
     "CaseFieldID": "respondentOrganisationPolicy9",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "respondentOrganisationPolicy9",
+    "UserRole": "citizen",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
