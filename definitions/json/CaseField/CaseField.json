@@ -6918,5 +6918,13 @@
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "claimantRepresentativeRemoved",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

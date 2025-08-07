@@ -1516,6 +1516,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "AdditionalCaseDetails",
+    "ListElementCode": "reservedToJudge",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Reserved to Judge",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "Deposit",
     "ListElementCode": "Deposit_amount",
     "FieldType": "MoneyGBP",
