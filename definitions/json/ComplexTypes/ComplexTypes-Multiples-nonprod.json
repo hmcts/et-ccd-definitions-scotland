@@ -44,33 +44,5 @@
     "ElementLabel": "Date generated",
     "FieldType": "Text",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "caseNote",
-    "ListElementCode": "title",
-    "ElementLabel": "Title",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "caseNote",
-    "ListElementCode": "note",
-    "ElementLabel": "Note",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "caseNote",
-    "ListElementCode": "author",
-    "ElementLabel": "Author",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "caseNote",
-    "ListElementCode": "date",
-    "ElementLabel": "Date",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
   }
 ]

@@ -1061,5 +1061,18 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "EndButtonLabel": "Close and return to case details",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/viewApplicationsAboutToStart"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addCaseNote",
+    "Name": "Add Case Note",
+    "Description": "Add a Case Note",
+    "DisplayOrder": 56,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit"
   }
 ]

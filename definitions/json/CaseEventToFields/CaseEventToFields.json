@@ -9951,5 +9951,14 @@
     "FieldShowCondition": "claimantRepResponseCopyToOtherParty=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "addCaseNote",
+    "CaseFieldID": "addCaseNote",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
   }
 ]
