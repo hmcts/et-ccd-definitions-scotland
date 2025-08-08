@@ -1116,6 +1116,7 @@
       {
         "UserRoles": [
           "et-acas-api"
+          "caseworker-employment"
         ],
         "CRUD": "R"
       }

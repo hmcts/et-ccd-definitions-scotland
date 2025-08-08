@@ -10,6 +10,12 @@
           "caseworker-employment-api"
         ],
         "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "caseworker-employment"
+        ],
+        "CRUD": "R"
       }
     ]
   },
