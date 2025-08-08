@@ -1115,7 +1115,7 @@
       },
       {
         "UserRoles": [
-          "et-acas-api"
+          "et-acas-api",
           "caseworker-employment"
         ],
         "CRUD": "R"
