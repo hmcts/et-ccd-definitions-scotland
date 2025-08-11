@@ -2314,7 +2314,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "RESPONDENT_TSE_RESPOND",
-    "UserRole": "citizen",
     "AccessControl": [
       {
         "UserRoles": [
