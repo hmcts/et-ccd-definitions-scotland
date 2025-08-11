@@ -6723,5 +6723,17 @@
     "ListElementCode": "5 Updated schedule of loss",
     "ListElement": "5 Updated schedule of loss",
     "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_representativeContactChangeOptions",
+    "ListElementCode": "Amend contact details",
+    "ListElement": "Amend contact details",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_representativeContactChangeOptions",
+    "ListElementCode": "Use MyHMCTS details",
+    "ListElement": "Use MyHMCTS details",
+    "DisplayOrder": 2
   }
 ]

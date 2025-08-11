@@ -5698,22 +5698,35 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3RespondentRepresentativeDetails",
-    "CaseFieldID": "et3ResponsePhone",
+    "CaseEventID": "amendRespondentRepresentativeContact",
+    "CaseFieldID": "representativeContactChangeOption",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "amendRespondentRepresentativeContact",
+    "CaseFieldID": "et3ResponsePhone",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "retainHiddenValue": "Yes",
+    "PageShowCondition": "representativeContactChangeOption=\"Amend contact details\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "et3RespondentRepresentativeDetails",
+    "CaseEventID": "amendRespondentRepresentativeContact",
     "CaseFieldID": "et3ResponseAddress",
     "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
+    "retainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
   {

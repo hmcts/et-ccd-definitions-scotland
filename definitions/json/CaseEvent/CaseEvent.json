@@ -118,7 +118,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "et3RespondentRepresentativeDetails",
+    "ID": "amendRespondentRepresentativeContact",
     "Name": "Amend contact details",
     "Description": "Amend contact details",
     "DisplayOrder": 53,
@@ -127,8 +127,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStartRepresentativeInfo",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitRepresentativeInfo"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitAmendRepresentativeContact"
   },
   {
     "CaseTypeID": "ET_Scotland",
