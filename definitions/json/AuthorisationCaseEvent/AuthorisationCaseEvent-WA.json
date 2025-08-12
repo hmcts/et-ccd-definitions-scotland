@@ -97,6 +97,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "draftAndSignJudgement",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"

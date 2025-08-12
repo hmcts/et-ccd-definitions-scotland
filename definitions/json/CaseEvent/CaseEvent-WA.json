@@ -403,6 +403,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "WA_EXPIRED_BF_ACTION_TASK",
+    "Name": "WA_EXPIRED_BF_ACTION_TASK",
+    "Description": "Wa Task for expired Bf Actions",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/waTaskForExpiredBfActions",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgement",
     "Name": "Draft and sign judgment/order",
     "Description": "Draft and sign judgment/order",
