@@ -1116,7 +1116,10 @@
       {
         "UserRoles": [
           "et-acas-api",
-          "caseworker-employment"
+          "caseworker-employment",
+          "caseworker-employment-scotland",
+          "caseworker-employment-etjudge",
+          "caseworker-employment-etjudge-scotland"
         ],
         "CRUD": "R"
       }
