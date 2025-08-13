@@ -10,6 +10,15 @@
           "caseworker-employment-api"
         ],
         "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "caseworker-employment",
+          "caseworker-employment-scotland",
+          "caseworker-employment-etjudge",
+          "caseworker-employment-etjudge-scotland"
+        ],
+        "CRUD": "R"
       }
     ]
   },
