@@ -13895,15 +13895,33 @@
           "[SOLICITORH]",
           "[SOLICITORI]",
           "[SOLICITORJ]",
+          "[CLAIMANTSOLICITOR]",
           "caseworker-employment-api"
         ],
         "CRUD": "CRUD"
-      },
+      }
+    ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "myHmctsAddressText",
+    "AccessControl": [
       {
         "UserRoles": [
-          "[CLAIMANTSOLICITOR]"
+          "[SOLICITORA]",
+          "[SOLICITORB]",
+          "[SOLICITORC]",
+          "[SOLICITORD]",
+          "[SOLICITORE]",
+          "[SOLICITORF]",
+          "[SOLICITORG]",
+          "[SOLICITORH]",
+          "[SOLICITORI]",
+          "[SOLICITORJ]",
+          "[CLAIMANTSOLICITOR]",
+          "caseworker-employment-api"
         ],
-        "CRUD": "D"
+        "CRUD": "CRUD"
       }
     ]
   },
