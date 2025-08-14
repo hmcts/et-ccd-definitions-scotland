@@ -6926,5 +6926,22 @@
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "representativeContactChangeOption",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_representativeContactChangeOptions",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "myHmctsAddressText",
+    "Label": "Chosen address",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

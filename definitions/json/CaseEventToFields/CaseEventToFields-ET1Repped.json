@@ -24,6 +24,10 @@
     "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/sectionOne/validateClaimantSupport",
     "PageLabel": "In the claimant party - are you aware of any physical, mental or learning disability or health condition which requires support?"
   },
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "amendClaimantRepresentativeContact", "CaseFieldID": "representativeContactChangeOption", "DisplayContext": "OPTIONAL", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 1, "ShowSummaryChangeOption": "N", "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/midEventAmendClaimantRepresentativeContact"},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "amendClaimantRepresentativeContact", "CaseFieldID": "representativePhoneNumber", "DisplayContext": "OPTIONAL", "PageID": 2, "PageDisplayOrder": 2, "PageFieldDisplayOrder": 1, "ShowSummaryChangeOption": "Y", "PageShowCondition": "representativeContactChangeOption=\"Amend contact details\""},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "amendClaimantRepresentativeContact", "CaseFieldID": "representativeAddress", "DisplayContext": "OPTIONAL", "PageID": 2, "PageDisplayOrder": 2, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_Scotland", "CaseEventID": "amendClaimantRepresentativeContact", "CaseFieldID": "myHmctsAddressText", "DisplayContext": "READONLY", "PageID": 3, "PageDisplayOrder": 2, "PageFieldDisplayOrder": 1, "ShowSummaryChangeOption": "Y", "PageShowCondition": "representativeContactChangeOption=\"Use MyHMCTS details\""},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "claimantSupportQuestionReason", "DisplayContext": "OPTIONAL", "PageID": 6, "PageDisplayOrder": 6, "PageFieldDisplayOrder": 2, "FieldShowCondition": "claimantSupportQuestion CONTAINS \"Yes\"", "ShowSummaryChangeOption": "Y"},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "representativeInformationPreamble", "DisplayContext": "READONLY", "PageID": 7, "PageDisplayOrder": 7, "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/sectionOne/validateRepresentativeInformation", "PageLabel": "Your information (as the representative)"},
   {"CaseTypeID": "ET_Scotland", "CaseEventID": "et1SectionOne", "CaseFieldID": "representativeContactPreference", "DisplayContext": "OPTIONAL", "PageID": 7, "PageDisplayOrder": 7, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y"},
@@ -380,7 +384,5 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y"
-  },
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "claimantRepresentativeDetails", "CaseFieldID": "representativePhoneNumber", "DisplayContext": "OPTIONAL", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 1, "ShowSummaryChangeOption": "Y"},
-  {"CaseTypeID": "ET_Scotland", "CaseEventID": "claimantRepresentativeDetails", "CaseFieldID": "representativeAddress", "DisplayContext": "OPTIONAL", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y"}
+  }
 ]
