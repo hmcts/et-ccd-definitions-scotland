@@ -413,7 +413,7 @@
     "ShowSummary": "N",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/waTaskForExpiredBfActions",
+    "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
   },

@@ -109,6 +109,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "broughtForward",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "draftAndSignJudgement",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
