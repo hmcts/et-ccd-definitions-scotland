@@ -1320,7 +1320,6 @@
     "Channel": "CaseWorker",
     "TabID": "Applications",
     "TabLabel": "Applications",
-    "TabDisplayOrder": 17,
     "CaseFieldID": "applicationsTab",
     "TabFieldDisplayOrder": 1
   },
@@ -1350,7 +1349,7 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
-    "TabDisplayOrder": 17,
+    "TabDisplayOrder": 18,
     "TabID": "Applications",
     "TabLabel": "Applications",
     "TabFieldDisplayOrder": 4,

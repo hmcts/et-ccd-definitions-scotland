@@ -150,5 +150,68 @@
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Remove Hearing Bundle"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsSelectPastOrFutureHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Upload Hearing Documents"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsSelectPastHearing",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "uploadHearingDocumentsSelectPastOrFutureHearing=\"Past\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsSelectFutureHearing",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "uploadHearingDocumentsSelectPastOrFutureHearing=\"Future\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentType",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsWhoseDocuments",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsDateSubmitted",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
   }
 ]

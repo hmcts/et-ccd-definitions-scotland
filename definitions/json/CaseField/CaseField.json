@@ -4407,7 +4407,7 @@
     "ID": "tseAdminSelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "FieldTypeParameter": "fl_ClaimantRespondentBothParties",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -5011,7 +5011,7 @@
     "ID": "tseAdmReplyRequestSelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "FieldTypeParameter": "fl_ClaimantRespondentBothParties",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -5020,7 +5020,7 @@
     "ID": "tseAdmReplyCmoSelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "FieldTypeParameter": "fl_ClaimantRespondentBothParties",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },

@@ -33,8 +33,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "removeHearingBundles",
-    "Name": "Remove hearing bundles",
-    "Description": "Remove hearing bundles",
+    "Name": "Remove hearing documents",
+    "Description": "Remove hearing documents",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
@@ -43,5 +43,18 @@
     "EventEnablingCondition": " ",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "uploadHearingDocuments",
+    "Name": "Upload Hearing Documents",
+    "Description": "Upload Hearing Documents",
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadHearingDocuments/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadHearingDocuments/aboutToSubmit"
   }
 ]
