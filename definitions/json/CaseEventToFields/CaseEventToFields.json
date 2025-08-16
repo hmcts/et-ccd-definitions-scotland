@@ -5341,10 +5341,72 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "et3Response",
-    "CaseFieldID": "et3ResponseHealthInsetPreamble",
+    "CaseFieldID": "et3ResponseHearingPanelPreamble",
     "DisplayContext": "READONLY",
     "PageID": 10,
     "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Hearing panel preference"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHearingPanelInset1",
+    "DisplayContext": "READONLY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 2,
+    "PageLabel": "Hearing panel preference"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHearingPanelInset2",
+    "DisplayContext": "READONLY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 3,
+    "PageLabel": "Hearing panel preference"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHearingPanelMainBody",
+    "DisplayContext": "READONLY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 4,
+    "PageLabel": "Hearing panel preference"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHearingPanelPreference",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 5,
+    "PageLabel": "Hearing panel preference"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHearingPanelPreferenceReason",
+    "DisplayContext": "MANDATORY",
+    "PageID": 10,
+    "PageDisplayOrder": 10,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "et3ResponseHearingPanelPreference=\"Judge\" OR et3ResponseHearingPanelPreference=\"Panel\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseHealthInsetPreamble",
+    "DisplayContext": "READONLY",
+    "PageID": 11,
+    "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?"
   },
@@ -5353,8 +5415,8 @@
     "CaseEventID": "et3Response",
     "CaseFieldID": "et3ResponseRespondentSupportNeeded",
     "DisplayContext": "MANDATORY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
+    "PageID": 11,
+    "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
@@ -5363,8 +5425,8 @@
     "CaseEventID": "et3Response",
     "CaseFieldID": "et3ResponseHealthDetailsPreamble",
     "DisplayContext": "READONLY",
-    "PageID": 11,
-    "PageDisplayOrder": 11,
+    "PageID": 12,
+    "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3ResponseRespondentSupportNeeded=\"Yes\"",
     "PageLabel": "Give details of the support you require for the parties"
@@ -5374,8 +5436,8 @@
     "CaseEventID": "et3Response",
     "CaseFieldID": "et3ResponseRespondentSupportDetails",
     "DisplayContext": "MANDATORY",
-    "PageID": 11,
-    "PageDisplayOrder": 11,
+    "PageID": 12,
+    "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
@@ -5384,8 +5446,8 @@
     "CaseEventID": "et3Response",
     "CaseFieldID": "et3ResponseRespondentSupportDocument",
     "DisplayContext": "OPTIONAL",
-    "PageID": 11,
-    "PageDisplayOrder": 11,
+    "PageID": 12,
+    "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
   },

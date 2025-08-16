@@ -920,5 +920,23 @@
     "Label": "<h3>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</h3>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tmpClaimantHearingPanelPreference",
+    "Label": "How do you prefer your case heard?",
+    "FieldType": "FixedRadioList",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_hearing_panel_preference_long",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "tmpClaimantHearingPanelPrefReason",
+    "Label": "Give reason",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": "700",
+    "Searchable": "N"
   }
 ]
