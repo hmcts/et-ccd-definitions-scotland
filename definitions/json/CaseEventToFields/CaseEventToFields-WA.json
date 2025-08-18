@@ -208,11 +208,12 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
     "CaseFieldID": "bfActions",
-    "DisplayContext": "COMPLEX",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "Publish": "Y"
   }	
 ]
