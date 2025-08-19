@@ -2,6 +2,17 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "CaseNotes",
+    "TabLabel": "Case Notes",
+    "TabDisplayOrder": 1,
+    "CaseFieldID": "caseNotesCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(title ,author, date)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "TabLabel": "Case Details",
     "TabDisplayOrder": 1,
