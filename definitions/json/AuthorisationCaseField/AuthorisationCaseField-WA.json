@@ -152,6 +152,12 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "nextListedDate",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
