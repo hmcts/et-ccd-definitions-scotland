@@ -6901,7 +6901,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "caseNotesCollection",
-    "Label": "Case Notes",
+    "Label": "Telephone notes",
     "FieldType": "Collection",
     "FieldTypeParameter": "caseNote",
     "SecurityClassification": "Public",
@@ -6910,7 +6910,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "addCaseNote",
-    "Label": "Add a case note",
+    "Label": "Add telephone note",
     "FieldType": "caseNote",
     "SecurityClassification": "Public",
     "Searchable": "N"
