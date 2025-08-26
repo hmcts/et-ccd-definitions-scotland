@@ -6944,4 +6944,22 @@
     "SecurityClassification": "Public",
     "Searchable": "N"
   }
+,
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "caseNotesCollection",
+    "Label": "Case Notes",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "caseNote",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "addCaseNote",
+    "Label": "Add a case note",
+    "FieldType": "caseNote",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  }
 ]

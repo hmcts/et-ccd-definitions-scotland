@@ -25080,5 +25080,45 @@
     "CaseFieldID": "allocateHearingAdditionalJudge",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "addCaseNote",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-scotland",
+          "caseworker-employment-etjudge-scotland",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "caseworker-employment-etjudge"
+        ],
+        "CRUD": "R"
+      }
+    ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "caseNotesCollection",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-scotland",
+          "caseworker-employment-etjudge-scotland",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "caseworker-employment-etjudge"
+        ],
+        "CRUD": "R"
+      }
+    ]
   }
 ]
