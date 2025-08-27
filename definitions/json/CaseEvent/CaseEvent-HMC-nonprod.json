@@ -13,7 +13,7 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendClaimantRepSubmitted"
   },
   {
     "CaseTypeID": "ET_Scotland",
