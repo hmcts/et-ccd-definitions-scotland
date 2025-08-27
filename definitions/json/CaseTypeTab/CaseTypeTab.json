@@ -698,20 +698,47 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "Respondent",
+    "TabLabel": "Respondents",
+    "TabDisplayOrder": 5,
+    "CaseFieldID": "respondentCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived, respondentEcc)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\" AND respondentsWithEcc =\"*\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Respondent",
+    "CaseFieldID": "respondentsWithEcc",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "respondentsWithEcc =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseRespondent",
     "TabLabel": "Respondent",
     "TabDisplayOrder": 5,
     "CaseFieldID": "respondentCollection",
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)",
-    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\" AND respondentsWithEcc !=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "CaseRespondent",
+    "CaseFieldID": "respondentsWithEcc",
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "respondentsWithEcc =\"dummy\""
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "CaseRespondent",
     "CaseFieldID": "eccCases",
-    "TabFieldDisplayOrder": 2,
+    "TabFieldDisplayOrder": 3,
     "FieldShowCondition": "eccCases !=\"\""
   },
   {
@@ -719,7 +746,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseRespondent",
     "CaseFieldID": "counterClaim",
-    "TabFieldDisplayOrder": 3,
+    "TabFieldDisplayOrder": 4,
     "FieldShowCondition": "counterClaim !=\"\""
   },
   {

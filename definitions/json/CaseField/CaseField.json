@@ -563,6 +563,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "respondentsWithEcc",
+    "Label": "Respondents with an ECC",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "caseRefNumberCount",
     "Label": "Case Ref Number Count",
     "FieldType": "Text",
