@@ -10,6 +10,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted"
   }
 ]
