@@ -45,6 +45,15 @@
   },
   {
     "ID": "DocumentUpload",
+    "ListElementCode": "eccDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Employer Contract Claim",
+    "FieldTypeParameter": "fl_EmployerContractClaim",
+    "FieldShowCondition": "topLevelDocuments=\"Employer Contract Claim\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
     "ListElementCode": "withdrawalSettledDocuments",
     "FieldType": "FixedList",
     "ElementLabel": "Withdrawal/Settled",
@@ -2313,8 +2322,17 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeBOC",
     "FieldType": "Label",
-    "ElementLabel": "(a) Claim of an employee for breach of contract of employment\r\n(b) Employer contract claim",
+    "ElementLabel": "Claim of an employee for breach of contract of employment",
     "FieldShowCondition": "juridictionCodesList = \"BOC\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeECC",
+    "FieldType": "Label",
+    "ElementLabel": "Employer contract claim",
+    "FieldShowCondition": "juridictionCodesList = \"ECC\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
