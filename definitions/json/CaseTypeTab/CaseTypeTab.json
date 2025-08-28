@@ -717,6 +717,22 @@
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
+    "TabID": "Respondent",
+    "CaseFieldID": "eccCases",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "eccCases !=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "Respondent",
+    "CaseFieldID": "counterClaim",
+    "TabFieldDisplayOrder": 4,
+    "FieldShowCondition": "counterClaim !=\"\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
     "TabID": "CaseRespondent",
     "TabLabel": "Respondent",
     "TabDisplayOrder": 5,
