@@ -1066,15 +1066,14 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "addCaseNote",
-    "Name": "Add Case Note",
-    "Description": "Add a Case Note",
+    "Name": "Add Telephone Note",
+    "Description": "Add telephone Note",
     "DisplayOrder": 56,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit",
-    "EventEnablingCondition": "caseType=\"dummy\""
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit"
   }
 ]
