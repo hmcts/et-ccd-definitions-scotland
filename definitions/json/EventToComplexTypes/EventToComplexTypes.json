@@ -5202,7 +5202,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeFTO",
-    "EventElementLabel": "Failure to allow time off for trade union activities or duties, for ante-natal care, for adoption, for parental leave, for carer's leave or for public duties",
+    "EventElementLabel": "Failure to allow time off for trade union activities or duties, for ante-natal care, for adoption, for parental leave, for carer’s leave or for public duties",
     "FieldDisplayOrder": 30,
     "DisplayContext": "MANDATORY"
   },
