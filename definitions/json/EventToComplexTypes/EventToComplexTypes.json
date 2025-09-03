@@ -3801,8 +3801,7 @@
     "ListElementCode": "responseRespondentAddress",
     "EventElementLabel": "Respondent Address (from the ET3 form)",
     "FieldDisplayOrder": 47,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "Respondent",
@@ -3820,8 +3819,7 @@
     "ListElementCode": "responseRespondentAddress.AddressLine1",
     "EventElementLabel": "Building and Street",
     "FieldDisplayOrder": 49,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "Respondent",
@@ -3829,8 +3827,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.AddressLine2",
     "FieldDisplayOrder": 50,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Respondent",
@@ -3838,8 +3835,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.AddressLine3",
     "FieldDisplayOrder": 51,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Respondent",
@@ -3848,8 +3844,7 @@
     "ListElementCode": "responseRespondentAddress.PostTown",
     "EventElementLabel": "Town or City",
     "FieldDisplayOrder": 52,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Respondent",
@@ -3858,8 +3853,7 @@
     "ListElementCode": "responseRespondentAddress.County",
     "EventElementLabel": "County",
     "FieldDisplayOrder": 53,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Respondent",
@@ -3868,8 +3862,7 @@
     "ListElementCode": "responseRespondentAddress.Country",
     "EventElementLabel": "Country",
     "FieldDisplayOrder": 54,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Respondent",
@@ -3878,8 +3871,7 @@
     "ListElementCode": "responseRespondentAddress.PostCode",
     "EventElementLabel": "Postcode",
     "FieldDisplayOrder": 55,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "Respondent",
@@ -5363,7 +5355,7 @@
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeFT1",
-    "EventElementLabel": "Failure to allow or to pay for a time off for care of dependants, union learning representatives' duties, pension scheme trustee duties, employee representatives' duties, young person studying/trainin",
+    "EventElementLabel": "Failure to allow or to pay for a time off for care of dependants, union learning representatives’ duties, pension scheme trustee duties, employee representatives’ duties, young person studying/trainin",
     "FieldDisplayOrder": 47,
     "DisplayContext": "MANDATORY"
   },
