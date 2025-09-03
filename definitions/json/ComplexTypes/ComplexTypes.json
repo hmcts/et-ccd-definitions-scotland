@@ -3432,6 +3432,25 @@
   },
   {
     "ID": "Letters",
+    "ListElementCode": "dynamicRespondentsWithEcc",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Respondents with ECC",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Letters",
+    "ListElementCode": "flipRespondentAndClaimantValues",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Flip Respondent and Claimant Names within the letter?",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\" AND dynamicRespondentsWithEcc != \"\" AND dynamicRespondentsWithEcc != \"No respondents with ECC\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Letters",
     "ListElementCode": "dynamicHearingNumber",
     "FieldType": "DynamicList",
     "ElementLabel": "Hearing Number",
