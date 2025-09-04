@@ -4034,6 +4034,7 @@
     "ID": "referralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
+    "Max": 30,
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
