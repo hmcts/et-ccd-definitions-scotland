@@ -467,5 +467,19 @@
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "RECONFIGURE_WA_TASKS",
+    "Name": "Reconfigure WA tasks",
+    "Description": "Reconfigure WA tasks",
+    "DisplayOrder": 59,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "Publish": "Y"
   }
 ]
