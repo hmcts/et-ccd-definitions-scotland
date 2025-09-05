@@ -1,6 +1,12 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ethosCaseReference",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantIndType",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
@@ -149,6 +155,12 @@
     "CaseFieldID": "draftAndSignJudgement",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",

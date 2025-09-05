@@ -288,7 +288,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "createReferral",
-    "Name": "Referral",
+    "Name": "Create Referral",
     "Description": "Referral",
     "DisplayOrder": 46,
     "PreConditionState(s)": "*",
@@ -305,7 +305,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "replyToReferral",
-    "Name": "Referral",
+    "Name": "Reply to Referral",
     "Description": "Refer to admin, legal officer or judge",
     "DisplayOrder": 48,
     "PreConditionState(s)": "*",
@@ -322,7 +322,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "closeReferral",
-    "Name": "Referral",
+    "Name": "Close Referral",
     "Description": "Close referral",
     "DisplayOrder": 49,
     "PreConditionState(s)": "*",

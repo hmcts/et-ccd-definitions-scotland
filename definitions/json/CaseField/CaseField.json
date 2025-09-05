@@ -5472,7 +5472,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "notificationsTabLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a><br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/generateNotificationSummary/generateNotificationSummary1\">Generate Notification Summary</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -6901,7 +6901,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "caseNotesCollection",
-    "Label": "Case Notes",
+    "Label": "Telephone notes",
     "FieldType": "Collection",
     "FieldTypeParameter": "caseNote",
     "SecurityClassification": "Public",
@@ -6910,7 +6910,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "addCaseNote",
-    "Label": "Add a case note",
+    "Label": "Add telephone note",
     "FieldType": "caseNote",
     "SecurityClassification": "Public",
     "Searchable": "N"

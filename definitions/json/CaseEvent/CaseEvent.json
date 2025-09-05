@@ -1067,8 +1067,8 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "addCaseNote",
-    "Name": "Add Case Note",
-    "Description": "Add a Case Note",
+    "Name": "Add Telephone Note",
+    "Description": "Add telephone Note",
     "DisplayOrder": 56,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -1076,5 +1076,20 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "generateNotificationSummary",
+    "Name": "Generate Notification Summary",
+    "Description": "Generate Notification Summary",
+    "DisplayOrder": 57,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/notificationDocument/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/notificationDocument/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/notificationDocument/submitted"
   }
 ]
