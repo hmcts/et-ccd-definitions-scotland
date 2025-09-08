@@ -379,60 +379,6 @@
     "Publish": "Y"
   },
   {
-    "ID": "BFActions",
-    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "cwActions",
-    "EventElementLabel": "Description",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "BFActions",
-    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "allActions",
-    "EventElementLabel": "Action",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "BFActions",
-    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "bfDate",
-    "EventElementLabel": "B/F Date",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "BFActions",
-    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "cleared",
-    "EventElementLabel": "Date Cleared",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "BFActions",
-    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "notes",
-    "EventElementLabel": "Comments",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "BFActions",
-    "CaseEventID": "WA_EXPIRED_BF_ACTION_TASK",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "isWaTaskCreated",
-    "EventElementLabel": "Is wa task created?",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
     "ID": "DraftAndSignJudgement",
     "CaseEventID": "draftAndSignJudgement",
     "CaseFieldID": "draftAndSignJudgement",
