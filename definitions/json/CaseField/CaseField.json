@@ -3430,7 +3430,7 @@
     "ID": "et3ResponsePayBeforeTax",
     "Label": "Enter the claimant's pay BEFORE tax",
     "HintText": "Include overtime, commission and bonuses.",
-    "FieldType": "MoneyGBP",
+    "FieldType": "Number",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -3439,7 +3439,7 @@
     "ID": "et3ResponsePayTakehome",
     "Label": "Enter the claimant's normal take-home pay",
     "HintText": "Take-home pay is the pay after tax and insurance deductions\r\n\r\nInclude overtime, commission and bonuses.",
-    "FieldType": "MoneyGBP",
+    "FieldType": "Number",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
