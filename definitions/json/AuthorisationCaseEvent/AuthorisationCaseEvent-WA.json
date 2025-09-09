@@ -142,5 +142,18 @@
     "CaseEventID": "initiateCase",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "RECONFIGURE_WA_TASKS",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-api",
+          "caseworker-wa-task-configuration"
+        ],
+        "CRUD": "CRUD"
+      }
+    ]
   }
 ]
