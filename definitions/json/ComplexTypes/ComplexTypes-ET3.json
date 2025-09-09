@@ -851,7 +851,7 @@
   {
     "ID": "Respondent",
     "ListElementCode": "et3ResponsePayBeforeTax",
-    "FieldType": "MoneyGBP",
+    "FieldType": "Number",
     "ElementLabel": "Enter the claimant's pay BEFORE tax",
     "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
     "SecurityClassification": "Public",
@@ -860,7 +860,7 @@
   {
     "ID": "Respondent",
     "ListElementCode": "et3ResponsePayTakehome",
-    "FieldType": "MoneyGBP",
+    "FieldType": "Number",
     "ElementLabel": "Enter the claimant's normal take-home pay",
     "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
     "SecurityClassification": "Public",
