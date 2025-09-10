@@ -3444,7 +3444,7 @@
     "ID": "Letters",
     "ListElementCode": "flipRespondentAndClaimantValues",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Flip Respondent and Claimant Names within the letter?",
+    "ElementLabel": "Address ECC letter to Claimant?",
     "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\" AND dynamicRespondentsWithEcc != \"\" AND dynamicRespondentsWithEcc != \"No respondents with ECC\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
