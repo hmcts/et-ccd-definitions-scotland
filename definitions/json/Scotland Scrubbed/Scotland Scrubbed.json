@@ -5843,12 +5843,6 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "sendNotificationEccQuestion",
-    "ListElement": "Provide parties with access to ECC case view",
-    "ListElementCode": "Provide parties with access to ECC case view",
-    "DisplayOrder": 4
-  },
-  {
     "ID": "sendNotificationNotify",
     "ListElement": "Both parties",
     "ListElementCode": "Both parties",
