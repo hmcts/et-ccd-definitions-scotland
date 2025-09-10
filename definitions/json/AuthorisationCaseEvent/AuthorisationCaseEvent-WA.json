@@ -84,7 +84,7 @@
     "CRUD": "CRU"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "assignCase",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRU"
