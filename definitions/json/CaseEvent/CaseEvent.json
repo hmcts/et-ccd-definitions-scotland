@@ -74,7 +74,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/assignCase",
     "EventEnablingCondition": "managingOffice =\"Unassigned\"",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
