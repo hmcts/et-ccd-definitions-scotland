@@ -4056,6 +4056,7 @@
     "ID": "referralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
+    "Max": 30,
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -5494,7 +5495,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "notificationsTabLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a><br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/generateNotificationSummary/generateNotificationSummary1\">Generate Notification Summary</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

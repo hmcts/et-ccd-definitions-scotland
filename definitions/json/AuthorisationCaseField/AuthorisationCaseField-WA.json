@@ -1,6 +1,12 @@
 [
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "ethosCaseReference",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "claimantIndType",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
