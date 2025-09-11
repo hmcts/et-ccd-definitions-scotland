@@ -119,6 +119,19 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "amendRespondentRepresentativeContact",
+    "Name": "Amend contact details",
+    "Description": "Amend contact details",
+    "DisplayOrder": 53,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitAmendRepresentativeContact"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et3ResponseEmploymentDetails",
     "Name": "ET3 - Employment Details",
     "Description": "ET3 - Employment Details",
@@ -943,6 +956,20 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "refreshSharedUsers",
+    "Name": "Refresh Shared Users",
+    "Description": "Refresh Shared Users",
+    "DisplayOrder": 72,
+    "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/refreshSharedUsers/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
