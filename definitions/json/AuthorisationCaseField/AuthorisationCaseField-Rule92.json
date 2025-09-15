@@ -20,12 +20,6 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "tseRespondentStoredCollection",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "tseRespondentStoredCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
