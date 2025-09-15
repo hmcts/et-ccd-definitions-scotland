@@ -87,7 +87,6 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": "",
-    "Publish": "Y"
+    "CallBackURLSubmittedEvent": ""
   }
 ]
