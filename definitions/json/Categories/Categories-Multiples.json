@@ -29,37 +29,44 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
+    "CategoryID": "C80",
+    "CategoryLabel": "Employer Contract Claim",
+    "DisplayOrder": 5,
+    "ParentCategoryID": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
     "CategoryID": "C5",
     "CategoryLabel": "Withdrawal /Settled",
-    "DisplayOrder": 5,
+    "DisplayOrder": 6,
     "ParentCategoryID": ""
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "CategoryID": "C6",
     "CategoryLabel": "Hearings",
-    "DisplayOrder": 6,
+    "DisplayOrder": 7,
     "ParentCategoryID": ""
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "CategoryID": "C7",
     "CategoryLabel": "Judgment and Reasons",
-    "DisplayOrder": 7,
+    "DisplayOrder": 8,
     "ParentCategoryID": ""
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "CategoryID": "C8",
     "CategoryLabel": "Reconsideration",
-    "DisplayOrder": 8,
+    "DisplayOrder": 9,
     "ParentCategoryID": ""
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
     "CategoryID": "C9",
     "CategoryLabel": "Miscellaneous",
-    "DisplayOrder": 9,
+    "DisplayOrder": 10,
     "ParentCategoryID": ""
   },
   {
@@ -512,7 +519,7 @@
   },
   {
     "CaseTypeID": "ET_Scotland_Multiple",
-  "CategoryID": "C67",
+    "CategoryID": "C67",
     "CategoryLabel": "App for a judgment to be reconsidered - R",
     "DisplayOrder": 4,
     "ParentCategoryID": "C8"
@@ -539,10 +546,31 @@
     "ParentCategoryID": "C9"
   },
   {
-  "CaseTypeID": "ET_Scotland_Multiple",
-  "CategoryID": "C79",
-  "CategoryLabel": "Needs updating",
-  "DisplayOrder": 4,
-  "ParentCategoryID": "C9"
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CategoryID": "C79",
+    "CategoryLabel": "Needs updating",
+    "DisplayOrder": 4,
+    "ParentCategoryID": "C9"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CategoryID": "C81",
+    "CategoryLabel": "Notice of Employer Contract Claim",
+    "DisplayOrder": 1,
+    "ParentCategoryID": "C80"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CategoryID": "C82",
+    "CategoryLabel": "Acceptance of ECC response",
+    "DisplayOrder": 2,
+    "ParentCategoryID": "C80"
+  },
+  {
+    "CaseTypeID": "ET_Scotland_Multiple",
+    "CategoryID": "C83",
+    "CategoryLabel": "Rejection of ECC response",
+    "DisplayOrder": 3,
+    "ParentCategoryID": "C80"
   }
 ]
