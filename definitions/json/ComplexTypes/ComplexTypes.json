@@ -1656,7 +1656,7 @@
     "ListElementCode": "allActions",
     "FieldType": "Text",
     "ElementLabel": "Action",
-    "FieldShowCondition": "imported = \"Yes\" OR letters = \"Yes\"",
+    "FieldShowCondition": "(imported = \"Yes\" OR letters = \"Yes\") OR allActions = \"ECC served\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
     "DisplayOrder": 2
