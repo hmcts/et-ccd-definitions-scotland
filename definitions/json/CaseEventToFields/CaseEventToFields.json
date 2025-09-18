@@ -3775,7 +3775,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageLabel": "Before you start",
