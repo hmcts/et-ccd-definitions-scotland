@@ -1233,7 +1233,8 @@
     "ID": "initialConsiderationBeforeYouStart",
     "Label": "To help you complete this placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
