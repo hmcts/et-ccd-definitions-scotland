@@ -8197,37 +8197,73 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-etjudge-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
