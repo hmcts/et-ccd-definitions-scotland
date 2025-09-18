@@ -1230,8 +1230,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etInitialConsiderationBeforeYouStart",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
+    "ID": "initialConsiderationBeforeYouStart",
+    "Label": "To help you complete this placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel",
+    "Label": "${initialConsiderationBeforeYouStart}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
