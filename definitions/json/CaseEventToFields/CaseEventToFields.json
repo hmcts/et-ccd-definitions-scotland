@@ -3775,10 +3775,22 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "initialConsiderationBeforeYouStartLabel=\"dummy\"",
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "N",
