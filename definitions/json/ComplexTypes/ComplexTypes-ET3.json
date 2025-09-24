@@ -319,6 +319,16 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "respondentEcc",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there an ECC?",
+    "FieldShowCondition": "responseReceived=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseToClaim",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the claim resisted?",
