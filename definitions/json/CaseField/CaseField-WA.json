@@ -24,7 +24,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgement",
-    "Label": "Draft and Sign Judgment",
+    "Label": "Judgment/Order to be issued",
     "FieldType": "DraftAndSignJudgement",
     "SecurityClassification": "Public",
     "Searchable": "N"
