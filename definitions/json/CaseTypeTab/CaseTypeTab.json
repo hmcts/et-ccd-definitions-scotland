@@ -703,7 +703,7 @@
     "TabDisplayOrder": 5,
     "CaseFieldID": "respondentCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived, respondentEcc)",
+    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived, respondentEcc, respondentEccReply)",
     "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\" AND respondentsWithEcc =\"*\""
   },
   {
