@@ -3744,9 +3744,18 @@
     "ID": "Respondent",
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
+    "ListElementCode": "respondentEccReply",
+    "EventElementLabel": "Has a reply to the ECC been received?",
+    "FieldDisplayOrder": 41,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Respondent",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotes",
     "EventElementLabel": "Notes",
-    "FieldDisplayOrder": 41,
+    "FieldDisplayOrder": 42,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3755,7 +3764,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_referred_to_judge",
     "EventElementLabel": "Date referred to Judge",
-    "FieldDisplayOrder": 42,
+    "FieldDisplayOrder": 43,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3764,7 +3773,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_returned_from_judge",
     "EventElementLabel": "Date returned from Judge",
-    "FieldDisplayOrder": 43,
+    "FieldDisplayOrder": 44,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3773,7 +3782,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseOutOfTime",
     "EventElementLabel": "Response received outside of time allowed?",
-    "FieldDisplayOrder": 44,
+    "FieldDisplayOrder": 45,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3782,7 +3791,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotOnPrescribedForm",
     "EventElementLabel": "Not on prescribed form?",
-    "FieldDisplayOrder": 45,
+    "FieldDisplayOrder": 46,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3791,7 +3800,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRequiredInfoAbsent",
     "EventElementLabel": "Required information missing?",
-    "FieldDisplayOrder": 46,
+    "FieldDisplayOrder": 47,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3800,7 +3809,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress",
     "EventElementLabel": "Respondent Address (from the ET3 form)",
-    "FieldDisplayOrder": 47,
+    "FieldDisplayOrder": 48,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3808,7 +3817,7 @@
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "et3Vetting",
-    "FieldDisplayOrder": 48,
+    "FieldDisplayOrder": 49,
     "DisplayContext": "READONLY",
     "FieldShowCondition": "responseRespondentAddress=\"dummy\""
   },
@@ -3818,7 +3827,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 49,
+    "FieldDisplayOrder": 50,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3826,7 +3835,7 @@
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.AddressLine2",
-    "FieldDisplayOrder": 50,
+    "FieldDisplayOrder": 51,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3834,7 +3843,7 @@
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.AddressLine3",
-    "FieldDisplayOrder": 51,
+    "FieldDisplayOrder": 52,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3843,7 +3852,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 52,
+    "FieldDisplayOrder": 53,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3852,7 +3861,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 53,
+    "FieldDisplayOrder": 54,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3861,7 +3870,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 54,
+    "FieldDisplayOrder": 55,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3870,7 +3879,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 55,
+    "FieldDisplayOrder": 56,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3879,7 +3888,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentPhone1",
     "EventElementLabel": "Phone number (from the ET3 form)",
-    "FieldDisplayOrder": 56,
+    "FieldDisplayOrder": 57,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3888,7 +3897,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentPhone2",
     "EventElementLabel": "Alternative number (from the ET3 form)",
-    "FieldDisplayOrder": 57,
+    "FieldDisplayOrder": 58,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3897,7 +3906,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentEmail",
     "EventElementLabel": "Email address (from the ET3 form)",
-    "FieldDisplayOrder": 58,
+    "FieldDisplayOrder": 59,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3906,7 +3915,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentContactPreference",
     "EventElementLabel": "Contact preference (from the ET3 form)",
-    "FieldDisplayOrder": 59,
+    "FieldDisplayOrder": 60,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3915,7 +3924,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseRespondentContactName",
     "EventElementLabel": "Name of contact at respondent's address if not you as the representative",
-    "FieldDisplayOrder": 60,
+    "FieldDisplayOrder": 61,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3925,7 +3934,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseHearingRepresentative",
     "EventElementLabel": "Which types of hearing can you, as the representative, attend?",
-    "FieldDisplayOrder": 61,
+    "FieldDisplayOrder": 62,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3935,7 +3944,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseHearingRespondent",
     "EventElementLabel": "Which types of hearing can the respondent attend?",
-    "FieldDisplayOrder": 62,
+    "FieldDisplayOrder": 63,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3945,7 +3954,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseRespondentContestClaim",
     "EventElementLabel": "Does the respondent contest the claim?",
-    "FieldDisplayOrder": 63,
+    "FieldDisplayOrder": 64,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3955,7 +3964,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseContestClaimDocument",
     "EventElementLabel": "Upload a document to your response",
-    "FieldDisplayOrder": 64,
+    "FieldDisplayOrder": 65,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3965,7 +3974,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseContestClaimDocument.uploadedDocument",
     "EventElementLabel": "Upload a document to your response",
-    "FieldDisplayOrder": 65,
+    "FieldDisplayOrder": 66,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3975,7 +3984,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseContestClaimDetails",
     "EventElementLabel": "Use this text box for any accompanying information",
-    "FieldDisplayOrder": 66,
+    "FieldDisplayOrder": 67,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3985,7 +3994,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseEmployerClaim",
     "EventElementLabel": "Does the respondent wish to make an Employer's Contract Claim?",
-    "FieldDisplayOrder": 67,
+    "FieldDisplayOrder": 68,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3995,7 +4004,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseEmployerClaimDocument",
     "EventElementLabel": "Add a document",
-    "FieldDisplayOrder": 68,
+    "FieldDisplayOrder": 69,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -4005,7 +4014,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseEmployerClaimDetails",
     "EventElementLabel": "Provide the background and details of your Employer's Contract Claim",
-    "FieldDisplayOrder": 69,
+    "FieldDisplayOrder": 70,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -4015,7 +4024,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseRespondentSupportNeeded",
     "EventElementLabel": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
-    "FieldDisplayOrder": 70,
+    "FieldDisplayOrder": 71,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -4025,7 +4034,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "et3ResponseRespondentSupportDocument",
     "EventElementLabel": "Add document",
-    "FieldDisplayOrder": 71,
+    "FieldDisplayOrder": 72,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -4035,7 +4044,7 @@
     "CaseEventID": "amendRespondentDetails",
     "ListElementCode": "Use this text box or upload the requirements in a document",
     "EventElementLabel": "et3ResponseRespondentSupportDocument",
-    "FieldDisplayOrder": 72,
+    "FieldDisplayOrder": 73,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
