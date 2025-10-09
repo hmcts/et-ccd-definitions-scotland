@@ -153,6 +153,12 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "draftAndSignJudgement",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "R"
   },
