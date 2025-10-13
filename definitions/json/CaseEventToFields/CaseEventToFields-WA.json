@@ -121,7 +121,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 13,
+    "PageFieldDisplayOrder": 12,
     "FieldShowCondition": "etICCanProceed=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "Publish": "Y"
