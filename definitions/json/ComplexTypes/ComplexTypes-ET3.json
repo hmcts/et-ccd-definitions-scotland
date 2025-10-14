@@ -339,6 +339,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "respondentEccReplyCount",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "respondentEccReply=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "responseToClaim",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the claim resisted?",
