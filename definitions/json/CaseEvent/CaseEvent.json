@@ -103,6 +103,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "REMOVE_OWN_REPRESENTATIVE",
+    "Name": "REMOVE_OWN_REPRESENTATIVE",
+    "Description": "Update a submitted case",
+    "DisplayOrder": 6,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentRepresentative/removeOwnRepresentative",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et1Vetting",
     "Name": "ET1 case vetting",
     "Description": "Vetting a case",

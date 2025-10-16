@@ -387,6 +387,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "repCollectionToRemove",
+    "Label": "Respondent representative(s) to remove",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "RespondentRepresentative",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "jurCodesCollection",
     "Label": "Jurisdiction",
     "FieldType": "Collection",

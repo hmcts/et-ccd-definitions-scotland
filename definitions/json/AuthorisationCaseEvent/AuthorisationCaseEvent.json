@@ -98,6 +98,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "SUBMIT_CASE_DRAFT",
     "AccessControl": [
       {
@@ -2388,6 +2400,7 @@
     ]
   },
   {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "addCaseNote",
     "AccessControl": [
       {
