@@ -28,5 +28,11 @@
     "CaseEventID": "SUBMIT_STORED_PSE_RESPONSE",
     "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "STORE_RESPONDENT_TSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRU"
   }
 ]
