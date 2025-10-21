@@ -1,17 +1,6 @@
 [
   {
     "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "manageCaseTTL",
-    "CaseFieldID": "TTL",
-    "DisplayContext": "COMPLEX",
-    "PageID": 11,
-    "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "TTL",
     "DisplayContext": "COMPLEX",
