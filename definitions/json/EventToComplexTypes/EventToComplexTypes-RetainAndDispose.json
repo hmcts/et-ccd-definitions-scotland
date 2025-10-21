@@ -6,7 +6,7 @@
     "ListElementCode": "SystemTTL",
     "EventElementLabel": "System TTL",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "READONLY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "ManageCaseTTL",
