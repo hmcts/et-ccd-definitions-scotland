@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "TTL",
-    "Label": "Case Deletion",
+    "Label": "Set up TTL",
     "FieldType": "TTL",
     "SecurityClassification": "Public",
     "Searchable": "Y"

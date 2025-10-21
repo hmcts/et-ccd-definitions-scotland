@@ -397,6 +397,18 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "reinstateClosedCase",
+    "Name": "Reinstate Case",
+    "Description": "Reinstate Case",
+    "DisplayOrder": 39,
+    "PreConditionState(s)": "Closed",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "amendSingle",
     "Name": "Amend Case (Multiple) API ONLY",
     "Description": "Amend case via Multiples",

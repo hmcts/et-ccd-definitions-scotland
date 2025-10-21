@@ -3,6 +3,6 @@
     "CaseTypeID": "ET_Scotland",
     "CaseStateID": "Delete",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   }
 ]

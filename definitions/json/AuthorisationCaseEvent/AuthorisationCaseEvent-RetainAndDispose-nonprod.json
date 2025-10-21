@@ -1,8 +1,0 @@
-[
-  {
-    "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "DELETE_CASE",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  }
-]

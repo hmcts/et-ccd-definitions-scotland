@@ -2,7 +2,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "manageCaseTTL",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "TTL_profile",
     "CRUD": "CRU"
   },
   {
