@@ -258,19 +258,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "disposeCase",
-    "Name": "Close Case",
-    "Description": "Close Case",
-    "DisplayOrder": 38,
-    "PreConditionState(s)": "Accepted;Rejected",
-    "PostConditionState": "Closed",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y",
-    "Publish": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "initialConsideration",
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
