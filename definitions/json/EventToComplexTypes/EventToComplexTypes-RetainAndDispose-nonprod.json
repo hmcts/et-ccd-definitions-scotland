@@ -1,0 +1,35 @@
+[
+  {
+    "ID": "amendCaseDetailsTtl",
+    "CaseEventID": "amendCaseDetails",
+    "CaseFieldID": "TTL",
+    "ListElementCode": "Suspended",
+    "DefaultValue": "Yes",
+    "EventElementLabel": "Do you want to suspend case deletion?",
+    "EventHintText": "By default, a closed case will be deleted after 365 days. As this case if flagged for a live appeal/speak to REJ, the case can be retained if there is still action pending.",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "amendCaseDetailsClosedTtl",
+    "CaseEventID": "amendCaseDetailsClosed",
+    "CaseFieldID": "TTL",
+    "ListElementCode": "Suspended",
+    "DefaultValue": "Yes",
+    "EventElementLabel": "Do you want to suspend case deletion?",
+    "EventHintText": "By default, a closed case will be deleted after 365 days. As this case if flagged for a live appeal/speak to REJ, the case can be retained if there is still action pending",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "disposeCaseTTL",
+    "CaseEventID": "disposeCase",
+    "CaseFieldID": "TTL",
+    "ListElementCode": "Suspended",
+    "DefaultValue": "No",
+    "EventElementLabel": "Do you want to suspend case deletion?",
+    "EventHintText": "By default, a closed case will be deleted after 365 days. If you want to retain the case, select 'Yes'. If you want to delete the case, select 'No'.",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  }
+]
