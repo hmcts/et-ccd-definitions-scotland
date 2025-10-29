@@ -6220,6 +6220,117 @@
     "Searchable": "N"
   },
   {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICHearingListed",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Hearing already listed",
+    "FieldTypeParameter": "msl_etICHearingAlreadyListed",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICExtendDurationGiveDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Extend duration of hearing",
+    "HintText": "Give details",
+    "RetainHiddenValue": "No",
+    "FieldShowCondition": "etICHearingListed CONTAINS \"Extend duration of hearing\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICOtherGiveDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other",
+    "HintText": "Give details",
+    "FieldShowCondition": "etICHearingListed CONTAINS \"Other\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJudgeOrMembers",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Is this hearing judge alone or with members?",
+    "FieldTypeParameter": "fl_hearingJudgeAloneOrWithMembers",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etInitialConsiderationListedHearingType",
+    "FieldType": "Text",
+    "ElementLabel": "Initial Consideration Listed Hearing Type",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembersReason != \"dummy\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJudgeOrMembersReason",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Reasons",
+    "FieldShowCondition": "etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
+    "FieldTypeParameter": "msl_hearingWithJudgeOrMembersReasons",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJsa",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Hearing With Jsa",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\"",
+    "FieldTypeParameter": "frl_listedCmPreliminaryHearing_Jsa",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithMembersLabel",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other - Details:",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etICIsHearingWithJsa = \"Other\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithMembers",
+    "FieldType": "TextArea",
+    "ElementLabel": "Even though this is a case management hearing in private, members’ experience is likely to add significant value to the process. \nGive reasons for this choice",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJudgeOrMembersFurtherDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Further details",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "otherDirectionsLabel",
+    "ElementLabel": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 49</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICHearingAnyOtherDirections",
+    "FieldType": "TextArea",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
     "ID": "Et3NotificationDocUpload",
     "ListElementCode": "typeOfDocument",
     "FieldType": "FixedList",

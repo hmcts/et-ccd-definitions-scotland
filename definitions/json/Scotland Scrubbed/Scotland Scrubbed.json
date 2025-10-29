@@ -4967,6 +4967,24 @@
     "DisplayOrder": 4
   },
   {
+    "ID": "frl_listedCmPreliminaryHearing_Jsa",
+    "ListElementCode": "Case management only",
+    "ListElement": "Case management only",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_listedCmPreliminaryHearing_Jsa",
+    "ListElementCode": "Already decided",
+    "ListElement": "Already decided",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_listedCmPreliminaryHearing_Jsa",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "msl_etICTypeOfCvpHearing",
     "ListElementCode": "Final",
     "ListElement": "Final",
