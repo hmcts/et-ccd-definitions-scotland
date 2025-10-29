@@ -258,19 +258,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "disposeCase",
-    "Name": "Close Case",
-    "Description": "Close Case",
-    "DisplayOrder": 38,
-    "PreConditionState(s)": "Accepted;Rejected",
-    "PostConditionState": "Closed",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y",
-    "Publish": "Y"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "initialConsideration",
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
@@ -288,7 +275,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "createReferral",
-    "Name": "Referral",
+    "Name": "Create Referral",
     "Description": "Referral",
     "DisplayOrder": 46,
     "PreConditionState(s)": "*",
@@ -305,7 +292,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "replyToReferral",
-    "Name": "Referral",
+    "Name": "Reply to Referral",
     "Description": "Refer to admin, legal officer or judge",
     "DisplayOrder": 48,
     "PreConditionState(s)": "*",
@@ -322,7 +309,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "closeReferral",
-    "Name": "Referral",
+    "Name": "Close Referral",
     "Description": "Close referral",
     "DisplayOrder": 49,
     "PreConditionState(s)": "*",
@@ -403,6 +390,22 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "WA_EXPIRED_BF_ACTION_TASK",
+    "Name": "WA_EXPIRED_BF_ACTION_TASK",
+    "Description": "Wa Task for expired Bf Actions",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "draftAndSignJudgement",
     "Name": "Draft and sign judgment/order",
     "Description": "Draft and sign judgment/order",
@@ -466,6 +469,20 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "RECONFIGURE_WA_TASKS",
+    "Name": "Reconfigure WA tasks",
+    "Description": "Reconfigure WA tasks",
+    "DisplayOrder": 59,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "Publish": "Y"
   }
 ]

@@ -4534,8 +4534,7 @@
     "ListElementCode": "hearingDetailsTimingDuration",
     "EventElementLabel": "Duration",
     "FieldDisplayOrder": 16,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "HearingDetails",

@@ -282,7 +282,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -377,18 +378,6 @@
     "PreConditionState(s)": "Transferred",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed(positionType=\"Case closed\"):3;Submitted",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "reinstateClosedCase",
-    "Name": "Reinstate Case",
-    "Description": "Reinstate Case",
-    "DisplayOrder": 39,
-    "PreConditionState(s)": "Closed",
-    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -1053,15 +1042,29 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "addCaseNote",
-    "Name": "Add Case Note",
-    "Description": "Add a Case Note",
+    "Name": "Add Telephone Note",
+    "Description": "Add telephone Note",
     "DisplayOrder": 56,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit",
-    "EventEnablingCondition": "caseType=\"dummy\""
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "generateNotificationSummary",
+    "Name": "Generate Notification Summary",
+    "Description": "Generate Notification Summary",
+    "DisplayOrder": 57,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/notificationDocument/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/notificationDocument/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/notificationDocument/submitted"
   }
 ]

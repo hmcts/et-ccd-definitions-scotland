@@ -1686,6 +1686,14 @@
     "DisplayOrder": 5
   },
   {
+    "ID": "BFActions",
+    "ListElementCode": "isWaTaskCreated",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is wa task created?",
+    "SecurityClassification": "Public",
+    "DisplayOrder": 6
+  },
+  {
     "ID": "bfReport",
     "ListElementCode": "caseReference",
     "FieldType": "Text",

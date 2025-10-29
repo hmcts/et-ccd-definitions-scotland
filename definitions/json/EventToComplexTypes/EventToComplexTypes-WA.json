@@ -23,6 +23,16 @@
     "ID": "ReferralDetails",
     "CaseEventID": "createReferral",
     "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubjectSpecify",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
     "ListElementCode": "isUrgent",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 3,
@@ -46,6 +56,16 @@
     "ListElementCode": "referralSubject",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubjectSpecify",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
