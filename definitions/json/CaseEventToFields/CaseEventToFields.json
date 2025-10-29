@@ -2327,6 +2327,17 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "fixCaseAPI",
+    "CaseFieldID": "sendNotificationCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "caseTransferECM",
     "CaseFieldID": "ecmOfficeCT",
     "DisplayContext": "MANDATORY",
