@@ -1539,6 +1539,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingListedAnswers",
+    "Label": "Hearing already listed",
+    "FieldType": "etICHearingListedAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICFurtherInformation",
     "Label": "Further information",
     "FieldType": "MultiSelectList",

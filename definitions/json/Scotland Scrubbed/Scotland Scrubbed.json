@@ -4985,6 +4985,48 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "fl_hearingJudgeAloneOrWithMembers",
+    "ListElementCode": "JSA",
+    "ListElement": "JSA",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_hearingJudgeAloneOrWithMembers",
+    "ListElementCode": "With members",
+    "ListElement": "With members",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Already decided",
+    "ListElement": "Already decided",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Members' experience is likely to add significant value to the process of adjudication",
+    "ListElement": "Members' experience is likely to add significant value to the process of adjudication",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 5
+  },
+  {
     "ID": "msl_etICTypeOfCvpHearing",
     "ListElementCode": "Final",
     "ListElement": "Final",

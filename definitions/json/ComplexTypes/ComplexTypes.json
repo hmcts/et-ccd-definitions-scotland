@@ -6274,7 +6274,7 @@
     "ListElementCode": "etICIsHearingWithJudgeOrMembersReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Reasons",
-    "FieldShowCondition": "etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" OR etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
     "FieldTypeParameter": "msl_hearingWithJudgeOrMembersReasons",
     "SecurityClassification": "Public",
     "Searchable": "N"

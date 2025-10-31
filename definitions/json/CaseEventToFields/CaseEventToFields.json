@@ -3945,9 +3945,9 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "N",
-    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\"",
     "PageLabel": "Rule 27",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4088,8 +4088,7 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1,
-    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -4116,77 +4115,6 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingListed",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 4,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICPostponeGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingListed CONTAINS \"postponeHearing\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICExtendDurationGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 6,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingListed CONTAINS \"extendHearingDuration\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICConvertPreliminaryGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 7,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingListed CONTAINS \"convertFinalToPreliminaryHearing\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICConvertF2fGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 8,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingListed CONTAINS \"convertToF2FHearing\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICOtherGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 9,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1,
-    "FieldShowCondition": "etICHearingListed CONTAINS \"other\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
     "PageID": 4,
@@ -4204,6 +4132,17 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 12,
+    "ShowSummaryChangeOption": "Y",
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
   {
     "CaseTypeID": "ET_Scotland",
