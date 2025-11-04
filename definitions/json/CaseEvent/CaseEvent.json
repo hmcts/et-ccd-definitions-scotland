@@ -401,7 +401,7 @@
     "Description": "Fix Case API",
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
-    "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;*",
+    "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;Vetted(stateAPI=\"Vetted\"):6;*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
