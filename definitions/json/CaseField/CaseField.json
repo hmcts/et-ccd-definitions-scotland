@@ -554,17 +554,16 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "respondentECC",
-    "Label": "Which respondent is raising the Employer Contract Claim?",
-    "FieldType": "DynamicList",
-    "FieldTypeParameter": "Text",
+    "ID": "ccdID",
+    "Label": "Employer Contract Claim",
+    "FieldType": "Text",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "ccdID",
-    "Label": "Employer Contract Claim",
+    "ID": "respondentsWithEcc",
+    "Label": "Respondents with an ECC",
     "FieldType": "Text",
     "SecurityClassification": "Public",
     "Searchable": "N"

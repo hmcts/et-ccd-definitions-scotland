@@ -45,6 +45,15 @@
   },
   {
     "ID": "DocumentUpload",
+    "ListElementCode": "eccDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Employer Contract Claim",
+    "FieldTypeParameter": "fl_EmployerContractClaim",
+    "FieldShowCondition": "topLevelDocuments=\"Employer Contract Claim\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
     "ListElementCode": "withdrawalSettledDocuments",
     "FieldType": "FixedList",
     "ElementLabel": "Withdrawal/Settled",
@@ -1717,7 +1726,7 @@
     "ListElementCode": "allActions",
     "FieldType": "Text",
     "ElementLabel": "Action",
-    "FieldShowCondition": "imported = \"Yes\" OR letters = \"Yes\"",
+    "FieldShowCondition": "(imported = \"Yes\" OR letters = \"Yes\") OR allActions = \"ECC served\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
     "DisplayOrder": 2
@@ -2391,8 +2400,17 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeBOC",
     "FieldType": "Label",
-    "ElementLabel": "(a) Claim of an employee for breach of contract of employment\r\n(b) Employer contract claim",
+    "ElementLabel": "Claim of an employee for breach of contract of employment",
     "FieldShowCondition": "juridictionCodesList = \"BOC\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeECC",
+    "FieldType": "Label",
+    "ElementLabel": "Employer contract claim",
+    "FieldShowCondition": "juridictionCodesList = \"ECC\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -3487,6 +3505,25 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Scot_Documents=\"dummy\"",
     "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Letters",
+    "ListElementCode": "dynamicRespondentsWithEcc",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Respondents with ECC",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Letters",
+    "ListElementCode": "flipRespondentAndClaimantValues",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Address ECC letter to Claimant?",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\" AND dynamicRespondentsWithEcc != \"\" AND dynamicRespondentsWithEcc != \"No respondents with ECC\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
