@@ -98,6 +98,18 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "SUBMIT_CASE_DRAFT",
     "AccessControl": [
       {
@@ -1260,6 +1272,13 @@
     "CRUD": "CRUD"
   },
   {
+    "LiveFrom": "04/08/2025",
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "applyNocDecision",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "R"
+  },
+  {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "updateRepresentation",
@@ -2286,6 +2305,64 @@
         "UserRoles": [
           "[DEFENDANT]",
           "caseworker-wa-task-configuration",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      }
+    ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "refreshSharedUsers",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "refreshSharedUsers",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "refreshSharedUsers",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "refreshSharedUsers",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "refreshSharedUsers",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "refreshSharedUsers",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "amendRespondentRepresentativeContact",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "[SOLICITORA]",
+          "[SOLICITORB]",
+          "[SOLICITORC]",
+          "[SOLICITORD]",
+          "[SOLICITORE]",
+          "[SOLICITORF]",
+          "[SOLICITORG]",
+          "[SOLICITORH]",
+          "[SOLICITORI]",
+          "[SOLICITORJ]",
           "caseworker-employment-api"
         ],
         "CRUD": "CRUD"

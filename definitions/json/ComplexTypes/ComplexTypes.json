@@ -715,6 +715,43 @@
     "Searchable": "N"
   },
   {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "userIdentifier",
+    "FieldType": "Text",
+    "ElementLabel": "User Id",
+    "FieldShowCondition": "firstName=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "firstName",
+    "FieldType": "Text",
+    "ElementLabel": "First name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "lastName",
+    "FieldType": "Text",
+    "ElementLabel": "Last name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "email",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "idamStatus",
+    "FieldType": "Text",
+    "ElementLabel": "Idam Status",
+    "FieldShowCondition": "firstName=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantRepresentative",
     "ListElementCode": "name_of_representative",
     "FieldType": "Text",
@@ -795,6 +832,14 @@
     "FieldTypeParameter": "fl_RepresentativeContact",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "organisationUsers",
+    "FieldType": "Collection",
+    "ElementLabel": "Organisation users",
+    "FieldTypeParameter": "OrganisationUsersIdamUser",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "ET3Vetting",
@@ -1376,6 +1421,31 @@
     "FieldTypeParameter": "fl_RepresentativeContact",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representativeContactLanguage",
+    "FieldType": "FixedList",
+    "ElementLabel": "Representative contact language",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_preference_reason",
+    "FieldType": "Text",
+    "ElementLabel": "Representative contact preference reason",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisationUsers",
+    "FieldType": "Collection",
+    "ElementLabel": "Organisation users",
+    "FieldTypeParameter": "OrganisationUsersIdamUser",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "acceptOrRejectCase",
