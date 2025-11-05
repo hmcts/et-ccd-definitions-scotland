@@ -11,7 +11,6 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/amendClaimantRepSubmitted"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit"
   }
 ]
