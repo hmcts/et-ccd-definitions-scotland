@@ -5,7 +5,7 @@
         "DisplayOrder": "1",
         "QuestionText": "Enter the full name of the party you are representing, exactly as it is written on the ET1 claim form",
         "AnswerFieldType": "Text",
-        "Answer": "${noticeOfChangeAnswers0.respondentName}:[SOLICITORA],${noticeOfChangeAnswers1.respondentName}:[SOLICITORB],${noticeOfChangeAnswers2.respondentName}:[SOLICITORC],${noticeOfChangeAnswers3.respondentName}:[SOLICITORD],${noticeOfChangeAnswers4.respondentName}:[SOLICITORE],${noticeOfChangeAnswers5.respondentName}:[SOLICITORF],${noticeOfChangeAnswers6.respondentName}:[SOLICITORG],${noticeOfChangeAnswers7.respondentName}:[SOLICITORH],${noticeOfChangeAnswers8.respondentName}:[SOLICITORI],${noticeOfChangeAnswers9.respondentName}:[SOLICITORJ]",
+        "Answer": "${claimant}:[CLAIMANTSOLICITOR],${noticeOfChangeAnswers0.respondentName}:[SOLICITORA],${noticeOfChangeAnswers1.respondentName}:[SOLICITORB],${noticeOfChangeAnswers2.respondentName}:[SOLICITORC],${noticeOfChangeAnswers3.respondentName}:[SOLICITORD],${noticeOfChangeAnswers4.respondentName}:[SOLICITORE],${noticeOfChangeAnswers5.respondentName}:[SOLICITORF],${noticeOfChangeAnswers6.respondentName}:[SOLICITORG],${noticeOfChangeAnswers7.respondentName}:[SOLICITORH],${noticeOfChangeAnswers8.respondentName}:[SOLICITORI],${noticeOfChangeAnswers9.respondentName}:[SOLICITORJ]",
         "QuestionId": "respondentName"
     },
     {
@@ -14,7 +14,7 @@
         "DisplayOrder": "2",
         "QuestionText": "Employment tribunal case number",
         "AnswerFieldType": "Text",
-        "Answer": "${ethosCaseReference}:[SOLICITORA],${ethosCaseReference}:[SOLICITORB],${ethosCaseReference}:[SOLICITORC],${ethosCaseReference}:[SOLICITORD],${ethosCaseReference}:[SOLICITORE],${ethosCaseReference}:[SOLICITORF],${ethosCaseReference}:[SOLICITORG],${ethosCaseReference}:[SOLICITORH],${ethosCaseReference}:[SOLICITORI],${ethosCaseReference}:[SOLICITORJ]",
+        "Answer": "${ethosCaseReference}:[CLAIMANTSOLICITOR],${ethosCaseReference}:[SOLICITORA],${ethosCaseReference}:[SOLICITORB],${ethosCaseReference}:[SOLICITORC],${ethosCaseReference}:[SOLICITORD],${ethosCaseReference}:[SOLICITORE],${ethosCaseReference}:[SOLICITORF],${ethosCaseReference}:[SOLICITORG],${ethosCaseReference}:[SOLICITORH],${ethosCaseReference}:[SOLICITORI],${ethosCaseReference}:[SOLICITORJ]",
         "QuestionId": "caseReference"
     }
 ]
