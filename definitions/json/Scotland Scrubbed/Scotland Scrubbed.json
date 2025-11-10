@@ -1038,6 +1038,12 @@
     "DisplayOrder": 9
   },
   {
+    "ID": "fl_Hearing",
+    "ListElementCode": "Final Hearing",
+    "ListElement": "Final Hearing",
+    "DisplayOrder": 7
+  },
+  {
     "ID": "msl_HearingFormat",
     "ListElementCode": "In person",
     "ListElement": "In person",
@@ -4964,6 +4970,30 @@
     "ID": "msl_etICHearingNotListed",
     "ListElementCode": "UDL hearing",
     "ListElement": "UDL hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Already decided",
+    "ListElement": "Already decided",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
     "DisplayOrder": 4
   },
   {
