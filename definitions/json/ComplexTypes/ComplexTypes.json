@@ -45,6 +45,15 @@
   },
   {
     "ID": "DocumentUpload",
+    "ListElementCode": "eccDocuments",
+    "FieldType": "FixedList",
+    "ElementLabel": "Employer Contract Claim",
+    "FieldTypeParameter": "fl_EmployerContractClaim",
+    "FieldShowCondition": "topLevelDocuments=\"Employer Contract Claim\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DocumentUpload",
     "ListElementCode": "withdrawalSettledDocuments",
     "FieldType": "FixedList",
     "ElementLabel": "Withdrawal/Settled",
@@ -706,6 +715,43 @@
     "Searchable": "N"
   },
   {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "userIdentifier",
+    "FieldType": "Text",
+    "ElementLabel": "User Id",
+    "FieldShowCondition": "firstName=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "firstName",
+    "FieldType": "Text",
+    "ElementLabel": "First name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "lastName",
+    "FieldType": "Text",
+    "ElementLabel": "Last name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "email",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "OrganisationUsersIdamUser",
+    "ListElementCode": "idamStatus",
+    "FieldType": "Text",
+    "ElementLabel": "Idam Status",
+    "FieldShowCondition": "firstName=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantRepresentative",
     "ListElementCode": "name_of_representative",
     "FieldType": "Text",
@@ -786,6 +832,14 @@
     "FieldTypeParameter": "fl_RepresentativeContact",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "organisationUsers",
+    "FieldType": "Collection",
+    "ElementLabel": "Organisation users",
+    "FieldTypeParameter": "OrganisationUsersIdamUser",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "ET3Vetting",
@@ -1369,6 +1423,31 @@
     "Searchable": "N"
   },
   {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representativeContactLanguage",
+    "FieldType": "FixedList",
+    "ElementLabel": "Representative contact language",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_preference_reason",
+    "FieldType": "Text",
+    "ElementLabel": "Representative contact preference reason",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisationUsers",
+    "FieldType": "Collection",
+    "ElementLabel": "Organisation users",
+    "FieldTypeParameter": "OrganisationUsersIdamUser",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "acceptOrRejectCase",
     "ListElementCode": "caseAccepted",
     "FieldType": "YesOrNo",
@@ -1647,7 +1726,7 @@
     "ListElementCode": "allActions",
     "FieldType": "Text",
     "ElementLabel": "Action",
-    "FieldShowCondition": "imported = \"Yes\" OR letters = \"Yes\"",
+    "FieldShowCondition": "(imported = \"Yes\" OR letters = \"Yes\") OR allActions = \"ECC served\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
     "DisplayOrder": 2
@@ -2321,8 +2400,17 @@
     "ID": "Jurisdiction",
     "ListElementCode": "jurisdictionCodeBOC",
     "FieldType": "Label",
-    "ElementLabel": "(a) Claim of an employee for breach of contract of employment\r\n(b) Employer contract claim",
+    "ElementLabel": "Claim of an employee for breach of contract of employment",
     "FieldShowCondition": "juridictionCodesList = \"BOC\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Jurisdiction",
+    "ListElementCode": "jurisdictionCodeECC",
+    "FieldType": "Label",
+    "ElementLabel": "Employer contract claim",
+    "FieldShowCondition": "juridictionCodesList = \"ECC\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
@@ -3417,6 +3505,25 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Scot_Documents=\"dummy\"",
     "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Letters",
+    "ListElementCode": "dynamicRespondentsWithEcc",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Respondents with ECC",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Letters",
+    "ListElementCode": "flipRespondentAndClaimantValues",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Address ECC letter to Claimant?",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\" AND dynamicRespondentsWithEcc != \"\" AND dynamicRespondentsWithEcc != \"No respondents with ECC\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },

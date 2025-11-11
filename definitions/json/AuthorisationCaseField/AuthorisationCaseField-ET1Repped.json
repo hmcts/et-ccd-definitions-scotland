@@ -23,6 +23,7 @@
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "representativeInformationPreamble", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "representativeContactPreference", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "contactPreferencePostReason", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_Scotland", "CaseFieldID": "representativeAddress", "AccessControl": [{"UserRoles": ["[CLAIMANTSOLICITOR]", "caseworker-employment-api"], "CRUD": "CRUD"}, {"UserRoles": ["[SOLICITORA]", "[SOLICITORB]", "[SOLICITORC]", "[SOLICITORD]", "[SOLICITORE]", "[SOLICITORF]", "[SOLICITORG]", "[SOLICITORH]", "[SOLICITORI]", "[SOLICITORJ]"], "CRUD": "D"}]},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "representativePhoneNumber", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "representativeReferenceNumber", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_Scotland", "CaseFieldID": "et1Section2PreambleLabel", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},

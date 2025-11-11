@@ -2058,369 +2058,375 @@
   },
   {
     "ID": "fl_jurisdictionCodes",
+    "ListElementCode": "ECC",
+    "ListElement": "ECC",
+    "DisplayOrder": 15
+  },
+  {
+    "ID": "fl_jurisdictionCodes",
     "ListElementCode": "EQP",
     "ListElement": "EQP",
-    "DisplayOrder": 15
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FCT",
     "ListElement": "FCT",
-    "DisplayOrder": 16
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FLW",
     "ListElement": "FLW",
-    "DisplayOrder": 17
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FML",
     "ListElement": "FML",
-    "DisplayOrder": 18
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FPA",
     "ListElement": "FPA",
-    "DisplayOrder": 19
+    "DisplayOrder": 20
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FPI",
     "ListElement": "FPI",
-    "DisplayOrder": 20
+    "DisplayOrder": 21
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FT1",
     "ListElement": "FT1",
-    "DisplayOrder": 21
+    "DisplayOrder": 22
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTC",
     "ListElement": "FTC",
-    "DisplayOrder": 22
+    "DisplayOrder": 23
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTE",
     "ListElement": "FTE",
-    "DisplayOrder": 23
+    "DisplayOrder": 24
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTO",
     "ListElement": "FTO",
-    "DisplayOrder": 24
+    "DisplayOrder": 25
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTP",
     "ListElement": "FTP",
-    "DisplayOrder": 25
+    "DisplayOrder": 26
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTR",
     "ListElement": "FTR",
-    "DisplayOrder": 26
+    "DisplayOrder": 27
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTS",
     "ListElement": "FTS",
-    "DisplayOrder": 27
+    "DisplayOrder": 28
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FTU",
     "ListElement": "FTU",
-    "DisplayOrder": 28
+    "DisplayOrder": 29
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FWP",
     "ListElement": "FWP",
-    "DisplayOrder": 29
+    "DisplayOrder": 30
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "FWS",
     "ListElement": "FWS",
-    "DisplayOrder": 30
+    "DisplayOrder": 31
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "GRA",
     "ListElement": "GRA",
-    "DisplayOrder": 31
+    "DisplayOrder": 32
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "HAS",
     "ListElement": "HAS",
-    "DisplayOrder": 32
+    "DisplayOrder": 33
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "HSD",
     "ListElement": "HSD",
-    "DisplayOrder": 33
+    "DisplayOrder": 34
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "HSR",
     "ListElement": "HSR",
-    "DisplayOrder": 34
+    "DisplayOrder": 35
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "IRF",
     "ListElement": "IRF",
-    "DisplayOrder": 35
+    "DisplayOrder": 36
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "ISV",
     "ListElement": "ISV",
-    "DisplayOrder": 36
+    "DisplayOrder": 37
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "LEV ",
     "ListElement": "LEV ",
-    "DisplayOrder": 37
+    "DisplayOrder": 38
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "LSO",
     "ListElement": "LSO",
-    "DisplayOrder": 38
+    "DisplayOrder": 39
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "MAT",
     "ListElement": "MAT",
-    "DisplayOrder": 39
+    "DisplayOrder": 40
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "MWA",
     "ListElement": "MWA",
-    "DisplayOrder": 40
+    "DisplayOrder": 41
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "MWD",
     "ListElement": "MWD",
-    "DisplayOrder": 41
+    "DisplayOrder": 42
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "NNA",
     "ListElement": "NNA",
-    "DisplayOrder": 42
+    "DisplayOrder": 43
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "PAC",
     "ListElement": "PAC",
-    "DisplayOrder": 43
+    "DisplayOrder": 44
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "PAY",
     "ListElement": "PAY",
-    "DisplayOrder": 44
+    "DisplayOrder": 45
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "PEN",
     "ListElement": "PEN",
-    "DisplayOrder": 45
+    "DisplayOrder": 46
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "PID",
     "ListElement": "PID",
-    "DisplayOrder": 46
+    "DisplayOrder": 47
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "PLD",
     "ListElement": "PLD",
-    "DisplayOrder": 47
+    "DisplayOrder": 48
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "PTE",
     "ListElement": "PTE",
-    "DisplayOrder": 48
+    "DisplayOrder": 49
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "RPT",
     "ListElement": "RPT",
-    "DisplayOrder": 49
+    "DisplayOrder": 50
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "RPT(S) ",
     "ListElement": "RPT(S) ",
-    "DisplayOrder": 50
+    "DisplayOrder": 51
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "RRD",
     "ListElement": "RRD",
-    "DisplayOrder": 51
+    "DisplayOrder": 52
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "RTR",
     "ListElement": "RTR",
-    "DisplayOrder": 52
+    "DisplayOrder": 53
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "RTR(ST)",
     "ListElement": "RTR(ST)",
-    "DisplayOrder": 53
+    "DisplayOrder": 54
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "SUN",
     "ListElement": "SUN",
-    "DisplayOrder": 54
+    "DisplayOrder": 55
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "SXD",
     "ListElement": "SXD",
-    "DisplayOrder": 55
+    "DisplayOrder": 56
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TBA",
     "ListElement": "TBA",
-    "DisplayOrder": 56
+    "DisplayOrder": 57
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TIP",
     "ListElement": "TIP",
-    "DisplayOrder": 57
+    "DisplayOrder": 58
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TPE",
     "ListElement": "TPE",
-    "DisplayOrder": 58
+    "DisplayOrder": 59
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TT",
     "ListElement": "TT",
-    "DisplayOrder": 59
+    "DisplayOrder": 60
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TUE",
     "ListElement": "TUE",
-    "DisplayOrder": 60
+    "DisplayOrder": 61
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TUI",
     "ListElement": "TUI",
-    "DisplayOrder": 61
+    "DisplayOrder": 62
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TUM",
     "ListElement": "TUM",
-    "DisplayOrder": 62
+    "DisplayOrder": 63
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TUR",
     "ListElement": "TUR",
-    "DisplayOrder": 63
+    "DisplayOrder": 64
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TUS",
     "ListElement": "TUS",
-    "DisplayOrder": 64
+    "DisplayOrder": 65
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TXC",
     "ListElement": "TXC",
-    "DisplayOrder": 65
+    "DisplayOrder": 66
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "TXC(ST)",
     "ListElement": "TXC(ST)",
-    "DisplayOrder": 66
+    "DisplayOrder": 67
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "UDC",
     "ListElement": "UDC",
-    "DisplayOrder": 67
+    "DisplayOrder": 68
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "UDL",
     "ListElement": "UDL",
-    "DisplayOrder": 68
+    "DisplayOrder": 69
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "UIA",
     "ListElement": "UIA",
-    "DisplayOrder": 69
+    "DisplayOrder": 70
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "VIC",
     "ListElement": "VIC",
-    "DisplayOrder": 70
+    "DisplayOrder": 71
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "WA",
     "ListElement": "WA",
-    "DisplayOrder": 71
+    "DisplayOrder": 72
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "WTA",
     "ListElement": "WTA",
-    "DisplayOrder": 72
+    "DisplayOrder": 73
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "WTR",
     "ListElement": "WTR",
-    "DisplayOrder": 73
+    "DisplayOrder": 74
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "WTR(AL)",
     "ListElement": "WTR(AL)",
-    "DisplayOrder": 74
+    "DisplayOrder": 75
   },
   {
     "ID": "fl_jurisdictionCodes",
     "ListElementCode": "ZNON",
     "ListElement": "ZNON",
-    "DisplayOrder": 75
+    "DisplayOrder": 76
   },
   {
     "ID": "fl_letterAddress",
@@ -5897,12 +5903,6 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "sendNotificationEccQuestion",
-    "ListElement": "Provide parties with access to ECC case view",
-    "ListElementCode": "Provide parties with access to ECC case view",
-    "DisplayOrder": 4
-  },
-  {
     "ID": "sendNotificationNotify",
     "ListElement": "Both parties",
     "ListElementCode": "Both parties",
@@ -6156,39 +6156,45 @@
   },
   {
     "ID": "fl_DocumentCategories",
+    "ListElementCode": "Employer Contract Claim",
+    "ListElement": "Employer Contract Claim",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_DocumentCategories",
     "ListElementCode": "Withdrawal/Settled",
     "ListElement": "Withdrawal/Settled",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_DocumentCategories",
     "ListElementCode": "Hearings",
     "ListElement": "Hearings",
-    "DisplayOrder": 6
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_DocumentCategories",
     "ListElementCode": "Judgment and Reasons",
     "ListElement": "Judgment and Reasons",
-    "DisplayOrder": 7
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_DocumentCategories",
     "ListElementCode": "Reconsideration",
     "ListElement": "Reconsideration",
-    "DisplayOrder": 8
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_DocumentCategories",
     "ListElementCode": "Misc",
     "ListElement": "Misc",
-    "DisplayOrder": 9
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_DocumentCategories",
     "ListElementCode": "Legacy Document Names",
     "ListElement": "Legacy Document Names",
-    "DisplayOrder": 10
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_StartingAClaim",
@@ -6453,6 +6459,24 @@
     "ListElementCode": "Contact the tribunal about something else - R",
     "ListElement": "Contact the tribunal about something else - R",
     "DisplayOrder": 27
+  },
+  {
+    "ID": "fl_EmployerContractClaim",
+    "ListElementCode": "Notice of Employer Contract Claim",
+    "ListElement": "Notice of Employer Contract Claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_EmployerContractClaim",
+    "ListElementCode": "Acceptance of ECC response",
+    "ListElement": "Acceptance of ECC response",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_EmployerContractClaim",
+    "ListElementCode": "Rejection of ECC response",
+    "ListElement": "Rejection of ECC response",
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_WithdrawalSettled",
@@ -6783,6 +6807,18 @@
     "ListElementCode": "5 Updated schedule of loss",
     "ListElement": "5 Updated schedule of loss",
     "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_representativeContactChangeOptions",
+    "ListElementCode": "Amend contact details",
+    "ListElement": "Amend contact details",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_representativeContactChangeOptions",
+    "ListElementCode": "Use MyHMCTS details",
+    "ListElement": "Use MyHMCTS details",
+    "DisplayOrder": 2
   },
   {
     "ID": "frl_ClaimantOrRespondents",
