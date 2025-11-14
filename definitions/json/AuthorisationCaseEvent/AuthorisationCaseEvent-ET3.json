@@ -25,14 +25,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "UPDATE_ET3_FORM",
-    "AccessControl": [
-      {
-        "UserRoles": [
-          "citizen",
-          "caseworker-employment-api"
-        ],
-        "CRUD": "CRUD"
-      }
-    ]
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]

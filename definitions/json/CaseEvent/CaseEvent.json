@@ -104,6 +104,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "REMOVE_OWN_REPRESENTATIVE",
+    "Name": "REMOVE_OWN_REPRESENTATIVE",
+    "Description": "Update a submitted case",
+    "DisplayOrder": 6,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentRepresentative/removeOwnRepresentative",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "et1Vetting",
     "Name": "ET1 case vetting",
     "Description": "Vetting a case",
@@ -117,6 +131,20 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "amendRespondentRepresentativeContact",
+    "Name": "Amend contact details",
+    "Description": "Amend contact details",
+    "DisplayOrder": 53,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "EventEnablingCondition": "caseType =\"dummy\"",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitAmendRepresentativeContact"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -347,19 +375,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "createCaseECC",
-    "Name": "Create Employer Contract Claim",
-    "Description": "Create Employer Contract Claim Case",
-    "DisplayOrder": 32,
-    "PostConditionState": "Accepted",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createECC",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/linkOriginalCaseECC",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "caseTransferMultiple",
     "Name": "Case Transfer (Multiples)",
     "Description": "Transfer case to another office (Multiples)",
@@ -398,18 +413,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "reinstateClosedCase",
-    "Name": "Reinstate Case",
-    "Description": "Reinstate Case",
-    "DisplayOrder": 39,
-    "PreConditionState(s)": "Closed",
-    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "amendSingle",
     "Name": "Amend Case (Multiple) API ONLY",
     "Description": "Amend case via Multiples",
@@ -427,7 +430,7 @@
     "Description": "Fix Case API",
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
-    "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;*",
+    "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;Vetted(stateAPI=\"Vetted\"):6;*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
@@ -944,6 +947,20 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "refreshSharedUsers",
+    "Name": "Refresh Shared Users",
+    "Description": "Refresh Shared Users",
+    "DisplayOrder": 72,
+    "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/refreshSharedUsers/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
