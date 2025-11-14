@@ -98,13 +98,25 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "CaseEventID": "REMOVE_OWN_REP_AS_RESPONDENT",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "CaseEventID": "REMOVE_OWN_REP_AS_RESPONDENT",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REP_AS_CLAIMANT",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REP_AS_CLAIMANT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
