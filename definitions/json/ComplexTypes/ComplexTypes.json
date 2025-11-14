@@ -5928,7 +5928,7 @@
   {
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
     "ListElementCode": "etICLengthOfPrelimHearingV2",
-    "FieldType": "Text",
+    "FieldType": "Number",
     "ElementLabel": "Length of hearing",
     "SecurityClassification": "Public",
     "Searchable": "N"
