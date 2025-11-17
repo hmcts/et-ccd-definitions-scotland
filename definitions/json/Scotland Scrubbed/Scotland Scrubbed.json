@@ -5128,6 +5128,43 @@
     "ListElement": "Other",
     "DisplayOrder": 4
   },
+
+  {
+    "ID": "ms_FinalHearingIsEJSitAloneReasonYes",
+    "ListElementCode": "Members experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ms_FinalHearingIsEJSitAloneReasonYes",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ms_FinalHearingIsEJSitAloneReasonYes",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "ms_FinalHearingIsEJSitAloneReasonNo",
+    "ListElementCode": "Members experience is likely to add significant value to the process of adjudication",
+    "ListElement": "Members experience is likely to add significant value to the process of adjudication",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "ms_FinalHearingIsEJSitAloneReasonNo",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "ms_FinalHearingIsEJSitAloneReasonNo",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 3
+  },
   {
     "ID": "msl_etICTypeOfHearing",
     "ListElementCode": "Telephone",

@@ -6047,6 +6047,46 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReasonYes",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Give reason for requesting EJ sit alone:",
+    "FieldTypeParameter": "ms_FinalHearingIsEJSitAloneReasonYes",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"Yes\"",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReasonYesOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other Reason (EJ Sit Alone: Yes)",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"Yes\" AND etICFinalHearingIsEJSitAloneReasonYes CONTAINS \"Other\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReasonNo",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Give reason for requesting EJ sit alone:",
+    "FieldTypeParameter": "ms_FinalHearingIsEJSitAloneReasonNo",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"No\"",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReasonNoOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other Reason (EJ Sit Alone: No)",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"No\" AND etICFinalHearingIsEJSitAloneReasonNo CONTAINS \"Other\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Further details",
