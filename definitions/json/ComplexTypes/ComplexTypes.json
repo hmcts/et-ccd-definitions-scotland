@@ -6061,7 +6061,7 @@
     "ListElementCode": "etICFinalHearingIsEJSitAloneReasonYesOther",
     "FieldType": "TextArea",
     "ElementLabel": "Other Reason (EJ Sit Alone: Yes)",
-    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"Yes\" AND \"etICFinalHearingIsEJSitAloneReasonYes CONTAINS \"Other\"",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"Yes\" AND etICFinalHearingIsEJSitAloneReasonYes CONTAINS \"Other\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -6081,7 +6081,7 @@
     "ListElementCode": "etICFinalHearingIsEJSitAloneReasonNoOther",
     "FieldType": "TextArea",
     "ElementLabel": "Other Reason (EJ Sit Alone: No)",
-    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"No\" AND \"etICFinalHearingIsEJSitAloneReasonNo CONTAINS \"Other\"",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"No\" AND etICFinalHearingIsEJSitAloneReasonNo CONTAINS \"Other\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
