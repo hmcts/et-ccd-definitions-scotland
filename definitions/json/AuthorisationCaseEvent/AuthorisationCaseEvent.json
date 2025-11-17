@@ -111,7 +111,7 @@
   {
     "CaseTypeId": "ET_Scotland",
     "CaseEventID": "REMOVE_OWN_REP_AS_CLAIMANT",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   },
   {
