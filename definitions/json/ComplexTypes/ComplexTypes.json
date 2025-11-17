@@ -6124,7 +6124,7 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Give reason for requesting EJ sit alone:",
     "FieldTypeParameter": "fl_FinalHearingIsEJSitAloneReason",
-    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"Yes\"",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"dummy\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
