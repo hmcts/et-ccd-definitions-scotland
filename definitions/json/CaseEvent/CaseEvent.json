@@ -914,7 +914,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
