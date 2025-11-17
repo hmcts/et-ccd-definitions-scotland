@@ -1,13 +1,5 @@
 [
   {
-    "ID": "ClaimantRepresentative",
-    "ListElementCode": "representative_id",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "representative_occupation=\"dummy\"",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "UnavailabilityDateRange",
     "ListElementCode": "unavailableFromDate",
     "FieldType": "Date",
@@ -27,14 +19,6 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "myHmctsYesNo=\"dummy\"",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "ClaimantRepresentative",
-    "ListElementCode": "organisationId",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "representative_id=\"dummy\"",
     "SecurityClassification": "Public"
   }
 ]
