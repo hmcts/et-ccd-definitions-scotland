@@ -1,0 +1,26 @@
+[
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "UPDATE_RESPONDENT_PSE_STATE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "ADD_RESPONDENT_PSE_RESPONSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "STORE_RESPONDENT_PSE_RESPONSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "SUBMIT_RESPONDENT_PSE_RESPONSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  }
+]
