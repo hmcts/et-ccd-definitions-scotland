@@ -1237,8 +1237,16 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etInitialConsiderationBeforeYouStart",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
+    "ID": "initialConsiderationBeforeYouStart",
+    "Label": "To help you complete this placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel",
+    "Label": "${initialConsiderationBeforeYouStart}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -1533,6 +1541,14 @@
     "Label": "Convert to F2F hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingListedAnswers",
+    "Label": "Hearing already listed",
+    "FieldType": "etICHearingListedAnswers",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
