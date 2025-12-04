@@ -1775,7 +1775,7 @@
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "allocateHearing",
     "CaseFieldID": "allocateHearingPostponedBy",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
