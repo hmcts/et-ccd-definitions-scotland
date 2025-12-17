@@ -1624,6 +1624,94 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICIssuesArisingFromVettingLabel",
+    "Label": "<br><hr><h1>Issues identified at ET1 vetting and ET3 processing</h1>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICMinimumInfoFromVettingLabel",
+    "Label": "<hr><h2>IC ET1 Vetting Issues 45</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDividerHrLabel",
+    "Label": "<hr><h2>IC ET1 Vetting Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDetail",
+    "Label": "ET1 Vetting Issues",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDetailLabel",
+    "Label": "${icEt1VettingIssuesDetail}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesBottomDividerHrLabel",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetailDividerHrLabel",
+    "Label": "<hr><h2>IC ET3 Processing Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetail",
+    "Label": "ET3 Processing Issues",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetailLabel",
+    "Label": "${icEt3ProcessingIssuesDetail}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesBottomDividerHrLabel",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3IsThereAnEt3ResponseLabel",
+    "Label": "${et3IsThereAnEt3Response}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationRule27",
     "Label": "Issue Rule 28 Notice and order",
     "FieldType": "etInitialConsiderationRule27",

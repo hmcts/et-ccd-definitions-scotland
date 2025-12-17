@@ -106,10 +106,10 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICCanProceed",
     "DisplayContext": "MANDATORY",
-    "PageID": 2,
+    "PageID": 1,
     "PageLabel": "Rule 26",
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 27,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
     "Publish": "Y"

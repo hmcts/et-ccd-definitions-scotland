@@ -6040,7 +6040,7 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Give reason for requesting EJ sit alone:",
     "FieldTypeParameter": "fl_FinalHearingIsEJSitAloneReason",
-    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"Yes\"",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone=\"dummy\"",
     "HintText": "Select one that apply",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -6421,7 +6421,7 @@
     "ListElementCode": "etICIsHearingWithJudgeOrMembersReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Reasons",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\" AND etInitialConsiderationListedHearingType != \"Final Hearing\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"dummy\"",
     "FieldTypeParameter": "msl_hearingWithJudgeOrMembersReasons",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -6439,9 +6439,9 @@
     "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsFinalHearingWithJudgeOrMembersJsaReason",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "Final Jsa Reasons",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Final Hearing\"",
-    "FieldTypeParameter": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ElementLabel": "Hearing With Jsa Reasons",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
+    "FieldTypeParameter": "msl_finalHearingWithJudgeOrMembersReasonsJsa",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -6450,9 +6450,9 @@
     "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsFinalHearingWithJudgeOrMembersReason",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "Final Members Reasons",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Final Hearing\"",
-    "FieldTypeParameter": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ElementLabel": "Hearing With Members Reasons",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etICHearingListed  != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
+    "FieldTypeParameter": "msl_finalHearingWithJudgeOrMembersReasonsMembers",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
