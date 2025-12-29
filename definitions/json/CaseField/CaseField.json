@@ -1682,7 +1682,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICMinimumInfoFromVettingLabel",
-    "Label": "<hr><h2>IC ET1 Vetting Issues 45</h2>",
+    "Label": "<hr><h2>IC ET1 Vetting Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
