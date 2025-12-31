@@ -22,5 +22,11 @@
     "CaseEventID": "SUBMIT_RESPONDENT_PSE_RESPONSE",
     "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_RESPONDENT_PSE_RESPONSE",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
   }
 ]

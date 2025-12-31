@@ -45,6 +45,7 @@
     "EventEnablingCondition": "caseType=\"Dummy\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   }
 ]
