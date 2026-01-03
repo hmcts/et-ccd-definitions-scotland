@@ -6848,7 +6848,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithJudgeOrMembersReasonOther",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6856,7 +6856,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsFinalHearingWithJudgeOrMembersJsaReason",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6864,7 +6864,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsFinalHearingWithJudgeOrMembersReason",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6912,7 +6912,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithMembers",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6920,7 +6920,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithJudgeOrMembersFurtherDetails",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6928,7 +6928,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "otherDirectionsLabel",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "READONLY"
   },
   {
@@ -6937,7 +6937,7 @@
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingAnyOtherDirections",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 17,
+    "FieldDisplayOrder": 18,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -6946,7 +6946,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithMembersLabel",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "MANDATORY"
   },
   {
