@@ -4097,7 +4097,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "CaseFieldID": "notListedHearingPartiesPanelPreferenceLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -4107,11 +4107,31 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "notListedHearingPartiesHearingFormatLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedList",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
     "FieldShowCondition": "etICCanProceed=\"dummy\"",
     "Publish": "Y"
@@ -4123,7 +4143,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
     "Publish": "Y"
   },
@@ -4134,7 +4154,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for preliminary hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -4145,7 +4165,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for final hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -4156,7 +4176,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4166,7 +4186,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4176,7 +4196,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationJurisdictionCodesLabel=\"dummy\""
@@ -4188,7 +4208,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 12,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
@@ -4262,11 +4282,31 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICJurisdictionCodesHearingListed",
+    "CaseFieldID": "listedHearingPartiesPanelPreferenceLabel",
     "DisplayContext": "READONLY",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "listedHearingPartiesHearingFormatLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICJurisdictionCodesHearingListed",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
@@ -4277,7 +4317,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -4288,7 +4328,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4298,7 +4338,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y",
     "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },

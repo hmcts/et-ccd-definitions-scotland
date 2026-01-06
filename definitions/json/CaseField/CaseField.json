@@ -1330,6 +1330,23 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "notListedHearingPartiesPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedHearingPartiesPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etIcPartiesHearingFormat",
     "Label": "etIcPartiesHearingFormat",
     "FieldType": "Text",
@@ -1339,6 +1356,22 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etIcPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notListedHearingPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedHearingPartiesHearingFormatLabel",
     "Label": "${etIcPartiesHearingFormat}",
     "FieldType": "Label",
     "SecurityClassification": "Public",
