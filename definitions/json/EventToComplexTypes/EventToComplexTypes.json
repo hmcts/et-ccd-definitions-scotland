@@ -6645,9 +6645,29 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICNoLFinalHearingIsEJSitAloneReasonsJsaOther",
+    "EventElementLabel": "Reasons",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICNoLFinalHearingIsEJSitAloneReasonsMembersOther",
+    "EventElementLabel": "Reasons",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneReasonYes",
     "EventElementLabel": "Reason for JSA",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6656,7 +6676,7 @@
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneReasonYesOther",
     "EventElementLabel": "Reason for JSA",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6665,7 +6685,7 @@
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneReasonNo",
     "EventElementLabel": "Reason for the rejection of JSA",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6674,7 +6694,7 @@
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneReasonNoOther",
     "EventElementLabel": "Other Reason (EJ Sit Alone: No)",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -6683,7 +6703,7 @@
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "EventElementLabel": "Further details",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 112,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6911,6 +6931,14 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
+    "ListElementCode": "etICJsaCmPreliminaryHearingReasonOther",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithMembers",
     "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
@@ -6940,14 +6968,6 @@
     "FieldDisplayOrder": 18,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingListedAnswers",
-    "ListElementCode": "etICIsHearingWithMembersLabel",
-    "FieldDisplayOrder": 14,
-    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "InitialConsideration",

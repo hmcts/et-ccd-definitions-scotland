@@ -6087,6 +6087,26 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICNoLFinalHearingIsEJSitAloneReasonsJsaOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "EJ Sit Alone Reason - JSA Other",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone = \"JSA\" AND etICFinalHearingIsEJSitAloneReason = \"Other\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICNoLFinalHearingIsEJSitAloneReasonsMembersOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "EJ Sit Alone Reason - JSA Other",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone = \"With members\" AND etICFinalHearingIsEJSitAloneReason = \"Other\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Further details",
@@ -6432,7 +6452,7 @@
     "ListElementCode": "etICIsHearingWithJudgeOrMembersReasonOther",
     "FieldType": "TextArea",
     "ElementLabel": "Members Other - Details:",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"With members\" AND etICIsFinalHearingWithJudgeOrMembersReason CONTAINS \"Other\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"Final Hearing\" AND etICIsFinalHearingWithJudgeOrMembersReason CONTAINS \"Other\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -6441,7 +6461,7 @@
     "ListElementCode": "etICIsFinalHearingWithJudgeOrMembersJsaReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Hearing With Jsa Reasons",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\" OR etICHearingListed != \"\" AND etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
     "FieldTypeParameter": "msl_finalHearingWithJudgeOrMembersReasonsJsa",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
@@ -6452,7 +6472,7 @@
     "ListElementCode": "etICIsFinalHearingWithJudgeOrMembersReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Hearing With Members Reasons",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\" OR etICHearingListed != \"\" AND etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
     "FieldTypeParameter": "msl_finalHearingWithJudgeOrMembersReasonsMembers",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
@@ -6473,7 +6493,7 @@
     "ListElementCode": "etICIsHearingWithJsaReasonOther",
     "FieldType": "TextArea",
     "ElementLabel": "Jsa Other - Details:",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\" AND etICIsHearingWithJsa = \"Other\" OR etICIsHearingWithJudgeOrMembers = \"JSA\" AND etICIsFinalHearingWithJudgeOrMembersJsaReason CONTAINS \"Other\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\" AND etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Final Hearing\" AND etICIsFinalHearingWithJudgeOrMembersJsaReason CONTAINS \"Other\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -6493,14 +6513,15 @@
     "ElementLabel": "Members Final Other - Details:",
     "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Final Hearing\" AND etICIsFinalHearingWithJudgeOrMembersReason CONTAINS \"Other\"",
     "SecurityClassification": "Public",
+    "RetainHiddenValue": "No",
     "Searchable": "N"
   },
   {
     "ID": "etICHearingListedAnswers",
-    "ListElementCode": "etICIsHearingWithMembersLabel",
+    "ListElementCode": "etICJsaCmPreliminaryHearingReasonOther",
     "FieldType": "TextArea",
     "ElementLabel": "Other - Details:",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\"  AND etICIsHearingWithJsa = \"Other\" AND etICHearingListed != \"\"",
+    "FieldShowCondition": "etICHearingListed != \"\" AND etICIsHearingWithJudgeOrMembers = \"JSA\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\" AND etICIsHearingWithJsa = \"Other\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
