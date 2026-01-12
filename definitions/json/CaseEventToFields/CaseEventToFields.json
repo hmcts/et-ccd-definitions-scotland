@@ -4313,22 +4313,11 @@
   {
     "CaseTypeID": "ET_Scotland",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingAnyOtherDirections",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 6,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
     "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
@@ -4339,7 +4328,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y"
   },
 
