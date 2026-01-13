@@ -28,5 +28,11 @@
     "CaseEventID": "SUBMIT_RESPONDENT_PSE_RESPONSE",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRUD"
+  },
+  {
+  "CaseTypeId": "ET_Scotland",
+  "CaseEventID": "ADD_RESPONDENT_PSE_RESPONSE",
+  "UserRole": "caseworker-wa-task-configuration",
+  "CRUD": "CRUD"
   }
 ]
