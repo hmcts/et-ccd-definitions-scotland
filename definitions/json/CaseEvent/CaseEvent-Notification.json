@@ -21,7 +21,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
