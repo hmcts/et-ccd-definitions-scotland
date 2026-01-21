@@ -1,0 +1,52 @@
+[
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "UPDATE_RESPONDENT_PSE_STATE",
+    "Name": "Update notification state",
+    "Description": "Update respondent notification state",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "ADD_RESPONDENT_PSE_RESPONSE",
+    "Name": "Add notification response",
+    "Description": "Add respondent notification response",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "STORE_RESPONDENT_PSE_RESPONSE",
+    "Name": "Store notification response",
+    "Description": "Store respondent notification response",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType=\"Dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "SUBMIT_RESPONDENT_PSE_RESPONSE",
+    "Name": "Submit stored pse response",
+    "Description": "Submit stored respondent notification response",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType=\"Dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "Publish": "Y"
+  }
+]
