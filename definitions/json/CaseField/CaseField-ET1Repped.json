@@ -623,6 +623,7 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "CreateRespondent",
     "SecurityClassification": "Public",
+    "Max": 5,
     "Searchable": "N"
   },
   {
