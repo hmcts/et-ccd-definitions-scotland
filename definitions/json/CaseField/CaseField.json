@@ -1592,15 +1592,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etICOtherGiveDetails",
-    "Label": "Other",
-    "HintText": "Give details",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "etICPostponeGiveDetails",
     "Label": "Postpone hearing",
     "HintText": "Give details",
@@ -1715,7 +1706,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "etICMinimumInfoFromVettingLabel",
-    "Label": "<hr><h2>IC ET1 Vetting Issues</h2>",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -1723,7 +1714,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "icEt1VettingIssuesDividerHrLabel",
-    "Label": "<hr><h2>IC ET1 Vetting Issues</h2>",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -1755,7 +1746,7 @@
   {
     "CaseTypeID": "ET_Scotland",
     "ID": "icEt3ProcessingIssuesDetailDividerHrLabel",
-    "Label": "<hr><h2>IC ET3 Processing Issues</h2>",
+    "Label": "<hr><h2>ET3 Processing Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
