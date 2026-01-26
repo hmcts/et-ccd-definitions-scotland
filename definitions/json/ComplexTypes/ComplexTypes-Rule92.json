@@ -25,6 +25,15 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "respondentRespondStoredCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Responses",
+    "FieldTypeParameter": "pseRespondCollection",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "respondentTse",
     "ListElementCode": "storedApplicationId",
     "FieldType": "Text",

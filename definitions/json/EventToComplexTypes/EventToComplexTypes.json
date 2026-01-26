@@ -4404,7 +4404,7 @@
     "ListElementCode": "hearingDetailsPostponedBy",
     "EventElementLabel": "Postponed by",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "Publish": "Y"
   },
   {

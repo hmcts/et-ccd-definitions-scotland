@@ -7563,6 +7563,14 @@
   },
   {
     "ID": "pseRespondCollection",
+    "ListElementCode": "fromIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Response from Idam id",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
     "ListElementCode": "hasSupportingMaterial",
     "FieldType": "Text",
     "ElementLabel": "Has supporting material",
@@ -7649,6 +7657,34 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "state=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "dateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Updated date time",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseStatus",
+    "ListElementCode": "userIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "User Idam Id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseStatus",
+    "ListElementCode": "notificationState",
+    "FieldType": "Text",
+    "ElementLabel": "Notification state",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseStatus",
+    "ListElementCode": "dateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Updated date time",
     "SecurityClassification": "Public"
   },
   {
@@ -7807,6 +7843,15 @@
     "ListElementCode": "notificationState",
     "FieldType": "Text",
     "ElementLabel": "Notification State",
+    "FieldShowCondition": "number=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "respondentState",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "pseStatus",
+    "ElementLabel": "Respondent notification State",
     "FieldShowCondition": "number=\"dummy\"",
     "SecurityClassification": "Public"
   },
