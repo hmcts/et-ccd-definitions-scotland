@@ -524,7 +524,7 @@
     "ListElementCode": "responseRespondentEmail",
     "FieldType": "Email",
     "ElementLabel": "Email address (from the ET3 form)",
-    "FieldShowCondition": "responseStruckOut !=\"Yes\" AND responseReceived=\"Yes\"",
+    "FieldShowCondition": "(responseStruckOut !=\"Yes\" AND responseReceived=\"Yes\") OR responseRespondentEmail !=\"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
