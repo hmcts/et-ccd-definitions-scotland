@@ -1592,6 +1592,15 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICOtherGiveDetails",
+    "Label": "Other",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICPostponeGiveDetails",
     "Label": "Postpone hearing",
     "HintText": "Give details",
