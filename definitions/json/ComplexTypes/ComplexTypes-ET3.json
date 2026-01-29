@@ -1214,5 +1214,25 @@
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "represented",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "representativeId",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
