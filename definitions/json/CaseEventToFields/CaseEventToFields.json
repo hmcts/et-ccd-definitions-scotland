@@ -7704,6 +7704,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/sendNotification/midValidateInput",
     "PageLabel": "Send a notification"
   },
   {
