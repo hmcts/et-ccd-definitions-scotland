@@ -273,9 +273,9 @@
     "PreConditionState(s)": "Accepted;Closed",
     "PostConditionState": "*",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicRespondentRepresentativeNames",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentRepresentative",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentRepresentative/amendRespondentRepresentativeAboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentRepresentative/amendRespondentRepresentativeAboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentRepresentative/amendRespondentRepresentativeSubmitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
