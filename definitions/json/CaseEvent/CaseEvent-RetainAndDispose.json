@@ -101,5 +101,19 @@
     "Publish": "Y",
     "SignificantEvent": "Yes",
     "TTLIncrement": "36524"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "deleteDraftCase",
+    "Name": "Delete Draft Case",
+    "Description": "Delete draft case as a legal representative before submission",
+    "DisplayOrder": 1000,
+    "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
+    "PostConditionState": "Delete",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "SignificantEvent": "Yes",
+    "TTLIncrement": "0"
   }
 ]

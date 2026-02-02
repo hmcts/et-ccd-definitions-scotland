@@ -2421,5 +2421,11 @@
         "CRUD": "CRUD"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRUD"
   }
 ]
