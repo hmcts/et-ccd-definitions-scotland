@@ -6980,7 +6980,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "deleteDraftCaseWarning1",
-    "Label": "You are about the delete the draft claim for ${[CASE_REFERENCE]}",
+    "Label": "You are about the delete the draft claim for ${[CASE_REFERENCE]}.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
