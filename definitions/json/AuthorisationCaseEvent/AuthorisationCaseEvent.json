@@ -2423,7 +2423,7 @@
     ]
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
+    "CaseTypeId": "ET_Scotland",
     "CaseEventID": "deleteDraftCase",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRUD"

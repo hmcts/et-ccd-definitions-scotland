@@ -103,7 +103,7 @@
     "TTLIncrement": "36524"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "deleteDraftCase",
     "Name": "Delete Draft Case",
     "Description": "Delete draft case as a legal representative before submission",

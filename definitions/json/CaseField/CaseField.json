@@ -6971,21 +6971,21 @@
     "Searchable": "N"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "deleteDraftCaseWarningLabel",
     "Label": "# Do you want to delete this draft claim?",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "deleteDraftCaseWarning1",
     "Label": "You are about the delete the draft claim for ${[CASE_REFERENCE]}.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "deleteDraftCaseWarning2",
     "Label": "Once deleted, you will not be able to recover it.",
     "FieldType": "Label",

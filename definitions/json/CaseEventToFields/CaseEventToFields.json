@@ -9999,7 +9999,7 @@
     "PageFieldDisplayOrder": 1
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "deleteDraftCase",
     "CaseFieldID": "deleteDraftCaseWarningLabel",
     "DisplayContext": "READONLY",
@@ -10008,7 +10008,7 @@
     "PageFieldDisplayOrder": 1
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "deleteDraftCase",
     "CaseFieldID": "deleteDraftCaseWarning1",
     "DisplayContext": "READONLY",
@@ -10017,7 +10017,7 @@
     "PageFieldDisplayOrder": 2
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "CaseEventID": "deleteDraftCase",
     "CaseFieldID": "deleteDraftCaseWarning2",
     "DisplayContext": "READONLY",
