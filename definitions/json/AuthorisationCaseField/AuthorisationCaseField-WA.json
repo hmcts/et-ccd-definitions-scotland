@@ -335,5 +335,35 @@
     "CaseFieldID": "icAllDocumentCollection",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "nextHearingDetails",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "nextHearingDetails",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "nextHearingDetails",
+    "UserRole": "caseworker-employment-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "nextHearingDetails",
+    "UserRole": "caseworker-employment-etjudge-scotland",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "nextHearingDetails",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
   }
 ]
