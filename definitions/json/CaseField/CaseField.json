@@ -1252,20 +1252,6 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "initialConsiderationBeforeYouStartLabel2",
-    "Label": "${initialConsiderationBeforeYouStart}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "ID": "initialConsiderationBeforeYouStartLabel3",
-    "Label": "${initialConsiderationBeforeYouStart}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
     "ID": "etInitialConsiderationRespondent",
     "Label": "etInitialConsiderationRespondent",
     "FieldType": "Text",
@@ -1720,7 +1706,47 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "icEt3ProcessingIssuesBottomDividerHrLabel",
+    "ID": "etICIssuesArisingFromVettingLabel",
+    "Label": "<br><hr><h1>Issues identified at ET1 vetting and ET3 processing</h1>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICMinimumInfoFromVettingLabel",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDividerHrLabel",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDetail",
+    "Label": "ET1 Vetting Issues",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDetailLabel",
+    "Label": "${icEt1VettingIssuesDetail}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesBottomDividerHrLabel",
     "Label": "<hr>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
@@ -1728,7 +1754,31 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etICHearingNotListedListUpdatedDividerHrLabel",
+    "ID": "icEt3ProcessingIssuesDetailDividerHrLabel",
+    "Label": "<hr><h2>ET3 Processing Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetail",
+    "Label": "ET3 Processing Issues",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetailLabel",
+    "Label": "${icEt3ProcessingIssuesDetail}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesBottomDividerHrLabel",
     "Label": "<hr>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
