@@ -98,13 +98,25 @@
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
-    "UserRole": "citizen",
+    "CaseEventID": "REMOVE_OWN_REP_AS_RESPONDENT",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",
-    "CaseEventID": "REMOVE_OWN_REPRESENTATIVE",
+    "CaseEventID": "REMOVE_OWN_REP_AS_RESPONDENT",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REP_AS_CLAIMANT",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "REMOVE_OWN_REP_AS_CLAIMANT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -1725,6 +1737,12 @@
     "CaseEventID": "respondNotification",
     "UserRole": "caseworker-employment-scotland",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "respondNotification",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_Scotland",

@@ -161,5 +161,11 @@
         "CRUD": "CRUD"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "sendNotification",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
   }
 ]

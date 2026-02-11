@@ -104,13 +104,27 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "REMOVE_OWN_REPRESENTATIVE",
-    "Name": "REMOVE_OWN_REPRESENTATIVE",
-    "Description": "Update a submitted case",
+    "ID": "REMOVE_OWN_REP_AS_RESPONDENT",
+    "Name": "REMOVE_OWN_REP_AS_RESPONDENT",
+    "Description": "enables respondent citizen to remove his/her own representative via et-syr-frontend project",
     "DisplayOrder": 6,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentRepresentative/removeOwnRepresentative",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "REMOVE_OWN_REP_AS_CLAIMANT",
+    "Name": "REMOVE_OWN_REP_AS_CLAIMANT",
+    "Description": "enables claimant citizen to remove his/her own representative via et-sya-frontend project",
+    "DisplayOrder": 6,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantRepresentative/removeOwnRepresentative",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
@@ -915,7 +929,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/sendNotification/submitted",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -930,7 +945,8 @@
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondNotification/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondNotification/submitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondNotification/submitted",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_Scotland",
