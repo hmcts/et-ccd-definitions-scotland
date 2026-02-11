@@ -2421,5 +2421,17 @@
         "CRUD": "CRUD"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "DELETE_DRAFT_CASE",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseEventID": "DELETE_DRAFT_CASE",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
   }
 ]
