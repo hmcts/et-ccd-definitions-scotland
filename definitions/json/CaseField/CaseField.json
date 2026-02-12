@@ -1706,6 +1706,20 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel2",
+    "Label": "${initialConsiderationBeforeYouStart}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel3",
+    "Label": "${initialConsiderationBeforeYouStart}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICIssuesArisingFromVettingLabel",
     "Label": "<br><hr><h1>Issues identified at ET1 vetting and ET3 processing</h1>",
     "FieldType": "Label",
