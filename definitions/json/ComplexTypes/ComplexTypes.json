@@ -7858,5 +7858,23 @@
     "ElementLabel": "Date",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "nextHearingDetails",
+    "ListElementCode": "hearingID",
+    "FieldType": "Text",
+    "FieldLabel": "Hearing ID",
+    "FieldOrder": 1,
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "nextHearingDetails",
+    "ListElementCode": "hearingDateTime",
+    "FieldType": "DateTime",
+    "FieldLabel": "Hearing Date and Time",
+    "FieldOrder": 2,
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   }
 ]
