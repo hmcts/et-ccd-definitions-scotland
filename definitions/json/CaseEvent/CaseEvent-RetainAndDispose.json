@@ -94,7 +94,7 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Submission/submitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
