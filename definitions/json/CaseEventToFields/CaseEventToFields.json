@@ -6657,6 +6657,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "tseAdminTableLabel=\"dummy\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midValidateInput",
     "PageLabel": "Record a decision"
   },
   {
@@ -7716,6 +7717,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/sendNotification/midValidateInput",
     "PageLabel": "Send a notification"
   },
   {
