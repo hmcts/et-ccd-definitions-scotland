@@ -7873,6 +7873,8 @@
     "ListElementCode": "hearingDateTime",
     "FieldType": "DateTime",
     "FieldLabel": "Hearing Date and Time",
-    "FieldOrder": 2
+    "FieldOrder": 2,
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   }
 ]
