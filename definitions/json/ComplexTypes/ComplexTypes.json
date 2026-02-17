@@ -6028,6 +6028,14 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingPanelComposition",
+    "FieldType": "Label",
+    "ElementLabel": "<hr><h3>Panel Composition</h3>",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAlone",
     "FieldType": "YesOrNo",
     "ElementLabel": "EJ sit alone?",
@@ -6102,6 +6110,14 @@
     "ElementLabel": "EJ Sit Alone Reason - JSA Other",
     "FieldShowCondition": "etICFinalHearingIsEJSitAlone = \"With members\" AND etICFinalHearingIsEJSitAloneReason = \"Other\"",
     "RetainHiddenValue": "No",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICFinalHearingPanelCompositionBottomDivider",
+    "FieldType": "Label",
+    "ElementLabel": "<hr>",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
