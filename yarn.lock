@@ -408,7 +408,7 @@ __metadata:
     glob: ^11.0.0
     json-stringify-pretty-compact: ^3.0.0
     lodash: ^4.17.21
-    matcher: 4.0.0
+    matcher: 6.0.0
     minimist: ^1.2.6
     mocha: ^10.2.0
     moment: ^2.29.4
@@ -639,6 +639,13 @@ __metadata:
   version: 4.0.0
   resolution: "escape-string-regexp@npm:4.0.0"
   checksum: 98b48897d93060f2322108bf29db0feba7dd774be96cd069458d1453347b25ce8682ecc39859d4bca2203cc0ab19c237bcc71755eff49a0f8d90beadeeba5cc5
+  languageName: node
+  linkType: hard
+
+"escape-string-regexp@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "escape-string-regexp@npm:5.0.0"
+  checksum: 20daabe197f3cb198ec28546deebcf24b3dbb1a5a269184381b3116d12f0532e06007f4bc8da25669d6a7f8efb68db0758df4cd981f57bc5b57f521a3e12c59e
   languageName: node
   linkType: hard
 
@@ -1421,12 +1428,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"matcher@npm:4.0.0":
-  version: 4.0.0
-  resolution: "matcher@npm:4.0.0"
+"matcher@npm:6.0.0":
+  version: 6.0.0
+  resolution: "matcher@npm:6.0.0"
   dependencies:
-    escape-string-regexp: ^4.0.0
-  checksum: d338aff31d8dfd3626873e43777f46b123579734d53bb8d18d64b08a822ba5e8d39f5fe2e23403258e6143aa0cbe20a15662720d825cd0d3af961d5a44230328
+    escape-string-regexp: ^5.0.0
+  checksum: fd1081626f912c3539a36cf7539bbef8dac1c87cad85d8bcac4aeed9ab7e9c2c5a92b28f40659f7180f6e7307e7a107224f1c113e29cad6881f22493f2f1f5d8
   languageName: node
   linkType: hard
 
