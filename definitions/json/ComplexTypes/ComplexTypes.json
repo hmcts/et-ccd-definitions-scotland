@@ -1448,6 +1448,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "role",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent representative role",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
     "ID": "acceptOrRejectCase",
     "ListElementCode": "caseAccepted",
     "FieldType": "YesOrNo",
