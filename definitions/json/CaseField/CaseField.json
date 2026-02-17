@@ -6990,5 +6990,13 @@
     "Label": "Once deleted, you will not be able to recover it.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "nextHearingDetails",
+    "Label": "Next Hearing Details",
+    "FieldType": "nextHearingDetails",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
