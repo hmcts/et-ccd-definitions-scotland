@@ -6834,6 +6834,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "tseAdminTableLabel=\"dummy\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midValidateInput",
     "PageLabel": "Record a decision"
   },
   {
@@ -7893,6 +7894,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/sendNotification/midValidateInput",
     "PageLabel": "Send a notification"
   },
   {
@@ -10187,5 +10189,32 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "deleteDraftCase",
+    "CaseFieldID": "deleteDraftCaseWarningLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "deleteDraftCase",
+    "CaseFieldID": "deleteDraftCaseWarning1",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "CaseEventID": "deleteDraftCase",
+    "CaseFieldID": "deleteDraftCaseWarning2",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3
   }
 ]
