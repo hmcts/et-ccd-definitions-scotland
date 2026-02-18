@@ -3513,7 +3513,7 @@
     "ListElementCode": "dynamicRespondentsWithEcc",
     "FieldType": "DynamicList",
     "ElementLabel": "Respondents with ECC",
-    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\"",
+    "FieldShowCondition": "topLevel_Scot_Documents=\"EM-TRB-SCO-ENG-00044\" AND Part_3_Scot_Documents!=\"19\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
