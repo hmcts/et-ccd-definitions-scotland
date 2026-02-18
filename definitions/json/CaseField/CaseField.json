@@ -1237,8 +1237,16 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
-    "ID": "etInitialConsiderationBeforeYouStart",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
+    "ID": "initialConsiderationBeforeYouStart",
+    "Label": "To help you complete this placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel",
+    "Label": "${initialConsiderationBeforeYouStart}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -1286,6 +1294,88 @@
     "Label": "${icRespondentHearingPanelPreference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcPartiesHearingPanelPreferenceHeader",
+    "Label": "etIcPartiesHearingPanelPreferenceHeader",
+    "FieldType": "Text",
+    "HintText": "<h2>Parties Hearing Panel Preferences</h2>",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcPartiesHearingPanelPreferenceHeaderLabel",
+    "Label": "${etIcPartiesHearingPanelPreferenceHeader}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcPartiesHearingPanelPreference",
+    "Label": "etIcPartiesHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcPartiesHearingPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notListedHearingPartiesPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedHearingPartiesPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcPartiesHearingFormat",
+    "Label": "etIcPartiesHearingFormat",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etIcPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "notListedHearingPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "listedHearingPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -1538,6 +1628,14 @@
   },
   {
     "CaseTypeID": "ET_Scotland",
+    "ID": "etICHearingListedAnswers",
+    "Label": "Hearing already listed",
+    "FieldType": "etICHearingListedAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
     "ID": "etICFurtherInformation",
     "Label": "Further information",
     "FieldType": "MultiSelectList",
@@ -1603,6 +1701,108 @@
     "ID": "icCompletedBy",
     "Label": "Initial consideration completed by:",
     "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel2",
+    "Label": "${initialConsiderationBeforeYouStart}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "initialConsiderationBeforeYouStartLabel3",
+    "Label": "${initialConsiderationBeforeYouStart}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICIssuesArisingFromVettingLabel",
+    "Label": "<br><hr><h1>Issues identified at ET1 vetting and ET3 processing</h1>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "etICMinimumInfoFromVettingLabel",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDividerHrLabel",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDetail",
+    "Label": "ET1 Vetting Issues",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesDetailLabel",
+    "Label": "${icEt1VettingIssuesDetail}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt1VettingIssuesBottomDividerHrLabel",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetailDividerHrLabel",
+    "Label": "<hr><h2>ET3 Processing Issues</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetail",
+    "Label": "ET3 Processing Issues",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesDetailLabel",
+    "Label": "${icEt3ProcessingIssuesDetail}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3ProcessingIssuesBottomDividerHrLabel",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "ID": "icEt3IsThereAnEt3ResponseLabel",
+    "Label": "${et3IsThereAnEt3Response}",
+    "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },

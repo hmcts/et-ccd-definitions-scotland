@@ -818,8 +818,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedList",
-    "TabFieldDisplayOrder": 6,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
+    "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_Scotland",
@@ -929,14 +928,6 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICOtherGiveDetails",
-    "TabFieldDisplayOrder": 17,
-    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\" AND etICHearingListed CONTAINS \"other\""
-  },
-  {
-    "CaseTypeID": "ET_Scotland",
-    "Channel": "CaseWorker",
-    "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingAnyOtherDirections",
     "TabFieldDisplayOrder": 18,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
@@ -993,22 +984,29 @@
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icAllDocumentCollection",
+    "CaseFieldID": "etICHearingListedAnswers",
     "TabFieldDisplayOrder": 25
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icCompletedBy",
+    "CaseFieldID": "icAllDocumentCollection",
     "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_Scotland",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icDateCompleted",
+    "CaseFieldID": "icCompletedBy",
     "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_Scotland",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 28
   },
   {
     "CaseTypeID": "ET_Scotland",
