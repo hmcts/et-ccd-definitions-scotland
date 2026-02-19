@@ -4983,6 +4983,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "nonMyHmctsOrganisationId",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "myHmctsYesNo=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ListingItemType",
     "ListElementCode": "estHearingLength",
     "FieldType": "Text",
