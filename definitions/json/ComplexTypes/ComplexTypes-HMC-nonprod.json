@@ -12,13 +12,5 @@
     "FieldType": "Date",
     "ElementLabel": "Unavailable to:",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "ListElementCode": "nonMyHmctsOrganisationId",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "myHmctsYesNo=\"dummy\"",
-    "SecurityClassification": "Public"
   }
 ]
