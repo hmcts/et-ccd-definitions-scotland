@@ -7000,7 +7000,7 @@
     "Searchable": "N"
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_Scotland",
     "ID": "nocWarning",
     "Label": " ",
     "FieldType": "Text",
