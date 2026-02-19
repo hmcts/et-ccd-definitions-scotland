@@ -25119,5 +25119,23 @@
         "CRUD": "R"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "deleteDraftCaseWarningLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "deleteDraftCaseWarning1",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_Scotland",
+    "CaseFieldID": "deleteDraftCaseWarning2",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
   }
 ]
