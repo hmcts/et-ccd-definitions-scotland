@@ -6477,7 +6477,7 @@
     "ListElementCode": "etICGiveDetailsOfHearingNotice",
     "EventElementLabel": "Give details of hearing notice",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
@@ -6531,7 +6531,7 @@
     "ListElementCode": "etICGiveDetailsOfHearingNoticeV2",
     "EventElementLabel": "Give details of hearing notice",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
@@ -6585,7 +6585,7 @@
     "ListElementCode": "etICTypeOfVideoHearingOrder",
     "EventElementLabel": "Issue standard video orders when listed",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
@@ -6603,7 +6603,7 @@
     "ListElementCode": "etICHearingOrderBUCompliance",
     "EventElementLabel": "BU to check compliance with orders?",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
@@ -6830,7 +6830,7 @@
     "ListElementCode": "etICUDLFinalF2FIssue",
     "EventElementLabel": "Issue standard orders when listed",
     "FieldDisplayOrder": 12,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
@@ -6839,7 +6839,7 @@
     "ListElementCode": "etICBUCheckComplianceOrders",
     "EventElementLabel": "BU to check compliance with orders?",
     "FieldDisplayOrder": 13,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
